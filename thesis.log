@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  14 NOV 2012 19:18
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  15 NOV 2012 18:17
 entering extended mode
 **C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
 (C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
@@ -352,9 +352,9 @@ Overfull \hbox (21.20888pt too wide) in paragraph at lines 43--43
 m cou-pling impedance 
  []
 
-[10] [11] [12] [13] [14])
+[10] [11] [12] [13] [14] [15])
 \tf@lof=\write5
- [15] [16]
+ [16]
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\Preface/abstract.tex)
 [17
 
@@ -1355,31 +1355,42 @@ l.png used on input line 174.
 [115 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_Upgrades
 /figures/temp_increase_tctp_col.png>]
 Chapter 8.
-(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/introduction.tex)
-(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/observations_during_o
-peration.tex)
-(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/comparisons_15_simula
-tions_measurements.tex [116
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/introduction.tex
+[116
 
-] [117] [118] [119])
+]
+Overfull \hbox (8.09985pt too wide) in paragraph at lines 40--40
+[]\T1/ptm/m/n/10 (a) 
+ []
+
+
+Overfull \hbox (8.65991pt too wide) in paragraph at lines 43--43
+[]\T1/ptm/m/n/10 (b) 
+ []
+
+)
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/observations_during_o
+peration.tex [117] [118])
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/comparisons_15_simula
+tions_measurements.tex [119] [120] [121])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/impedance_behaviour_c
-omponents.tex)
+omponents.tex [122])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/considerations_beside
-s_impedance_for_new_designs.tex [120] [121] [122])
+s_impedance_for_new_designs.tex [123] [124])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/new_beam_screen_desig
-ns.tex [123])
+ns.tex [125])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/measurements_observat
-ion_19_screen_conductors.tex [124] [125] [126])
+ion_19_screen_conductors.tex [126] [127] [128] [129])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/plans_after_ls1.tex
-[127] [128] [129]) [130]
+[130] [131] [132]) [133]
 Chapter 9.
-(C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.bbl [131
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.bbl [134
 
 ]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 24.
 
-) [132
+) [135
 
 ] (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.aux)
 
@@ -1390,13 +1401,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5205 strings out of 494045
- 104859 string characters out of 3148390
+ 5215 strings out of 494045
+ 105140 string characters out of 3148390
  190783 words of memory out of 3000000
- 8249 multiletter control sequences out of 15000+200000
+ 8259 multiletter control sequences out of 15000+200000
  47319 words of font info for 70 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 28i,13n,24p,1968b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,13n,24p,1968b,268s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 2.9/font
@@ -1412,9 +1423,9 @@ gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files
 w/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (132 pages, 2432335 bytes).
+Output written on thesis.pdf (135 pages, 2439303 bytes).
 PDF statistics:
- 2642 PDF objects out of 2984 (max. 8388607)
+ 2652 PDF objects out of 2984 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  246 words of extra memory for PDF output out of 10000 (max. 10000000)
 
