@@ -76,12 +76,13 @@
 \contentsline {chapter}{\numberline {8}LHC Injection Kicker Magnet}{116}
 \contentsline {section}{\numberline {8.1}LHC Injection Kicker Magnets}{117}
 \contentsline {subsection}{\numberline {8.1.1}Development of the LHC-MKI Beam Screen}{118}
-\contentsline {section}{\numberline {8.2}LHC Injection Kicker Magnet}{119}
+\contentsline {subsection}{\numberline {8.1.2}Observations of heating during 2011 and 2012 until Technical Stop 3}{120}
+\contentsline {section}{\numberline {8.2}LHC Injection Kicker Magnet}{120}
 \contentsline {section}{\numberline {8.3}LHC Phase 2 Collimator Designs}{122}
 \contentsline {section}{\numberline {8.4}LHC Injection Kicker Magnet}{123}
-\contentsline {section}{\numberline {8.5}LHC Injection Kicker Magnet}{126}
+\contentsline {section}{\numberline {8.5}LHC Injection Kicker Magnet}{127}
 \contentsline {section}{\numberline {8.6}LHC Phase 2 Collimator Designs}{129}
 \contentsline {section}{\numberline {8.7}LHC Injection Kicker Magnet}{130}
-\contentsline {section}{\numberline {8.8}LHC Phase 2 Collimator Designs}{132}
+\contentsline {section}{\numberline {8.8}LHC Phase 2 Collimator Designs}{133}
 \contentsline {chapter}{\numberline {9}Conclusions}{134}
 \contentsline {chapter}{Bibliography}{135}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  15 NOV 2012 18:17
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  15 NOV 2012 20:59
 entering extended mode
 **C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
 (C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
@@ -1372,15 +1372,15 @@ Overfull \hbox (8.65991pt too wide) in paragraph at lines 43--43
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/observations_during_o
 peration.tex [117] [118])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/comparisons_15_simula
-tions_measurements.tex [119] [120] [121])
+tions_measurements.tex [119] [120] [121] [122])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/impedance_behaviour_c
-omponents.tex [122])
+omponents.tex)
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/considerations_beside
-s_impedance_for_new_designs.tex [123] [124])
+s_impedance_for_new_designs.tex [123] [124] [125])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/new_beam_screen_desig
-ns.tex [125])
+ns.tex [126])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/measurements_observat
-ion_19_screen_conductors.tex [126] [127] [128] [129])
+ion_19_screen_conductors.tex [127] [128] [129])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/plans_after_ls1.tex
 [130] [131] [132]) [133]
 Chapter 9.
@@ -1423,7 +1423,7 @@ gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files
 w/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (135 pages, 2439303 bytes).
+Output written on thesis.pdf (135 pages, 2440150 bytes).
 PDF statistics:
  2652 PDF objects out of 2984 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
