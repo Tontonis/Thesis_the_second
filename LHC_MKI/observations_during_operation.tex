@@ -1,4 +1,5 @@
 \subsection{Development of the LHC-MKI Beam Screen}
+\ref{sec:mki-screen-development}
 
 During the commissioning of the CERN accelerator complex for LHC type beam with 25ns, 50ns and 75ns bunch spacing, drastic heating and outgassing was observed in the SPS extraction kicker magnets (MKEs) [cite PAC paper]. During an extensive measuring campaign, it was deduced that this was due to extensive beam-induced heating due to the large real component of the longitudinal impedance of the MKEs. Subsequently a number of retroactive impedance reduction methods were proposed and evaluated for their effectiveness in reducing the longitudinal impedance[cite Kroyer et co.].
 
@@ -10,4 +11,31 @@ During testing and conditioning of the MKIs it was discovered than there was sti
 
 \subsection{Observations of heating during 2011 and 2012 until Technical Stop 3}
 
-Beginning with the increasing intensity in the LHC during operation a number of devices within the LHC were observed to be heating [Evian/Mini-Cham/Chamonix 2012]. Observations and calculations demonstrated a strong relationship between the observed heating and the increasing intensity (first the number of bunches, then the increase in bunch population) indicating that the source of the heating was due to the stored beam interacting strongly with the 
+Beginning with the increasing intensity in the LHC during operation in 2011 a number of devices within the LHC were observed to be heating [Evian/Mini-Cham/Chamonix 2012]. Observations and calculations demonstrated a strong relationship between the observed heating and the increasing intensity (first the number of bunches, then the increase in bunch population) indicating that the source of the heating was due to the stored beam interacting strongly with the impedance of many structures - evidenced also by the deteriorating vacuum in vacuum sensitive components also. A number of key devices were observed to be exposed to significant heating, in particular devices around the injection region (injection projection collimators, injection kickers, VMTSA (a two beam vacuum interconnect in the injection region)) and some small insertion devices (ALFA roman pot), as explained at the Evian 2011 workshop[cite] and Chamonix 2012[cite]. Examples of this heating for a number of devices in 2011 are shown in Fig.~\ref{fig:lhc-heating-2011}.
+
+\begin{figure}
+\label{fig:lhc-heating-2011}
+\caption{The heating of a number of devices during 2011 in the LHC.}
+\end{figure}
+
+The heating of the LHC-MKIs in particular is shown in Fig.~\ref{fig:mki-heating-2011}. Some important notes about the heating can be made, firstly that MKIs 8b and 8d both experience the strongest heating, MKI8d in particular demonstrating much higher heating, experiencing temperatures $\approx$20$^{\circ}$C higher than that experienced by the other MKIs. Secondly, that the time constants of the temperature is very long (on the order of 25 hours [cite]), indicating a large portion of the tank is heating, and additionally that if the temperature reached is detrimental to magnet operation, the neccesary cool-down time will be substantial enough to effect machine operational schedules. It can also be seen that the peak temperature only gets worse as the beam intensity is increased.
+
+\begin{figure}
+\subfigure[]{
+\label{fig:mki-ip2-heating-2011}
+}
+\subfigure[]{
+\label{fig:mki-ip8-heating-2011}
+}
+\label{fig:mki-heating-2011}
+\caption{The heating of the MKIs at \ref{fig:mki-ip2-heating-2011} IP2 and \ref{fig:mki-ip8-heating-2011} IP8 during 2011 in the LHC. Note MKI8b and MKI8d experience significantly more heating than the other MKIs.}
+\end{figure}
+
+The temperatures in MKIs are measured using 4 PT-100 thermacouples, placed in the beam pipe up and down stream, and on the outermost ground plates up and down stream, shown in Fig.~\ref{fig:mki-thermacouple-location}. Due to the component of concern in the MKI being the ferrite yoke of the kicker but there being no direct temperature measurement on this component, one difficulty in analysing the heating of the MKI is to identify the temperature of the ferrite yoke which corresponds to which temperature at the points of measurement. This is a problem which has been analysed in depth in [cite - temp in mki ipac2012 and mki strategy meeting], in particular using field strength from kicks under a softstart condition (the firing of the magnet with no beam to inject), and inferences from both the kick strength measured in correspondance to the temperatures, and the rise time of the kicker field. Current analysis has given a certain margin of safety to the current interlock level, but due to the possible damage that may be done due to a misinjection of the beam this is very conservative, still requiring a few hours of cool down time between injections[cite mki strategy meeting].
+
+\begin{figure}
+\label{fig:mki-thermacouple-location}
+\caption{The location of the temperature measuring thermacouples in the MKI. The upstream end is towards the capactive coupling end of the beam screen.}
+\end{figure}
+
+Prior to technical stop 3 in 2012 there were 2 configurations of the beam screen in the LHC-MKIs - 7 MKIs are in place with 15 tapered screen conductors, the 9 screen conductors closest to the HV busbar having been removed due to the electrical breakdown concerns mentioned in Sec.~\ref{sec:mki-screen-development}. A single MKI, MKI8c is fitted with 24 screen conductors, 15 tapered as in the other MKIs, and 9 shortened screen conductors (trimmed such they do not overlap with the external metallization at the capacitively coupled end). This was found to reduce the induced voltage in the screen conductors closest to the HV busbar, but not significantly improve the beam coupling impedance of the MKI.
