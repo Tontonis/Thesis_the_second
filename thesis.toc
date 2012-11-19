@@ -48,41 +48,41 @@
 \contentsline {subsection}{\numberline {4.1.4}Measurements on Example Geometries}{68}
 \contentsline {subsubsection}{Structure with Top/Bottom, Left/Rght Symmetry}{70}
 \contentsline {subsubsection}{Two Parallel Ferrite Plates}{71}
-\contentsline {section}{\numberline {4.2}High Q-factor Impedances}{73}
-\contentsline {chapter}{\numberline {5}Computational Simulations of Beam Coupling Impedance}{75}
-\contentsline {section}{\numberline {5.1}Time Domain Simulations}{76}
-\contentsline {subsection}{\numberline {5.1.1}Direct Simulation of a Particle Beam}{76}
-\contentsline {section}{\numberline {5.2}Frequency Domain Simulations}{77}
-\contentsline {subsection}{\numberline {5.2.1}Eigenmode Simulations}{77}
-\contentsline {subsection}{\numberline {5.2.2}The Coaxial Wire Method by Simulation}{78}
-\contentsline {subsection}{\numberline {5.2.3}Simulation of the particle beam}{78}
-\contentsline {chapter}{\numberline {6}Beam Coupling Impedance Reduction Techniques}{80}
-\contentsline {section}{\numberline {6.1}Tapering of Step Transitions}{80}
-\contentsline {section}{\numberline {6.2}Transition Pieces}{81}
-\contentsline {section}{\numberline {6.3}Conductive Coatings}{82}
-\contentsline {section}{\numberline {6.4}Beam screens in kicker magnets}{83}
-\contentsline {section}{\numberline {6.5}Seriagraphy on Kicker Magnets}{84}
-\contentsline {section}{\numberline {6.6}Use of damping materials to de-Q resonant caviities}{85}
-\contentsline {subsection}{\numberline {6.6.1}Heat Loads on the Damping Material}{87}
-\contentsline {chapter}{\numberline {7}LHC Collimation Upgrades}{96}
-\contentsline {section}{\numberline {7.1}Introduction}{96}
-\contentsline {section}{\numberline {7.2}LHC Phase 2 Secondary Collimator Jaw Material}{99}
-\contentsline {subsection}{\numberline {7.2.1}Impedance Studies and Analysis}{102}
-\contentsline {section}{\numberline {7.3}TCTP Impedance Studies}{104}
-\contentsline {subsection}{\numberline {7.3.1}TCTP Collimator - Design and Geometry}{107}
-\contentsline {subsection}{\numberline {7.3.2}Impedance Simulations and Results}{107}
-\contentsline {subsection}{\numberline {7.3.3}Beam-Induced Heating}{108}
-\contentsline {subsubsection}{Location of Power Deposition}{113}
-\contentsline {chapter}{\numberline {8}LHC Injection Kicker Magnet}{116}
-\contentsline {section}{\numberline {8.1}LHC Injection Kicker Magnets}{117}
-\contentsline {subsection}{\numberline {8.1.1}Development of the LHC-MKI Beam Screen}{118}
-\contentsline {subsection}{\numberline {8.1.2}Observations of heating during 2011 and 2012 until Technical Stop 3}{120}
-\contentsline {section}{\numberline {8.2}LHC Injection Kicker Magnet}{121}
-\contentsline {section}{\numberline {8.3}LHC Phase 2 Collimator Designs}{124}
-\contentsline {section}{\numberline {8.4}LHC Injection Kicker Magnet}{125}
-\contentsline {section}{\numberline {8.5}LHC Injection Kicker Magnet}{128}
-\contentsline {section}{\numberline {8.6}LHC Phase 2 Collimator Designs}{131}
-\contentsline {section}{\numberline {8.7}LHC Injection Kicker Magnet}{132}
-\contentsline {section}{\numberline {8.8}LHC Phase 2 Collimator Designs}{134}
-\contentsline {chapter}{\numberline {9}Conclusions}{136}
-\contentsline {chapter}{Bibliography}{137}
+\contentsline {subsubsection}{Two Parallel Graphite Plates}{74}
+\contentsline {section}{\numberline {4.2}High Q-factor Impedances}{78}
+\contentsline {chapter}{\numberline {5}Computational Simulations of Beam Coupling Impedance}{80}
+\contentsline {section}{\numberline {5.1}Time Domain Simulations}{81}
+\contentsline {subsection}{\numberline {5.1.1}Direct Simulation of a Particle Beam}{81}
+\contentsline {section}{\numberline {5.2}Frequency Domain Simulations}{82}
+\contentsline {subsection}{\numberline {5.2.1}Eigenmode Simulations}{82}
+\contentsline {subsection}{\numberline {5.2.2}The Coaxial Wire Method by Simulation}{83}
+\contentsline {subsection}{\numberline {5.2.3}Simulation of the particle beam}{83}
+\contentsline {chapter}{\numberline {6}Beam Coupling Impedance Reduction Techniques}{85}
+\contentsline {section}{\numberline {6.1}Tapering of Step Transitions}{85}
+\contentsline {section}{\numberline {6.2}Transition Pieces}{86}
+\contentsline {section}{\numberline {6.3}Conductive Coatings}{87}
+\contentsline {section}{\numberline {6.4}Beam screens in kicker magnets}{88}
+\contentsline {section}{\numberline {6.5}Seriagraphy on Kicker Magnets}{89}
+\contentsline {section}{\numberline {6.6}Use of damping materials to de-Q resonant caviities}{90}
+\contentsline {subsection}{\numberline {6.6.1}Heat Loads on the Damping Material}{92}
+\contentsline {chapter}{\numberline {7}LHC Collimation Upgrades}{101}
+\contentsline {section}{\numberline {7.1}Introduction}{101}
+\contentsline {section}{\numberline {7.2}LHC Phase 2 Secondary Collimator Jaw Material}{104}
+\contentsline {subsection}{\numberline {7.2.1}Impedance Studies and Analysis}{107}
+\contentsline {section}{\numberline {7.3}TCTP Impedance Studies}{109}
+\contentsline {subsection}{\numberline {7.3.1}TCTP Collimator - Design and Geometry}{112}
+\contentsline {subsection}{\numberline {7.3.2}Impedance Simulations and Results}{112}
+\contentsline {subsection}{\numberline {7.3.3}Beam-Induced Heating}{113}
+\contentsline {subsubsection}{Location of Power Deposition}{118}
+\contentsline {chapter}{\numberline {8}LHC Injection Kicker Magnet}{121}
+\contentsline {section}{\numberline {8.1}LHC Injection Kicker Magnets}{122}
+\contentsline {subsection}{\numberline {8.1.1}Development of the LHC-MKI Beam Screen}{122}
+\contentsline {subsection}{\numberline {8.1.2}Observations of heating during 2011 and 2012 until Technical Stop 3}{124}
+\contentsline {section}{\numberline {8.2}Simulations and Measurements of the MKI with 15 screen conductors}{126}
+\contentsline {section}{\numberline {8.3}LHC Injection Kicker Magnet}{129}
+\contentsline {section}{\numberline {8.4}LHC Injection Kicker Magnet}{133}
+\contentsline {section}{\numberline {8.5}LHC Phase 2 Collimator Designs}{135}
+\contentsline {section}{\numberline {8.6}LHC Injection Kicker Magnet}{136}
+\contentsline {section}{\numberline {8.7}LHC Phase 2 Collimator Designs}{138}
+\contentsline {chapter}{\numberline {9}Conclusions}{140}
+\contentsline {chapter}{Bibliography}{141}

@@ -448,7 +448,16 @@ For the simulations of two parallel ferrite plates the following parameters were
 \item{In the vertical axis - displaced between -4mm to +4mm at intervals of 2mm.}
 \end{enumerate}
 
-For the two wire simulations, two wires of radius 0.3mm are used, with a seperation of 4mm in the x-dimension, and 3mm in the y-dimension. 
+For the two wire simulations, two wires of radius 0.3mm are used, with a seperation of 4mm in the x-dimension, and 3mm in the y-dimension. 4 simulation configurations are used described below:
+
+\begin{enumerate}
+\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 20MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10MHz at 1MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 200MHz solving to a second order basi. A discrete frequency sweep is then carried out in the range 10-100MHz at 10MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 2GHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 100MHz-1GHz at 100MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 10GHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10GHz at 1GHz intervals.}
+\end{enumerate}
+
+These parameters are used to benefit from an appropriate mesh count for the given frequency range, thus increasing simulation speed by not using a high density mesh at frequencies where no benefits would be gained.
 
 \begin{figure}
 \subfigure[]{
@@ -494,6 +503,89 @@ The longitudinal impedance is as measured by taking the constant term for a seri
 The agreement between the simulations of the vertical dipolar impedance and the theoretical model is excellent across all frequencies for both the real and imaginary components. The agreement below 100MHz and above 1GHz is very good for the horizontal dipolar, with some divergence in the constant term of the imaginary impedance. The key difference is the failure of the coaxial method to resolve one of the peaks in the real impedance. The results for the dipolar impedance are shown in Fig.~\ref{fig:ferrite-plates-dipolar}.
 
 The results for the quadrupolar impedance are shown in Fig.~\ref{fig:ferrite-plates-quadrupolar}. The vertical simulations agree well with the theory, correctly identifying the two peaks in the quadrupolar impedance. The agreement for the horizontal simulations with theory is less good. This can be explained as the derivation of the horizontal quadrupolar is highly dependent on the quality of the horizontal dipolar impedance results due to them cancelling each other to form the total transverse impedance. As the horizontal dipolar impedance does not resolve the the subpeaks neither does the horizontal quadrupolar impedance calculations.
+
+\subsubsection{Two Parallel Graphite Plates}
+
+For the simulations of measurements of two parallel graphite plates, two different methods were used. Due to the non-ferritic properties of the graphite, it is possible to use Maxwell3D to simulate the power loss at lower frequencies, thus acquiring the real component of the impedance for low frequencies, in addition to using the classical coaxial wire method at higher frequencies in HFSS.
+
+For the simulations of the power loss in Maxwell3D the following parameters were used; for the displaced single wire measurements a wire of 0.5mm in radius is used, and the following displacement used to acquire the total transverse terms:
+
+\begin{enumerate}
+\item{In the horizontal axis -  displaced between -6mm to +6mm at intervals of 2mm}
+\item{In the vertical axis - displaced between -4mm to +4mm at intervals of 2mm.}
+\end{enumerate}
+
+For the two wire simulations, two wires of radius 0.3mm are used, with a seperation of 8mm in the x-dimension, and 4mm in the y-dimension. 5 simulation configurations are used as described below:
+
+\begin{enumerate}
+\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 20kHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10kHz at 1kHz intervals.}
+\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 200MHz solving to a second order basi. A discrete frequency sweep is then carried out in the range 10-100kHz at 10kHz intervals.}
+\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 2MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 100kHz-1MHz at 100kHz intervals.}
+\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 10MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10MHz at 1MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 100MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 10-100MHz at 10MHz intervals.}
+\end{enumerate}
+
+These parameters are used to benefit from an appropriate mesh count for the given frequency range, thus increasing simulation speed by not using a high density mesh at frequencies where no benefits would be gained.
+
+For the simulations of the single displaced wire in HFSS the following parameters were used; for the displaced single wire measurements a wire of 0.3mm in radius is used, and the following displacements to acquire the total transverse terms:
+
+\begin{enumerate}
+\item{In the horizontal axis -  displaced between -6mm to +6mm at intervals of 2mm}
+\item{In the vertical axis - displaced between -4mm to +4mm at intervals of 2mm.}
+\end{enumerate}
+
+For the two wire simulations, two wires of radius 0.3mm are used, with a seperation of 4mm in the x-dimension, and 3mm in the y-dimension. 3 simulations configuration are used as described below:
+
+\begin{enumerate}
+\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 20MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10MHz at 1MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 200MHz solving to a second order basi. A discrete frequency sweep is then carried out in the range 10-100MHz at 10MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 2GHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 100MHz-1GHz at 100MHz intervals.}
+\end{enumerate}
+
+As before these parameters are used to benefit from an appropriate mesh count for the given frequency range, thus increasing simulation speed by not using a high density mesh at frequencies where no benefits would be gained.
+
+\begin{figure}
+\subfigure[]{
+\includegraphics[width=0.5\textwidth]{Bench_Top_Measurements/figures/wire_meas/graphite_plates/longitudinal-horizontal.pdf}
+\label{fig:graph-plates-long-horz}
+}
+\subfigure[]{
+\includegraphics[width=0.5\textwidth]{Bench_Top_Measurements/figures/wire_meas/graphite_plates/longitudinal-vertical.pdf}
+\label{fig:graph-plates-long-vert}
+}
+\label{fig:graph-plates-long-imp}
+\caption{The longitudinal impedance of two parallel graphite plates as measured by taking the constant term of a quadratic equation fitted to a series of displaced single wire measurements. Shown are measurements acquired from fitting displacements in \ref{fig:graph-plates-long-horz} horizontal axis and in \ref{fig:graph-plates-long-vert} the vertical axis.}
+\end{figure}
+
+\begin{figure}
+\subfigure[]{
+\includegraphics[width=0.5\textwidth]{Bench_Top_Measurements/figures/wire_meas/graphite_plates/dipolar-horizontal.pdf}
+\label{fig:graph-plates-dip-horz}
+}
+\subfigure[]{
+\includegraphics[width=0.5\textwidth]{Bench_Top_Measurements/figures/wire_meas/graphite_plates/dipolar-vertical.pdf}
+\label{fig:graph-plates-dip-vert}
+}
+\label{fig:graph-plates-dipolar}
+\caption{The dipolar impedance of two parallel graphite plates measured using two longitudinal coaxial wires. Presented are is the impedance as measured in the horizontal plane (\ref{fig:graph-plates-dip-horz}) and in the vertical plane \ref{fig:graph-plates-dip-vert}.}
+\end{figure}
+
+\begin{figure}
+\subfigure[]{
+\includegraphics[width=0.5\textwidth]{Bench_Top_Measurements/figures/wire_meas/graphite_plates/quadrupolar-horizontal.pdf}
+\label{fig:graph-plates-quad-horz}
+}
+\subfigure[]{
+\includegraphics[width=0.5\textwidth]{Bench_Top_Measurements/figures/wire_meas/graphite_plates/quadrupolar-vertical.pdf}
+\label{fig:graph-plates-quad-vert}
+}
+\label{fig:graph-plates-quadrupolar}
+\caption{The quadrupolar impedance of two parallel graphite plates measured using a combination of displaced single wire measurements and two wire mesurements. Presented are is the impedance as measured in the horizontal plane (\ref{fig:graph-plates-quad-horz}) and in the vertical plane \ref{fig:graph-plates-quad-vert}.}
+\end{figure}
+
+The longitudinal impedance can be seen in Fig.~\ref{fig:graph-plates-long-imp}. It can be seen that the agreement for both the real component is excellent across the entire frequency range, for simulations using both the classical coaxial wire method and the power loss method of Maxwell3D. The agreement is also good for the imaginary component over much of the frequency range, becoming worse above 100MHz. This is likely due to insufficient mesh density to catch the relatively small phase shift at this frequency range.
+
+The agreement between simulations and theory for the vertical dipolar impedance can be seen to be very good over the entire frequency range also (see Fig.~\ref{fig:graph-plates-dip-vert}). The results at low frequencies (below 100kHz) for the power loss method and at all frequencies for the classical coaxial wire method for the horizontal dipolar impedance agree very well with theory (see Fig.~\ref{fig:graph-plates-dip-horz}). 
 
 \section{High Q-factor Impedances}
 
