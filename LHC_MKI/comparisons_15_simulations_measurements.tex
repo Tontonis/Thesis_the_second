@@ -6,7 +6,7 @@ The measurements were carried out on a fully assembled MKI inside it's vacuum ta
 
 For the two wire measurements, two wires were suspended in the device, seperated by 7mm. The wires were connected to a single VNA, each connection run through a 180$^{\circ}$ hybrid to generate the appropriate phase difference between the two. The experimental setup for the two wire measurements is shown in Fig.~\ref{fig:mki-meas-two-wire}.
 
-The VNA is calibrated using an 8532E calibration kit, using an IF bandwidth of 1kHz. 2000 equally space data points are used over a frequency range of 1MHz-2GHz.
+The VNA is calibrated using an 8532E calibration kit, using an IF bandwidth of 1kHz. 2000 equally space data points are used over a frequency range of 1MHz-2GHz. The Q factors and resonant frequencies of the resonant modes are calculated using a peak finding algorithm on the VNA, and the conductive losses due to the copper wire calculated analytically and compensated for.
 
 \begin{figure}
 \subfigure[]{
@@ -24,6 +24,54 @@ The VNA is calibrated using an 8532E calibration kit, using an IF bandwidth of 1
 \caption{The measurement setup for the two wire measurement setup. The 180$^{\circ}$ hybrid can be seen on top of the vacuum flange.}
 \end{figure}
 
+The results for the measurements be seen in the following figures:
+\begin{enumerate}
+\item{Fig.~\ref{fig:mki-15-longitudinal} the longitudinal impedance}
+\item{Fig.~\ref{fig:mki-15-horz-dipolar} the horizontal dipolar impedance}
+\item{Fig.~\ref{fig:mki-15-vert-dipolar} the vertical dipolar impedance}
+\item{Fig.~\ref{fig:mki-15-horz-quad} the horizontal quadrupolar impedance}
+\item{Fig.~\ref{fig:mki-15-vert-quad} the vertical quadrupolar impedance}
+\item{Fig.~\ref{fig:mki-15-horz-constant} the horizontal constant impedance}
+\item{Fig.~\ref{fig:mki-15-vert-constant} the vertical constant impedance}
+\end{enumerate}
+
+\begin{figure}
+\label{fig:mki-15-longitudinal}
+\caption{The longitudinal impedance of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio.}
+\end{figure}
+
+\begin{figure}
+\subfigure[]{
+\label{fig:mki-15-horz-dipolar}
+}
+\subfigure[]{
+\label{fig:mki-15-vert-dipolar}
+}
+\label{fig:mki-15-dipolar}
+\caption{The dipolar impedances of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio. \ref{fig:mki-15-horz-dipolar} shows the horizontal dipolar impedance, and \ref{fig:mki-15-vert-dipolar} the vertical dipolar impedance}
+\end{figure}
+
+\begin{figure}
+\subfigure[]{
+\label{fig:mki-15-horz-quad}
+}
+\subfigure[]{
+\label{fig:mki-15-vert-quad}
+}
+\label{fig:mki-15-quadrupolar}
+\caption{The quadrupolar impedances of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio. \ref{fig:mki-15-horz-quad} shows the horizontal quadrupolar impedance, and \ref{fig:mki-15-vert-quad} the vertical quadrupolar impedance}
+\end{figure}
+
+\begin{figure}
+\subfigure[]{
+\label{fig:mki-15-horz-constant}
+}
+\subfigure[]{
+\label{fig:mki-15-vert-constant}
+}
+\label{fig:mki-15-constant}
+\caption{The constant transverse impedances of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio. \ref{fig:mki-15-horz-constant} shows the horizontal constant impedance, and \ref{fig:mki-15-vert-constant} the vertical constant impedance}
+\end{figure}
 \begin{itemize}
 \item{Introduction to the kicker magnet system}                                                                                                                                                                                                                                                                                                             
 \begin{enumerate}
