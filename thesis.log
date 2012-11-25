@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  23 NOV 2012 19:18
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  25 NOV 2012 20:35
 entering extended mode
 **C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
 (C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
@@ -1461,12 +1461,12 @@ Chapter 8.
 [122
 
 ]
-Overfull \hbox (8.09985pt too wide) in paragraph at lines 40--40
+Overfull \hbox (8.09985pt too wide) in paragraph at lines 24--24
 []\T1/ptm/m/n/10 (a) 
  []
 
 
-Overfull \hbox (8.65991pt too wide) in paragraph at lines 43--43
+Overfull \hbox (8.65991pt too wide) in paragraph at lines 27--27
 []\T1/ptm/m/n/10 (b) 
  []
 
@@ -1487,14 +1487,13 @@ Overfull \hbox (8.65991pt too wide) in paragraph at lines 29--29
 []\T1/ptm/m/n/10 (b) 
  []
 
-[126]
 
-LaTeX Warning: Reference `sec:mki-screen-development' on page 127 undefined on 
+LaTeX Warning: Reference `sec:mki-screen-development' on page 126 undefined on 
 input line 41.
 
 )
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/comparisons_15_simula
-tions_measurements.tex
+tions_measurements.tex [126]
 ! Undefined control sequence.
 <recently read> \Dellta 
                         
@@ -1502,7 +1501,7 @@ l.3 ...cy resolution of the measurements ($\Dellta
                                                   {}f = c/\Delta \lambda = c...
 
 ? 
-[127] [128]
+[127]
 Overfull \hbox (8.09985pt too wide) in paragraph at lines 16--16
 []\T1/ptm/m/n/10 (a) 
  []
@@ -1512,7 +1511,7 @@ Overfull \hbox (8.65991pt too wide) in paragraph at lines 19--19
 []\T1/ptm/m/n/10 (b) 
  []
 
-
+[128]
 Overfull \hbox (8.09985pt too wide) in paragraph at lines 54--54
 []\T1/ptm/m/n/10 (a) 
  []
@@ -1542,43 +1541,96 @@ Overfull \hbox (8.65991pt too wide) in paragraph at lines 79--79
 []\T1/ptm/m/n/10 (b) 
  []
 
-[129] [130]
+[129]
 
-LaTeX Warning: Reference `sec:beam-induced-heating' on page 131 undefined on in
+LaTeX Warning: Reference `sec:beam-induced-heating' on page 130 undefined on in
 put line 91.
 
-[131])
+[130])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/considerations_beside
-s_impedance_for_new_designs.tex [132]
+s_impedance_for_new_designs.tex [131]
 
-LaTeX Warning: Reference `fig:mki-elongated-spheres' on page 133 undefined on i
+LaTeX Warning: Reference `fig:mki-elongated-spheres' on page 132 undefined on i
 nput line 7.
 
 
-LaTeX Warning: Reference `fig:mki-alternating-length-conds' on page 133 undefin
+LaTeX Warning: Reference `fig:mki-alternating-length-conds' on page 132 undefin
 ed on input line 7.
 
 
-LaTeX Warning: Reference `fig:mki-external-metallization' on page 133 undefined
+LaTeX Warning: Reference `fig:mki-external-metallization' on page 132 undefined
  on input line 7.
 
 )
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/measurements_observat
-ion_19_screen_conductors.tex [133] [134] [135] [136])
+ion_19_screen_conductors.tex [132]
+
+LaTeX Warning: Reference `fig:19-screen-cond-layout' on page 133 undefined on i
+nput line 8.
+
+[133]
+
+LaTeX Warning: Reference `fig:elongated-spheres' on page 134 undefined on input
+ line 9.
+
+
+LaTeX Warning: Reference `fig:19-screen-cond-layout' on page 134 undefined on i
+nput line 10.
+
+
+Overfull \hbox (8.09985pt too wide) in paragraph at lines 16--16
+[]\T1/ptm/m/n/10 (a) 
+ []
+
+
+Overfull \hbox (8.65991pt too wide) in paragraph at lines 19--19
+[]\T1/ptm/m/n/10 (b) 
+ []
+
+
+LaTeX Warning: Reference `fig:19-screen-cond-layoyt' on page 134 undefined on i
+nput line 21.
+
+
+LaTeX Warning: Reference `fig:elongated-spheres' on page 134 undefined on input
+ line 21.
+
+
+LaTeX Warning: Reference `fig:19-screen-cond-layoyt' on page 134 undefined on i
+nput line 21.
+
+
+LaTeX Warning: Reference `fig:elongated-spheres' on page 134 undefined on input
+ line 21.
+
+
+LaTeX Warning: Reference `fig:mki-19-impedance' on page 134 undefined on input 
+line 24.
+
+
+LaTeX Warning: Reference `tab:heating-15-19-cond' on page 134 undefined on inpu
+t line 24.
+
+[134]
+
+LaTeX Warning: Reference `fig:heating-mki8-post-ts3' on page 135 undefined on i
+nput line 48.
+
+[135])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/impedance_behaviour_c
 omponents.tex)
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/new_beam_screen_desig
-ns.tex [137])
+ns.tex [136])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/plans_after_ls1.tex
-[138] [139] [140] [141]) [142]
+[137] [138] [139]) [140]
 Chapter 9.
-(C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.bbl [143
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.bbl [141
 
 ]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 24.
 
-) [144
+) [142
 
 ] (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.aux)
 
@@ -1589,13 +1641,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5353 strings out of 494045
- 109744 string characters out of 3148390
+ 5368 strings out of 494045
+ 110141 string characters out of 3148390
  190783 words of memory out of 3000000
- 8391 multiletter control sequences out of 15000+200000
+ 8406 multiletter control sequences out of 15000+200000
  47940 words of font info for 72 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 28i,13n,24p,1968b,314s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,13n,24p,1968b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 2.9/font
@@ -1612,9 +1664,9 @@ w/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (144 pages, 2644789 bytes).
+Output written on thesis.pdf (142 pages, 2645172 bytes).
 PDF statistics:
- 3075 PDF objects out of 3580 (max. 8388607)
+ 3069 PDF objects out of 3580 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  271 words of extra memory for PDF output out of 10000 (max. 10000000)
 

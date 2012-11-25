@@ -133,22 +133,22 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{119}
 \contentsline {figure}{\numberline {7.12}{\ignorespaces The temperature increase of the ferrite damping tiles in the TCTP collimator under a number of beam operating conditions and for a number of different jaw support materials. Plot taken from [cite Carra and Garlasche].}}{121}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces An example layout of a injection system for an accelerator.}}{123}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces An example layout of a injection system for an accelerator.}}{122}
 \contentsline {figure}{\numberline {8.2}{\ignorespaces The location of the LHC injection systems in the LHC ring.}}{123}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces 8.3(a)\hbox {} A cross section of an MKI. Visible are the alternating HV and ground plates, seperated by capacitor plates. The HV drive plate and the ground return can be seen in the c core of the ferrite yoke. 8.3(b)\hbox {} shows an MKI in it's vacuum tank.}}{124}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{124}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{124}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces 8.3(a)\hbox {} A cross section of an MKI. Visible are the alternating HV and ground plates, seperated by capacitor plates. The HV drive plate and the ground return can be seen in the c core of the ferrite yoke. 8.3(b)\hbox {} shows an MKI in it's vacuum tank.}}{123}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{123}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{123}
 \contentsline {figure}{\numberline {8.4}{\ignorespaces The heating of a number of devices during 2011 in the LHC.}}{126}
 \contentsline {figure}{\numberline {8.5}{\ignorespaces The heating of the MKIs at 8.5(a)\hbox {} IP2 and 8.5(b)\hbox {} IP8 during 2011 in the LHC. Note MKI8b and MKI8d experience significantly more heating than the other MKIs.}}{126}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{126}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{126}
 \contentsline {figure}{\numberline {8.6}{\ignorespaces The location of the temperature measuring thermacouples in the MKI. The upstream end is towards the capactive coupling end of the beam screen.}}{127}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces The measurement setup of the coaxial wire measurements of an LHC-MKI. Shown is the vacuum tank with connecting N-type cables 8.7(a)\hbox {} and a coupling capacitor in it's associated Sucobox 8.7(b)\hbox {}.}}{129}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{129}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{129}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces The measurement setup of the coaxial wire measurements of an LHC-MKI. Shown is the vacuum tank with connecting N-type cables 8.7(a)\hbox {} and a coupling capacitor in it's associated Sucobox 8.7(b)\hbox {}.}}{128}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{128}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{128}
 \contentsline {figure}{\numberline {8.8}{\ignorespaces The measurement setup for the two wire measurement setup. The 180$^{\circ }$ hybrid can be seen on top of the vacuum flange.}}{129}
 \contentsline {figure}{\numberline {8.9}{\ignorespaces The simulation model of the LHC injection kickers implemented in CST Particle Studio.}}{129}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces The longitudinal impedance of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio.}}{130}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces The longitudinal impedance of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio.}}{129}
 \contentsline {figure}{\numberline {8.11}{\ignorespaces The dipolar impedances of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio. 8.11(a)\hbox {} shows the horizontal dipolar impedance, and 8.11(b)\hbox {} the vertical dipolar impedance}}{130}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{130}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{130}
@@ -158,4 +158,9 @@
 \contentsline {figure}{\numberline {8.13}{\ignorespaces The constant transverse impedances of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio. 8.13(a)\hbox {} shows the horizontal constant impedance, and 8.13(b)\hbox {} the vertical constant impedance}}{130}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{130}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{130}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Several components of the replacement MKI8d. \G@refundefinedtrue \text {\normalfont \bfseries ??}\GenericWarning { }{LaTeX Warning: Reference `fig:19-screen-cond-layoyt' on page 134 undefined} shows the layout of the screen conductors, and \G@refundefinedtrue \text {\normalfont \bfseries ??}\GenericWarning { }{LaTeX Warning: Reference `fig:elongated-spheres' on page 134 undefined} shows the beam screen enlarged for the elongated spheres.}}{134}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{134}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{134}
+\contentsline {figure}{\numberline {8.15}{\ignorespaces The real component of the longitudinal beam coupling impedance of the reaplcement MKI8d with 19 screen conductors from both simulations and measurements. The corresponding impedance for an MKI with 15 screen conductors is shown for comparison.}}{135}
+\contentsline {figure}{\numberline {8.16}{\ignorespaces The temperature profile of the IP8 injection kicker magnets during the time period before and after technical stop 3 (TS3), when the MKI8d was changed from a kicker magnet with 15 screen conductors to one with 19 screen conductors. It can be seen this magnet (solid red trace) goes from being the hottest magnet to the coolest after TS3.}}{136}
 \addvspace {10\p@ }
