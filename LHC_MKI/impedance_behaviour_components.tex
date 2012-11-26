@@ -49,9 +49,10 @@ These geometries are shown in Fig.~\ref{fig:mki-layout-buildup}, and the resulti
 \caption{The \ref{fig:mki-buildup-real-imp} real component and the \ref{fig:mki-buildup-imag-imp} imaginary components of the LHC MKI kicker magnet impedances for different quantities of components in the magnet.}
 \end{figure}
 
-\subsection{The Role of the Beam Screen Layout in the Impedance of the MKI}
 
 Concerning the role of the beam screen layout there are two areas to examine - the effect of different quantities of screening of the beam by having more or less screen conductors (in this case removing those directed towards the HV busbar as is likely due to concerns of electrical breakdown) and of the effect of different dimensions of the screen at the capacitively coupled end of the beam screen.
+
+\subsection{How Screening Changes with the Number of Screen Conductors}
 
 For the changes on the number of screen conductors two variations are carried out - The first is to examine the case of removing several screen conductors in the beam screen towards the HV busbar (shown in Fig.~\ref{fig:mki-take-away-cond-together}). This direction is chosen as these screen conductors experience the highest induced voltage during the firing of the kicker magnet, and additionally it was initially thought that on this side the HV busbar would provide some screening of the beam from the ferrite yoke. The second variation is to remove a selection of screen conductors towards the HV busbar (shown in Fig.~\ref{fig:mki-take-away-cond-alt}), in this case to examine whether it is possible to acquire some shielding through using some screen conductors and benefitting from removing some screen conductors to remove the rate of electrical breakdown.
 
@@ -71,23 +72,75 @@ For the changes on the number of screen conductors two variations are carried ou
 
 \begin{figure}
 \subfigure[]{
-\label{fig:15-cond-together}
+\label{fig:17-cond-alt}
 }
 \subfigure[]{
-\label{fig:19-cond-together}
+\label{fig:19-cond-alt}
 }
 \subfigure[]{
-\label{fig:24-cond-together}
+\label{fig:20-cond-alt}
 }
-\label{fig:mki-take-away-cond-together}
-\caption{Beam screens with different numbers of screen conductors removed from the design quantity of 24. Models of 15 \ref {fig:15-cond-together}, 19 \ref{fig:19-cond-together} and 24 \ref{fig:24-cond-together} screen conductors are considered for the impedance simulations.}
+\subfigure[]{
+\label{fig:24-cond-alt}
+}
+\label{fig:mki-take-away-cond-ql5}
+\caption{Beam screens with different numbers of screen conductors removed from the design quantity of 24. Models of 17 \ref {fig:17-cond-alt}, 19 \ref{fig:19-cond-alt}, 20 \ref{fig:20-cond-alt} and 24 \ref{fig:24-cond-alt} screen conductors are considered for the impedance simulations. Conductors that are coloured red are the removed in each case.}
+\end{figure}
 
-\begin{enumerate}
-\item{Start with a simple c - core ferrite magnet}
-\item{Add a ceramic tube}
-\item{Add screen conductors in internal side - Brief interlude about the limitations this places on the magnet rise time due to creating a Faraday cage}
-\item{Add the capacitive coupling - Different lengths of overlap to demonstrate that this controls the frequency of the resonances. Also lengths of the screen conductors for lower resonances}
-\item{Add the ferrite damping rings - damp resonances of length of screen conductor - not(!) overlap}
-\item{Hopefully show that this is the dominant cause of the resonances}
-\item{Show only dependent on capacitively coupled end dimensions - Examine pipe thickness, conductor length.}
-\end{enumerate}
+\begin{figure}
+\subfigure[]{
+\includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-no-screen-conductors-real-impedance.pdf}
+\label{fig:remove-cond-real-imp}
+}
+\subfigure[]{
+\includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-no-screen-conductors-imag-impedance.pdf}
+\label{fig:remove-cond-imag-imp}
+}
+
+\label{fig:remove-cond-impedance}
+\caption{The longitudinal impedance of the MKIs with different numbers of screen conductors included in the beam screen. Shown is the real component \ref{fig:remove-cond-real-imp} and the imaginary component \ref{fig:remove-cond-imag-imp} of the longitudinal impedance.}
+\end{figure}
+
+The longitudinal impedance for these configurations is shown in Fig.~\ref{fig:remove-cond-impedance}. It can be seen that for both components of the impedance that more screen conductors reduces the magnitude of the impedance at all frequencies - this can simply be understood as improving the screening of the beam from the ferrite with additional screen conductors. This can particularly be seen in the increase in the number of screen conductors from 15 to 19 to 24 conductors in total - The screening is improved dramatically in each subsequent case. This also translates into a decrease in the expected beam-induced power loss in the structure, as shown in Tab.~\ref{tab:power-loss-cond-removal}. 
+
+In addition it can be seen that it is preferable to distribute the screen conductors such that the maximum arc of the beam screen without screen conductors is minimised. This can clearly be seen by comparing the case of 19 screen conductors where all conductors are clustered together (as was done for the replacement MKI8d) and for 19 screen conductors, where 4 are equally distributed towards the HV busbar. Again this advantage is bourne out in the power lost in the structure. This is however not beneficial without consideration of the induced electric field during kicker firing, as the induced voltage on a given screen conductor is still the same, and thus tracking along the beam screen to the external metallization is not changed by this layout. It can thus be seen that the beam screen design itself must be optmised with regards to the induced screen conductor voltage before more can be added to the ceramic tube to improve screening.
+
+\begin{table}
+\label{tab:power-loss-cond-removal}
+\begin{center}
+\begin{tabular}{c | c | c}
+Screen Conductor Arrangement & $P_{loss, BB}$ & $P_{loss, Res}$ \\ \hline
+15 Conductors, together & $P_{loss, BB}$ & $P_{loss, Res}$ \\ \hline
+19 Conductors, together & $P_{loss, BB}$ & $P_{loss, Res}$ \\ \hline
+24 Conductors, together & $P_{loss, BB}$ & $P_{loss, Res}$ \\ \hline
+17 Conductors, separated & $P_{loss, BB}$ & $P_{loss, Res}$ \\ \hline
+19 Conductors, seperated & $P_{loss, BB}$ & $P_{loss, Res}$ \\ \hline
+20 Conductors, seperated & $P_{loss, BB}$ & $P_{loss, Res}$ \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Dependence of the Impedance on the Beam Screen Dimensions}
+
+It can be seen that with 24 screen conductors placed in the beam screen that the resulting impedance is dominated by the configuration of the beam screen. To investigate how changes to certain parameters (specifically the length of the overlap between the screen conductors and the external metallization and the thickness of the ceramic beam screen) a cut down model of the kicker magnet is used, considering just the capactively coupled end of the kicker magnet (shown in Fig.~\ref{fig:cut-down-mki-cap-end}). This is done to allow a larger mesh density in this important (from the electrical and impedance point of view) region of the kicker magnet. In models of the full kicker magnet the mesh density is severely limited due to the large mesh generated in the entire magnet volume which subsequently may make the mesh very limited in near beam areas (for example in the ceramic tube between the screen conductors and the external metallization. A comparison is shown in Fig.~\ref{fig:mki-mesh-com-cst}). An illustrated diagram of the capacitively coupled end is given in Fig.~\ref{fig:cap-end-diag} to clarify the components referred to in this section.
+
+\begin{figure}
+\subfigure[]{
+\label{fig:cut-down-mki-cap-end}
+}
+\subfigure[]{
+\label{fig:cap-end-diag}
+}
+\caption{\ref{fig:cut-down-mki-cap-end} The cut down simulation model used for simulations of the MKI beam screen with 24 screen conductors and \ref{fig:cap-end-diag} an illustrated diagram of the capacitively coupled end of the beam screen.}
+\end{figure}
+
+\begin{figure}
+\subfigure[]{
+\label{fig:mesh-full}
+}
+\subfigure[]{
+\label{fig:mesh-cutdown}
+}
+\label{fig:mki-mesh-com-cst}
+\caption{A comparison of the mesh that may be generated in CST Particle Studio using both the full model \ref{fig:mesh-full} and the cutdown model \ref{fig:mesh-cutdown}. Blue squares reresent a meshing failure which inserts perfect electrical conductor into the model. The simulation time for the first is on the order a day, for the second 30 minutes.}
+\end{figure}

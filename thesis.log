@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  26 NOV 2012 14:45
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  26 NOV 2012 18:57
 entering extended mode
 **C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
 (C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
@@ -359,33 +359,25 @@ uadrupo-lar impedance,
  []
 
 
-LaTeX Warning: Reference `fig:19-screen-cond-layoyt' on page 121 undefined on i
+LaTeX Warning: Reference `fig:19-screen-cond-layoyt' on page 136 undefined on i
 nput line 161.
-
-
-LaTeX Warning: Reference `fig:mki-buildup-ferrite' on page 124 undefined on inp
-ut line 166.
-
-
-LaTeX Warning: Reference `fig:mki-buildup-ferrite-ceramic' on page 124 undefine
-d on input line 166.
-
-
-LaTeX Warning: Reference `fig:mki-buildup-ferrite-ceramic-cond' on page 124 und
-efined on input line 166.
-
-
-LaTeX Warning: Reference `fig:mki-buildup-ferrite-ceramic-cond-full' on page 12
-4 undefined on input line 166.
 
 [18]
 
-LaTeX Warning: Reference `fig:mki-buildup-real-imp' on page 125 undefined on in
-put line 171.
+LaTeX Warning: Reference `fig:cut-down-mki-cap-end' on page 143 undefined on in
+put line 186.
 
 
-LaTeX Warning: Reference `fig:mki-buildup-imag-imp' on page 125 undefined on in
-put line 171.
+LaTeX Warning: Reference `fig:cap-end-diag' on page 143 undefined on input line
+ 186.
+
+
+LaTeX Warning: Reference `fig:mesh-full' on page 143 undefined on input line 18
+9.
+
+
+LaTeX Warning: Reference `fig:mesh-cutdown' on page 143 undefined on input line
+ 189.
 
 )
 \tf@lof=\write5
@@ -1672,26 +1664,111 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 43--49
 [][] []
  []
 
-[139 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki-buil
-dup-ferrite.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figu
-res/mki-buildup-ferrite-ceramic.png> <C:/Users/hugo/Documents/GitHub/Thesis_the
-_second/LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond.png> <C:/Users/hugo/Do
-cuments/GitHub/Thesis_the_second/LHC_MKI/figures/mki-buildup-ferrite-ceramic-co
-nd-full.png>])
+
+LaTeX Warning: Reference `fig:mki-take-away-cond-alt' on page 139 undefined on 
+input line 57.
+
+[139] [140 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mk
+i-buildup-ferrite.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MK
+I/figures/mki-buildup-ferrite-ceramic.png> <C:/Users/hugo/Documents/GitHub/Thes
+is_the_second/LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond.png> <C:/Users/h
+ugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki-buildup-ferrite-cera
+mic-cond-full.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/fi
+gures/mki-build-up-real-imp.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_sec
+ond/LHC_MKI/figures/mki-build-up-imag-imp.pdf>]
+Overfull \hbox (8.09985pt too wide) in paragraph at lines 62--62
+[]\T1/ptm/m/n/10 (a) 
+ []
+
+
+Overfull \hbox (8.65991pt too wide) in paragraph at lines 65--65
+[]\T1/ptm/m/n/10 (b) 
+ []
+
+
+Overfull \hbox (8.09985pt too wide) in paragraph at lines 68--68
+[]\T1/ptm/m/n/10 (c) 
+ []
+
+
+Overfull \hbox (8.09985pt too wide) in paragraph at lines 76--76
+[]\T1/ptm/m/n/10 (a) 
+ []
+
+
+Overfull \hbox (8.65991pt too wide) in paragraph at lines 79--79
+[]\T1/ptm/m/n/10 (b) 
+ []
+
+
+Overfull \hbox (8.09985pt too wide) in paragraph at lines 82--82
+[]\T1/ptm/m/n/10 (c) 
+ []
+
+
+Overfull \hbox (8.65991pt too wide) in paragraph at lines 85--85
+[]\T1/ptm/m/n/10 (d) 
+ []
+
+
+<LHC_MKI/figures/mki-no-screen-conductors-real-impedance.pdf, id=3144, 578.16pt
+ x 433.62pt>
+File: LHC_MKI/figures/mki-no-screen-conductors-real-impedance.pdf Graphic file 
+(type pdf)
+ <use LHC_MKI/figures/mki-no-screen-conductors-real-impedance.pdf>
+Package pdftex.def Info: LHC_MKI/figures/mki-no-screen-conductors-real-impedanc
+e.pdf used on input line 94.
+(pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
+
+<LHC_MKI/figures/mki-no-screen-conductors-imag-impedance.pdf, id=3145, 597.1309
+pt x 441.75038pt>
+File: LHC_MKI/figures/mki-no-screen-conductors-imag-impedance.pdf Graphic file 
+(type pdf)
+
+<use LHC_MKI/figures/mki-no-screen-conductors-imag-impedance.pdf>
+Package pdftex.def Info: LHC_MKI/figures/mki-no-screen-conductors-imag-impedanc
+e.pdf used on input line 98.
+(pdftex.def)             Requested size: 213.71576pt x 158.09981pt.
+
+Overfull \hbox (14.28001pt too wide) in paragraph at lines 94--99
+[][] [] 
+ []
+
+[141 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki-no-s
+creen-conductors-real-impedance.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the
+_second/LHC_MKI/figures/mki-no-screen-conductors-imag-impedance.pdf>] [142]
+Overfull \hbox (8.09985pt too wide) in paragraph at lines 130--130
+[]\T1/ptm/m/n/10 (a) 
+ []
+
+
+Overfull \hbox (8.65991pt too wide) in paragraph at lines 133--133
+[]\T1/ptm/m/n/10 (b) 
+ []
+
+
+Overfull \hbox (8.09985pt too wide) in paragraph at lines 140--140
+[]\T1/ptm/m/n/10 (a) 
+ []
+
+
+Overfull \hbox (8.65991pt too wide) in paragraph at lines 143--143
+[]\T1/ptm/m/n/10 (b) 
+ []
+
+)
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/new_beam_screen_desig
-ns.tex [140 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/m
-ki-build-up-real-imp.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC
-_MKI/figures/mki-build-up-imag-imp.pdf>])
+ns.tex [143])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/plans_after_ls1.tex
-[141] [142] [143] [144]) [145]
+[144] [145] [146] [147]) [148]
 Chapter 9.
-(C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.bbl [146
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.bbl [149
 
 ]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 24.
 
-) [147
+) [150
 
 ] (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.aux)
 
@@ -1702,10 +1779,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5421 strings out of 494045
- 112299 string characters out of 3148390
+ 5481 strings out of 494045
+ 114132 string characters out of 3148390
  190783 words of memory out of 3000000
- 8452 multiletter control sequences out of 15000+200000
+ 8510 multiletter control sequences out of 15000+200000
  47940 words of font info for 72 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  28i,13n,24p,1968b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1725,9 +1802,9 @@ w/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (147 pages, 2873232 bytes).
+Output written on thesis.pdf (150 pages, 2946981 bytes).
 PDF statistics:
- 3225 PDF objects out of 3580 (max. 8388607)
+ 3364 PDF objects out of 3580 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 301 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 311 words of extra memory for PDF output out of 10000 (max. 10000000)
 

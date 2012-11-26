@@ -163,12 +163,30 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{136}
 \contentsline {figure}{\numberline {8.15}{\ignorespaces The real component of the longitudinal beam coupling impedance of the reaplcement MKI8d with 19 screen conductors from both simulations and measurements. The corresponding impedance for an MKI with 15 screen conductors is shown for comparison.}}{137}
 \contentsline {figure}{\numberline {8.16}{\ignorespaces The temperature profile of the IP8 injection kicker magnets during the time period before and after technical stop 3 (TS3), when the MKI8d was changed from a kicker magnet with 15 screen conductors to one with 19 screen conductors. It can be seen this magnet (solid red trace) goes from being the hottest magnet to the coolest after TS3.}}{138}
-\contentsline {figure}{\numberline {8.17}{\ignorespaces The geometries simulated for the various components in the LHC-MKI. These are ferrite only 8.17(a)\hbox {}, ferrite and the ceramic beam screen 8.17(b)\hbox {}, ferrite with the beam screen containing 24 screen conductors 8.17(c)\hbox {} and finally the complete MKI magnet 8.17(d)\hbox {}.}}{139}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{139}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{139}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{139}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{139}
+\contentsline {figure}{\numberline {8.17}{\ignorespaces The geometries simulated for the various components in the LHC-MKI. These are ferrite only 8.17(a)\hbox {}, ferrite and the ceramic beam screen 8.17(b)\hbox {}, ferrite with the beam screen containing 24 screen conductors 8.17(c)\hbox {} and finally the complete MKI magnet 8.17(d)\hbox {}.}}{140}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{140}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{140}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{140}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{140}
 \contentsline {figure}{\numberline {8.18}{\ignorespaces The 8.18(a)\hbox {} real component and the 8.18(b)\hbox {} imaginary components of the LHC MKI kicker magnet impedances for different quantities of components in the magnet.}}{140}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{140}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{140}
+\contentsline {figure}{\numberline {8.19}{\ignorespaces Beam screens with different numbers of screen conductors removed from the design quantity of 24. Models of 15 8.19(a)\hbox {}, 19 8.19(b)\hbox {} and 24 8.19(c)\hbox {} screen conductors are considered for the impedance simulations. Conductors surrounded by the boxes are removed in this case.}}{141}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{141}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{141}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{141}
+\contentsline {figure}{\numberline {8.20}{\ignorespaces Beam screens with different numbers of screen conductors removed from the design quantity of 24. Models of 17 8.20(a)\hbox {}, 19 8.20(b)\hbox {}, 20 8.20(c)\hbox {} and 24 8.20(d)\hbox {} screen conductors are considered for the impedance simulations. Conductors that are coloured red are the removed in each case.}}{141}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{141}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{141}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{141}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{141}
+\contentsline {figure}{\numberline {8.21}{\ignorespaces The longitudinal impedance of the MKIs with different numbers of screen conductors included in the beam screen. Shown is the real component 8.21(a)\hbox {} and the imaginary component 8.21(b)\hbox {} of the longitudinal impedance.}}{141}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{141}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{141}
+\contentsline {figure}{\numberline {8.22}{\ignorespaces 8.22(a)\hbox {} The cut down simulation model used for simulations of the MKI beam screen with 24 screen conductors and 8.22(b)\hbox {} an illustrated diagram of the capacitively coupled end of the beam screen.}}{143}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{143}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{143}
+\contentsline {figure}{\numberline {8.23}{\ignorespaces A comparison of the mesh that may be generated in CST Particle Studio using both the full model 8.23(a)\hbox {} and the cutdown model 8.23(b)\hbox {}. Blue squares reresent a meshing failure which inserts perfect electrical conductor into the model. The simulation time for the first is on the order a day, for the second 30 minutes.}}{143}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{143}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{143}
 \addvspace {10\p@ }

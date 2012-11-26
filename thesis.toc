@@ -85,7 +85,9 @@
 \contentsline {subsection}{\numberline {8.4.1}Temperature of MKI8d after Technical Stop 3}{137}
 \contentsline {section}{\numberline {8.5}The Dependence of the Beam Coupling Impedance on The Kicker Components}{138}
 \contentsline {subsection}{\numberline {8.5.1}The Impedance of the MKI - Effects of the Inclusion of the Beam Screen}{138}
-\contentsline {section}{\numberline {8.6}LHC Injection Kicker Magnet}{141}
-\contentsline {section}{\numberline {8.7}LHC Phase 2 Collimator Designs}{144}
-\contentsline {chapter}{\numberline {9}Conclusions}{146}
-\contentsline {chapter}{Bibliography}{147}
+\contentsline {subsection}{\numberline {8.5.2}How Screening Changes with the Number of Screen Conductors}{139}
+\contentsline {subsection}{\numberline {8.5.3}Dependence of the Impedance on the Beam Screen Dimensions}{142}
+\contentsline {section}{\numberline {8.6}LHC Injection Kicker Magnet}{144}
+\contentsline {section}{\numberline {8.7}LHC Phase 2 Collimator Designs}{147}
+\contentsline {chapter}{\numberline {9}Conclusions}{149}
+\contentsline {chapter}{Bibliography}{150}
