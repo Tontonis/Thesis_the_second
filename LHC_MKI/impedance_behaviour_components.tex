@@ -145,13 +145,42 @@ It can be seen that with 24 screen conductors placed in the beam screen that the
 \caption{A comparison of the mesh that may be generated in CST Particle Studio using both the full model \ref{fig:mesh-full} and the cutdown model \ref{fig:mesh-cutdown}. Blue squares reresent a meshing failure which inserts perfect electrical conductor into the model. The simulation time for the first is on the order a day, for the second 30 minutes.}
 \end{figure}
 
-First we shall consider the effect the impedance of the change in the length of overlap of the capacitively coupled sections. To do this we consider the shortened end section, and change the length of the external metallization to change the length of the overlap (the length of the screen conductors used is keep fixed to avoid changing any potential resonances due to the screen conductors acting as $\lambda /4$ resonators). Overlaps of between 0.08m and 0.12m at 0.01m intervals are simulated, and the results shown in Fig.~\ref{fig:overlap-imp}. It can be seen that each overlap has a distinct set of resonance frequencies. These source of these resonances can be seen to be the result of the gap between the external metallization and the screen conductor acting as a $n \lambda /2$ resonator. End effects caused the effective length of the overlap to be extended to some degree, which fitting to the resonance frequencies has shown to be $\approx 9$mm for all lengths. This can be seen for the first resonances for all the lengths of overlap in Fig.~\ref{fig:overlap-imp-zoom}, and up to 2.5GHz for the case if the overlap being 100mm
+First we shall consider the effect the impedance of the change in the length of overlap of the capacitively coupled sections. To do this we consider the shortened end section, and change the length of the external metallization to change the length of the overlap (the length of the screen conductors used is keep fixed to avoid changing any potential resonances due to the screen conductors acting as $\lambda /4$ resonators). Overlaps of between 0.08m and 0.12m at 0.01m intervals are simulated, and the results shown in Fig.~\ref{fig:overlap-imp}. It can be seen that each overlap has a distinct set of resonance frequencies. These source of these resonances can be seen to be the result of the gap between the external metallization and the screen conductor acting as a $n \lambda /2$ resonator. End effects caused the effective length of the overlap to be extended to some degree, which fitting to the resonance frequencies has shown to be $\approx 9$mm for all lengths. This gives a resonant frequency $f_{res}$ of
+
+\begin{equation}
+f_{res} = \frac{nc}{\sqrt{\epsilon_{r}}2 L_{overlap}}
+\label{fig:imp-overlap-fres}
+\end{equation}
+
+where $n$ is an integer, $c$ is the speed of light $\epsilon_{r}$ is the relative permitivitty of the volume material ($=10$ for the alumina beam screen) and $L_{overlap}$ is the length of overlap. This can be seen for the first resonances for all the lengths of overlap in Fig.~\ref{fig:overlap-imp-zoom}, and up to 2.5GHz for the case of the overlap being 100mm in Fig.~\ref{fig:imp-overlap-fres}. It can be seen that the predicted frequencies match the simulated very well. Work is still under way as to how to determine the peak impedance of each resonance.
 
 \begin{figure}
 \subfigure[]{
+\includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-overlap-len-real-imp.pdf}
 \label{fig:overlap-imp}
 }
 \subfigure[]{
+\includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-overlap-len-real-imp-zoom.pdf}
 \label{fig:overlap-imp-zoom}
 }
+\label{fig:mki-overlap-imp-tot}
+\caption{\ref{fig:overlap-imp} The real component of the longitudinal beam coupling impedance for different lengths of the overlap, and \ref{fig:overlap-imp-tot} a zoomed in plot of the first resonances of all the overlaps with the calculated resonance frequency for each}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{LHC_MKI/figures/mki-overlap-fres-100mm.pdf}
+\end{center}
+\label{fig:imp-overlap-fres}
+\caption{The impedance of the beam screen with 24 screen conductors with an overlap $L_{overlap}=100mm$ and the predicted resonance frequencies from Eqn.~\ref{eqn:res-freq-mki} shown as blue lines.}
+\end{figure}
+
+Secondly the influence of the thickness of the beam screen is considered. This is a concern as increasing this thickness has two effects - to change the value of the capcitance at the capacitively coupled end which effects the low frequency impedance, and the increase in the volume of the overlap region due to the increased thickness. The internal diameter of the ceramic tube is kept at 42mm, whilst external diameters of 50, 53 and 56mm are considered, giving tube thicknesses between 8 and 14mm. The resulting real component of the longitudinal impedances is shown in Fig.~\ref{fig:tube-thickness-imp}, where it can be seen that the increasing the pipe thickness has two effects - a slight lowering of the resonant frequency, but also a significant increase of the peak impedance of the resonance, by almost a factor 2 from a tube 8mm thick to one 14mm thick. The difference that this makes to the expected heating of the MKI can be seen in Tab.~\ref{tab:thickness-heating}, where it can be seen that the change in the power loss due to the increased thickness could be expected to be small assuming a broadband heating scenario, but increases significantly if we assume a beam harmonic falls upon the resonant frequency.
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-tube-thickness-real.pdf}
+\end{center}
+\label{fig:tube-thickness-imp}
+\caption{The variance of the real beam coupling impedance with the tube thickness. External diameters of 50, 53 and 56mm correspond to tube thicknesses of 8, 11 and 14mm respectively.}
 \end{figure}
