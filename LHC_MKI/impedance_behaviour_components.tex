@@ -107,6 +107,7 @@ In addition it can be seen that it is preferable to distribute the screen conduc
 
 \begin{table}
 \label{tab:power-loss-cond-removal}
+\caption{}
 \begin{center}
 \begin{tabular}{c | c | c}
 Screen Conductor Arrangement & $P_{loss, BB}$ & $P_{loss, Res}$ \\ \hline
@@ -115,7 +116,7 @@ Screen Conductor Arrangement & $P_{loss, BB}$ & $P_{loss, Res}$ \\ \hline
 24 Conductors, together & $P_{loss, BB}$ & $P_{loss, Res}$ \\ \hline
 17 Conductors, separated & $P_{loss, BB}$ & $P_{loss, Res}$ \\ \hline
 19 Conductors, seperated & $P_{loss, BB}$ & $P_{loss, Res}$ \\ \hline
-20 Conductors, seperated & $P_{loss, BB}$ & $P_{loss, Res}$ \\ \hline
+20 Conductors, seperated & $P_{loss, BB}$ & $P_{loss, Res}$ \\ 
 \end{tabular}
 \end{center}
 \end{table}
@@ -184,3 +185,16 @@ Secondly the influence of the thickness of the beam screen is considered. This i
 \label{fig:tube-thickness-imp}
 \caption{The variance of the real beam coupling impedance with the tube thickness. External diameters of 50, 53 and 56mm correspond to tube thicknesses of 8, 11 and 14mm respectively.}
 \end{figure}
+
+\begin{table}
+\label{tab:thickness-heating}
+\caption{The beam induced heating calculated for a number of beam screen designs with 24 screen conductors of equal length (overlap of 100mm) with different tube thicknesses assuming 50ns bunch spacing LHC conditions (1380 bunches, $1.7\times 10^{11}$ppb with a bunch length of 1ns). It can be seen that the broadband heating component is relatively small for the limited change in the tube thickness, whilst the resonant component can increase drastically due to the increasing peak impedance.}
+\begin{center}
+\begin{tabular}{c | c | c }
+Outer Tube Diameter/Tube Thickness (mm)  & $P_{loss, BB}$ & $P_{loss, Res}$ \\ \hline
+50/8  & 30 & 4$ \\ \hline
+53/11  & 26 & 10 \\ \hline
+56/14  & 35 & 12 \\ 
+\end{tabular}
+\end{center}
+\end{table}
