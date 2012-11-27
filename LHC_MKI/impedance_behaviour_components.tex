@@ -144,3 +144,14 @@ It can be seen that with 24 screen conductors placed in the beam screen that the
 \label{fig:mki-mesh-com-cst}
 \caption{A comparison of the mesh that may be generated in CST Particle Studio using both the full model \ref{fig:mesh-full} and the cutdown model \ref{fig:mesh-cutdown}. Blue squares reresent a meshing failure which inserts perfect electrical conductor into the model. The simulation time for the first is on the order a day, for the second 30 minutes.}
 \end{figure}
+
+First we shall consider the effect the impedance of the change in the length of overlap of the capacitively coupled sections. To do this we consider the shortened end section, and change the length of the external metallization to change the length of the overlap (the length of the screen conductors used is keep fixed to avoid changing any potential resonances due to the screen conductors acting as $\lambda /4$ resonators). Overlaps of between 0.08m and 0.12m at 0.01m intervals are simulated, and the results shown in Fig.~\ref{fig:overlap-imp}. It can be seen that each overlap has a distinct set of resonance frequencies. These source of these resonances can be seen to be the result of the gap between the external metallization and the screen conductor acting as a $n \lambda /2$ resonator. End effects caused the effective length of the overlap to be extended to some degree, which fitting to the resonance frequencies has shown to be $\approx 9$mm for all lengths. This can be seen for the first resonances for all the lengths of overlap in Fig.~\ref{fig:overlap-imp-zoom}, and up to 2.5GHz for the case if the overlap being 100mm
+
+\begin{figure}
+\subfigure[]{
+\label{fig:overlap-imp}
+}
+\subfigure[]{
+\label{fig:overlap-imp-zoom}
+}
+\end{figure}
