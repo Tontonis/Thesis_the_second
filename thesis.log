@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  27 NOV 2012 14:13
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  28 NOV 2012 01:17
 entering extended mode
 **C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
 (C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
@@ -1736,22 +1736,22 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 94--99
 [142 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki-no-s
 creen-conductors-real-impedance.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the
 _second/LHC_MKI/figures/mki-no-screen-conductors-imag-impedance.pdf>] [143]
-Overfull \hbox (8.09985pt too wide) in paragraph at lines 130--130
+Overfull \hbox (8.09985pt too wide) in paragraph at lines 115--115
 []\T1/ptm/m/n/10 (a) 
  []
 
 
-Overfull \hbox (8.65991pt too wide) in paragraph at lines 133--133
+Overfull \hbox (8.65991pt too wide) in paragraph at lines 118--118
 []\T1/ptm/m/n/10 (b) 
  []
 
 
-Overfull \hbox (8.09985pt too wide) in paragraph at lines 140--140
+Overfull \hbox (8.09985pt too wide) in paragraph at lines 125--125
 []\T1/ptm/m/n/10 (a) 
  []
 
 
-Overfull \hbox (8.65991pt too wide) in paragraph at lines 143--143
+Overfull \hbox (8.65991pt too wide) in paragraph at lines 128--128
 []\T1/ptm/m/n/10 (b) 
  []
 
@@ -1761,7 +1761,7 @@ File: LHC_MKI/figures/mki-overlap-len-real-imp.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/mki-overlap-len-real-imp.pdf>
 Package pdftex.def Info: LHC_MKI/figures/mki-overlap-len-real-imp.pdf used on i
-nput line 161.
+nput line 146.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
 <LHC_MKI/figures/mki-overlap-len-real-imp-zoom.pdf, id=3287, 578.16pt x 433.62p
@@ -1770,66 +1770,118 @@ File: LHC_MKI/figures/mki-overlap-len-real-imp-zoom.pdf Graphic file (type pdf)
 
  <use LHC_MKI/figures/mki-overlap-len-real-imp-zoom.pdf>
 Package pdftex.def Info: LHC_MKI/figures/mki-overlap-len-real-imp-zoom.pdf used
- on input line 165.
+ on input line 150.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
-Overfull \hbox (14.28001pt too wide) in paragraph at lines 161--167
+Overfull \hbox (14.28001pt too wide) in paragraph at lines 146--152
 [][] []
  []
 
 
 LaTeX Warning: Reference `fig:overlap-imp-tot' on page 145 undefined on input l
-ine 167.
+ine 152.
 
 
 LaTeX Warning: Reference `fig:overlap-imp-tot' on page 145 undefined on input l
-ine 167.
+ine 152.
 
 <LHC_MKI/figures/mki-overlap-fres-100mm.pdf, id=3288, 578.16pt x 433.62pt>
 File: LHC_MKI/figures/mki-overlap-fres-100mm.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/mki-overlap-fres-100mm.pdf>
 Package pdftex.def Info: LHC_MKI/figures/mki-overlap-fres-100mm.pdf used on inp
-ut line 172.
+ut line 157.
 (pdftex.def)             Requested size: 256.46152pt x 192.34164pt.
 
 
 LaTeX Warning: Reference `eqn:res-freq-mki' on page 145 undefined on input line
- 175.
+ 160.
 
 
 LaTeX Warning: Reference `eqn:res-freq-mki' on page 145 undefined on input line
- 175.
+ 160.
 
 
 LaTeX Warning: Reference `tab:thickness-heating' on page 145 undefined on input
- line 178.
+ line 163.
 
-[145 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki-over
-lap-len-real-imp.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI
-/figures/mki-overlap-len-real-imp-zoom.pdf>]
-<LHC_MKI/figures/mki-tube-thickness-real.pdf, id=3410, 578.16pt x 433.62pt>
+<LHC_MKI/figures/mki-tube-thickness-real.pdf, id=3289, 578.16pt x 433.62pt>
 File: LHC_MKI/figures/mki-tube-thickness-real.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/mki-tube-thickness-real.pdf>
 Package pdftex.def Info: LHC_MKI/figures/mki-tube-thickness-real.pdf used on in
-put line 182.
+put line 167.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.179 50/8  & 30 & 4$ \\ \hline
+                               
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.179 50/8  & 30 & 4$ \\ \hline
+                               
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.179 50/8  & 30 & 4$ \\ \hline
+                               
+? 
 )
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/new_beam_screen_desig
-ns.tex [146 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/m
-ki-overlap-fres-100mm.pdf>] [147 <C:/Users/hugo/Documents/GitHub/Thesis_the_sec
-ond/LHC_MKI/figures/mki-tube-thickness-real.pdf>])
-(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/plans_after_ls1.tex
-[148] [149] [150]) [151]
+ns.tex [145 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/m
+ki-overlap-len-real-imp.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/
+LHC_MKI/figures/mki-overlap-len-real-imp-zoom.pdf>] [146 <C:/Users/hugo/Documen
+ts/GitHub/Thesis_the_second/LHC_MKI/figures/mki-overlap-fres-100mm.pdf> <C:/Use
+rs/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki-tube-thickness-r
+eal.pdf>]
+
+LaTeX Warning: Reference `fig:24-alternating-length' on page 147 undefined on i
+nput line 8.
+
+
+LaTeX Warning: Reference `fig:24-tapered-length' on page 147 undefined on input
+ line 9.
+
+
+LaTeX Warning: Reference `fig:24-alternating-tapered' on page 147 undefined on 
+input line 10.
+
+
+LaTeX Warning: Reference `fig:24-enclosed-slots' on page 147 undefined on input
+ line 11.
+
+
+LaTeX Warning: Reference `fig:alt-screen-design' on page 147 undefined on input
+ line 12.
+
+
+LaTeX Warning: Reference `fig:24-step-out' on page 147 undefined on input line 
+13.
+
+[147]
+
+LaTeX Warning: Reference `fig:24-step-out-slight' on page 148 undefined on inpu
+t line 14.
+
+
+LaTeX Warning: Reference `fig:24-final-design' on page 148 undefined on input l
+ine 15.
+
+) (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/plans_after_ls1.tex
+[148] [149] [150] [151]) [152]
 Chapter 9.
-(C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.bbl [152
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.bbl [153
 
 ]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 24.
 
-) [153
+) [154
 
 ] (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.aux)
 
@@ -1840,10 +1892,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5516 strings out of 494045
- 115388 string characters out of 3148390
+ 5533 strings out of 494045
+ 115828 string characters out of 3148390
  190783 words of memory out of 3000000
- 8541 multiletter control sequences out of 15000+200000
+ 8558 multiletter control sequences out of 15000+200000
  47940 words of font info for 72 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  28i,13n,24p,1968b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1863,9 +1915,9 @@ w/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (153 pages, 3078933 bytes).
+Output written on thesis.pdf (154 pages, 3079410 bytes).
 PDF statistics:
- 3611 PDF objects out of 4296 (max. 8388607)
+ 3613 PDF objects out of 4296 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  331 words of extra memory for PDF output out of 10000 (max. 10000000)
 

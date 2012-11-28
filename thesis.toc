@@ -87,7 +87,8 @@
 \contentsline {subsection}{\numberline {8.5.1}The Impedance of the MKI - Effects of the Inclusion of the Beam Screen}{139}
 \contentsline {subsection}{\numberline {8.5.2}How Screening Changes with the Number of Screen Conductors}{140}
 \contentsline {subsection}{\numberline {8.5.3}Dependence of the Impedance on the Beam Screen Dimensions}{143}
-\contentsline {section}{\numberline {8.6}LHC Injection Kicker Magnet}{148}
-\contentsline {section}{\numberline {8.7}LHC Phase 2 Collimator Designs}{150}
-\contentsline {chapter}{\numberline {9}Conclusions}{152}
-\contentsline {chapter}{Bibliography}{153}
+\contentsline {section}{\numberline {8.6}New Beam Screen Designs}{147}
+\contentsline {section}{\numberline {8.7}LHC Injection Kicker Magnet}{148}
+\contentsline {section}{\numberline {8.8}LHC Phase 2 Collimator Designs}{151}
+\contentsline {chapter}{\numberline {9}Conclusions}{153}
+\contentsline {chapter}{Bibliography}{154}
