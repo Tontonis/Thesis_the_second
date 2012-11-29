@@ -85,19 +85,34 @@ In this analysis we shall focus on the resulting power loss from interaction of 
 \caption{The real component of the beam coupling impedance for a number of the proposed beam screen designs compared to the existing designs (15 screen conductors tapered and 19 screen conductors alternating in length) \ref{fig:new-screen-designs-mki}. A selected collection of favourable (from the impedance and the electric field point of view) are shown in \ref{fig:new-screen-designs-mki-log} with a log scale on the Y axis so the resonance structure can be more clearly seen.}
 \end{figure}
 
+The estimated heating for both 25ns and 50ns bunch spacing operation in the LHC are shown in Tab.~\ref{tab:heating-mki-screen-designs} for 1ns bunch length, and the variation in power loss with the bunch length for 25ns and 50ns bunch spacing shown in Fig.~\ref{fig:mki-screens-heating-bunch-length}. It can be seen that the power loss can be very strongly reduced for very short bunch lengths (as has been proposed for HL-LHC operation without crab cavities [cite]) by increasing the bunch length, but for nominal bunch lengths ($\tau_{b}=$1ns) it can be seen that there is not much benefit in increasing the bunch length.
 
 \begin{table}
 \label{tab:heating-mki-screen-designs}
+\caption{The power loss expected due to beam-wakefield interactions in the MKIs for a number of proposed beam screen designs. Estimates are given for 50ns and 25ns bunch spacing in the LHC (1380 bunches, $1.7 \times 10^{11}$ particles per bunch for 50ns, 2808 bunches, $1.15 \times 10^{11}$ particles per bunch for 25ns) assuming a cos$^{2}$ bunch distribution.}
 \begin{center}
 \begin{tabular}{c | c | c}
 Screen Design & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline 
-24 Screen Conductors, Alternating Length & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline 
-24 Screen Conductors, Tapered Length & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline 
-24 Screen Conductors, Alternating and Tapered Length & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline 
-24 Screen Conductors, Enclosed Conductors & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline 
-24 Screen Conductors, Alternate Design & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline 
-24 Screen Conductors, Stepped out external metallization & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline 
-24 Screen Conductors, Final Design & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline 
+24 Conductors, Alternating Length & 36 & 28 \\ \hline %shortened
+24 Conductors, Tapered Length & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline %n shortened
+24 Conductors, Alternating and Tapered & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline %no shortened
+24 Screen Conductors, Enclosed Conductors & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline %no shortened
+24 Conductors, Alternate Design & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline %no shortened
+24 Conductors, Step out & 37 & 28 \\ \hline %Shortened
+24 Conductors, Final Design & 37 & 28 \\ %Shortened Version
 \end{tabular}
 \end{center}
 \end{table}
+
+\begin{figure}
+\subfigure[]{
+\includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-new-designs-heating-25ns.pdf}
+\label{fig:mki-screen-heating-25ns}
+}
+\subfigure[]{
+\includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-new-designs-heating-50ns.pdf}
+\label{fig:mki-screen-heating-50ns}
+}
+\label{fig:mki-screens-heating-bunch-length}
+\caption{The variation of the predicted beam induced power loss with bunch length for a number of screen designs. The variation for 25ns \ref{fig:mki-screen-heating-25ns} and 50ns \ref{fig:mki-screen-heating-50ns} machine settings.}
+\end{figure}
