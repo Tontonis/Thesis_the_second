@@ -47,6 +47,36 @@ n_{event} = \mathcal{L}_{int} \times \sigma_{p}.
 It can thus be seen that in addition to increasing the luminosity, maximising the available time for collisions is important to maximising data collection. This requires a high level of availability of the machine, minimising failures of key systems and the down time experienced by the machine. In particular, unavoidable waiting periods between fills are to be avoided at all costs. As is seen in Chapter~\ref{chap:mki}, long cool down times (on the order of hours, similar in magnitude to the length of the average LHC fill) for equipment that requires a specific temperature range to operate correctly are thus unacceptable during ideal operation and should be reduced to a minimum. These and other sources of reduction of the running time and luminosity (due to both beam coupling impedance and other sources of instabilities and interlock trips due to hardware mishaps) must thus be carefully studied and controlled by the technical and operations teams.
 
 \section{Beam Dynamics}
+
+To introduce the terms, dynamics and coordinate systems used in later chapters we shall briefly introduce the basic transverse and longitudinal dynamics present in particle accelerators. First we introduce the coordinate system typically used in the consideration of circular particle accelerators. Typically an ideal orbit is defined for an on momentum particle, denoted by $(r, \theta, z)$. In addition a reference frame placed upon the orbit of an ideal on-momentum is defined, given by $(x, y, z)$ shown in Fig.~\ref{fig:accel-coord-system}. 
+
+\begin{figure}
+\label{fig:accel-coord-system}
+\caption{The representation of the coordinate system of a circular accelerator, and additionally the co-moving reference frame of a circulating particle.}
+\end{figure}
+
+The use of charged particles within an accelerator is controlled by the use of both magnetic and electrical elements in the machine, leading to the particles being acted upon by the Lorentz force
+
+\begin{equation}
+\mathbf{F} = q \left( \mathbf{E} + \mathbf{v} \times \mathbf{B} \right)
+\end{equation}
+
+where $q$ is the charge of the particle, $\mathbf{E}$ is the electric field, $\mathbf{B}$ is the magnetic field and $\mathbf{v}$ is the particles velocity. In high energy particle accelerators the magnetic and electric fields are typically seperated in location, with the magnetic fields only having a transverse component, being of the form
+
+\begin{equation}
+\mathbf{B} = \mathbf{\hat{x}} B_{x} + \mathbf{\hat{y}} B_{y}
+\end{equation}
+
+where $B_{x/y}$ is the magnetic field component in the $x$- and $y$-axis respectively. Due to the cross product between the velocity ($\mathbf{v} = \mathbf{\hat{z}} v$), it can be seen that there is no component of the force from the magnetic field in the $z$-direction. In addition the electric field usually only has a longitudinal component such that $\mathbf{E} = \mathbf{\hat{z}} E_{z}$. This results in the seperation of transverse and longitudinal motion such that
+
+\begin{align}
+F_{\parallel} &= qE \\
+\mathbf{F_{\perp}} &= q \left( vB_{y} \mathbf{\hat{x}} - vB_{x} \mathbf{\hat{y}} \right).
+\end{align}
+
+Subsequently the transverse and longitudinal motion may both be treated independently of one another.
+
+
 \begin{enumerate}
 \item{Introduction to CERN}
 \item{Introduction to the LHC}
