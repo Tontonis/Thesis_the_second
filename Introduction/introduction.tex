@@ -82,6 +82,7 @@ If we consider a charged particle of mass $m$ and charge $e$ moving with velocit
 
 \begin{equation}
 \frac{p}{e} = B \rho
+\label{eqn:beam-rigid}
 \end{equation}
 
 where $p$ is the particles momentum. $B \rho$ is referred to as the beam rigidity, denoting the constant term necessary to keep a particle on the ideal orbit. 
@@ -135,19 +136,96 @@ Subsequently we subsitute the magnetic field $B_{y} = B_{y0} + \frac{dB_{y}}{dx}
  m\frac{d^{2}x}{dt^{2}}  - \frac{mv^{2}}{\rho}\left( 1 - \frac{x}{\rho} \right) = e v \left[ B_{y0} + \frac{dB_{y}}{dx} x \right].
 \end{equation}
 
+By dividing throught by the mass m
 
-\begin{enumerate}
-\item{Introduction to CERN}
-\item{Introduction to the LHC}
-\item{Luminousity - The Operational Figure of Merit}
-\begin{itemize}
-\item{Peak Luminousity - Equation and factors that control it}
-\item{Integrated Luminousity - Up time and availability is important}
-\end{itemize}
-\item{Beam Dynamics}
-\begin{itemize}
-\item{Optics and Transverse Beam Dynamics}
-\item{Longitudinal Dynamics - Energy change in a cavity}
-\item{Chromaticity and Dispersion}
-\end{itemize}
-\end{enumerate}
+\begin{equation}
+ \frac{d^{2}x}{dt^{2}}  - \frac{v^{2}}{\rho}\left( 1 - \frac{x}{\rho} \right) = \frac{e v B_{y0}}{m} + \frac{ev}{m}\frac{dB_{y}}{dx} x.
+\end{equation}
+
+Next we transform the coordinate from $t \rightarrow z$, such that 
+
+\begin{equation}
+\frac{d^{2}x}{dt^{2}} = \frac{d}{dt} \left( \frac{dx}{dz} \frac{dz}{dt} \right) = \frac{d}{dz} \left( \frac{dx}{dz} \frac{dz}{dt} \right) \frac{dz}{dt} = \frac{d^{2}x}{dz^{2}}\left( \frac{dz}{dt} \right)^{2} + \frac{dx}{dz} \frac{d}{dz} \left( \frac{dz}{dt} \right) \frac{dz}{dt}.
+\end{equation}
+
+It can be seen that $\frac{dz}{dt} = v$, which is kept constant in this treatment. Therefor
+
+\begin{equation}
+\frac{d^{2}x}{dt^{2}} = \frac{d^{2}x}{dz^{2}} v^{2}.
+\end{equation}
+
+Thus we arrive at the equation
+
+\begin{equation}
+\frac{d^{2}x}{dz^{2}} v^{2} - \frac{v^{2}}{\rho}\left( 1 - \frac{x}{\rho} \right) = \frac{e v B_{y0}}{m} + \frac{ev}{m}\frac{dB_{y}}{dx} x.
+\end{equation}
+
+We then subsequently normalise by momentum and rearrange slightly to acquire
+
+\begin{equation}
+\frac{d^{2}x}{dz^{2}} - \frac{1}{\rho} + \frac{x}{\rho^{2}}  = \frac{ B_{y0}}{p/e} + \frac{1}{p/e}\frac{dB_{y}}{dx} x.
+\end{equation}
+
+We then remember the definition of the beam rigidity (see Eqn.~\ref{eqn:beam-rigid}) and the definition of the quadrupolar field strength arriving at
+
+\begin{align}
+\frac{d^{2}x}{dz^{2}} - \frac{1}{\rho} + \frac{x}{\rho^{2}}  = - \frac{1}{\rho} + k x \\ \nonumber
+\frac{d^{2}x}{dz^{2}} + \frac{x}{\rho^{2}}  = k x \\ \nonumber
+\frac{d^{2}x}{dz^{2}} + x \left( \frac{1}{\rho^{2}} - k\right)  = 0.
+\label{eqn:horz-eqn-motion}
+\end{align}
+
+For the vertical plane the equation is the same, except that the focusing term is negative and there is no $\rho$ term, giving
+
+\begin{equation}
+\frac{d^{2}y}{dz^{2}} +  k y  = 0.
+\label{eqn:vert-eqn-motion}
+\end{equation}
+
+It is interesting to note that there is a focusing term due to the dipolar magnet term. Historically this is the weak focusing effect, as opposed to the strong focusing regime of using quadrupole magnets. It can be seen this these equations are simply the equations of motion of a harmonic oscillator with spring constants $K_{x/y}$ given by
+
+\begin{align*}
+K_{x} = \frac{1}{\rho^{2}} - k \\
+K_{y} = k
+\end{align*}
+
+leading to a general solution 
+
+\begin{equation}
+x/y \left( s \right) = a_{1} cos \left( \sqrt{K_{x/y}} s \right) + a_{2} sin \left( \sqrt{K_{x/y}} s \right).
+\end{equation}
+
+For a modern particle accelerator using focusing and defocusing magnets arranged in a periodic lattice (i.e. so that $k(s)$ becomes a periodic function such that $k(s+L) = k(s)$ where L is the length of the period of the lattice), and applying initial conditions $x(0) = x_{0}, x^{'}(0) = x^{'}_{0}$ it is possible to finally arrive at the solution for the motion of a particle through a periodic lattice
+
+\begin{equation}
+x \left( s \right) = \sqrt{\epsilon} \sqrt{\beta \left( s \right) } cos \left( \psi \left( s \right) + \phi \right)
+\end{equation}
+
+where $\epsilon$ and $\phi$ are integration constants determined by the initial conditions, $\beta (s)$ is a periodic function determined by the focusing properties of the lattice. $ \psi (s)$ is the phase advance of the oscillation, again determined by the lattice design parameters. One key important figure acquired from this derivation is the tune (also called the betatron tune) of the accelerator, that is the number of oscillations per turn, given by
+
+\begin{equation}
+Q = \frac{1}{2\pi} \oint \frac{ds}{\beta \left( s \right)}.
+\end{equation}
+
+\subsubsection{Off-Momentum Particles}
+
+During the operation of a particle accelerator we often have a spread of particle energies due to dynamics in the longitudinal plane [cite]. This gives rise to a momentum spread $\Delta p/p$ in the particle momentum. When considered in Eqn.~\ref{eqn:horz-eqn-motion} this gives rise to an inhomogenous differential equation of the form
+
+\begin{equation}
+\frac{d^{2}x}{dz^{2}} + x \left( \frac{1}{\rho^{2}} - k\right)  = \frac{\Delta p}{p}\frac{1}{\rho}
+\label{eqn:disp-eqn-motion}
+\end{equation}
+
+which leads to a modified solution of the harmonic oscillator equation characterised by the dispersion of the lattice $D(s)$, written as
+
+\begin{equation}
+x \left( s \right) = \sqrt{\epsilon} \sqrt{\beta \left( s \right) } cos \left( \psi \left( s \right) + \phi \right) + \frac{\Delta p}{p} D \left( s \right).
+\end{equation}
+
+This can be seen as another closed orbit solution to the machine lattice. One side effect of this is the slight change in the tune due to the off momentum, characterised by a factor known as the chromaticity $\zeta$, related by
+
+\begin{equation}
+\frac{\Delta Q}{Q_{0}} = \zeta \frac{\Delta p}{p}
+\end{equation}
+
+where $\Delta Q$ is the tune shift from the lattice tune for an on momentum particle $Q_{0}$. The tune working point is an important factor in designing an accelerator as crossing integer or low order tune fractions (half, third or quarter integer) allows the summation of kicks in the machine driving large oscillations which may ultimately lead to particle loss. 
