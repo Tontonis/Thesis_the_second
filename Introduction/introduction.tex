@@ -48,7 +48,7 @@ It can thus be seen that in addition to increasing the luminosity, maximising th
 
 \section{Beam Dynamics}
 
-To introduce the terms, dynamics and coordinate systems used in later chapters we shall briefly introduce the basic transverse and longitudinal dynamics present in particle accelerators. First we introduce the coordinate system typically used in the consideration of circular particle accelerators. Typically an ideal orbit is defined for an on momentum particle, denoted by $(r, \theta, z)$. In addition a reference frame placed upon the orbit of an ideal on-momentum is defined, given by $(x, y, z)$ shown in Fig.~\ref{fig:accel-coord-system}. 
+To introduce the terms, dynamics and coordinate systems used in later chapters we shall briefly introduce the basic transverse and longitudinal dynamics present in particle accelerators. First we introduce the coordinate system typically used in the consideration of circular particle accelerators. Typically an ideal orbit is defined for an on momentum particle, denoted by $(\rho, \theta, z)$. In addition a reference frame placed upon the orbit of an ideal on-momentum is defined, given by $(x, y, z)$ shown in Fig.~\ref{fig:accel-coord-system}. 
 
 \begin{figure}
 \label{fig:accel-coord-system}
@@ -75,6 +75,65 @@ F_{\parallel} &= qE \\
 \end{align}
 
 Subsequently the transverse and longitudinal motion may both be treated independently of one another.
+
+\subsection{Linear Transverse Dynamics}
+
+If we consider a charged particle of mass $m$ and charge $e$ moving with velocity $v$ along the ideal orbit under the effect of the magnetic field $B$ we can see that the lorentz force ($F_{L} = qvB$) and the centrifugal force ($F_{cen} = \frac{\gamma m v^{2}}{\rho}$) are equivalent, leading to the relation
+
+\begin{equation}
+\frac{p}{e} = B \rho
+\end{equation}
+
+where $p$ is the particles momentum. $B \rho$ is referred to as the beam rigidity, denoting the constant term necessary to keep a particle on the ideal orbit. 
+
+If we consider the motion of a particle transversally displaced from the ideal orbit particle with a position $(x, y)$ we must consider the variation of the magnetic field in the transverse directions. If we consider first just the horizontal motion, we can carry out a taylor expansion of the field which gives us
+
+\begin{equation}
+B_{y} \left( x \right) = B_{y0} + \frac{dB_{y}}{dx} x + \frac{1}{2!}\frac{d^{2}B_{y}}{dx^{2}} x^{2} + \frac{1}{3!} \frac{d^{3}B_{y}}{dx^{3}} x^{3} + ...
+\end{equation}
+
+which is then normalised by $p/e$
+
+\begin{equation}
+\frac{B_{y} \left( x \right)}{p/e} = \frac{B_{y0}}{B_{y0}\rho} + \frac{1}{p/e}\frac{dB_{y}}{dx} x + \frac{1}{p/e}\frac{1}{2!}\frac{d^{2}B_{y}}{dx^{2}} x^{2} + \frac{1}{p/e}\frac{1}{3!} \frac{d^{3}B_{y}}{dx^{3}} x^{3} + ...
+\end{equation}
+
+For the time being we shall consider only small displacements in $x$ and $y$, thus shall consider only the linear terms, giving
+
+\begin{align}
+\frac{B_{y} \left( x \right)}{p/e} &= \frac{1}{\rho} + \frac{1}{p/e}\frac{dB_{y}}{dx} x \\
+\frac{B_{y} \left( x \right)}{p/e} &= \frac{1}{\rho} + k x
+\end{align}
+
+where $k = \frac{g}{p/e}$, $g=\frac{2\mu_{0}nI}{r^{2}}$ is the gradient of a quadrupole magnet (a magnet which has a magnetic field strength linearly proportional to displacement), with $n$ being the number of turns on the solenoid, $I$ the current and $r$ the solenoid aperture. This indicates that seperation of the function of magnets is valid method of controlling the particles, using dipole and quadrupole fields. Next, to derive the equations of motion we shall consider the equation for radial acceleration $a_{r}$ for a particle undergoing rotational acceleration in the defined coordinate system
+
+\begin{equation}
+a_{r} = \frac{d^{2}\rho}{dt^{2}} - \rho \left( \frac{d\theta}{dt} \right)^{2}.
+\end{equation}
+
+For the particle on the ideal orbit $\rho = constant$, so $\frac{d \rho}{dt} = 0$, leading to the accelerative force being derived to be
+
+\begin{equation}
+F_{x} = m \rho \left( \frac{d\theta}{dt} \right)^{2} = m\rho \omega^{2} = \frac{mv^{2}}{\rho}
+\end{equation} 
+
+For a general particle, $\rho \rightarrow \rho + x$, leading to
+
+\begin{equation}
+F_{x} = m\frac{d^{2}}{dt^{2}} \left( x+ \rho \right) - \frac{mv^{2}}{x + \rho} = eB_{y} v.
+\end{equation}
+
+As $\rho = constant$, $\frac{d^{2}}{dt^{2}} ( x+ \rho )$ becomes $\frac{d^{2}x}{dt^{2}}$. In addition we are dealing with displacements of $x \ll \rho$, so we may approximate $\frac{1}{x+\rho} \approx \frac{1}{\rho}(1-\frac{x}{\rho})$ from the taylor expansion and taking linear terms in $x$. Thus we acquire the equation
+
+\begin{equation}
+ m\frac{d^{2}x}{dt^{2}}  - \frac{mv^{2}}{\rho}\left( 1 - \frac{x}{\rho} \right) = eB_{y} v.
+\end{equation}
+
+Subsequently we subsitute the magnetic field $B_{y} = B_{y0} + \frac{dB_{y}}{dx} x$ and arrive at
+
+\begin{equation}
+ m\frac{d^{2}x}{dt^{2}}  - \frac{mv^{2}}{\rho}\left( 1 - \frac{x}{\rho} \right) = e v \left[ B_{y0} + \frac{dB_{y}}{dx} x \right].
+\end{equation}
 
 
 \begin{enumerate}
