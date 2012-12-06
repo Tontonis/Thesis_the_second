@@ -10,7 +10,9 @@ An moving charged particle produces an electromagnetic field in a arc transverse
 
 
 \begin{figure}
-
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Bench_Top_Measurements/figures/coaxial-particle-fields.pdf}
+\end{center}
 \caption{Comparison of the electromagnetic field profile of a moving charged particle and a short time pulse propogating along a coaxial wire.}
 \label{fig:coax-part-profile}
 \end{figure}
@@ -28,14 +30,18 @@ The experimental setup is as shown in Fig. \ref{fig:classic-coax}. Firstly the e
 We then electrically match the characteristic impedance by adding resistors in series just before the DUT to resistively match the characteristic impedance of the VNA to that of the DUT. It is possible to use physical matching also using transition cones but these are costly, time consuming to construct and require new cones for each piecof equipment measured. And as can be seen in Fig. \ref{fig:matching-plot}, matching with a resistor is highly effective at removing the presence of reflections in coaxial measurements.
 
 \begin{figure}
-
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Bench_Top_Measurements/figures/wire_meas_single_wire.pdf}
+\end{center}
 \caption{Experimental setup for a measurement of the beam coupling impedance using the classical coaxial wire method}
 \label{fig:classic-coax}
 \end{figure} 
 
 \begin{figure}
-
-\caption{An example of a reflection measurement made with and without a matching resistor. The faded line is the measurement without matching, the bold line that with. The reduction in the reflection can be seen.}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Bench_Top_Measurements/figures/coax-matching-no-matching.png}
+\end{center}
+\caption{An example of a reflection measurement made with and without a matching resistor. The faded line is the measurement with matching, the bold line that without. The reduction in the reflection can be seen due to the flatter line after the initial reflection.}
 \label{fig:matching-plot}
 \end{figure}
 
@@ -119,7 +125,9 @@ where $\rho_{w}$ is the wire resistivity, $\epsilon$ the permitivitty, $f$ the f
 \end{equation}
 
 \begin{figure}
-
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Bench_Top_Measurements/figures/coax-resonator.png}
+\end{center}
 \label{fig:res-resonancce-examples}
 \caption{An example of the resonance pattern seen whilst performing measurements using the resonant method. Each peak corresponds to one data point in the final measurements.}
 \end{figure}
@@ -207,7 +215,9 @@ From this start we will apply this two both two wire measurements and to displac
 It is possible to directly measure the dipolar impedance of a device through the use of a two wire coaxial method. The measurement setup is identical to that of the single wire method, except that two wires, seperated by distance $\Delta$, are placed in the device, and a 180$^{\circ}$ hybrid is place between the wires and the VNA at both ends of the device. This setup is illustrated in Fig. \ref{fig:two_wire_measure}
 
 \begin{figure}
-
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Bench_Top_Measurements/figures/wire_meas_two_wire.pdf}
+\end{center}
 \label{fig:twowiremeasure}
 \caption{Measurement setup for measurements of the dipolar beam coupling impedance using the two wire setup for the classical coaxial wire method.}
 \end{figure}
@@ -414,11 +424,11 @@ Z_{dip} = \frac{c}{\omega \Delta^{2}} \frac{2 \delta P}{I_{0}^{2}}.
 
 \begin{figure}
 \subfigure[]{
+\includegraphics[width=0.45\textwidth]{Bench_Top_Measurements/figures/tsutsui-geometry.pdf}
 \label{fig:tsutsui-model}
 }
-
 \subfigure[]{
-
+\includegraphics[width=0.45\textwidth]{Bench_Top_Measurements/figures/zannini-model-geo.pdf}
 \label{fig:zannini-model}
 }
 \label{fig:wire-measure-geometries}

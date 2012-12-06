@@ -5,98 +5,98 @@
 \contentsline {chapter}{Acknowledgements}{27}
 \contentsline {chapter}{\numberline {1}Introduction}{28}
 \contentsline {section}{\numberline {1.1}The CERN Accelerator Complex}{28}
-\contentsline {section}{\numberline {1.2}The LHC}{30}
+\contentsline {section}{\numberline {1.2}The LHC}{28}
 \contentsline {section}{\numberline {1.3}Operational Figure of Merit - Luminosity}{30}
 \contentsline {subsection}{\numberline {1.3.1}Integrated Luminosity}{31}
 \contentsline {section}{\numberline {1.4}Beam Dynamics}{32}
 \contentsline {subsection}{\numberline {1.4.1}Linear Transverse Dynamics}{34}
 \contentsline {subsubsection}{Off-Momentum Particles}{38}
-\contentsline {chapter}{\numberline {2}Wakefields and Impedance}{39}
-\contentsline {section}{\numberline {2.1}Wakefields}{39}
-\contentsline {subsection}{\numberline {2.1.1}The Electromagnetic Fields of a Moving Charged Particle in Free Space}{40}
-\contentsline {subsection}{\numberline {2.1.2}Wakefields of a Bunch}{42}
-\contentsline {subsection}{\numberline {2.1.3}Transverse Wakefields}{42}
-\contentsline {subsection}{\numberline {2.1.4}Panowsky-Wenzel Theorem}{43}
-\contentsline {section}{\numberline {2.2}Impedances}{44}
-\contentsline {subsection}{\numberline {2.2.1}Beam Coupling Impedance}{45}
-\contentsline {subsection}{\numberline {2.2.2}Transverse Impedances}{45}
-\contentsline {subsection}{\numberline {2.2.3}Geometric Impedance}{46}
-\contentsline {subsubsection}{RLC Circuit Model}{48}
-\contentsline {subsection}{\numberline {2.2.4}Resistive Wall Impedance}{49}
-\contentsline {section}{\numberline {2.3}Example of the Effects of Wakefields}{51}
-\contentsline {subsection}{\numberline {2.3.1}Beam Induced Heating}{52}
-\contentsline {subsubsection}{Defining and Deriving Power Loss in Circular Accelerators}{52}
-\contentsline {subsubsection}{Longitudinal Beam Profiles}{53}
-\contentsline {subsubsection}{Beam induced heating due to a low Q impedance}{56}
-\contentsline {subsubsection}{Beam induced heating due to a high Q impedance}{58}
-\contentsline {subsubsection}{Some Examples of the Beam-Induced Heating}{60}
-\contentsline {subsubsection}{The Effect of Bunch Length on Power Loss}{60}
-\contentsline {subsubsection}{Beam-Induced Heating due to two traversing beams}{62}
-\contentsline {subsection}{\numberline {2.3.2}Beam Instabilities}{64}
-\contentsline {subsubsection}{Tune Shift and Tune Spread}{64}
-\contentsline {subsubsection}{Longitudinal Single Bunch Instabilities}{65}
-\contentsline {subsubsection}{Transverse Single Bunch Instabilities}{67}
-\contentsline {subsubsection}{Coupled Bunch Instabilities}{68}
-\contentsline {chapter}{\numberline {3}Beam Based Measurements of Beam Coupling Impedance}{70}
-\contentsline {section}{\numberline {3.1}Longitudinal Beam Impedance Measurements}{70}
-\contentsline {subsection}{\numberline {3.1.1}Potential Well Distortion with Bunch Intensity}{70}
-\contentsline {subsection}{\numberline {3.1.2}Synchronous Phase Shift}{72}
-\contentsline {section}{\numberline {3.2}Transverse Beam Impedance Measurements}{73}
-\contentsline {subsection}{\numberline {3.2.1}Tune shift change with bunch intensity}{74}
-\contentsline {subsection}{\numberline {3.2.2}Growth time change with chromaticity}{74}
-\contentsline {chapter}{\numberline {4}Bench Top Measurements of Beam Coupling Impedance}{75}
-\contentsline {section}{\numberline {4.1}Low Q-factor Impedances}{75}
-\contentsline {subsection}{\numberline {4.1.1}Classical Coaxial Wire Method}{76}
-\contentsline {subsection}{\numberline {4.1.2}Resonator Coaxial Wire Method}{78}
-\contentsline {subsection}{\numberline {4.1.3}Transverse Impedance Measurements}{80}
-\contentsline {subsubsection}{Two Wire Measurements}{82}
-\contentsline {subsubsection}{Structures with Top/Bottom, Left/Right Symmetry}{83}
-\contentsline {subsubsection}{Asymmetric Structures}{86}
-\contentsline {subsection}{\numberline {4.1.4}Measurements on Example Geometries}{87}
-\contentsline {subsubsection}{Structure with Top/Bottom, Left/Rght Symmetry}{89}
-\contentsline {subsubsection}{Two Parallel Ferrite Plates}{90}
-\contentsline {subsubsection}{Two Parallel Graphite Plates}{93}
-\contentsline {section}{\numberline {4.2}High Q-factor Impedances}{97}
-\contentsline {chapter}{\numberline {5}Computational Simulations of Beam Coupling Impedance}{99}
-\contentsline {section}{\numberline {5.1}Time Domain Simulations}{100}
-\contentsline {subsection}{\numberline {5.1.1}Direct Simulation of a Particle Beam}{100}
-\contentsline {section}{\numberline {5.2}Frequency Domain Simulations}{101}
-\contentsline {subsection}{\numberline {5.2.1}Eigenmode Simulations}{101}
-\contentsline {subsection}{\numberline {5.2.2}The Coaxial Wire Method by Simulation}{102}
-\contentsline {subsection}{\numberline {5.2.3}Simulation of the particle beam}{102}
-\contentsline {chapter}{\numberline {6}Beam Coupling Impedance Reduction Techniques}{104}
-\contentsline {section}{\numberline {6.1}Tapering of Step Transitions}{104}
-\contentsline {section}{\numberline {6.2}Transition Pieces}{105}
-\contentsline {section}{\numberline {6.3}Conductive Coatings}{106}
-\contentsline {section}{\numberline {6.4}Beam screens in kicker magnets}{107}
-\contentsline {section}{\numberline {6.5}Seriagraphy on Kicker Magnets}{108}
-\contentsline {section}{\numberline {6.6}Use of damping materials to de-Q resonant caviities}{109}
-\contentsline {subsection}{\numberline {6.6.1}Heat Loads on the Damping Material}{111}
-\contentsline {chapter}{\numberline {7}LHC Collimation Upgrades}{120}
-\contentsline {section}{\numberline {7.1}Introduction}{120}
-\contentsline {section}{\numberline {7.2}LHC Phase 2 Secondary Collimator Jaw Material}{123}
-\contentsline {subsection}{\numberline {7.2.1}Impedance Studies and Analysis}{126}
-\contentsline {section}{\numberline {7.3}TCTP Impedance Studies}{128}
-\contentsline {subsection}{\numberline {7.3.1}TCTP Collimator - Design and Geometry}{131}
-\contentsline {subsection}{\numberline {7.3.2}Impedance Simulations and Results}{131}
-\contentsline {subsection}{\numberline {7.3.3}Beam-Induced Heating}{132}
-\contentsline {subsubsection}{Location of Power Deposition}{137}
-\contentsline {chapter}{\numberline {8}LHC Injection Kicker Magnet}{140}
-\contentsline {section}{\numberline {8.1}LHC Injection Kicker Magnets}{141}
-\contentsline {subsection}{\numberline {8.1.1}Development of the LHC-MKI Beam Screen}{142}
-\contentsline {subsection}{\numberline {8.1.2}Observations of heating during 2011 and 2012 until Technical Stop 3}{143}
-\contentsline {section}{\numberline {8.2}Simulations and Measurements of the MKI with 15 Screen Conductors}{145}
-\contentsline {subsection}{\numberline {8.2.1}Beam Induced Heating Estimates for 15 Screen Conductors}{147}
-\contentsline {section}{\numberline {8.3}Other Concerns for the MKI Operation and Temperature Reduction}{150}
-\contentsline {section}{\numberline {8.4}Simulations and Measurements of the MKI with 19 Screen Conductors}{151}
-\contentsline {subsection}{\numberline {8.4.1}Temperature of MKI8d after Technical Stop 3}{153}
-\contentsline {section}{\numberline {8.5}The Dependence of the Beam Coupling Impedance on The Kicker Components}{154}
-\contentsline {subsection}{\numberline {8.5.1}The Impedance of the MKI - Effects of the Inclusion of the Beam Screen}{155}
-\contentsline {subsection}{\numberline {8.5.2}How Screening Changes with the Number of Screen Conductors}{157}
-\contentsline {subsection}{\numberline {8.5.3}Dependence of the Impedance on the Beam Screen Dimensions}{158}
-\contentsline {section}{\numberline {8.6}New Beam Screen Designs}{164}
-\contentsline {section}{\numberline {8.7}Upgrade Plans for Long Shutdown 1 and Beyond}{169}
-\contentsline {chapter}{\numberline {9}Conclusions}{173}
-\contentsline {chapter}{Bibliography}{175}
-\contentsline {chapter}{\numberline {A}TCTP Eigenmode Simulations - No Ferrite}{176}
-\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - With Ferrite}{182}
+\contentsline {chapter}{\numberline {2}Wakefields and Impedance}{40}
+\contentsline {section}{\numberline {2.1}Wakefields}{40}
+\contentsline {subsection}{\numberline {2.1.1}The Electromagnetic Fields of a Moving Charged Particle in Free Space}{41}
+\contentsline {subsection}{\numberline {2.1.2}Wakefields of a Bunch}{43}
+\contentsline {subsection}{\numberline {2.1.3}Transverse Wakefields}{43}
+\contentsline {subsection}{\numberline {2.1.4}Panowsky-Wenzel Theorem}{44}
+\contentsline {section}{\numberline {2.2}Impedances}{45}
+\contentsline {subsection}{\numberline {2.2.1}Beam Coupling Impedance}{46}
+\contentsline {subsection}{\numberline {2.2.2}Transverse Impedances}{46}
+\contentsline {subsection}{\numberline {2.2.3}Geometric Impedance}{47}
+\contentsline {subsubsection}{RLC Circuit Model}{49}
+\contentsline {subsection}{\numberline {2.2.4}Resistive Wall Impedance}{50}
+\contentsline {section}{\numberline {2.3}Example of the Effects of Wakefields}{52}
+\contentsline {subsection}{\numberline {2.3.1}Beam Induced Heating}{53}
+\contentsline {subsubsection}{Defining and Deriving Power Loss in Circular Accelerators}{53}
+\contentsline {subsubsection}{Longitudinal Beam Profiles}{54}
+\contentsline {subsubsection}{Beam induced heating due to a low Q impedance}{57}
+\contentsline {subsubsection}{Beam induced heating due to a high Q impedance}{59}
+\contentsline {subsubsection}{Some Examples of the Beam-Induced Heating}{61}
+\contentsline {subsubsection}{The Effect of Bunch Length on Power Loss}{61}
+\contentsline {subsubsection}{Beam-Induced Heating due to two traversing beams}{63}
+\contentsline {subsection}{\numberline {2.3.2}Beam Instabilities}{65}
+\contentsline {subsubsection}{Tune Shift and Tune Spread}{65}
+\contentsline {subsubsection}{Longitudinal Single Bunch Instabilities}{66}
+\contentsline {subsubsection}{Transverse Single Bunch Instabilities}{68}
+\contentsline {subsubsection}{Coupled Bunch Instabilities}{69}
+\contentsline {chapter}{\numberline {3}Beam Based Measurements of Beam Coupling Impedance}{71}
+\contentsline {section}{\numberline {3.1}Longitudinal Beam Impedance Measurements}{71}
+\contentsline {subsection}{\numberline {3.1.1}Potential Well Distortion with Bunch Intensity}{71}
+\contentsline {subsection}{\numberline {3.1.2}Synchronous Phase Shift}{73}
+\contentsline {section}{\numberline {3.2}Transverse Beam Impedance Measurements}{74}
+\contentsline {subsection}{\numberline {3.2.1}Tune shift change with bunch intensity}{75}
+\contentsline {subsection}{\numberline {3.2.2}Growth time change with chromaticity}{75}
+\contentsline {chapter}{\numberline {4}Bench Top Measurements of Beam Coupling Impedance}{76}
+\contentsline {section}{\numberline {4.1}Low Q-factor Impedances}{76}
+\contentsline {subsection}{\numberline {4.1.1}Classical Coaxial Wire Method}{77}
+\contentsline {subsection}{\numberline {4.1.2}Resonator Coaxial Wire Method}{80}
+\contentsline {subsection}{\numberline {4.1.3}Transverse Impedance Measurements}{83}
+\contentsline {subsubsection}{Two Wire Measurements}{84}
+\contentsline {subsubsection}{Structures with Top/Bottom, Left/Right Symmetry}{86}
+\contentsline {subsubsection}{Asymmetric Structures}{89}
+\contentsline {subsection}{\numberline {4.1.4}Measurements on Example Geometries}{90}
+\contentsline {subsubsection}{Structure with Top/Bottom, Left/Rght Symmetry}{92}
+\contentsline {subsubsection}{Two Parallel Ferrite Plates}{93}
+\contentsline {subsubsection}{Two Parallel Graphite Plates}{96}
+\contentsline {section}{\numberline {4.2}High Q-factor Impedances}{101}
+\contentsline {chapter}{\numberline {5}Computational Simulations of Beam Coupling Impedance}{103}
+\contentsline {section}{\numberline {5.1}Time Domain Simulations}{104}
+\contentsline {subsection}{\numberline {5.1.1}Direct Simulation of a Particle Beam}{104}
+\contentsline {section}{\numberline {5.2}Frequency Domain Simulations}{105}
+\contentsline {subsection}{\numberline {5.2.1}Eigenmode Simulations}{105}
+\contentsline {subsection}{\numberline {5.2.2}The Coaxial Wire Method by Simulation}{106}
+\contentsline {subsection}{\numberline {5.2.3}Simulation of the particle beam}{106}
+\contentsline {chapter}{\numberline {6}Beam Coupling Impedance Reduction Techniques}{108}
+\contentsline {section}{\numberline {6.1}Tapering of Step Transitions}{108}
+\contentsline {section}{\numberline {6.2}Transition Pieces}{109}
+\contentsline {section}{\numberline {6.3}Conductive Coatings}{111}
+\contentsline {section}{\numberline {6.4}Beam screens in kicker magnets}{111}
+\contentsline {section}{\numberline {6.5}Seriagraphy on Kicker Magnets}{112}
+\contentsline {section}{\numberline {6.6}Use of damping materials to de-Q resonant caviities}{113}
+\contentsline {subsection}{\numberline {6.6.1}Heat Loads on the Damping Material}{115}
+\contentsline {chapter}{\numberline {7}LHC Collimation Upgrades}{124}
+\contentsline {section}{\numberline {7.1}Introduction}{124}
+\contentsline {section}{\numberline {7.2}LHC Phase 2 Secondary Collimator Jaw Material}{127}
+\contentsline {subsection}{\numberline {7.2.1}Impedance Studies and Analysis}{130}
+\contentsline {section}{\numberline {7.3}TCTP Impedance Studies}{132}
+\contentsline {subsection}{\numberline {7.3.1}TCTP Collimator - Design and Geometry}{135}
+\contentsline {subsection}{\numberline {7.3.2}Impedance Simulations and Results}{135}
+\contentsline {subsection}{\numberline {7.3.3}Beam-Induced Heating}{136}
+\contentsline {subsubsection}{Location of Power Deposition}{141}
+\contentsline {chapter}{\numberline {8}LHC Injection Kicker Magnet}{144}
+\contentsline {section}{\numberline {8.1}LHC Injection Kicker Magnets}{145}
+\contentsline {subsection}{\numberline {8.1.1}Development of the LHC-MKI Beam Screen}{146}
+\contentsline {subsection}{\numberline {8.1.2}Observations of heating during 2011 and 2012 until Technical Stop 3}{147}
+\contentsline {section}{\numberline {8.2}Simulations and Measurements of the MKI with 15 Screen Conductors}{149}
+\contentsline {subsection}{\numberline {8.2.1}Beam Induced Heating Estimates for 15 Screen Conductors}{152}
+\contentsline {section}{\numberline {8.3}Other Concerns for the MKI Operation and Temperature Reduction}{154}
+\contentsline {section}{\numberline {8.4}Simulations and Measurements of the MKI with 19 Screen Conductors}{155}
+\contentsline {subsection}{\numberline {8.4.1}Temperature of MKI8d after Technical Stop 3}{157}
+\contentsline {section}{\numberline {8.5}The Dependence of the Beam Coupling Impedance on The Kicker Components}{158}
+\contentsline {subsection}{\numberline {8.5.1}The Impedance of the MKI - Effects of the Inclusion of the Beam Screen}{159}
+\contentsline {subsection}{\numberline {8.5.2}How Screening Changes with the Number of Screen Conductors}{161}
+\contentsline {subsection}{\numberline {8.5.3}Dependence of the Impedance on the Beam Screen Dimensions}{162}
+\contentsline {section}{\numberline {8.6}New Beam Screen Designs}{168}
+\contentsline {section}{\numberline {8.7}Upgrade Plans for Long Shutdown 1 and Beyond}{173}
+\contentsline {chapter}{\numberline {9}Conclusions}{177}
+\contentsline {chapter}{Bibliography}{179}
+\contentsline {chapter}{\numberline {A}TCTP Eigenmode Simulations - No Ferrite}{181}
+\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - With Ferrite}{187}
