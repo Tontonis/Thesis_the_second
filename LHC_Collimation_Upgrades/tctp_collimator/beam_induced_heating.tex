@@ -17,15 +17,14 @@ For these simulations we simulate half of the structure (due to the reflective s
 \includegraphics[width=0.7\textwidth]{LHC_Collimation_Upgrades/figures/longitudinal-impedance-tctp-ferr-freq-dom.pdf}
 \end{center}
 \label{fig:long-imp-tctp-freq}
-\caption{The real component of the longitudinal impedance for the TCTP collimator as simulated by both the time and frequency domains for the case with and without ferrite damping tiles. The strong resonances present in the case without ferrite can be seen to be strongly damped when the ferrite tiles are added. However a substantial broadband component occurs in addition due to the broadened resonance peaks.}
+\caption{The real component of the longitudinal impedance for the TCTP collimator as simulated in the frequency domains for the case with and without ferrite damping tiles. The strong resonances present in the case without ferrite can be seen to be strongly damped when the ferrite tiles are added. However a substantial broadband component occurs in addition due to the broadened resonance peaks.}
 \end{figure}
 
 Here we shall evaluate the resonances as a whole, or a few key resonances from a heating point of view. For a complete listing of the eigenmodes please see App.~\ref{app:tctp-eigenmodes} for a complete breakdown of the TCTP eigenmode simulations. To have a comprehensive review of the heating we consider the following heating possibilities
 
 \begin{itemize}
 \item{A beam harmonic occuring exactly on the resonant frequency with a certain bunch profile. Here we consider gaussian and cos$^{2}$ bunch profiles. Parameters for a number of different beam operating modes (summarised in Tab.~\ref{tab:lhc-tctp-heating-para}) are considered.}
-\item{Taking theoretical spectra for both 50ns and 25ns bunch spacings. In this case we consider the heating for both nominal operational parameters (1ns bunch length), running conditions from 2012 (bunch length between 1.2-1.4ns) and for HL-LHC parameters. These parameters are summarised in Tab.~\ref{tab:lhc-tctp-heating-para}. Different bunch profiles are considered - gaussian and cos$^{2}$ to account for high frequency lobes observed in measured beam spectra.}
-\item{Using measured multi-bunch spectra for 50ns bunch spacing measured in the LHC. These measurements are for the beam from injection, through the ramp to squeeze and finally collisions.}
+\item{Taking theoretical spectra for both 50ns and 25ns bunch spacings. In this case we consider the heating for both nominal operational parameters (1ns bunch length), running conditions from 2012 (bunch length between 1.0-1.5ns) and for HL-LHC parameters. These parameters are summarised in Tab.~\ref{tab:lhc-tctp-heating-para}. Different bunch profiles are considered - gaussian and cos$^{2}$ to account for high frequency lobes observed in measured beam spectra.}
 \end{itemize}
 
 \begin{table}
@@ -42,7 +41,7 @@ HL-LHC 50ns & 1.0 & 50ns & $3.3 \times 10^{11}$ & 1380 \\ \hline
 \end{center}
 \end{table}
 
-The heating estimates assuming on resonance beam harmonics can be seen in Tab.~\ref{tab:on-res-heating-tctp} for a variety of bunch lengths between 1-1.5ns assuming gaussian and cos$^{2}$ bunch distributions. The same data for the TCTP without the ferrite damping tiles can be seen in Tab.~\ref{tab:on-res-heating-tctp-no-ferr}. A number of things area immediately evident; 	The addition of the ferrite drastically reduces the power loss in the TCTP collimator, by a factor of $\approx$ 3. In addition, the consideration of the higher frequency lobes in the heating estimates for the TCTP is significant, as can be seen in Fig.~\ref{fig:tctp-heating-bunch-length-per-freq}. In this case the usefulness for the ferrites is clear.
+The heating estimates assuming on resonance beam harmonics can be seen in Tab.~\ref{tab:on-res-heating-tctp} for a variety of bunch lengths between 1-1.5ns assuming gaussian and cos$^{2}$ bunch distributions. The same data for the TCTP without the ferrite damping tiles can be seen in Tab.~\ref{tab:on-res-heating-tctp-no-ferr}. A number of things area immediately evident; The addition of the ferrite drastically reduces the power loss in the TCTP collimator, by a factor of $\approx$ 10. In addition, the consideration of the higher frequency lobes in the heating estimates for the TCTP is significant as can be seen by the large differences (factor $approx 3$ between gaussian and cos$^{2}$ profiles). In this case the usefulness for the ferrites is clear.
 
 \begin{table}
 \label{tab:on-res-heating-tctp}
@@ -51,12 +50,12 @@ The heating estimates assuming on resonance beam harmonics can be seen in Tab.~\
 \begin{tabular}{c | c | c | c | c | c | c | c | c  }
 $\tau_{b}$ (ns) & \multicolumn{2}{| c |}{50ns, 2012} & \multicolumn{2}{| c |}{25ns nominal} & \multicolumn{2}{| c |}{50ns, HL-LHC} & \multicolumn{2}{| c }{25ns, HL-LHC} \\ \hline
  & $P_{loss, g}$ & $P_{loss, c}$ & $P_{loss, g}$ & $P_{loss, c}$ & $P_{loss, g}$ & $P_{loss, c}$ & $P_{loss, g}$ & $P_{loss, c}$ \\ \hline
-1.0 & 5.6 & 14.2 & 10.6 & 27.0 & 21 & 53.4 & 32.2 & 81.8 \\ \hline
-1.1 & 3.8 & 10.2 & 7.2 & 19.6 & 14.4 & 38.8 & 22.0 & 59.0 \\ \hline
-1.2 & 2.6 & 7.4 & 5.0 & 14.0 & 10.2 & 27.8 & 15.4 & 42.2 \\ \hline
-1.3 & 2.0 & 5.4 & 3.6 & 10.0 & 7.2 & 20.0 & 11.0 & 30.4 \\ \hline
-1.4 & 1.4 & 3.8 & 2.6 & 7.4 & 5.2 & 14.6 & 8.0 & 22.2 \\ \hline
-1.5 & 1.0 & 2.8 & 2.0 & 5.4 & 3.8 & 10.8 & 5.8 & 16.4 \\ \hline
+1.0 & 2.8 & 7.1 & 5.3 & 15 & 10 & 27 & 16 & 41 \\ \hline
+1.1 & 1.9 & 5.1 & 3.6 & 9.8 & 7 & 19 & 11 & 30 \\ \hline
+1.2 & 1.4 & 3.7 & 2.5 & 7.0 & 5 & 13 & 7.7 & 21 \\ \hline
+1.3 & 0.9 & 2.7 & 1.8 & 5.0 & 4 & 10 & 5.5 & 15 \\ \hline
+1.4 & 0.7 & 1.9 & 1.3 & 3.7 & 3 & 7 & 3.9 & 11 \\ \hline
+1.5 & 0.5 & 1.4 & 1.0 & 2.7 & 2 & 5 & 2.9 & 8.2 \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -68,22 +67,17 @@ $\tau_{b}$ (ns) & \multicolumn{2}{| c |}{50ns, 2012} & \multicolumn{2}{| c |}{25
 \begin{tabular}{c | c | c | c | c | c | c | c | c  }
 $\tau_{b}$ (ns) & \multicolumn{2}{| c |}{50ns, 2012} & \multicolumn{2}{| c |}{25ns nominal} & \multicolumn{2}{| c |}{50ns, HL-LHC} & \multicolumn{2}{| c }{25ns, HL-LHC} \\ \hline
  & $P_{loss, g}$ & $P_{loss, c}$ & $P_{loss, g}$ & $P_{loss, c}$ & $P_{loss, g}$ & $P_{loss, c}$ & $P_{loss, g}$ & $P_{loss, c}$ \\ \hline
-1.0 & 2.8 & 7.1 & 5.3 & 13.5 & 10.5 & 26.7 & 16.1 & 40.9 \\ \hline
-1.1 & 1.9 & 5.1 & 3.6 & 9.8 & 7.2 & 19.4 & 11.0 & 29.5 \\ \hline
-1.2 & 1.3 & 3.7 & 2.5 & 7.0 & 5.1 & 13.9 & 7.7 & 21.1 \\ \hline
-1.3 & 1.0 & 2.7 &1.8 & 5.0 & 3.6 & 10.0 & 5.5 & 15.2 \\ \hline
-1.4 & 0.7 & 1.9 & 1.3 & 3.7 &2.6 & 7.3 & 4.0 & 11.1 \\ \hline
-1.5 & 0.5 & 1.4 & 1.0 & 2.7 & 1.9 & 5.4 & 2.9 & 8.2 \\ \hline
+1.0 & 21 & 52 & 41 & 100 & 81 & 197 & 123 & 301 \\ \hline
+1.1 & 15 & 38 & 29 & 72 & 56 & 143 & 86 & 218 \\ \hline
+1.2 & 10 & 28 & 20 & 53 & 40 & 105 & 61 & 160 \\ \hline
+1.3 & 7.7 & 21 & 15 & 39 & 29 & 78 & 43 & 119 \\ \hline
+1.4 & 5.4 & 15 & 10 & 30 &20 & 60 & 31 & 91 \\ \hline
+1.5 & 4.0 & 12 & 7.3 & 23 & 15 & 46 & 22 & 70 \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
 
-\begin{figure}
-\label{fig:tctp-heating-bunch-length-per-freq}
-\caption{The beam-induced heating of the TCTP with ferrite damping tiles for a number of different bunch lengths assuming both a gaussian and cos$^{2}$ distributions.}
-\end{figure}
-
-Considering the heating taking beam harmonics seperated the inverse of the bunch seperation (40$MHz$ for $t_{bunch} = 25ns$ and 20$MHz$ for $t_{bunch} = 50ns$) we acquire the results presented in Tab.~\ref{tab:heating-beam-harm-tctp-ferr} and Tab.~\ref{tab:heating-beam-harm-tctp-no-ferr} respectively, again for a variety of LHC operational parameters and assuming either a gaussian or a cos$^{2}$ longitudinal bunch profile. In this case it can be seen that the power loss for the ferrite case is larger than that experienced by the case without ferrite. This can be understood due to the fixed frequencies of the beam harmonics - if a high-Q resonance does not occur at or near a beam harmonic then the beam does not couple to the resonance. Due to the broad resonance peaks of the ferrite damped TCTP design the beam may couple to the resonance even if the resonance frequency of the cavity mode does not match the beam harmonic precisely due to the low-Q of the resonance.
+Considering the heating taking beam harmonics seperated by the inverse of the bunch seperation (40$MHz$ for $t_{bunch} = 25ns$ and 20$MHz$ for $t_{bunch} = 50ns$) we acquire the results presented in Tab.~\ref{tab:heating-beam-harm-tctp-ferr} and Tab.~\ref{tab:heating-beam-harm-tctp-no-ferr} respectively, again for a variety of LHC operational parameters and assuming either a gaussian or a cos$^{2}$ longitudinal bunch profile. In this case it can be seen that the power loss for the ferrite case is larger than that experienced by the case without ferrite. This can be understood due to the fixed frequencies of the beam harmonics - if a high-Q resonance does not occur at or near a beam harmonic then the beam does not couple to the resonance. Due to the broad resonance peaks of the ferrite damped TCTP design the beam may couple to the resonance even if the resonance frequency of the cavity mode does not match the beam harmonic precisely due to the low-Q of the resonance.
 
 \begin{table}
 \label{tab:heating-beam-harm-tctp-ferr}
@@ -92,12 +86,12 @@ Considering the heating taking beam harmonics seperated the inverse of the bunch
 \begin{tabular}{c | c | c | c | c | c | c | c | c  }
 $\tau_{b}$ (ns) & \multicolumn{2}{| c |}{50ns, 2012} & \multicolumn{2}{| c |}{25ns nominal} & \multicolumn{2}{| c |}{50ns, HL-LHC} & \multicolumn{2}{| c }{25ns, HL-LHC} \\ \hline
  & $P_{loss, g}$ & $P_{loss, c}$ & $P_{loss, g}$ & $P_{loss, c}$ & $P_{loss, g}$ & $P_{loss, c}$ & $P_{loss, g}$ & $P_{loss, c}$ \\ \hline
-1.0 & 19.0 & 36.2 & 18.2 & 35.0 & 71.6 & 136.8 & 54.8 & 104.6 \\ \hline
-1.1 & 14.8 & 29.2 & 14.2 & 28.0 & 56.2 & 110.0 & 42.8 & 85.0 \\ \hline
-1.2 & 11.8 & 23.6 & 11.2 & 22.6 & 44.8 & 89 & 34.0 & 68.6 \\ \hline
-1.3 & 9.6 & 19.2 & 9.0 & 18.4 & 36.2 & 72.6 & 27.4 & 55.6 \\ \hline
-1.4 & 7.8 & 16.0 & 7.4 & 15.2 & 29.4 & 60.0 & 22.2 & 45.8 \\ \hline
-1.5 & 6.4 & 13.2 & 6.0 & 12.6 & 24.2 & 50.0 & 18.4 & 38.0 \\ \hline
+1.0 & 9.5 & 18 & 9.1 & 17 & 36 & 68 & 27 & 53 \\ \hline
+1.1 & 7.4 & 14 & 7.1 & 14 & 28 & 55 & 21 & 42 \\ \hline
+1.2 & 5.9 & 11 & 5.6 & 11 & 22 & 45 & 17 & 34 \\ \hline
+1.3 & 4.8 & 9.6 & 4.5 & 9.2 & 18 & 36 & 14 & 28 \\ \hline
+1.4 & 3.9 & 8.0 & 3.7 & 7.5 & 14 & 29 & 11 & 22 \\ \hline
+1.5 & 3.2 & 6.6 & 3.0 & 6.3 & 12 & 25 & 9.1 & 19 \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -109,32 +103,31 @@ $\tau_{b}$ (ns) & \multicolumn{2}{| c |}{50ns, 2012} & \multicolumn{2}{| c |}{25
 \begin{tabular}{c | c | c | c | c | c | c | c | c  }
 $\tau_{b}$ (ns) & \multicolumn{2}{| c |}{50ns, 2012} & \multicolumn{2}{| c |}{25ns nominal} & \multicolumn{2}{| c |}{50ns, HL-LHC} & \multicolumn{2}{| c }{25ns, HL-LHC} \\ \hline
  & $P_{loss, g}$ & $P_{loss, c}$ & $P_{loss, g}$ & $P_{loss, c}$ & $P_{loss, g}$ & $P_{loss, c}$ & $P_{loss, g}$ & $P_{loss, c}$ \\ \hline
-1.0 & 2.8 & 7.1 & 5.3 & 13.5 & 12.1 & 25.0 & 16.1 & 40.9 \\ \hline
-1.1 & 1.9 & 5.1 & 3.6 & 9.8 & 7.2 & 19.4 & 11.0 & 29.5 \\ \hline
-1.2 & 1.3 & 3.7 & 2.5 & 7.0 & 5.1 & 13.9 & 7.7 & 21.1 \\ \hline
-1.3 & 1.0 & 2.7 &1.8 & 5.0 & 3.6 & 10.0 & 5.5 & 15.2 \\ \hline
-1.4 & 0.7 & 1.9 & 1.3 & 3.7 &2.6 & 7.3 & 4.0 & 11.1 \\ \hline
-1.5 & 0.5 & 1.4 & 1.0 & 2.7 & 1.9 & 5.4 & 2.9 & 8.2 \\ 
+1.0 & 2.2 & 6.0 & 2.4 & 6.6 & 8 & 22 & 7.2 & 20 \\ \hline
+1.1 & 1.5 & 4.2 & 1.6 & 4.5 & 6 & 15 & 4.7 & 14 \\ \hline
+1.2 & 1.1 & 2.9 & 1.0 & 3.1 & 4 & 11 & 3.1 & 9.5 \\ \hline
+1.3 & 0.8 & 2.1 & 0.7 & 2.2 & 3 & 8 & 2.1 & 6.7 \\ \hline
+1.4 & 0.5 & 1.5 & 0.5 & 1.6 &2 & 6 & 1.5 & 4.7 \\ \hline
+1.5 & 0.4 & 1.2 & 0.3 & 1.1 & 1 & 5 & 1.0 & 3.5 \\ 
 \end{tabular}
 \end{center}
 \end{table}
 
-
+A judgement must be made with regards as to which simulations provide a more realistic safety margin for operation in the LHC. For this we must consider both the worst case scenarios in each case and their likelihood. Considering the worst cases in both the case with and without ferrite we can see that for any given operational mode the worst case for the collimator without ferrite is substantially worse than that with ferrite. Considering the possibility of inaccuracy of the frequencies of the eigenmodes or their Q factors it is typically considered prudent to take the worst case scenario to avoid the need for costly repairs. In the case of adding ferrite it is possible to simply remove the ferrite if it is proved detrimental to operation, therefore present installation plans for the TCTP collimator include the ferrite damping system.
 
 \subsubsection{Location of Power Deposition}
 
 \begin{figure}
 \subfigure[]{
-
+\includegraphics[height=0.2\textwidth]{LHC_Collimation_Upgrades/figures/tctp-ferrite-heating.png}
 \label{fig:tctp-ferrite}
 }
 \subfigure[]{
-
+\includegraphics[height=0.2\textwidth]{LHC_Collimation_Upgrades/figures/tctp-rf-fingers-heating.png}
 \label{fig:tctp-long-rf-finger}
 }
-
 \label{fig:tctp-heat-loc}
-\caption{The different thermally sensitive components of the TCTP collimator. \ref{fig:tctp-ferrite} shows the ferrite tiles, and \ref{fig:tctp-long-rf-finger} the longitudinal RF fingers.}
+\caption{The different thermally sensitive components of the TCTP collimator highlighted in purple. \ref{fig:tctp-ferrite} shows the ferrite tiles, and \ref{fig:tctp-long-rf-finger} the longitudinal RF fingers.}
 \end{figure}
 
 Due to the poor cooling available in vacuum (cooled by radiative heating only. Although surrounded by a housing/in contact with surrounded components, the thermal contact between different components within the collimator is poor) it is important to know of the proportion of beam-induced power loss that is lost in thermally sensitive areas. These are areas where large increases in temperature can either lead to direct physical damage (as is the case with RF fingers) or may lead to a worsening physical condition of the collimator (if the ferrite tiles go above their Curie temperature). The components are highlighted in Fig.~\ref{fig:tctp-heat-loc}
@@ -161,13 +154,13 @@ Longitudinal RF Fingers & 4 \\
 \begin{tabular}{c | c | c | c | c }
 $\tau_{b}$ (ns) & 50ns, 2012 & 25ns nominal & 50ns, HL-LHC & 25ns, HL-LHC \\ \hline
  &  $P_{loss, c}$  & $P_{loss, c}$ &  $P_{loss, c}$  & $P_{loss, c}$ \\ \hline
-1.0 & 1.8 & 1.7 & 6.8 & 5.2 
+1.0 & 0.9 & 0.9 & 3.4 & 2.7 
 \end{tabular}
 \end{center}
 \end{table}
 
 
-The thermal behaviour as a result of this power load can be analysed using design software such as ANSYS[cite]. The results of these thermal simulations can be seen in [cite F. Carra/M. Garlasche colwg meeting], a summary of which is given in Fig.~\ref{fig:tctp-ferrite-temp-rise}. The important figure of merit is in whether the temperature of the ferrite increases beyond its Curie temperature. For the TT2-111R, this 375$^{\circ}$C[cite data sheet]. The power loss for the worst cases of the nominal, HL-LHC and HL-LHC parameters without crab cavities (bunch length $0.5$ns rather than $1.0$ns) is considered, in this case with a factor of two margin of error included to be conservative (i.e. we assume double the power on the ferrite tiles), and it can be seen that the temperature increase for even the worst case results in the temperature being significantly below the Curie temperature for this material.
+The thermal behaviour as a result of this power load can be analysed using design software such as ANSYS[cite]. The results of these thermal simulations can be seen in [cite F. Carra/M. Garlasche colwg meeting], a summary of which is given in Fig.~\ref{fig:tctp-ferrite-temp-rise}. The important figure of merit is in whether the temperature of the ferrite increases beyond its Curie temperature. For the TT2-111R, $T_{c}$ 375$^{\circ}$C[cite data sheet]. The power loss for the worst cases of the nominal, HL-LHC and HL-LHC parameters without crab cavities (bunch length $0.5$ns rather than $1.0$ns) is considered, in this case with a factor of two margin of error included to be conservative (i.e. we assume double the power on the ferrite tiles), and it can be seen that the temperature increase for even the worst case results in the temperature being significantly below the Curie temperature for this material.
 
 \begin{figure}
 \begin{center}
