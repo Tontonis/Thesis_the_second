@@ -606,9 +606,8 @@ For high Q-factor impedances, such as cavity impedances, it is not appropriate t
 \frac{1}{Q_{total}} = \frac{1}{Q_{cavity}} + \frac{1}{Q_{prop}}
 \end{equation}
 
-Under excitation by a charged particle beam, propogation losses do not exist below the cutoff frequency and thus $Q_{prop} = 0$. However, the addition of the coaxial wire causes these propogation losses to occur at all frequencies. Importantly, the Q-factor of these propogation losses is of a similar magnitude or smaller than that of the cavity resonance, leading to a great distortion of the measured Q. Similarly, the perturbation of the conductive wire in the centre of the structure leads to a shift in the resonance frequency of the cavity modes. 
+Under excitation by a charged particle beam, propogation losses do not exist below the cutoff frequency and thus $Q_{prop} = 0$. However, the addition of the coaxial wire causes these propogation losses to occur at all frequencies. Importantly, the Q-factor of these propogation losses is of a similar magnitude or smaller than that of the cavity resonance, leading to a great distortion of the measured Q. Similarly, the perturbation of the conductive wire in the centre of the structure leads to a shift in the resonance frequency of the cavity modes.  This has been well studied and illustratrated in [cite Vaccaro], an example of which is given in Fig.~\ref{fig:cav-wire-tans}.
 
-To illustrate this phenomena, a number of simulations have been carried out to compare the measurements using the coaxial wire method compared to the impedance as simulated using CST Particle Studio[ref]
 
 \begin{figure}
 \subfigure[]{
@@ -620,7 +619,14 @@ To illustrate this phenomena, a number of simulations have been carried out to c
 \label{fig:cavity_beampipe_coaxial}
 }
 \caption{Comparison of the geometries of a cavity and attached beampipes \ref{fig:cavity_beampipe} without and \ref{fig:cavity_beampipe_coaxial} with the coaxial wire in place. Note the dimensions and that the dashed line in \ref{fig:cavity_beampipe} represents the rotational plane of symmetry}
+\end{figure}
 
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.9\textwidth]{Bench_Top_Measurements/figures/coax-trans-cavity.pdf}
+\end{center}
+\label{fig:cav-wire-tans}
+\caption{A comparison of the transmission parameters through a pillbox cavity with and without a coaxial wire. A displaced coaxial wire is also shown to illustrate the possibility of exciting dipolar modes also. It can be seen that the transmission signals are drastically changed depending on the presence or not of the wire.}
 \end{figure}
 
 %

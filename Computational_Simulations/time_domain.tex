@@ -1,11 +1,6 @@
 \section{Time Domain Simulations}
 
-
-
-\begin{itemize}
-\item{A VERY general introduction to time domain simulations codes. This is not a thesis of computational methods, only one thing you may do with them. Write this way}
-\item{General experience - advantages of time domain methods (speed, memory footprint). Weaknesses (mesh resolution of structure, CPU limitation, long simulations times for high-Q resonances)}
-\end{itemize}
+Time domain simulations typically rely on direct simulations of the propogation of an EM signal through a structure and evaluating the response in some manner. In this section we shall primarily discuss the use of direct particle beam simulation, that is the simulation of the beams EM profile via a source signal and then subsequently evaluating the trailing field as a result to acquire the wakefield of the source signal and thus the structure simulated.
 
 \subsection{Direct Simulation of a Particle Beam}
 
@@ -22,23 +17,15 @@ These steps are illustrated for clarity in Fig.~\ref{fig:time_domain_beam} using
 
 \begin{figure}
 \subfigure[]{
-
+\includegraphics[width=0.45\textwidth]{Computational_Simulations/figures/source-integration-pos.png}
 \label{fig:cst_source_signal}
 }
 \subfigure[]{
-
-\label{fig:cst_witness_signal}
-}
-\subfigure[]{
-
+\includegraphics[width=0.5\textwidth]{Computational_Simulations/figures/source-witness-signal.png}
 \label{fig:cst_wakepotential}
 }
-\subfigure[]{
 
-\label{fig:cst_impedance}
-}
-
-\caption{An illusration of the \ref{fig:cst_source_signal} source signal and \ref{fig:cst_witness_signal} witness integration in a time domain code. The source signal and the resulting wakefield are shown in \ref{fig:cst_wakepotential}, and the subsequent calculated impedance in \ref{fig:cst_impedance}.}
+\caption{An illusration of the \ref{fig:cst_source_signal} source signal and witness integration in a time domain code. Here a sample from the UA9 goniometer is shown. The source signal and the resulting wakefield are shown in \ref{fig:cst_wakepotential}.}
 \ref{fig:time_domain_beam}
 \end{figure}
 
