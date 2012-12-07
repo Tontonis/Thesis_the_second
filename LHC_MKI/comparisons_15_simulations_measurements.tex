@@ -2,7 +2,7 @@
 
 To begin an analysis of the heating of the MKIs, and to verify the use of simulations as a tool for evaluating different designs of the MKI impedance reduction methods it was important to measure an existing MKI configuration as a benchmark. Due to the expected low beam coupling impedance of the MKI even with 15 screen conductors (on the order of 100$\Omega$ longitudinal beam coupling impedance) it was decided to do the measurements using the resonant coaxial wire method, described in Sec.~\ref{sec:reson-coax-meth}. This method limits the frequency resolution of the measurements ($\Delta{} f = c/ \Delta \lambda = c/2L_{device} \approx 40MHz$ where $c$ is the speed of light and $L_{device}\approx 3.5m$ is the length of the MKI in it's vacuum tank), but the added accuracy in this measurement is considered appropriate in this case.
 
-The measurements were carried out on a fully assembled MKI inside it's vacuum tank, with a beam screen housing 15 tapered screen conductors. For the single wire measurements a copper wire of radius 0.5mm was placed in the central beam pipe, suspended on a vacuum flange modified to take a Sucobox connection allowing a capacitor housed in a seperate sucobox to be attached to the connecting box (The experimental setup is shown in Fig.~\ref{fig:mki-meas-setup}). To displace the wire for displaced single wire measurements, a pair of nylon screws (one at each flange) were used to physically displace the wire. Displacements were taken at 3mm intervals in both the vertical and horizontal planes, between -9mm and +9mm displacement.
+The measurements were carried out on a fully assembled MKI inside it's vacuum tank, with a beam screen housing 15 tapered screen conductors. For the single wire measurements a copper wire of radius 0.5mm was placed in the central beam pipe, suspended on a vacuum flange modified to take a Sucobox connection allowing a capacitor housed in a seperate sucobox to be attached to the connecting box. To displace the wire for displaced single wire measurements, a pair of nylon screws (one at each flange) were used to physically displace the wire. Displacements were taken at 3mm intervals in both the vertical and horizontal planes, between -9mm and +9mm displacement.
 
 For the two wire measurements, two wires were suspended in the device, seperated by 7mm. The wires were connected to a single VNA, each connection run through a 180$^{\circ}$ hybrid to generate the appropriate phase difference between the two. The experimental setup for the two wire measurements is shown in Fig.~\ref{fig:mki-meas-two-wire}.
 
@@ -10,23 +10,20 @@ The VNA is calibrated using an 8532E calibration kit, using an IF bandwidth of 1
 
 The simulations of the MKI are carried out using CST Particle Studio, a time domain simulation code. A simplified model of the magnet is created, shown in Fig.~\ref{fig:mki-simulation-model}. An integrated wakelength of 15m is used in the simulations, and a simulated bunch of a gaussian profile with $\sigma_{z}=$45mm used. A half model is used for displacements of the source/integration path in the vertical axis due to the symmetry plane in the y-z plane, giving a mesh count of $\approx$ 16 million for vertically displaced simulations and $\approx$ 16 million for horizontally displaced simulations. To acquire the dipolar and constant impedance terms, the source signal is displaced whilst the path of integration is kept on axis. The linear variation in the resulting impedance can be seen to be the dipolar term and the constant impedance the constant term. Similarly for the quadrupolar term the source signal is kept on axis and the 
 
-\begin{figure}
-\subfigure[]{
-\label{fig:mki-meas-vac-tank}
-}
-\subfigure[]{
-\label{fig:mki-coupling-capacitor}
-}
-\label{fig:mki-meas-setup}
-\caption{The measurement setup of the coaxial wire measurements of an LHC-MKI. Shown is the vacuum tank with connecting N-type cables \ref{fig:mki-meas-vac-tank} and a coupling capacitor in it's associated Sucobox \ref{fig:mki-coupling-capacitor}.}
-\end{figure}
+
 
 \begin{figure}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-two-wires.png}
+\end{center}
 \label{fig:mki-meas-two-wire}
 \caption{The measurement setup for the two wire measurement setup. The 180$^{\circ}$ hybrid can be seen on top of the vacuum flange.}
 \end{figure}
 
 \begin{figure}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{LHC_MKI/figures/simulation-model-mki-15.png}
+\end{center}
 \label{fig:mki-simulation-model}
 \caption{The simulation model of the LHC injection kickers implemented in CST Particle Studio.}
 \end{figure}
@@ -108,11 +105,11 @@ Particles per bunch & 1.7$\times 10^{11}$ & \\
 \begin{center}
 \begin{tabular}{c | c | c | c}
 Bunch Length (ns) & $P_{loss, gaussian}$ & $P_{loss, parabolic}$ & $P_{loss, cos^{2}}$ \\ \hline
-1.0 & & & \\ \hline
-1.1 & & & \\ \hline
-1.2 & & & \\ \hline
-1.3 & & & \\ \hline
-1.4 & & & \\ \hline
+1.0 & 134 & 137 & 210 \\ \hline
+1.1 & 113 & 115 & 171 \\ \hline
+1.2 & 98 & 99 & 143 \\ \hline
+1.3 & 86 & 88 & 123 \\ \hline
+1.4 & 79 & 80 & 108 \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
