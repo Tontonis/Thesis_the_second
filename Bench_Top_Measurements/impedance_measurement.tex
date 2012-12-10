@@ -598,6 +598,55 @@ The longitudinal impedance can be seen in Fig.~\ref{fig:graph-plates-long-imp}. 
 
 The agreement between simulations and theory for the vertical dipolar impedance can be seen to be very good over the entire frequency range also (see Fig.~\ref{fig:graph-plates-dip-vert}). The results at low frequencies (below 100kHz) for the power loss method and at all frequencies for the classical coaxial wire method for the horizontal dipolar impedance agree very well with theory (see Fig.~\ref{fig:graph-plates-dip-horz}). 
 
+\subsubsection{C Core Ferrite Kicker}
+
+To test the measurement method for an asymmetric structure a model of the c-core ferrite kicker magnet was used, as shown in Fig.\ref{fig:zannini-model}, the analytical details of which are given in [cite zannini IPAC paper]. Key in this type of structure is that it predicts the extence of a constant transverse impedance term as well as the quadrupolar terms, thus we may completely evaluate the asymmetric measurement method. For these simulations a structure of $a=15$mm, $r=20$mm, $\theta = \pi / 2$ was used. A structure of $20$mm in length was used. Simulations were carried out using the classical coaxial wire method as simulated in HFSS.
+
+The following parameters were used for the simulations; wire of 0.2mm in radius is used, and the following displacement used to acquire the total transverse terms:
+
+\begin{enumerate}
+\item{In the horizontal axis -  displaced between -5mm to +5mm at intervals of 1mm}
+\item{In the vertical axis - displaced between -5mm to +5mm at intervals of 1mm.}
+\end{enumerate}
+
+For the two wire simulations, two wires of radius 0.2mm are used, with a seperation of 2mm in the x-dimension, and 2mm in the y-dimension. 4 simulation configurations are used described below:
+
+\begin{enumerate}
+\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 20MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10MHz at 1MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 200MHz solving to a second order basi. A discrete frequency sweep is then carried out in the range 10-100MHz at 10MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 2GHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 100MHz-1GHz at 100MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 10GHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10GHz at 1GHz intervals.}
+\end{enumerate}
+
+These parameters are used to benefit from an appropriate mesh count for the given frequency range, thus increasing simulation speed by not using a high density mesh at frequencies where no benefits would be gained.
+
+\begin{figure}
+\subfigure[]{
+\includegraphics[height=0.35\textwidth]{Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/longitudinal-impedance.pdf}
+\label{fig:c-core-longitudinal}
+}
+\subfigure[]{
+\includegraphics[height=0.35\textwidth]{Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/dipolar-vertical-impedance.pdf}
+\label{fig:c-core-dipolar}
+}
+\subfigure[]{
+\includegraphics[height=0.35\textwidth]{Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/quadrupolar-vertical-impedance.pdf}
+\label{fig:c-core-quadrupolar}
+}
+\subfigure[]{
+\includegraphics[height=0.35\textwidth]{Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/constant-vertical-impedance.pdf}
+\label{fig:c-core-constant}
+}
+\label{fig:c-core-impedance}
+\caption{The impedance of the c-core ferrite kicker as acquired by simulating the classical coaxial wire method in HFSS. Shown is the \ref{fig:c-core-longitudinal} longitudinal impedance, \ref{fig:c-core-dipolar} the dipolar impedance, \ref{fig:c-core-quadrupolar} the quadrupolar impedance and \ref{fig:c-core-constant} the constant transverse impedance.}
+\end{figure}
+
+The beam coupling impedances measured are shown in Fig.~\ref{fig:c-core-impedance}. It can be seen that the longitudinal impedance agrees well over the entire frequency range below 1GHz (Fig.~\ref{fig:c-core-longitudinal}. The analytical calculations breakdown in this regime due to the family of Bessel functions used for the calculations being optimised for low frequency calculations. Similarly the agreement for the dipolar impedance can be seen to be exceptionally good over the majority of the frequency range, wih an increasing descrepency at high frequencies (Fig.~\ref{fig:c-core-dipolar}).
+
+To test the asymmetric method we should look at the constant and quadrupolar terms. In this case it can be seen that the agreement with the constant transverse term is exceptionally good across the entire frequency range (Fig.~\ref{fig:c-core-constant}). The agreement for the quadrupolar impedance is good in the range of frequencies below 1GHz. Above this the unsuitability of the family of bessel functions used for this frequency range becomes more apparents and the simulated and analytical results diverge.
+
+It can be seen that the proposed asymmetric method can replicate the beam coupling impedance of an asymmetric structure, both longitudinal and transverse (dipolar, quadrupolar and constant) terms. 
+
 \section{High Q-factor Impedances}
 
 For high Q-factor impedances, such as cavity impedances, it is not appropriate to use a coaxial wire method to measure the impedance due to the large perturbation of the boundary conditions that it causes [ref Vaccaro coaxial method], in particular below the cut-off frequency of the connecting beam pipes. This is due to the presence of the coaxial wire reducing the cut-off frequency to 0Hz, thus allowing propogation losses at all frequencies rather than just above cut-off. To illustrate this, we can consider the total Q of a cavity to be related to the "trapped" cavity mode Q and the propogation losses as;
