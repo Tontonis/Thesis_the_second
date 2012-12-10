@@ -1,0 +1,5 @@
+Thesis corrections so far
+
+Introduction - Abstract redo
+Transverse dynamics - notes about transverse emittane - preserved quantity
+Longitudnal dynamics -  a short introduction with parallels to transverse dynamics. Simple introduction - principle of phase stability - short longitudinal emittance and diagram. 
