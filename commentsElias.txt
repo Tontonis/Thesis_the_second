@@ -1,10 +1,30 @@
 Thesis corrections so far
 
-Introduction - Abstract redo
+Introduction - Abstract redo. More emphasis on the fact that the MKI was a limiting factor on the integrated luminosity due to RF heating.
 Transverse dynamics - notes about transverse emittane - preserved quantity
 Longitudnal dynamics -  a short introduction with parallels to transverse dynamics. Simple introduction - principle of phase stability - short longitudinal emittance and diagram. 
 
 Wakefields and Impedance(s)
 
+be consistent with i or j
 Introduction - include statement "In this derivation we follow closely the introductions given by Vaccarro and Stupakov."
 bunch wake function - wakepotential
+broken figure link fig. 2.5 - Resistive wall formula
+Classical formula - should be Tsutsui formalism
+Beam induced heating - width of equations! Reformat to meet margin requirements
+Instabilities - Tune shift. Change x displacement to include linear solution and then a perturbation to this solution.
+Asymmetric method - Write how to calculate the constant transverse term 
+
+Beam-based measurement techniques
+Possibly include introduction to longitudinal motion here with comments on phase slip and potential well distortion.
+
+
+LHC MKI
+Heating pre ts3 - Make each a full page width to show the figures. They're important.
+Heating post TS3 - do similar
+Relink figures 8.12/13
+Table - figures heating etc.
+
+Conclusions
+Pros and cons of RF fingers and ferrite
+RF heating - known for lepton machines (B-factories)
