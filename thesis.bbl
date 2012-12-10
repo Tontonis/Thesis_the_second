@@ -80,6 +80,104 @@ C.~J. Maggiore, N.~Agazaryan, N.~Bassler, E.~Blackmore, G.~Beyer, J.~J.
   minus 0.4em\relax Geneva: CERN, 1998.
 
 \bibitem{Holzer:TransDyn}
-B.~Holzer, ``Transverse beam dynamics,'' CERN Accelerator School, 2010.
+B.~Holzer, ``Transverse beam dynamics,'' Introductory CERN Accelerator School,
+  2010.
+
+\bibitem{Leduff:LongDyn}
+J.~Le~Duff, ``Longitiudinal beam dynamics,'' Introductory CERN Accelerator
+  School, 2010.
+
+\bibitem{Laslett:ResWallInstab}
+L.~Laslett, V.~Neil, and A.~Sessler, ``{Transverse Resistive Instabilities of
+  Intense Coasting Beams in Particle Accelerators},'' \emph{Rev.Sci.Instrum.},
+  vol.~36, pp. 436--448, 1965.
+
+\bibitem{Stupakov:wakeandImp}
+G.~V. Stupakov, ``{Wake and impedance},'' pp. 205--230, 2000.
+
+\bibitem{Stupakov:surfaceRough}
+G.~Stupakov, ``{Surface roughness impedance},'' pp. 141--152, 2000.
+
+\bibitem{Stupakov:adInImpTheory}
+------, ``{Advances in Impedance Theory},'' 2009.
+
+\bibitem{Mounet:PhDThesis}
+N.~Mounet, L.~Rivkin, and E.~Métral, ``The lhc transverse coupled-bunch
+  instability. oai:cds.cern.ch:1451296,'' Ph.D. dissertation, Lausanne, EPFL,
+  Mar 2012, presented 2012.
+
+\bibitem{Palumbo:Wakes}
+L.~Palumbo, V.~Vaccaro, and M.~Zobov, ``{Wake fields and impedance},'' 1994.
+
+\bibitem{Wolsky:TheoryEM}
+A.~Wolski, ``Theory of electromagnetic fields,'' RF for Accelerators, CERN
+  Accelerator School, 2010.
+
+\bibitem{Jensen:RFCav}
+E.~Jensen, ``Cavity basics,'' RF for Accelerators, CERN Accelerator School,
+  2010.
+
+\bibitem{Chao:PhysColEff}
+A.~W. Chao, \emph{Physics of collective beam instabilities in high energy
+  accelerators}.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY: Wiley,
+  1993.
+
+\bibitem{Roncarolo:ColImpMeas}
+F.~Roncarolo, F.~Caspers, T.~Kroyer, E.~Metral, N.~Mounet, B.~Salvant, and
+  B.~Zotter, ``Comparison between laboratory measurements, simulations, and
+  analytical predictions of the transverse wall impedance at low frequencies.
+  oai:cds.cern.ch:1247961,'' \emph{Phys. Rev. Lett.}, vol.~12, no.
+  CERN-BE-2010-005. 8, p. 084401. 1 p, Aug 2009.
+
+\bibitem{Tsutsui:ferrKickLong}
+H.~Tsutsui, ``Some simplified models of ferrite kicker magnet for calculation
+  of longitudinal coupling impedance. oai:cds.cern.ch:426384,'' CERN, Geneva,
+  Tech. Rep. CERN-SL-2000-004-AP, Jan 2000.
+
+\bibitem{Biancacci:MMFiniteInsert}
+N.~Biancacci, V.~Vaccaro, E.~Metral, B.~Salvant, M.~Migliorati, and L.~Palumbo,
+  ``The mode matching method applied to beam coupling impedance calculations of
+  finite length devices. oai:cds.cern.ch:1470300,'' CERN, Geneva, Tech. Rep.
+  CERN-ATS-2012-187, May 2012.
+
+\bibitem{Mounet:Axisymmetric}
+N.~Mounet and E.~Métral, ``Electromagnetic fields created by a macroparticle
+  in an infinitely long and axisymmetric multilayer beam pipe.
+  oai:cds.cern.ch:1228293,'' CERN, Geneva, Tech. Rep. CERN-BE-2009-039, Nov
+  2009.
+
+\bibitem{Mounet:Flat}
+------, ``Electromagnetic fields and beam coupling impedances in a multilayer
+  flat chamber,'' no. CERN-ATS-Note-2010-056, Dec 2010.
+
+\bibitem{Burov:TransInstabSC}
+A.~Burov and V.~Lebedev, ``Transverse instabilities of coasting beams with
+  space charge,'' Tech. Rep. arXiv:0812.3887. FERMILAB-PUB-08-479-AD, Dec 2008,
+  comments: 6 pages, 2 figures, accepted by Phys. Rev. ST - Accel. Beams.
+
+\bibitem{Boine-Frankenheim:InstabSCRings}
+O.~Boine-Frankenheim, I.~Hofmann, and V.~Kornilov, ``Instabilities and space
+  charge effects in high intensity ring accelerators,'' p. 5 p, 2006.
+
+\bibitem{Pieloni:PhDThesis}
+T.~Pieloni, W.~Herr, A.~Bay, and L.~Rivkin, ``A study of beam-beam effects in
+  hadron colliders with a large number of bunches. oai:cds.cern.ch:1259906,''
+  Ph.D. dissertation, Ecole Polytechnique, Lausanne, Milan U., 2008, presented
+  on 4 Dec 2008.
+
+\bibitem{Li:ECloud}
+K.~S.~B. Li and G.~Rumolo, ``Review of beam instabilities in the presence of
+  electron clouds in the lhc. oai:cds.cern.ch:1381509,'' no. CERN-ATS-2011-095,
+  p. 3 p, Sep 2011.
+
+\bibitem{Schaumann:IBS}
+M.~Schaumann, J.~Jowett, and R.~Bruce, ``Intra-beam scattering and luminosity
+  evolution for hl-lhc proton beams,'' CERN, Geneva, Tech. Rep.
+  CERN-ATS-2012-290, Dec 2012.
+
+\bibitem{Mertens:IBSThesis}
+T.~Mertens, J.~Jowett, and M.~Sousa Da~Costa, ``Intrabeam scattering in the
+  lhc. oai:cds.cern.ch:1364596,'' Ph.D. dissertation, Porto U., Porto, 2011,
+  presented 17 Jun 2011.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  10 DEC 2012 11:23
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  10 DEC 2012 18:07
 entering extended mode
 **C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
 (C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
@@ -660,24 +660,7 @@ Overfull \hbox (21.20888pt too wide) in paragraph at lines 48--48
 m cou-pling impedance 
  []
 
-[12]
-
-LaTeX Warning: Reference `fig:c-core-longitudinal' on page 103 undefined on inp
-ut line 72.
-
-
-LaTeX Warning: Reference `fig:c-core-dipolar' on page 103 undefined on input li
-ne 72.
-
-
-LaTeX Warning: Reference `fig:c-core-quadrupolar' on page 103 undefined on inpu
-t line 72.
-
-
-LaTeX Warning: Reference `fig:c-core-constant' on page 103 undefined on input l
-ine 72.
-
-[13] [14] [15] [16]
+[12] [13] [14] [15] [16]
 Overfull \hbox (3.13618pt too wide) in paragraph at lines 138--138
  [][] []\T1/ptm/m/n/12 The dif-fer-ent ther-mally sen-si-tive com-po-nents of t
 he TCTP col-li-ma-tor high- 
@@ -697,11 +680,11 @@ spheres place in MKI8d
 
 [19]
 
-LaTeX Warning: Reference `fig:overlap-imp-tot' on page 171 undefined on input l
+LaTeX Warning: Reference `fig:overlap-imp-tot' on page 172 undefined on input l
 ine 191.
 
 
-LaTeX Warning: Reference `eqn:res-freq-mki' on page 171 undefined on input line
+LaTeX Warning: Reference `eqn:res-freq-mki' on page 172 undefined on input line
  194.
 
 [20] [21])
@@ -811,12 +794,17 @@ File: Wakefields_and_Impedances/figures/impedance-des.pdf Graphic file (type pd
 f)
  <use Wakefields_and_Impedances/figures/impedance-des.pdf>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/impedance-des.pdf us
-ed on input line 35.
+ed on input line 34.
 (pdftex.def)             Requested size: 384.68576pt x 143.93565pt.
 )
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\Wakefields_and_Impedances/geo
-metric.tex [48 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and
-_Impedances/figures/impedance-des.pdf>]
+metric.tex
+
+LaTeX Warning: Citation `Stupakov:wakeAndImp' on page 48 undefined on input lin
+e 6.
+
+[48 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
+/figures/impedance-des.pdf>]
 <Wakefields_and_Impedances/figures/pillbox-cav.pdf, id=231, 455.30101pt x 284.5
 6313pt>
 File: Wakefields_and_Impedances/figures/pillbox-cav.pdf Graphic file (type pdf)
@@ -838,7 +826,12 @@ ed on input line 34.
  [50 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedance
 s/figures/equiv-circuit.pdf>])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\Wakefields_and_Impedances/res
-istive_wall.tex [51]
+istive_wall.tex
+
+LaTeX Warning: Citation `Métral:ResWallWideFreq' on page 51 undefined on input 
+line 4.
+
+[51]
 
 LaTeX Warning: File `Wakefields_and_Impedances/figures/reWallGeo.pdf' not found
  on input line 10.
@@ -2765,18 +2758,18 @@ cel-er-a-tor,''
 
 [185
 
-]) [186]
+] [186] [187]) [188]
 Appendix A.
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/vacEigenTable.tex
-[187
+[189
 
-] [188] [189] [190] [191]) [192]
+] [190] [191] [192] [193]) [194]
 Appendix B.
 
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/ferrEigenTable.tex
-[193
+[195
 
-] [194] [195]) [196]
+] [196] [197]) [198]
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.aux)
 
 LaTeX Warning: There were undefined references.
@@ -2786,10 +2779,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6278 strings out of 494045
- 139494 string characters out of 3148390
- 201743 words of memory out of 3000000
- 9196 multiletter control sequences out of 15000+200000
+ 6301 strings out of 494045
+ 139949 string characters out of 3148390
+ 202743 words of memory out of 3000000
+ 9219 multiletter control sequences out of 15000+200000
  47940 words of font info for 72 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  28i,13n,24p,1858b,302s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2809,9 +2802,9 @@ w/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (196 pages, 21154510 bytes).
+Output written on thesis.pdf (198 pages, 21158073 bytes).
 PDF statistics:
- 5183 PDF objects out of 6186 (max. 8388607)
+ 5189 PDF objects out of 6186 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  696 words of extra memory for PDF output out of 10000 (max. 10000000)
 
