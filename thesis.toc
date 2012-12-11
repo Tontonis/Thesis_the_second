@@ -27,16 +27,16 @@
 \contentsline {subsection}{\numberline {2.3.1}Beam Induced Heating}{54}
 \contentsline {subsubsection}{Defining and Deriving Power Loss in Circular Accelerators}{54}
 \contentsline {subsubsection}{Longitudinal Beam Profiles}{55}
-\contentsline {subsubsection}{Beam induced heating due to a low Q impedance}{58}
+\contentsline {subsubsection}{Beam induced heating due to a low Q impedance}{59}
 \contentsline {subsubsection}{Beam induced heating due to a high Q impedance}{60}
-\contentsline {subsubsection}{Some Examples of the Beam-Induced Heating}{62}
+\contentsline {subsubsection}{Some Examples of the Beam-Induced Heating}{61}
 \contentsline {subsubsection}{The Effect of Bunch Length on Power Loss}{62}
 \contentsline {subsubsection}{Beam-Induced Heating due to two traversing beams}{64}
 \contentsline {subsection}{\numberline {2.3.2}Beam Instabilities}{66}
 \contentsline {subsubsection}{Tune Shift and Tune Spread}{66}
 \contentsline {subsubsection}{Longitudinal Single Bunch Instabilities}{67}
 \contentsline {subsubsection}{Transverse Single Bunch Instabilities}{69}
-\contentsline {subsubsection}{Coupled Bunch Instabilities}{70}
+\contentsline {subsubsection}{Coupled Bunch Instabilities}{71}
 \contentsline {chapter}{\numberline {3}Beam Based Measurements of Beam Coupling Impedance}{72}
 \contentsline {section}{\numberline {3.1}Longitudinal Beam Impedance Measurements}{72}
 \contentsline {subsection}{\numberline {3.1.1}Potential Well Distortion with Bunch Intensity}{72}
@@ -99,5 +99,5 @@
 \contentsline {section}{\numberline {8.7}Upgrade Plans for Long Shutdown 1 and Beyond}{182}
 \contentsline {chapter}{\numberline {9}Conclusions}{183}
 \contentsline {chapter}{Bibliography}{185}
-\contentsline {chapter}{\numberline {A}TCTP Eigenmode Simulations - No Ferrite}{189}
-\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - With Ferrite}{195}
+\contentsline {chapter}{\numberline {A}TCTP Eigenmode Simulations - No Ferrite}{191}
+\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - With Ferrite}{197}

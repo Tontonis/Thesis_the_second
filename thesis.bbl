@@ -21,6 +21,23 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{Baudrenghien:LHCPowSpec}
+P.~Baudrenghien, M.~E. Angoletta, T.~Argyropoulos, L.~Arnaudon, T.~Bohl,
+  O.~Brunner, A.~Butterworth, E.~Ciapala, F.~Dubouchet, J.~Esteban-Muller,
+  J.~Ferreira-Bento, D.~Glenat, G.~Hagmann, W.~Hofle, D.~Jacquet, M.~Jaussi,
+  S.~Kouzue, D.~Landre, J.~Lollierou, P.~Maesen, P.~Martinez~Yanez,
+  T.~Mastoridis, J.~Molendijk, C.~Nicou, J.~Noirjean, G.~Papotti, A.~Pashnin,
+  G.~Pechaud, J.~Pradier, J.~Sanchez-Quesada, E.~Shaposhnikova, M.~Schokker,
+  D.~Stellfeld, J.~Tuckmantel, D.~Valuch, U.~Wehrle, and F.~Weierud, ``The lhc
+  rf system - experience with beam operation. oai:cds.cern.ch:1379146,'' Tech.
+  Rep. CERN-ATS-2011-048, Aug 2011.
+
+\bibitem{Schindl:SpaceCharge}
+S.~Karlheinz, ``Space charge,'' Introductory CERN Accelerator School, 2006.
+
+\bibitem{Rumolo:IntroInstab}
+G.~Rumolo, ``Beam instabilities,'' Intermediate CERN Accelerator School, 2011.
+
 \bibitem{Bailey:CNGS}
 R.~Bailey, J.~L. Baldy, A.~E. Ball, P.~Bonnal, M.~Buhler-Broglin,
   C.~D\'{e}traz, K.~Elsener, A.~Ereditato, P.~E. Faugeras, A.~Ferrari,
@@ -150,6 +167,20 @@ N.~Mounet and E.~Métral, ``Electromagnetic fields created by a macroparticle
 ------, ``Electromagnetic fields and beam coupling impedances in a multilayer
   flat chamber,'' CERN, Geneva, Tech. Rep. CERN-ATS-Note-2010-056, Dec 2010.
 
+\bibitem{Ng:IntDepInstab}
+K.~Y. Ng, \emph{Physics of Intensity Dependent Beam Instabilities}.\hskip 1em
+  plus 0.5em minus 0.4em\relax New Jersey, NJ: World Scientific, 2006.
+
+\bibitem{Grudiev:LongTransSecCol}
+A.~Grudiev, ``Simulation of longitudinal and transverse impedances of trapped
+  modes in lhc secondary collimator,'' CERN, Geneva, Tech. Rep.
+  AB-Note-2005-042. CERN-AB-Note-2005-042, Dec 2005.
+
+\bibitem{Grudiev:twoBeamCol}
+------, ``Simulation and reduction of longitudinal and transverse impedances of
+  a collimation device with two beams in one vacuum chamber,'' Tech. Rep.
+  LHC-Project-note-413, Mar 2008.
+
 \bibitem{Burov:TransInstabSC}
 A.~Burov and V.~Lebedev, ``Transverse instabilities of coasting beams with
   space charge,'' Tech. Rep. arXiv:0812.3887. FERMILAB-PUB-08-479-AD, Dec 2008,
@@ -179,5 +210,64 @@ M.~Schaumann, J.~Jowett, and R.~Bruce, ``Intra-beam scattering and luminosity
 T.~Mertens, J.~Jowett, and M.~Sousa Da~Costa, ``Intrabeam scattering in the
   lhc. oai:cds.cern.ch:1364596,'' Ph.D. dissertation, Porto U., Porto, 2011,
   presented 17 Jun 2011.
+
+\bibitem{Bohl:SingleBunchEnLoss}
+T.~Bohl, A.~Hofmann, T.~P.~R. Linnecar, E.~Shaposhnikova, and J.~Tückmantel,
+  ``Energy loss of a single bunch in the sps,'' CERN, Geneva, Tech. Rep.
+  AB-Note-2004-017, Mar 2004.
+
+\bibitem{Argyropoulos:longImpInj}
+T.~Argyropoulos, T.~Bohl, A.~Burov, R.~Calaga, L.~Ficcadenti, E.~Metral,
+  N.~Mounet, T.~Mastoridis, J.~Esteban~Muller, V.~Kain, G.~Papotti,
+  F.~Roncarolo, and E.~Shaposhnikova, ``Studies of the lhc impedance at
+  injection energy,'' Tech. Rep. CERN-ATS-2012-060 MD, Jul 2012.
+
+\bibitem{Sacherer:BunchBeamEffects}
+F.~J. Sacherer, ``Single-beam collective phenomena: transverse ii bunched
+  beams,'' 1st International School on Particle Accelerators, 1977.
+
+\bibitem{Gluckstern:WireMeasImp}
+R.~L. Gluckstern and R.~Li, ``Analysis of coaxial wire measurement of
+  longitudinal coupling impedance,'' \emph{Part. Accel.}, vol.~29, no.
+  DOE-ER-10666-1. CONF-890803-7, pp. 159--166. 8 p, 1989.
+
+\bibitem{Vaccaro:ImprovedWireMeth}
+V.~G. Vaccaro, ``Coupling impedance measurements: an improved wire method,''
+  INFN, Rome, Tech. Rep. INFN-TC-94-023, Nov 1994.
+
+\bibitem{Hahn:BenchMeasInter}
+\BIBentryALTinterwordspacing
+H.~Hahn, ``Interpretation of coupling impedance bench measurements,''
+  \emph{Phys. Rev. ST Accel. Beams}, vol.~7, p. 012001, Jan 2004. [Online].
+  Available: \url{http://link.aps.org/doi/10.1103/PhysRevSTAB.7.012001}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Jensen:ImprovLogForm}
+E.~Jensen, ``An improved log-formula for homogeneously distributed impedance.
+  oai:cds.cern.ch:960162,'' CERN, Geneva, Tech. Rep. CERN-PS-RF-NOTE-2000-001,
+  Jan 2000.
+
+\bibitem{Tsutsui:OnSingleWire}
+H.~Tsutsui, ``On single wire technique for transverse coupling impedance
+  measurement,'' CERN, Geneva, Tech. Rep. SL-Note-2002-034-AP, Oct 2002.
+
+\bibitem{Kroyer:lowFreqColImp}
+T.~Kroyer, ``Simulation of the low-frequency collimator impedance,'' CERN,
+  Geneva, Tech. Rep. CERN-AB-Note-2008-017, Apr 2008.
+
+\bibitem{Tsutsui:DipoleKicker}
+H.~Tsutsui and L.~Vos, ``Transverse coupling impedance of a simplified ferrite
+  kicker magnet model,'' CERN, Geneva, Tech. Rep. LHC-PROJECT-NOTE-234, Sep
+  2000.
+
+\bibitem{Salvant:QuadKicker}
+B.~Salvant, N.~Mounet, C.~Zannini, E.~Metral, and G.~Rumolo, ``Quadrupolar
+  transverse impedance of simple models of kickers. oai:cds.cern.ch:1271348,''
+  Tech. Rep. CERN-ATS-2010-076, Jun 2010.
+
+\bibitem{Zannini:cCoreFerrite}
+C.~Zannini, G.~Rumolo, and V.~Vaccaro, ``Effect of the tem mode on the kicker
+  impedance. oai:cds.cern.ch:1459904,'' CERN, Geneva, Tech. Rep.
+  CERN-ATS-2012-134, May 2012.
 
 \end{thebibliography}

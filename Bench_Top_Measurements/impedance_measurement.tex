@@ -4,7 +4,7 @@ Due to the sensitivity of the beam coupling impedance to the boundary conditions
 
 \section{Low Q-factor Impedances}
 
-For structures that are expected to contain mostly low Q-resonances (i.e. resistive wall impedance) it is appropriate to use the coaxial wire method[ref], sometimes also called the stretched wire method. This method relies on the similarity of the electromagetic field profile due to an ultrarelativistic charged particle and that of a short electrical pulse sent along a coaxial wire. 
+For structures that are expected to contain mostly low Q-resonances (i.e. resistive wall impedance) it is appropriate to use the coaxial wire method \cite{Gluckstern:WireMeasImp, Vaccaro:ImprovedWireMeth}, sometimes also called the stretched wire method. This method relies on the similarity of the electromagetic field profile due to an ultrarelativistic charged particle and that of a short electrical pulse sent along a coaxial wire. 
 
 An moving charged particle produces an electromagnetic field in a arc transverse to its direction of motion, where the angle of the arc opening is proportinal to the relativistic factor of the particle $\gamma$. For an ultrarelativistic particle ($\gamma \leftarrow \infty$), the field becomes entirely perpendicular to the direction of motion. If we place a conductive wire along the same path we would expect the charged particle to take (in most cases this is well represented by a straight wire), a short electrical pulse sent along this wire would propogate in the TEM (transverse electrical and magnetic field) mode, producing a field profile similar to that emitted by the ultrarelativistic charged particle (see. Fig. \ref{fig:coax-part-profile})
 
@@ -19,7 +19,7 @@ An moving charged particle produces an electromagnetic field in a arc transverse
 
 \subsection{Classical Coaxial Wire Method}
 
-The classical coaxial wire method, first proposed by V. Vaccarro in 1990 [ref], is a transmission method that measures the complex transmission coefficient of a DUT (Device Under Test) made up of the equipment whose impedance is to be measured and a coaxial wire passing through it. 
+The classical coaxial wire method, first proposed in it's present form by V. Vaccarro in 1990 \cite{Vaccaro:ImprovedWireMeth}, is a transmission method that measures the complex transmission coefficient of a DUT (Device Under Test) made up of the equipment whose impedance is to be measured and a coaxial wire passing through it. 
 
 The experimental setup is as shown in Fig. \ref{fig:classic-coax}. Firstly the external circuit (i.e. everything not the DUT) is matched to the characteristic impedance of the coaxial line inside the DUT. This is done by measuring the reflection coefficient $\Gamma$ for the setup with only one port connected to the DUT and the other end terminated by an open connection. Knowing the characteristic impedance of the VNA and associated cables (typically $Z_{0} = 50\Omega$), we can easily calculate the characteristic impedance, $Z_{c}$, from the relation,
 
@@ -53,13 +53,13 @@ S_{21} = \frac{S_{21,DUT}}{S_{21,REF}}
 
 The effect of this is to correct the measured phase change in the DUT to be that only caused by the imaginary component of the beam coupling impedance.
 
-There are subsequently a number of ways to evaluate the beam coupling impedance of the DUT depending on it's expected properties. For devices that are expected to have a either a small impedance, or those that are physically very short in length, it is possible to use the so called lumped impedance formula[ref];
+There are subsequently a number of ways to evaluate the beam coupling impedance of the DUT depending on it's expected properties. For devices that are expected to have a either a small impedance, or those that are physically very short in length, it is possible to use the so called lumped impedance formula \cite{Hahn:BenchMeasInter, Hahn: ValidityImpMeas};
 
 \begin{equation}
 Z = 2Z_{c} \frac{1-S_{21}}{S_{21}}
 \end{equation}.
 
-For distributed impedances, it is suitable to use the so called log formula (called so due to attenuation causing a log function to appear in the evaluation),
+For distributed impedances, it is suitable to use the so called log formula (called so due to attenuation causing a log function to appear in the evaluation) \cite{Hahn:BenchMeasInter, Hahn: ValidityImpMeas, Jensen:ImprovLogForm},
 
 \begin{equation}
 Z = -2Z_{c} ln \left( S_{21} \right)
@@ -71,7 +71,7 @@ For long components or measurements at very high frequencies there exists the im
 Z = -2Z_{c} ln \left( S_{21}  \right) \left( 1 + j\frac{ln \left( S_{21}\right) }{2\Theta}  \right)
 \end{equation}
 
-where $\Theta = 2\pi \frac{L}{\lambda}$ is the normalised electrical length of the device, $L$ the length of the device, $\lambda$ the wavelength of the frequency of measurement. It is possible to see that the lumped impedance formula can be used when $\Theta \leq 1$, and the improved log formula becomes useful for $\Theta \geq 5$[erk's paper].
+where $\Theta = 2\pi \frac{L}{\lambda}$ is the normalised electrical length of the device, $L$ the length of the device, $\lambda$ the wavelength of the frequency of measurement. It is possible to see that the lumped impedance formula can be used when $\Theta \leq 1$, and the improved log formula becomes useful for $\Theta \geq 5$ \cite{Jensen:ImprovLogForm}.
 
 
 
@@ -129,7 +129,7 @@ where $\rho_{w}$ is the wire resistivity, $\epsilon$ the permitivitty, $f$ the f
 \includegraphics[width=0.6\textwidth]{Bench_Top_Measurements/figures/coax-resonator.png}
 \end{center}
 \label{fig:res-resonancce-examples}
-\caption{An example of the resonance pattern seen whilst performing measurements using the resonant method. Each peak corresponds to one data point in the final measurements.}
+\caption{An example of the resonance pattern seen whilst performing measurements using the resonant method. Each peak corresponds to one data point in the final measurements. Taken from measurements of the LHC injection kicker magnets}
 \end{figure}
 
 To calculate the imaginary impedance using the resonant method involves a more involved calculation. In particular it is necessary to carry out measurements using the resonant method on a reference pipe of the same physical length to the DUT, either using physical measurements or a simulated measurement.
@@ -166,7 +166,7 @@ where $R = \Re e(Z)$.
 
 The above methods give a general impression of how to carry out coaxial wire measurements of the impedance of accelerator components. Directly applied as described they allow the measurement of the longitudinal impedance of a DUT. However, from a beam stability point of view it is often more interesting to look at the transverse imedance of a device. In particular it would be useful to have a method of determining the vertical/horizontal dipolar (or driving) impedance and the vertical/horizontal quadrupolar (detuning) impedance of any device. In this section we describe how do this for structures with top/bottom, left/right symmetry and then generalising to asymmetric structures, with illustration from simple examples evaluated using simulations.
 
-To allow a complete explanation of how to verify the methods of measuring transverse impedances, let us first consider the general form of the $m$-th order ($m = 0, 1, 2,...$) longitudinal beam coupling impedance, given by [ref]
+To allow a complete explanation of how to verify the methods of measuring transverse impedances, let us first consider the general form of the $m$-th order ($m = 0, 1, 2,...$) longitudinal beam coupling impedance, given by \ref{Chao:PhysColEff, Tsutsui:OnSingleWire}
 
 \begin{equation}
 \bar{Z}_{m} = \frac{-1}{I^{2}} \int dV \mathbf{\bar{E}_{m}. \bar{J}_{m}^{*}}
@@ -226,7 +226,7 @@ The measurements are done in the same way as described in the previous sections 
 
 What is directly measured is the longitudinal impedance of just the dipole impedance, as is to be expected from the Panofsky-Wenzel theorem (see Chap. \ref{chap:wake_imp} for further explanation). 
 
-For two wire placed as positions $x = \pm a$, the current density is given by [ref]
+For two wire placed as positions $x = \pm a$, the current density is given by \cite{Tsutsui:OnSingleWire}
 
 \begin{align}
 J & =  I \left( \delta \left( x - a \right) - \delta \left( x + a  \right) \right) \delta (y) exp \left( j \left( \omega t - kz \right) \right) \nonumber \\
@@ -384,7 +384,7 @@ The simulations with HFSS are carried out in the following manner: the measureme
 
 Maxwell is a frequency domain code optimised for low frequencies (less thans 10s of MHz). It does not permit the use of waveguide ports, however does allow the definition of current segments with phase changes between them. By considering the current (either a single current segment to simulate a single wire, or two current carrying segments 180$^{\circ}$ out of phase for two wires) to be the equivalent of a beam current, and assuming the inclusion of the current carrying component is a negligible perturbation to the geometry, the impedance can be found by summing the power loss in the system. This can be seen to be equivalent to the beam induced heating experienced by a beam interacting with an impedance.
 
-This can be thought of by comparing the system to a homogenous transmission line[cite Kroyer]. The power $P$ of a wave travelling along the line is given by 
+This can be thought of by comparing the system to a homogenous transmission line \cite{Kroyer:lowFreqColImp}. The power $P$ of a wave travelling along the line is given by 
 
 \begin{equation}
 P = P_{0}e^{-2\alpha z}
@@ -440,7 +440,7 @@ Z_{dip} = \frac{c}{\omega \Delta^{2}} \frac{2 \delta P}{I_{0}^{2}}.
 \caption{The complex permeability of 4A4 ferrite. Taken from the model in [cite]}
 \end{figure}
 
-For the structure exhibiting top/bottom, left/right symmetry we use the Tsutsui model of two parallel plates as shown in Fig.~\ref{fg:tsutsui-model}. We use this due to the model allowing the prediction of the longitudinal, dipolar and quadrupolar impedances for a wide variety of materials and frequency ranges [cite Tsutsui longitudinal, transverse]. For these simulations a short segment of a Tsutsui geometry is simulated using two different materials, in this case graphite, to represent a structure with a poor conductivity ($\sigma_{graphite} = 7 \time 10^{4} S m^{-1}$), and 4A4 ferrite, to represent a magnetically lossy material (In this case, $\epsilon_{r} = 10$, $\sigma_{4A4} = 10^{-6} S m^{-1}$ (a mild conductivity is applied to prevent static build up in ferrite components in accelerators), and $\mu_{r} = \mu^{'} + j \mu^{"}$, shown in Fig.~\ref{fig:4a4-permeability}.). In both cases the following dimensions are used: $a=25mm$, $b=5mm$, $d=5mm$. A structure 150mm in length is used to reduce numerical artefacts.
+For the structure exhibiting top/bottom, left/right symmetry we use the Tsutsui model of two parallel plates as shown in Fig.~\ref{fg:tsutsui-model}. We use this due to the model allowing the prediction of the longitudinal, dipolar and quadrupolar impedances for a wide variety of materials and frequency ranges \cite{Tsutsui:ferrKickLong,Tsutsui:DipoleKicker, Salvant:QuadKicker}. For these simulations a short segment of a Tsutsui geometry is simulated using two different materials, in this case graphite, to represent a structure with a poor conductivity ($\sigma_{graphite} = 7 \time 10^{4} S m^{-1}$), and 4A4 ferrite, to represent a magnetically lossy material (In this case, $\epsilon_{r} = 10$, $\sigma_{4A4} = 10^{-6} S m^{-1}$ (a mild conductivity is applied to prevent static build up in ferrite components in accelerators), and $\mu_{r} = \mu^{'} + j \mu^{"}$, shown in Fig.~\ref{fig:4a4-permeability}.). In both cases the following dimensions are used: $a=25mm$, $b=5mm$, $d=5mm$. A structure 150mm in length is used to reduce numerical artefacts.
 
 \begin{figure}
 \begin{center}
@@ -600,7 +600,7 @@ The agreement between simulations and theory for the vertical dipolar impedance 
 
 \subsubsection{C Core Ferrite Kicker}
 
-To test the measurement method for an asymmetric structure a model of the c-core ferrite kicker magnet was used, as shown in Fig.\ref{fig:zannini-model}, the analytical details of which are given in [cite zannini IPAC paper]. Key in this type of structure is that it predicts the extence of a constant transverse impedance term as well as the quadrupolar terms, thus we may completely evaluate the asymmetric measurement method. For these simulations a structure of $a=15$mm, $r=20$mm, $\theta = \pi / 2$ was used. A structure of $20$mm in length was used. Simulations were carried out using the classical coaxial wire method as simulated in HFSS.
+To test the measurement method for an asymmetric structure a model of the c-core ferrite kicker magnet was used, as shown in Fig.\ref{fig:zannini-model}, the analytical details of which are given in \cite{Zannini:cCoreFerrite}. Key in this type of structure is that it predicts the extence of a constant transverse impedance term as well as the quadrupolar terms, thus we may completely evaluate the asymmetric measurement method. For these simulations a structure of $a=15$mm, $r=20$mm, $\theta = \pi / 2$ was used. A structure of $20$mm in length was used. Simulations were carried out using the classical coaxial wire method as simulated in HFSS.
 
 The following parameters were used for the simulations; wire of 0.2mm in radius is used, and the following displacement used to acquire the total transverse terms:
 

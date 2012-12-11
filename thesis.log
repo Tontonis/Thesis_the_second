@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  10 DEC 2012 18:11
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  11 DEC 2012 17:48
 entering extended mode
 **C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
 (C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
@@ -878,7 +878,11 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 29--34
 m_induced_heating.tex [53 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wak
 efields_and_Impedances/figures/resWallTsutsuiLong.pdf> <C:/Users/hugo/Documents
 /GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/resWallTsutsuiTrans
-.pdf>] [54] [55]
+.pdf>]
+
+LaTeX Warning: Citation `' on page 54 undefined on input line 10.
+
+[54] [55]
 <Wakefields_and_Impedances/figures/beam_spectra_power_gauss_meas_12ns.pdf, id=4
 31, 578.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/beam_spectra_power_gauss_meas_12ns.pdf 
@@ -945,9 +949,7 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/gaussian_power_spec_
 diff_lengths.pdf used on input line 143.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
 
-[57 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
-/figures/bunch_profile_12ns.pdf>]
-<Wakefields_and_Impedances/figures/current_amp_para_change.pdf, id=538, 578.16p
+<Wakefields_and_Impedances/figures/current_amp_para_change.pdf, id=482, 578.16p
 t x 433.62pt>
 File: Wakefields_and_Impedances/figures/current_amp_para_change.pdf Graphic fil
 e (type pdf)
@@ -957,7 +959,7 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/current_amp_para_cha
 nge.pdf used on input line 152.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
 
-<Wakefields_and_Impedances/figures/freq_power_para_change.pdf, id=539, 578.16pt
+<Wakefields_and_Impedances/figures/freq_power_para_change.pdf, id=483, 578.16pt
  x 433.62pt>
 File: Wakefields_and_Impedances/figures/freq_power_para_change.pdf Graphic file
  (type pdf)
@@ -966,8 +968,18 @@ File: Wakefields_and_Impedances/figures/freq_power_para_change.pdf Graphic file
 Package pdftex.def Info: Wakefields_and_Impedances/figures/freq_power_para_chan
 ge.pdf used on input line 156.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
-
-<Wakefields_and_Impedances/figures/beam_spectra_power_12ns.pdf, id=540, 578.16p
+ [57 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedance
+s/figures/bunch_profile_12ns.pdf>] [58 <C:/Users/hugo/Documents/GitHub/Thesis_t
+he_second/Wakefields_and_Impedances/figures/current_spectrum_12ns.pdf> <C:/User
+s/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/pow
+er_spectrum_12ns.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefie
+lds_and_Impedances/figures/gaussian_time_dom_diff_lengths.pdf> <C:/Users/hugo/D
+ocuments/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/gaussian_po
+wer_spec_diff_lengths.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wa
+kefields_and_Impedances/figures/current_amp_para_change.pdf> <C:/Users/hugo/Doc
+uments/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/freq_power_pa
+ra_change.pdf>]
+<Wakefields_and_Impedances/figures/beam_spectra_power_12ns.pdf, id=854, 578.16p
 t x 433.62pt>
 File: Wakefields_and_Impedances/figures/beam_spectra_power_12ns.pdf Graphic fil
 e (type pdf)
@@ -977,8 +989,8 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/beam_spectra_power_1
 2ns.pdf used on input line 165.
 (pdftex.def)             Requested size: 277.82788pt x 208.3668pt.
 
-<Wakefields_and_Impedances/figures/low_q_10_resonance_beam_harmonics.pdf, id=54
-1, 578.16pt x 433.62pt>
+<Wakefields_and_Impedances/figures/low_q_10_resonance_beam_harmonics.pdf, id=85
+5, 578.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/low_q_10_resonance_beam_harmonics.pdf G
 raphic file (type pdf)
 
@@ -987,30 +999,20 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/low_q_10_resonance_b
 eam_harmonics.pdf used on input line 185.
 (pdftex.def)             Requested size: 277.82788pt x 208.3668pt.
 
-[58 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
-/figures/current_spectrum_12ns.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_
-second/Wakefields_and_Impedances/figures/power_spectrum_12ns.pdf> <C:/Users/hug
-o/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/gaussian
-_time_dom_diff_lengths.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/W
-akefields_and_Impedances/figures/gaussian_power_spec_diff_lengths.pdf>]
 [59 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
-/figures/current_amp_para_change.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_th
-e_second/Wakefields_and_Impedances/figures/freq_power_para_change.pdf> <C:/User
-s/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/bea
-m_spectra_power_12ns.pdf>]
+/figures/beam_spectra_power_12ns.pdf>]
 
 LaTeX Warning: Reference `eqn:heating-gen' on page 60 undefined on input line 2
 00.
 
-[60 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
-/figures/low_q_10_resonance_beam_harmonics.pdf>]
+
 Overfull \hbox (76.73761pt too wide) detected at line 209
 [] \OT1/cmr/m/n/12 = [] \OML/cmm/m/it/12 :
  []
 
 
 <Wakefields_and_Impedances/figures/high_q_1000_resonance_beam_harmonics.pdf, id
-=977, 578.16pt x 433.62pt>
+=921, 578.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/high_q_1000_resonance_beam_harmonics.pd
 f Graphic file (type pdf)
 
@@ -1021,13 +1023,15 @@ e_beam_harmonics.pdf used on input line 213.
 (pdftex.def)             Requested size: 277.82788pt x 208.3668pt.
 
 
-LaTeX Warning: Reference `eqn:heating-gen' on page 61 undefined on input line 2
+LaTeX Warning: Reference `eqn:heating-gen' on page 60 undefined on input line 2
 19.
 
-[61 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
-/figures/high_q_1000_resonance_beam_harmonics.pdf>] [62]
+[60 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
+/figures/low_q_10_resonance_beam_harmonics.pdf>] [61 <C:/Users/hugo/Documents/G
+itHub/Thesis_the_second/Wakefields_and_Impedances/figures/high_q_1000_resonance
+_beam_harmonics.pdf>]
 <Wakefields_and_Impedances/figures/heating_narrowband_gauss_bunch_length.pdf, i
-d=1038, 578.16pt x 433.62pt>
+d=1035, 578.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/heating_narrowband_gauss_bunch_length.p
 df Graphic file (type pdf)
 
@@ -1038,12 +1042,13 @@ auss_bunch_length.pdf used on input line 251.
 (pdftex.def)             Requested size: 341.94652pt x 256.45554pt.
 
 
-LaTeX Warning: Reference `fig:bunch_length_heat_narrow_cos' on page 63 undefine
+LaTeX Warning: Reference `fig:bunch_length_heat_narrow_cos' on page 62 undefine
 d on input line 257.
 
-
+[62] [63 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Imped
+ances/figures/heating_narrowband_gauss_bunch_length.pdf>]
 <Wakefields_and_Impedances/figures/heating_narrowband_gausscos_bunch_length.pdf
-, id=1039, 578.16pt x 433.62pt>
+, id=1077, 578.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/heating_narrowband_gausscos_bunch_lengt
 h.pdf Graphic file (type pdf)
 
@@ -1053,7 +1058,7 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/heating_narrowband_g
 ausscos_bunch_length.pdf used on input line 264.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
-<Wakefields_and_Impedances/figures/impedance_and_power_cos_res.pdf, id=1040, 57
+<Wakefields_and_Impedances/figures/impedance_and_power_cos_res.pdf, id=1078, 57
 8.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/impedance_and_power_cos_res.pdf Graphic
  file (type pdf)
@@ -1067,8 +1072,7 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 264--269
 [][] [] 
  []
 
-[63 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
-/figures/heating_narrowband_gauss_bunch_length.pdf>]
+
 <Wakefields_and_Impedances/figures/heating_broadband_gausscos_bunch_length.pdf,
  id=1079, 578.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/heating_broadband_gausscos_bunch_length
@@ -1097,12 +1101,12 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 278--283
 [64 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
 /figures/heating_narrowband_gausscos_bunch_length.pdf> <C:/Users/hugo/Documents
 /GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/impedance_and_power
-_cos_res.pdf>])
+_cos_res.pdf>] [65 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields
+_and_Impedances/figures/heating_broadband_gausscos_bunch_length.pdf> <C:/Users/
+hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/imped
+ance_and_power_cos_res_broad.pdf>])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\Wakefields_and_Impedances/bea
-m_instabilities.tex [65 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakef
-ields_and_Impedances/figures/heating_broadband_gausscos_bunch_length.pdf> <C:/U
-sers/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/
-impedance_and_power_cos_res_broad.pdf>] [66]
+m_instabilities.tex [66]
 <Wakefields_and_Impedances/figures/tune-spread-sc.png, id=1288, 296.60812pt x 3
 69.63094pt>
 File: Wakefields_and_Impedances/figures/tune-spread-sc.png Graphic file (type p
@@ -1123,9 +1127,9 @@ BT_BB.pdf used on input line 46.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
  [67]
 [68 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
-/figures/tune-spread-sc.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/
-Wakefields_and_Impedances/figures/rms_bunch_length_AT_BT_BB.pdf>]
-<Wakefields_and_Impedances/figures/headtail-no-chromaticity.png, id=1355, 189.7
+/figures/tune-spread-sc.png>] [69 <C:/Users/hugo/Documents/GitHub/Thesis_the_se
+cond/Wakefields_and_Impedances/figures/rms_bunch_length_AT_BT_BB.pdf>]
+<Wakefields_and_Impedances/figures/headtail-no-chromaticity.png, id=1358, 189.7
 0876pt x 319.94531pt>
 File: Wakefields_and_Impedances/figures/headtail-no-chromaticity.png Graphic fi
 le (type png)
@@ -1135,7 +1139,7 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/headtail-no-chromati
 city.png used on input line 65.
 (pdftex.def)             Requested size: 128.23076pt x 216.2662pt.
 
-<Wakefields_and_Impedances/figures/headtail-with-chromaticity.png, id=1356, 188
+<Wakefields_and_Impedances/figures/headtail-with-chromaticity.png, id=1359, 188
 .95593pt x 320.69812pt>
 File: Wakefields_and_Impedances/figures/headtail-with-chromaticity.png Graphic 
 file (type png)
@@ -1144,17 +1148,21 @@ file (type png)
 Package pdftex.def Info: Wakefields_and_Impedances/figures/headtail-with-chroma
 ticity.png used on input line 69.
 (pdftex.def)             Requested size: 128.23076pt x 217.6363pt.
- [69])
-[70 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
-/figures/headtail-no-chromaticity.png> <C:/Users/hugo/Documents/GitHub/Thesis_t
-he_second/Wakefields_and_Impedances/figures/headtail-with-chromaticity.png>]
+ [70 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedance
+s/figures/headtail-no-chromaticity.png> <C:/Users/hugo/Documents/GitHub/Thesis_
+the_second/Wakefields_and_Impedances/figures/headtail-with-chromaticity.png>]) 
 [71]
 Chapter 3.
 
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\beam_based_impedance_measurem
-ents.tex [72
+ents.tex
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 4.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [72
 
-] [73] [74] [75]) [76]
+]
+[73] [74] [75]) [76]
 Chapter 4.
 
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\Bench_Top_Measurements/impeda
@@ -1190,9 +1198,19 @@ File: Bench_Top_Measurements/figures/coax-matching-no-matching.png Graphic file
 Package pdftex.def Info: Bench_Top_Measurements/figures/coax-matching-no-matchi
 ng.png used on input line 42.
 (pdftex.def)             Requested size: 256.46152pt x 185.33344pt.
- [79 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measurements/f
-igures/wire_meas_single_wire.pdf>] [80 <C:/Users/hugo/Documents/GitHub/Thesis_t
-he_second/Bench_Top_Measurements/figures/coax-matching-no-matching.png>] [81]
+
+
+LaTeX Warning: Citation `Hahn: ValidityImpMeas' on page 79 undefined on input l
+ine 56.
+
+[79 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measurements/fi
+gures/wire_meas_single_wire.pdf>]
+
+LaTeX Warning: Citation `Hahn: ValidityImpMeas' on page 80 undefined on input l
+ine 62.
+
+[80 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measurements/fi
+gures/coax-matching-no-matching.png>] [81]
 <Bench_Top_Measurements/figures/coax-resonator.png, id=1445, 770.88pt x 557.081
 25pt>
 File: Bench_Top_Measurements/figures/coax-resonator.png Graphic file (type png)
@@ -1202,7 +1220,12 @@ Package pdftex.def Info: Bench_Top_Measurements/figures/coax-resonator.png used
  on input line 129.
 (pdftex.def)             Requested size: 256.46152pt x 185.33344pt.
  [82] [83 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measureme
-nts/figures/coax-resonator.png>] [84]
+nts/figures/coax-resonator.png>]
+
+LaTeX Warning: Reference `Chao:PhysColEff, Tsutsui:OnSingleWire' on page 84 und
+efined on input line 169.
+
+[84]
 
 LaTeX Warning: Reference `fig:two_wire_measure' on page 85 undefined on input l
 ine 215.
@@ -1242,13 +1265,7 @@ Overfull \hbox (60.97878pt too wide) in paragraph at lines 355--355
 [] 
  []
 
-[90] [91]
-Overfull \hbox (3.13344pt too wide) in paragraph at lines 387--388
-[]\T1/ptm/m/n/12 This can be thought of by com-par-ing the sys-tem to a ho-moge
--nous trans-mis-sion line[cite
- []
-
-[92]
+[90] [91] [92]
 <Bench_Top_Measurements/figures/tsutsui-geometry.pdf, id=1510, 341.47577pt x 31
 3.04956pt>
 File: Bench_Top_Measurements/figures/tsutsui-geometry.pdf Graphic file (type pd
@@ -2141,11 +2158,6 @@ hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/tctp-f
 errite.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_U
 pgrades/figures/impedance-tctp-time.pdf> <C:/Users/hugo/Documents/GitHub/Thesis
 _the_second/LHC_Collimation_Upgrades/figures/impedance-tctp-time-imag.pdf>]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 9.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
 <LHC_Collimation_Upgrades/figures/longitudinal-impedance-tctp-ferr-freq-dom.pdf
 , id=3930, 578.16pt x 433.62pt>
 File: LHC_Collimation_Upgrades/figures/longitudinal-impedance-tctp-ferr-freq-do
@@ -2751,25 +2763,32 @@ Chapter 9.
 [183
 
 ] (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.bbl [184]
-Underfull \hbox (badness 1577) in paragraph at lines 47--49
+[185
+
+]
+Underfull \hbox (badness 1577) in paragraph at lines 64--66
 []\T1/ptm/m/n/12 M. Hori, ``The ASACUSA ex-per-i-ment at CERN's Anti-proton De-
 cel-er-a-tor,''
  []
 
-[185
+[186] [187] [188] [189]
+Underfull \hbox (badness 1275) in paragraph at lines 255--257
+[]\T1/ptm/m/n/12 T. Kroyer, ``Sim-u-la-tion of the low-frequency col-li-ma-tor 
+impedance,'' CERN,
+ []
 
-] [186] [187]) [188]
+) [190]
 Appendix A.
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/vacEigenTable.tex
-[189
+[191
 
-] [190] [191] [192] [193]) [194]
+] [192] [193] [194] [195]) [196]
 Appendix B.
 
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/ferrEigenTable.tex
-[195
+[197
 
-] [196] [197]) [198]
+] [198] [199]) [200]
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.aux)
 
 LaTeX Warning: There were undefined references.
@@ -2779,10 +2798,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6301 strings out of 494045
- 139949 string characters out of 3148390
+ 6322 strings out of 494045
+ 140418 string characters out of 3148390
  201743 words of memory out of 3000000
- 9219 multiletter control sequences out of 15000+200000
+ 9240 multiletter control sequences out of 15000+200000
  47940 words of font info for 72 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  28i,13n,24p,1858b,302s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2802,9 +2821,9 @@ w/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (198 pages, 21158075 bytes).
+Output written on thesis.pdf (200 pages, 21162486 bytes).
 PDF statistics:
- 5189 PDF objects out of 6186 (max. 8388607)
+ 5196 PDF objects out of 6186 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  696 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -11,7 +11,7 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Examples of the longitudinal 2.6(a)\hbox {} and transverse 2.6(b)\hbox {} resistive wall impedance of a beam pipe of radius $a = 2cm$ made of both copper ($\sigma = 1 \times 10^{7} S m^{-1}$) and graphite ($\sigma = 7 \times 10^{4} S m^{-1}$).}}{53}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{53}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{53}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces A comparison of 2.7(a)\hbox {} a measured beam power spectrum and a gaussian bunch of the same bunch length in the frequency domain and 2.7(b)\hbox {} the resulting time domain beam profile. The gaussian has a bunch length (4$\sigma _{z}$ = 1.2ns) }}{56}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces A comparison of 2.7(a)\hbox {} a measured beam power spectrum and a gaussian bunch of the same bunch length in the frequency domain and 2.7(b)\hbox {} the resulting time domain beam profile. The gaussian has a bunch length (4$\sigma _{z}$ = 1.2ns). Measured spectrum taken by P. Baundrenghien et al \cite {Baudrenghien:LHCPowSpec}}}{56}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{56}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{56}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces The longitudinal bunch profile of a number of bunch distributions. Note that all of them are normalised to have a peak bunch current of 1. For the gaussian distribution the bunch length is the 4$\sigma $ value. The bunch length $\tau _{b} = 1.2ns$}}{57}
@@ -21,9 +21,9 @@
 \contentsline {figure}{\numberline {2.10}{\ignorespaces 2.10(a)\hbox {} The longitudinal profile and the 2.10(b)\hbox {} associated bunch power spectrum for a number of bunch lengths assuming a gaussian bunch profile.}}{58}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{58}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{58}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces 2.11(a)\hbox {} The longitudinal profile and the 2.11(b)\hbox {} associated bunch power spectrum for a number of bunch lengths assuming a parabolic bunch profile.}}{59}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{59}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{59}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces 2.11(a)\hbox {} The longitudinal profile and the 2.11(b)\hbox {} associated bunch power spectrum for a number of bunch lengths assuming a parabolic bunch profile.}}{58}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{58}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{58}
 \contentsline {figure}{\numberline {2.12}{\ignorespaces A comparison of a measured beam power spectrum and a number of analytical bunch profiles assuming a bunch length of 1.2ns.}}{59}
 \contentsline {figure}{\numberline {2.13}{\ignorespaces The beam harmonics of a beam with a bunch spacing of 25ns overlayed on the real component of the longitudinal impedance an example of a low Q impedance ($R_{s}=10\omega $, Q = 10, $f_{res}=1GHz$). The blue lines represent the frequency of a beam harmonic, not necessarily the magnitude of the power spectrum at that point. Note that a number of beam harmonics overlay non-zero impedance values.}}{60}
 \contentsline {figure}{\numberline {2.14}{\ignorespaces The beam harmonics of a beam with a bunch spacing of 25ns overlayed on the real component of the longitudinal impedance an example of a high Q impedance ($R_{s}=10\omega $, Q = 1000, $f_{res}=1GHz$). The blue lines represent the frequency of a beam harmonic, not necessarily the magnitude of the power spectrum at that point. Note that only a single beam harmonic overlays a non-zero impedance values.}}{61}
@@ -34,9 +34,9 @@
 \contentsline {figure}{\numberline {2.17}{\ignorespaces 2.17(a)\hbox {} The change in power loss due to a narrow band resonance characterised by $\omega _{0} = 2GHz$, $R_{s} = 100\Omega $, $Q = 1$ interacting with a cos$^{2}$ bunch distribution with different bunch lengths. The impedance and the beam power spectrum are shown in 2.17(b)\hbox {} to illustrate how this relates to the power loss.}}{65}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{65}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{65}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces A tune diagram illustrating the unperturbed tune of a machine, and the resulting perturbed tune and the tune spread as a result of an impedance source. Note that the tune spread has caused some particle to lie upon a major resonance harmonic. Taken from Schnidl}}{68}
-\contentsline {figure}{\numberline {2.19}{\ignorespaces The change in the bunch length of a proton beam in an SPS like machine due to the effects of a broadband resonator impedance (). Note that the bunch length increases when the beam is above transition, and decreases below transition, as the bunch intensity is increase}}{68}
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Examples of a number of modes of headtail oscillations without 2.20(a)\hbox {} and with 2.20(b)\hbox {} chromaticity. Note that radial and azimuthal modes may occur, as may coupled modes in which the motion of the horizontal and vertical planes is coupled.}}{70}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces A tune diagram illustrating the unperturbed tune of a machine, and the resulting perturbed tune and the tune spread as a result of an impedance source. Note that the tune spread has caused some particle to lie upon a major resonance harmonic. Taken from K. Schindl \cite {Schindl:SpaceCharge}.}}{68}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces The change in the bunch length of a proton beam in an SPS like machine due to the effects of a broadband resonator impedance ($f_{res} = 1GHz$, $R_{s}=10 \Omega $, $Q=1$). Note that the bunch length increases when the beam is above transition, and decreases below transition, as the bunch intensity is increase.}}{69}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Examples of a number of modes of headtail oscillations without 2.20(a)\hbox {} and with 2.20(b)\hbox {} chromaticity. Note that radial and azimuthal modes may occur, as may coupled modes in which the motion of the horizontal and vertical planes is coupled. Images courtesy of G. Rumolo \cite {Rumolo:IntroInstab}.}}{70}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{70}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{70}
 \addvspace {10\p@ }
@@ -44,7 +44,7 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison of the electromagnetic field profile of a moving charged particle and a short time pulse propogating along a coaxial wire.}}{78}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Experimental setup for a measurement of the beam coupling impedance using the classical coaxial wire method}}{79}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces An example of a reflection measurement made with and without a matching resistor. The faded line is the measurement with matching, the bold line that without. The reduction in the reflection can be seen due to the flatter line after the initial reflection.}}{80}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces An example of the resonance pattern seen whilst performing measurements using the resonant method. Each peak corresponds to one data point in the final measurements.}}{83}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces An example of the resonance pattern seen whilst performing measurements using the resonant method. Each peak corresponds to one data point in the final measurements. Taken from measurements of the LHC injection kicker magnets}}{83}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Measurement setup for measurements of the dipolar beam coupling impedance using the two wire setup for the classical coaxial wire method.}}{86}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces The geometries used for coaxial wire measurement simulations. For the geometry with top/bottom, left/right symmetry we use the Tsutsui model (4.6(a)\hbox {}) using two parallel plates. For the asymmetric structure we use the Zannini-model for a c-core ferrite kicker magnet (4.6(b)\hbox {}), which generates a constant term and a noticeable asymmetric term.}}{93}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{93}

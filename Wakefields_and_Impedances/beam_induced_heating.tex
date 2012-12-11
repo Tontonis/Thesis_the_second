@@ -7,7 +7,7 @@ To give context to the effects that wakefields have on the both the beam and equ
 \subsubsection{Defining and Deriving Power Loss in Circular Accelerators}
 \label{sec:power_loss}
 
-When a charged particle interacts with an impedance it losses energy to generate the resulting wakefield. This is called the parasitic loss, and is generally defined as[ref Chao/Ng]
+When a charged particle interacts with an impedance it losses energy to generate the resulting wakefield. This is called the parasitic loss, and is generally defined as \cite{Chao:PhysColEff, Ng:IntDepInstab, }
 
 \begin{equation}
 \Delta E = -2\pi e^{2}N_{b}\int^{\infty}_{-\infty} d\omega \left| \lambda \left( \omega \right)  \right|^{2} Z_{\parallel} \left( \omega \right)
@@ -59,7 +59,7 @@ where $\omega_{0} = 2\pi f_{0}$, $f_{0} = \frac{1}{\tau_{b}}$ and $\tau_{b}$ is 
 
 \subsubsection{Longitudinal Beam Profiles}
 
-As shown by the derivations in Section~\ref{sec:power_loss}, asides from the longitudinal impedance of the device under consideration the longitudinal profile of the circulating bunches also contributes to the power loss in the machine. In past works it has generally been assumed that bunches in accelerators have a Gaussian profile [ref Sacherer/Grudiev/Laclare](seen in Eqn.~\ref{eqn:gauss}, where $4\sigma_{z} = t_{b}$, $t_{b}$ is the bunch length) when approaching the analytical treatment of beam instabilities, both single-bunch and multi-bunch. Recent measurements of the power spectrum of particle beams, especially in the LHC [ref theo/phillipe] have shown characteristics that the Gaussian profile does not predict, for example the high frequency secondary peak as seen in Fig.~\ref{fig:measured_gauss}. To make more realistic predictions of heat loss due to beam impedance in the machine it is thus necessary to find bunch profiles which reproduce this behaviour.
+As shown by the derivations in Section~\ref{sec:power_loss}, asides from the longitudinal impedance of the device under consideration the longitudinal profile of the circulating bunches also contributes to the power loss in the machine. In past works it has generally been assumed that bunches in accelerators have a Gaussian profile \cite{Grudiev:LongTransSecCol} (seen in Eqn.~\ref{eqn:gauss}, where $4\sigma_{z} = t_{b}$, $t_{b}$ is the bunch length) when approaching the analytical treatment of beam instabilities, both single-bunch and multi-bunch. Recent measurements of the power spectrum of particle beams, especially in the LHC \cite{Baudrenghien:LHCPowSpec} have shown characteristics that the Gaussian profile does not predict, for example the high frequency secondary peak as seen in Fig.~\ref{fig:measured_gauss}. To make more realistic predictions of heat loss due to beam impedance in the machine it is thus necessary to find bunch profiles which reproduce this behaviour.
 
 \begin{equation}
 \lambda \left( t \right) = e^{\frac{-t^{2}}{2\sigma^{2}}}
@@ -75,7 +75,7 @@ As shown by the derivations in Section~\ref{sec:power_loss}, asides from the lon
 \includegraphics[width=0.45\textwidth]{Wakefields_and_Impedances/figures/beam_spectra_power_gauss_meas_12ns.pdf}
 \label{fig:gauss_meas_time}
 }
-\caption{A comparison of \ref{fig:gauss_meas_freq} a measured beam power spectrum and a gaussian bunch of the same bunch length in the frequency domain and \ref{fig:gauss_meas_time} the resulting time domain beam profile. The gaussian has a bunch length (4$\sigma_{z}$ = 1.2ns) }
+\caption{A comparison of \ref{fig:gauss_meas_freq} a measured beam power spectrum and a gaussian bunch of the same bunch length in the frequency domain and \ref{fig:gauss_meas_time} the resulting time domain beam profile. The gaussian has a bunch length (4$\sigma_{z}$ = 1.2ns). Measured spectrum taken by P. Baundrenghien et al \cite{Baudrenghien:LHCPowSpec}}
 \label{fig:measured_gauss}
 \end{figure}
 
@@ -285,7 +285,7 @@ For the broadband heating we shall consider a resonant impedance defined by the 
 
 \subsubsection{Beam-Induced Heating due to two traversing beams}
 
-Previous work [cite A. Grudiev TCTVB/TCLIA] has investigated the effect of two beams in a vacuum on the beam-induced heating. This is restated here for the sake of completeness.
+Previous work \cite{Grudiev:twoBeamCol} has investigated the effect of two beams in a vacuum on the beam-induced heating. This is restated here for the sake of completeness.
 
 To begin, consider the two currents $I_{b1} = I_{0}e^{i\phi_{1}}$ and $I_{b1} = -I_{0}e^{i\phi_{2}}$ representing two counter rotating beams. $I_{0}$ represents the beam current, and $\phi_{1/2}$ the phase of beam 1 and beam 2 respectively. Each beam also sees a seperate potential when it traverses the impedance, given by $V_{b1} = \int_{b1} E_{z} e^{i\omega_{0}z/c} dz$ and $V_{b2} = \int_{b2} E_{z} e^{i\omega_{0}z/c} dz$ respectively. By Ohms law it can then be seen that
 
