@@ -270,4 +270,52 @@ C.~Zannini, G.~Rumolo, and V.~Vaccaro, ``Effect of the tem mode on the kicker
   impedance. oai:cds.cern.ch:1459904,'' CERN, Geneva, Tech. Rep.
   CERN-ATS-2012-134, May 2012.
 
+\bibitem{Masullo:StretchedWire}
+V.~V. P.~M. Masullo, M.R., ``The stretched wire method: A comparative analysis
+  performed by means of the mode matching technique,'' in \emph{LINAC'10}, no.
+  THP081, Napoli, Italy, May 2010.
+
+\bibitem{Weiland:Echo2d}
+\BIBentryALTinterwordspacing
+I.~Zagorodnov and T.~Weiland, ``Te/tm field solver for particle beam
+  simulations without numerical cherenkov radiation,'' \emph{Phys. Rev. ST
+  Accel. Beams}, vol.~8, p. 042001, Apr 2005. [Online]. Available:
+  \url{http://link.aps.org/doi/10.1103/PhysRevSTAB.8.042001}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Chin:ABCI}
+Y.-H. Chin, ``{User's guide for ABCI version 9.4 (Azimuthal beam cavity
+  interaction) and introducing the ABCI Windows application package},'' Tech.
+  Rep., 2005.
+
+\bibitem{cst}
+
+
+\bibitem{hfss}
+
+
+\bibitem{maxwell}
+
+
+\bibitem{Weiland:MAFIAv4}
+T.~Weiland, M.~Bartsch, U.~Becker, M.~Bihn, U.~Blell \emph{et~al.}, ``{MAFIA
+  Version 4},'' \emph{AIP Conf.Proc.}, vol. 391, pp. 65--70, 1997.
+
+\bibitem{gdfidl}
+
+
+\bibitem{Ng:Ace3p}
+C.~Ng, V.~Akcelik, A.~Candel, S.~Chen, N.~Folwell, L.~Ge, A.~Guetz, H.~Jiang,
+  A.~Kabel, K.~Ko, L.~Q. Lee, Z.~Li, E.~Prudencio, G.~Schussman, R.~Uplenchwar,
+  and L.~Xiao, ``State of the art in em field computation,'' Tech. Rep.
+  SLAC-PUB-12020, Sep 2006.
+
+\bibitem{Kononenko:TransBeamLoading}
+\BIBentryALTinterwordspacing
+O.~Kononenko and A.~Grudiev, ``Transient beam-loading model and compensation in
+  compact linear collider main linac,'' \emph{Phys. Rev. ST Accel. Beams},
+  vol.~14, p. 111001, Nov 2011. [Online]. Available:
+  \url{http://link.aps.org/doi/10.1103/PhysRevSTAB.14.111001}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

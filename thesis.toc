@@ -99,5 +99,5 @@
 \contentsline {section}{\numberline {8.7}Upgrade Plans for Long Shutdown 1 and Beyond}{182}
 \contentsline {chapter}{\numberline {9}Conclusions}{183}
 \contentsline {chapter}{Bibliography}{185}
-\contentsline {chapter}{\numberline {A}TCTP Eigenmode Simulations - No Ferrite}{191}
-\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - With Ferrite}{197}
+\contentsline {chapter}{\numberline {A}TCTP Eigenmode Simulations - No Ferrite}{192}
+\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - With Ferrite}{198}

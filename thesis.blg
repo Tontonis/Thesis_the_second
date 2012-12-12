@@ -14,6 +14,22 @@ White space in argument---line 319 of file thesis.aux
 I'm skipping whatever remains of this command
 The style file: IEEEtran.bst
 Database file #1: thesisBib.bib
+"{" immediately follows a field part---line 626 of file thesisBib.bib
+ :     title = \texttt
+ :                    {http://www.cst.com}
+I'm skipping whatever remains of this entry
+"{" immediately follows a field part---line 630 of file thesisBib.bib
+ :     title = \texttt
+ :                    {http://www.ansoft.com}
+I'm skipping whatever remains of this entry
+"{" immediately follows a field part---line 634 of file thesisBib.bib
+ :     title = \texttt
+ :                    {https://www.ansoft.com}
+I'm skipping whatever remains of this entry
+"{" immediately follows a field part---line 638 of file thesisBib.bib
+ :     title = \texttt
+ :                    {https//:www.gdfidl.de}
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Lourenco:ALICE"
 Warning--I didn't find a database entry for "Métral:ResWallWideFreq"
 Warning--I didn't find a database entry for ""
@@ -35,6 +51,18 @@ Warning--empty journal in Boine-Frankenheim:InstabSCRings
 Warning--empty journal in Li:ECloud
 Warning--missing institution in Argyropoulos:longImpInj
 Warning--missing institution in Salvant:QuadKicker
+Too many commas in name 1 of "Masullo, M.R., Vaccaro, V.G., Panniello, M." for entry Masullo:StretchedWire
+while executing---line 2419 of file IEEEtran.bst
+Too many commas in name 1 of "Masullo, M.R., Vaccaro, V.G., Panniello, M." for entry Masullo:StretchedWire
+while executing---line 2419 of file IEEEtran.bst
+Too many commas in name 1 of "Masullo, M.R., Vaccaro, V.G., Panniello, M." for entry Masullo:StretchedWire
+while executing---line 2419 of file IEEEtran.bst
+Warning--missing institution in Chin:ABCI
+Warning--all relevant fields are empty in cst
+Warning--all relevant fields are empty in hfss
+Warning--all relevant fields are empty in maxwell
+Warning--all relevant fields are empty in gdfidl
+Warning--missing institution in Ng:Ace3p
 
 Done.
-(There were 3 error messages)
+(There were 10 error messages)
