@@ -3,7 +3,7 @@
 
 For a number of devices it is unavoidable to have a cavity present in the structure. In addition it is often not possible to design the cavity with either tapering or transition pieces due to the need for moveable components, such as a wire scanner or a collimator whose aperture changes with beam parameters. In this case it is necessary to find a way of reducing the beam impedance by altering the properties of resonances. Often it is only the peak value of the impedance attributable to a resonance that is of concern from a beam stability/beam induced heating point of view. 
 
-If we consider the defining properties of a resonant impedance, $f_{res}$, $R/Q$ and $Q$, there are a number of properties that should be noted in changing them. Both $f_{res}$ and $R/Q$ are strongly determined by the geometry of the structure, and thus can not be significantly modified without possibly neccessitating a modification of the device being altered which may hinder the intended operation. Thus one approach to use is to alter the Q of the resonance. A well known method of altering the Q of a resonant cavity is to add a dispersive or ferritic material to the cavity volume [cite ferrite RF cavities from CAS RF for accelerators], that is a material that has complex permitivitty or permeability , given by $\epsilon_{r} = \epsilon^{'} - j \epsilon^{''}$ and $\mu_{r} = \mu^{'} - j \mu^{''}$ respectively. An example of the permeability of some sample ferrite damping materials is shown in Fig.~\ref{fig:ferr_mu_damp}
+If we consider the defining properties of a resonant impedance, $f_{res}$, $R/Q$ and $Q$, there are a number of properties that should be noted in changing them. Both $f_{res}$ and $R/Q$ are strongly determined by the geometry of the structure, and thus can not be significantly modified without possibly neccessitating a modification of the device being altered which may hinder the intended operation. Thus one approach to use is to alter the Q of the resonance. A well known method of altering the Q of a resonant cavity is to add a dispersive or ferritic material to the cavity volume \cite{Klingbeil:ferrCav}, that is a material that has complex permitivitty or permeability , given by $\epsilon_{r} = \epsilon^{'} - j \epsilon^{''}$ and $\mu_{r} = \mu^{'} - j \mu^{''}$ respectively. An example of the permeability of some sample ferrite damping materials is shown in Fig.~\ref{fig:ferr_mu_damp}
 
 \begin{figure}
 \includegraphics[width=0.6\textwidth]{Beam_Coupling_Impedance_Reduction_Techniques/figures/Ferrite8C11.pdf}
@@ -50,7 +50,7 @@ Before carrying out the analysis of the location of the heat loss in ferrite, it
 p_{s} = \Re{}e \left( \mathbf{S}.\mathbf{n} \right)
 \end{equation}
 
-where $\mathbf{S}$ is the Poynting vector and $n$ is the out normal vector to the surface boundary[cite HFSS docs]. By integrating this over all surfaces the total surface losses in the cavity are obtained. The total wall losses are also given by 
+where $\mathbf{S}$ is the Poynting vector and $n$ is the out normal vector to the surface boundary \cite{hfss}. By integrating this over all surfaces the total surface losses in the cavity are obtained. The total wall losses are also given by 
 
 \begin{equation}
 P_{loss, wall} = \frac{R_{wall}}{2} \int_{S} \left| \mathbf{H_{surf}} \right|^{2} dS
