@@ -69,20 +69,20 @@ The proposed designs are described below:
 \caption{The proposed final MKI design. A combination of alternating and tapered screeb conductors is used, along with a step out of the external metallization. The outline of the step out is shown by the red-dashed line.}
 \end{figure}
 
-In this analysis we shall focus on the resulting power loss from interaction of the beam with the real component of the longitudinal beam impedance as this is the present primary limitation from the MKIs. The real component of the longitudinal beam coupling impedance is shown in Fig.~\ref{fig:new-screen-designs-mki} along with comparisons to the existing MKIs in the LHC with 15 and 19 screen conductors. A restricted selection of the results (combination layout from Fig.~\ref{fig:24-alternating-tapered}, the alternative design from Fig.~\ref{fig:alt-screen-design} and the final design Fig.~\ref{fig:24-final-design}) logarithmic (i the y-axis) plot is shown in Fig.~\ref{fig:new-screen-designs-mki-log} for further clarity.
+In this analysis we shall focus on the resulting power loss from interaction of the beam with the real component of the longitudinal beam impedance as this is the present primary limitation from the MKIs. The real component of the longitudinal beam coupling impedance is shown in Fig.~\ref{fig:new-screen-designs-mki}, and the imaginary in Fig.~\ref{fig:new-screen-designs-mki-imag}.
 
 \begin{figure}
 \begin{center}
 \subfigure[]{
-\includegraphics[width=0.75\textwidth]{LHC_MKI/figures/mki-new-screen-designs-impedance.pdf}
+\includegraphics[width=0.75\textwidth]{LHC_MKI/figures/mki-new-screen-designs-impedance-real.pdf}
 \label{fig:new-screen-designs-mki}
 }
 \subfigure[]{
-\includegraphics[width=0.75\textwidth]{LHC_MKI/figures/mki-new-screen-designs-impedance-log.pdf}
-\label{fig:new-screen-designs-mki-log}
+\includegraphics[width=0.75\textwidth]{LHC_MKI/figures/mki-new-screen-designs-impedance-imag.pdf}
+\label{fig:new-screen-designs-mki-imag}
 }
 \end{center}
-\caption{The real component of the beam coupling impedance for a number of the proposed beam screen designs compared to the existing designs (15 screen conductors tapered and 19 screen conductors alternating in length) \ref{fig:new-screen-designs-mki}. A selected collection of favourable (from the impedance and the electric field point of view) are shown in \ref{fig:new-screen-designs-mki-log} with a log scale on the Y axis so the resonance structure can be more clearly seen.}
+\caption{The real component of the beam coupling impedance for a number of the proposed beam screen designs \ref{fig:new-screen-designs-mki}. In addition the imaginary component of the longitudinal impedance is shown for completeness \ref{fig:new-screen-designs-mki-imag}.}
 \end{figure}
 
 The estimated heating for both 25ns and 50ns bunch spacing operation in the LHC are shown in Tab.~\ref{tab:heating-mki-screen-designs} for 1ns bunch length, and the variation in power loss with the bunch length for 25ns and 50ns bunch spacing shown in Fig.~\ref{fig:mki-screens-heating-bunch-length}. It can be seen that the power loss can be very strongly reduced for very short bunch lengths (as has been proposed for HL-LHC operation without crab cavities [cite]) by increasing the bunch length, but for nominal bunch lengths ($\tau_{b}=$1ns) it can be seen that there is not much benefit in increasing the bunch length.
@@ -94,12 +94,12 @@ The estimated heating for both 25ns and 50ns bunch spacing operation in the LHC 
 \begin{tabular}{c | c | c}
 Screen Design & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline 
 24 Conductors, Alternating Length & 36 & 28 \\ \hline %full length
-24 Conductors, Tapered Length & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline %full length
-24 Conductors, Alternating and Tapered & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline %full length
-24 Screen Conductors, Enclosed Conductors & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline %no shortened
-24 Conductors, Alternate Design & $P_{loss,50ns}$ (W), $t_{b}=1$ns & $P_{loss,25ns}$ (W), $t_{b}=1$ns \\ \hline %no shortened
-24 Conductors, Step out & 37 & 28 \\ \hline %Shortened
-24 Conductors, Final Design & 37 & 28 \\ %full length
+24 Conductors, Tapered Length & 36 & 27 \\ \hline %full length
+24 Conductors, Alternating and Tapered & 36 & 28 \\ \hline %full length
+24 Screen Conductors, Enclosed Conductors & 21 & 17 \\ \hline %full length
+24 Conductors, Alternate Design & 182 & 161 \\ \hline %full length
+24 Conductors, Step out & 37 & 30 \\ \hline %Shortened
+24 Conductors, Final Design & 37 & 30 \\ %full length
 \end{tabular}
 \end{center}
 \end{table}
