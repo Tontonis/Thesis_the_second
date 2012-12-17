@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2012.12.6)  14 DEC 2012 15:53
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdftex 2011.4.29)  17 DEC 2012 11:04
 entering extended mode
-**C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesisBib.bib
-(C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesisBib.bib
+**E:/GitHub/Thesis_the_second/thesisBib.bib
+(E:/GitHub/Thesis_the_second/thesisBib.bib
 Overfull \hbox (5.10587pt too wide) in paragraph at lines 22--30
 []\tenrm @techreportntof, ti-tle = "n-TOF Tech-ni-cal De-sign Re-port on Ex-per
 -i-men-tal Area", in-sti-tu-tion = "CERN",|
@@ -33,7 +33,7 @@ n Par-ti-cle Ac-cel-er-a-tors", jour-nal = "Rev.Sci.Instrum.",|
 .\tenrm a
 .etc.
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[1{C:/Users/hday/AppData/Local/MiKTeX/2.8/pdftex/config/pdftex.map}]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!

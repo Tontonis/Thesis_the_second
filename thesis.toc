@@ -72,15 +72,15 @@
 \contentsline {section}{\numberline {6.4}Beam screens in kicker magnets}{114}
 \contentsline {section}{\numberline {6.5}Seriagraphy on Kicker Magnets}{115}
 \contentsline {section}{\numberline {6.6}Use of damping materials to de-Q resonant caviities}{115}
-\contentsline {subsection}{\numberline {6.6.1}Heat Loads on the Damping Material}{119}
+\contentsline {subsection}{\numberline {6.6.1}Heat Loads on the Damping Material}{118}
 \contentsline {chapter}{\numberline {7}LHC Collimation Upgrades}{127}
 \contentsline {section}{\numberline {7.1}Introduction}{127}
 \contentsline {section}{\numberline {7.2}LHC Phase 2 Secondary Collimator Jaw Material}{130}
 \contentsline {subsection}{\numberline {7.2.1}Impedance Studies and Analysis}{133}
 \contentsline {section}{\numberline {7.3}TCTP Impedance Studies}{135}
-\contentsline {subsection}{\numberline {7.3.1}TCTP Collimator - Design and Geometry}{138}
+\contentsline {subsection}{\numberline {7.3.1}TCTP Collimator - Design and Geometry}{136}
 \contentsline {subsection}{\numberline {7.3.2}Impedance Simulations and Results}{138}
-\contentsline {subsection}{\numberline {7.3.3}Beam-Induced Heating}{139}
+\contentsline {subsection}{\numberline {7.3.3}Beam-Induced Heating}{140}
 \contentsline {subsubsection}{Location of Power Deposition}{145}
 \contentsline {chapter}{\numberline {8}LHC Injection Kicker Magnet}{148}
 \contentsline {section}{\numberline {8.1}LHC Injection Kicker Magnets}{149}
@@ -96,8 +96,8 @@
 \contentsline {subsection}{\numberline {8.5.2}How Screening Changes with the Number of Screen Conductors}{167}
 \contentsline {subsection}{\numberline {8.5.3}Dependence of the Impedance on the Beam Screen Dimensions}{170}
 \contentsline {section}{\numberline {8.6}New Beam Screen Designs}{173}
-\contentsline {section}{\numberline {8.7}Upgrade Plans for Long Shutdown 1 and Beyond}{182}
+\contentsline {section}{\numberline {8.7}Upgrade Plans for Long Shutdown 1 and Beyond}{179}
 \contentsline {chapter}{\numberline {9}Conclusions}{183}
 \contentsline {chapter}{Bibliography}{185}
-\contentsline {chapter}{\numberline {A}TCTP Eigenmode Simulations - No Ferrite}{192}
-\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - With Ferrite}{198}
+\contentsline {chapter}{\numberline {A}TCTP Eigenmode Simulations - No Ferrite}{195}
+\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - With Ferrite}{201}
