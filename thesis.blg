@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99cThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 Case mismatch error between cite keys Stupakov:wakeAndImp and Stupakov:wakeandImp
 ---line 90 of file thesis.aux
  : \citation{Stupakov:wakeAndImp
@@ -14,21 +14,27 @@ White space in argument---line 322 of file thesis.aux
 I'm skipping whatever remains of this command
 The style file: IEEEtran.bst
 Database file #1: thesisBib.bib
-"{" immediately follows a field part---line 626 of file thesisBib.bib
- :     title = \texttt
- :                    {http://www.cst.com}
+I was expecting an "="---line 585 of file thesisBib.bib
+ : /  
+ :    publisher = {American Physical Society}
 I'm skipping whatever remains of this entry
-"{" immediately follows a field part---line 630 of file thesisBib.bib
- :     title = \texttt
- :                    {http://www.ansoft.com}
+Warning--string name "mki" is undefined
+--line 951 of file thesisBib.bib
+I was expecting a `,' or a `}'---line 951 of file thesisBib.bib
+ :       title        = mki 
+ :                          heating 2011 – more observations",
 I'm skipping whatever remains of this entry
-"{" immediately follows a field part---line 634 of file thesisBib.bib
- :     title = \texttt
- :                    {https://www.ansoft.com}
+Warning--string name "mki" is undefined
+--line 973 of file thesisBib.bib
+I was expecting a `,' or a `}'---line 973 of file thesisBib.bib
+ :       title        = mki 
+ :                          heating 2011 – more observations",
 I'm skipping whatever remains of this entry
-"{" immediately follows a field part---line 638 of file thesisBib.bib
- :     title = \texttt
- :                    {https//:www.gdfidl.de}
+Warning--string name "mki" is undefined
+--line 1003 of file thesisBib.bib
+I was expecting a `,' or a `}'---line 1003 of file thesisBib.bib
+ :       title        = mki 
+ :                          heating 2011 – more observations",
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Lourenco:ALICE"
 Warning--I didn't find a database entry for "M�tral:ResWallWideFreq"
@@ -37,6 +43,8 @@ Warning--I didn't find a database entry for "Caspers:ThinCondLayer"
 Warning--I didn't find a database entry for "M�tral:phase2Imp"
 Warning--I didn't find a database entry for "M�tral:Heating"
 Warning--I didn't find a database entry for "Ducimeti�re:mkiSpec"
+Warning--I didn't find a database entry for "Caspers:lowFreqMKIMeas"
+Warning--I didn't find a database entry for "Br�ning:beamParameters"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -56,32 +64,8 @@ Warning--empty journal in Boine-Frankenheim:InstabSCRings
 Warning--empty journal in Li:ECloud
 Warning--missing institution in Argyropoulos:longImpInj
 Warning--missing institution in Salvant:QuadKicker
-Too many commas in name 1 of "Masullo, M.R., Vaccaro, V.G., Panniello, M." for entry Masullo:StretchedWire
-while executing---line 2419 of file IEEEtran.bst
-Too many commas in name 1 of "Masullo, M.R., Vaccaro, V.G., Panniello, M." for entry Masullo:StretchedWire
-while executing---line 2419 of file IEEEtran.bst
-Too many commas in name 1 of "Masullo, M.R., Vaccaro, V.G., Panniello, M." for entry Masullo:StretchedWire
-while executing---line 2419 of file IEEEtran.bst
 Warning--missing institution in Chin:ABCI
-Warning--all relevant fields are empty in cst
-Warning--all relevant fields are empty in hfss
-Warning--all relevant fields are empty in maxwell
-Warning--all relevant fields are empty in gdfidl
 Warning--missing institution in Ng:Ace3p
-Too many commas in name 1 of "Salvant, B., Day, H., Grudiev, A, Kononenim, O., Métral, E." for entry Salvant:VMTSA
-while executing---line 2419 of file IEEEtran.bst
-Too many commas in name 1 of "Salvant, B., Day, H., Grudiev, A, Kononenim, O., Métral, E." for entry Salvant:VMTSA
-while executing---line 2419 of file IEEEtran.bst
-Too many commas in name 1 of "Salvant, B., Day, H., Grudiev, A, Kononenim, O., Métral, E." for entry Salvant:VMTSA
-while executing---line 2419 of file IEEEtran.bst
-Too many commas in name 1 of "Salvant, B., Day, H., Grudiev, A, Kononenim, O., Métral, E." for entry Salvant:VMTSA
-while executing---line 2419 of file IEEEtran.bst
-Too many commas in name 1 of "Salvant, B., Day, H., Grudiev, A, Kononenim, O., Métral, E." for entry Salvant:VMTSA
-while executing---line 2419 of file IEEEtran.bst
-Too many commas in name 1 of "Salvant, B., Day, H., Grudiev, A, Kononenim, O., Métral, E." for entry Salvant:VMTSA
-while executing---line 2419 of file IEEEtran.bst
-Too many commas in name 1 of "Salvant, B., Day, H., Grudiev, A, Kononenim, O., Métral, E." for entry Salvant:VMTSA
-while executing---line 2419 of file IEEEtran.bst
 Warning--empty booktitle in Salvant:VMTSA
 Warning--missing institution in Caspers:ThinCondLayers
 Warning--empty journal in Schmidt:LHCMP
@@ -95,6 +79,18 @@ Warning--missing institution in Day:wireMeasFerr
 Warning--missing institution in Barnes:wireMeasKick
 Warning--missing institution in Barnes:spsKickerHeating
 Warning--missing institution in Barnes:improvBeamScreen
+Warning--empty title in Goddard:timeConst
+Warning--empty booktitle in Goddard:timeConst
+Warning--empty year in Goddard:timeConst
+Warning--empty title in Garlasche:2dHeat
+Warning--empty booktitle in Garlasche:2dHeat
+Warning--empty year in Garlasche:2dHeat
+Warning--empty booktitle in Barnes:eFieldMKI
+Warning--empty booktitle in Barnes:emisMKI
+Warning--empty title in Garlasche:2dHeatEmis
+Warning--empty booktitle in Garlasche:2dHeatEmis
+Warning--empty year in Garlasche:2dHeatEmis
+Warning--empty booktitle in Barnes:emisMKITemp
 
 Done.
-(There were 17 error messages)
+(There were 7 error messages)

@@ -34,8 +34,8 @@ P.~Baudrenghien, M.~E. Angoletta, T.~Argyropoulos, L.~Arnaudon, T.~Bohl,
   T.~Mastoridis, J.~Molendijk, C.~Nicou, J.~Noirjean, G.~Papotti, A.~Pashnin,
   G.~Pechaud, J.~Pradier, J.~Sanchez-Quesada, E.~Shaposhnikova, M.~Schokker,
   D.~Stellfeld, J.~Tuckmantel, D.~Valuch, U.~Wehrle, and F.~Weierud, ``The lhc
-  rf system - experience with beam operation. oai:cds.cern.ch:1379146,'' Tech.
-  Rep. CERN-ATS-2011-048, Aug 2011.
+  rf system - experience with beam operation,'' Tech. Rep. CERN-ATS-2011-048,
+  Aug 2011.
 
 \bibitem{Schindl:SpaceCharge}
 S.~Karlheinz, ``Space charge,'' Introductory CERN Accelerator School, 2006.
@@ -44,9 +44,9 @@ S.~Karlheinz, ``Space charge,'' Introductory CERN Accelerator School, 2006.
 G.~Rumolo, ``Beam instabilities,'' Intermediate CERN Accelerator School, 2011.
 
 \bibitem{Carra:HeatLoad}
-F.~e.~a. Carra, ``Choice of material for the tctp ferrite supports.''\hskip 1em
-  plus 0.5em minus 0.4em\relax Geneva: Presented at 1st October 2012 Meeting of
-  the Collimator Working Group, CERN, October 2012.
+F.~Carra, ``Choice of material for the tctp ferrite supports.''\hskip 1em plus
+  0.5em minus 0.4em\relax Geneva: Presented at 1st October 2012 Meeting of the
+  Collimator Working Group, CERN, October 2012.
 
 \bibitem{Barnes:injSys}
 M.~Barnes, ``Injection and extraction magnets,'' Magnets, CERN Accelerator
@@ -59,9 +59,9 @@ R.~Bailey, J.~L. Baldy, A.~E. Ball, P.~Bonnal, M.~Buhler-Broglin,
   K.~H. Kissler, L.~A. L\'{o}pez-Hernandez, J.~M. Maugain, P.~Migliozzi,
   V.~Palladino, F.~Pietropaolo, J.~P.~C. Revol, P.~R. Sala, C.~Sanelli, G.~R.
   Stevenson, N.~Vassilopoulos, H.~H. Vincke, E.~Weisse, and M.~Wilhemsson,
-  ``The cern neutrino beam to gran sasso (ngs). oai:cds.cern.ch:390779,'' CERN,
-  Geneva, Tech. Rep. CERN-SL-99-034-DI. INFN-AE-99-05, Jun 1999, addendum to
-  report CERN 98-02, INFN-AE-98-05.
+  ``The cern neutrino beam to gran sasso (ngs).'' CERN, Geneva, Tech. Rep.
+  CERN-SL-99-034-DI. INFN-AE-99-05, Jun 1999, addendum to report CERN 98-02,
+  INFN-AE-98-05.
 
 \bibitem{ntof}
 ``n-tof technical design report on experimental area,'' CERN, Geneva, Tech.
@@ -86,8 +86,8 @@ J.~S. Hangst and P.~Bowe, ``Alpha proposal,'' CERN, Geneva, Tech. Rep.
 Y.~Kadi, A.~P. Bernardes, Y.~Blumenfeld, S.~Calatroni, R.~Catherall, M.~A.
   Fraser, B.~Goddard, D.~Parchet, E.~Siesling, W.~Venturini~Delsolaro,
   D.~Voulot, and L.~R. Williams, ``Status and future perspectives of the
-  hie-isolde project at cern. oai:cds.cern.ch:1481516,'' \emph{Conf. Proc.},
-  vol. C1205201, no. CERN-ATS-2012-251, p. PAGE. 4 p, May 2012.
+  hie-isolde project at cern,'' \emph{Conf. Proc.}, vol. C1205201, no.
+  CERN-ATS-2012-251, p. PAGE. 4 p, May 2012.
 
 \bibitem{Maggiore:ACE}
 C.~J. Maggiore, N.~Agazaryan, N.~Bassler, E.~Blackmore, G.~Beyer, J.~J.
@@ -124,18 +124,17 @@ L.~Laslett, V.~Neil, and A.~Sessler, ``{Transverse Resistive Instabilities of
   vol.~36, pp. 436--448, 1965.
 
 \bibitem{Stupakov:wakeandImp}
-G.~V. Stupakov, ``{Wake and impedance},'' pp. 205--230, 2000.
+G.~V. Stupakov, ``Wake and impedance,'' pp. 205--230, 2000.
 
 \bibitem{Stupakov:surfaceRough}
-G.~Stupakov, ``{Surface roughness impedance},'' pp. 141--152, 2000.
+------, ``Surface roughness impedance,'' pp. 141--152, 2000.
 
 \bibitem{Stupakov:adInImpTheory}
-------, ``{Advances in Impedance Theory},'' 2009.
+------, ``Advances in impedance theory,'' 2009.
 
 \bibitem{Mounet:PhDThesis}
 N.~Mounet, L.~Rivkin, and E.~Métral, ``The lhc transverse coupled-bunch
-  instability. oai:cds.cern.ch:1451296,'' Ph.D. dissertation, Lausanne, EPFL,
-  Mar 2012, presented 2012.
+  instability,'' Ph.D. dissertation, Lausanne, EPFL, Mar 2012, presented 2012.
 
 \bibitem{Palumbo:Wakes}
 L.~Palumbo, V.~Vaccaro, and M.~Zobov, ``{Wake fields and impedance},'' 1994.
@@ -156,26 +155,25 @@ A.~W. Chao, \emph{Physics of collective beam instabilities in high energy
 \bibitem{Roncarolo:ColImpMeas}
 F.~Roncarolo, F.~Caspers, T.~Kroyer, E.~Metral, N.~Mounet, B.~Salvant, and
   B.~Zotter, ``Comparison between laboratory measurements, simulations, and
-  analytical predictions of the transverse wall impedance at low frequencies.
-  oai:cds.cern.ch:1247961,'' \emph{Phys. Rev. Lett.}, vol.~12, no.
-  CERN-BE-2010-005. 8, p. 084401. 1 p, Aug 2009.
+  analytical predictions of the transverse wall impedance at low frequencies,''
+  \emph{Phys. Rev. Lett.}, vol.~12, no. CERN-BE-2010-005. 8, p. 084401. 1 p,
+  Aug 2009.
 
 \bibitem{Tsutsui:ferrKickLong}
 H.~Tsutsui, ``Some simplified models of ferrite kicker magnet for calculation
-  of longitudinal coupling impedance. oai:cds.cern.ch:426384,'' CERN, Geneva,
-  Tech. Rep. CERN-SL-2000-004-AP, Jan 2000.
+  of longitudinal coupling impedance,'' CERN, Geneva, Tech. Rep.
+  CERN-SL-2000-004-AP, Jan 2000.
 
 \bibitem{Biancacci:MMFiniteInsert}
-N.~Biancacci, V.~Vaccaro, E.~Metral, B.~Salvant, M.~Migliorati, and L.~Palumbo,
-  ``The mode matching method applied to beam coupling impedance calculations of
-  finite length devices. oai:cds.cern.ch:1470300,'' CERN, Geneva, Tech. Rep.
+N.~Biancacci, V.~Vaccaro, E.~Métral, B.~Salvant, M.~Migliorati, and
+  L.~Palumbo, ``The mode matching method applied to beam coupling impedance
+  calculations of finite length devices,'' CERN, Geneva, Tech. Rep.
   CERN-ATS-2012-187, May 2012.
 
 \bibitem{Mounet:Axisymmetric}
 N.~Mounet and E.~Métral, ``Electromagnetic fields created by a macroparticle
-  in an infinitely long and axisymmetric multilayer beam pipe.
-  oai:cds.cern.ch:1228293,'' CERN, Geneva, Tech. Rep. CERN-BE-2009-039, Nov
-  2009.
+  in an infinitely long and axisymmetric multilayer beam pipe,'' CERN, Geneva,
+  Tech. Rep. CERN-BE-2009-039, Nov 2009.
 
 \bibitem{Mounet:Flat}
 ------, ``Electromagnetic fields and beam coupling impedances in a multilayer
@@ -197,8 +195,7 @@ A.~Grudiev, ``Simulation of longitudinal and transverse impedances of trapped
 
 \bibitem{Burov:TransInstabSC}
 A.~Burov and V.~Lebedev, ``Transverse instabilities of coasting beams with
-  space charge,'' Tech. Rep. arXiv:0812.3887. FERMILAB-PUB-08-479-AD, Dec 2008,
-  comments: 6 pages, 2 figures, accepted by Phys. Rev. ST - Accel. Beams.
+  space charge,'' Tech. Rep. arXiv:0812.3887. FERMILAB-PUB-08-479-AD, Dec 2008.
 
 \bibitem{Boine-Frankenheim:InstabSCRings}
 O.~Boine-Frankenheim, I.~Hofmann, and V.~Kornilov, ``Instabilities and space
@@ -206,14 +203,12 @@ O.~Boine-Frankenheim, I.~Hofmann, and V.~Kornilov, ``Instabilities and space
 
 \bibitem{Pieloni:PhDThesis}
 T.~Pieloni, W.~Herr, A.~Bay, and L.~Rivkin, ``A study of beam-beam effects in
-  hadron colliders with a large number of bunches. oai:cds.cern.ch:1259906,''
-  Ph.D. dissertation, Ecole Polytechnique, Lausanne, Milan U., 2008, presented
-  on 4 Dec 2008.
+  hadron colliders with a large number of bunches,'' Ph.D. dissertation, Ecole
+  Polytechnique, Lausanne, Milan U., 2008, presented on 4 Dec 2008.
 
 \bibitem{Li:ECloud}
 K.~S.~B. Li and G.~Rumolo, ``Review of beam instabilities in the presence of
-  electron clouds in the lhc. oai:cds.cern.ch:1381509,'' no. CERN-ATS-2011-095,
-  p. 3 p, Sep 2011.
+  electron clouds in the lhc,'' no. CERN-ATS-2011-095, p. 3 p, Sep 2011.
 
 \bibitem{Schaumann:IBS}
 M.~Schaumann, J.~Jowett, and R.~Bruce, ``Intra-beam scattering and luminosity
@@ -222,8 +217,7 @@ M.~Schaumann, J.~Jowett, and R.~Bruce, ``Intra-beam scattering and luminosity
 
 \bibitem{Mertens:IBSThesis}
 T.~Mertens, J.~Jowett, and M.~Sousa Da~Costa, ``Intrabeam scattering in the
-  lhc. oai:cds.cern.ch:1364596,'' Ph.D. dissertation, Porto U., Porto, 2011,
-  presented 17 Jun 2011.
+  lhc,'' Ph.D. dissertation, Porto U., Porto, 2011, presented 17 Jun 2011.
 
 \bibitem{Bohl:SingleBunchEnLoss}
 T.~Bohl, A.~Hofmann, T.~P.~R. Linnecar, E.~Shaposhnikova, and J.~Tückmantel,
@@ -257,9 +251,8 @@ H.~Hahn, ``Interpretation of coupling impedance bench measurements,''
 \BIBentrySTDinterwordspacing
 
 \bibitem{Jensen:ImprovLogForm}
-E.~Jensen, ``An improved log-formula for homogeneously distributed impedance.
-  oai:cds.cern.ch:960162,'' CERN, Geneva, Tech. Rep. CERN-PS-RF-NOTE-2000-001,
-  Jan 2000.
+E.~Jensen, ``An improved log-formula for homogeneously distributed impedance,''
+  CERN, Geneva, Tech. Rep. CERN-PS-RF-NOTE-2000-001, Jan 2000.
 
 \bibitem{Tsutsui:OnSingleWire}
 H.~Tsutsui, ``On single wire technique for transverse coupling impedance
@@ -275,27 +268,23 @@ H.~Tsutsui and L.~Vos, ``Transverse coupling impedance of a simplified ferrite
   2000.
 
 \bibitem{Salvant:QuadKicker}
-B.~Salvant, N.~Mounet, C.~Zannini, E.~Metral, and G.~Rumolo, ``Quadrupolar
-  transverse impedance of simple models of kickers. oai:cds.cern.ch:1271348,''
-  Tech. Rep. CERN-ATS-2010-076, Jun 2010.
+B.~Salvant, N.~Mounet, C.~Zannini, E.~Métral, and G.~Rumolo, ``Quadrupolar
+  transverse impedance of simple models of kickers,'' Tech. Rep.
+  CERN-ATS-2010-076, Jun 2010.
 
 \bibitem{Zannini:cCoreFerrite}
 C.~Zannini, G.~Rumolo, and V.~Vaccaro, ``Effect of the tem mode on the kicker
-  impedance. oai:cds.cern.ch:1459904,'' CERN, Geneva, Tech. Rep.
-  CERN-ATS-2012-134, May 2012.
+  impedance,'' CERN, Geneva, Tech. Rep. CERN-ATS-2012-134, May 2012.
 
 \bibitem{Masullo:StretchedWire}
-V.~V. P.~M. Masullo, M.R., ``The stretched wire method: A comparative analysis
-  performed by means of the mode matching technique,'' in \emph{LINAC'10}, no.
-  THP081, Napoli, Italy, May 2010.
+M.~Masullo, V.~Vaccaro, and M.~Panniello, ``The stretched wire method: A
+  comparative analysis performed by means of the mode matching technique,'' in
+  \emph{LINAC'10}, no. THP081, Napoli, Italy, May 2010.
 
 \bibitem{Weiland:Echo2d}
-\BIBentryALTinterwordspacing
 I.~Zagorodnov and T.~Weiland, ``Te/tm field solver for particle beam
   simulations without numerical cherenkov radiation,'' \emph{Phys. Rev. ST
-  Accel. Beams}, vol.~8, p. 042001, Apr 2005. [Online]. Available:
-  \url{http://link.aps.org/doi/10.1103/PhysRevSTAB.8.042001}
-\BIBentrySTDinterwordspacing
+  Accel. Beams}, vol.~8, p. 042001, Apr 2005.
 
 \bibitem{Chin:ABCI}
 Y.-H. Chin, ``{User's guide for ABCI version 9.4 (Azimuthal beam cavity
@@ -303,20 +292,20 @@ Y.-H. Chin, ``{User's guide for ABCI version 9.4 (Azimuthal beam cavity
   Rep., 2005.
 
 \bibitem{cst}
-
+``\texttt{http://www.cst.com}.''
 
 \bibitem{hfss}
-
+``\texttt{http://www.ansoft.com}.''
 
 \bibitem{maxwell}
-
+``\texttt{https://www.ansoft.com}.''
 
 \bibitem{Weiland:MAFIAv4}
 T.~Weiland, M.~Bartsch, U.~Becker, M.~Bihn, U.~Blell \emph{et~al.}, ``{MAFIA
   Version 4},'' \emph{AIP Conf.Proc.}, vol. 391, pp. 65--70, 1997.
 
 \bibitem{gdfidl}
-
+``\texttt{https//:www.gdfidl.de}.''
 
 \bibitem{Ng:Ace3p}
 C.~Ng, V.~Akcelik, A.~Candel, S.~Chen, N.~Folwell, L.~Ge, A.~Guetz, H.~Jiang,
@@ -325,33 +314,27 @@ C.~Ng, V.~Akcelik, A.~Candel, S.~Chen, N.~Folwell, L.~Ge, A.~Guetz, H.~Jiang,
   SLAC-PUB-12020, Sep 2006.
 
 \bibitem{Kononenko:TransBeamLoading}
-\BIBentryALTinterwordspacing
 O.~Kononenko and A.~Grudiev, ``Transient beam-loading model and compensation in
   compact linear collider main linac,'' \emph{Phys. Rev. ST Accel. Beams},
-  vol.~14, p. 111001, Nov 2011. [Online]. Available:
-  \url{http://link.aps.org/doi/10.1103/PhysRevSTAB.14.111001}
-\BIBentrySTDinterwordspacing
+  vol.~14, p. 111001, Nov 2011.
 
 \bibitem{Podobedov:TaperedImp}
-\BIBentryALTinterwordspacing
 B.~Podobedov and S.~Krinsky, ``Transverse impedance of axially symmetric
   tapered structures,'' \emph{Phys. Rev. ST Accel. Beams}, vol.~9, p. 054401,
-  May 2006. [Online]. Available:
-  \url{http://link.aps.org/doi/10.1103/PhysRevSTAB.9.054401}
-\BIBentrySTDinterwordspacing
+  May 2006.
 
 \bibitem{Salvant:VMTSA}
-D.~H. G. A. K. O. M.~E. Salvant, B., ``Cst simulations of vmtsa.''\hskip 1em
-  plus 0.5em minus 0.4em\relax Geneva: Presented at 03/04/2012 LRRF Task Force
-  Meeting. Available at \texttt{http://emetral.web.cern.ch/emetral/LRFF/LRFF
-  20meetings.htm}, April 2012.
+B.~Salvant, H.~Day, A.~Grudiev, O.~Kononenim, and E.~Métral, ``Cst simulations
+  of vmtsa.''\hskip 1em plus 0.5em minus 0.4em\relax Geneva: Presented at
+  03/04/2012 LRRF Task Force Meeting. Available at
+  \texttt{http://emetral.web.cern.ch/emetral/LRFF/LRFF 20meetings.htm}, April
+  2012.
 
 \bibitem{Caspers:ThinCondLayers}
 F.~Caspers, G.~Dôme, C.~González, E.~Jensen, E.~Keil, M.~Morvillo,
   F.~Ruggiero, G.~Schröder, B.~W. Zotter, and M.~Dyachkov, ``Rf screening by
-  thin resistive layers. oai:cds.cern.ch:386690,'' Tech. Rep.
-  LHC-Project-Report-300. CERN-LHC-Project-Report-300, Apr 1999, revised
-  version submitted on 2004-08-24 09:35:19.
+  thin resistive layers,'' Tech. Rep. LHC-Project-Report-300.
+  CERN-LHC-Project-Report-300, Apr 1999.
 
 \bibitem{Kroyer:MKEReduct}
 T.~Kroyer, F.~Caspers, and E.~Gaxiola, ``Longitudinal and transverse wire
@@ -366,79 +349,69 @@ H.~Klingbeil, ``Ferrite cavities,'' RF for Accelerators, CERN Accelerator
 \bibitem{Schmidt:LHCMP}
 R.~Schmidt, R.~W. Assmann, E.~Carlier, B.~Dehning, R.~Denz, B.~Goddard, E.~B.
   Holzer, V.~Kain, B.~Puccio, B.~Todd, J.~Uythoven, J.~Wenninger, and
-  M.~Zerlauth, ``Lhc machine protection. oai:cds.cern.ch:1076302,'' no.
-  LHC-PROJECT-Report-1053. CERN-LHC-PROJECT-Report-1053, p. 5 p, 2007.
+  M.~Zerlauth, ``Lhc machine protection,'' no. LHC-PROJECT-Report-1053.
+  CERN-LHC-PROJECT-Report-1053, p. 5 p, 2007.
 
 \bibitem{Zerlauth:MP}
-M.~e.~a. Zerlauth, ``Machine protection.''\hskip 1em plus 0.5em minus
-  0.4em\relax Geneva: Presented at Chamonix 2012 LHC Performance Workshop,
-  February 2012.
+M.~Zerlauth, ``Machine protection.''\hskip 1em plus 0.5em minus 0.4em\relax
+  Geneva: Presented at Chamonix 2012 LHC Performance Workshop, February 2012.
 
 \bibitem{Bertarelli:Mat}
 A.~Bertarelli, G.~Arnau~Izquierdo, F.~Carra, A.~Dallocchio, M.~Gil~Costa, and
   N.~Mariani, ``Research and development of novel advanced materials for
-  next-generation collimators. oai:cds.cern.ch:1402552,'' Tech. Rep.
-  CERN-ATS-2011-224, Nov 2011.
+  next-generation collimators,'' Tech. Rep. CERN-ATS-2011-224, Nov 2011.
 
 \bibitem{Bertarelli:HiRadMat}
-A.~e.~a. Bertarelli, ``Preliminary results of advanced material tests using
-  sample holder.''\hskip 1em plus 0.5em minus 0.4em\relax Geneva: Presented at
-  15th October 2012 Meeting of the Collimator Working Group, CERN, October
-  2012.
+A.~Bertarelli, ``Preliminary results of advanced material tests using sample
+  holder.''\hskip 1em plus 0.5em minus 0.4em\relax Geneva: Presented at 15th
+  October 2012 Meeting of the Collimator Working Group, CERN, October 2012.
 
 \bibitem{Valentino:ColAlignment}
-\BIBentryALTinterwordspacing
 G.~Valentino, R.~A\ss{}mann, R.~Bruce, S.~Redaelli, A.~Rossi, N.~Sammut, and
   D.~Wollmann, ``Semiautomatic beam-based lhc collimator alignment,''
-  \emph{Phys. Rev. ST Accel. Beams}, vol.~15, p. 051002, May 2012. [Online].
-  Available: \url{http://link.aps.org/doi/10.1103/PhysRevSTAB.15.051002}
-\BIBentrySTDinterwordspacing
+  \emph{Phys. Rev. ST Accel. Beams}, vol.~15, p. 051002, May 2012.
 
 \bibitem{Valentino:BPM}
-G.~e.~a. Valentino, ``Preliminary results from sps bpm-equipped collimator
+G.~Valentino, ``Preliminary results from sps bpm-equipped collimator
   mds.''\hskip 1em plus 0.5em minus 0.4em\relax Geneva: Presented at 26th
   November 2012 Meeting of the Collimator Working Group, CERN, November 2012.
 
 \bibitem{Dallocchio:ColBPM}
 A.~Dallocchio, A.~Bertarelli, C.~Boccard, F.~Carra, M.~Gasior, L.~Gentini, and
   M.~A. Timmins, ``Lhc collimators with embedded beam position monitors: A new
-  advanced mechanical design. oai:cds.cern.ch:1402570,'' no. CERN-ATS-2011-228,
-  p. 4 p, Nov 2011.
+  advanced mechanical design,'' no. CERN-ATS-2011-228, p. 4 p, Nov 2011.
 
 \bibitem{Salvant:Heating}
-B.~e.~a. Salvant, ``Beam induced heating.''\hskip 1em plus 0.5em minus
-  0.4em\relax Geneva: Presented at Evian LHC Beam Operation Workshop, December
-  2011.
+B.~Salvant, ``Beam induced heating.''\hskip 1em plus 0.5em minus 0.4em\relax
+  Geneva: Presented at Evian LHC Beam Operation Workshop, December 2011.
 
 \bibitem{ansys}
 ``\texttt{http://www.ansys.com/}.''
 
 \bibitem{tt2111r:datSheet}
-``Tt2-111r ata sheet available at
+``Tt2-111r data sheet available at
   \texttt{http://www.trans-techinc.com/products\_detail.asp?ID=151}.''
 
 \bibitem{Day:wireMeasFerr}
-H.~Day, M.~Barnes, F.~Caspers, E.~Metral, B.~Salvant, C.~Zannini, and R.~Jones,
-  ``Coaxial wire measurements of ferrite kicker magnets.
-  oai:cds.cern.ch:1407948,'' Tech. Rep. CERN-ATS-2011-275, Oct 2011.
+H.~Day, M.~Barnes, F.~Caspers, E.~Métral, B.~Salvant, C.~Zannini, and
+  R.~Jones, ``Coaxial wire measurements of ferrite kicker magnets,'' Tech. Rep.
+  CERN-ATS-2011-275, Oct 2011.
 
 \bibitem{Barnes:wireMeasKick}
 M.~J. Barnes, F.~Caspers, T.~Kroyer, E.~Métral, F.~Roncarolo, and B.~Salvant,
   ``Measurement of the longitudinal and transverse impedance of kicker magnets
-  using the coaxial wire method. oai:cds.cern.ch:1199760,'' Tech. Rep.
-  CERN-ATS-2009-018, Jul 2009.
+  using the coaxial wire method,'' Tech. Rep. CERN-ATS-2009-018, Jul 2009.
 
 \bibitem{Barnes:spsKickerHeating}
 M.~J. Barnes, F.~Caspers, K.~Cornelis, L.~Ducimetière, E.~Mahner, G.~Papotti,
   G.~Rumolo, V.~Senaj, and E.~Shaposhnikova, ``Measurement and analysis of sps
-  kicker magnet heating and outgassing with different bunch spacing.
-  oai:cds.cern.ch:1199759,'' Tech. Rep. CERN-ATS-2009-017, Jul 2009.
+  kicker magnet heating and outgassing with different bunch spacing,'' Tech.
+  Rep. CERN-ATS-2009-017, Jul 2009.
 
 \bibitem{Belver-Aguilar:clicStripline}
 C.~Belver-Aguilar, A.~Faus-Golfe, M.~J. Barnes, F.~Toral, and I.~Podadera,
-  ``Beam impedance study of the stripline kicker for the clic damping ring.
-  oai:cds.cern.ch:1470581,'' CERN, Geneva, Tech. Rep. CERN-ATS-2012-222, Aug
-  2012.
+  ``Beam impedance study of the stripline kicker for the clic damping ring,''
+  CERN, Geneva, Tech. Rep. CERN-ATS-2012-222, Aug 2012.
 
 \bibitem{Vos:beamScreen}
 L.~Vos, ``Beam screens in the lhc injection kicker magnets?'' CERN, Geneva,
@@ -446,9 +419,8 @@ L.~Vos, ``Beam screens in the lhc injection kicker magnets?'' CERN, Geneva,
 
 \bibitem{Barnes:improvBeamScreen}
 M.~J. Barnes, F.~Caspers, L.~Ducimetière, N.~Garrel, and T.~Kroyer, ``An
-  improved beam screen for the lhc injection kickers.
-  oai:cds.cern.ch:1058278,'' Tech. Rep. LHC-PROJECT-Report-1029.
-  CERN-LHC-PROJECT-Report-1029, 2007.
+  improved beam screen for the lhc injection kickers,'' Tech. Rep.
+  LHC-PROJECT-Report-1029. CERN-LHC-PROJECT-Report-1029, 2007.
 
 \bibitem{Caspers:impMeasMKI}
 F.~Caspers, C.~González, H.~Tsutsui, and M.~Dyachkov, ``Impedance measurements
@@ -461,9 +433,34 @@ F.~Caspers and A.~Mostacci, ``Bench measurements of the lhc injection kicker
   low frequency impedance properties,'' CERN, Geneva, Tech. Rep.
   SL-Note-2002-030-AP, Oct 2002.
 
-\bibitem{Caspers:lowFreqMKIMeas}
-------, ``Bench measurements of the lhc injection kicker low frequency
-  impedance properties. oai:cds.cern.ch:960426,'' CERN, Geneva, Tech. Rep.
-  CERN-PS-RF-NOTE-2002-156, Aug 2002.
+\bibitem{Goddard:timeConst}
+B.~Goddard.
+
+\bibitem{Barnes:mkiHeating}
+M.~J. Barnes, L.~Ducimetière, N.~Garrel, B.~Goddard, V.~Mertens, and
+  W.~Weterings, ``Analysis of ferrite heating of the lhc injection kickers and
+  proposals for future reduction of temperature,'' CERN, Geneva, Tech. Rep.
+  CERN-ATS-2012-211, Aug 2012.
+
+\bibitem{Garlasche:2dHeat}
+M.~Garlasche.
+
+\bibitem{Barnes:eFieldMKI}
+M.~Barnes and P.~Adrakata, ``Electric field on surface of ceramic and
+  cr2o3.''\hskip 1em plus 0.5em minus 0.4em\relax Geneva: Presented at 31st
+  October 2012 Meeting of the MKI Strategy Meeting, CERN, October 2012.
+
+\bibitem{Barnes:emisMKI}
+M.~Barnes, W.~Weterings, and V.~Namora, ``Mki tank\#12, inside,
+  emissivity.''\hskip 1em plus 0.5em minus 0.4em\relax Geneva: Presented at
+  27th November 2012 Meeting of the MKI Strategy Meeting, CERN, November 2012.
+
+\bibitem{Garlasche:2dHeatEmis}
+M.~Garlasche.
+
+\bibitem{Barnes:emisMKITemp}
+M.~Barnes and W.~Weterings, ``Emissivity of mki tank.''\hskip 1em plus 0.5em
+  minus 0.4em\relax Geneva: Presented at 16th March 2012 Meeting of the MKI
+  Strategy Meeting, CERN, March 2012.
 
 \end{thebibliography}
