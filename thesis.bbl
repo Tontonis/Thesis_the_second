@@ -127,10 +127,10 @@ L.~Laslett, V.~Neil, and A.~Sessler, ``{Transverse Resistive Instabilities of
 G.~V. Stupakov, ``Wake and impedance,'' pp. 205--230, 2000.
 
 \bibitem{Stupakov:surfaceRough}
-------, ``Surface roughness impedance,'' pp. 141--152, 2000.
+G.~V. Stupakov, ``Surface roughness impedance,'' pp. 141--152, 2000.
 
 \bibitem{Stupakov:adInImpTheory}
-------, ``Advances in impedance theory,'' 2009.
+G.~V. Stupakov, ``Advances in impedance theory,'' 2009.
 
 \bibitem{Mounet:PhDThesis}
 N.~Mounet, L.~Rivkin, and E.~Métral, ``The lhc transverse coupled-bunch
@@ -176,8 +176,9 @@ N.~Mounet and E.~Métral, ``Electromagnetic fields created by a macroparticle
   Tech. Rep. CERN-BE-2009-039, Nov 2009.
 
 \bibitem{Mounet:Flat}
-------, ``Electromagnetic fields and beam coupling impedances in a multilayer
-  flat chamber,'' CERN, Geneva, Tech. Rep. CERN-ATS-Note-2010-056, Dec 2010.
+N.~Mounet and E.~Métral, ``Electromagnetic fields and beam coupling impedances
+  in a multilayer flat chamber,'' CERN, Geneva, Tech. Rep. CERN-ATS-2010-056,
+  Dec 2010.
 
 \bibitem{Ng:IntDepInstab}
 K.~Y. Ng, \emph{Physics of Intensity Dependent Beam Instabilities}.\hskip 1em
@@ -189,9 +190,9 @@ A.~Grudiev, ``Simulation of longitudinal and transverse impedances of trapped
   AB-Note-2005-042. CERN-AB-Note-2005-042, Dec 2005.
 
 \bibitem{Grudiev:twoBeamCol}
-------, ``Simulation and reduction of longitudinal and transverse impedances of
-  a collimation device with two beams in one vacuum chamber,'' Tech. Rep.
-  LHC-Project-note-413, Mar 2008.
+A.~Grudiev, ``Simulation and reduction of longitudinal and transverse
+  impedances of a collimation device with two beams in one vacuum chamber,''
+  Tech. Rep. LHC-Project-note-413, Mar 2008.
 
 \bibitem{Burov:TransInstabSC}
 A.~Burov and V.~Lebedev, ``Transverse instabilities of coasting beams with
@@ -434,7 +435,9 @@ F.~Caspers and A.~Mostacci, ``Bench measurements of the lhc injection kicker
   SL-Note-2002-030-AP, Oct 2002.
 
 \bibitem{Goddard:timeConst}
-B.~Goddard.
+B.~Goddard, ``Mki heating 2011 – more observations.''\hskip 1em plus 0.5em
+  minus 0.4em\relax Geneva: Presented at 2nd February 2012 Meeting of the MKI
+  Strategy Meeting, CERN, February 2012.
 
 \bibitem{Barnes:mkiHeating}
 M.~J. Barnes, L.~Ducimetière, N.~Garrel, B.~Goddard, V.~Mertens, and
@@ -443,7 +446,9 @@ M.~J. Barnes, L.~Ducimetière, N.~Garrel, B.~Goddard, V.~Mertens, and
   CERN-ATS-2012-211, Aug 2012.
 
 \bibitem{Garlasche:2dHeat}
-M.~Garlasche.
+M.~Garlasche, ``Mki heating 2011 – more observations.''\hskip 1em plus 0.5em
+  minus 0.4em\relax Geneva: Presented at 2nd August 2012 Meeting of the MKI
+  Strategy Meeting, CERN, August 2012.
 
 \bibitem{Barnes:eFieldMKI}
 M.~Barnes and P.~Adrakata, ``Electric field on surface of ceramic and
@@ -456,7 +461,9 @@ M.~Barnes, W.~Weterings, and V.~Namora, ``Mki tank\#12, inside,
   27th November 2012 Meeting of the MKI Strategy Meeting, CERN, November 2012.
 
 \bibitem{Garlasche:2dHeatEmis}
-M.~Garlasche.
+M.~Garlasche, ``Mki heating 2011 – more observations.''\hskip 1em plus 0.5em
+  minus 0.4em\relax Geneva: Presented at 12th November 2012 Meeting of the MKI
+  Strategy Meeting, CERN, November 2012.
 
 \bibitem{Barnes:emisMKITemp}
 M.~Barnes and W.~Weterings, ``Emissivity of mki tank.''\hskip 1em plus 0.5em

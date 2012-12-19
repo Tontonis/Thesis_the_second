@@ -12,29 +12,11 @@ White space in argument---line 322 of file thesis.aux
  : \citation{Hahn:
  :                 ValidityImpMeas}
 I'm skipping whatever remains of this command
-The style file: IEEEtran.bst
+The style file: myIEEETran.bst
 Database file #1: thesisBib.bib
-I was expecting an "="---line 585 of file thesisBib.bib
+I was expecting an "="---line 589 of file thesisBib.bib
  : /  
  :    publisher = {American Physical Society}
-I'm skipping whatever remains of this entry
-Warning--string name "mki" is undefined
---line 951 of file thesisBib.bib
-I was expecting a `,' or a `}'---line 951 of file thesisBib.bib
- :       title        = mki 
- :                          heating 2011 – more observations",
-I'm skipping whatever remains of this entry
-Warning--string name "mki" is undefined
---line 973 of file thesisBib.bib
-I was expecting a `,' or a `}'---line 973 of file thesisBib.bib
- :       title        = mki 
- :                          heating 2011 – more observations",
-I'm skipping whatever remains of this entry
-Warning--string name "mki" is undefined
---line 1003 of file thesisBib.bib
-I was expecting a `,' or a `}'---line 1003 of file thesisBib.bib
- :       title        = mki 
- :                          heating 2011 – more observations",
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Lourenco:ALICE"
 Warning--I didn't find a database entry for "M�tral:ResWallWideFreq"
@@ -79,18 +61,12 @@ Warning--missing institution in Day:wireMeasFerr
 Warning--missing institution in Barnes:wireMeasKick
 Warning--missing institution in Barnes:spsKickerHeating
 Warning--missing institution in Barnes:improvBeamScreen
-Warning--empty title in Goddard:timeConst
 Warning--empty booktitle in Goddard:timeConst
-Warning--empty year in Goddard:timeConst
-Warning--empty title in Garlasche:2dHeat
 Warning--empty booktitle in Garlasche:2dHeat
-Warning--empty year in Garlasche:2dHeat
 Warning--empty booktitle in Barnes:eFieldMKI
 Warning--empty booktitle in Barnes:emisMKI
-Warning--empty title in Garlasche:2dHeatEmis
 Warning--empty booktitle in Garlasche:2dHeatEmis
-Warning--empty year in Garlasche:2dHeatEmis
 Warning--empty booktitle in Barnes:emisMKITemp
 
 Done.
-(There were 7 error messages)
+(There were 4 error messages)

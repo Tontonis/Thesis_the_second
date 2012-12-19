@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  18 DEC 2012 09:55
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  19 DEC 2012 10:53
 entering extended mode
 **C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
 (C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
@@ -2263,7 +2263,12 @@ e 28.
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/observations_during_o
 peration.tex [149] [150 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_M
 KI/figures/injection-points-lhc.png> <C:/Users/hugo/Documents/GitHub/Thesis_the
-_second/LHC_MKI/figures/mki-out-vac-tank.png>] [151]
+_second/LHC_MKI/figures/mki-out-vac-tank.png>]
+
+LaTeX Warning: Citation `Caspers:lowFreqMKIMeas' on page 151 undefined on input
+ line 8.
+
+[151]
 
 LaTeX Warning: Citation `Métral:Heating' on page 152 undefined on input line 14
 .
@@ -2806,19 +2811,19 @@ cel-er-a-tor,''
  []
 
 [186] [187] [188] [189]
-Underfull \hbox (badness 1275) in paragraph at lines 262--264
+Underfull \hbox (badness 1275) in paragraph at lines 263--265
 []\T1/ptm/m/n/12 T. Kroyer, ``Sim-u-la-tion of the low-frequency col-li-ma-tor 
 impedance,'' CERN,
  []
 
 [190] [191]
-Underfull \hbox (badness 1776) in paragraph at lines 375--378
+Underfull \hbox (badness 1776) in paragraph at lines 376--379
 []\T1/ptm/m/n/12 G. Valentino, ``Pre-lim-i-nary re-sults from sps bpm-equipped 
 col-li-ma-tor mds.''
  []
 
 
-Overfull \hbox (157.4055pt too wide) in paragraph at lines 392--394
+Overfull \hbox (157.4055pt too wide) in paragraph at lines 393--395
 []\T1/ptm/m/n/12 ``Tt2-111r data sheet avail-able at \T1/pcr/m/n/12 http://www.
 trans-techinc.com/products_detail.asp?ID=151\T1/ptm/m/n/12 .'' 
  []
@@ -2867,7 +2872,7 @@ w/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (204 pages, 21164831 bytes).
+Output written on thesis.pdf (204 pages, 21164982 bytes).
 PDF statistics:
  5214 PDF objects out of 6186 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
