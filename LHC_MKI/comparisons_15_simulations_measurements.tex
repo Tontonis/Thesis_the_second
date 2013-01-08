@@ -34,22 +34,25 @@ The results for the measurements be seen in the following figures:
 \item{Fig.~\ref{fig:mki-15-longitudinal} the longitudinal impedance}
 \item{Fig.~\ref{fig:mki-15-horz-dipolar} the horizontal dipolar impedance}
 \item{Fig.~\ref{fig:mki-15-vert-dipolar} the vertical dipolar impedance}
-\item{Fig.~\ref{fig:mki-15-horz-quad} the horizontal quadrupolar impedance}
-\item{Fig.~\ref{fig:mki-15-vert-quad} the vertical quadrupolar impedance}
-\item{Fig.~\ref{fig:mki-15-horz-constant} the horizontal constant impedance}
-\item{Fig.~\ref{fig:mki-15-vert-constant} the vertical constant impedance}
+\item{Fig.~\ref{fig:mki-15-quadrupolar} the quadrupolar impedance}
+\item{Fig.~\ref{fig:mki-15-constant} the constant transverse impedance}
 \end{enumerate}
 
 \begin{figure}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{LHC_MKI/figures/mki_15_sims_meas_long.pdf}
+\end{center}
 \label{fig:mki-15-longitudinal}
 \caption{The longitudinal impedance of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio.}
 \end{figure}
 
 \begin{figure}
 \subfigure[]{
+\includegraphics[width=0.45\textwidth]{LHC_MKI/figures/mki_15_sims_meas_dip_horz.pdf}
 \label{fig:mki-15-horz-dipolar}
 }
 \subfigure[]{
+\includegraphics[width=0.45\textwidth]{LHC_MKI/figures/mki_15_sims_meas_dip_vert.pdf}
 \label{fig:mki-15-vert-dipolar}
 }
 \label{fig:mki-15-dipolar}
@@ -57,29 +60,25 @@ The results for the measurements be seen in the following figures:
 \end{figure}
 
 \begin{figure}
-\subfigure[]{
-\label{fig:mki-15-horz-quad}
-}
-\subfigure[]{
-\label{fig:mki-15-vert-quad}
-}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{LHC_MKI/figures/mki_15_sims_meas_quad_horz.pdf}
+\end{center}
 \label{fig:mki-15-quadrupolar}
-\caption{The quadrupolar impedances of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio. \ref{fig:mki-15-horz-quad} shows the horizontal quadrupolar impedance, and \ref{fig:mki-15-vert-quad} the vertical quadrupolar impedance}
+\caption{The quadrupolar impedances of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio.}
 \end{figure}
 
 \begin{figure}
-\subfigure[]{
-\label{fig:mki-15-horz-constant}
-}
-\subfigure[]{
-\label{fig:mki-15-vert-constant}
-}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{LHC_MKI/figures/mki_15_sims_meas_const.pdf}
+\end{center}
 \label{fig:mki-15-constant}
-\caption{The constant transverse impedances of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio. \ref{fig:mki-15-horz-constant} shows the horizontal constant impedance, and \ref{fig:mki-15-vert-constant} the vertical constant impedance}
+\caption{The constant transverse impedances of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio.}
 \end{figure}
 
 
 It can be seen that there is generally good agreement between the measurements and simulations in all planes. In particular the agreement for the real component of the longitudinal impedance between measurements and simulations is exceptionally good below 1.5GHz. This is considered an important verification of the simulation model as this is the impedance of greatest concern presently due to beam-induced heating. Discrepencies can be seen in the longitudinal measurements above 1.5GHz - this is likely due to differences between the internal structure of the magnet and that represented by the simulation model.
+
+In the transverse plane the dipolar impedance in both the vertical and horizontal plane shows good agreement between the simulations and the measurements. Likewise the agreement for the quadrupolar impedance is good over much of the frequency range, although the simulation and measurement results begin to diverge above 1.7GHz. The constant transverse term shows a good agreement up until $\approx$ 1GHz whereupon the results diverge. This is due to the sentivity of these results to the systematic and random errors in the measurement of the longitudinal impedance. The comparatively small longitudinal impedance measured in this instance leads to large errors in these results. 
 
 \subsection{Beam Induced Heating Estimates for 15 Screen Conductors}
 
