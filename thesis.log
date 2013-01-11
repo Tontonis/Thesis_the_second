@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2011.1.19)  11 JAN 2013 12:10
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2011.1.19)  11 JAN 2013 12:25
 entering extended mode
 **E:/GitHub/Thesis_the_second/thesis.tex
 (E:/GitHub/Thesis_the_second/thesis.tex
@@ -567,13 +567,13 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 LaTeX Warning: Label `fig:diff_bunch_len_para' multiply defined.
 
 
-LaTeX Warning: Label `fig:diff_bunch_len_para@cref' multiply defined.
+LaTeX Warning: Label `cref@fig:diff_bunch_len_para' multiply defined.
 
 
 LaTeX Warning: Label `fig:imp-overlap-fres' multiply defined.
 
 
-LaTeX Warning: Label `fig:imp-overlap-fres@cref' multiply defined.
+LaTeX Warning: Label `cref@fig:imp-overlap-fres' multiply defined.
 
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -1537,7 +1537,7 @@ e/dipolar-vertical-impedance.pdf used on input line 633.
 (pdftex.def)             Requested size: 215.0386pt x 149.60364pt.
 
 <Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/quadrupolar-vertical-i
-mpedance.pdf, id=2391, 645.00972pt x 472.46513pt>
+mpedance.pdf, id=2391, 719.08652pt x 532.08784pt>
 File: Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/quadrupolar-verti
 cal-impedance.pdf Graphic file (type pdf)
 
@@ -1545,7 +1545,7 @@ cal-impedance.pdf Graphic file (type pdf)
 al-impedance.pdf>
 Package pdftex.def Info: Bench_Top_Measurements/figures/wire_meas/ferrite-c-cor
 e/quadrupolar-vertical-impedance.pdf used on input line 637.
-(pdftex.def)             Requested size: 204.24207pt x 149.60364pt.
+(pdftex.def)             Requested size: 202.17674pt x 149.60364pt.
 
 <Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/constant-vertical-impe
 dance.pdf, id=2392, 578.16pt x 433.62pt>
@@ -2946,10 +2946,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6514 strings out of 495269
- 145582 string characters out of 3179651
+ 6252 strings out of 495269
+ 138208 string characters out of 3179651
  196050 words of memory out of 3000000
- 9350 multiletter control sequences out of 15000+200000
+ 9088 multiletter control sequences out of 15000+200000
  47940 words of font info for 72 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  28i,13n,24p,2208b,300s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2970,7 +2970,7 @@ e1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/pa
 latino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/times/utmb
 8a.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/times/utmr8a.pfb><C:/
 Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (206 pages, 21226196 bytes).
+Output written on thesis.pdf (206 pages, 21225938 bytes).
 PDF statistics:
  5516 PDF objects out of 6186 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
