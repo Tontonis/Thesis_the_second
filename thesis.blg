@@ -1,25 +1,23 @@
-This is BibTeX, Version 0.99cThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 Case mismatch error between cite keys Stupakov:wakeAndImp and Stupakov:wakeandImp
----line 92 of file thesis.aux
+---line 93 of file thesis.aux
  : \citation{Stupakov:wakeAndImp
  :                              }
 I'm skipping whatever remains of this command
-White space in argument---line 319 of file thesis.aux
+White space in argument---line 318 of file thesis.aux
  : \citation{Hahn:
  :                 ValidityImpMeas}
 I'm skipping whatever remains of this command
-White space in argument---line 324 of file thesis.aux
+White space in argument---line 323 of file thesis.aux
  : \citation{Hahn:
  :                 ValidityImpMeas}
 I'm skipping whatever remains of this command
 The style file: myIEEETran.bst
 Database file #1: thesisBib.bib
-I was expecting an "="---line 595 of file thesisBib.bib
+I was expecting an "="---line 592 of file thesisBib.bib
  : /  
  :    publisher = {American Physical Society}
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "eqn:trans_wake_func"
-Warning--I didn't find a database entry for "Métral:ResWallWideFreq"
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Caspers:ThinCondLayer"
 Warning--I didn't find a database entry for "Métral:phase2Imp"

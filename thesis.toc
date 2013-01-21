@@ -29,14 +29,14 @@
 \contentsline {subsubsection}{Longitudinal Beam Profiles}{53}
 \contentsline {subsubsection}{Beam induced heating due to a low Q impedance}{57}
 \contentsline {subsubsection}{Beam induced heating due to a high Q impedance}{58}
-\contentsline {subsubsection}{Some Examples of the Beam-Induced Heating}{59}
+\contentsline {subsubsection}{Some Examples of the Beam-Induced Heating}{60}
 \contentsline {subsubsection}{The Effect of Bunch Length on Power Loss}{60}
-\contentsline {subsubsection}{Beam-Induced Heating due to two traversing beams}{62}
+\contentsline {subsubsection}{Beam-Induced Heating due to two traversing beams}{63}
 \contentsline {subsection}{\numberline {2.3.2}Beam Instabilities}{64}
-\contentsline {subsubsection}{Tune Shift and Tune Spread}{64}
-\contentsline {subsubsection}{Longitudinal Single Bunch Instabilities}{65}
-\contentsline {subsubsection}{Transverse Single Bunch Instabilities}{67}
-\contentsline {subsubsection}{Coupled Bunch Instabilities}{69}
+\contentsline {subsubsection}{Tune Shift and Tune Spread}{65}
+\contentsline {subsubsection}{Longitudinal Single Bunch Instabilities}{67}
+\contentsline {subsubsection}{Transverse Single Bunch Instabilities}{68}
+\contentsline {subsubsection}{Coupled Bunch Instabilities}{68}
 \contentsline {chapter}{\numberline {3}Beam Based Measurements of Beam Coupling Impedance}{70}
 \contentsline {section}{\numberline {3.1}Longitudinal Beam Impedance Measurements}{70}
 \contentsline {subsection}{\numberline {3.1.1}Potential Well Distortion with Bunch Intensity}{70}
@@ -99,5 +99,5 @@
 \contentsline {section}{\numberline {8.7}Upgrade Plans for Long Shutdown 1 and Beyond}{180}
 \contentsline {chapter}{\numberline {9}Conclusions}{184}
 \contentsline {chapter}{Bibliography}{186}
-\contentsline {chapter}{\numberline {A}TCTP Eigenmode Simulations - No Ferrite}{196}
-\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - With Ferrite}{202}
+\contentsline {chapter}{\numberline {A}TCTP Eigenmode Simulations - No Ferrite}{197}
+\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - With Ferrite}{203}

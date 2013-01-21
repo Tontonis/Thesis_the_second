@@ -6,7 +6,7 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The relative displacements and velocities of the source and test particles.}}{40}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces The relative displacements of the source and witness particle in the horizontal and vertical planes that identify the dipolar/driving and quadrupolar/detuning impedances.}}{46}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Cross section of a cylindrical pillbox cavity with an attached beam pipe}}{47}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The equivalent RLC parallel circuit for a cavity resonance, driven by a current $i_{b}$, in this cas the beam current}}{48}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The equivalent RLC parallel circuit for a cavity resonance, driven by a current $i_{b}$, in this case the beam current}}{48}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces The geometry of the classical thick wall formula.}}{50}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Examples of the longitudinal 2.6(a)\hbox {} and transverse 2.6(b)\hbox {} resistive wall impedance of a beam pipe of radius $a = 2cm$ made of both copper ($\sigma = 1 \times 10^{7} S m^{-1}$) and graphite ($\sigma = 7 \times 10^{4} S m^{-1}$).}}{51}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{51}
@@ -14,10 +14,10 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces A comparison of 2.7(a)\hbox {} a measured beam power spectrum and a gaussian bunch of the same bunch length in the frequency domain and 2.7(b)\hbox {} the resulting time domain beam profile. The gaussian has a bunch length (4$\sigma _{z}$ = 1.2ns). Measured spectrum taken by P. Baundrenghien et al \cite {Baudrenghien:LHCPowSpec}}}{54}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{54}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{54}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces The longitudinal bunch profile of a number of bunch distributions. Note that all of them are normalised to have a peak bunch current of 1. For the gaussian distribution the bunch length is the 4$\sigma $ value. The bunch length $\tau _{b} = 1.2ns$}}{55}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces The frequency domain 2.9(a)\hbox {} current spectrum and 2.9(b)\hbox {} power spectrum for a number of different bunch profiles with a bunch length $\tau _{b} = 1.2ns$.}}{56}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{56}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{56}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces The longitudinal bunch profile of a number of bunch distributions. Note that all of these are normalised to have a peak bunch current of 1. For the gaussian distribution the bunch length is the 4$\sigma $ value. The bunch length $\tau _{b} = 1.2ns$}}{55}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces The frequency domain 2.9(a)\hbox {} current spectrum and 2.9(b)\hbox {} power spectrum for a number of different bunch profiles with a bunch length $\tau _{b} = 1.2ns$.}}{55}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{55}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{55}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces 2.10(a)\hbox {} The longitudinal profile and the 2.10(b)\hbox {} associated bunch power spectrum for a number of bunch lengths assuming a gaussian bunch profile.}}{56}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{56}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{56}
@@ -34,11 +34,11 @@
 \contentsline {figure}{\numberline {2.17}{\ignorespaces 2.17(a)\hbox {} The change in power loss due to a narrow band resonance characterised by $\omega _{0} = 2GHz$, $R_{s} = 100\Omega $, $Q = 1$ interacting with a cos$^{2}$ bunch distribution with different bunch lengths. The impedance and the beam power spectrum are shown in 2.17(b)\hbox {} to illustrate how this relates to the power loss.}}{63}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{63}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{63}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces A tune diagram illustrating the unperturbed tune of a machine, and the resulting perturbed tune and the tune spread as a result of an impedance source. Note that the tune spread has caused some particle to lie upon a major resonance harmonic. Taken from K. Schindl \cite {Schindl:SpaceCharge}.}}{66}
-\contentsline {figure}{\numberline {2.19}{\ignorespaces The change in the bunch length of a proton beam in an SPS like machine due to the effects of a broadband resonator impedance ($f_{res} = 1GHz$, $R_{s}=10 \Omega $, $Q=1$). Note that the bunch length increases when the beam is above transition, and decreases below transition, as the bunch intensity is increase.}}{67}
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Examples of a number of modes of headtail oscillations without 2.20(a)\hbox {} and with 2.20(b)\hbox {} chromaticity. Note that radial and azimuthal modes may occur, as may coupled modes in which the motion of the horizontal and vertical planes is coupled. Images courtesy of G. Rumolo \cite {Rumolo:IntroInstab}.}}{68}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{68}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{68}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces A tune diagram illustrating the unperturbed tune of a machine, and the resulting perturbed tune and the tune spread as a result of an impedance source. Note that the tune spread has caused some particles to lie upon a major resonance harmonic. Taken from K. Schindl \cite {Schindl:SpaceCharge}.}}{66}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces The change in the bunch length of a proton beam in an SPS like machine due to the effects of a broadband resonator impedance ($f_{res} = 1GHz$, $R_{s}=10 \Omega $, $Q=1$). Note that the bunch length increases when the beam is above transition, and decreases below transition, as the bunch intensity is increased.}}{67}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Examples of a number of modes of headtail oscillations without 2.20(a)\hbox {} and with 2.20(b)\hbox {} chromaticity. Note that radial and azimuthal modes may occur, as may coupled modes in which the motion of the horizontal and vertical planes is coupled. Images courtesy of G. Rumolo \cite {Rumolo:IntroInstab}.}}{69}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{69}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{69}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison of the electromagnetic field profile of a moving charged particle and a short time pulse propogating along a coaxial wire.}}{76}
