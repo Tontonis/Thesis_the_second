@@ -1,24 +1,24 @@
 This is BibTeX, Version 0.99cThe top-level auxiliary file: thesis.aux
 Case mismatch error between cite keys Stupakov:wakeAndImp and Stupakov:wakeandImp
----line 90 of file thesis.aux
+---line 92 of file thesis.aux
  : \citation{Stupakov:wakeAndImp
  :                              }
 I'm skipping whatever remains of this command
-White space in argument---line 317 of file thesis.aux
+White space in argument---line 319 of file thesis.aux
  : \citation{Hahn:
  :                 ValidityImpMeas}
 I'm skipping whatever remains of this command
-White space in argument---line 322 of file thesis.aux
+White space in argument---line 324 of file thesis.aux
  : \citation{Hahn:
  :                 ValidityImpMeas}
 I'm skipping whatever remains of this command
 The style file: myIEEETran.bst
 Database file #1: thesisBib.bib
-I was expecting an "="---line 589 of file thesisBib.bib
+I was expecting an "="---line 595 of file thesisBib.bib
  : /  
  :    publisher = {American Physical Society}
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Lourenco:ALICE"
+Warning--I didn't find a database entry for "eqn:trans_wake_func"
 Warning--I didn't find a database entry for "Métral:ResWallWideFreq"
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Caspers:ThinCondLayer"
@@ -36,6 +36,8 @@ Warning--empty author in ntof
 Warning--empty author and editor in ATLASTDR
 Warning--empty author in CMSDR
 Warning--empty author and editor in LHCb
+Warning--empty journal in Lourenco:ALICE
+Warning--empty journal in McCrory:lumiEvo
 Warning--empty journal in Stupakov:wakeandImp
 Warning--empty journal in Stupakov:surfaceRough
 Warning--empty journal in Stupakov:adInImpTheory

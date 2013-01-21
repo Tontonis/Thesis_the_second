@@ -1,6 +1,6 @@
 \section{Wakefields}
 
-Wakefields are the conventional name given to the phenomenon of induced electromagnetic fields due to charged particles traversing the beam pipe, RF cavities and many other pieces of equipment facing a particle beam in a particle accelerator. They have long been studied as a source of collective instabilities within particle accelerators \cite{Laslett:ResWallInstab}, through the use of analytical models for different beam pipe geometries \cite{Stupakov:wakeandImp, Stupakov:surfaceRough, Stupakov:adInImpTheory} and materials \cite{Mounet:PhDThesis}, using computational simulation tools, and both beam-based and bench-top measurement techniques. In this chapter is presented a number of significant properties of wakefields and their frequency domain counterpart, beam coupling impedance, as well an select example of observable effects that wakefields produce.
+Wakefields are the conventional name given to the phenomenon of induced electromagnetic fields due to charged particles traversing the beam pipe, RF cavities and many other pieces of equipment facing a particle beam in a particle accelerator. They have long been studied as a source of collective instabilities within particle accelerators \cite{Laslett:ResWallInstab}, through the use of analytical models for different beam pipe geometries \cite{Stupakov:wakeandImp, Stupakov:surfaceRough, Stupakov:adInImpTheory} and materials \cite{Mounet:PhDThesis}, using computational simulation tools, and both beam-based and bench-top measurement techniques. In this chapter is presented a number of significant properties of wakefields and their frequency domain counterpart, beam coupling impedance, as well a select example of observable effects that wakefields produce.
 
 To aid in the explaination there will first be a short definition of the relative positions and labels of particles used in the following section (this derivation follows the examples given by Stupakov \cite{Stupakov:wakeandImp} and Palumbo \cite{Palumbo:Wakes}). We define the source, or inducing particle as a charged particle with charge $q_{1}$ moving with velocity $\mathbf{v} = \beta{}c \mathbf{\vec{z}}$ at coordinate $\left( \mathbf{r_{1}} \right) = x_{1}\mathbf{\hat{x}} + y_{1}\mathbf{\hat{y}} + z_{1} \mathbf{\hat{z}}$, leading a test, or witness particle, with charge $q_{2}$, moving with velocity $\mathbf{v}$ at coordinate $\left( \mathbf{r_{2}} \right) = x_{2}\mathbf{\hat{x}} + y_{2}\mathbf{\hat{y}} + z_{2} \mathbf{\hat{z}}$ at a distance $z_{1} - z_{2}$ behind the source particle. This relationship is visualised in Fig.~\ref{fig:source_and_wit}.
 
@@ -32,7 +32,7 @@ where $\gamma = \sqrt{1- v^{2}/c^{2}}$ is the relativistic gamma factor. It can 
 
 where $\mathbf{r} = x\mathbf{\hat{x}} + y\mathbf{\hat{y}}$ is a purely transverse vector.
 
-The following witness particle this experiences the resulting lorentz force 
+The following witness particle experiences the resulting Lorentz force 
 
 \begin{equation}
 \mathbf{F}\left(\mathbf{r_{1}}, \mathbf{r_{2}}  \right) = q_{2}\left[ \mathbf{E} + \mathbf{v} \times \mathbf{B}  \right]. 
@@ -142,7 +142,7 @@ F_{\parallel} = q_{2} E_{z} \\
 \mathbf{F}_{\perp} = q_{2}  \left[\mathbf{E_{\perp}} - v \int^{t_{2}}_{t_{1}}\left(  \nabla_{\perp}E_{z}  - \frac{\partial\mathbf{E}_{\perp}}{\partial z} \right) dt  \right]
 \end{align}
 
-where $\nabla_{\perp}$ in the differential operator only in the transverse coordinates. If these are now compared to the identities of the wake function for the longitudinal and transverse wake functions given in Eqns.~\ref{eqn:long_wake_func; eqn:trans_wake_func} respectively, it can be seen that
+where $\nabla_{\perp}$ in the differential operator only in the transverse coordinates. If these are now compared to the identities of the wake function for the longitudinal and transverse wake functions given in Eqns.~\ref{eqn:long_wake_func} and \ref{eqn:trans_wake_func} respectively, it can be seen that
 
 \begin{align}
 w_{\parallel}\left( \mathbf{r_{1}}, \mathbf{r_{2}}, \tau   \right) = -\frac{1}{q_{1}} \int^{\infty}_{-\infty} dz E_{z} \left( \mathbf{r_{1}}, \mathbf{r_{2}} \right) \\
