@@ -1,14 +1,14 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 Case mismatch error between cite keys Stupakov:wakeAndImp and Stupakov:wakeandImp
----line 93 of file thesis.aux
+---line 94 of file thesis.aux
  : \citation{Stupakov:wakeAndImp
  :                              }
 I'm skipping whatever remains of this command
-White space in argument---line 320 of file thesis.aux
+White space in argument---line 321 of file thesis.aux
  : \citation{Hahn:
  :                 ValidityImpMeas}
 I'm skipping whatever remains of this command
-White space in argument---line 325 of file thesis.aux
+White space in argument---line 326 of file thesis.aux
  : \citation{Hahn:
  :                 ValidityImpMeas}
 I'm skipping whatever remains of this command
@@ -18,13 +18,18 @@ I was expecting an "="---line 592 of file thesisBib.bib
  : /  
  :    publisher = {American Physical Society}
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1072 of file thesisBib.bib
+ :       
+ :       institution  = "CERN",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "Brüning:beamParameters"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--missing institution in Baudrenghien:LHCPowSpec
 Warning--empty booktitle in Carra:HeatLoad
+Warning--empty booktitle in Garlasche:2dHeatEmisAll
 Warning--empty author in ntof
 Warning--empty author and editor in ATLASTDR
 Warning--empty author in CMSDR
@@ -67,7 +72,14 @@ Warning--empty booktitle in Garlasche:2dHeat
 Warning--empty booktitle in Barnes:eFieldMKI
 Warning--empty booktitle in Barnes:emisMKI
 Warning--empty booktitle in Garlasche:2dHeatEmis
+Warning--empty title in Barnes:mkiElec
+Warning--empty booktitle in Barnes:mkiElec
 Warning--empty booktitle in Barnes:emisMKITemp
+Warning--empty title in Barnes:mkiAlt
+Warning--empty booktitle in Barnes:mkiAlt
+Warning--empty booktitle in Barnes:mkiElecSurfCer
+Warning--empty year in Barnes:mkiElecSurfCer
+Warning--empty booktitle in Bruning:beamParameters
 
 Done.
-(There were 4 error messages)
+(There were 5 error messages)

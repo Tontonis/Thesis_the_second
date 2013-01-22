@@ -52,6 +52,11 @@ F.~Carra, ``Choice of material for the tctp ferrite supports.''\hskip 1em plus
 M.~Barnes, ``Injection and extraction magnets,'' Magnets, CERN Accelerator
   School, 2009.
 
+\bibitem{Garlasche:2dHeatEmisAll}
+M.~Garlasche, ``Mki thermal behaviour.''\hskip 1em plus 0.5em minus 0.4em\relax
+  Geneva: Presented at 27th November 2012 Meeting of the MKI Strategy Meeting,
+  CERN, November 2012.
+
 \bibitem{Bailey:CNGS}
 R.~Bailey, J.~L. Baldy, A.~E. Ball, P.~Bonnal, M.~Buhler-Broglin,
   C.~D\'{e}traz, K.~Elsener, A.~Ereditato, P.~E. Faugeras, A.~Ferrari,
@@ -513,9 +518,26 @@ M.~Garlasche, ``Mki heating 2011 – more observations.''\hskip 1em plus 0.5em
   minus 0.4em\relax Geneva: Presented at 12th November 2012 Meeting of the MKI
   Strategy Meeting, CERN, November 2012.
 
+\bibitem{Barnes:mkiElec}
+M.~Barnes and W.~Weterings.\hskip 1em plus 0.5em minus 0.4em\relax Geneva:
+  Presented at 11th May 2012 Meeting of the MKI Strategy Meeting, CERN, May
+  2012.
+
 \bibitem{Barnes:emisMKITemp}
 M.~Barnes and W.~Weterings, ``Emissivity of mki tank.''\hskip 1em plus 0.5em
   minus 0.4em\relax Geneva: Presented at 16th March 2012 Meeting of the MKI
   Strategy Meeting, CERN, March 2012.
+
+\bibitem{Barnes:mkiAlt}
+M.~Barnes.\hskip 1em plus 0.5em minus 0.4em\relax Geneva: Presented at 2nd
+  August 2012 Meeting of the MKI Strategy Meeting, CERN, August 2012.
+
+\bibitem{Barnes:mkiElecSurfCer}
+M.~Barnes, ``Electric field on surface of ceramic.''
+
+\bibitem{Bruning:beamParameters}
+O.~Brüning, ``Update of required beam characteristics at injection energy in
+  lhc.''\hskip 1em plus 0.5em minus 0.4em\relax Geneva: Presented at 30th March
+  2012 HL-LHC/LIU Joint Workshop, CERN, March 2012.
 
 \end{thebibliography}

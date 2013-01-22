@@ -8,12 +8,12 @@ To first judge the effectiveness of the concept of the beam screen as an impedan
 
 \begin{enumerate}
 \item{The c-core ferrite yoke}
-\item{The c-core ferrite yoke with a ceramic cylinder inserted inside}
-\item{As above but with 24 screen conductors inserted into the cylinder, capactively coupled at one end}
+\item{The c-core ferrite yoke with a ceramic tube inserted inside}
+\item{As above but with 24 screen conductors inserted into the ceramic tube, capactively coupled at one end}
 \item{The internal magnet structure including the vacuum tank, HV and ground plates and the surrounding connections.}
 \end{enumerate}
 
-These geometries are shown in Fig.~\ref{fig:mki-layout-buildup}, and the resulting impedance simulations for the real component shown in Fig.~\ref{fig:mki-buildup-impedance}. Several points can be seen; firstly that the inclusion of the beam screen with screen conductors very effectively screens the beam from the other components of the kicker magnet - including the ceramic of the beam screen, the surrounding structures and the ferrite itself. This indicates that for a beam screen in which the ceramic tube holds a large number of screen conductors, the beam is effectively screened from the surrounding structure up to a frequency characterised by seperation of the screen conductors. This has benefits for the impedance simulations as it is valid to use a reduced simulation model considering just the capacitively coupled end provided we can assume the ferrite is well screened (i.e. we have 24 screen conductors in place). Secondly the inclusion of the ceramic beam pipe does not effectively screen the ferrite by itself - the screen conductors are necessary to correctly screen the surroundings. And lastly that the use of the ceramic beam screen contributes significantly to the imaginary component of the longitudinal impedance (evidenced by the linear increase of the imaginary impedance with frequency due to the inductive component of the impedance) even with the presence of screen conductors.
+These geometries are shown in Fig.~\ref{fig:mki-layout-buildup}, and the resulting impedance simulations for the real component shown in Fig.~\ref{fig:mki-buildup-impedance}. Several points can be seen; firstly that the inclusion of the beam screen with screen conductors very effectively screens the beam from the other components of the kicker magnet - including the ceramic tube, the surrounding structures and the ferrite itself. This indicates that for a beam screen in which the ceramic tube holds a large number of screen conductors, the beam is effectively screened from the surrounding structure up to a frequency characterised by the seperation of the screen conductors. This has benefits for the impedance simulations as it is valid to use a reduced simulation model considering just the capacitively coupled end provided we can assume the ferrite is well screened (i.e. we have 24 screen conductors in place). And lastly that the use of the ceramic tube contributes significantly to the imaginary component of the longitudinal impedance (evidenced by the linear increase of the imaginary impedance with frequency due to the inductive component of the impedance) even with the presence of screen conductors.
  
 \begin{figure}
 \subfigure[]{
@@ -32,8 +32,8 @@ These geometries are shown in Fig.~\ref{fig:mki-layout-buildup}, and the resulti
 \includegraphics[width=0.45\textwidth]{LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond-full.png}
 \label{fig:mki-buildup-ferrite-ceramic-cond-full}
 }
+\caption{The geometries simulated for the various components in the LHC-MKI. These are ferrite only \ref{fig:mki-buildup-ferrite}, ferrite and the ceramic tube \ref{fig:mki-buildup-ferrite-ceramic}, ferrite with the ceramic tube containing 24 screen conductors \ref{fig:mki-buildup-ferrite-ceramic-cond} and finally the complete MKI magnet \ref{fig:mki-buildup-ferrite-ceramic-cond-full}.}
 \label{fig:mki-layout-buildup}
-\caption{The geometries simulated for the various components in the LHC-MKI. These are ferrite only \ref{fig:mki-buildup-ferrite}, ferrite and the ceramic beam screen \ref{fig:mki-buildup-ferrite-ceramic}, ferrite with the beam screen containing 24 screen conductors \ref{fig:mki-buildup-ferrite-ceramic-cond} and finally the complete MKI magnet \ref{fig:mki-buildup-ferrite-ceramic-cond-full}.}
 \end{figure}
 
 \begin{figure}
@@ -45,16 +45,16 @@ These geometries are shown in Fig.~\ref{fig:mki-layout-buildup}, and the resulti
 \includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-build-up-imag-imp.pdf}
 \label{fig:mki-buildup-imag-imp}
 }
+\caption{The \ref{fig:mki-buildup-real-imp} real component and the \ref{fig:mki-buildup-imag-imp} imaginary components of the LHC MKI kicker magnet impedances for different components in the magnet.}
 \label{fig:mki-buildup-impedance}
-\caption{The \ref{fig:mki-buildup-real-imp} real component and the \ref{fig:mki-buildup-imag-imp} imaginary components of the LHC MKI kicker magnet impedances for different quantities of components in the magnet.}
 \end{figure}
 
 
-Concerning the role of the beam screen layout there are two areas to examine - the effect of different quantities of screening of the beam by having more or less screen conductors (in this case removing those directed towards the HV busbar as is likely due to concerns of electrical breakdown) and of the effect of different dimensions of the screen at the capacitively coupled end of the beam screen.
+Concerning the role of the beam screen layout there are two areas to examine - the effect of different quantities of screening of the beam by having more or less screen conductors (in this case removing those directed towards the HV busbar due to concerns of electrical breakdown) and of the effect of different lengths of the screen conductors at the capacitively coupled end of the beam screen.
 
 \subsection{How Screening Changes with the Number of Screen Conductors}
 
-For the changes on the number of screen conductors two variations are carried out - The first is to examine the case of removing several screen conductors in the beam screen towards the HV busbar (shown in Fig.~\ref{fig:mki-take-away-cond-together}). This direction is chosen as these screen conductors experience the highest induced voltage during the firing of the kicker magnet, and additionally it was initially thought that on this side the HV busbar would provide some screening of the beam from the ferrite yoke. The second variation is to remove a selection of screen conductors towards the HV busbar (shown in Fig.~\ref{fig:mki-take-away-cond-alt}), in this case to examine whether it is possible to acquire some shielding through using some screen conductors and benefitting from removing some screen conductors to remove the rate of electrical breakdown.
+For the changes on the number of screen conductors two variations are carried out - The first is to examine the case of removing several screen conductors in the beam screen towards the HV busbar (shown in Fig.~\ref{fig:mki-take-away-cond-together}). This direction is chosen as these screen conductors experience the highest induced voltage during the pulsing of the kicker magnet, and additionally it was initially thought that on this side the HV busbar would provide some screening of the beam from the ferrite yoke. The second variation is to remove a selection of screen conductors towards the HV busbar (shown in Fig.~\ref{fig:mki-take-away-cond-alt}), in this case to examine whether it is possible to acquire some shielding through using some screen conductors and benefitting from removing some screen conductors to further reduce the rate of electrical breakdown.
 
 \begin{figure}
 \subfigure[]{
@@ -69,8 +69,8 @@ For the changes on the number of screen conductors two variations are carried ou
 \includegraphics[width=0.3\textwidth]{LHC_MKI/figures/24-screen-cond.pdf}
 \label{fig:24-cond-together}
 }
-\label{fig:mki-take-away-cond-together}
 \caption{Beam screens with different numbers of screen conductors removed from the design quantity of 24. Models of 15 \ref {fig:15-cond-together}, 19 \ref{fig:19-cond-together} and 24 \ref{fig:24-cond-together} screen conductors are considered for the impedance simulations. Conductors surrounded by the boxes are removed in this case.}
+\label{fig:mki-take-away-cond-together}
 \end{figure}
 
 \begin{figure}
@@ -90,8 +90,8 @@ For the changes on the number of screen conductors two variations are carried ou
 \includegraphics[width=0.45\textwidth]{LHC_MKI/figures/24-cond-alt.pdf}
 \label{fig:24-cond-alt}
 }
-\label{fig:mki-take-away-cond-ql5}
 \caption{Beam screens with different numbers of screen conductors removed from the design quantity of 24. Models of 17 \ref {fig:17-cond-alt}, 19 \ref{fig:19-cond-alt}, 20 \ref{fig:20-cond-alt} and 24 \ref{fig:24-cond-alt} screen conductors are considered for the impedance simulations. Conductors that are coloured red are the removed in each case.}
+\label{fig:mki-take-away-cond-alt}
 \end{figure}
 
 \begin{figure}
@@ -103,18 +103,17 @@ For the changes on the number of screen conductors two variations are carried ou
 \includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-no-screen-conductors-imag-impedance.pdf}
 \label{fig:remove-cond-imag-imp}
 }
-
-\label{fig:remove-cond-impedance}
 \caption{The longitudinal impedance of the MKIs with different numbers of screen conductors included in the beam screen. Shown is the real component \ref{fig:remove-cond-real-imp} and the imaginary component \ref{fig:remove-cond-imag-imp} of the longitudinal impedance.}
+\label{fig:remove-cond-impedance}
 \end{figure}
 
-The longitudinal impedance for these configurations is shown in Fig.~\ref{fig:remove-cond-impedance}. It can be seen that for both components of the impedance that more screen conductors reduces the magnitude of the impedance at all frequencies - this can simply be understood as improving the screening of the beam from the ferrite with additional screen conductors. This can particularly be seen in the increase in the number of screen conductors from 15 to 19 to 24 conductors in total - The screening is improved dramatically in each subsequent case. 
+The longitudinal impedance for these configurations is shown in Fig.~\ref{fig:remove-cond-impedance}. It can be seen that for both components of the impedance that more screen conductors reduces the magnitude of the impedance at all frequencies - this can simply be understood as improving the screening of the ferrite from the beam with additional screen conductors. This can particularly be seen in the increase of the number of screen conductors from 15 to 19 to 24 conductors in total - The screening is improved dramatically in each subsequent case. 
 
-In addition it can be seen that it is preferable to distribute the screen conductors such that the maximum arc of the beam screen without screen conductors is minimised. This can clearly be seen by comparing the case of 19 screen conductors where all conductors are clustered together (as was done for the replacement MKI8d) and for 19 screen conductors, where 4 are equally distributed towards the HV busbar. Again this advantage is bourne out in the power lost in the structure. This is however not beneficial without consideration of the induced electric field during kicker firing, as the induced voltage on a given screen conductor is still the same, and thus tracking along the beam screen to the external metallization is not changed by this layout. It can thus be seen that the beam screen design itself must be optmised with regards to the induced screen conductor voltage before more can be added to the ceramic tube to improve screening.
+In addition it can be seen that it is preferable to distribute the screen conductors such that the maximum arc of the beam screen without screen conductors is minimised. This can clearly be seen by comparing the case of 19 screen conductors where all conductors are clustered together (as was done for the replacement MKI8d) and for 19 screen conductors, where 4 are equally distributed towards the HV busbar. Again this advantage is bourne out in the power lost in the structure. This is however not beneficial without consideration of the induced electric field during kicker pulsing, as the induced voltage on a given screen conductor is still the same, and thus surface flashover along the ceramic tube to the external metallization is not changed by this layout. It can thus be seen that the beam screen design itself must be optmised with regards to the induced screen conductor voltage before more can be added to the ceramic tube to improve screening.
 
 \subsection{Dependence of the Impedance on the Beam Screen Dimensions}
 
-It can be seen that with 24 screen conductors placed in the beam screen that the resulting impedance is dominated by the configuration of the beam screen. To investigate how changes to certain parameters (specifically the length of the overlap between the screen conductors and the external metallization and the thickness of the ceramic beam screen) a cut down model of the kicker magnet is used, considering just the capactively coupled end of the kicker magnet (shown in Fig.~\ref{fig:cut-down-mki-cap-end}). This is done to allow a larger mesh density in this important (from the electrical and impedance point of view) region of the kicker magnet. In models of the full kicker magnet the mesh density is severely limited due to the large mesh generated in the entire magnet volume which subsequently may make the mesh very limited in near beam areas (for example in the ceramic tube between the screen conductors and the external metallization. A comparison is shown in Fig.~\ref{fig:mki-mesh-com-cst}). An illustrated diagram of the capacitively coupled end is given in Fig.~\ref{fig:cap-end-diag} to clarify the components referred to in this section.
+It can be seen that with 24 screen conductors placed in the ceramic tube that the resulting impedance is dominated by the configuration of the beam screen. To investigate how changes to certain parameters (specifically the length of the overlap between the screen conductors and the external metallization and the thickness of the ceramic tube) a cut down model of the kicker magnet is used, considering just the capactively coupled end of the kicker magnet (shown in Fig.~\ref{fig:cut-down-mki-cap-end}). This is done to allow a larger mesh density in this important (from the electrical and impedance point of view) region of the kicker magnet. In models of the full kicker magnet the mesh density is severely limited due to the large mesh generated in the entire magnet volume which subsequently may make the mesh very limited in near beam areas (for example in the ceramic tube between the screen conductors and the external metallization. A comparison is shown in Fig.~\ref{fig:mki-mesh-com-cst}). An illustrated diagram of the capacitively coupled end is given in Fig.~\ref{fig:cap-end-diag} to clarify the components referred to in this section.
 
 \begin{figure}
 \subfigure[]{
@@ -133,18 +132,18 @@ It can be seen that with 24 screen conductors placed in the beam screen that the
 \subfigure[]{
 \label{fig:mesh-cutdown}
 }
-\label{fig:mki-mesh-com-cst}
 \caption{A comparison of the mesh that may be generated in CST Particle Studio using both the full model \ref{fig:mesh-full} and the cutdown model \ref{fig:mesh-cutdown}. Blue squares reresent a meshing failure which inserts perfect electrical conductor into the model. The simulation time for the first is on the order a day, for the second 30 minutes.}
+\label{fig:mki-mesh-com-cst}
 \end{figure}
 
-First we shall consider the effect the impedance of the change in the length of overlap of the capacitively coupled sections. To do this we consider the shortened end section, and change the length of the external metallization to change the length of the overlap (the length of the screen conductors used is keep fixed to avoid changing any potential resonances due to the screen conductors acting as $\lambda /4$ resonators). Overlaps of between 0.08m and 0.12m at 0.01m intervals are simulated, and the results shown in Fig.~\ref{fig:overlap-imp}. It can be seen that each overlap has a distinct set of resonance frequencies. These source of these resonances can be seen to be the result of the gap between the external metallization and the screen conductor acting as a $n \lambda /2$ resonator. End effects caused the effective length of the overlap to be extended to some degree, which fitting to the resonance frequencies has shown to be $\approx 9$mm for all lengths. This gives a resonant frequency $f_{res}$ of
+First we shall consider the effect the impedance for different lengths of overlap of the capacitively coupled sections. To do this we consider just the end section, and change the length of the external metallization to change the length of the overlap (the length of the screen conductors used is keep fixed to avoid changing any potential resonances due to the complete length of the screen conductors acting as $\lambda /4$ resonators). Overlaps of between 0.08m and 0.12m at 0.01m intervals are simulated, and the results shown in Fig.~\ref{fig:overlap-imp}. It can be seen that each overlap has a distinct set of resonance frequencies. These source of these resonances can be seen to be the result of the gap between the external metallization and the screen conductor acting as a $n \lambda /2$ resonator. End effects caused the effective length of the overlap to be extended to some degree, which fitting to the resonance frequencies has shown to be $\approx 9$mm for all lengths for a ceramic tube thickness of 7mm. This gives a resonant frequency $f_{res}$ of
 
 \begin{equation}
 f_{res} = \frac{nc}{\sqrt{\epsilon_{r}}2 L_{overlap}}
-\label{fig:imp-overlap-fres}
+\label{eqn:imp-overlap-fres}
 \end{equation}
 
-where $n$ is an integer, $c$ is the speed of light $\epsilon_{r}$ is the relative permitivitty of the volume material ($=10$ for the alumina beam screen) and $L_{overlap}$ is the length of overlap. This can be seen for the first resonances for all the lengths of overlap in Fig.~\ref{fig:overlap-imp-zoom}, and up to 2.5GHz for the case of the overlap being 100mm in Fig.~\ref{fig:imp-overlap-fres}. It can be seen that the predicted frequencies match the simulated very well. Work is still under way as to how to determine the peak impedance of each resonance.
+where $n$ is an integer, $c$ is the speed of light $\epsilon_{r}$ is the relative permitivitty of the volume material ($\epsilon=10$ for the alumina beam screen) and $L_{overlap}$ is the length of overlap. This is shown for the first resonances for all the effective lengths of overlap in Fig.~\ref{fig:overlap-imp-zoom}, and up to 2.5GHz for the case of the overlap being 100mm in Fig.~\ref{fig:imp-overlap-fres}. It can be seen that the predicted resonant frequencies match the simulated very well. Work is still under way as to how to determine the peak impedance of each resonance. In addition predictions for the power loss due to the impedances for different effective overlaps calculated assuming either a broadband heating scenario or assuming a beam harmonics at the resonant frequency as shown in Tab.~\ref{tab:heating-overlap}. It can be seen that changing the length of the overlap does not strongly correlate to the change in power loss assuming a broadband heating scenario. It can be seen that increasing the length of the effective overlap causes an increase in the power loss assuming a resonant heating scenario, but this correlation is not clear as there is much variance in the values.
 
 \begin{figure}
 \subfigure[]{
@@ -155,37 +154,55 @@ where $n$ is an integer, $c$ is the speed of light $\epsilon_{r}$ is the relativ
 \includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-overlap-len-real-imp-zoom.pdf}
 \label{fig:overlap-imp-zoom}
 }
+\caption{\ref{fig:overlap-imp} The real component of the longitudinal beam coupling impedance for different lengths of the overlap, and \ref{fig:overlap-imp-zoom} a zoomed in plot of the first resonances of all the overlaps with the calculated resonance frequency for each based on the effective length. For each the thickness of the ceramic tube is 7mm.}
 \label{fig:mki-overlap-imp-tot}
-\caption{\ref{fig:overlap-imp} The real component of the longitudinal beam coupling impedance for different lengths of the overlap, and \ref{fig:overlap-imp-tot} a zoomed in plot of the first resonances of all the overlaps with the calculated resonance frequency for each}
 \end{figure}
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.6\textwidth]{LHC_MKI/figures/mki-overlap-fres-100mm.pdf}
 \end{center}
+\caption{The impedance of the beam screen with 24 screen conductors with an overlap $L_{overlap}=100mm$ and the predicted resonance frequencies from Eqn.~\ref{eqn:imp-overlap-fres} shown as blue lines.}
 \label{fig:imp-overlap-fres}
-\caption{The impedance of the beam screen with 24 screen conductors with an overlap $L_{overlap}=100mm$ and the predicted resonance frequencies from Eqn.~\ref{eqn:res-freq-mki} shown as blue lines.}
 \end{figure}
 
-Secondly the influence of the thickness of the beam screen is considered. This is a concern as increasing this thickness has two effects - to change the value of the capcitance at the capacitively coupled end which effects the low frequency impedance, and the increase in the volume of the overlap region due to the increased thickness. The internal diameter of the ceramic tube is kept at 42mm, whilst external diameters of 50, 53 and 56mm are considered, giving tube thicknesses between 8 and 14mm. The resulting real component of the longitudinal impedances is shown in Fig.~\ref{fig:tube-thickness-imp}, where it can be seen that the increasing the pipe thickness has two effects - a slight lowering of the resonant frequency, but also a significant increase of the peak impedance of the resonance, by almost a factor 2 from a tube 8mm thick to one 14mm thick. The difference that this makes to the expected heating of the MKI can be seen in Tab.~\ref{tab:thickness-heating}, where it can be seen that the change in the power loss due to the increased thickness could be expected to be small assuming a broadband heating scenario, but increases significantly if we assume a beam harmonic falls upon the resonant frequency.
+\begin{table}
+\caption{The beam induced heating calculated for a number of beam screen designs with 24 screen conductors of equal thickness of eramic tube (thickness of 56mm) with different effective overlaps assuming 50ns bunch spacing LHC conditions (1380 bunches, $1.7\times 10^{11}$ppb with a bunch length of 1ns). It can be seen that the broadband heating component is relatively constant for the change in overlap, whilst the resonant component only significantly changes with a large increase in the effective overlap.}
+\label{tab:overlap-heating}
+\begin{center}
+\begin{tabular}{c | c | c | c | c}
+Overlap (mm)& \multicolumn{2}{c |}{LHC, 50ns, 1.7e11ppb} & \multicolumn{2}{|c}{LHC, 25ns, 1.15e11ppb} \\ \hline
+ & BB (W) & Res(W) & BB (W) & Res (W) \\ \hline
+81 & 38.5 & 6.9 & 30.0 & 13.0 \\ \hline
+91 & 39.1 & 6.9 & 31.0 & 13.1 \\ \hline
+101 & 35.3 & 12.1 & 28.8 & 23.0 \\ \hline
+111 & 36.1 & 13.1 & 31.6 & 24.9 \\ \hline
+121 & 36.7 & 12.7 & 28.9 & 24.1 \\ 
+\end{tabular}
+\end{center}
+\end{table}
+
+Secondly the influence of the thickness of the beam screen is considered. This is a concern as increasing this thickness has two effects - to change the value of the capcitance at the capacitively coupled end which effects the low frequency impedance, and the increase in the volume of the overlap region due to the increased thickness. The internal diameter of the ceramic tube is kept at 42mm, whilst external diameters of 50, 53 and 56mm are considered, giving tube thicknesses between 4 and 7mm. The resulting real component of the longitudinal impedances is shown in Fig.~\ref{fig:tube-thickness-imp}, where it can be seen that increasing the ceramic tube thickness has two effects - a slight lowering of the resonant frequency, but also a significant increase of the peak impedance of the resonance, by almost a factor 2 from a tube 4mm thick to one 7mm thick. The difference that the peak impedances make to the expected heating of the MKI can be seen in Tab.~\ref{tab:thickness-heating}, where it can be seen that the change in the power loss due to the increased thickness could be expected to be small assuming a broadband heating scenario, but increases significantly if we assume a beam harmonic falls upon the resonant frequency.
+
+The small reduction in the resonant frequency as the thickness of the ceramic tube is increased is expected as the fringe fields will increase with greater thickness. The examination of the prediction shows that the increase in length, due to a nonzero thickness of the ceramic tube, is given (for $\epsilon_{r}$=10) by an increase in effective length (in mm) of $\approx$ 0.0125$\times$thickness (in mm).
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-tube-thickness-real.pdf}
 \end{center}
+\caption{The variance of the real beam coupling impedance with the tube thickness. External diameters of 50, 53 and 56mm correspond to tube thicknesses of 4, 5.5 and 7mm respectively. The physical overlap is 100mm in all cases.}
 \label{fig:tube-thickness-imp}
-\caption{The variance of the real beam coupling impedance with the tube thickness. External diameters of 50, 53 and 56mm correspond to tube thicknesses of 8, 11 and 14mm respectively.}
 \end{figure}
 
 \begin{table}
-\label{tab:thickness-heating}
 \caption{The beam induced heating calculated for a number of beam screen designs with 24 screen conductors of equal length (overlap of 100mm) with different tube thicknesses assuming 50ns bunch spacing LHC conditions (1380 bunches, $1.7\times 10^{11}$ppb with a bunch length of 1ns). It can be seen that the broadband heating component is relatively small for the limited change in the tube thickness, whilst the resonant component can increase drastically due to the increasing peak impedance.}
+\label{tab:thickness-heating}
 \begin{center}
 \begin{tabular}{c | c | c }
 Outer Tube Diameter/Tube Thickness (mm)  & $P_{loss, BB}$ & $P_{loss, Res}$ \\ \hline
-50/8  & 30 & 4$ \\ \hline
-53/11  & 26 & 10 \\ \hline
-56/14  & 35 & 12 \\ 
+50/4  & 30 & 4$ \\ \hline
+53/5.5  & 26 & 10 \\ \hline
+56/7  & 35 & 12 \\ 
 \end{tabular}
 \end{center}
 \end{table}
