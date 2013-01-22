@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99cThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 Case mismatch error between cite keys Stupakov:wakeAndImp and Stupakov:wakeandImp
 ---line 93 of file thesis.aux
  : \citation{Stupakov:wakeAndImp
@@ -19,8 +19,6 @@ I was expecting an "="---line 592 of file thesisBib.bib
  :    publisher = {American Physical Society}
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "Caspers:ThinCondLayer"
-Warning--I didn't find a database entry for "Métral:phase2Imp"
 Warning--I didn't find a database entry for "Métral:Heating"
 Warning--I didn't find a database entry for "Ducimetière:mkiSpec"
 Warning--I didn't find a database entry for "Caspers:lowFreqMKIMeas"
@@ -54,6 +52,7 @@ Warning--empty journal in Schmidt:LHCMP
 Warning--empty booktitle in Zerlauth:MP
 Warning--missing institution in Bertarelli:Mat
 Warning--empty booktitle in Bertarelli:HiRadMat
+Warning--missing institution in Metral:phase2Imp
 Warning--empty booktitle in Valentino:BPM
 Warning--empty journal in Dallocchio:ColBPM
 Warning--empty booktitle in Salvant:Heating
