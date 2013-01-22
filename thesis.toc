@@ -84,18 +84,18 @@
 \contentsline {subsubsection}{Location of Power Deposition}{145}
 \contentsline {chapter}{\numberline {8}LHC Injection Kicker Magnet}{148}
 \contentsline {section}{\numberline {8.1}LHC Injection Kicker Magnets}{149}
-\contentsline {subsection}{\numberline {8.1.1}Development of the LHC-MKI Beam Screen}{151}
+\contentsline {subsection}{\numberline {8.1.1}Development of the LHC-MKI Beam Screen}{149}
 \contentsline {subsection}{\numberline {8.1.2}Observations of heating during 2011 and 2012 until Technical Stop 3}{152}
 \contentsline {section}{\numberline {8.2}Simulations and Measurements of the MKI with 15 Screen Conductors}{154}
 \contentsline {subsection}{\numberline {8.2.1}Beam Induced Heating Estimates for 15 Screen Conductors}{159}
 \contentsline {section}{\numberline {8.3}Other Concerns for the MKI Operation and Temperature Reduction}{161}
 \contentsline {section}{\numberline {8.4}Simulations and Measurements of the MKI with 19 Screen Conductors}{162}
-\contentsline {subsection}{\numberline {8.4.1}Temperature of MKI8d after Technical Stop 3}{166}
-\contentsline {section}{\numberline {8.5}The Dependence of the Beam Coupling Impedance on The Kicker Components}{167}
+\contentsline {subsection}{\numberline {8.4.1}Temperature of MKI8d after Technical Stop 3}{164}
+\contentsline {section}{\numberline {8.5}The Dependence of the Beam Coupling Impedance on The Kicker Components}{166}
 \contentsline {subsection}{\numberline {8.5.1}The Impedance of the MKI - Effects of the Inclusion of the Beam Screen}{167}
 \contentsline {subsection}{\numberline {8.5.2}How Screening Changes with the Number of Screen Conductors}{169}
-\contentsline {subsection}{\numberline {8.5.3}Dependence of the Impedance on the Beam Screen Dimensions}{172}
-\contentsline {section}{\numberline {8.6}New Beam Screen Designs}{175}
+\contentsline {subsection}{\numberline {8.5.3}Dependence of the Impedance on the Beam Screen Dimensions}{170}
+\contentsline {section}{\numberline {8.6}New Beam Screen Designs}{176}
 \contentsline {section}{\numberline {8.7}Upgrade Plans for Long Shutdown 1 and Beyond}{181}
 \contentsline {chapter}{\numberline {9}Conclusions}{185}
 \contentsline {chapter}{Bibliography}{187}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  22 JAN 2013 16:26
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  22 JAN 2013 17:42
 entering extended mode
 **C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
 (C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
@@ -1985,12 +1985,7 @@ sed on input line 91.
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_Collimation_Upgrades/tctp
 _collimator/introduction.tex [135 <C:/Users/hugo/Documents/GitHub/Thesis_the_se
 cond/LHC_Collimation_Upgrades/figures/vertDipolarZoom.pdf>]
-
-LaTeX Warning: Citation `Métral:Heating' on page 136 undefined on input line 12
-.
-
-
-Overfull \hbox (14.69379pt too wide) in paragraph at lines 17--22
+Overfull \hbox (27.31454pt too wide) in paragraph at lines 17--22
  [] 
  []
 
@@ -2032,14 +2027,9 @@ File: LHC_Collimation_Upgrades/figures/tctp-ferrite.png Graphic file (type png)
 Package pdftex.def Info: LHC_Collimation_Upgrades/figures/tctp-ferrite.png used
  on input line 24.
 (pdftex.def)             Requested size: 128.23076pt x 148.35411pt.
-
-
-LaTeX Warning: Reference `fig:tctp-time-longitudinal' on page 139 undefined on 
-input line 31.
-
-[139 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_Upgrades
-/figures/tctp-closed.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC
-_Collimation_Upgrades/figures/tctp-ferrite.png>]
+ [139 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_Upgrade
+s/figures/tctp-closed.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LH
+C_Collimation_Upgrades/figures/tctp-ferrite.png>]
 <LHC_Collimation_Upgrades/figures/impedance-tctp-time.pdf, id=3833, 784.12952pt
  x 485.11237pt>
 File: LHC_Collimation_Upgrades/figures/impedance-tctp-time.pdf Graphic file (ty
@@ -2076,15 +2066,10 @@ m.pdf Graphic file (type pdf)
 Package pdftex.def Info: LHC_Collimation_Upgrades/figures/longitudinal-impedanc
 e-tctp-ferr-freq-dom.pdf used on input line 17.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
- [141]
-Overfull \hbox (2.64185pt too wide) in paragraph at lines 44--45
-[]\T1/ptm/m/n/12 The heat-ing es-ti-mates as-sum-ing on res-o-nance beam har-mo
-n-ics can be seen in Tab. 7.3.3[]
- []
-
-[142 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_Upgrades
-/figures/longitudinal-impedance-tctp-ferr-freq-dom.pdf>] [143]
-<LHC_Collimation_Upgrades/figures/tctp-ferrite-heating.png, id=4034, 753.5653pt
+ [141] [142 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_U
+pgrades/figures/longitudinal-impedance-tctp-ferr-freq-dom.pdf>] [143]
+[144]
+<LHC_Collimation_Upgrades/figures/tctp-ferrite-heating.png, id=4037, 753.5653pt
  x 328.22626pt>
 File: LHC_Collimation_Upgrades/figures/tctp-ferrite-heating.png Graphic file (t
 ype png)
@@ -2094,7 +2079,7 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/tctp-ferrite-heating.
 png used on input line 124.
 (pdftex.def)             Requested size: 196.25581pt x 85.485pt.
 
-<LHC_Collimation_Upgrades/figures/tctp-rf-fingers-heating.png, id=4035, 618.811
+<LHC_Collimation_Upgrades/figures/tctp-rf-fingers-heating.png, id=4038, 618.811
 87pt x 334.24875pt>
 File: LHC_Collimation_Upgrades/figures/tctp-rf-fingers-heating.png Graphic file
  (type png)
@@ -2103,10 +2088,9 @@ File: LHC_Collimation_Upgrades/figures/tctp-rf-fingers-heating.png Graphic file
 Package pdftex.def Info: LHC_Collimation_Upgrades/figures/tctp-rf-fingers-heati
 ng.png used on input line 128.
 (pdftex.def)             Requested size: 158.26233pt x 85.485pt.
- [144]
-[145 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_Upgrades
-/figures/tctp-ferrite-heating.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_s
-econd/LHC_Collimation_Upgrades/figures/tctp-rf-fingers-heating.png>]
+ [145 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_Upgrade
+s/figures/tctp-ferrite-heating.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_
+second/LHC_Collimation_Upgrades/figures/tctp-rf-fingers-heating.png>]
 <LHC_Collimation_Upgrades/figures/temp_increase_tctp_col.png, id=4044, 640.6434
 3pt x 421.575pt>
 File: LHC_Collimation_Upgrades/figures/temp_increase_tctp_col.png Graphic file 
@@ -2132,18 +2116,13 @@ e 5.
 
  <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/injection-sy
 stem.png>]
-
-LaTeX Warning: Citation `Ducimetière:mkiSpec' on page 149 undefined on input li
-ne 15.
-
-
 <LHC_MKI/figures/injection-points-lhc.png, id=4055, 556.32843pt x 581.92406pt>
 File: LHC_MKI/figures/injection-points-lhc.png Graphic file (type png)
 
 <use LHC_MKI/figures/injection-points-lhc.png>
 Package pdftex.def Info: LHC_MKI/figures/injection-points-lhc.png used on input
  line 19.
-(pdftex.def)             Requested size: 256.46152pt x 268.26547pt.
+(pdftex.def)             Requested size: 320.57364pt x 335.32297pt.
 
 <LHC_MKI/figures/mki-out-vac-tank.png, id=4056, 722.7pt x 542.025pt>
 File: LHC_MKI/figures/mki-out-vac-tank.png Graphic file (type png)
@@ -2260,9 +2239,9 @@ meas_const.pdf>]
 LaTeX Warning: Reference `sec:beam-induced-heating' on page 159 undefined on in
 put line 87.
 
-[159])
+[159] [160])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/considerations_beside
-s_impedance_for_new_designs.tex [160]
+s_impedance_for_new_designs.tex
 
 LaTeX Warning: Reference `fig:mki-elongated-spheres' on page 161 undefined on i
 nput line 7.
@@ -2275,9 +2254,9 @@ ed on input line 7.
 LaTeX Warning: Reference `fig:mki-external-metallization' on page 161 undefined
  on input line 7.
 
-)
+[161])
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/measurements_observat
-ion_19_screen_conductors.tex [161] [162]
+ion_19_screen_conductors.tex [162]
 <LHC_MKI/figures/mki8d-balls.png, id=4448, 221.32687pt x 274.77657pt>
 File: LHC_MKI/figures/mki8d-balls.png Graphic file (type png)
 
@@ -2308,8 +2287,8 @@ line 52.
 )
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/impedance_behaviour_c
 omponents.tex [166 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/fi
-gures/mki8-temps-post-ts3.png>] [167]
-<LHC_MKI/figures/mki-buildup-ferrite.png, id=4528, 888.31876pt x 487.06969pt>
+gures/mki8-temps-post-ts3.png>]
+<LHC_MKI/figures/mki-buildup-ferrite.png, id=4525, 888.31876pt x 487.06969pt>
 File: LHC_MKI/figures/mki-buildup-ferrite.png Graphic file (type png)
 
 <use LHC_MKI/figures/mki-buildup-ferrite.png>
@@ -2317,7 +2296,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-buildup-ferrite.png used on input
 line 22.
 (pdftex.def)             Requested size: 192.34288pt x 105.46114pt.
 
-<LHC_MKI/figures/mki-buildup-ferrite-ceramic.png, id=4529, 1224.07312pt x 481.0
+<LHC_MKI/figures/mki-buildup-ferrite-ceramic.png, id=4526, 1224.07312pt x 481.0
 4718pt>
 File: LHC_MKI/figures/mki-buildup-ferrite-ceramic.png Graphic file (type png)
  <use LHC_MKI/figures/mki-buildup-ferrite-ceramic.png>
@@ -2325,7 +2304,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-buildup-ferrite-ceramic.png used o
 n input line 26.
 (pdftex.def)             Requested size: 192.34288pt x 75.58182pt.
 
-<LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond.png, id=4530, 484.05844pt x 4
+<LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond.png, id=4527, 484.05844pt x 4
 15.5525pt>
 File: LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond.png Graphic file (type p
 ng)
@@ -2334,7 +2313,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond.png u
 sed on input line 30.
 (pdftex.def)             Requested size: 192.34288pt x 165.1211pt.
 
-<LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond-full.png, id=4531, 1202.24156
+<LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond-full.png, id=4528, 1202.24156
 pt x 250.68657pt>
 File: LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond-full.png Graphic file (t
 ype png)
@@ -2348,7 +2327,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--36
 [][] []
  []
 
-
+[167]
 <LHC_MKI/figures/mki-build-up-real-imp.pdf, id=4532, 663.98062pt x 475.17525pt>
 File: LHC_MKI/figures/mki-build-up-real-imp.pdf Graphic file (type pdf)
 <use LHC_MKI/figures/mki-build-up-real-imp.pdf>
@@ -2368,16 +2347,16 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 43--49
 [][] []
  []
 
+
+LaTeX Warning: Reference `fig:mki-take-away-cond-alt' on page 168 undefined on 
+input line 57.
+
 [168 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki-buil
 dup-ferrite.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figu
 res/mki-buildup-ferrite-ceramic.png> <C:/Users/hugo/Documents/GitHub/Thesis_the
 _second/LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond.png> <C:/Users/hugo/Do
 cuments/GitHub/Thesis_the_second/LHC_MKI/figures/mki-buildup-ferrite-ceramic-co
 nd-full.png>]
-
-LaTeX Warning: Reference `fig:mki-take-away-cond-alt' on page 169 undefined on 
-input line 57.
-
 <LHC_MKI/figures/15-screen-cond.pdf, id=4537, 369.90193pt x 398.38837pt>
 File: LHC_MKI/figures/15-screen-cond.pdf Graphic file (type pdf)
 
@@ -2401,10 +2380,8 @@ File: LHC_MKI/figures/24-screen-cond.pdf Graphic file (type pdf)
 Package pdftex.def Info: LHC_MKI/figures/24-screen-cond.pdf used on input line 
 71.
 (pdftex.def)             Requested size: 128.23076pt x 138.10672pt.
- [169 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki-bui
-ld-up-real-imp.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/f
-igures/mki-build-up-imag-imp.pdf>]
-<LHC_MKI/figures/17-cond-alt.pdf, id=4677, 369.90193pt x 398.38837pt>
+
+<LHC_MKI/figures/17-cond-alt.pdf, id=4540, 369.90193pt x 398.38837pt>
 File: LHC_MKI/figures/17-cond-alt.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/17-cond-alt.pdf>
@@ -2412,7 +2389,7 @@ Package pdftex.def Info: LHC_MKI/figures/17-cond-alt.pdf used on input line 80.
 
 (pdftex.def)             Requested size: 192.34288pt x 207.15704pt.
 
-<LHC_MKI/figures/19-cond-alt.pdf, id=4678, 369.90193pt x 398.38837pt>
+<LHC_MKI/figures/19-cond-alt.pdf, id=4541, 369.90193pt x 398.38837pt>
 File: LHC_MKI/figures/19-cond-alt.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/19-cond-alt.pdf>
@@ -2420,7 +2397,7 @@ Package pdftex.def Info: LHC_MKI/figures/19-cond-alt.pdf used on input line 84.
 
 (pdftex.def)             Requested size: 192.34288pt x 207.15704pt.
 
-<LHC_MKI/figures/20-cond-alt.pdf, id=4679, 369.90193pt x 398.38837pt>
+<LHC_MKI/figures/20-cond-alt.pdf, id=4542, 369.90193pt x 398.38837pt>
 File: LHC_MKI/figures/20-cond-alt.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/20-cond-alt.pdf>
@@ -2428,7 +2405,7 @@ Package pdftex.def Info: LHC_MKI/figures/20-cond-alt.pdf used on input line 88.
 
 (pdftex.def)             Requested size: 192.34288pt x 207.15704pt.
 
-<LHC_MKI/figures/24-cond-alt.pdf, id=4680, 369.90193pt x 398.38837pt>
+<LHC_MKI/figures/24-cond-alt.pdf, id=4543, 369.90193pt x 398.38837pt>
 File: LHC_MKI/figures/24-cond-alt.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/24-cond-alt.pdf>
@@ -2441,7 +2418,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--94
  []
 
 
-<LHC_MKI/figures/mki-no-screen-conductors-real-impedance.pdf, id=4681, 578.16pt
+<LHC_MKI/figures/mki-no-screen-conductors-real-impedance.pdf, id=4544, 578.16pt
  x 433.62pt>
 File: LHC_MKI/figures/mki-no-screen-conductors-real-impedance.pdf Graphic file 
 (type pdf)
@@ -2450,7 +2427,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-no-screen-conductors-real-impedanc
 e.pdf used on input line 101.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
-<LHC_MKI/figures/mki-no-screen-conductors-imag-impedance.pdf, id=4682, 597.1309
+<LHC_MKI/figures/mki-no-screen-conductors-imag-impedance.pdf, id=4545, 597.1309
 pt x 441.75038pt>
 File: LHC_MKI/figures/mki-no-screen-conductors-imag-impedance.pdf Graphic file 
 (type pdf)
@@ -2464,14 +2441,17 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 101--106
 [][] [] 
  []
 
-[170 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/15-scree
-n-cond.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/1
-9-screen-cond.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/fi
-gures/24-screen-cond.pdf>] [171 <C:/Users/hugo/Documents/GitHub/Thesis_the_seco
-nd/LHC_MKI/figures/17-cond-alt.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_
-second/LHC_MKI/figures/19-cond-alt.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_
-the_second/LHC_MKI/figures/20-cond-alt.pdf> <C:/Users/hugo/Documents/GitHub/The
-sis_the_second/LHC_MKI/figures/24-cond-alt.pdf>]
+[169 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki-buil
+d-up-real-imp.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/fi
+gures/mki-build-up-imag-imp.pdf>] [170 <C:/Users/hugo/Documents/GitHub/Thesis_t
+he_second/LHC_MKI/figures/15-screen-cond.pdf> <C:/Users/hugo/Documents/GitHub/T
+hesis_the_second/LHC_MKI/figures/19-screen-cond.pdf> <C:/Users/hugo/Documents/G
+itHub/Thesis_the_second/LHC_MKI/figures/24-screen-cond.pdf>] [171 <C:/Users/hug
+o/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/17-cond-alt.pdf> <C:/Users
+/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/19-cond-alt.pdf> <C:/U
+sers/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/20-cond-alt.pdf> <
+C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/24-cond-alt.pd
+f>]
 Overfull \hbox (8.09985pt too wide) in paragraph at lines 122--122
 []\T1/ptm/m/n/10 (a) 
  []
@@ -2642,6 +2622,28 @@ Package pdftex.def Info: LHC_MKI/figures/mki-design-layouts/mki-final-design.pd
 f used on input line 66.
 (pdftex.def)             Requested size: 299.20076pt x 170.98756pt.
 
+<LHC_MKI/figures/mki-new-screen-designs-impedance-real.pdf, id=5141, 578.16pt x
+ 433.62pt>
+File: LHC_MKI/figures/mki-new-screen-designs-impedance-real.pdf Graphic file (t
+ype pdf)
+ <use LHC_MKI/figures/mki-new-screen-designs-impedance-real.pdf>
+Package pdftex.def Info: LHC_MKI/figures/mki-new-screen-designs-impedance-real.
+pdf used on input line 79.
+(pdftex.def)             Requested size: 320.57364pt x 240.43037pt.
+
+<LHC_MKI/figures/mki-new-screen-designs-impedance-imag.pdf, id=5142, 578.16pt x
+ 433.62pt>
+File: LHC_MKI/figures/mki-new-screen-designs-impedance-imag.pdf Graphic file (t
+ype pdf)
+ <use LHC_MKI/figures/mki-new-screen-designs-impedance-imag.pdf>
+Package pdftex.def Info: LHC_MKI/figures/mki-new-screen-designs-impedance-imag.
+pdf used on input line 83.
+(pdftex.def)             Requested size: 320.57364pt x 240.43037pt.
+
+
+LaTeX Warning: Citation `Brüning:beamParameters' on page 177 undefined on input
+ line 88.
+
 [177] [178 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mk
 i-design-layouts/alternating_screen_conductors.pdf> <C:/Users/hugo/Documents/Gi
 tHub/Thesis_the_second/LHC_MKI/figures/mki-design-layouts/shortening_screen_con
@@ -2652,29 +2654,6 @@ b/Thesis_the_second/LHC_MKI/figures/mki-design-layouts/enclosed_diagram.pdf>]
 gn-layouts/alternative_screen_design.pdf> <C:/Users/hugo/Documents/GitHub/Thesi
 s_the_second/LHC_MKI/figures/mki-design-layouts/alternating_screen_conductors_s
 tep_out_metallisation.pdf>]
-<LHC_MKI/figures/mki-new-screen-designs-impedance-real.pdf, id=5210, 578.16pt x
- 433.62pt>
-File: LHC_MKI/figures/mki-new-screen-designs-impedance-real.pdf Graphic file (t
-ype pdf)
- <use LHC_MKI/figures/mki-new-screen-designs-impedance-real.pdf>
-Package pdftex.def Info: LHC_MKI/figures/mki-new-screen-designs-impedance-real.
-pdf used on input line 79.
-(pdftex.def)             Requested size: 320.57364pt x 240.43037pt.
-
-<LHC_MKI/figures/mki-new-screen-designs-impedance-imag.pdf, id=5211, 578.16pt x
- 433.62pt>
-File: LHC_MKI/figures/mki-new-screen-designs-impedance-imag.pdf Graphic file (t
-ype pdf)
- <use LHC_MKI/figures/mki-new-screen-designs-impedance-imag.pdf>
-Package pdftex.def Info: LHC_MKI/figures/mki-new-screen-designs-impedance-imag.
-pdf used on input line 83.
-(pdftex.def)             Requested size: 320.57364pt x 240.43037pt.
-
-
-LaTeX Warning: Citation `Brüning:beamParameters' on page 181 undefined on input
- line 88.
-
-
 Overfull \hbox (46.21812pt too wide) in paragraph at lines 94--104
  [] 
  []
@@ -2713,34 +2692,39 @@ Chapter 9.
 [185
 
 ] (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.bbl [186]
-[187
-
-]
-Underfull \hbox (badness 1577) in paragraph at lines 78--80
-[]\T1/ptm/m/n/12 M. Hori, ``The ASACUSA ex-per-i-ment at CERN's Anti-proton De-
-cel-er-a-tor,''
+Underfull \hbox (badness 1389) in paragraph at lines 30--39
+\T1/ptm/m/n/12 O. Brun-ner, A. But-ter-worth, E. Cia-pala, F. Dubouchet, J. Est
+eban-Muller,
  []
 
-[188]
-Underfull \hbox (badness 5622) in paragraph at lines 114--116
+[187
+
+] [188]
+Underfull \hbox (badness 4416) in paragraph at lines 114--116
 []\T1/ptm/m/n/12 C. Lourenco, ``Heavy ion col-li-sions at the lhc: the al-ice e
 x-per-i-ment.
  []
 
-[189] [190] [191]
-Underfull \hbox (badness 1275) in paragraph at lines 275--277
-[]\T1/ptm/m/n/12 T. Kroyer, ``Sim-u-la-tion of the low-frequency col-li-ma-tor 
-impedance,'' CERN,
+[189] [190]
+Underfull \hbox (badness 1048) in paragraph at lines 241--245
+[]\T1/ptm/m/n/12 T. Ar-gy-ropou-los, T. Bohl, A. Burov, R. Calaga, L. Fic-ca-de
+nti, E. Me-tral,
  []
 
-[192] [193] [194]
-Underfull \hbox (badness 1776) in paragraph at lines 393--396
+[191] [192]
+Underfull \hbox (badness 10000) in paragraph at lines 340--345
+\T1/ptm/m/n/12 Avail-able at \T1/pcr/m/n/12 http://emetral.web.cern.ch/emetral/
+LRFF/LRFF
+ []
+
+[193] [194]
+Underfull \hbox (badness 1072) in paragraph at lines 393--396
 []\T1/ptm/m/n/12 G. Valentino, ``Pre-lim-i-nary re-sults from sps bpm-equipped 
 col-li-ma-tor mds.''
  []
 
 
-Overfull \hbox (157.4055pt too wide) in paragraph at lines 410--412
+Overfull \hbox (163.4055pt too wide) in paragraph at lines 420--422
 []\T1/ptm/m/n/12 ``Tt2-111r data sheet avail-able at \T1/pcr/m/n/12 http://www.
 trans-techinc.com/products_detail.asp?ID=151\T1/ptm/m/n/12 .'' 
  []
@@ -2766,10 +2750,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6379 strings out of 494045
- 142008 string characters out of 3148390
+ 6380 strings out of 494045
+ 142018 string characters out of 3148390
  201742 words of memory out of 3000000
- 9291 multiletter control sequences out of 15000+200000
+ 9292 multiletter control sequences out of 15000+200000
  47940 words of font info for 72 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  28i,13n,24p,2229b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2789,7 +2773,7 @@ w/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (207 pages, 21346725 bytes).
+Output written on thesis.pdf (207 pages, 21346499 bytes).
 PDF statistics:
  5604 PDF objects out of 6186 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
