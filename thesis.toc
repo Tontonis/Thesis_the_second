@@ -53,10 +53,10 @@
 \contentsline {subsubsection}{Structures with Top/Bottom, Left/Right Symmetry}{85}
 \contentsline {subsubsection}{Asymmetric Structures}{88}
 \contentsline {subsection}{\numberline {4.1.4}Measurements on Example Geometries}{89}
-\contentsline {subsubsection}{Structure with Top/Bottom, Left/Rght Symmetry}{92}
-\contentsline {subsubsection}{Two Parallel Ferrite Plates}{92}
+\contentsline {subsubsection}{Structure with Top/Bottom, Left/Rght Symmetry}{91}
+\contentsline {subsubsection}{Two Parallel Ferrite Plates}{91}
 \contentsline {subsubsection}{Two Parallel Graphite Plates}{96}
-\contentsline {subsubsection}{C Core Ferrite Kicker}{100}
+\contentsline {subsubsection}{C-Core Ferrite Kicker}{100}
 \contentsline {section}{\numberline {4.2}High Q-factor Impedances}{103}
 \contentsline {chapter}{\numberline {5}Computational Simulations of Beam Coupling Impedance}{105}
 \contentsline {section}{\numberline {5.1}Time Domain Simulations}{106}

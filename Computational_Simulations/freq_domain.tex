@@ -6,7 +6,7 @@ There are a number of methods of analysing the beam coupling impedance of a stru
 
 Eigenmode solvers are a subset of frequency domain solver that are used to identify strongly resonant modes in a structure. These can be cavity modes, antenna like oscillations or a number of other resonances within the structure. The resulting output of the simulation is typically the resonant frequency of the eigenmode(s), the quality factor $Q$ of the mode (if lossy boundary materials are defined) and the field pattern of the eigenmode solution.
 
-From the field pattern it is possible to readily calculate the longitudinal and transverse $R/Q$ of each cavity mode as defined in Sec.~\ref{sec:sec:imp_geo_imp}. The field patterns may also be used to calculate a number of other properties for each eigenmode, such as surface losses and stored energy in the cavity, which will be explained in further details in Sec.~\ref{sec:ferrite_damping}. Further details on this method are available in \cite{Grudiev:LongTransSecCol}
+From the field pattern it is possible to readily calculate the longitudinal and transverse $R/Q$ of each cavity mode as defined in Sec.~\ref{sec:imp_geo_imp}. The field patterns may also be used to calculate a number of other properties for each eigenmode, such as surface losses and stored energy in the cavity, which will be explained in further details in Sec.~\ref{sec:damping_materials}. Further details on this method are available in \cite{Grudiev:LongTransSecCol}.
 
 \subsection{The Coaxial Wire Method by Simulation}
 
@@ -14,5 +14,5 @@ The coaxial wire method as described in Sec.~\ref{sec:coax_wire_meth} can be dir
 
 \subsection{Simulation of the particle beam}
 
-It is also possible to simulate a particle beam directly in the frequency domain. This is done by defining a wave source that produces a field similar to that of the particle beam. For ultrarelativistic beams this neccessitates a source field that is tangential to the direction of motion, and this may technically be possible for cases in which $\beta < 1$. The field components due to the source may be acquired and are the equivalent of the wakefield contribution at a given frequency. The beam impedance $Z$ can subsequently be easily evaluated from the resulting fields. Further details of this method may be seen in \cite{Kononenko:TransBeamLoading}
+It is also possible to simulate a particle beam directly in the frequency domain. This is done by defining a wave source that produces a field similar to that of the particle beam. For ultrarelativistic beams this neccessitates a source field that is tangential to the direction of motion, and this may technically be possible for cases in which $\beta < 1$. The field components due to the source may be acquired and are the equivalent of the wakefield contribution at a given frequency. The beam impedance $Z$ can subsequently be evaluated from the resulting fields. Further details of this method may be seen in \cite{Kononenko:TransBeamLoading}.
 

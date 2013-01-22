@@ -126,8 +126,8 @@ A\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\o
 \includegraphics[width=0.45\textwidth]{Wakefields_and_Impedances/figures/power_spectrum_12ns.pdf}
 \label{fig:power_spec}
 }
-\label{fig:freq_dom_prof}
 \caption{The frequency domain \ref{fig:current_spec} current spectrum and \ref{fig:power_spec} power spectrum for a number of different bunch profiles with a bunch length $\tau_{b} = 1.2ns$.}
+\label{fig:freq_dom_prof}
 \end{figure}
 
 The comparison of these bunch profiles in the time domain are shown in Fig.~\ref{fig:time_bunch_profiles}. Note all bunch currents are normalised to their peak value. The corresponding current and power spectrums are shown in Fig.~\ref{fig:freq_dom_prof}. There are several things to note about these spectra; firstly that the non-infinite distribution of the non-gaussian bunch profiles gives rise to a number of high frequency lobes in the power spectrum, and secondly the interval of these nodes depends heavily on the bunch profile.
@@ -164,8 +164,8 @@ To illustrate more clearly the effect of changing the bunch length on the power 
 \begin{center}
 \includegraphics[width=0.65\textwidth]{Wakefields_and_Impedances/figures/beam_spectra_power_12ns.pdf}
 \end{center}
-\label{fig:power_all}
 \caption{A comparison of a measured beam power spectrum and a number of analytical bunch profiles assuming a bunch length of 1.2ns.}
+\label{fig:power_all}
 \end{figure}
 
 Finally, a comparison of a measured bunch power spectra and the analytical power spectra is shown in Fig.~\ref{fig:power_all}. It can be seen that whilst it is possible to replicate some of the properties of the measured spectrum, an exact replication is non-trivial. Further investigation into the appropriate bunch profile is ongoing.
@@ -186,8 +186,8 @@ For an impedance with a characteristic Q that is small (Q $<$ 10), it can be see
 \begin{center}
 \includegraphics[width=0.65\textwidth]{Wakefields_and_Impedances/figures/low_q_10_resonance_beam_harmonics.pdf}
 \end{center}
-\label{fig:low_q_harmonics}
 \caption{The beam harmonics of a beam with a bunch spacing of 25ns overlayed on the real component of the longitudinal impedance an example of a low Q impedance ($R_{s}=10\omega$, Q = 10, $f_{res}=1GHz$). The blue lines represent the frequency of a beam harmonic, not necessarily the magnitude of the power spectrum at that point. Note that a number of beam harmonics overlay non-zero impedance values.}
+\label{fig:low_q_harmonics}
 \end{figure}
 
 Further investigation of the longitudinal beam spectrum reveals that there is significant structure between the major harmonics (which are due to the bunch spacing of the beam) which can be attributed to the other time structures of the beam, for example the bunch train spacing, or the interval between the pilot bunch train and the subsequent bunch train. As such the treatment of the estimation of beam losses requires a broad spectrum approach. If we consider Eqn.~\ref{eqn:power_loss_omega} we see that we can treat the power losses in an integral form. We can observe a number of properties using this assumption. The power loss is proportional to the beam properties in the following manner:
@@ -214,8 +214,8 @@ In contrast to the overlap of the beam spectrum with a low Q impedance, for a hi
 \begin{center}
 \includegraphics[width=0.65\textwidth]{Wakefields_and_Impedances/figures/high_q_1000_resonance_beam_harmonics.pdf}
 \end{center}
-\label{fig:high_q_harmonics}
 \caption{The beam harmonics of a beam with a bunch spacing of 25ns overlayed on the real component of the longitudinal impedance an example of a high Q impedance ($R_{s}=10\omega$, Q = 1000, $f_{res}=1GHz$). The blue lines represent the frequency of a beam harmonic, not necessarily the magnitude of the power spectrum at that point. Note that only a single beam harmonic overlays a non-zero impedance values.}
+\label{fig:high_q_harmonics}
 \end{figure}
 
 It can then be seen that Eqn~\ref{eqn:heating-gen} simplifies to
@@ -250,8 +250,8 @@ I \left( \omega \right) = \frac{sin \left( \omega \tau_{b}/2 \right)}{ \omega \t
 \begin{center}
 \includegraphics[width=0.8\textwidth]{Wakefields_and_Impedances/figures/heating_narrowband_gauss_bunch_length.pdf}
 \end{center}
-\label{fig:bunch_length_heat_narrow}
 \caption{The change in power loss due to a narrow band resonance characterised by $\omega_{0} = 2GHz$, $R_{s} = 100\Omega$, $Q = 1000$ with a gaussian bunch distrbution of different lengths.}
+\label{fig:bunch_length_heat_narrow}
 \end{figure}
 
 First we shall consider a narrow band impedance which has a resonant frequency $\omega_{0} =2GHz$ which falls upon a beam harmonic such that $\omega_{0}=n\omega_{rev}$, where $n$ is an integer. It should be noted that for other cases the contribution of these sources of heating is negligible due to the small beam current at this frequency. There are two extreme cases; that of  $\omega_{0} \gg 1/\tau_{b}$, in which it can be seen that the current spectrum will be negligible at the frequency of the impedance, and $\omega_{0} \ll 1/\tau_{b}$ where the beam current spectrum is essentially the same as the DC spectral component. The transition in this intervening regime is shown in Fig~\ref{fig:bunch_length_heat_narrow}, assuming a bunch current of 1A. It can be seen that in this case the heating falls drastically as the bunch length increases.

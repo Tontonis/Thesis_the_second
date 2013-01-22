@@ -7,13 +7,13 @@ Time domain simulations typically rely on direct simulations of the propogation 
 A large majority of time domain simulation codes (ECHO, MAFIA, CST Particle Studio, GdfidL) use a method that in effect simulates the passage of a particle beam through the structure and evaluates the subsequent electromagnetic fields in the structure by this signal. This is done in the following way:
 
 \begin{enumerate}
-\item{A signal representing the source bunch is defined using a given profile, and then passed through the structure from a defined starting displacement and at a given velocity. Additionally a line of integration is defined along which the witness signal will be taken. This is effect defines a source bunch and a witness particle.}
-\item{The simulation is propogated for a given period of time to acquire a significant quantity of the wakefield to correctly analyse the frequency components. It can be seen that for both high-Q resonances and low frequencies this requires a longer wakelength, to encompass the long damping time and correctly resolve the signal this frequency respectively.}
-\item{The observed signal is subsequently deconvolved with the source signal to obtain a single particle wakefunction.}
+\item{A signal representing the source bunch is defined using a given profile, and then passed through the structure from a defined starting displacement and at a given velocity. Additionally a line of integration is defined along which the witness signal will be taken. This in effect defines a source bunch and a witness particle.}
+\item{The simulation is propogated for a given period of time to acquire a significant quantity of the wakefield to correctly analyse the frequency components. It can be seen that for both high-Q resonances and low frequencies this requires a longer wakelength, to encompass the long damping time and correctly resolve the signal frequency, respectively.}
+\item{The observed signal is subsequently deconvolved from the source signal to obtain a single particle wakefunction.}
 \item{This may then be fourier transformed (using an FFT algorithm or other numerical methods) to acquire the beam coupling impedance.}
 \end{enumerate}
 
-These steps are illustrated for clarity in Fig.~\ref{fig:time_domain_beam} using a simple pillbox cavity as an example using the time domain code CST Particle Studio.
+These steps are illustrated for clarity in Fig.~\ref{fig:time_domain_beam} using a simple pillbox cavity as an example, using the time domain code CST Particle Studio.
 
 \begin{figure}
 \subfigure[]{
@@ -24,9 +24,8 @@ These steps are illustrated for clarity in Fig.~\ref{fig:time_domain_beam} using
 \includegraphics[width=0.5\textwidth]{Computational_Simulations/figures/source-witness-signal.png}
 \label{fig:cst_wakepotential}
 }
-
 \caption{An illusration of the \ref{fig:cst_source_signal} source signal and witness integration in a time domain code. Here a sample from the UA9 goniometer is shown. The source signal and the resulting wakefield are shown in \ref{fig:cst_wakepotential}.}
-\ref{fig:time_domain_beam}
+\label{fig:time_domain_beam}
 \end{figure}
 
 It can readily be seen that by defining either the source signal or witness at different displacements it is possible to acquire both the dipolar and quadrupolar impedances. Additional, by taking the gradient of the transverse impedances any constant transverse impedance terms can also calculated.

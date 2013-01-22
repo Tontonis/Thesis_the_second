@@ -41,32 +41,32 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{69}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison of the electromagnetic field profile of a moving charged particle and a short time pulse propogating along a coaxial wire.}}{76}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison of the electromagnetic field profile of a moving charged particle and a short time pulse propagating along a coaxial wire.}}{76}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Experimental setup for a measurement of the beam coupling impedance using the classical coaxial wire method}}{77}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces An example of a reflection measurement made with and without a matching resistor. The faded line is the measurement with matching, the bold line that without. The reduction in the reflection can be seen due to the flatter line after the initial reflection.}}{78}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces An example of the resonance pattern seen whilst performing measurements using the resonant method. Each peak corresponds to one data point in the final measurements. Taken from measurements of the LHC injection kicker magnets}}{81}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Measurement setup for measurements of the dipolar beam coupling impedance using the two wire setup for the classical coaxial wire method.}}{84}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces The geometries used for coaxial wire measurement simulations. For the geometry with top/bottom, left/right symmetry we use the Tsutsui model (4.6(a)\hbox {}) using two parallel plates. For the asymmetric structure we use the Zannini-model for a c-core ferrite kicker magnet (4.6(b)\hbox {}), which generates a constant term and a noticeable asymmetric term.}}{91}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{91}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{91}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces The complex permeability of 4A4 ferrite. Taken from the model in [cite]}}{91}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces An example of the simulation model used for coaxial wire simulations. In this case a displaced single wire between two ferrite plates. The wire is highlighted in purple.}}{92}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces The longitudinal impedance of two parallel ferrite plates measured using a longitudinal coaxial wire. Presented are is the impedance as measured in the horizontal plane (4.9(a)\hbox {}) and in the vertical plane 4.9(b)\hbox {}.}}{94}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The geometries used for coaxial wire measurement simulations. For the geometry with top/bottom, left/right symmetry we use the Tsutsui model (4.6(a)\hbox {}) using two parallel plates. For the asymmetric structure we use the Zannini-model for a c-core ferrite kicker magnet (4.6(b)\hbox {}), which generates a constant term and a noticeable asymmetric term.}}{92}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{92}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{92}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The complex permeability of 4A4 ferrite.}}{92}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces An example of the simulation model used for coaxial wire simulations. In this case a displaced single wire between two ferrite plates. The wire is highlighted in purple.}}{93}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces The longitudinal impedance of two parallel ferrite plates simulated using a longitudinal coaxial wire. Presented are is the impedance as measured in the horizontal plane (4.9(a)\hbox {}) and in the vertical plane 4.9(b)\hbox {}.}}{94}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{94}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{94}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces The dipolar impedance of two parallel ferrite plates measured using two longitudinal coaxial wires. Presented are is the impedance as measured in the horizontal plane (4.10(a)\hbox {}) and in the vertical plane 4.10(b)\hbox {}.}}{94}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces The dipolar impedance of two parallel ferrite plates simulated using two longitudinal coaxial wires. Presented are is the impedance as measured in the horizontal plane (4.10(a)\hbox {}) and in the vertical plane 4.10(b)\hbox {}.}}{94}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{94}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{94}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces The quadrupolar impedance of two parallel ferrite plates measured using a combination of displaced single wire measurements and two wire mesurements. Presented are is the impedance as measured in the horizontal plane (4.11(a)\hbox {}) and in the vertical plane 4.11(b)\hbox {}.}}{95}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces The quadrupolar impedance of two parallel ferrite plates simulated using a combination of displaced single wire simulated measurements and two wire simulated mesurements. Presented are is the impedance as measured in the horizontal plane (4.11(a)\hbox {}) and in the vertical plane 4.11(b)\hbox {}.}}{95}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{95}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{95}
 \contentsline {figure}{\numberline {4.12}{\ignorespaces The longitudinal impedance of two parallel graphite plates as measured by taking the constant term of a quadratic equation fitted to a series of displaced single wire measurements. Shown are measurements acquired from fitting displacements in 4.12(a)\hbox {} horizontal axis and in 4.12(b)\hbox {} the vertical axis.}}{98}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{98}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{98}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces The dipolar impedance of two parallel graphite plates measured using two longitudinal coaxial wires. Presented are is the impedance as measured in the horizontal plane (4.13(a)\hbox {}) and in the vertical plane 4.13(b)\hbox {}.}}{99}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces The dipolar impedance of two parallel graphite plates measured using two longitudinal coaxial wires. Presented is the impedance as measured in the horizontal plane (4.13(a)\hbox {}) and in the vertical plane 4.13(b)\hbox {}.}}{99}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{99}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{99}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces The quadrupolar impedance of two parallel graphite plates measured using a combination of displaced single wire measurements and two wire mesurements. Presented are is the impedance as measured in the horizontal plane (4.14(a)\hbox {}) and in the vertical plane 4.14(b)\hbox {}.}}{99}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces The quadrupolar impedance of two parallel graphite plates measured using a combination of displaced single wire measurements and two wire mesurements. Presented is the impedance as measured in the horizontal plane (4.14(a)\hbox {}) and in the vertical plane 4.14(b)\hbox {}.}}{99}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{99}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{99}
 \contentsline {figure}{\numberline {4.15}{\ignorespaces The impedance of the c-core ferrite kicker as acquired by simulating the classical coaxial wire method in HFSS. Shown is the 4.15(a)\hbox {} longitudinal impedance, 4.15(b)\hbox {} the dipolar impedance, 4.15(c)\hbox {} the quadrupolar impedance and 4.15(d)\hbox {} the constant transverse impedance.}}{102}
