@@ -446,9 +446,20 @@ L.~Ducimetière, N.~Garrel, M.~J. Barnes, and G.~D. Wait, ``The lhc injection
   kicker magnet,'' no. LHC-Project-Report-655. CERN-LHC-Project-Report-655, p.
   4 p, Jun 2003.
 
+\bibitem{Arduini:beamInducedSPS}
+G.~Arduini, T.~Bohl, F.~Caspers, E.~H. Gaxiola, T.~Kroyer, M.~Timmins, L.~Vos,
+  and J.~Uythoven, ``Beam induced heating of the sps fast pulsed magnets,'' no.
+  CERN-AB-2004-038, 2004, revised version submitted on 2004-09-29 09:29:30.
+
 \bibitem{Vos:beamScreen}
 L.~Vos, ``Beam screens in the lhc injection kicker magnets?'' CERN, Geneva,
   Tech. Rep. LHC-Project-Note-131, Feb 1998.
+
+\bibitem{Ducimetiere:designMKI}
+L.~Ducimetière, U.~Jansson, G.~Schröder, E.~B. Vossenberg, M.~J. Barnes, and
+  G.~D. Wait, ``Design of the injection kicker magnet system for cern's 14 tev
+  proton collider lhc,'' CERN, Geneva, Tech. Rep. CERN-SL-95-80 BT.
+  LHC-NOTE-337. TRI-PP-95-50. CERN-LHC-Note-337, Aug 1995.
 
 \bibitem{Barnes:improvBeamScreen}
 M.~J. Barnes, F.~Caspers, L.~Ducimetière, N.~Garrel, and T.~Kroyer, ``An
@@ -465,6 +476,11 @@ F.~Caspers, C.~González, H.~Tsutsui, and M.~Dyachkov, ``Impedance measurements
 F.~Caspers and A.~Mostacci, ``Bench measurements of the lhc injection kicker
   low frequency impedance properties,'' CERN, Geneva, Tech. Rep.
   SL-Note-2002-030-AP, Oct 2002.
+
+\bibitem{Barnes:mkiVacTemp}
+M.~Barnes, ``Mki vacuum and temperature.''\hskip 1em plus 0.5em minus
+  0.4em\relax Geneva: Presented at 25th October 2012 Meeting of the MKI
+  Strategy Meeting, CERN, October 2012.
 
 \bibitem{Goddard:timeConst}
 B.~Goddard, ``Mki heating 2011 – more observations.''\hskip 1em plus 0.5em

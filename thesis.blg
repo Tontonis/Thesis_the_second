@@ -19,8 +19,6 @@ I was expecting an "="---line 592 of file thesisBib.bib
  :    publisher = {American Physical Society}
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "Caspers:lowFreqMKIMeas"
-Warning--I didn't find a database entry for "Métral:Heating"
 Warning--I didn't find a database entry for "Brüning:beamParameters"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
@@ -61,7 +59,9 @@ Warning--missing institution in Day:wireMeasFerr
 Warning--missing institution in Barnes:wireMeasKick
 Warning--missing institution in Barnes:spsKickerHeating
 Warning--empty journal in Ducimetiere:mkiSpec
+Warning--empty journal in Arduini:beamInducedSPS
 Warning--missing institution in Barnes:improvBeamScreen
+Warning--empty booktitle in Barnes:mkiVacTemp
 Warning--empty booktitle in Goddard:timeConst
 Warning--empty booktitle in Garlasche:2dHeat
 Warning--empty booktitle in Barnes:eFieldMKI
