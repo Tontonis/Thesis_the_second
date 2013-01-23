@@ -205,5 +205,7 @@
 \contentsline {figure}{\numberline {8.34}{\ignorespaces The maximum steady-state temperature reached by the ferrite yoke in the MKI depending on the power load on the ferrite yoke as calculated using a 2D cross section of the MKI. $P_{yoke}$ is the power lost in the ferrite yoke and T the maximum steady state temperature of the ferrite yoke. Provided by M. Garlasche et al \cite {Garlasche:2dHeatEmisAll}.}}{188}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces The focusing synchronous phase positions for particle below ($P_{1}$) and above ($P_{2}$) transition. The synchronous phase is chosen for a given particle energy and desired behaviour, and an off-momentum particle will be longitudinally focused to the synchronous phase by the RF system if the correct phase is chosen. This occurs due to balance of increased velocity with an increased size of orbit as a particle is accelerated by the RF electric field.}}{207}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces The stable longitudinal phase area (seperatrix) for different synchronous phase values. Note that the seperatrix decreases in volume as $\phi _{s} \rightarrow \pi / 2$.}}{208}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

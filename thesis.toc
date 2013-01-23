@@ -100,5 +100,7 @@
 \contentsline {chapter}{\numberline {9}Conclusions}{190}
 \contentsline {chapter}{Bibliography}{192}
 \contentsline {chapter}{\numberline {A}Longitudinal Beam Dynamics}{204}
-\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - No Ferrite}{207}
-\contentsline {chapter}{\numberline {C}TCTP Eigenmode Simulations - With Ferrite}{213}
+\contentsline {section}{\numberline {A.1}Phase Stability}{206}
+\contentsline {section}{\numberline {A.2}RF Acceptance and Longitudinal Emittance}{207}
+\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - No Ferrite}{209}
+\contentsline {chapter}{\numberline {C}TCTP Eigenmode Simulations - With Ferrite}{215}

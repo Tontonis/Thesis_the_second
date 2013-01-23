@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  23 JAN 2013 15:20
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  23 JAN 2013 16:21
 entering extended mode
 **C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
 (C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
@@ -666,9 +666,9 @@ Overfull \hbox (0.25723pt too wide) in paragraph at lines 187--187
 es-o-nance fre-quency 
  []
 
-[20])
+[20] [21])
 \tf@lof=\write5
- [21] [22]
+ [22]
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\Preface/abstract.tex
 Overfull \hbox (14.11746pt too wide) in paragraph at lines 1--2
 \T1/ptm/m/n/12 Wakefields and the cor-re-spond-ing frequency-domain phe-nomenon
@@ -2695,31 +2695,46 @@ LaTeX Warning: Reference `sec:beamDyn' on page 204 undefined on input line 8.
 
 [204
 
-] [205]) [206]
+] [205]
+<Appendices/figures/longStab.png, id=5541, 2564.07938pt x 1274.51157pt>
+File: Appendices/figures/longStab.png Graphic file (type png)
+
+<use Appendices/figures/longStab.png>
+Package pdftex.def Info: Appendices/figures/longStab.png used on input line 81.
+
+(pdftex.def)             Requested size: 320.57364pt x 159.333pt.
+ [206]
+<Appendices/figures/longPhaseDiag.png, id=5545, 639.89063pt x 649.67719pt>
+File: Appendices/figures/longPhaseDiag.png Graphic file (type png)
+
+<use Appendices/figures/longPhaseDiag.png>
+Package pdftex.def Info: Appendices/figures/longPhaseDiag.png used on input lin
+e 95.
+(pdftex.def)             Requested size: 320.57364pt x 325.48215pt.
+) [207 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Appendices/figures/lon
+gStab.png>] [208 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Appendices/f
+igures/longPhaseDiag.png>]
 Appendix B.
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/vacEigenTable.tex
-[207
+[209
 
-] [208] [209] [210] [211]) [212]
+] [210] [211] [212] [213]) [214]
 Appendix C.
 
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/ferrEigenTable.tex
-[213
+[215
 
-] [214] [215]) [216]
+] [216] [217]) [218]
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 6402 strings out of 494045
- 142620 string characters out of 3148390
+ 6417 strings out of 494045
+ 143048 string characters out of 3148390
  201742 words of memory out of 3000000
- 9309 multiletter control sequences out of 15000+200000
+ 9321 multiletter control sequences out of 15000+200000
  47940 words of font info for 72 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  28i,13n,24p,2229b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2739,9 +2754,9 @@ w/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (216 pages, 22367849 bytes).
+Output written on thesis.pdf (218 pages, 23190378 bytes).
 PDF statistics:
- 5635 PDF objects out of 6186 (max. 8388607)
+ 5648 PDF objects out of 6186 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 736 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 746 words of extra memory for PDF output out of 10000 (max. 10000000)
 
