@@ -113,26 +113,26 @@ In addition it can be seen that it is preferable to distribute the screen conduc
 
 \subsection{Dependence of the Impedance on the Beam Screen Dimensions}
 
-It can be seen that with 24 screen conductors placed in the ceramic tube that the resulting impedance is dominated by the configuration of the beam screen. To investigate how changes to certain parameters (specifically the length of the overlap between the screen conductors and the external metallization and the thickness of the ceramic tube) a cut down model of the kicker magnet is used, considering just the capactively coupled end of the kicker magnet (shown in Fig.~\ref{fig:cut-down-mki-cap-end}). This is done to allow a larger mesh density in this important (from the electrical and impedance point of view) region of the kicker magnet. In models of the full kicker magnet the mesh density is severely limited due to the large mesh generated in the entire magnet volume which subsequently may make the mesh very limited in near beam areas (for example in the ceramic tube between the screen conductors and the external metallization. A comparison is shown in Fig.~\ref{fig:mki-mesh-com-cst}). An illustrated diagram of the capacitively coupled end is given in Fig.~\ref{fig:cap-end-diag} to clarify the components referred to in this section.
+It can be seen that with 24 screen conductors placed in the ceramic tube that the resulting impedance is dominated by the configuration of the beam screen. To investigate how changes to certain parameters (specifically the length of the overlap between the screen conductors and the external metallization and the thickness of the ceramic tube) a cut down model of the kicker magnet is used, considering just the capactively coupled end of the kicker magnet (shown in Fig.~\ref{fig:cut-down-mki-cap-end}). This is done to allow a larger mesh density in this important (from the electrical and impedance point of view) region of the kicker magnet. In models of the full kicker magnet the mesh density is severely limited due to the large mesh generated in the entire magnet volume which subsequently may make the mesh very limited in near beam areas (for example in the ceramic tube between the screen conductors and the external metallization. A comparison is shown in Fig.~\ref{fig:mki-mesh-com-cst}). 
 
 \begin{figure}
-\subfigure[]{
+\begin{center}
+\includegraphics[width=0.75\textwidth]{LHC_MKI/figures/cutDownModel.png}
+\end{center}
 \label{fig:cut-down-mki-cap-end}
-}
-\subfigure[]{
-\label{fig:cap-end-diag}
-}
-\caption{\ref{fig:cut-down-mki-cap-end} The cut down simulation model used for simulations of the MKI beam screen with 24 screen conductors and \ref{fig:cap-end-diag} an illustrated diagram of the capacitively coupled end of the beam screen.}
+\caption{The cut down simulation model used for simulations of the MKI beam screen with 24 screen conductors.}
 \end{figure}
 
 \begin{figure}
 \subfigure[]{
+\includegraphics[width=0.45\textwidth]{LHC_MKI/figures/meshLarge.png}
 \label{fig:mesh-full}
 }
 \subfigure[]{
 \label{fig:mesh-cutdown}
+\includegraphics[width=0.45\textwidth]{LHC_MKI/figures/meshCutDown.png}
 }
-\caption{A comparison of the mesh that may be generated in CST Particle Studio using both the full model \ref{fig:mesh-full} and the cutdown model \ref{fig:mesh-cutdown}. Blue squares reresent a meshing failure which inserts perfect electrical conductor into the model. The simulation time for the first is on the order a day, for the second 30 minutes.}
+\caption{A comparison of the mesh that may be generated in CST Particle Studio using both the full model \ref{fig:mesh-full} and the cutdown model \ref{fig:mesh-cutdown}. Not the greatly increased mesh density in the important overlap region between the screen conductors and external metallization. The simulation time for the first is on the order a day, for the second 30 minutes.}
 \label{fig:mki-mesh-com-cst}
 \end{figure}
 

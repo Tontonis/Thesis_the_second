@@ -95,12 +95,12 @@
 \contentsline {subsection}{\numberline {8.5.1}The Impedance of the MKI - Effects of the Inclusion of the Beam Screen}{170}
 \contentsline {subsection}{\numberline {8.5.2}How Screening Changes with the Number of Screen Conductors}{172}
 \contentsline {subsection}{\numberline {8.5.3}Dependence of the Impedance on the Beam Screen Dimensions}{173}
-\contentsline {section}{\numberline {8.6}New Beam Screen Designs}{180}
-\contentsline {section}{\numberline {8.7}Upgrade Plans for Long Shutdown 1 and Beyond}{188}
-\contentsline {chapter}{\numberline {9}Conclusions}{190}
-\contentsline {chapter}{Bibliography}{192}
-\contentsline {chapter}{\numberline {A}Longitudinal Beam Dynamics}{204}
-\contentsline {section}{\numberline {A.1}Phase Stability}{206}
-\contentsline {section}{\numberline {A.2}RF Acceptance and Longitudinal Emittance}{207}
-\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - No Ferrite}{209}
-\contentsline {chapter}{\numberline {C}TCTP Eigenmode Simulations - With Ferrite}{215}
+\contentsline {section}{\numberline {8.6}New Beam Screen Designs}{179}
+\contentsline {section}{\numberline {8.7}Upgrade Plans for Long Shutdown 1 and Beyond}{185}
+\contentsline {chapter}{\numberline {9}Conclusions}{189}
+\contentsline {chapter}{Bibliography}{191}
+\contentsline {chapter}{\numberline {A}Longitudinal Beam Dynamics}{203}
+\contentsline {section}{\numberline {A.1}Phase Stability}{205}
+\contentsline {section}{\numberline {A.2}RF Acceptance and Longitudinal Emittance}{206}
+\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - No Ferrite}{208}
+\contentsline {chapter}{\numberline {C}TCTP Eigenmode Simulations - With Ferrite}{214}
