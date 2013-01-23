@@ -1,14 +1,14 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 Case mismatch error between cite keys Stupakov:wakeAndImp and Stupakov:wakeandImp
----line 94 of file thesis.aux
+---line 96 of file thesis.aux
  : \citation{Stupakov:wakeAndImp
  :                              }
 I'm skipping whatever remains of this command
-White space in argument---line 321 of file thesis.aux
+White space in argument---line 323 of file thesis.aux
  : \citation{Hahn:
  :                 ValidityImpMeas}
 I'm skipping whatever remains of this command
-White space in argument---line 326 of file thesis.aux
+White space in argument---line 328 of file thesis.aux
  : \citation{Hahn:
  :                 ValidityImpMeas}
 I'm skipping whatever remains of this command

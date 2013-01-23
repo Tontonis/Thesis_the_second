@@ -1,0 +1,75 @@
+\begin{itemize}
+\item{Include here a brief introduction to longitudinal motion.}
+\item{Introduce the idea of longitudinal particle movement in a potential well - defined by RF bucket}
+\item{Idea of phase stability - the stable phase position is heavily dependent on the relative phase of the RF to the particle - above transition and below transition the base is different, and when accelerating the stable phase space decreases}
+\item{Preserved longitunal emittance}
+\end{itemize}
+
+As is shown in Sec.~\ref{sec:beamDyn}, the longitudinal force on a charged particle in a particle accelerator is defined as 
+
+\begin{equation}
+F_{\parallel} = qE_{z}.
+\label{eqn:longForce}
+\end{equation}
+
+Often it is useful to take into account the change in energy in a particle, thus we can transform Eqn.~\ref{eqn:longForce} to
+
+\begin{equation}
+\frac{dE}{dz} = v\frac{dp}{dz} = \frac{dp}{dt} = eE_{z}
+\end{equation}
+
+where $dE$ is the infinitessimal energy change of the particle, $dp$ the infintessimal momentum change. Here we assume relativistic dynamics where 
+
+\begin{equation}
+E^{2} = E_{0}^{2} + p^{2}c^{2}
+\end{equation}
+
+where $E_{0}$ is the particles rest energy and $c$ the speed of light. The change in kinetic energy $W$ from the particle traversing a path $z$ is given by
+
+\begin{equation}
+\Delta W = \int dE = \int \mathbf{dz}.\mathbf{\hat{z}} E_{z} e = eV
+\end{equation}
+
+where $V$ is the potential seen by the charged particle. Typically the electric field of an RF cavity is an oscillating field with an angular frequency $\omega_{rf}$, giving an electric field at some time $t$
+
+\begin{equation}
+E_{z} = E_{0} cos \left( \omega_{rf} t \right)
+\end{equation}
+
+where $E_{0}$ is the field magnitude. If we consider a particle beginning its traversal of the electric field (located between $z=-L_{cav}/2$ and $z=L_{cav}/2$) at $t=0$ (such that $z=vt$) we find that
+
+\begin{equation}
+\Delta W = \frac{e}{L_{cav}} \int^{\frac{L_{cav}}{2}}_{\frac{-L_{cav}}{2}} dz E_{z}\left( z \right) cos \left( \omega_{rf} \frac{z}{v} \right).
+\end{equation}
+
+Another way to represent the change in kinetic energy is by the use of a factor known as the time transit factor, commonly represented by $T$. To illustrate it's used consider the general case of energy change $\Delta W$, and use complex notation we have
+
+\begin{equation}
+\Delta E = \frac{e}{L_{cav}} \Re{}e \left[ \int^{\frac{L_{cav}}{2}}_{\frac{-L_{cav}}{2}} dz E_{z}\left( z \right)e^{j \omega_{rf} t}.\right]
+\end{equation}
+
+If we have a particle with a phase $\Phi_{p}$ relative to the RF phase ($\omega_{rf}t = \omega_{rf}z/v - \Phi_{p}$) leading the equation to become
+
+\begin{equation}
+\Delta E = e \Re{}e \left[ e^{-j \Phi_{p}}\int^{\frac{L_{cav}}{2}}_{\frac{-L_{cav}}{2}} dz E_{z}\left( z \right) e^{j \omega_{rf} \frac{z}{v}}.\right]
+\end{equation}
+
+\begin{equation}
+\Delta E = e \Re{}e \left[ e^{-j \Phi_{p}} e^{-j \Phi_{i}} \left| \int^{\frac{L_{cav}}{2}}_{\frac{-L_{cav}}{2}} dz E_{z}\left( z \right) e^{j \omega_{rf} \frac{z}{v}}.\right| \right]
+\end{equation}
+
+where $\Phi_{i}$ is the phase of the RF. If we introduce $\phi = \Phi_{p} - \Phi_{i}$ as the phase of the particle relative to the RF this becomes
+
+\begin{equation}
+\Delta E = e  \left| \int^{\frac{L_{cav}}{2}}_{\frac{-L_{cav}}{2}} dz E_{z}\left( z \right) e^{j \omega_{rf} \frac{z}{v}}.\right| cos \phi.
+\end{equation}
+
+The time transit factor $T$ is now defined as the energy gain of a transitting particle over the maximum energy gain of a transitting particle (i.e. a particle with a velocity $v \rightarrow \infty $), such that 
+
+\begin{equation}
+T =    \frac{\left| \int^{\frac{L_{cav}}{2}}_{\frac{-L_{cav}}{2}} dz E_{z}\left( z \right) e^{j \omega_{rf} \frac{z}{v}}.\right|}{  \left| \int^{\frac{L_{cav}}{2}}_{\frac{-L_{cav}}{2}} dz E_{z}\left( z \right) \right|}.
+\end{equation}
+
+\section{Phase Stability}
+
+A consequence of the factor $\phi$ is that for a bunch of particles interacting with an RF system there a stable phase of the particle relevant to RF phase. 
