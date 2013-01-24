@@ -7,7 +7,7 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces The relative displacements of the source and witness particle in the horizontal and vertical planes that identify the dipolar/driving and quadrupolar/detuning impedances.}}{47}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Cross section of a cylindrical pillbox cavity with an attached beam pipe}}{48}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces The equivalent RLC parallel circuit for a cavity resonance, driven by a current $i_{b}$, in this case the beam current}}{49}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces The geometry of the classical thick wall formula.}}{51}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The geometry of the Tsutsui resistive wall formalism.}}{51}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Examples of the longitudinal 2.6(a)\hbox {} and transverse 2.6(b)\hbox {} resistive wall impedance of a beam pipe of radius $a = 2cm$ made of both copper ($\sigma = 1 \times 10^{7} S m^{-1}$) and graphite ($\sigma = 7 \times 10^{4} S m^{-1}$).}}{52}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{52}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{52}
@@ -15,9 +15,9 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{55}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{55}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces The longitudinal bunch profile of a number of bunch distributions. Note that all of these are normalised to have a peak bunch current of 1. For the gaussian distribution the bunch length is the 4$\sigma $ value. The bunch length $\tau _{b} = 1.2ns$}}{56}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces The frequency domain 2.9(a)\hbox {} current spectrum and 2.9(b)\hbox {} power spectrum for a number of different bunch profiles with a bunch length $\tau _{b} = 1.2ns$.}}{56}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{56}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{56}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces The frequency domain 2.9(a)\hbox {} current spectrum and 2.9(b)\hbox {} power spectrum for a number of different bunch profiles with a bunch length $\tau _{b} = 1.2ns$.}}{57}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{57}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{57}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces 2.10(a)\hbox {} The longitudinal profile and the 2.10(b)\hbox {} associated bunch power spectrum for a number of bunch lengths assuming a gaussian bunch profile.}}{57}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{57}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{57}

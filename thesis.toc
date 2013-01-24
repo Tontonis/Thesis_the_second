@@ -23,7 +23,7 @@
 \contentsline {subsection}{\numberline {2.2.3}Geometric Impedance}{47}
 \contentsline {subsubsection}{RLC Circuit Model}{49}
 \contentsline {subsection}{\numberline {2.2.4}Resistive Wall Impedance}{50}
-\contentsline {section}{\numberline {2.3}Example of the Effects of Wakefields}{52}
+\contentsline {section}{\numberline {2.3}Example of the Effects of Wakefields}{53}
 \contentsline {subsection}{\numberline {2.3.1}Beam Induced Heating}{53}
 \contentsline {subsubsection}{Defining and Deriving Power Loss in Circular Accelerators}{53}
 \contentsline {subsubsection}{Longitudinal Beam Profiles}{54}
@@ -101,6 +101,6 @@
 \contentsline {chapter}{Bibliography}{191}
 \contentsline {chapter}{\numberline {A}Longitudinal Beam Dynamics}{203}
 \contentsline {section}{\numberline {A.1}Phase Stability}{205}
-\contentsline {section}{\numberline {A.2}RF Acceptance and Longitudinal Emittance}{206}
+\contentsline {section}{\numberline {A.2}RF Acceptance and Longitudinal Emittance}{205}
 \contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - No Ferrite}{208}
 \contentsline {chapter}{\numberline {C}TCTP Eigenmode Simulations - With Ferrite}{214}

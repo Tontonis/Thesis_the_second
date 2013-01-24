@@ -4,11 +4,11 @@ Case mismatch error between cite keys Stupakov:wakeAndImp and Stupakov:wakeandIm
  : \citation{Stupakov:wakeAndImp
  :                              }
 I'm skipping whatever remains of this command
-White space in argument---line 323 of file thesis.aux
+White space in argument---line 325 of file thesis.aux
  : \citation{Hahn:
  :                 ValidityImpMeas}
 I'm skipping whatever remains of this command
-White space in argument---line 328 of file thesis.aux
+White space in argument---line 330 of file thesis.aux
  : \citation{Hahn:
  :                 ValidityImpMeas}
 I'm skipping whatever remains of this command

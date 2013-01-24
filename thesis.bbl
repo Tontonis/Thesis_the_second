@@ -197,6 +197,11 @@ N.~Mounet and E.~Métral, ``Electromagnetic fields and beam coupling impedances
   in a multilayer flat chamber,'' CERN, Geneva, Tech. Rep. CERN-ATS-2010-056,
   Dec 2010.
 
+\bibitem{Tsutsui:DipoleKicker}
+H.~Tsutsui and L.~Vos, ``Transverse coupling impedance of a simplified ferrite
+  kicker magnet model,'' CERN, Geneva, Tech. Rep. LHC-PROJECT-NOTE-234, Sep
+  2000.
+
 \bibitem{Ng:IntDepInstab}
 K.~Y. Ng, \emph{Physics of Intensity Dependent Beam Instabilities}.\hskip 1em
   plus 0.5em minus 0.4em\relax New Jersey, NJ: World Scientific, 2006.
@@ -279,11 +284,6 @@ H.~Tsutsui, ``On single wire technique for transverse coupling impedance
 \bibitem{Kroyer:lowFreqColImp}
 T.~Kroyer, ``Simulation of the low-frequency collimator impedance,'' CERN,
   Geneva, Tech. Rep. CERN-AB-Note-2008-017, Apr 2008.
-
-\bibitem{Tsutsui:DipoleKicker}
-H.~Tsutsui and L.~Vos, ``Transverse coupling impedance of a simplified ferrite
-  kicker magnet model,'' CERN, Geneva, Tech. Rep. LHC-PROJECT-NOTE-234, Sep
-  2000.
 
 \bibitem{Salvant:QuadKicker}
 B.~Salvant, N.~Mounet, C.~Zannini, E.~Métral, and G.~Rumolo, ``Quadrupolar

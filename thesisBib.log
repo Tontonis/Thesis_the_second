@@ -1,113 +1,22 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdftex 2011.4.29)  17 DEC 2012 11:04
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdftex 2011.4.29)  23 JAN 2013 17:48
 entering extended mode
 **E:/GitHub/Thesis_the_second/thesisBib.bib
 (E:/GitHub/Thesis_the_second/thesisBib.bib
-Overfull \hbox (5.10587pt too wide) in paragraph at lines 22--30
-[]\tenrm @techreportntof, ti-tle = "n-TOF Tech-ni-cal De-sign Re-port on Ex-per
--i-men-tal Area", in-sti-tu-tion = "CERN",|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\hbox(0.0+0.0)x20.0
-.\tenrm @
-.\tenrm t
-.\tenrm e
-.\tenrm c
-.etc.
-
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¸ in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¸ in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no § in font cmr10!
-
-Overfull \hbox (32.66249pt too wide) in paragraph at lines 149--159
-\tenrm "Trans-verse Re-sis-tive In-sta-bil-i-ties of In-tense Coast-ing Beams i
-n Par-ti-cle Ac-cel-er-a-tors", jour-nal = "Rev.Sci.Instrum.",|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\tenrm "
-.\tenrm T
-.\kern-0.83334
-.\tenrm r
-.\tenrm a
-.etc.
-
-[1{C:/Users/hday/AppData/Local/MiKTeX/2.8/pdftex/config/pdftex.map}]
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no © in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no © in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no © in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no © in font cmr10!
-
-Overfull \hbox (15.70897pt too wide) in paragraph at lines 269--280
-\tenrm cre-ated by a macropar-ti-cle in an in-finitely long and ax-isym-met-ric
- mul-ti-layer beam pipe. oai:cds.cern.ch:1228293",|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\tenrm c
-.\tenrm r
-.\tenrm e
-.\discretionary
-..\tenrm -
-.\tenrm a
-.etc.
-
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no © in font cmr10!
-[2]
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¼ in font cmr10!
-
-Overfull \hbox (117.07976pt too wide) in paragraph at lines 485--499
-\tenrm = 9, year = 2004, month = Jan, doi = 10.1103/Phys-RevSTAB.7.012001, url 
-= http://link.aps.org/doi/10.1103/PhysRevSTAB.7.012001,|
-
-\hbox(7.5+2.5)x469.75499, glue set - 1.0
-.\tenrm =
-.\glue 3.33333 plus 1.66666 minus 1.11111
-.\tenrm 9
-.\tenrm ,
-.\glue 3.33333 plus 2.08331 minus 0.88889
-.etc.
-
-
-Overfull \hbox (97.6908pt too wide) in paragraph at lines 500--514
-\tenrm year = 2000, month = Dec, doi = 10.1103/Phys-RevSTAB.3.122001, url = htt
-p://link.aps.org/doi/10.1103/PhysRevSTAB.3.122001,|
-
-\hbox(7.5+2.5)x469.75499, glue set - 1.0
-.\tenrm y
-.\kern-0.27779
-.\tenrm e
-.\tenrm a
-.\tenrm r
-.etc.
-
-[3]
-Overfull \hbox (12.08391pt too wide) in paragraph at lines 558--568
-\tenrm Ru-molo, G", ti-tle = "Quadrupo-lar Trans-verse Impedance of Sim-ple Mod
--els of Kick-ers. oai:cds.cern.ch:1271348",|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\tenrm R
-.\tenrm u
-.\discretionary
-..\tenrm -
-.\tenrm m
-.\tenrm o
-.etc.
-
-! Undefined control sequence.
-l.626     title = \texttt
-                         {http://www.cst.com}
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2   CTLdash_
+              repeated_names = "no"
 ? 
 ! Emergency stop.
-l.626     title = \texttt
-                         {http://www.cst.com}
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2   CTLdash_
+              repeated_names = "no"
 End of file on the terminal!
 
 !  ==> Fatal error occurred, no output PDF file produced!

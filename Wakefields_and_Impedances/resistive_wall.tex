@@ -3,24 +3,23 @@
 
 The resistive wall impedance is an impedance generated due to the finite conductivity of the material of the beam pipe wall. This can have a number of regimes dependent on whether the skin depth of the material $\delta \left( \omega \right) = \sqrt{\frac{2}{\mu_{0} \sigma \omega}}$ is much smaller than the thickness of the beam pipe wall \cite{Chao:PhysColEff}, comparable to the thickness of the beam pipe wall \cite{Roncarolo:ColImpMeas, Metral:ResWallWideFreq} or much larger than the thickness of the beam pipe wall \cite{Tsutsui:ferrKickLong, Biancacci:MMFiniteInsert}. In this instance, $\sigma$ is the conductivity of wall material. It can also be shown that the shape of the beam pipe cross section also plays a significant role in defining the impedance \cite{Mounet:Axisymmetric, Mounet:Flat}.
 
-Here we shall not attempt a comprehensive summary of the various resistive wall impedance models, but simply give an introduction to the classic thick wall formalism to give a sense of how changing the wall conductivity affects the resistive wall impedance. A considerably more detailed overview of this derivation can be found in \cite{Chao:PhysColEff}. Consider a circular beam pipe of radius $a$ containing a source particle of charge $q_{1}$ moving with velocity $\mathbf{v} = \beta c \mathbf{\hat{z}}$, as shown in Fig.~\ref{fig:res_wall_diagram}. In this case it shall be assumed that $\beta = 1$.
+Here we shall not attempt a comprehensive summary of the various resistive wall impedance models, but simply give an introduction to the Tsutsui formalism to give a sense of how changing the wall conductivity affects the resistive wall impedance. A considerably more detailed overview of this derivation can be found in \cite{Tsutsui:ferrKickLong, Tsutsui:DipoleKicker}. Consider a two parallel plates of a resistive material, between which moves a source particle of charge $q_{1}$ moving with velocity $\mathbf{v} = \beta c \mathbf{\hat{z}}$, as shown in Fig.~\ref{fig:res_wall_diagram}. In this case it shall be assumed that $\beta = 1$.
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.8\textwidth]{Wakefields_and_Impedances/figures/reWallGeo.pdf}
+\includegraphics[width=0.6\textwidth]{Wakefields_and_Impedances/figures/reWallGeo.pdf}
 \end{center}
-\caption{The geometry of the classical thick wall formula.}
+\caption{The geometry of the Tsutsui resistive wall formalism.}
 \label{fig:res_wall_diagram}
 \end{figure}
 
-It can be shown that the beam coupling impedance per unit length $L$ of this structure, assuming $\delta \ll b$, is given by
+The longitudinal and dipolar impedances for this model can be seen in Fig.~\ref{fig:resWallImpComp} for a comparison between two sample materials. It can be seen that for the given frequency range there are two regimes for both the longitudinal and transverse impedance (although the difference more pronounced for the transverse impedance). The for high frequencies, the classical thick wall formalism (as in \cite{Chao:PhysColEff}) applies, as the skin depth of the material is much smaller than the beam pipe aperture. This formalism at lower frequencies would subsequently predict a greater impedance at lower frequencies, as it gives $Z_{\perp} \propto \sqrt{\omega}$. At lower frequencies however this is not seen to be the case. This is due to the following reasons:
 
-\begin{align}
-\frac{Z_{\parallel}^{0}  \left( \omega \right)}{L} &= \frac{1 - sgn \left( \omega \right) i }{2 \pi a \delta \sigma} \\
-\frac{Z_{\perp}^{1}  \left( \omega \right)}{L} &= \frac{c}{\omega}\frac{1 - sgn \left( \omega \right) i }{2 \pi a^{3} \delta \sigma}
-\end{align}
-
-where $sgn$ is a function that returns the sign (positive or negative) of the value. The 0 and 1 indicate these modes represent the zeroeth and first azimuthal modes of the source current. It can be easily seen is that the impedance is proportional to $1/ \sqrt{\sigma}$, thereby indicating that materials with a higher conductivity generally give lower beam coupling impedance in the thick wall regime (see Fig.~\ref{fig:resWallImpComp} for a comparison between two sample materials).
+\begin{enumerate}
+\item{At high frequencies the beam image current effectively flows on the surface of the material, thus the distance between the beam image current and the witness particle is constant at value $b$. Thus the transverse impedance seen is determined by the change in skin depth $\delta$ which is proportional to $\omega$}
+\item{At low frequencies the beam image current effectively flows some distance inside the wall material, greater than $b$. This increases the distance between the beam image current and the witness particle, thus decreased the force seen by the witness particle. This causes the transverse impedance to become linear with respect to $\omega$. It is important to note this mechanism, as it indicates that this phenomena occurs at a "low" frequency for any thickness of wall material, even for a wall of infinite thickness.}
+\item{The transition region occurs when these two phenomena become of similar magnitude.}
+\end{enumerate}
 
 \begin{figure}
 \subfigure[]{
