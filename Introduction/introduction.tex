@@ -14,7 +14,7 @@ CERN (Organisation europeene pour la recherche nucleaire) is a particle physics 
 
 The LHC is a synchrotron built to collide counter rotating beams of hadrons at an centre of mass energy of 14TeV for protons and 2.76TeV per nucleon for lead ions. It uses 1,232 superconducting dipole magnets to bend the hadron beams on a circular orbit around the beam line, in addition to using 392 quadrupole magnets for focusing in the transverse plane to maintain the bunch cross section and carry out final focusing for the 4 detector experiments in the LHC. Four detector experments are operated at the LHC; two general purpose detectors ATLAS and CMS, used for searches of new physics beyond the current energy frontier \cite{ATLASTDR,CMSDR}; LHCb, a forward detector specialised in the analysis of B-physics \cite{LHCb} and ALICE, a detector specialised in heavy ion collisions with the intent of observing the physics of quark-gluon plasma \cite{Lourenco:ALICE}. Three further experiments are in place in the LHC, LHCf (an experiment related to the effects of high-energy cosmic rays), TOTEM (measuring the total cross-section of the proton via elastic scattering processes at the collision points) and MoEDAL (an experiment searching for magnetic monopoles and stable massive particles): these three complete the experiments provided with data by collisions using LHC delivered protons.
 
-\section{Operational Figure of Merit - Luminosity}
+\section{Operational Figure of Merit for a Collider - Luminosity}
 
 One of the key figures of merit for the operation of the LHC (along with the centre of mass energy) is the luminosity at the colliding interaction regions (IRs). This is a figure which denotes the total rate of production of new (in the sense of produced during interactions during collisions between protons) particles in collider experiments. It can be thought of as the factor of proportionality between the cross section of a reaction scheme and the number of interactions per second
 
@@ -22,29 +22,29 @@ One of the key figures of merit for the operation of the LHC (along with the cen
 \frac{dR}{dt} = \mathcal{L} \times \sigma_{p}
 \end{equation}
 
-where $\frac{dR}{dt}$ is the interaction rate, $\mathcal{L}$ is the luminosity and $\sigma_{p}$ is the production cross section for a given particle production scheme. For two colliding bunches, each with a gaussian transverse cross-section, the luminosity can be given in a simplified form by
+where $\frac{dR}{dt}$ is the interaction rate, $\mathcal{L}$ is the luminosity and $\sigma_{p}$ is the production cross section for a given particle production scheme. For two colliding bunches, each with a gaussian transverse distribution, the luminosity can be given in a simplified form by
 
 \begin{equation}
 \mathcal{L} = \frac{N_{1} N_{2} f n_{b}}{4 \pi \sigma_{x} \sigma_{y}}
 \end{equation}
 
-where $N_{1/2}$ is the bunch population of beams 1 and 2 respectively, $f$ is the revolution frequency, $n_{b}$ is the number of colliding bunches in the machine and $\sigma_{x/y}$ is the gaussian bunch sigma in the horizontal and vertical planes respectively. Both the bunch populations $N_{1/2}$, the revoution frequency $f$ and the number of bunches $n_{b}$ also contribute towards the DC beam current in the machine $I_{b} = N_{1} f e n_{b}$ where $e$ is the elementary electron charge. As will be seen in Sec.~\ref{sec:beam_induced_heating} the expected power loss due to beam-equipment interactions is proportional to the $I_{b}^{2}$, thus it can be seen that increasing the luminosity will increase the power loss experienced by equipment in a linear to quadratic fashion (the non-quadratic behaviour being due to other effects on the heating mechanism due to the changing beam current, explained more in Sec.~\ref{sec:beam_induced_heating}).
+where $N_{1/2}$ are the bunch populations of beams 1 and 2 respectively, $f$ is the revolution frequency, $n_{b}$ is the number of colliding bunches in the machine and $\sigma_{x/y}$ is the gaussian bunch sigmas in the horizontal and vertical planes respectively. Bunch populations $N_{1/2}$, the revolution frequency $f$ and the number of bunches $n_{b}$ also contribute towards the DC beam current in the machine $I_{b} = N_{1} f e n_{b}$ where $e$ is the elementary electron charge. As will be seen in Sec.~\ref{sec:beam_induced_heating} the expected power loss due to beam-equipment interactions is proportional to the $I_{b}^{2}$, thus it can be seen that increasing the luminosity will increase the power loss experienced by equipment in a linear to quadratic fashion (the non-quadratic behaviour being due to other effects on the heating mechanism due to the changing beam current, explained more in Sec.~\ref{sec:beam_induced_heating}).
 
 \subsection{Integrated Luminosity}
 
-Following from the luminosity, the determinant of the quantity of experimental data is the integrated luminosity $\mathcal{L}_{int}$ is given by
+Following from the peak luminosity, the determinant of the quantity of experimental data is the integrated luminosity $\mathcal{L}_{int}$ is given by
 
 \begin{equation}
 \mathcal{L}_{int} = \int^{T}_{0} \mathcal{L} \left( t \right) dt
 \end{equation}
 
-where $T$ is the integrated collision time and $\mathcal{L} (t)$ is the time varying luminosity (typically decaying exponentially over the lifetime of any given fill of the collider\cite{McCrory:lumiEvo}), varying due to changing beam conditions and bunch populaton depletion due to collisions and particle losses. The integrated luminosity is significant as the number of a given particle production schema observed by the experiments $n_{event}$ is given by
+where $T$ is the integrated collision time and $\mathcal{L} (t)$ is the time varying luminosity (typically decaying exponentially over the lifetime of any given fill of the collider\cite{McCrory:lumiEvo}), varying due to changing beam conditions (emittance growth) and bunch population depletion due to collisions and particle losses. The integrated luminosity is significant as the number of a given particle production schema observed by the experiments $n_{event}$ is given by
 
 \begin{equation}
 n_{event} = \mathcal{L}_{int} \times \sigma_{p}.
 \end{equation}
 
-It can thus be seen that in addition to increasing the luminosity, maximising the available time for collisions is important to maximising data collection. This requires a high level of availability of the machine, minimising failures of key systems and the down time experienced by the machine. In particular, unavoidable waiting periods between fills are to be avoided. As is shown in Chapter~\ref{chap:mki}, long cool down times (on the order of hours, similar in magnitude to the length of the average LHC fill) for equipment that requires a specific maximum temperature to operate correctly are thus unacceptable during ideal operation and should be reduced to a minimum. These and other sources of reduction of the running time and luminosity (due to both beam coupling impedance and other sources of instabilities and interlock trips due to hardware mishaps) must thus be carefully studied and controlled by the technical and operations teams.
+It can thus be seen that in addition to increasing the luminosity, maximising the available time for collisions is important to maximising data collection. This requires a high level of availability of the machine, minimising failures of key systems and the down time experienced by the machine. In particular, unavoidable waiting periods between fills are to be eliminated or reduced. As is shown in Chapter~\ref{chap:mki}, long cool down times (on the order of hours, similar in magnitude to the length of the average LHC fill) for equipment that requires a specific maximum temperature to operate correctly are thus unacceptable during ideal operation and should be reduced to a minimum. These and other sources of reduction of the running time and luminosity (due to both beam coupling impedance and other sources of instabilities and interlock trips due to hardware mishaps) must thus be carefully studied and controlled by the technical and operations teams.
 
 \section{Beam Dynamics}
 \label{sec:BeamDyn}
@@ -63,7 +63,7 @@ To introduce the terms, dynamics and coordinate systems used in later chapters w
 \begin{center}
 \includegraphics[width=0.65\textwidth]{Introduction/figures/betatron-motion.pdf}
 \end{center}
-\caption{An illustration of betatron oscillations around the ideal orbit of a circular accelerator. These oscillation occur in both the horizontal and vertical planes.}
+\caption{An illustration of betatron oscillations around the ideal orbit of a circular accelerator. These oscillations occur in both the horizontal and vertical planes.}
 \label{fig:betatron-motion}
 \end{figure}
 
@@ -73,7 +73,7 @@ The use of charged particles within an accelerator is controlled by the use of b
 \mathbf{F} = q \left( \mathbf{E} + \mathbf{v} \times \mathbf{B} \right)
 \end{equation}
 
-where $q$ is the charge of the particle, $\mathbf{E}$ is the electric field, $\mathbf{B}$ is the magnetic field and $\mathbf{v}$ is the particles velocity. In high energy particle accelerators the magnetic and electric fields are typically seperated in location, with the magnetic fields only having a transverse component, being of the form
+where $q$ is the charge of the particle, $\mathbf{E}$ is the electric field, $\mathbf{B}$ is the magnetic induction (here called the field due to convention) and $\mathbf{v}$ is the particles velocity. In high energy particle accelerators the magnetic and electric fields are typically seperated in location, with the magnetic fields only having a transverse component, being of the form
 
 \begin{equation}
 \mathbf{B} = \mathbf{\hat{x}} B_{x} + \mathbf{\hat{y}} B_{y}
@@ -91,7 +91,7 @@ Subsequently the transverse and longitudinal motion may both be treated independ
 \subsection{Linear Transverse Dynamics}
 \label{sec:linTransMotions}
 
-If we consider a charged particle of mass $m$ and charge $e$ moving with velocity $v$ along the ideal orbit under the effect of the magnetic field $B$ we can see that the Lorentz force ($F_{L} = qvB$) and the centrifugal force ($F_{cen} = \frac{\gamma m v^{2}}{\rho}$) are equivalent, leading to the relation
+If we consider a charged particle of mass $m$ and charge $e$ moving with velocity $v$ along the ideal orbit under the effect of the magnetic field $B$ we can see that the Lorentz force ($F_{L} = qvB$) and the centrifugal force ($F_{cen} = \frac{\gamma m v^{2}}{\rho}$) are equal, leading to the relation
 
 \begin{equation}
 \frac{p}{e} = B \rho
@@ -119,7 +119,7 @@ For the time being we shall consider only small displacements in $x$ and $y$, th
 \frac{B_{y} \left( x \right)}{p/e} &= \frac{1}{\rho} + k x
 \end{align}
 
-where $k = \frac{g}{p/e}$, $g=\frac{2\mu_{0}nI}{r^{2}}$ is the gradient of a quadrupole magnet (a magnet which has a magnetic field strength linearly proportional to displacement), with $n$ being the number of turns on the solenoid, $I$ the current and $r$ the solenoid half-aperture. This indicates that seperation of the function of magnets is valid method of controlling the particles, using dipole and quadrupole fields. Next, to derive the equations of motion we shall consider the equation for radial acceleration $a_{r}$ for a particle undergoing rotational acceleration in the defined coordinate system
+where $k = \frac{g}{p/e}$, $g$ is the gradient of a quadrupole magnet (a magnet which has a magnetic field strength linearly proportional to displacement). This indicates that seperation of the function of magnets is valid method of controlling the particles, using dipole and quadrupole fields. Next, to derive the equations of motion we shall consider the equation for radial acceleration $a_{r}$ for a particle undergoing rotational acceleration in the defined coordinate system
 
 \begin{equation}
 a_{r} = \frac{d^{2}\rho}{dt^{2}} - \rho \left( \frac{d\theta}{dt} \right)^{2}.
@@ -195,7 +195,7 @@ For the vertical plane the equation is the same, except that the focusing term i
 \label{eqn:vert-eqn-motion}
 \end{equation}
 
-It is interesting to note that there is a focusing term due to the dipolar magnet term. Historically this is the weak focusing effect, as opposed to the strong focusing regime of using quadrupole magnets. It can be seen this these equations are simply the equations of motion of a harmonic oscillator with spring constants $K_{x/y}$ given by
+It is interesting to note that there is a focusing term due to the dipolar magnet term. Historically this is the weak focusing effect, as opposed to the strong focusing regime of using quadrupole magnets. It can be seen that these equations are simply the equations of motion of a pseudo-harmonic oscillator with spring constants $K_{x/y}$ given by
 
 \begin{align*}
 K_{x} = \frac{1}{\rho^{2}} - k \\
@@ -214,7 +214,7 @@ For a modern particle accelerator using focusing and defocusing magnets arranged
 x \left( s \right) = \sqrt{\epsilon} \sqrt{\beta \left( s \right) } cos \left( \psi \left( s \right) + \phi \right)
 \end{equation}
 
-where $\epsilon$ and $\phi$ are integration constants determined by the initial conditions, $\beta (s)$ is a periodic function determined by the focusing properties of the lattice. $ \psi (s)$ is the phase advance of the oscillation, again determined by the lattice design parameters. One key important figure acquired from this derivation is the tune (also called the betatron tune) of the accelerator, that is the number of oscillations per turn, given by
+where $\epsilon$ and $\phi$ are integration constants determined by the initial conditions, $\beta (s)$ is a periodic function determined by the focusing properties of the lattice. $ \psi (s)$ is the phase advance of the oscillation, again determined by the lattice design parameters. These parameters define beam parameters, $\epsilon$ being the beam emittance, the preserved quantity in transverse phase space, $\beta$ the betatron function, which is a property of the lattice and determines the physical size of the beam. One key important figure acquired from this derivation is the tune (also called the betatron tune) of the accelerator, that is the number of betatron oscillations per turn, given by
 
 \begin{equation}
 Q = \frac{1}{2\pi} \oint \frac{ds}{\beta \left( s \right)}.
@@ -222,14 +222,14 @@ Q = \frac{1}{2\pi} \oint \frac{ds}{\beta \left( s \right)}.
 
 \subsubsection{Off-Momentum Particles}
 
-During the operation of a particle accelerator there is often have a spread of particle energies due to dynamics in the longitudinal plane \cite{Leduff:LongDyn}. This gives rise to a momentum spread $\Delta p/p$ in the particle momentum. When considered in Eqn.~\ref{eqn:horz-eqn-motion} this gives rise to an inhomogenous differential equation of the form
+During the operation of a particle accelerator there is often have a spread of particle energies due to dynamics in the longitudinal plane \cite{Leduff:LongDyn}. This gives rise to a momentum spread $\Delta p/p$ in the particle momentum, where $\Delta p = p - p_{0}$, $p_{0}$ being the on-path momentum. When considered in Eqn.~\ref{eqn:horz-eqn-motion} this gives rise to an inhomogenous differential equation of the form
 
 \begin{equation}
 \frac{d^{2}x}{dz^{2}} + x \left( \frac{1}{\rho^{2}} - k\right)  = \frac{\Delta p}{p}\frac{1}{\rho}
 \label{eqn:disp-eqn-motion}
 \end{equation}
 
-which leads to a modified solution of the harmonic oscillator equation characterised by the dispersion of the lattice $D(s)$, written as
+which leads to a modified solution of the pseudo-harmonic oscillator equation characterised by the dispersion of the lattice $D(s)$, written as
 
 \begin{equation}
 x \left( s \right) = \sqrt{\epsilon} \sqrt{\beta \left( s \right) } cos \left( \psi \left( s \right) + \phi \right) + \frac{\Delta p}{p} D \left( s \right).
