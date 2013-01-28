@@ -3,16 +3,16 @@
 
 Geometric impedances are characterised by resonant fields at a resonant frequency, typically characterised by some characteristic dimension of the structure. This is typically a characteristic length of a structure (cavity size, antenna length), which may be part of a vacuum tank, or an internal structure to the device exhibiting the resonance. 
 
-As a simple example, consider a cylindrical pillbox cavity of radius $r_{cav}$ and length $L$ connected to a beam pipe of radius $r_{pipe}$ located at the centre of the cavity, as shown in Fig.~\ref{fig:cylin_geo_diagram}. For simplicity we shall assume that the cavity is made from a perfectly conducting materials. It shall be assumed that the fields do not propogate along the attached beam pipe (i.e. for frequencies below cutoff). In this example we shall consider a particle travelling on the axis of the beam pipe, and only the longitudinal wakefunction/impedance will be investigated to simplify matters. Further details can be found in \cite{Wolsky:TheoryEM, Jensen:RFCav, Stupakov:wakeAndImp}. It can be shown that there are two families of resonant modes in in a pillbox cavity, TM-type modes and TE-type modes. The TE-type modes have no longitudinal electrical field by definition, and therefore do not contribute to the longitudinal wakefunction for an on axis particle. In a cylindrical coordinate system using coordinates $(r, \theta, z)$, the longitudinal electrical field of the $n$-th order TM-type modes can be shown to be
+As a simple example, consider a cylindrical pillbox cavity of radius $r_{cav}$ and length $L$ connected to a beam pipe of radius $r_{pipe}$ located at the centre of the cavity, as shown in Fig.~\ref{fig:cylin_geo_diagram}. For simplicity we shall assume that the cavity is made from a perfectly conducting material. It shall be assumed that the fields do not propogate along the attached beam pipe (i.e. for frequencies below beam pipe cutoff). In this example we shall consider a particle travelling on the axis of the beam pipe, and only the longitudinal wakefunction/impedance will be investigated to simplify matters. Further details can be found in \cite{Wolsky:TheoryEM, Jensen:RFCav, Stupakov:wakeAndImp}. It can be shown that there are two families of resonant modes in in a pillbox cavity, TM-type modes and TE-type modes. The TE-type modes have no longitudinal electrical field by definition, and therefore do not contribute to the longitudinal wakefunction for an on axis particle. In a cylindrical coordinate system using coordinates $(r, \theta, z)$, the longitudinal electrical field of the $n$-th order TM-type modes can be shown to be
 
 \begin{equation}
 E_{z,n} = E_{0}J_{n}\left( k_{r} r \right) cos \left( n \theta \right) cos \left( k_{z} z \right) e^{-j \omega t}
 \end{equation}
 
-where $E_{0}$ is the magnitude of the electric field, $J_{n}$ is $n$-th order Bessel function, $k_{z}=n\pi{}/L$, and $n$ is an interger. A wakefunction for each mode subsequently can be defined as $w_{\parallel ,n}\left( \tau \right)$, where the total wakefunction is thus defined as
+where $E_{0}$ is the magnitude of the electric field, $J_{n}$ is $n$-th order Bessel function, $k_{z}=n\pi{}/L$, and $n$ is an interger. A wakefunction for each mode can subsequently be defined as $w_{\parallel ,n}\left(( \mathbf{r}_{1}, \mathbf{r}_{2}, \tau \right)$, where the total wakefunction is thus defined as
 
 \begin{equation}
-w_{\parallel} \left( \mathbf{r}_{1}, \mathbf{r}_{2}, \tau \right) =  \displaystyle\sum\limits_{n = 0}^{\infty} w_{\parallel ,n} \left( \tau \right) = \displaystyle\sum\limits_{n = 0}^{\infty} \int^{\infty}_{-\infty} dz E_{z,n} \left( r, \theta , z \right)
+w_{\parallel} \left( \mathbf{r}_{1}, \mathbf{r}_{2}, \tau \right) =  \displaystyle\sum\limits_{n = 0}^{\infty} w_{\parallel ,n} \left(( \mathbf{r}_{1}, \mathbf{r}_{2}, \tau \right) = \frac{-1}{q_{1}}\displaystyle\sum\limits_{n = 0}^{\infty} \int^{\infty}_{-\infty} dz E_{z,n} \left( r, \theta , z \right)
 \end{equation}
 
 \begin{figure}
@@ -64,7 +64,7 @@ R_{s, n} = \left(  \frac{R_{s, n}}{Q_{n}} \right) Q_{n} = \frac{\left| V_{acc} \
 or an equivalent ratio for power loss in the cavity to acceleration of the particle. From these quality factors is defined a broadband description of the beam coupling impedance at all frequencies due to all modes, given by
 
 \begin{equation}
-Z_{\parallel} \left( \omega \right) = \displaystyle\sum\limits_{n = 0}^{\infty} Z_{\parallel, n} \left( \omega \right) = \displaystyle\sum\limits_{n = 0}^{\infty} \frac{R_{s, n}}{1 - iQ \left( \frac{\omega}{\omega_{0}} - \frac{\omega_{0}}{\omega} \right)}.
+Z_{\parallel} \left( \omega \right) = \displaystyle\sum\limits_{n = 0}^{\infty} Z_{\parallel, n} \left( \omega \right) = \displaystyle\sum\limits_{n = 0}^{\infty} \frac{R_{s, n}}{1 + jQ \left( \frac{\omega}{\omega_{0}} - \frac{\omega_{0}}{\omega} \right)}.
 \end{equation}
 
 A number of examples of this type of impedance are shown in Sec.~\ref{sec:beam_induced_heating}.
