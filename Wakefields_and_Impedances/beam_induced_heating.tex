@@ -8,56 +8,90 @@ To give context to the effects that wakefields have on both the beam and equipme
 \subsubsection{Defining and Deriving Power Loss in Circular Accelerators}
 \label{sec:power_loss}
 
-When a charged particle interacts with an impedance it losses energy to generate the resulting wakefield. This is called the parasitic loss, and is generally defined as \cite{Chao:PhysColEff, Ng:IntDepInstab, }
+When a charged particle interacts with a wakefield it's energy changes due to the field that it sees. Assuming a beam with a longitudinal distribution $\rho (\tau)$, normalised such that $\int d \tau \rho (\tau ) = I_{b}$. Now a normalised longitudinal distribution $\rho_{n}$ is introduced, such that $\rho = N_{b} f_{0} e \int d \tau \rho_{n}$. Thus the energy change of the distribution $\rho$ traversing a pipe for a distance $L$ is given by \cite{Chao:PhysColEff, Ng:IntDepInstab}
 
 \begin{equation}
-\Delta E = -2\pi e^{2}N_{b}\int^{\infty}_{-\infty} d\omega \left| \lambda \left( \omega \right)  \right|^{2} Z_{\parallel} \left( \omega \right)
+\Delta E = - \left( f_{0} e N_{b}\right)^{2} \int^{\infty}_{-\infty} d\tau^{'} \rho_{n} \left( \tau^{'} \right) \int^{\infty}_{-\infty} d\tau^{} \rho_{n} \left( \tau^{} \right) W_{\parallel} \left( \tau^{'} - \tau \right).  
 \end{equation}
 
-where $\Delta E$ is the energy loss per pass per particle, $e$ is the charge per particle, $N_{b}$ is the bunch population, $\omega$ the angular frequency, $\lambda$ the line density of the bunch and $Z_{\parallel}$ the longitudinal impedance of the object being traversed.
-																
-Due to the decay of the wakefields induced by this energy loss, this energy must eventually be lost to the device causing the impedance (valid below the cutoff frequency of the machine beam pipe). Therefore we can assume that the energy loss from the particles is absorbed by the surrounding structure. Summing over all particles in a bunch we can therefore obtain a sum of the energy loss;
+Written in terms of the Fourier transformed quantities this becomes
 
 \begin{equation}
-\Delta E_{bunch} = 2\pi \left( eN_{b}   \right)^{2} \int^{\infty}_{-\infty} d\omega \left| \lambda \left( \omega \right)  \right|^{2} Z_{\parallel} \left( \omega \right)
+\Delta E = \frac{-1}{2\pi}\left( f_{0} e N_{b}\right)^{2} \int^{\infty}_{-\infty} d\omega \left| \lambda \left( \omega \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( \omega \right) \right]
 \end{equation}
 
-As often we must deal with machines storing multiple bunches, for these we simply multiply the energy loss per bunch by the number of stored bunches to acquire the total energy loss per passage;
+where 
 
 \begin{equation}
-\Delta E_{bunches} = 2\pi \left( eN_{b}   \right)^{2}n_{bunch} \int^{\infty}_{-\infty} d\omega \left| \lambda \left( \omega \right)  \right|^{2} Z_{\parallel} \left( \omega \right)
+\lambda \left( \omega \right) = \frac{1}{\sqrt{2 \pi}}\int^{\infty}_{-\infty} d \tau \rho_{n} \left( \tau \right) e^{j\omega \tau}. 
 \end{equation}
 
-where $n_{bunch}$ is the number of bunches in the machine. If we assume a revolution frequency $f_{rev}$ we thus get a power loss of;
-
-\begin{align}
-P_{loss}  = & \Delta E_{bunches} f_{rev}\nonumber \\  
- = & 2\pi f_{rev} \left( eN_{b}   \right)^{2}n_{bunch} \int^{\infty}_{-\infty} d\omega \left| \lambda \left( \omega \right)  \right|^{2} Z_{\parallel} \left( \omega \right) \nonumber  \\ 
- = & 2\pi f_{rev} \left( eN_{b}   \right)^{2}n_{bunch} \int^{\infty}_{-\infty} d\omega \left| \lambda \left( \omega \right)  \right|^{2} Z_{\parallel} \left( \omega \right) \nonumber \\
- = & 2\pi f_{rev} \left( eN_{b}   \right)^{2}n_{bunch} \int^{\infty}_{-\infty} d\omega \left| \lambda \left( \omega \right)  \right|^{2} \left( \Re{}e \left( Z_{\parallel} \left( \omega\right) + \Im{}m Z_{\parallel} \left( \omega\right) \right) \right).
-\end{align}
- 
-As $\Re{}e\left(Z_{\parallel} \left( \omega\right)\right)$ is an even function and $\Im{}m\left(Z_{\parallel} \left( \omega\right)\right)$ is an odd function, we see that
+For a mode expansion representation of the wakefunction as a sum of loss factors, the total energy change can be written as 
 
 \begin{equation}
-P_{loss}   =  \omega_{rev} \left( eN_{b}   \right)^{2}n_{bunch} \int^{\infty}_{0} 2 d\omega \left| \lambda \left( \omega \right)  \right| ^{2}  \Re{}e \left( Z_{\parallel} \left( \omega\right)  \right).
-\label{eqn:power_loss_omega}
+\Delta E = \left( f_{0} e N_{b}\right)^{2} \displaystyle\sum\limits_{n = 0}^{\infty} k_{n} \left| \lambda \left( \omega_{n} \right)  \right|^{2}.
 \end{equation}
 
-Next we make a change of the variable of integration $\omega = n_{bunch}\omega_{rev}$;
+These terms are valid only for a single pass of the beam through the impedance (i.e. for a linear accelerator). In the case where the beam traverse the same impedance multiple times (i.e. a circular accelerator) it is necessary to take into account the wakefields induced by previous traversals. In this case the energy lost by the beam due to traversing the pipe is given by
 
 \begin{equation}
-P_{loss}   =  \omega_{rev} \left( eN_{b}   \right)^{2}n_{bunch}^{2} \int^{\infty}_{0} 2 d\omega_{rev} \left| \lambda \left( \omega_{rev}n_{bunch} \right)  \right|^{2}  \Re{}e \left( Z_{\parallel} \left( \omega_{rev}n_{bunch}\right)  \right).
+\Delta E = - \left( f_{0} e N_{b}\right)^{2} \int^{\infty}_{-\infty} d\tau^{'} \rho_{n} \left( \tau^{'} \right) \int^{\infty}_{-\infty} d\tau^{} \rho_{n} \left( \tau^{} \right) \displaystyle\sum\limits_{q = 0}^{\infty} W_{\parallel, q} \left( q\frac{C}{c} + \tau^{'} - \tau \right)  
+\label{eqn:sum_wake_loss}
 \end{equation}
 
-We can subsequently change to a sum formalism to obtain
+where $C$ is the circumference and $q$ sums over revolutions. In general impedance is the more useful property to use compared to wakefields. Using the Poisson sum formalism and the following identity
 
 \begin{equation}
-P_{loss} = \left( \omega_{rev}eN_{b}n_{bunch}  \right)^{2} \displaystyle\sum\limits_{p = 0}^{\infty} \left( 2 \left| \lambda \left(p \omega_{0} \right)  \right|^{2}  \Re{}e \left( Z_{\parallel} \left(p \omega_{0} \right) \right) \right) 
+\displaystyle\sum\limits_{n = -\infty}^{\infty} F \left( n a \right) = \frac{1}{a} \displaystyle\sum\limits_{p = -\infty}^{\infty} \tilde{F} \left( \frac{2\pi p}{a} \right)
+\end{equation}
+
+where $F(\tau)$ and $\tilde{F}(\omega)$ are arbitary Fourier transformed pairs. This relationsgip shows that summing a function at regular intervals $a$ is equal to summing over its Fourier transformed counterpart at regular intervals $\frac{2 \pi}{a}$. In particular a useful special case is
+
+\begin{equation}
+\displaystyle\sum\limits_{n = -\infty}^{\infty} e^{-j\omega \tau} = 2\pi \displaystyle\sum\limits_{p = -\infty}^{\infty} \delta \left( x - 2\pi p \right).
+\end{equation}
+
+Thus for the total impedance over the accelerator $Z_{\parallel}$ the energy loss is
+
+\begin{equation}
+\Delta E = -\frac{\omega_{0}}{2\pi} \left( f_{0} e N_{b}\right)^{2} \displaystyle\sum\limits_{n = -\infty}^{\infty}  \left| \lambda \left( p \omega_{0} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p \omega_{0} \right) \right].
+\end{equation}
+
+To find the power the power loss of the bunch distribution it is simply necessary to normalise by the revolution frequency. In addition we use the property of the longitudinal impedance that 
+
+\begin{equation}
+\Re{}e \left[ Z_{\parallel} \left( \omega \right) \right] =  \Re{}e \left[ Z_{\parallel} \left( -\omega \right) \right]
+\end{equation}
+
+to give the power lost by a single bunch in a circular accelerator as 
+
+\begin{equation}
+P_{loss, single} = - 2 \left( f_{0} e N_{b}\right)^{2} \displaystyle\sum\limits_{n = -\infty}^{\infty}  \left| \lambda \left( p \omega_{0} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p \omega_{0} \right) \right].
+\label{eqn:power_loss_single_bunch}
+\end{equation}
+
+To consider the case of more than one bunch in a circular machine, it is possible to consider Eqn.~\ref{eqn:sum_wake_loss}, but in this case assume a time difference between the successive summed wakes as $\frac{C}{n_{bunch}c}$, in this case assuming that the bunches are equally space around the machine, giving the energy loss for one bunch in a machine with $n_{bunch}$ is 
+
+\begin{equation}
+\Delta E_{bunches} = - \left( f_{0} e  N_{b}\right)^{2} \int^{\infty}_{-\infty} d\tau^{'} \rho_{n} \left( \tau^{'} \right) \int^{\infty}_{-\infty} d\tau^{} \rho_{n} \left( \tau^{} \right) \displaystyle\sum\limits_{q = 0}^{\infty} W_{\parallel, q} \left( q\frac{C}{n_{bunch}c} + \tau^{'} - \tau \right).  
+\label{eqn:sum_wake_loss_bunches}
+\end{equation}
+
+Following the previous derivation this leads to a power loss due to a single bunch in a train of 
+
+\begin{equation}
+P_{loss, sbt} = - 2 n_{bunch} \left( f_{0} e  N_{b} \right) ^{2} \displaystyle\sum\limits_{n = -\infty}^{\infty}  \left| \lambda \left( p n_{bunch} \omega_{0} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p n_{bunch}\omega_{0} \right) \right].
+\label{eqn:power_loss_train_single_bunch}
+\end{equation}
+
+Subsequently taking the sum over all $n_{bunch}$ produces the total power loss 
+
+\begin{equation}
+P_{loss} = - 2 \left( f_{0} e n_{bunch}  N_{b}\right)^{2} \displaystyle\sum\limits_{n = -\infty}^{\infty}  \left| \lambda \left( p n_{bunch} \omega_{0} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p n_{bunch}\omega_{0} \right) \right].
 \label{eqn:heating-gen}
 \end{equation}
 
-where $\omega_{0} = 2\pi f_{0}$, $f_{0} = \frac{1}{\tau_{b}}$ and $\tau_{b}$ is the bunch spacing.
+If the wakefield effectively decays to zero in less than the distance between two succeeding bunches, then this is simply equivalent to an integral. This indicates that for sharp resonant impedances that last over multiple bunch intervals/turns of the machine, only the sum formalism is valid.
 
 \subsubsection{Longitudinal Beam Profiles}
 
