@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99cThe top-level auxiliary file: thesis.aux
 Case mismatch error between cite keys Stupakov:wakeAndImp and Stupakov:wakeandImp
 ---line 96 of file thesis.aux
  : \citation{Stupakov:wakeAndImp
@@ -22,6 +22,14 @@ I was expecting a `,' or a `}'---line 1072 of file thesisBib.bib
  :       
  :       institution  = "CERN",
 (Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field part---line 1125 of file thesisBib.bib
+ :       title        = 
+ :                      “3rd MKI Strategy Discussion: 20/02/2012 Vacuum, Ferrite, Cooling, Beam Impedance and Pre-Scrubbing”,
+I'm skipping whatever remains of this entry
+You're missing a field part---line 1135 of file thesisBib.bib
+ :       title        = 
+ :                      “ “8th MKI Strategy Meeting”,
 I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
@@ -81,4 +89,4 @@ Warning--empty year in Barnes:mkiElecSurfCer
 Warning--empty booktitle in Bruning:beamParameters
 
 Done.
-(There were 5 error messages)
+(There were 7 error messages)
