@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2011.1.19)  30 JAN 2013 09:33
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2011.1.19)  30 JAN 2013 11:28
 entering extended mode
 **E:/GitHub/Thesis_the_second/thesis.tex
 (E:/GitHub/Thesis_the_second/thesis.tex
@@ -2140,7 +2140,12 @@ File: LHC_MKI/figures/injection-system.png Graphic file (type png)
 Package pdftex.def Info: LHC_MKI/figures/injection-system.png used on input lin
 e 5.
 (pdftex.def)             Requested size: 256.46152pt x 131.78206pt.
- [151
+
+
+LaTeX Warning: Citation `Salvant:spsImpModel' on page 151 undefined on input li
+ne 11.
+
+[151
 
  <E:/GitHub/Thesis_the_second/LHC_MKI/figures/injection-system.png (PNG copy)>]
 
@@ -2160,17 +2165,22 @@ Package pdftex.def Info: LHC_MKI/figures/mki-out-vac-tank.png used on input lin
 e 28.
 (pdftex.def)             Requested size: 227.96046pt x 170.97pt.
 )
-(E:\GitHub\Thesis_the_second\LHC_MKI/observations_during_operation.tex [152]
-[153 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/injection-points-lhc.png (PNG
- copy)> <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-out-vac-tank.png>]
-[154] [155]
+(E:\GitHub\Thesis_the_second\LHC_MKI/observations_during_operation.tex
+Overfull \hbox (11.22397pt too wide) in paragraph at lines 4--5
+\T1/ptm/m/n/12 Concerns about the beam cou-pling impedance of the SPS ex-trac-t
+ion kicker mag-nets (MKEs),
+ []
+
+[152] [153 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/injection-points-lhc.pn
+g (PNG copy)> <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-out-vac-tank.png
+>] [154] [155]
 <LHC_MKI/figures/mkipt2_heating_before_new.png, id=4066, 1234.6125pt x 501.875p
 t>
 File: LHC_MKI/figures/mkipt2_heating_before_new.png Graphic file (type png)
  <use LHC_MKI/figures/mkipt2_heating_before_new.png>
 Package pdftex.def Info: LHC_MKI/figures/mkipt2_heating_before_new.png used on 
 input line 24.
-(pdftex.def)             Requested size: 363.31941pt x 147.69191pt.
+(pdftex.def)             Requested size: 427.43153pt x 173.75203pt.
 
 <LHC_MKI/figures/mkipt8_heating_before_new.png, id=4067, 1234.6125pt x 501.875p
 t>
@@ -2178,11 +2188,21 @@ File: LHC_MKI/figures/mkipt8_heating_before_new.png Graphic file (type png)
  <use LHC_MKI/figures/mkipt8_heating_before_new.png>
 Package pdftex.def Info: LHC_MKI/figures/mkipt8_heating_before_new.png used on 
 input line 28.
-(pdftex.def)             Requested size: 363.31941pt x 147.69191pt.
- [156] [157 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mkipt2_heating_before_
-new.png (PNG copy)> <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mkipt8_heating
-_before_new.png (PNG copy)>] <LHC_MKI/figures/pt100Loc.png, id=4075, 868.74562p
-t x 215.30438pt>
+(pdftex.def)             Requested size: 427.43153pt x 173.75203pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 24--29
+ [] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 24--29
+ [] 
+ []
+
+[156] [157 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mkipt2_heating_before_n
+ew.png (PNG copy)> <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mkipt8_heating_
+before_new.png (PNG copy)>]
+<LHC_MKI/figures/pt100Loc.png, id=4075, 868.74562pt x 215.30438pt>
 File: LHC_MKI/figures/pt100Loc.png Graphic file (type png)
 
 <use LHC_MKI/figures/pt100Loc.png>
@@ -2816,12 +2836,15 @@ Appendix C.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 6306 strings out of 495269
- 139888 string characters out of 3179651
+ 6307 strings out of 495269
+ 139909 string characters out of 3179651
  197050 words of memory out of 3000000
- 9130 multiletter control sequences out of 15000+200000
+ 9131 multiletter control sequences out of 15000+200000
  47940 words of font info for 72 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  28i,13n,24p,2208b,304s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2842,7 +2865,7 @@ e1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/pa
 latino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/times/utmb
 8a.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/times/utmr8a.pfb><C:/
 Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (218 pages, 23381439 bytes).
+Output written on thesis.pdf (218 pages, 23381760 bytes).
 PDF statistics:
  5622 PDF objects out of 6186 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

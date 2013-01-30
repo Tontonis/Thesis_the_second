@@ -82,7 +82,7 @@
 \contentsline {subsection}{\numberline {7.3.2}Impedance Simulations and Results}{141}
 \contentsline {subsection}{\numberline {7.3.3}Beam-Induced Heating}{143}
 \contentsline {subsubsection}{Location of Power Deposition}{148}
-\contentsline {chapter}{\numberline {8}LHC Injection Kicker Magnet}{151}
+\contentsline {chapter}{\numberline {8}LHC Injection Kicker Magnets}{151}
 \contentsline {section}{\numberline {8.1}LHC Injection Kicker Magnets}{152}
 \contentsline {subsection}{\numberline {8.1.1}Development of the LHC-MKI Beam Screen}{152}
 \contentsline {subsection}{\numberline {8.1.2}Observations of heating during 2011 and 2012 until Technical Stop 3}{155}

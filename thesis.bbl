@@ -446,6 +446,12 @@ C.~Belver-Aguilar, A.~Faus-Golfe, M.~J. Barnes, F.~Toral, and I.~Podadera,
   ``Beam impedance study of the stripline kicker for the clic damping ring,''
   CERN, Geneva, Tech. Rep. CERN-ATS-2012-222, Aug 2012.
 
+\bibitem{Salvant:spsImpModel}
+B.~Salvant, N.~Mounet, C.~Zannini, G.~Arduini, O.~Berrig, F.~Caspers,
+  A.~Grudiev, E.~Métral, G.~Rumolo, E.~Shaposhnikova, B.~Zotter,
+  M.~Migliorati, and B.~Spataro, ``Update of the sps impedance model,'' Tech.
+  Rep. CERN-ATS-2010-077, Jun 2010.
+
 \bibitem{Ducimetiere:mkiSpec}
 L.~Ducimetière, N.~Garrel, M.~J. Barnes, and G.~D. Wait, ``The lhc injection
   kicker magnet,'' no. LHC-Project-Report-655. CERN-LHC-Project-Report-655, p.
