@@ -80,9 +80,15 @@ Warning--empty booktitle in Garlasche:2dHeat
 Warning--empty booktitle in Barnes:eFieldMKI
 Warning--empty booktitle in Barnes:emisMKI
 Warning--empty booktitle in Garlasche:2dHeatEmis
+Warning--empty title in Barnes:mkiVacTempCool
+Warning--empty booktitle in Barnes:mkiVacTempCool
+Warning--empty year in Barnes:mkiVacTempCool
 Warning--empty title in Barnes:mkiElec
 Warning--empty booktitle in Barnes:mkiElec
 Warning--empty booktitle in Barnes:emisMKITemp
+Warning--empty title in Barnes:8thStratMeet
+Warning--empty booktitle in Barnes:8thStratMeet
+Warning--empty year in Barnes:8thStratMeet
 Warning--empty title in Barnes:mkiAlt
 Warning--empty booktitle in Barnes:mkiAlt
 Warning--empty booktitle in Barnes:mkiElecSurfCer

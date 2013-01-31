@@ -149,7 +149,7 @@ November 2006\\
   \newpage
   \tableofcontents
   \begin{center}
-    {\it Total word count: 27794}
+    {\it Total word count: 27079}
   \end{center}
   \newpage
   \iftablespage
