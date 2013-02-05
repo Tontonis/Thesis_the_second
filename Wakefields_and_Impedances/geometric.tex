@@ -33,23 +33,23 @@ We can define any given resonance by an equivalent RLC circuit, which is driven 
 \begin{center}
 \includegraphics[width=0.7\textwidth]{Wakefields_and_Impedances/figures/equiv-circuit.pdf}
 \end{center}
-\caption{The equivalent RLC parallel circuit for a cavity resonance, driven by a current $i_{b}$, in this case the beam current}
+\caption{The equivalent RLC parallel circuit for a cavity resonance, driven by a current $i_{b}$, in this case the beam current.}
 \label{fig:rlc_circ}
 \end{figure}
 
 The first parameter to be derived is the resonant frequency of the cavity mode itself $\omega_{0}$. This can be shown (by solving the time varying voltage build up of the circuit in Fig.~\ref{fig:rlc_circ}) to be given by
 
 \begin{equation}
-\omega_{0} = \frac{1}{LC}.
+\omega_{0} = \frac{1}{\sqrt{LC}}.
 \end{equation}
 
-Next we define the quality factor of the cavity mode, $Q_{n}$. This factor describes the damping of the wakefunction in the cavity for a given mode, larger values indicating a longer damping time. In terms of the cavity it is given by
+Next we define the quality factor of the $n$-th cavity mode, $Q_{n}$. This factor describes the damping of the wakefunction in the cavity for a given mode, larger values indicating a longer damping time. In terms of the cavity it is given by
 
 \begin{equation}
 Q_{n} = \frac{\omega_{0} W}{P_{loss}} = \omega_{0}RC
 \end{equation}
 
-where $W = \int_{V} \frac{\epsilon}{2} \left| \mathbf{E} \right|^{2} dV$ is the stored electromagnetic energy in the cavity due to the mode, and $P_{loss}$ is the total losses in the cavity. Commonly the later is dominated by conductive losses on the cavity walls, but as will be seen in later sections, also includes losses due to other mechanisms. The final figures of merit are the $R_{s, n}/Q_{n}$ of the cavity mode, and the shunt impedance $R_{s, n}$ of the mode. $R_{s, n}/Q_{n}$ is given by
+where $W = \int_{V} \frac{\epsilon}{2} \left| \mathbf{E} \right|^{2} dV$ is the stored electromagnetic energy in the cavity due to the mode (sometimes given as $U$), $\epsilon = \epsilon_{r}\epsilon_{0}$ is the permitivitty, $\epsilon_{r}$ the relative permitivitty, $\epsilon_{0}$ the permitivitty of free space and $P_{loss}$ is the total losses in the cavity. Commonly the later is dominated by conductive losses on the cavity walls, but as will be seen in later sections, also includes losses due to other mechanisms. The final figures of merit are the $R_{s, n}/Q_{n}$ of the cavity mode, and the shunt impedance $R_{s, n}$ of the mode. $R_{s, n}/Q_{n}$ is given by
 
 \begin{equation}
 \frac{R_{s, n}}{Q_{n}} = \frac{\left| V_{acc} \right|^{2}}{2 \omega_{0} W}
@@ -64,7 +64,7 @@ R_{s, n} = \left(  \frac{R_{s, n}}{Q_{n}} \right) Q_{n} = \frac{\left| V_{acc} \
 or an equivalent ratio for power loss in the cavity to acceleration of the particle. From these quality factors is defined a broadband description of the beam coupling impedance at all frequencies due to all modes, given by
 
 \begin{equation}
-Z_{\parallel} \left( \omega \right) = \displaystyle\sum\limits_{n = 0}^{\infty} Z_{\parallel, n} \left( \omega \right) = \displaystyle\sum\limits_{n = 0}^{\infty} \frac{R_{s, n}}{1 + jQ \left( \frac{\omega}{\omega_{0}} - \frac{\omega_{0}}{\omega} \right)}.
+Z_{\parallel} \left( \omega \right) = \displaystyle\sum\limits_{n = 0}^{\infty} Z_{\parallel, n} \left( \omega \right) = \displaystyle\sum\limits_{n = 0}^{\infty} \frac{R_{s, n}}{1 - jQ \left( \frac{\omega}{\omega_{0}} - \frac{\omega_{0}}{\omega} \right)}.
 \end{equation}
 
 A number of examples of this type of impedance are shown in Sec.~\ref{sec:beam_induced_heating}.
