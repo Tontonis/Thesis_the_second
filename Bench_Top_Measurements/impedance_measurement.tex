@@ -7,7 +7,7 @@ Due to the sensitivity of the beam coupling impedance to the boundary conditions
 
 For structures that are expected to contain mostly low Q-resonances (i.e. resistive wall impedance) it is appropriate to use the coaxial wire method \cite{Gluckstern:WireMeasImp, Vaccaro:ImprovedWireMeth}, sometimes also called the stretched wire method. This method relies on the similarity of the electromagetic field profile due to an ultrarelativistic charged particle and that of a short electrical pulse sent along a coaxial wire. 
 
-A moving charged particle produces an electromagnetic field in a arc transverse to its direction of motion, where the angle of the arc opening is proportinal to the relativistic factor of the particle $\gamma$. For an ultrarelativistic particle ($\gamma \leftarrow \infty$), the field becomes entirely perpendicular to the direction of motion. If we place a conductive wire along the same path we would expect the charged particle to take (in most cases this is well represented by a straight wire), a short electrical pulse sent along this wire would propogate in the TEM (transverse electrical and magnetic field) mode, producing a field profile similar to that emitted by the ultrarelativistic charged particle (see. Fig. \ref{fig:coax-part-profile})
+A moving charged particle produces an electromagnetic field in na arc transverse to its direction of motion, where the angle of the arc opening is inversely proportinal to the relativistic factor of the particle $\gamma$. For an ultrarelativistic particle ($\gamma \rightarrow \infty$), the field becomes entirely perpendicular to the direction of motion. If we place a conductive wire along the same path we would expect the charged particle to take (in most cases this is well represented by a straight wire), a short electrical pulse sent along this wire would propogate in the TEM (Transverse Electrical and Magnetic field) mode, producing a field profile similar to that emitted by the ultrarelativistic charged particle (see. Fig. \ref{fig:coax-part-profile})
 
 
 \begin{figure}
@@ -22,7 +22,7 @@ A moving charged particle produces an electromagnetic field in a arc transverse 
 
 The classical coaxial wire method, first proposed in it's present form by V. Vaccarro in 1990 \cite{Vaccaro:ImprovedWireMeth}, is a transmission method that measures the complex transmission coefficient of a DUT (Device Under Test) made up of the equipment whose impedance is to be measured and a coaxial wire passing through it. 
 
-The experimental setup is as shown in Fig. \ref{fig:classic-coax}. Firstly the external circuit (i.e. everything not the DUT) is matched to the characteristic impedance of the coaxial line inside the DUT. This is done by measuring the reflection coefficient $\Gamma$ for the setup with only one port connected to the DUT and the other end terminated by an open connection. Knowing the characteristic impedance of the VNA and associated cables (typically $Z_{0} = 50\Omega$), we can easily calculate the characteristic impedance, $Z_{c}$, from the relation,
+The experimental setup is as shown in Fig. \ref{fig:classic-coax}. Firstly the external circuit (i.e. everything not the DUT such as VNA, cables, transition etc.) is matched to the characteristic impedance of the coaxial line inside the DUT. This is done by measuring the reflection coefficient $\Gamma$ for the setup with only one port connected to the DUT and the other end terminated by an open connection. Knowing the characteristic impedance of the VNA and associated cables (typically $Z_{0} = 50\Omega$), we can easily calculate the characteristic impedance, $Z_{c}$, from the relation,
 
 \begin{equation}
 \Gamma = \frac{Z_{c} - Z_{0}}{Z_{c} + Z_{0}}.
@@ -34,7 +34,7 @@ We then electrically match the characteristic impedance by adding resistors in s
 \begin{center}
 \includegraphics[width=0.6\textwidth]{Bench_Top_Measurements/figures/wire_meas_single_wire.pdf}
 \end{center}
-\caption{Experimental setup for a measurement of the beam coupling impedance using the classical coaxial wire method}
+\caption{Experimental setup for a measurement of the beam coupling impedance using the classical coaxial wire method.}
 \label{fig:classic-coax}
 \end{figure} 
 
@@ -49,22 +49,22 @@ We then electrically match the characteristic impedance by adding resistors in s
 The value that we wish to measure to evaluate the beam coupling impedance of a device are the scattering parameters of the resulting circuit, in particular $S_{21}$, the normalised transmission parameter through the DUT. $S_{21}$ is calculated by taking the measured transmission parameter $S_{21,DUT}$ and dividing it by the transmission parameter through a reference line of the same physical length as the DUT,
 
 \begin{equation}
-S_{21} = \frac{S_{21,DUT}}{S_{21,REF}}
+S_{21} = \frac{S_{21,DUT}}{S_{21,REF}}.
 \end{equation}.
 
 The effect of this is to correct the measured phase change in the DUT to be that only caused by the imaginary component of the beam coupling impedance.
 
-There are subsequently a number of ways to evaluate the beam coupling impedance of the DUT depending on it's expected properties. For devices that are expected to have a either a small impedance, or those that are physically very short in length, it is possible to use the so called lumped impedance formula \cite{Hahn:BenchMeasInter, Hahn: ValidityImpMeas};
+There are subsequently a number of ways to evaluate the beam coupling impedance of the DUT depending on it's expected properties. For devices that are expected to have either a small impedance, or those that are physically very short in length, it is possible to use the so called lumped impedance formula \cite{Hahn:BenchMeasInter, Hahn: ValidityImpMeas};
 
 \begin{equation}
-Z = 2Z_{c} \frac{1-S_{21}}{S_{21}}
+Z = 2Z_{c} \frac{1-S_{21}}{S_{21}}.
 \end{equation}.
 
 For distributed impedances, it is suitable to use the so called log formula (called so due to attenuation causing a log function to appear in the evaluation) \cite{Hahn:BenchMeasInter, Hahn: ValidityImpMeas, Jensen:ImprovLogForm},
 
 \begin{equation}
-Z = -2Z_{c} ln \left( S_{21} \right)
-\end{equation}.
+Z = -2Z_{c} ln \left( S_{21} \right).
+\end{equation}
 
 For long components or measurements at very high frequencies there exists the improved log formula. This takes into account more completely the electrical length of the device, given by
 

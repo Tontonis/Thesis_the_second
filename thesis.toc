@@ -43,7 +43,7 @@
 \contentsline {subsection}{\numberline {3.1.2}Synchronous Phase Shift}{75}
 \contentsline {section}{\numberline {3.2}Transverse Beam Impedance Measurements}{76}
 \contentsline {subsection}{\numberline {3.2.1}Tune shift change with bunch intensity}{77}
-\contentsline {subsection}{\numberline {3.2.2}Growth time change with chromaticity}{77}
+\contentsline {subsection}{\numberline {3.2.2}Growth time change with chromaticity}{78}
 \contentsline {chapter}{\numberline {4}Bench Top Measurements of Beam Coupling Impedance}{79}
 \contentsline {section}{\numberline {4.1}Low Q-factor Impedances}{79}
 \contentsline {subsection}{\numberline {4.1.1}Classical Coaxial Wire Method}{80}
