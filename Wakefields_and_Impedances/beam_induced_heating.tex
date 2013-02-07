@@ -104,23 +104,25 @@ If the wakefield effectively decays to zero in less than the distance between tw
 \includegraphics[width=0.45\textwidth]{Wakefields_and_Impedances/figures/beam_spectra_power_gauss_meas_12ns.pdf}
 \label{fig:gauss_meas_time}
 }
-\caption{A comparison of \ref{fig:gauss_meas_freq} a measured beam power spectrum and a gaussian bunch of the same bunch length in the frequency domain and \ref{fig:gauss_meas_time} the resulting time domain beam profile. The gaussian has a bunch length (4$\sigma_{z}$ = 1.2ns). Measured spectrum taken by P. Baundrenghien et al \cite{Baudrenghien:LHCPowSpec}}
+\caption{A comparison of \ref{fig:gauss_meas_freq} a measured beam power spectrum and a Gaussian bunch of the same bunch length in the frequency domain and \ref{fig:gauss_meas_time} the resulting time domain beam profile. The Gaussian has a bunch length (4$\sigma_{z}$ = 1.2ns). Measured spectrum taken by P. Baundrenghien et al \cite{Baudrenghien:LHCPowSpec}.}
 \label{fig:measured_gauss}
 \end{figure}
 
-As shown by the derivations in Section~\ref{sec:power_loss}, asides from the longitudinal impedance of the device under consideration the longitudinal profile of the circulating bunches also contributes to the power loss in the machine. In past works it has generally been assumed that bunches in accelerators have a Gaussian profile \cite{Grudiev:LongTransSecCol} (seen in Eqn.~\ref{eqn:gauss}, where $4\sigma_{z} = t_{b}$, $t_{b}$ is the bunch length) when approaching the analytical treatment of beam instabilities, both single-bunch and multi-bunch. Recent measurements of the power spectrum of particle beams, especially in the LHC \cite{Baudrenghien:LHCPowSpec} have shown characteristics that the Gaussian profile does not predict, for example the high frequency secondary peak as seen in Fig.~\ref{fig:measured_gauss}. To make more realistic predictions of heat loss due to beam impedance in the machine it is thus necessary to find bunch profiles which reproduce this behaviour.
+As shown by the derivations in Section~\ref{sec:power_loss}, asides from the longitudinal impedance of the device under consideration the longitudinal profile of the circulating bunches also contributes to the power loss in the machine. In past works it has generally been assumed that bunches in accelerators have a Gaussian profile \cite{Grudiev:LongTransSecCol}, given by
 
 \begin{equation}
 \lambda \left( t \right) = e^{\frac{-t^{2}}{2\sigma^{2}}}
 \label{eqn:gauss}
 \end{equation}
 
+where $4\sigma_{z} = t_{b}$, $t_{b}$ is the bunch length) when approaching the analytical treatment of beam induced heating, both single-bunch and multi-bunch. Recent measurements of the power spectrum of particle beams, especially in the LHC \cite{Baudrenghien:LHCPowSpec} have shown characteristics that the Gaussian profile does not predict, for example the high frequency secondary peak as seen in Fig.~\ref{fig:measured_gauss}. To make more realistic predictions of heat loss due to beam impedance in the machine it is thus necessary to find bunch profiles which reproduce this behaviour.
+
 A number of different longitudinal bunch profiles have been investigated in the past. Here we shall look at 3 other bunch profiles; a parabolic line density (see Eqn.~\ref{eqn:para_profile}), cos$^{2}$ (see Eqn.~\ref{eqn:cos_profile}) and a water-bag (see Eqn.~\ref{eqn:water_bag_profile}).
 
 \begin{equation}
 A\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\omega t} d\omega = 
 \begin{cases}1-\left( \frac{2t} {t_{b}} \right)^{2} &\textrm{if $| t/2 | \leq t_{b}$}\\
-0								&\textrm{if $| t/2 | > t_{b}$}
+0								&\textrm{if $| t | > t_{b}/2$}
 \end{cases}
 \label{eqn:para_profile}
 \end{equation}
@@ -129,7 +131,7 @@ A\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\o
 A\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\omega t} d\omega = 
 \begin{cases}
 cos^{2}\left( \frac{\pi t} {t_{b}} \right) &\textrm{if $| t/2 | \leq t_{b}$}\\
-0								&\textrm{if $| t/2 | > t_{b}$}
+0								&\textrm{if $| t | > t_{b}/2$}
 \end{cases}
 \label{eqn:cos_profile}
 \end{equation}
@@ -138,9 +140,26 @@ cos^{2}\left( \frac{\pi t} {t_{b}} \right) &\textrm{if $| t/2 | \leq t_{b}$}\\
 A\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\omega t} d\omega = 
 \begin{cases}
 \sqrt{1-\left( \frac{2t}{t_{b}}\right)^{2}} &\textrm{if $| t/2 | \leq t_{b}$}\\
-0								&\textrm{if $| t/2 | > t_{b}$}
+0								&\textrm{if $| t | > t_{b}/2$}
 \end{cases}
 \label{eqn:water_bag_profile}
+\end{equation}
+
+The corresponding frequency domain profiles are given by Eqn.~\ref{eqn:para_profile_freq} for the parabolic profile, Eqn.~\ref{eqn:cos_profile_freq} for the cos$^{2}$ profile, and Eqn.~\ref{eqn:water_bag_profile_freq} for the waterbag profile,
+
+\begin{equation}
+ \lambda \left( f \right) = 
+\label{eqn:para_profile_freq}
+\end{equation}
+
+\begin{equation}
+\lambda \left( f \right)  = \frac{sin \left( \pi f t_{b} \right)}{\pi f t_{b} \left[ 1 - \left( f t_{b} \right) \right]}
+\label{eqn:cos_profile_freq}
+\end{equation}
+
+\begin{equation}
+\lambda \left( f \right) = 
+\label{eqn:water_bag_profile_freq}
 \end{equation}
 
 \begin{figure}
@@ -148,7 +167,7 @@ A\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\o
 \includegraphics[width=0.65\textwidth]{Wakefields_and_Impedances/figures/bunch_profile_12ns.pdf}
 \end{center}
 \label{fig:time_bunch_profiles}
-\caption{The longitudinal bunch profile of a number of bunch distributions. Note that all of these are normalised to have a peak bunch current of 1. For the gaussian distribution the bunch length is the 4$\sigma$ value. The bunch length $\tau_{b} = 1.2ns$}
+\caption{The longitudinal bunch profile of a number of bunch distributions. Note that all of these are normalised to have a peak bunch current of 1. For the Gaussian distribution the bunch length is the 4$\sigma$ value. The bunch length $\tau_{b} = 1.2ns$}
 \end{figure}
 
 \begin{figure}
@@ -164,7 +183,7 @@ A\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\o
 \label{fig:freq_dom_prof}
 \end{figure}
 
-The comparison of these bunch profiles in the time domain are shown in Fig.~\ref{fig:time_bunch_profiles}. Note all bunch currents are normalised to their peak value. The corresponding current and power spectrums are shown in Fig.~\ref{fig:freq_dom_prof}. There are several things to note about these spectra; firstly that the non-infinite distribution of the non-gaussian bunch profiles gives rise to a number of high frequency lobes in the power spectrum, and secondly the interval of these nodes depends heavily on the bunch profile.
+The comparison of these bunch profiles in the time domain are shown in Fig.~\ref{fig:time_bunch_profiles}. Note all bunch currents are normalised to their peak value. The corresponding current and power spectrums are shown in Fig.~\ref{fig:freq_dom_prof}. There are several things to note about these spectra; firstly that the non-infinite distribution of the non-Gaussian bunch profiles gives rise to a number of high frequency lobes in the power spectrum, and secondly the interval of these nodes depends heavily on the bunch profile.
 
 \begin{figure}
 \subfigure[]{
@@ -175,7 +194,7 @@ The comparison of these bunch profiles in the time domain are shown in Fig.~\ref
 \includegraphics[width=0.45\textwidth]{Wakefields_and_Impedances/figures/gaussian_power_spec_diff_lengths.pdf}
 \label{fig:change_len_freq_gauss}
 }
-\caption{\ref{fig:change_len_time_gauss} The longitudinal profile and the \ref{fig:change_len_freq_gauss} associated bunch power spectrum for a number of bunch lengths assuming a gaussian bunch profile.}
+\caption{\ref{fig:change_len_time_gauss} The longitudinal profile and the \ref{fig:change_len_freq_gauss} associated bunch power spectrum for a number of bunch lengths assuming a Gaussian bunch profile.}
 \label{fig:diff_bunch_len_gauss}
 \end{figure}
 
@@ -192,7 +211,7 @@ The comparison of these bunch profiles in the time domain are shown in Fig.~\ref
 \label{fig:diff_bunch_len_para}
 \end{figure}
 
-To illustrate more clearly the effect of changing the bunch length on the power spectrum, a number of bunch profiles and the corresponding power spectra with different bunch lengths are shown in Fig~\ref{fig:diff_bunch_len_gauss}. Firstly, consider a gaussian bunch profile. It can be seen in Fig.~\ref{fig:diff_bunch_len_gauss} that by increasing the bunch length that the magnitude at high frequencies is decreased quite substantially. If we consider a finite bunch profile (non-gaussian), we note that we have high frequency lobes. The peak frequency of these lobes depends on the bunch length, as illustrated using a parabolic bunch profile for bunch lengths $\tau_{b} = 1ns, 1.2ns, 1.4ns$ in Fig.~\ref{fig:diff_bunch_len_para}. As the bunch length is increased the lobes move to lower frequencies, and the width of the first branch decreases. Similar behaviour is observed with the cos$^{2}$ and water-bag bunch profiles.
+To illustrate more clearly the effect of changing the bunch length on the power spectrum, a number of bunch profiles and the corresponding power spectra with different bunch lengths are shown in Fig~\ref{fig:diff_bunch_len_gauss}. Firstly, consider a Gaussian bunch profile. It can be seen in Fig.~\ref{fig:diff_bunch_len_gauss} that by increasing the bunch length that the magnitude at high frequencies is decreased quite substantially. If we consider a finite bunch profile (non-Gaussian), we note that we have high frequency lobes. The peak frequency of these lobes depends on the bunch length, as illustrated using a parabolic bunch profile for bunch lengths $\tau_{b} = 1ns, 1.2ns, 1.4ns$ in Fig.~\ref{fig:diff_bunch_len_para}. As the bunch length is increased the lobes move to lower frequencies, and the width of the first branch decreases. Similar behaviour is observed with the cos$^{2}$ and water-bag bunch profiles.
 
 \begin{figure}
 \begin{center}
@@ -233,7 +252,7 @@ Further investigation of the longitudinal beam spectrum reveals that there is si
 
 \subsubsection{Beam induced heating due to a high Q impedance}
 
-In contrast to the overlap of the beam spectrum with a low Q impedance, for a high Q impedance only one beam harmonic lies upon the resulting impedance to any significant quantity. This is illustrated in Fig~\ref{fig:high_q_harmonics} If we consider Eqn \ref{eqn:heating-gen} and consider the situation where
+In contrast to the overlap of the beam spectrum with a low Q impedance, for a high Q impedance only one beam harmonic lies upon the resulting impedance to any significant quantity. This is illustrated in Fig~\ref{fig:high_q_harmonics}. If we consider Eqn \ref{eqn:heating-gen} and consider the situation where
 
 \begin{equation}
 \left( 2 \left| \lambda \left(p \omega_{rev}n_{bunch} \right)  \right|^{2}  \Re{}e \left( Z_{\parallel} \left(p \omega_{rev}n_{bunch}\right) \right) \right) = 
@@ -248,7 +267,7 @@ In contrast to the overlap of the beam spectrum with a low Q impedance, for a hi
 \begin{center}
 \includegraphics[width=0.65\textwidth]{Wakefields_and_Impedances/figures/high_q_1000_resonance_beam_harmonics.pdf}
 \end{center}
-\caption{The beam harmonics of a beam with a bunch spacing of 25ns overlayed on the real component of the longitudinal impedance an example of a high Q impedance ($R_{s}=10\omega$, Q = 1000, $f_{res}=1GHz$). The blue lines represent the frequency of a beam harmonic, not necessarily the magnitude of the power spectrum at that point. Note that only a single beam harmonic overlays a non-zero impedance values.}
+\caption{The beam harmonics of a beam with a bunch spacing of 25ns overlayed on the real component of the longitudinal impedance of a sample of a high Q impedance ($R_{s}=10\Omega$, Q = 1000, $f_{res}=1GHz$). The blue lines represent the frequency of a beam harmonic, not necessarily the magnitude of the power spectrum at that point. Note that only a single beam harmonic overlays a non-zero impedance values.}
 \label{fig:high_q_harmonics}
 \end{figure}
 
@@ -274,7 +293,7 @@ In this section we shall illustrate some important factors that have been covere
 
 As can be seen in Figs.~\ref{fig:freq_dom_prof} and Fig~\ref{fig:diff_bunch_len_para}, the bunch profile and the bunch length can significantly alter the magnitude of the beam current at higher frequencies. To illustrate this, let us consider two resonant impedances, one broadband $Z_{bb}$ and one narrow band $Z_{nb}$ impedance, characterised by having a low-$Q$ and a high-$Q$ respectively. Both impedances shall have the same resonant shunt impedance $R_{s} = 100\Omega$. The broadband impedance shall have a $Q_{bb}=1$, and the narrow band impedance $Q_{nb}=1000$. The resonant frequency will be changed to illustrate effects in different regimes of the bunch length and of different bunch profiles.
 
-We shall use the gaussian bunch profile and the $cos^{2}$ bunch profile for these examples. The gaussian is useful to illustrate the effect of just changing the bunch length, and the $cos^{2}$ due to the presence of a high frequency lobe in it's frequency domain current spectrum. The $cos^{2}$ frequency domain current profile is given by
+We shall use the Gaussian bunch profile and the $cos^{2}$ bunch profile for these examples. The Gaussian is useful to illustrate the effect of just changing the bunch length, and the $cos^{2}$ due to the presence of a high frequency lobe in it's frequency domain current spectrum. The $cos^{2}$ frequency domain current profile is given by
 
 \begin{equation}
 I \left( \omega \right) = \frac{sin \left( \omega \tau_{b}/2 \right)}{ \omega \tau_{b}/2 \left[ 1 - \left(  \omega \tau_{b}/2 \right)^{2}  \right]}.
@@ -284,13 +303,13 @@ I \left( \omega \right) = \frac{sin \left( \omega \tau_{b}/2 \right)}{ \omega \t
 \begin{center}
 \includegraphics[width=0.8\textwidth]{Wakefields_and_Impedances/figures/heating_narrowband_gauss_bunch_length.pdf}
 \end{center}
-\caption{The change in power loss due to a narrow band resonance characterised by $\omega_{0} = 2GHz$, $R_{s} = 100\Omega$, $Q = 1000$ with a gaussian bunch distrbution of different lengths.}
+\caption{The change in power loss due to a narrow band resonance characterised by $\omega_{0} = 2GHz$, $R_{s} = 100\Omega$, $Q = 1000$ with a Gaussian bunch distrbution of different lengths.}
 \label{fig:bunch_length_heat_narrow}
 \end{figure}
 
 First we shall consider a narrow band impedance which has a resonant frequency $\omega_{0} =2GHz$ which falls upon a beam harmonic such that $\omega_{0}=n\omega_{rev}$, where $n$ is an integer. It should be noted that for other cases the contribution of these sources of heating is negligible due to the small beam current at this frequency. There are two extreme cases; that of  $\omega_{0} \gg 1/\tau_{b}$, in which it can be seen that the current spectrum will be negligible at the frequency of the impedance, and $\omega_{0} \ll 1/\tau_{b}$ where the beam current spectrum is essentially the same as the DC spectral component. The transition in this intervening regime is shown in Fig~\ref{fig:bunch_length_heat_narrow}, assuming a bunch current of 1A. It can be seen that in this case the heating falls drastically as the bunch length increases.
 
-If we instead consider a cos$^{2}$ distribution we instead see the effect of the secondary lobes in the beam current spectrum. The power loss with bunch length is shown in Fig.~\ref{fig:bunch_length_heat_narrow} in comparison to that of the gaussian profile. The beam power spectrum for a number of different bunch lengths are shown with the real component of the longitudinal impedance in Fig.~\ref{fig:imp_profile_cos}. Here it can be clearly seen that the intersection of the secondary lobe with the resonant impedance causes a peak in the power lost by the beam, highlighting the neccessity to be aware of the frequencies of resonant impedances with relation to the beam harmonics.
+If we instead consider a cos$^{2}$ distribution we instead see the effect of the secondary lobes in the beam current spectrum. The power loss with bunch length is shown in Fig.~\ref{fig:bunch_length_heat_narrow} in comparison to that of the Gaussian profile. The beam power spectrum for a number of different bunch lengths are shown with the real component of the longitudinal impedance in Fig.~\ref{fig:imp_profile_cos}. Here it can be clearly seen that the intersection of the secondary lobe with the resonant impedance causes a peak in the power lost by the beam, highlighting the neccessity to be aware of the frequencies of resonant impedances with relation to the beam harmonics.
 
 
 \begin{figure}

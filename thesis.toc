@@ -27,8 +27,8 @@
 \contentsline {subsection}{\numberline {2.3.1}Beam Induced Heating}{53}
 \contentsline {subsubsection}{Defining and Deriving Power Loss in Circular Accelerators}{53}
 \contentsline {subsubsection}{Longitudinal Beam Profiles}{55}
-\contentsline {subsubsection}{Beam induced heating due to a low Q impedance}{59}
-\contentsline {subsubsection}{Beam induced heating due to a high Q impedance}{60}
+\contentsline {subsubsection}{Beam induced heating due to a low Q impedance}{60}
+\contentsline {subsubsection}{Beam induced heating due to a high Q impedance}{61}
 \contentsline {subsubsection}{Some Examples of the Beam-Induced Heating}{62}
 \contentsline {subsubsection}{The Effect of Bunch Length on Power Loss}{62}
 \contentsline {subsubsection}{Beam-Induced Heating due to two traversing beams}{65}
