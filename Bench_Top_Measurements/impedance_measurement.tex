@@ -60,7 +60,7 @@ There are subsequently a number of ways to evaluate the beam coupling impedance 
 Z = 2Z_{c} \frac{1-S_{21}}{S_{21}}.
 \end{equation}.
 
-For distributed impedances, it is suitable to use the so called log formula (called so due to attenuation causing a log function to appear in the evaluation) \cite{Hahn:BenchMeasInter, Hahn: ValidityImpMeas, Jensen:ImprovLogForm},
+For distributed impedances, it is suitable to use the so called log formula (called so due to the exponential attenuation of the signal causing a log function to appear in the evaluation) \cite{Hahn:BenchMeasInter, Hahn: ValidityImpMeas, Jensen:ImprovLogForm},
 
 \begin{equation}
 Z = -2Z_{c} ln \left( S_{21} \right).
@@ -97,7 +97,7 @@ k = \frac{\left| S_{21} \right|}{1 - \left| S_{21} \right| }.
 \label{eqn:coupling_coeff}
 \end{equation}
 
-The difference between the unloaded $Q$-factor, $Q_{0}$ , and the loaded $Q$-factor, $Q_{L}$, is a function of $k$. We can get an approximate correction by using the formula
+The difference between the unloaded $Q$-factor, $Q_{0}$ , and the loaded $Q$-factor, $Q_{L}$, is a function of $k$. The loaded Q is the Q of the DUT resonance coupled with the measurement circuitry, and the unloaded Q the Q of the DUT resonance in isolation. We can get an approximate correction by using the formula
 
 \begin{equation}
 Q_{0} = Q_{L} \left( 1 + k  \right).
@@ -129,13 +129,13 @@ where $\rho_{w}$ is the wire resistivity, $\epsilon$ the permitivitty, $f$ the f
 \begin{center}
 \includegraphics[width=0.6\textwidth]{Bench_Top_Measurements/figures/coax-resonator.png}
 \end{center}
-\caption{An example of the resonance pattern seen whilst performing measurements using the resonant method. Each peak corresponds to one data point in the final measurements. Taken from measurements of the LHC injection kicker magnets}
+\caption{An example of the resonance pattern seen whilst performing measurements using the resonant method. Each peak corresponds to one data point in the final measurements. Taken from measurements of the LHC injection kicker magnets.}
 \label{fig:res-resonancce-examples}
 \end{figure}
 
-It is more involved too calculate the imaginary impedance using the resonant method. In particular it is necessary to calculate the resonant frequencies of a pipe open at both ends of the same length of the DUT made of a good conducting material (i.e. the physical length is equal to the electrical length). This allows the comparison to the measured resonant frequencies of the DUT, the difference between which is dependent on the imaginary impedance.
+It is more involved to calculate the imaginary impedance using the resonant method. In particular it is necessary to calculate the resonant frequencies of a pipe open at both ends of the same length of the DUT made of a good conducting material (i.e. the physical length is equal to the electrical length). This allows the comparison to the measured resonant frequencies of the DUT, the difference between which is dependent on the imaginary impedance.
 
-If we consider the complex impedance of the two measurements, $Z_{DUT}$ for the DUT and $Z_{REF}$ for a perfectly conducting reference pipe, we can simplify them as
+Considering the complex impedance of the two measurements, $Z_{DUT}$ for the DUT and $Z_{REF}$ for a perfectly conducting reference pipe, they can be written as
 
 \begin{align}
 Z_{DUT} & =  R + jX_{1}  =  Z_{1}e^{j \phi} \\
@@ -165,7 +165,7 @@ where $R = \Re e(Z)$.
 
 \subsection{Transverse Impedance Measurements}
 
-The above methods give a general impression of how to carry out coaxial wire measurements of the impedance of accelerator components. Directly applied as described they allow the measurement of the longitudinal impedance of a DUT. However, from a beam stability point of view, it is often more interesting to look at the transverse imedance of a device. In particular it would be useful to have a method of determining the vertical/horizontal dipolar (or driving) impedance and the vertical/horizontal quadrupolar (detuning) impedance of any device. In this section we describe how do this for structures with top/bottom, left/right symmetry and then generalise to asymmetric structures, with illustration from simple examples evaluated using simulations.
+The above methods give a general impression of how to carry out coaxial wire measurements of the impedance of accelerator components. Directly applied as described they allow the measurement of the longitudinal impedance of a DUT. However, from a beam stability point of view, it is also interesting to look at the transverse impedance of a device. In particular it would be useful to have a method of determining the vertical/horizontal dipolar (or driving) impedance and the vertical/horizontal quadrupolar (detuning) impedance of any device. In this section we describe how to do this for structures with top/bottom, left/right symmetry and then generalise to asymmetric structures, with illustration from simple examples evaluated using simulations.
 
 To allow a complete explanation of how to verify the methods of measuring transverse impedances, let us first consider the general form of the $m$-th order ($m = 0, 1, 2,...$) longitudinal beam coupling impedance, given by \cite{Chao:PhysColEff, Tsutsui:OnSingleWire}
 
@@ -209,7 +209,7 @@ From here we use the principle of superposition for electromagnetic fields (i.e.
 \bar{Z}_{m} &= Z_{m,m} + Z_{m,-m} + Z_{-m,m} + Z_{-m,-m}, m=1,2,...
 \end{align}
 
-From this start we will apply this two both two wire measurements and to displaced single wire measurements.
+From this start we will apply this to both two wire measurements and to displaced single wire measurements.
 
 \subsubsection{Two Wire Measurements}
 
@@ -254,7 +254,7 @@ where $\Delta = 2a$ and $Z$ is the measured complex impedance.
 
 \subsubsection{Structures with Top/Bottom, Left/Right Symmetry}
 
-If we consider a source particle at at $x_{1} = a_{1}cos\theta_{1}, y_{1} = a_{1}sin\theta_{1}$ and a test particle at $x_{2} = a_{2}cos\theta_{2}, y_{2} = a_{2}sin\theta_{2}$, the source current density is
+If we consider a source particle at $x_{1} = a_{1}cos\theta_{1}, y_{1} = a_{1}sin\theta_{1}$ and a test particle at $x_{2} = a_{2}cos\theta_{2}, y_{2} = a_{2}sin\theta_{2}$, the source current density is
 
 \begin{align}
 J_{z} &= I\delta \left( x-x_{1} \right) \delta \left( y-y_{1} \right) exp \left( k \left( \omega t - kz \right) \right) \nonumber \\
@@ -274,7 +274,7 @@ Z = &\frac{-1}{I^{2}} \int dV \left( \displaystyle\sum\limits^{\infty}_{m=-\inft
 \label{eqn:gen_imp}
 \end{align}
 
-By applying Panofsky-Wenzel we see
+By applying Panofsky-Wenzel we see that
 
 \begin{align}
 kZ_{x} =\frac{\partial Z}{\partial x_{2}} = & Z_{0,1} + Z_{0,-1} + \left( x_{1} - jy_{1} \right) Z_{1,-1} + 2\left( x_{2} - jy_{2} \right) Z_{0,-2} \nonumber \\
@@ -328,11 +328,11 @@ Z &=&Z_{0,0} +  \left( x_{0} - jy_{0} \right) Z_{1,0} + \left( x_{0} + jy_{0} \r
 It can then be seen that if measurements are made with $x_{0} = 0$ and taking different values of $y_{0}$ that one obtains data with a parabolic fit in the $y_{0}$ axis. By fitting a curve to this we obtain constant (equal to the longitudinal impedance), linear and quadratic terms. Doing the same for $y_{0}=0$ allows us to derive two quadratic terms
 
 \begin{align}
-Z^{\perp}_{x} & = \left( \bar{Z}_{x} + kZ_{quad} \right)\frac{1}{k} =  Z^{dip}_{x} + kZ_{quad}\\
-Z^{\perp}_{y} & = \left( \bar{Z}_{y} - kZ_{quad} \right)\frac{1}{k}= Z^{dip}_{y} - kZ_{quad} \\
+Z^{\perp}_{x} & = \left( \bar{Z}_{x} + kZ_{quad} \right)\frac{1}{k} =  Z^{dip}_{x} + Z_{quad}\\
+Z^{\perp}_{y} & = \left( \bar{Z}_{y} - kZ_{quad} \right)\frac{1}{k}= Z^{dip}_{y} - Z_{quad} \\
 \end{align}
 
-where $Z_{quad}=\frac{1}{k}\left( Z_{0,2}+Z_{2,0}+Z_{0,-2}+Z_{-2,0}  \right) = \frac{2}{k}\left( Z_{0,2}+Z_{0,-2}  \right)$, representing the impedance due to the displacement of the test particle in an accelerator. As we can measure $\bar{Z}_{x/y}$ independently using the two wire method we can thus indepedently measure $Z_{quad}$ using a displaced single wire scan in both the x- and y-planes.
+where $Z_{quad}=\frac{1}{k}\left( Z_{0,2}+Z_{2,0}+Z_{0,-2}+Z_{-2,0}  \right) = \frac{2}{k}\left( Z_{0,2}+Z_{0,-2}  \right)$ (shown in the case of 2D structures externally bounded by a perfectly conducting boundary in \cite{Tsutsui:OnSingleWire}), representing the impedance due to the displacement of the test particle in an accelerator. As we can measure $\bar{Z}_{x/y}$ independently using the two wire method we can thus indepedently measure $Z_{quad}$ using a displaced single wire scan in both the x- and y-planes.
 
 It can also be seen that
 
@@ -355,7 +355,7 @@ Z &=Z_{0,0} +a\left[ cos\theta \left( Z_{-1,0} + Z_{0,1} \right) +jsin\theta \le
    &+ a^{2}\left[sin^{2} \left( Z_{-2,0} + Z_{0,2} +Z_{-1,1}  \right) \right].
 \end{align}
 
-Grouping like terms this becomes
+Grouping terms by order of depedence on $a$ and $\theta$ this becomes
 \begin{align}
 Z   &=Z_{0,0} + a\left[ e^{-j\theta}\left( Z_{-1,0} + Z_{0,1} \right) +  e^{j\theta}\left( Z_{1,0} + Z_{-0,1} \right)\right] \nonumber \\
      &+a^{2}\left[ \left( Z_{1,1} + Z_{-1,-1} \right) + e^{-2j\theta} \left(  Z_{2,0} + Z_{0,-2} +Z_{1,-1} \right) + e^{2j\theta} \left( Z_{-2,0} + Z_{0,2} +Z_{-1,1} \right) \right] \nonumber \\
@@ -381,13 +381,13 @@ The constant impedance can also be seen to be found by taking a linear fit of th
 
 \subsection{Measurements on Example Geometries}
 
-In this section shall be presented a number of example analyses of coaxial wire measurements done on geometries exhibiting top/bottom, left/right symmetry and an asymmetric structure. This permits a step-by-step guide to analysis of the wire measurements, which may not be immediately clear from the mathematical introduction. These simulations are carried out using both Ansoft HFSS and Maxwell using a driven modal solution. 
+In this section shall be presented a number of example analyses of coaxial wire measurements done on geometries exhibiting top/bottom, left/right symmetry and an asymmetric structure. This permits a step-by-step guide to analysis of the wire measurements, which may not be immediately clear from the mathematical introduction. These simulations are carried out using both Ansoft HFSS\cite{hfss} and Maxwell\cite{maxwell} using a driven modal solution. 
 
-The simulations with HFSS are carried out in the following manner: the measurement system is simulated by placing waveguide ports at either end of the geometry with a conducting cylinder placed as the inner conductor of the coaxial system. The transmission parameters are then acquired as a result of the simulations. The wire may then be displaced as neccessary for the displaced single wire measurements. For two wire measurements a quarter geometry may be simulated, using suitable boundary conditions on the quarter geometry.
+The simulations with HFSS are carried out in the following manner: the measurement system is simulated by placing waveguide ports at either end of the geometry with a conducting cylinder placed as the inner conductor of the coaxial system. The transmission parameters are then acquired as a result of the simulations. The wire may then be displaced as neccessary for the displaced single wire measurements. For two wire measurements a quarter geometry may be simulated, using a quarter geometry with a perfect H boundary in the plane of the wires, and a perfect E boundary between the wires to enforce the dipolar field pattern.
 
 Maxwell is a frequency domain code optimised for low frequencies (less thans 10s of MHz). It does not permit the use of waveguide ports, however it does allow the definition of current segments with phase changes between them. By considering the current (either a single current segment to simulate a single wire, or two current carrying segments 180$^{\circ}$ out of phase for two wires) to be the equivalent of a beam current, and assuming the inclusion of the current carrying component is a negligible perturbation to the geometry, the impedance can be found by summing the power loss in the system. This can be seen to be equivalent to the beam induced heating experienced by a beam interacting with an impedance.
 
-This can be thought of by comparing the system to a homogenous transmission line \cite{Kroyer:lowFreqColImp}. The power $P$ of a wave travelling along the line is given by 
+This can be thought of by comparing the system to a homogenous transmission line. The power $P$ of a wave travelling along the line is given by \cite{Kroyer:lowFreqColImp}
 
 \begin{equation}
 P = P_{0}e^{-2\alpha z}
@@ -425,7 +425,7 @@ Z_{dip} = \frac{c}{\omega \Delta^{2}} \frac{2 \delta P}{I_{0}^{2}}.
 
 \subsubsection{Structure with Top/Bottom, Left/Rght Symmetry}
 
-For the structure exhibiting top/bottom, left/right symmetry we use the Tsutsui model of two parallel plates as shown in Fig.~\ref{fig:tsutsui-model}. We use this due to the model allowing the prediction of the longitudinal, dipolar and quadrupolar impedances for a wide variety of materials and frequency ranges \cite{Tsutsui:ferrKickLong,Tsutsui:DipoleKicker, Salvant:QuadKicker}. For these simulations a short segment of a Tsutsui geometry is simulated using two different materials, in this case graphite, to represent a structure with a poor conductivity ($\sigma_{graphite} = 7 \times 10^{4} S m^{-1}$), and 4A4 ferrite, to represent a magnetically lossy material (in this case, $\epsilon_{r} = 10$, $\sigma_{4A4} = 10^{-6} S m^{-1}$ (a mild conductivity is applied to prevent static build up in ferrite components in accelerators), and $\mu_{r} = \mu^{'} + j \mu^{"}$, shown in Fig.~\ref{fig:4a4permeability}.). In both cases the following dimensions are used: $a=25mm$, $b=5mm$, $d=5mm$. A structure 150mm in length is used to reduce numerical noise due to the small losses given by the short length of the simulated DUT.
+For the structure exhibiting top/bottom, left/right symmetry we use the Tsutsui model of two parallel plates as shown in Fig.~\ref{fig:tsutsui-model}. We use this due to the model allowing the prediction of the longitudinal, dipolar and quadrupolar impedances for a wide variety of materials and frequency ranges \cite{Tsutsui:ferrKickLong,Tsutsui:DipoleKicker, Salvant:QuadKicker}. For these simulations a short segment of a Tsutsui geometry is simulated using two different materials, in this case graphite, to represent a structure with a poor conductivity ($\sigma_{graphite} = 7 \times 10^{4} S m^{-1}$), and 4A4 ferrite, to represent a magnetically lossy material (in this case, $\epsilon_{r} = 10$, $\sigma_{4A4} = 10^{-6} S m^{-1}$ (a mild conductivity is applied to prevent static build up in ferrite components in accelerators), and $\mu_{r} = \mu^{'} + j \mu^{"}$, shown in Fig.~\ref{fig:4a4permeability}.). In both cases the following dimensions are used: $a=25mm$, $b=5mm$, $d=5mm$. A structure of 150mm in length is used to reduce numerical noise due to the small losses given by the short length of the simulated DUT.
 
 \begin{figure}
 \subfigure[]{
@@ -436,7 +436,7 @@ For the structure exhibiting top/bottom, left/right symmetry we use the Tsutsui 
 \includegraphics[width=0.45\textwidth]{Bench_Top_Measurements/figures/zannini-model-geo.pdf}
 \label{fig:zannini-model}
 }
-\caption{The geometries used for coaxial wire measurement simulations. For the geometry with top/bottom, left/right symmetry we use the Tsutsui model (\ref{fig:tsutsui-model}) using two parallel plates. For the asymmetric structure we use the Zannini-model for a c-core ferrite kicker magnet (\ref{fig:zannini-model}), which generates a constant term and a noticeable asymmetric term.}
+\caption{The geometries used for coaxial wire measurement simulations. For the geometry with top/bottom, left/right symmetry we use the Tsutsui model (\ref{fig:tsutsui-model}) using two parallel plates. For the asymmetric structure we use the Zannini-model for a C-core ferrite kicker magnet (\ref{fig:zannini-model}), which generates a constant term and a noticeable asymmetric term.}
 \label{fig:wire-measure-geometries}
 \end{figure}
 
@@ -468,10 +468,10 @@ For the simulations of two parallel ferrite plates the following parameters were
 For the two wire simulations, two wires of radius 0.3mm are used, with a seperation of 4mm in the x-dimension, and 3mm in the y-dimension. 4 simulation configurations are used described below:
 
 \begin{enumerate}
-\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 20MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10MHz at 1MHz intervals.}
-\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 200MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 10-100MHz at 10MHz intervals.}
-\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 2GHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 100MHz-1GHz at 100MHz intervals.}
-\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 10GHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10GHz at 1GHz intervals.}
+\item{an adaptive mesh generation set to a convergence criterion of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 20MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10MHz at 1MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criterion of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 200MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 10-100MHz at 10MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criterion of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 2GHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 100MHz-1GHz at 100MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criterion of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 10GHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10GHz at 1GHz intervals.}
 \end{enumerate}
 
 These parameters are used to benefit from an appropriate mesh count for the given frequency range, thus increasing simulation speed by not using a high density mesh at frequencies where no benefits would be gained.
@@ -485,7 +485,7 @@ These parameters are used to benefit from an appropriate mesh count for the give
 \includegraphics[width=0.5\textwidth]{Bench_Top_Measurements/figures/wire_meas/ferrite_plates/longitudinal-vertical.pdf}
 \label{fig:ferrite-plates-long-vert}
 }
-\caption{The longitudinal impedance of two parallel ferrite plates simulated using a longitudinal coaxial wire. Presented are is the impedance as measured in the horizontal plane (\ref{fig:ferrite-plates-long-horz}) and in the vertical plane \ref{fig:ferrite-plates-long-vert}.}
+\caption{The longitudinal impedance of two parallel ferrite plates simulated using a longitudinal coaxial wire. Presented is the impedance as measured in the horizontal plane (\ref{fig:ferrite-plates-long-horz}) and in the vertical plane \ref{fig:ferrite-plates-long-vert}.}
 \label{fig:ferrite-plates-long}
 \end{figure}
 
@@ -498,7 +498,7 @@ These parameters are used to benefit from an appropriate mesh count for the give
 \includegraphics[width=0.5\textwidth]{Bench_Top_Measurements/figures/wire_meas/ferrite_plates/dipolar-vertical.pdf}
 \label{fig:ferrite-plates-dip-vert}
 }
-\caption{The dipolar impedance of two parallel ferrite plates simulated using two longitudinal coaxial wires. Presented are is the impedance as measured in the horizontal plane (\ref{fig:ferrite-plates-dip-horz}) and in the vertical plane \ref{fig:ferrite-plates-dip-vert}.}
+\caption{The dipolar impedance of two parallel ferrite plates simulated using two longitudinal coaxial wires. Presented are the impedances as measured in the horizontal plane (\ref{fig:ferrite-plates-dip-horz}) and in the vertical plane \ref{fig:ferrite-plates-dip-vert}.}
 \label{fig:ferrite-plates-dipolar}
 \end{figure}
 
@@ -511,7 +511,7 @@ These parameters are used to benefit from an appropriate mesh count for the give
 \includegraphics[width=0.5\textwidth]{Bench_Top_Measurements/figures/wire_meas/ferrite_plates/quadrupolar-vertical.pdf}
 \label{fig:ferrite-plates-quad-vert}
 }
-\caption{The quadrupolar impedance of two parallel ferrite plates simulated using a combination of displaced single wire simulated measurements and two wire simulated mesurements. Presented are is the impedance as measured in the horizontal plane (\ref{fig:ferrite-plates-quad-horz}) and in the vertical plane \ref{fig:ferrite-plates-quad-vert}.}
+\caption{The quadrupolar impedance of two parallel ferrite plates simulated using a combination of displaced single wire simulated measurements and two wire simulated mesurements. Presented is the impedance as measured in the horizontal plane (\ref{fig:ferrite-plates-quad-horz}) and in the vertical plane \ref{fig:ferrite-plates-quad-vert}.}
 \label{fig:ferrite-plates-quadrupolar}
 \end{figure}
 
@@ -519,7 +519,7 @@ The longitudinal impedance is as determined by taking the constant term for a se
 
 The agreement between the simulations of the vertical dipolar impedance and the theoretical model is excellent across all frequencies for both the real and imaginary components. The agreement below 100MHz and above 1GHz is very good for the horizontal dipolar, with some divergence in the constant term of the imaginary impedance. The key difference is the failure of the coaxial method to resolve one of the peaks in the real impedance. The results for the dipolar impedance are shown in Fig.~\ref{fig:ferrite-plates-dipolar}.
 
-The results for the quadrupolar impedance are shown in Fig.~\ref{fig:ferrite-plates-quadrupolar}. The vertical simulations agree well with the theory, correctly identifying the two peaks in the quadrupolar impedance. The agreement for the horizontal simulations with theory is less good. This can be explained by the derivation of the horizontal quadrupolar being highly dependent on the quality of the horizontal dipolar impedance results due to them cancelling each other to form the total transverse impedance. As the horizontal dipolar impedance does not resolve the the subpeaks neither does the horizontal quadrupolar impedance calculations.
+The results for the quadrupolar impedance are shown in Fig.~\ref{fig:ferrite-plates-quadrupolar}. The vertical simulations agree well with the theory, correctly identifying the two peaks in the quadrupolar impedance. The agreement for the horizontal simulations with theory is less good. This can be explained by the derivation of the horizontal quadrupolar being highly dependent on the quality of the horizontal dipolar impedance results due to them cancelling each other to form the total transverse impedance. As the horizontal dipolar impedance does not resolve the subpeaks neither does the horizontal quadrupolar impedance calculations.
 
 \subsubsection{Two Parallel Graphite Plates}
 
@@ -535,11 +535,11 @@ For the simulations of the power loss in Maxwell3D the following parameters were
 For the two wire simulations, two wires of radius 0.3mm are modelled, with a seperation of 8mm in the x-dimension, and 4mm in the y-dimension. Five simulation configurations are used as described below:
 
 \begin{enumerate}
-\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 20kHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10kHz at 1kHz intervals.}
-\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 200kHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 10-100kHz at 10kHz intervals.}
-\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 2MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 100kHz-1MHz at 100kHz intervals.}
-\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 10MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10MHz at 1MHz intervals.}
-\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 100MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 10-100MHz at 10MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criterion of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 20kHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10kHz at 1kHz intervals.}
+\item{an adaptive mesh generation set to a convergence criterion of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 200kHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 10-100kHz at 10kHz intervals.}
+\item{an adaptive mesh generation set to a convergence criterion of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 2MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 100kHz-1MHz at 100kHz intervals.}
+\item{an adaptive mesh generation set to a convergence criterion of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 10MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10MHz at 1MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criterion of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 100MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 10-100MHz at 10MHz intervals.}
 \end{enumerate}
 
 These parameters are used to benefit from an appropriate mesh count for the given frequency range, thus increasing simulation speed by not using a high density mesh at frequencies where no benefits would be gained.
@@ -554,9 +554,9 @@ For the simulations of the single displaced wire in HFSS the following parameter
 For the two wire simulations, two wires of radius 0.3mm are modelled, with a seperation of 4mm in the x-dimension, and 3mm in the y-dimension. Three simulations configuration are used as described below:
 
 \begin{enumerate}
-\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 20MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10MHz at 1MHz intervals.}
-\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 200MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 10-100MHz at 10MHz intervals.}
-\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 2GHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 100MHz-1GHz at 100MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criterion of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 20MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10MHz at 1MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criterion of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 200MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 10-100MHz at 10MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criterion of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 2GHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 100MHz-1GHz at 100MHz intervals.}
 \end{enumerate}
 
 As before these parameters are used to benefit from an appropriate mesh count for the given frequency range, thus increasing simulation speed by not using a high density mesh at frequencies where no benefits would be gained.
@@ -601,22 +601,22 @@ The agreement between simulations and theory for the vertical dipolar impedance 
 
 \subsubsection{C-Core Ferrite Kicker}
 
-To test the measurement method for an asymmetric structure a model of the c-core ferrite kicker magnet was used, as shown in Fig.\ref{fig:zannini-model}, the analytical details of which are given in \cite{Zannini:cCoreFerrite}. Key in this type of structure is that it predictsa non-zero constant transverse impedance term as well as the quadrupolar terms, thus we may completely evaluate the asymmetric measurement method. For these simulations a structure of $a=15$mm, $r=20$mm, $\theta = \pi / 2$, and $100$mm in length was used. Simulations were carried out using the classical coaxial wire method as simulated in HFSS.
+To test the measurement method for an asymmetric structure a model of the C-core ferrite kicker magnet was used, as shown in Fig.\ref{fig:zannini-model}, the analytical details of which are given in \cite{Zannini:cCoreFerrite}. Key in this type of structure is that it predicts a non-zero constant transverse impedance term as well as the quadrupolar terms, thus we may completely evaluate the asymmetric measurement method. The model gives predictions of the impedance in the  For these simulations a structure of $a=15$mm, $r=20$mm, $\theta = \pi / 2$, and $100$mm in length was used. Simulations were carried out using the classical coaxial wire method as simulated in HFSS.
 
 The following parameters were used for the simulations; wire of 0.2mm in radius, and the following displacement used to acquire the total transverse terms:
 
 \begin{enumerate}
-\item{In the horizontal axis -  displaced between -5mm to +5mm at intervals of 1mm}
+\item{In the horizontal axis -  displaced between -5mm to +5mm at intervals of 1mm.}
 \item{In the vertical axis - displaced between -5mm to +5mm at intervals of 1mm.}
 \end{enumerate}
 
-For the two wire simulations, two wires of radius 0.2mm are modelled, with a seperation of 2mm in the x-dimension, and 2mm in the y-dimension. Four simulation configurations are used described below:
+For the two wire simulations, two wires of radius 0.2mm are modelled, with a separation of 2mm in the x-dimension, and 2mm in the y-dimension. Four simulation configurations were used which are described below:
 
 \begin{enumerate}
-\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 20MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10MHz at 1MHz intervals.}
-\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 200MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 10-100MHz at 10MHz intervals.}
-\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 2GHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 100MHz-1GHz at 100MHz intervals.}
-\item{an adaptive mesh generation set to a convergence criteria of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 10GHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10GHz at 1GHz intervals.}
+\item{an adaptive mesh generation set to a convergence criterion of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 20MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10MHz at 1MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criterion of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 200MHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 10-100MHz at 10MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criterion of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 2GHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 100MHz-1GHz at 100MHz intervals.}
+\item{an adaptive mesh generation set to a convergence criterion of $S_{21}$ diverging by less than 0.005 between two subsequent solutions, at an adaptive frequency of 10GHz solving to a second order basis. A discrete frequency sweep is then carried out in the range 1-10GHz at 1GHz intervals.}
 \end{enumerate}
 
 These parameters are used to benefit from an appropriate mesh count for the given frequency range, thus increasing simulation speed by not using a high density mesh at frequencies where no benefits would be gained.
@@ -638,7 +638,7 @@ These parameters are used to benefit from an appropriate mesh count for the give
 \includegraphics[height=0.35\textwidth]{Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/constant-vertical-impedance.pdf}
 \label{fig:c-core-constant}
 }
-\caption{The impedance of the c-core ferrite kicker as acquired by simulating the classical coaxial wire method in HFSS. Shown is the \ref{fig:c-core-longitudinal} longitudinal impedance, \ref{fig:c-core-dipolar} the dipolar impedance, \ref{fig:c-core-quadrupolar} the quadrupolar impedance and \ref{fig:c-core-constant} the constant transverse impedance.}
+\caption{The impedance of the C-core ferrite kicker as acquired by simulating the classical coaxial wire method in HFSS. Shown is the \ref{fig:c-core-longitudinal} longitudinal impedance, \ref{fig:c-core-dipolar} the dipolar impedance, \ref{fig:c-core-quadrupolar} the quadrupolar impedance and \ref{fig:c-core-constant} the constant transverse impedance.}
 \end{figure}
 
 It can be seen that the longitudinal impedance agrees well over the entire frequency range below 1GHz (Fig.~\ref{fig:c-core-longitudinal}). The analytical calculations breakdown above 1GHz due to the family of Bessel functions used for the calculations being optimised for low frequency calculations. Similarly the agreement for the dipolar impedance can be seen to be exceptionally good over the majority of the frequency range, with an increasing descrepency at high frequencies (Fig.~\ref{fig:c-core-dipolar}).
@@ -655,7 +655,7 @@ For high Q-factor impedances, such as cavity impedances, it is not appropriate t
 \frac{1}{Q_{total}} = \frac{1}{Q_{cavity}} + \frac{1}{Q_{prop}}
 \end{equation}
 
-During excitation by a charged particle beam, propogation losses do not exist below the cutoff frequency and thus $Q_{prop} = 0$. However, the addition of the coaxial wire causes these propogation losses to occur at all frequencies. Importantly, the Q-factor of these propogation losses is of a similar magnitude or smaller than that of the cavity resonance, leading to a great distortion of the measured Q. Similarly, the perturbation of the conductive wire in the centre of the structure leads to a shift in the resonance frequency of the cavity modes.  This has been well studied and illustratrated in \cite{Masullo:StretchedWire}, an example of which is given in Fig.~\ref{fig:cav-wire-tans}.
+During excitation by a charged particle beam, propogation losses do not exist below the cutoff frequency and thus $Q_{prop} = 0$. However, the addition of the coaxial wire causes these propogation losses to occur at all frequencies. Importantly, the Q-factor of these propogation losses is of a similar magnitude or smaller than that of the cavity resonance, leading to a great distortion of the measured Q. Similarly, the perturbation of the conductive wire in the centre of the structure leads to a shift in the resonance frequency of the cavity modes.  This has been well studied in \cite{Masullo:StretchedWire}, an example of which is given in Fig.~\ref{fig:cav-wire-tans}.
 
 
 \begin{figure}

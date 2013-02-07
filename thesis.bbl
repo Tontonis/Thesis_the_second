@@ -281,6 +281,12 @@ E.~Jensen, ``An improved log-formula for homogeneously distributed impedance,''
 H.~Tsutsui, ``On single wire technique for transverse coupling impedance
   measurement,'' CERN, Geneva, Tech. Rep. SL-Note-2002-034-AP, Oct 2002.
 
+\bibitem{hfss}
+``\texttt{http://www.ansoft.com}.''
+
+\bibitem{maxwell}
+``\texttt{https://www.ansoft.com}.''
+
 \bibitem{Kroyer:lowFreqColImp}
 T.~Kroyer, ``Simulation of the low-frequency collimator impedance,'' CERN,
   Geneva, Tech. Rep. CERN-AB-Note-2008-017, Apr 2008.
@@ -311,12 +317,6 @@ Y.-H. Chin, ``{User's guide for ABCI version 9.4 (Azimuthal beam cavity
 
 \bibitem{cst}
 ``\texttt{http://www.cst.com}.''
-
-\bibitem{hfss}
-``\texttt{http://www.ansoft.com}.''
-
-\bibitem{maxwell}
-``\texttt{https://www.ansoft.com}.''
 
 \bibitem{Weiland:MAFIAv4}
 T.~Weiland, M.~Bartsch, U.~Becker, M.~Bihn, U.~Blell \emph{et~al.}, ``{MAFIA
