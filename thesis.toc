@@ -68,39 +68,39 @@
 \contentsline {chapter}{\numberline {6}Beam Coupling Impedance Reduction Techniques}{115}
 \contentsline {section}{\numberline {6.1}Tapering of Step Transitions}{115}
 \contentsline {section}{\numberline {6.2}Transition Pieces}{116}
-\contentsline {section}{\numberline {6.3}Conductive Coatings}{119}
-\contentsline {section}{\numberline {6.4}Beam screens in Kicker Magnets}{119}
-\contentsline {section}{\numberline {6.5}Serigraphy on Kicker Magnets}{121}
-\contentsline {section}{\numberline {6.6}Use of damping materials to de-Q resonant cavities}{121}
-\contentsline {subsection}{\numberline {6.6.1}Heat Loads on the Damping Material}{124}
-\contentsline {chapter}{\numberline {7}LHC Collimation Upgrades}{133}
-\contentsline {section}{\numberline {7.1}Introduction}{133}
-\contentsline {section}{\numberline {7.2}LHC Phase 2 Secondary Collimator Jaw Material}{137}
-\contentsline {subsection}{\numberline {7.2.1}Impedance Studies and Analysis}{138}
-\contentsline {section}{\numberline {7.3}TCTP Impedance Studies}{141}
-\contentsline {subsection}{\numberline {7.3.1}TCTP Collimator - Design and Geometry}{142}
-\contentsline {subsection}{\numberline {7.3.2}Impedance Simulations and Results}{144}
-\contentsline {subsection}{\numberline {7.3.3}Beam-Induced Heating}{146}
-\contentsline {subsubsection}{Location of Power Deposition}{151}
-\contentsline {chapter}{\numberline {8}LHC Injection Kicker Magnets}{154}
-\contentsline {section}{\numberline {8.1}LHC Injection Kicker Magnets}{155}
-\contentsline {subsection}{\numberline {8.1.1}Development of the LHC-MKI Beam Screen}{155}
-\contentsline {subsection}{\numberline {8.1.2}Observations of heating during 2011 and 2012 until Technical Stop 3}{158}
-\contentsline {section}{\numberline {8.2}Simulations and Measurements of the MKI with 15 Screen Conductors}{161}
-\contentsline {subsection}{\numberline {8.2.1}Beam Induced Heating Estimates for 15 Screen Conductors}{166}
-\contentsline {section}{\numberline {8.3}Other Concerns for the MKI Operation and Temperature Reduction}{168}
-\contentsline {section}{\numberline {8.4}Simulations and Measurements of the MKI with 19 Screen Conductors}{169}
-\contentsline {subsection}{\numberline {8.4.1}Temperature of MKI8d after Technical Stop 3}{171}
-\contentsline {section}{\numberline {8.5}The Dependence of the Beam Coupling Impedance on the Kicker Components}{174}
-\contentsline {subsection}{\numberline {8.5.1}The Impedance of the MKI - Effects of the Inclusion of the Beam Screen}{174}
-\contentsline {subsection}{\numberline {8.5.2}How Screening Changes with the Number of Screen Conductors}{176}
-\contentsline {subsection}{\numberline {8.5.3}Dependence of the Impedance on the Beam Screen Dimensions}{179}
-\contentsline {section}{\numberline {8.6}New Beam Screen Designs}{185}
-\contentsline {section}{\numberline {8.7}Upgrade Plans for Long Shutdown 1 and Beyond}{192}
-\contentsline {chapter}{\numberline {9}Conclusions}{195}
-\contentsline {chapter}{Bibliography}{197}
-\contentsline {chapter}{\numberline {A}Longitudinal Beam Dynamics}{209}
-\contentsline {section}{\numberline {A.1}Phase Stability}{211}
-\contentsline {section}{\numberline {A.2}RF Acceptance and Longitudinal Emittance}{211}
-\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - No Ferrite}{214}
-\contentsline {chapter}{\numberline {C}TCTP Eigenmode Simulations - With Ferrite}{220}
+\contentsline {section}{\numberline {6.3}Conductive Coatings}{118}
+\contentsline {section}{\numberline {6.4}Beam screens in Kicker Magnets}{120}
+\contentsline {section}{\numberline {6.5}Serigraphy on Kicker Magnets}{122}
+\contentsline {section}{\numberline {6.6}Use of damping materials to de-Q resonant cavities}{122}
+\contentsline {subsection}{\numberline {6.6.1}Heat Loads on the Damping Material}{126}
+\contentsline {chapter}{\numberline {7}LHC Collimation Upgrades}{135}
+\contentsline {section}{\numberline {7.1}Introduction}{135}
+\contentsline {section}{\numberline {7.2}LHC Phase 2 Secondary Collimator Jaw Material}{139}
+\contentsline {subsection}{\numberline {7.2.1}Impedance Studies and Analysis}{140}
+\contentsline {section}{\numberline {7.3}TCTP Impedance Studies}{143}
+\contentsline {subsection}{\numberline {7.3.1}TCTP Collimator - Design and Geometry}{144}
+\contentsline {subsection}{\numberline {7.3.2}Impedance Simulations and Results}{146}
+\contentsline {subsection}{\numberline {7.3.3}Beam-Induced Heating}{148}
+\contentsline {subsubsection}{Location of Power Deposition}{153}
+\contentsline {chapter}{\numberline {8}LHC Injection Kicker Magnets}{156}
+\contentsline {section}{\numberline {8.1}LHC Injection Kicker Magnets}{157}
+\contentsline {subsection}{\numberline {8.1.1}Development of the LHC-MKI Beam Screen}{157}
+\contentsline {subsection}{\numberline {8.1.2}Observations of heating during 2011 and 2012 until Technical Stop 3}{160}
+\contentsline {section}{\numberline {8.2}Simulations and Measurements of the MKI with 15 Screen Conductors}{163}
+\contentsline {subsection}{\numberline {8.2.1}Beam Induced Heating Estimates for 15 Screen Conductors}{168}
+\contentsline {section}{\numberline {8.3}Other Concerns for the MKI Operation and Temperature Reduction}{170}
+\contentsline {section}{\numberline {8.4}Simulations and Measurements of the MKI with 19 Screen Conductors}{171}
+\contentsline {subsection}{\numberline {8.4.1}Temperature of MKI8d after Technical Stop 3}{173}
+\contentsline {section}{\numberline {8.5}The Dependence of the Beam Coupling Impedance on the Kicker Components}{176}
+\contentsline {subsection}{\numberline {8.5.1}The Impedance of the MKI - Effects of the Inclusion of the Beam Screen}{176}
+\contentsline {subsection}{\numberline {8.5.2}How Screening Changes with the Number of Screen Conductors}{178}
+\contentsline {subsection}{\numberline {8.5.3}Dependence of the Impedance on the Beam Screen Dimensions}{181}
+\contentsline {section}{\numberline {8.6}New Beam Screen Designs}{187}
+\contentsline {section}{\numberline {8.7}Upgrade Plans for Long Shutdown 1 and Beyond}{194}
+\contentsline {chapter}{\numberline {9}Conclusions}{197}
+\contentsline {chapter}{Bibliography}{199}
+\contentsline {chapter}{\numberline {A}Longitudinal Beam Dynamics}{211}
+\contentsline {section}{\numberline {A.1}Phase Stability}{213}
+\contentsline {section}{\numberline {A.2}RF Acceptance and Longitudinal Emittance}{213}
+\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - No Ferrite}{216}
+\contentsline {chapter}{\numberline {C}TCTP Eigenmode Simulations - With Ferrite}{222}
