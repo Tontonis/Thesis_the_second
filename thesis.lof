@@ -81,15 +81,16 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{112}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{112}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces An example pillbox structure with and without a tapered transition region 6.1(a)\hbox {}, in this case with the taper at 15$^{\circ }$. The resulting imaginary component of the longitudinal impedances are shown in 6.1(b)\hbox {}, as these are the most significant for beam stability.}}{117}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces An example pillbox structure with and without a tapered transition region 6.1(a)\hbox {}, in this case with the taper of 15$^{\circ }$. The resulting imaginary component of the longitudinal impedances are shown in 6.1(b)\hbox {}, with $Z/n$ shown in 6.1(c)\hbox {}, as these are the most significant for beam stability.}}{117}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{117}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{117}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{117}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Example of RF fingers (in this case for the PIMS module, placed between cryo-modules in the LHC).}}{117}
 \contentsline {figure}{\numberline {6.3}{\ignorespaces The layout of the RF fingers in the VMTSA both in 6.3(a)\hbox {} the fully operational configuration and 6.3(b)\hbox {} when the RF fingers lose contact. 6.3(c)\hbox {} shows the resulting beam coupling impedance of the two types of impedance as acquired by coaxial wire measurements. Photos and measurements courtesy of J.L. Nougaret.}}{118}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{118}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{118}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{118}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces An example of seriagraphy in the SPS Extraction Kicker Magnets (SPS-MKE). The layout of the interleaved fingers is shown in 6.4(a)\hbox {} and the actual seriagraphed ferrites in 6.4(b)\hbox {}. A comparison of the longitudinal beam coupling impedance with and without the seriagraphy is shown in 6.4(c)\hbox {}.}}{122}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces An example of serigraphy in the SPS Extraction Kicker Magnets (SPS-MKE). The layout of the interleaved fingers is shown in 6.4(a)\hbox {} and the actual serigraphed ferrites in 6.4(b)\hbox {}. A comparison of the longitudinal beam coupling impedance with and without the serigraphy is shown in 6.4(c)\hbox {}.}}{122}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{122}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{122}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{122}
@@ -97,16 +98,16 @@
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Two sample geometries used to examine the effects of ferrite damping material on cavity resonances. 6.6(a)\hbox {} shows a cavity with the ferrite unshielded, and 6.6(b)\hbox {} shows a more realistic case in which the ferrite is shielded from directly seeing the traversing beam.}}{125}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{125}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{125}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces The real component of the longitudinal beam coupling impedance of a cavity without and with a damping material with $\epsilon ^{'}=10$, $\mu ^{'}=10$ and $\mu ^{'}/\mu ^{'}$ is varied. The non-damped cavity is shown for comparison. The change in resonance frequency and shunt impedance impedance is due to the increased $\epsilon ^{'}$ of the damping material.}}{128}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces The real component of the longitudinal beam coupling impedance of a cavity without and with a damping material with $\epsilon ^{'}=10$, $\mu ^{'}=10$ and $\mu ^{'}/\mu ^{'}$ is varied. The non-damped cavity is shown for comparison. The change in resonance frequency and shunt impedance impedance is due to the increased $\epsilon ^{'}$ of the damping material.}}{129}
 \contentsline {figure}{\numberline {6.8}{\ignorespaces 6.8(a)\hbox {} The reduction in the Q of the cavity resonance with the increasing loss tangent of the ferrite damping, showing a strong decrease of the resonant Q with a small increase in loss tangent. 6.8(b)\hbox {} The percentage of the power loss in the ferrite as the resonant Q decreases. this can be seen to tend towards 100\% as the Q approaches 0.}}{129}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{129}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{129}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces The power loss due to a beam with $1.15 \times 10^{11}$ particles per bunch, 288 bunches, a ring circumference 6911m and a bunch length $4\sigma = 0.04m$ assuming a gaussian bunch distribution in the unscreened cavity.}}{129}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces The real component of the longitudinal beam coupling impedance of a cavity without and with shielded damping material with $\epsilon ^{'}=10$, $\mu ^{'}=10$ and $\mu ^{'}/\mu ^{'}$ is varied. The non-damped cavity is shown for comparison. The change in resonance frequency and shunt impedance impedance is due to the increased $\epsilon ^{'}$ of the damping material.}}{130}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces The power loss due to a beam with $1.15 \times 10^{11}$ particles per bunch, 288 bunches, a ring circumference 6911m and a bunch length $4\sigma = 0.04m$ assuming a gaussian bunch distribution in the unscreened cavity.}}{130}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces The real component of the longitudinal beam coupling impedance of a cavity without and with shielded damping material with $\epsilon ^{'}=10$, $\mu ^{'}=10$ and $\mu ^{'}/\mu ^{'}$ is varied. The non-damped cavity is shown for comparison. The change in resonance frequency and shunt impedance impedance is due to the increased $\epsilon ^{'}$ of the damping material.}}{131}
 \contentsline {figure}{\numberline {6.11}{\ignorespaces 6.11(a)\hbox {} The reduction in the Q of the cavity resonance with the increasing loss tangent of the ferrite damping, showing a strong decrease of the resonant Q with a small increase in loss tangent. 6.11(b)\hbox {} The percentage of the power loss in the ferrite as the resonant Q decreases. this can be seen to tend towards 100\% as the Q approaches 0.}}{131}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{131}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{131}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces The power loss due to a beam with $1.15 \times 10^{11}$ particles per bunch, 288 bunches, a ring circumference 6911m and a bunch length $4\sigma = 0.04m$ assuming a gaussian bunch distribution in the screened cavity.}}{131}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces The power loss due to a beam with $1.15 \times 10^{11}$ particles per bunch, 288 bunches, a ring circumference 6911m and a bunch length $4\sigma = 0.04m$ assuming a gaussian bunch distribution in the screened cavity.}}{132}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Different components of impedance reduction measures in the phase 1 collimator design. 7.1(a)\hbox {} shows the longitudinal RF fingers, ensuring a good conducting path for the beam image currents, and 7.1(b)\hbox {} shows the sliding RF contacts on the collimators jaw. These are intended to minimise the volume seen by the beam, thus minimising any cavity modes that may be excited by the beam at very high frequencies where the beam power spectrum is very small. Images courtesy of A. Bertarelli, CERN.}}{135}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{135}
