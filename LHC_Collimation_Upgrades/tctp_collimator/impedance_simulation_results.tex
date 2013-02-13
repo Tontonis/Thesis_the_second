@@ -31,14 +31,17 @@ For this comparison we investigate a number of different designs of the RF syste
 The three different systems are shown in Fig.~\ref{fig:rf-systems-tctp}. The impedance results for these three options are shown in Fig.~\ref{fig:tctp-time-longitudinal} simulated in CST Particle Studio. It can clearly be seen the differences between the two RF systems. The phase 1 RF system screens the surrounding vacuum tank from the beam, meaning any cavity modes occur at a relatively high frequency, above 1GHz. The phase 2 system allows the beam to see the vacuum cavity, decreasing the lowest frequency cavity mode. The presence of the ferrite in this system subsequently strongly reduces the Q of these resonances, reducing the impedance. Both the real and imaginary longitudinal impedance is strongly reduced as a result. Similar results have been observed in the transverse plane \cite{Salvant:tctp}.
 
 \begin{figure}
+\begin{center}
 \subfigure[]{
-\includegraphics[height=0.32\textwidth]{LHC_Collimation_Upgrades/figures/impedance-tctp-time.pdf}
+\includegraphics[width=0.7\textwidth]{LHC_Collimation_Upgrades/figures/impedance-tctp-time.pdf}
 \label{fig:tctp-time-real}
 }
+
 \subfigure[]{
-\includegraphics[height=0.32\textwidth]{LHC_Collimation_Upgrades/figures/impedance-tctp-time-imag.pdf}
+\includegraphics[width=0.7\textwidth]{LHC_Collimation_Upgrades/figures/impedance-tctp-time-imag.pdf}
 \label{fig:tctp-time-imag}
 }
+\end{center}
 \caption{The longitudinal impedance of the TCTP collimator for a number different configurations. Shown is the system using the ferrite damping system (ferrite being 8C11 in this case), RF fingers as in phase 1, and the RF system with the ferrite replaced by PEC. The real \ref{fig:tctp-time-real} and imaginary \ref{fig:tctp-time-imag} components are shown.}
 \label{fig:tctp-time-longitudinal}
 \end{figure}
