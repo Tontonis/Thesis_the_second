@@ -7,8 +7,8 @@ As part of the study to improve the beam screen it was decided to investigate sy
 To first judge the effectiveness of the concept of the beam screen as an impedance reduction technique we simulate the MKI by systematically adding components to the magnet to determine their effect on the beam coupling impedance. We consider the following configurations of the MKI:
 
 \begin{enumerate}
-\item{The c-core ferrite yoke}
-\item{The c-core ferrite yoke with a ceramic tube in the aperture}
+\item{The C-core ferrite yoke}
+\item{The C-core ferrite yoke with a ceramic tube in the aperture}
 \item{As "2" above but with 24 screen conductors inserted into the ceramic tube, capactively coupled at one end}
 \item{The internal magnet structure including the vacuum tank, HV and ground plates and the surrounding connections}
 \end{enumerate}
@@ -54,7 +54,7 @@ Concerning the role of the beam screen layout there are two areas to examine - t
 
 \subsection{How Screening Changes with the Number of Screen Conductors}
 
-For the changes in the number of screen conductors two variations are carried out - The first is to examine the case of removing several screen conductors in the beam screen towards the HV busbar (shown in Fig.~\ref{fig:mki-take-away-cond-together}). This direction is chosen as these screen conductors experience the highest induced voltage during the pulsing of the kicker magnet, and additionally it was initially thought that on this side the HV busbar would provide some screening of the beam from the ferrite yoke. The second variation is to remove a selection of screen conductors towards the HV busbar (shown in Fig.~\ref{fig:mki-take-away-cond-alt}), in this case to examine whether it is possible to acquire some shielding through using some screen conductors and benefitting from removing some screen conductors to further reduce the rate of electrical breakdown.
+For the changes in the number of screen conductors two variations are carried out: the first is to examine the case of removing several screen conductors in the beam screen towards the HV busbar (shown in Fig.~\ref{fig:mki-take-away-cond-together}). This direction is chosen as these screen conductors experience the highest induced voltage during the pulsing of the kicker magnet, and additionally it was initially thought that on this side the HV busbar would provide some screening of the beam from the ferrite yoke. The second variation is to remove a selection of screen conductors towards the HV busbar (shown in Fig.~\ref{fig:mki-take-away-cond-alt}), in this case to examine whether it is possible to acquire some shielding through using some screen conductors and benefitting from removing some screen conductors to further reduce the rate of electrical breakdown.
 
 \begin{figure}
 \subfigure[]{
@@ -107,7 +107,7 @@ For the changes in the number of screen conductors two variations are carried ou
 \label{fig:remove-cond-impedance}
 \end{figure}
 
-The longitudinal impedance for these configurations is shown in Fig.~\ref{fig:remove-cond-impedance}. It can be seen that for both components of the impedance that more screen conductors reduces the magnitude of the impedance at all frequencies - this can simply be understood as improving the screening of the ferrite yoke from the beam with additional screen conductors. This can particularly be seen in the increase of the number of screen conductors from 15 to 19 to 24 conductors in total - The screening is improved dramatically in each subsequent case. 
+The longitudinal impedance for these configurations is shown in Fig.~\ref{fig:remove-cond-impedance}. It can be seen that for both components of the impedance that more screen conductors reduces the magnitude of the impedance at all frequencies - this can simply be understood as improving the screening of the ferrite yoke from the beam with additional screen conductors. This can particularly be seen in the increase of the number of screen conductors from 15 to 19 to 24 conductors in total; the screening is improved dramatically in each subsequent case. 
 
 In addition it can be seen that it is preferable to distribute the screen conductors such that the maximum arc of the beam screen without screen conductors is minimised. This can clearly be seen by comparing the case of 19 screen conductors where all conductors are clustered together (as was done for the replacement MKI8d (Fig.~\ref{fig:19-cond-together}) and for 19 screen conductors, where only 3 are missing close to the HV busbar (Fig.~\ref{fig:19-cond-alt}). Again this advantage is bourne out in the power lost in the structure. This is however not beneficial without consideration of the induced electric field during kicker pulsing, as the induced voltage on a given screen conductor is still the same, and thus surface flashover along the ceramic tube to the external metallization is not changed by this layout. It can thus be seen that the beam screen design itself must be optimised with regards to the induced screen conductor voltage before more conductors can be added to the ceramic tube to improve screening.
 
@@ -129,21 +129,21 @@ It will now be shown that with 24 screen conductors placed in the ceramic tube t
 \label{fig:mesh-full}
 }
 \subfigure[]{
-\label{fig:mesh-cutdown}
 \includegraphics[width=0.45\textwidth]{LHC_MKI/figures/meshCutDown.png}
+\label{fig:mesh-cutdown}
 }
-\caption{A comparison of the mesh that may be generated in CST Particle Studio using both the full model \ref{fig:mesh-full} and the cutdown model \ref{fig:mesh-cutdown}. Not the greatly increased mesh density in the important overlap region between the screen conductors and external metallization. The simulation time for the first is on the order a day, for the second 30 minutes.}
+\caption{A comparison of the mesh that may be generated in CST Particle Studio using both the full model \ref{fig:mesh-full} and the cutdown model \ref{fig:mesh-cutdown}. Not the greatly increased mesh density in the important overlap region between the screen conductors and external metallization. The simulation time for the first is on the order a of day, for the second 30 minutes.}
 \label{fig:mki-mesh-com-cst}
 \end{figure}
 
-First we shall consider the effect the impedance for different lengths of overlap of the capacitively coupled sections. To do this we consider just the end section, and change the length of the external metallization to change the length of the overlap (the length of the screen conductors used is keep fixed to avoid changing any potential resonances due to the modelled length of the screen conductors acting as $\lambda /4$ resonators). Overlaps of between 0.08m and 0.12m at 0.01m intervals are simulated, and the results shown in Fig.~\ref{fig:overlap-imp}. It can be seen that each overlap has a distinct set of resonance frequencies. The source of these resonances can be seen to be the result of the overlap between the external metallization and the screen conductor acting as a $n \lambda /2$ resonator. End effects caused the effective length of the overlap to be extended to some degree, which fitting to the resonance frequencies has shown to be $\approx 9$mm for all lengths for a ceramic tube thickness of 7mm. This gives a resonant frequency $f_{res}$ of
+First we shall consider the effect of the impedance for different lengths of overlap of the capacitively coupled sections. To do this we consider just the end section, and change the length of the external metallization to change the length of the overlap (the length of the screen conductors used is kept fixed to avoid changing any potential resonances due to the modelled length of the screen conductors acting as $\lambda /4$ resonators). Overlaps of between 0.08m and 0.12m at 0.01m intervals are simulated, and the results are shown in Fig.~\ref{fig:overlap-imp}. It can be seen that each overlap has a distinct set of resonance frequencies. The source of these resonances can be seen to be the result of the overlap between the external metallization and the screen conductor acting as a $n \lambda /2$ resonator. End effects caused the effective length of the overlap to be extended to some degree, which fitting to the resonance frequencies has shown to be $\approx 9$mm for all lengths for a ceramic tube thickness of 7mm. This gives a resonant frequency $f_{res}$ of
 
 \begin{equation}
 f_{res} = \frac{nc}{\sqrt{\epsilon_{r}}2 \left( L_{overlap} + \delta_{fringe} \right)}
 \label{eqn:imp-overlap-fres}
 \end{equation}
 
-where $n$ is an integer, $c$ is the speed of light $\epsilon_{r}$ is the relative permitivitty of the volume material ($\epsilon=10$ for the alumina beam screen), $L_{overlap}$ is the length of overlap and $\delta_{fringe}$ is the effective increase in length due to fringe fields. The resonant frequency calculated using Eqn.~\ref{eqn:imp-overlap-fres} is shown for the first resonances for all the effective lengths of overlap in Fig.~\ref{fig:overlap-imp-zoom}, and up to 2.5GHz for the case of the overlap being 100mm in Fig.~\ref{fig:imp-overlap-fres}. It can be seen that the predicted resonant frequencies match the simulated very well. Work is still under way as to how to determine the peak impedance of each resonance. In addition predictions for the power loss due to the impedances for different effective overlaps calculated assuming either a broadband heating scenario or assuming a beam harmonic at the resonant frequency as shown in Tab.~\ref{tab:heating-overlap}. It can be seen that changing the length of the overlap does not strongly correlate to the change in power loss assuming a broadband heating scenario. It can be seen that increasing the length of the effective overlap causes an increase in the power loss assuming a resonant heating scenario, but this correlation is not clear as there is much variance in the values.
+where $n$ is an integer, $c$ is the speed of light $\epsilon_{r}$ is the relative permitivitty of the volume material ($\epsilon^{'}=10$ for the alumina beam screen), $L_{overlap}$ is the length of overlap and $\delta_{fringe}$ is the effective increase in length due to fringe fields. This gives an empirical fit for the resonant frequencies of the resonances due to the overlap between the screen conductors and an external conductor (metallization or external metal pipe) in a beam screen with capacitive coupling. The resonant frequency calculated using Eqn.~\ref{eqn:imp-overlap-fres} is shown for the first resonances for all the effective lengths of overlap in Fig.~\ref{fig:overlap-imp-zoom}, and up to 2.5GHz for the case of the overlap being 100mm in Fig.~\ref{fig:imp-overlap-fres}. It can be seen that the predicted resonant frequencies match the simulated very well. Work is still under way as to how to determine the peak impedance of each resonance. In addition predictions for the power loss due to the impedances for different effective overlaps calculated assuming either a broadband heating scenario or assuming a beam harmonic at the resonant frequency are shown in Tab.~\ref{tab:overlap-heating}. It can be seen that changing the length of the overlap does not strongly correlate to the change in power loss assuming a broadband heating scenario. It can be seen that increasing the length of the effective overlap causes an increase in the power loss assuming a resonant heating scenario, but this correlation is not clear as there is much variance in the values.
 
 \begin{figure}
 \subfigure[]{
@@ -154,7 +154,7 @@ where $n$ is an integer, $c$ is the speed of light $\epsilon_{r}$ is the relativ
 \includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-overlap-len-real-imp-zoom.pdf}
 \label{fig:overlap-imp-zoom}
 }
-\caption{\ref{fig:overlap-imp} The real component of the longitudinal beam coupling impedance for different lengths of the overlap, and \ref{fig:overlap-imp-zoom} a zoomed in plot of the first resonances of all the overlaps with the calculated resonance frequency for each based on the effective length. For each the thickness of the ceramic tube is 7mm.}
+\caption{\ref{fig:overlap-imp} The simulated real component of the longitudinal beam coupling impedance for different lengths of the overlap, and \ref{fig:overlap-imp-zoom} a zoomed in plot of the first resonances of all the overlaps with the calculated resonance frequency for each based on the effective length. For each the thickness of the ceramic tube is 7mm.}
 \label{fig:mki-overlap-imp-tot}
 \end{figure}
 
@@ -162,12 +162,12 @@ where $n$ is an integer, $c$ is the speed of light $\epsilon_{r}$ is the relativ
 \begin{center}
 \includegraphics[width=0.6\textwidth]{LHC_MKI/figures/mki-overlap-fres-100mm.pdf}
 \end{center}
-\caption{The impedance of the beam screen with 24 screen conductors with an overlap $L_{overlap}=100mm$ and the predicted resonance frequencies from Eqn.~\ref{eqn:imp-overlap-fres} shown as vertical lines.}
+\caption{The simulated impedance of the beam screen with 24 screen conductors with an overlap $L_{overlap}=100mm$ and the predicted resonance frequencies from Eqn.~\ref{eqn:imp-overlap-fres} shown as vertical lines.}
 \label{fig:imp-overlap-fres}
 \end{figure}
 
 \begin{table}
-\caption{The beam induced heating calculated for a number of beam screen designs with 24 screen conductors with equal thickness of ceramic tube (thickness of 7mm) with different effective overlaps assuming 50ns bunch spacing LHC conditions (1380 bunches, $1.7\times 10^{11}$ppb with a bunch length of 1ns). It can be seen that the broadband heating component is relatively constant for the change in overlap, whilst the resonant component only significantly changes with a large increase in the effective overlap.}
+\caption{The beam induced heating calculated for a number of beam screen designs with 24 screen conductors with equal thickness of ceramic tube (thickness of 7mm) with different effective overlaps assuming 50ns bunch spacing LHC conditions (1380 bunches, $1.7\times 10^{11}$ppb with a bunch length of 1ns assuming a Gaussian bunch profile (length is $4\sigma_{z}$ value)). It can be seen that the broadband heating component is relatively constant for the change in overlap, whilst the resonant component only significantly changes with a large increase in the effective overlap.}
 \label{tab:overlap-heating}
 \begin{center}
 \begin{tabular}{c | c | c | c | c}
@@ -182,7 +182,7 @@ Overlap (mm)& \multicolumn{2}{c |}{LHC, 50ns, 1.7e11ppb} & \multicolumn{2}{|c}{L
 \end{center}
 \end{table}
 
-Secondly the influence of the thickness of the beam screen is considered. This is a concern as increasing this thickness has two effects - to change the value of the capcitance at the capacitively coupled end which effects the low frequency impedance, and the increase in the volume of the overlap region due to the increased thickness. The internal diameter of the ceramic tube is kept at 42mm, whilst external diameters of 50, 53 and 56mm are considered, giving tube thicknesses between 4 and 7mm. The resulting real component of the longitudinal impedances is shown in Fig.~\ref{fig:tube-thickness-imp}, where it can be seen that increasing the ceramic tube thickness has two effects - a slight lowering of the resonant frequency, but also a significant increase of the peak impedance of the resonance, by almost a factor 2 from a tube 4mm thick to a 7mm thick tube. The difference that the peak impedances make to the expected heating of the MKI can be seen in Tab.~\ref{tab:thickness-heating}, where it can be seen that the change in the power loss due to the increased thickness could be expected to be small assuming a broadband heating scenario, but increases significantly if we assume a beam harmonic falls upon the resonant frequency.
+Secondly the influence of the thickness of the beam screen is considered. This is a concern as increasing this thickness has two effects - to change the value of the capcitance at the capacitively coupled end which affects the low frequency impedance, and the increase in the volume of the overlap region due to the increased thickness. The internal diameter of the ceramic tube is kept at 42mm, whilst external diameters of 50, 53 and 56mm are considered, giving tube thicknesses between 4 and 7mm. The resulting real component of the longitudinal impedances is shown in Fig.~\ref{fig:tube-thickness-imp}, where it can be seen that increasing the ceramic tube thickness has two effects - a slight lowering of the resonant frequency, but also a significant increase of the peak impedance of the resonance, by almost a factor 2 from a tube 4mm thick to a 7mm thick tube. The difference that the peak impedances make to the expected heating of the MKI can be seen in Tab.~\ref{tab:thickness-heating}, where it can be seen that the change in the power loss due to the increased thickness could be expected to be small assuming a broadband heating scenario, but increases significantly if we assume a beam harmonic falls upon the resonant frequency.
 
 The small reduction in the resonant frequency as the thickness of the ceramic tube is increased is expected as the fringe fields will increase with greater thickness. The examination of the prediction shows that the increase in effective length, due to a non-zero thickness of the ceramic tube, is given (for $\epsilon_{r}$=10 for all frequencies) by an increase in effective length (in mm) of $\approx$ 0.0125$\times$thickness (in mm).
 

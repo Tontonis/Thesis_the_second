@@ -95,8 +95,8 @@
 \contentsline {subsection}{\numberline {8.5.1}The Impedance of the MKI - Effects of the Inclusion of the Beam Screen}{178}
 \contentsline {subsection}{\numberline {8.5.2}How Screening Changes with the Number of Screen Conductors}{180}
 \contentsline {subsection}{\numberline {8.5.3}Dependence of the Impedance on the Beam Screen Dimensions}{183}
-\contentsline {section}{\numberline {8.6}New Beam Screen Designs}{189}
-\contentsline {section}{\numberline {8.7}Upgrade Plans for Long Shutdown 1 and Beyond}{196}
+\contentsline {section}{\numberline {8.6}New Beam Screen Designs}{188}
+\contentsline {section}{\numberline {8.7}Upgrade Plans for Long Shutdown 1 and Beyond}{197}
 \contentsline {chapter}{\numberline {9}Conclusions}{199}
 \contentsline {chapter}{Bibliography}{201}
 \contentsline {chapter}{\numberline {A}Longitudinal Beam Dynamics}{213}
