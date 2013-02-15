@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99cThe top-level auxiliary file: thesis.aux
 Case mismatch error between cite keys Stupakov:wakeAndImp and Stupakov:wakeandImp
 ---line 96 of file thesis.aux
  : \citation{Stupakov:wakeAndImp
@@ -29,7 +29,15 @@ You're missing a field part---line 1125 of file thesisBib.bib
 I'm skipping whatever remains of this entry
 You're missing a field part---line 1135 of file thesisBib.bib
  :       title        = 
- :                      “ “8th MKI Strategy Meeting”,
+ :                      “ 8th MKI Strategy Meeting”,
+I'm skipping whatever remains of this entry
+You're missing a field part---line 1145 of file thesisBib.bib
+ :       title        = 
+ :                      “Overview of HOM Damping at PEPII”,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1153 of file thesisBib.bib
+ : @inproceedings{Pivi:PEP
+ :                        ,
 I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
@@ -94,6 +102,9 @@ Warning--empty booktitle in Barnes:mkiAlt
 Warning--empty booktitle in Barnes:mkiElecSurfCer
 Warning--empty year in Barnes:mkiElecSurfCer
 Warning--empty booktitle in Bruning:beamParameters
+Warning--empty title in Pivi:PEP
+Warning--empty booktitle in Pivi:PEP
+Warning--empty year in Pivi:PEP
 
 Done.
-(There were 7 error messages)
+(There were 9 error messages)

@@ -4,7 +4,7 @@ The injection kicker magnets in the LHC are part of the injection system for the
 \begin{center}
 \includegraphics[width=0.6\textwidth]{LHC_MKI/figures/injection-system.png}
 \end{center}
-\caption{An example layout of a injection system for an accelerator. Taken from \cite{Barnes:injSys}}
+\caption{An example layout of a injection system for an accelerator with the timing of the kicker field with an injected bunch train. Taken from \cite{Barnes:injSys}.}
 \label{fig:injection-system-schema}
 \end{figure}
 
@@ -12,22 +12,44 @@ By design kickers are generally always visible to the beam due to the need to qu
 
 \section{LHC Injection Kicker Magnets}
 
-Each LHC injection kicker magnet (LHC-MKI, or MKI) is a 3m long travelling wave transmission line kicker magnet (ferrite length 2.7m). A transmission line magnet is a magnet that is composed of multiple cells each capacitvely coupled to ground. This means that the effective inductance that the pulse is exposed to is reduced, allowing for shorter rise times to be achieved. For LHC there are two injection regions, near IPs 2 (ALICE) and 8 (LHCb), each consisting of a septa system and four MKIs injecting vertically into the machine (the position of the LHC injection systems is shown in Fig.~\ref{fig:lhc-injection-systems}). As a transmission line magnet the magnet is constructed of a c-core ferrite yoke, segmented by alternating HV (High Voltage) and ground plates capacitively coupled together by ceramic capacitors to form a magnet of 5$\Omega$ characteristic impedance. The pulse is generated in a Pulse Forming Network (PFN) and is subsequently carried by 10 parallel coaxial cables with a total characteristic impedance of $5 \Omega$, matching the characteristic impedance of the MKI and the PFN. The performance parameters of the magnets rise time, fied strength and homogeneity are given in Tab.~\ref{tab:mki-parameters} \cite{Ducimetiere:mkiSpec}.
+Each LHC injection kicker magnet (LHC-MKI, or MKI) is a 3m long travelling wave transmission line kicker magnet (ferrite length 2.7m). A transmission line magnet is a magnet that is composed of multiple cells each capacitvely coupled to ground. This means that the effective inductance that the pulse is exposed to is reduced, allowing for shorter rise times to be achieved. For LHC there are two injection regions, near IPs 2 (ALICE) and 8 (LHCb), each consisting of a septa system and four MKIs injecting vertically into the machine (the position of the LHC injection systems is shown in Fig.~\ref{fig:lhc-injection-systems}). As a transmission line magnet the magnet is constructed of a c-core ferrite yoke, segmented by alternating HV (High Voltage) and ground plates capacitively coupled together by ceramic capacitors to form a magnet of 5$\Omega$ characteristic impedance, the cross sections of which are shown in Fig.~\ref{fig:mkiCrossSections}. The magnet out of its tank and the magnets in place in the tunnel is shown in Fig.~\ref{fig:lhc-mki-cross-section} for clarity. The pulse is generated in a Pulse Forming Network (PFN) and is subsequently carried by 10 parallel coaxial cables with a total characteristic impedance of $5 \Omega$, matching the characteristic impedance of the MKI and the PFN. The performance parameters of the magnets rise time, fied strength and homogeneity are given in Tab.~\ref{tab:mki-parameters} \cite{Ducimetiere:mkiSpec}.
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.75\textwidth]{LHC_MKI/figures/injection-points-lhc.png}
+\includegraphics[width=1.0\textwidth]{LHC_MKI/figures/injectionPointsLayout.jpg}
 \end{center}
-\caption{The location of the LHC injection systems in the LHC ring.}
+\caption{The location of the LHC injection systems in the LHC ring, with the layout of an injection line.}
 \label{fig:lhc-injection-systems}
 \end{figure}
 
+\begin{figure}
+\begin{center}
+\subfigure[]{
+\includegraphics[width=1.0\textwidth]{LHC_MKI/figures/MKICrossSectionYZ.jpg}
+\label{fig:mkiCrossSectionYZ}
+}
+
+\subfigure[]{
+\includegraphics[width=0.65\textwidth]{LHC_MKI/figures/MKICrossSectionXY.jpg}
+\label{fig:mkiCrossSectionXY}
+}
+\end{center}
+\caption{Cross sections of the MKI parallel to \subref{fig:mkiCrossSectionYZ} and perpendicular to \subref{fig:mkiCrossSectionXY} the direction of travel of the beam. Ferrite is indicated in red and the beam path in green.}
+\label{fig:mkiCrossSections}
+\end{figure}
 
 \begin{figure}
 \begin{center}
+\subfigure[]{
 \includegraphics[height=0.4\textwidth]{LHC_MKI/figures/mki-out-vac-tank.png}
+\label{fig:mkiOutTank}
+}
+\subfigure[]{
+\includegraphics[width=0.4\textwidth]{LHC_MKI/figures/mkiInTunnel.png}
+\label{fig:mkiInTunnel}
+}
 \end{center}
-\caption{A cross section of an MKI. Visible are the alternating HV and ground plates, seperated by capacitor plates. The HV busbar and the ground return can be seen in the c core of the ferrite yoke.}
+\caption{\subref{fig:mkiOutTank} An MKI out of its tank, showing the internal components. \subref{fig:mkiInTunnel} MKIs in the LHC tunnel connected together in the complete injection line.}
 \label{fig:lhc-mki-cross-section}
 \end{figure}
 
