@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99cThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 Case mismatch error between cite keys Stupakov:wakeAndImp and Stupakov:wakeandImp
 ---line 96 of file thesis.aux
  : \citation{Stupakov:wakeAndImp
@@ -13,6 +13,7 @@ White space in argument---line 341 of file thesis.aux
  :                 ValidityImpMeas}
 I'm skipping whatever remains of this command
 The style file: myIEEETran.bst
+A level-1 auxiliary file: appendices/ferriteProperties.aux
 Database file #1: thesisBib.bib
 I was expecting an "="---line 592 of file thesisBib.bib
  : /  
@@ -35,10 +36,7 @@ You're missing a field part---line 1145 of file thesisBib.bib
  :       title        = 
  :                      “Overview of HOM Damping at PEPII”,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1153 of file thesisBib.bib
- : @inproceedings{Pivi:PEP
- :                        ,
-I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "AlexejGrudiev"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -107,4 +105,4 @@ Warning--empty booktitle in Pivi:PEP
 Warning--empty year in Pivi:PEP
 
 Done.
-(There were 9 error messages)
+(There were 8 error messages)

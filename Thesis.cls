@@ -128,7 +128,7 @@ University of Manchester\\
 Oxford Road\\
 Manchester\\
 M13 9PL\\
-November 2006\\
+March 2013\\
 }
 
 \def\copyrightpage{
