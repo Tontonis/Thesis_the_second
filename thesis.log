@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  19 FEB 2013 21:07
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  19 FEB 2013 21:34
 entering extended mode
 **C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
 (C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
@@ -2786,184 +2786,1425 @@ gStab.png>] [222 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/f
 igures/longPhaseDiag.png>]
 Appendix B.
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/vacEigenTable.tex
-[223
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.150 }
+       
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.150 }
+       
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.150 }
+       
+? 
+! Argument of \LT@max@sel has an extra }.
+<inserted text> 
+                \par 
+l.150 }
+       
+? 
+Runaway argument?
+! Paragraph ended before \LT@max@sel was complete.
+<to be read again> 
+                   \par 
+l.150 }
+       
+? 
+! Missing # inserted in alignment preamble.
+<to be read again> 
+                   &
+l.150 }
+       
+? 
+! Missing # inserted in alignment preamble.
+<to be read again> 
+                   &
+l.150 }
+       
+? 
+! Missing # inserted in alignment preamble.
+<to be read again> 
+                   &
+l.150 }
+       
+? 
+! Missing # inserted in alignment preamble.
+<to be read again> 
+                   \cr 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Undefined control sequence.
+<template> ...colsep {\hfil \ignorespaces \@sharp 
+                                                  \unskip \hfil }\hskip \tab...
+l.150 }
+       
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.150 }
+       
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+? 
+! Emergency stop.
+<to be read again> 
+                   \futurelet 
+l.150 }
+       
+End of file on the terminal!
 
-] [224] [225] [226] [227]) [228]
-Appendix C.
-
-(C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/ferrEigenTable.tex
-[229
-
-] [230] [231]) [232]
-Appendix D.
-
-(C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/algorithmEigenMode
-Cav.tex [233
-
-] [234]
-
-LaTeX Warning: Citation `AlexejGrudiev' on page 235 undefined on input line 58.
-
-
-
-Overfull \hbox (19.0182pt too wide) detected at line 62
-[][] \OT1/cmr/m/n/12 = [] = []
- []
-
-) [235]
-Appendix E.
-[236
-
-]
-(C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/ferriteProperties.
-tex [237
-
-]
-
-LaTeX Warning: Reference `fig:4e2Perm' on page 238 undefined on input line 25.
-
-
-LaTeX Warning: Reference `fig:4e2PenDepth' on page 238 undefined on input line 
-25.
-
-<appendices/figures/tt2111rPerm.pdf, id=5802, 578.16pt x 433.62pt>
-File: appendices/figures/tt2111rPerm.pdf Graphic file (type pdf)
-
-<use appendices/figures/tt2111rPerm.pdf>
-Package pdftex.def Info: appendices/figures/tt2111rPerm.pdf used on input line 
-43.
-(pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
-
-<appendices/figures/tt2111rPenDepth.pdf, id=5803, 578.16pt x 433.62pt>
-File: appendices/figures/tt2111rPenDepth.pdf Graphic file (type pdf)
-
-<use appendices/figures/tt2111rPenDepth.pdf>
-Package pdftex.def Info: appendices/figures/tt2111rPenDepth.pdf used on input l
-ine 47.
-(pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
-
-Overfull \hbox (16.56004pt too wide) in paragraph at lines 43--48
-[][]  []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
-
- []
-
-<appendices/figures/4s60Perm.pdf, id=5804, 578.16pt x 433.62pt>
-File: appendices/figures/4s60Perm.pdf Graphic file (type pdf)
-
-<use appendices/figures/4s60Perm.pdf>
-Package pdftex.def Info: appendices/figures/4s60Perm.pdf used on input line 67.
-
-(pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
-
-<appendices/figures/4s60PenDepth.pdf, id=5805, 578.16pt x 433.62pt>
-File: appendices/figures/4s60PenDepth.pdf Graphic file (type pdf)
-
-<use appendices/figures/4s60PenDepth.pdf>
-Package pdftex.def Info: appendices/figures/4s60PenDepth.pdf used on input line
- 71.
-(pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
-
-Overfull \hbox (16.56004pt too wide) in paragraph at lines 67--72
-[][]  []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--72
-
- []
-
-<appendices/figures/4a4Perm.pdf, id=5806, 578.16pt x 433.62pt>
-File: appendices/figures/4a4Perm.pdf Graphic file (type pdf)
-
-<use appendices/figures/4a4Perm.pdf>
-Package pdftex.def Info: appendices/figures/4a4Perm.pdf used on input line 91.
-(pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
-
-<appendices/figures/4a4PenDepth.pdf, id=5807, 578.16pt x 433.62pt>
-File: appendices/figures/4a4PenDepth.pdf Graphic file (type pdf)
-
-<use appendices/figures/4a4PenDepth.pdf>
-Package pdftex.def Info: appendices/figures/4a4PenDepth.pdf used on input line 
-95.
-(pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
-
-Overfull \hbox (16.56004pt too wide) in paragraph at lines 91--96
-[][]  []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--96
-
- []
-
-File: appendices/figures/4a4Perm.pdf Graphic file (type pdf)
-<use appendices/figures/4a4Perm.pdf>
-Package pdftex.def Info: appendices/figures/4a4Perm.pdf used on input line 114.
-
-(pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
-File: appendices/figures/4a4PenDepth.pdf Graphic file (type pdf)
- <use appendices/figures/4a4PenDepth.pdf>
-Package pdftex.def Info: appendices/figures/4a4PenDepth.pdf used on input line 
-118.
-(pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
-
-Overfull \hbox (16.56004pt too wide) in paragraph at lines 114--119
-[][]  []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--119
-
- []
-
-) [238 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figures/tt2
-111rPerm.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figu
-res/tt2111rPenDepth.pdf>] [239 <C:/Users/hugo/Documents/GitHub/Thesis_the_secon
-d/appendices/figures/4s60Perm.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_s
-econd/appendices/figures/4s60PenDepth.pdf> <C:/Users/hugo/Documents/GitHub/Thes
-is_the_second/appendices/figures/4a4Perm.pdf> <C:/Users/hugo/Documents/GitHub/T
-hesis_the_second/appendices/figures/4a4PenDepth.pdf>] [240]
-(C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.aux
-(C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/ferriteProperties.
-aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 6586 strings out of 494045
- 148198 string characters out of 3148390
- 201739 words of memory out of 3000000
- 9461 multiletter control sequences out of 15000+200000
- 51184 words of font info for 84 fonts, out of 3000000 for 9000
+ 6526 strings out of 494045
+ 146130 string characters out of 3148390
+ 190739 words of memory out of 3000000
+ 9423 multiletter control sequences out of 15000+200000
+ 47940 words of font info for 72 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 28i,13n,25p,2229b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
-w/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb
-8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (240 pages, 23222689 bytes).
-PDF statistics:
- 6104 PDF objects out of 6186 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 826 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 28i,13n,24p,2229b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
