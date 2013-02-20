@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  20 FEB 2013 18:15
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  20 FEB 2013 18:50
 entering extended mode
 **C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
 (C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
@@ -583,9 +583,6 @@ Writing nomenclature file thesis.nlo
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 )
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\symbols.tex)
-\@indexfile=\write4
-
-Writing index file thesis.idx
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.aux
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/ferriteProperties.
 aux
@@ -676,7 +673,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [2
 
 ] [3] [4] [5])
-\tf@toc=\write5
+\tf@toc=\write4
 
 [6] (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.lot [7
 
@@ -687,7 +684,7 @@ r es-ti-mat-ing the power
  []
 
 [8] [9])
-\tf@lot=\write6
+\tf@lot=\write5
  [10] (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.lof
 [11
 
@@ -710,7 +707,7 @@ spheres place in MKI8d
  []
 
 [21] [22] [23] [24])
-\tf@lof=\write7
+\tf@lof=\write6
  [25]
 No file thesis.nls.
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\Preface/abstract.tex
@@ -1239,7 +1236,11 @@ Overfull \hbox (60.97878pt too wide) in paragraph at lines 356--356
 [] 
  []
 
-[96] [97] [98] [99]
+[96]
+
+LaTeX Warning: Citation `maxwell' on page 97 undefined on input line 384.
+
+[97] [98] [99]
 <Bench_Top_Measurements/figures/tsutsui-geometry.pdf, id=1554, 341.47577pt x 31
 3.04956pt>
 File: Bench_Top_Measurements/figures/tsutsui-geometry.pdf Graphic file (type pd
@@ -2765,19 +2766,19 @@ nti, E. Me-tral,
  []
 
 [212] [213]
-Underfull \hbox (badness 10000) in paragraph at lines 358--363
+Underfull \hbox (badness 10000) in paragraph at lines 355--360
 \T1/ptm/m/n/12 Avail-able at \T1/pcr/m/n/12 http://emetral.web.cern.ch/emetral/
 LRFF/LRFF
  []
 
 [214]
-Underfull \hbox (badness 1072) in paragraph at lines 411--414
+Underfull \hbox (badness 1072) in paragraph at lines 408--411
 []\T1/ptm/m/n/12 G. Valentino, ``Pre-lim-i-nary re-sults from sps bpm-equipped 
 col-li-ma-tor mds.''
  []
 
 
-Overfull \hbox (163.4055pt too wide) in paragraph at lines 438--440
+Overfull \hbox (163.4055pt too wide) in paragraph at lines 435--437
 []\T1/ptm/m/n/12 ``Tt2-111r data sheet avail-able at \T1/pcr/m/n/12 http://www.
 trans-techinc.com/products_detail.asp?ID=151\T1/ptm/m/n/12 .'' 
  []
@@ -2991,9 +2992,9 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6703 strings out of 494045
- 150684 string characters out of 3148390
- 201741 words of memory out of 3000000
+ 6702 strings out of 494045
+ 150680 string characters out of 3148390
+ 202741 words of memory out of 3000000
  9556 multiletter control sequences out of 15000+200000
  51184 words of font info for 84 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -3014,7 +3015,7 @@ w/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (248 pages, 23443011 bytes).
+Output written on thesis.pdf (248 pages, 23443019 bytes).
 PDF statistics:
  6132 PDF objects out of 6186 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
