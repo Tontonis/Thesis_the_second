@@ -159,6 +159,8 @@ March 2013\\
   \iffigurespage
     \listoffigures
     \newpage
+    \printnomenclature
+    \newpage
   \fi
 }
 

@@ -22,13 +22,13 @@ One of the key figures of merit for the operation of the LHC (along with the cen
 \frac{dR}{dt} = \mathcal{L} \times \sigma_{p}
 \end{equation}
 
-where $\frac{dR}{dt}$ is the interaction rate, $\mathcal{L}$ is the luminosity and $\sigma_{p}$ is the production cross section for a given particle production scheme. For two colliding bunches, each with a gaussian transverse distribution, the luminosity can be given in a simplified form by
+where $\frac{dR}{dt}$ is the interaction rate. For two colliding bunches, each with a gaussian transverse distribution, the luminosity can be given in a simplified form by
 
 \begin{equation}
-\mathcal{L} = \frac{N_{1} N_{2} f n_{b}}{4 \pi \sigma_{x} \sigma_{y}}
+\mathcal{L} = \frac{N_{1} N_{2} f_{rev} n_{b}}{4 \pi \sigma_{x} \sigma_{y}}
 \end{equation}
 
-where $N_{1/2}$ are the bunch populations of beams 1 and 2 respectively, $f$ is the revolution frequency, $n_{b}$ is the number of colliding bunches in the machine and $\sigma_{x/y}$ is the gaussian bunch sigmas in the horizontal and vertical planes respectively. Bunch populations $N_{1/2}$, the revolution frequency $f$ and the number of bunches $n_{b}$ also contribute towards the DC beam current in the machine $I_{b} = N_{1} f e n_{b}$ where $e$ is the elementary electron charge. As will be seen in Sec.~\ref{sec:beam_induced_heating} the expected power loss due to beam-equipment interactions is proportional to the $I_{b}^{2}$, thus it can be seen that increasing the luminosity will increase the power loss experienced by equipment in a linear to quadratic fashion (the non-quadratic behaviour being due to other effects on the heating mechanism due to the changing beam current, explained more in Sec.~\ref{sec:beam_induced_heating}).
+where. Bunch populations $N_{1/2}$, the revolution frequency $f_{rev}$ and the number of bunches $n_{b}$ also contribute towards the DC beam current in the machine $I_{b} = N_{1} f_{rev} e n_{b}$. As will be seen in Sec.~\ref{sec:beam_induced_heating} the expected power loss due to beam-equipment interactions is proportional to the $I_{b}^{2}$, thus it can be seen that increasing the luminosity will increase the power loss experienced by equipment in a linear to quadratic fashion (the non-quadratic behaviour being due to other effects on the heating mechanism due to the changing beam current, explained more in Sec.~\ref{sec:beam_induced_heating}).
 
 \subsection{Integrated Luminosity}
 
@@ -49,7 +49,7 @@ It can thus be seen that in addition to increasing the luminosity, maximising th
 \section{Beam Dynamics}
 \label{sec:BeamDyn}
 
-To introduce the terms, dynamics and coordinate systems used in later chapters we shall briefly introduce the basic transverse and longitudinal dynamics present in particle accelerators. This introduction follows the formalism introduced in \cite{Holzer:TransDyn}. First we introduce the coordinate system typically used in the consideration of circular particle accelerators. Typically an ideal orbit is defined for an on momentum particle, denoted by $(\rho, \theta, z)$. In addition a reference frame placed upon the orbit of an ideal on-momentum particle is defined, given by $(x, y, z)$, shown in Fig.~\ref{fig:accel-coord-system}. 
+To introduce the terms, dynamics and coordinate systems used in later chapters we shall briefly introduce the basic transverse and longitudinal dynamics present in particle accelerators. This introduction follows the formalism introduced in \cite{Holzer:TransDyn}. First we introduce the coordinate system typically used in the consideration of circular particle accelerators. Typically an ideal orbit is defined for an on momentum particle. In addition a reference frame placed upon the orbit of an ideal on-momentum particle is defined shown in Fig.~\ref{fig:accel-coord-system}. 
 
 \begin{figure}
 \begin{center}
@@ -70,16 +70,16 @@ To introduce the terms, dynamics and coordinate systems used in later chapters w
 The use of charged particles within an accelerator is controlled by the use of both magnetic and electrical elements in the machine, leading to the particles being acted upon by the Lorentz force
 
 \begin{equation}
-\mathbf{F} = q \left( \mathbf{E} + \mathbf{v} \times \mathbf{B} \right)
+\mathbf{F} = q \left( \mathbf{E} + \mathbf{v} \times \mathbf{B} \right).
 \end{equation}
 
-where $q$ is the charge of the particle, $\mathbf{E}$ is the electric field, $\mathbf{B}$ is the magnetic induction (here called the field due to convention) and $\mathbf{v}$ is the particles velocity. In high energy particle accelerators the magnetic and electric fields are typically seperated in location, with the magnetic fields only having a transverse component, being of the form
+In high energy particle accelerators the magnetic and electric fields are typically seperated in location, with the magnetic fields only having a transverse component, being of the form
 
 \begin{equation}
 \mathbf{B} = \mathbf{\hat{x}} B_{x} + \mathbf{\hat{y}} B_{y}
 \end{equation}
 
-where $B_{x/y}$ is the magnetic field component in the $x$- and $y$-axis respectively. Due to the cross product between the velocity ($\mathbf{v} = \mathbf{\hat{z}} v$), it can be seen that there is no component of the force from the magnetic field in the $z$-direction. In addition the electric field usually only has a longitudinal component such that $\mathbf{E} = \mathbf{\hat{z}} E_{z}$. This results in the seperation of transverse and longitudinal motion such that
+Due to the cross product between the velocity ($\mathbf{v} = \mathbf{\hat{z}} v$), it can be seen that there is no component of the force from the magnetic field in the $z$-direction. In addition the electric field usually only has a longitudinal component such that $\mathbf{E} = \mathbf{\hat{z}} E_{z}$. This results in the seperation of transverse and longitudinal motion such that
 
 \begin{align}
 F_{\parallel} &= qE \\
@@ -116,10 +116,10 @@ For the time being we shall consider only small displacements in $x$ and $y$, th
 
 \begin{align}
 \frac{B_{y} \left( x \right)}{p/e} &= \frac{1}{\rho} + \frac{1}{p/e}\frac{dB_{y}}{dx} x \\
-\frac{B_{y} \left( x \right)}{p/e} &= \frac{1}{\rho} + k x
+\frac{B_{y} \left( x \right)}{p/e} &= \frac{1}{\rho} + k_{f} x
 \end{align}
 
-where $k = \frac{g}{p/e}$, $g$ is the gradient of a quadrupole magnet (a magnet which has a magnetic field strength linearly proportional to displacement). This indicates that seperation of the function of magnets is valid method of controlling the particles, using dipole and quadrupole fields. Next, to derive the equations of motion we shall consider the equation for radial acceleration $a_{r}$ for a particle undergoing rotational acceleration in the defined coordinate system
+where $k_{f} = \frac{g}{p/e}$, $g$ is the gradient of a quadrupole magnet (a magnet which has a magnetic field strength linearly proportional to displacement). This indicates that seperation of the function of magnets is valid method of controlling the particles, using dipole and quadrupole fields. Next, to derive the equations of motion we shall consider the equation for radial acceleration $a_{r}$ for a particle undergoing rotational acceleration in the defined coordinate system
 
 \begin{equation}
 a_{r} = \frac{d^{2}\rho}{dt^{2}} - \rho \left( \frac{d\theta}{dt} \right)^{2}.
@@ -182,24 +182,24 @@ We then subsequently normalise by momentum and rearrange slightly to acquire
 We then remember the definition of the beam rigidity (see Eqn.~\ref{eqn:beam-rigid}) and the definition of the quadrupolar field strength arriving at
 
 \begin{align}
-\frac{d^{2}x}{dz^{2}} - \frac{1}{\rho} + \frac{x}{\rho^{2}}  = - \frac{1}{\rho} + k x \\ \nonumber
-\frac{d^{2}x}{dz^{2}} + \frac{x}{\rho^{2}}  = k x \\ \nonumber
-\frac{d^{2}x}{dz^{2}} + x \left( \frac{1}{\rho^{2}} - k\right)  = 0.
+\frac{d^{2}x}{dz^{2}} - \frac{1}{\rho} + \frac{x}{\rho^{2}}  = - \frac{1}{\rho} + k_{f} x \\ \nonumber
+\frac{d^{2}x}{dz^{2}} + \frac{x}{\rho^{2}}  = k_{f} x \\ \nonumber
+\frac{d^{2}x}{dz^{2}} + x \left( \frac{1}{\rho^{2}} - k_{f}\right)  = 0.
 \label{eqn:horz-eqn-motion}
 \end{align}
 
 For the vertical plane the equation is the same, except that the focusing term is negative and there is no $\rho$ term, giving
 
 \begin{equation}
-\frac{d^{2}y}{dz^{2}} +  k y  = 0.
+\frac{d^{2}y}{dz^{2}} +  k_{f} y  = 0.
 \label{eqn:vert-eqn-motion}
 \end{equation}
 
 It is interesting to note that there is a focusing term due to the dipolar magnet term. Historically this is the weak focusing effect, as opposed to the strong focusing regime of using quadrupole magnets. It can be seen that these equations are simply the equations of motion of a pseudo-harmonic oscillator with spring constants $K_{x/y}$ given by
 
 \begin{align*}
-K_{x} = \frac{1}{\rho^{2}} - k \\
-K_{y} = k
+K_{x} = \frac{1}{\rho^{2}} - k_{f} \\
+K_{y} = k_{f}
 \end{align*}
 
 leading to a general solution 
@@ -208,7 +208,7 @@ leading to a general solution
 x/y \left( s \right) = a_{1} cos \left( \sqrt{K_{x/y}} s \right) + a_{2} sin \left( \sqrt{K_{x/y}} s \right).
 \end{equation}
 
-For a modern particle accelerator using focusing and defocusing magnets arranged in a periodic lattice (i.e. so that $k(s)$ becomes a periodic function such that $k(s+L) = k(s)$ where L is the length of the period of the lattice), and applying initial conditions $x(0) = x_{0}, x^{'}(0) = x^{'}_{0}$ it is possible to finally arrive at the solution for the motion of a particle through a periodic lattice
+For a modern particle accelerator using focusing and defocusing magnets arranged in a periodic lattice (i.e. so that $k(s)$ becomes a periodic function such that $k_{f}(s+L) = k_{f}(s)$ where L is the length of the period of the lattice), and applying initial conditions $x(0) = x_{0}, x^{'}(0) = x^{'}_{0}$ it is possible to finally arrive at the solution for the motion of a particle through a periodic lattice
 
 \begin{equation}
 x \left( s \right) = \sqrt{\epsilon} \sqrt{\beta \left( s \right) } cos \left( \psi \left( s \right) + \phi \right)
@@ -225,7 +225,7 @@ Q = \frac{1}{2\pi} \oint \frac{ds}{\beta \left( s \right)}.
 During the operation of a particle accelerator there is often have a spread of particle energies due to dynamics in the longitudinal plane \cite{Leduff:LongDyn}. This gives rise to a momentum spread $\Delta p/p$ in the particle momentum, where $\Delta p = p - p_{0}$, $p_{0}$ being the on-path momentum. When considered in Eqn.~\ref{eqn:horz-eqn-motion} this gives rise to an inhomogenous differential equation of the form
 
 \begin{equation}
-\frac{d^{2}x}{dz^{2}} + x \left( \frac{1}{\rho^{2}} - k\right)  = \frac{\Delta p}{p}\frac{1}{\rho}
+\frac{d^{2}x}{dz^{2}} + x \left( \frac{1}{\rho^{2}} - k_{f}\right)  = \frac{\Delta p}{p}\frac{1}{\rho}
 \label{eqn:disp-eqn-motion}
 \end{equation}
 

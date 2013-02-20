@@ -29,6 +29,13 @@
 \usepackage[pdftex]{graphicx}
 \usepackage{cleveref}
 \usepackage{longtable}
+\usepackage[refpage]{nomencl}
+\renewcommand{\nomname}{List of Notations}
+\renewcommand*{\pagedeclaration}[1]{\unskip\dotfill\hyperpage{#1}}
+\makenomenclature
+\usepackage{makeidx}
+\input{symbols}
+\makeindex
 \pagestyle{plain}
 %\renewcommand{\topfraction}{0.99}
 %\renewcommand{\bottomfraction}{0.99}
