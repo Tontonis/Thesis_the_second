@@ -1,38 +1,39 @@
-This is BibTeX, Version 0.99cThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 Case mismatch error between cite keys Stupakov:wakeAndImp and Stupakov:wakeandImp
----line 96 of file thesis.aux
+---line 98 of file thesis.aux
  : \citation{Stupakov:wakeAndImp
  :                              }
 I'm skipping whatever remains of this command
-White space in argument---line 336 of file thesis.aux
+White space in argument---line 338 of file thesis.aux
  : \citation{Hahn:
  :                 ValidityImpMeas}
 I'm skipping whatever remains of this command
-White space in argument---line 341 of file thesis.aux
+White space in argument---line 343 of file thesis.aux
  : \citation{Hahn:
  :                 ValidityImpMeas}
 I'm skipping whatever remains of this command
 The style file: myIEEETran.bst
 A level-1 auxiliary file: appendices/ferriteProperties.aux
+A level-1 auxiliary file: appendices/heatTransferInVacuum.aux
 Database file #1: thesisBib.bib
 I was expecting an "="---line 592 of file thesisBib.bib
  : /  
  :    publisher = {American Physical Society}
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1072 of file thesisBib.bib
+I was expecting a `,' or a `}'---line 1070 of file thesisBib.bib
  :       
  :       institution  = "CERN",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field part---line 1125 of file thesisBib.bib
+You're missing a field part---line 1123 of file thesisBib.bib
  :       title        = 
  :                      “3rd MKI Strategy Discussion: 20/02/2012 Vacuum, Ferrite, Cooling, Beam Impedance and Pre-Scrubbing”,
 I'm skipping whatever remains of this entry
-You're missing a field part---line 1135 of file thesisBib.bib
+You're missing a field part---line 1133 of file thesisBib.bib
  :       title        = 
  :                      “ 8th MKI Strategy Meeting”,
 I'm skipping whatever remains of this entry
-You're missing a field part---line 1145 of file thesisBib.bib
+You're missing a field part---line 1143 of file thesisBib.bib
  :       title        = 
  :                      “Overview of HOM Damping at PEPII”,
 I'm skipping whatever remains of this entry
@@ -43,6 +44,8 @@ Warning--I didn't find a database entry for "AlexejGrudiev"
 Warning--missing institution in Baudrenghien:LHCPowSpec
 Warning--empty booktitle in Carra:HeatLoad
 Warning--empty booktitle in Garlasche:2dHeatEmisAll
+Warning--empty booktitle in Garlasche:heatTransfer
+Warning--empty booktitle in Hargreaves:IRTunnel
 Warning--empty author in ntof
 Warning--empty author and editor in ATLASTDR
 Warning--empty author in CMSDR

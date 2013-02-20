@@ -1,2 +1,23 @@
 \nomenclatureentry{a$\mathcal{L}$@[{$\mathcal{L}$}]\begingroup Luminosity at a collision point\nomeqref {0}|nompageref}{1}
 \nomenclatureentry{a$\sigma_{p}$@[{$\sigma_{p}$}]\begingroup Production cross section for a particle reaction\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\N_{b}$@[{$\N_{b}$}]\begingroup Bunch population. b replaced by 1 or 2 for the case of colliding beams\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$f_{rev}$@[{$f_{rev}$}]\begingroup Revolution frequency of the accelerator\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$n_{b}$@[{$n_{b}$}]\begingroup The number of bunches in the accelerator. In the case of colliding beams it it the number of colliding bunches\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\sigma_{x,y}$@[{$\sigma_{x,y}$}]\begingroup Gaussian bunch sigma for the transverse cross-section in the horizontal and vertical planes\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\sigma_{x,y}$@[{$\sigma_{x,y}$}]\begingroup Gaussian bunch sigma for the transverse cross-section in the horizontal and vertical planes\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$e$@[{$e$}]\begingroup Charge of an electron\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$I_{b}$@[{$I_{b}$}]\begingroup DC beam current\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$(\rho , \theta , z)$@[{$(\rho , \theta , z)$}]\begingroup Coordinate system of an ideal on-momentum particle\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$(x , y , z)$@[{$(x , y , z)$}]\begingroup Coordinate system following the on-momentum particle\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$q$@[{$q$}]\begingroup Charge of a particle\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\mathbf{E} = (E_{x}, E_{y}, E_{z})$@[{$\mathbf{E} = (E_{x}, E_{y}, E_{z})$}]\begingroup The electric field components relative to the coordinate system following the on-momentum particle\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\mathbf{B} = (B_{x}, B_{y}, B_{z})$@[{$\mathbf{B} = (B_{x}, B_{y}, B_{z})$}]\begingroup The magnetic induction (referred to as the magnetic field in the text due to convention) components relative to the coordinate system following the on momentum particle\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\mathbf{v}$@[{$\mathbf{v}$}]\begingroup Particle velocity\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$m$@[{$m$}]\begingroup Particle Mass\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\gamma$@[{$\gamma$}]\begingroup Relativistic factor\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\beta$@[{$\beta$}]\begingroup Particle velocity normalised by the speed of light\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$p$@[{$p$}]\begingroup Particle momentum\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$k_{f}$@[{$k_{f}$}]\begingroup Focal strength of a quadrupole magnet\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$I_{b}$@[{$I_{b}$}]\begingroup Speed of light in vacuum($=$299792458 m/s)\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\omega$@[{$\omega$}]\begingroup Angular velocity\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$k$@[{$k$}]\begingroup Wave number\nomeqref {0}|nompageref}{1}
