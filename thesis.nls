@@ -65,7 +65,8 @@
 		\nompageref{13}
   \item [{$\sigma_{z}$}]\begingroup The bunch length in distance ($4\sigma$ length for Gaussian distributions)\nomeqref {0}
 		\nompageref{13}
-  \item [{$\tau}]\begingroup $\nomeqref {0}\nompageref{13}
+  \item [{$\tau$}]\begingroup The time between the source and witness particle in the comoving reference frame\nomeqref {0}
+		\nompageref{13}
   \item [{$B_{\parallel}$}]\begingroup The longitudinal component of a magnetic field\nomeqref {0}
 		\nompageref{13}
   \item [{$C$}]\begingroup The capacitance of an RLC circuit\nomeqref {0}

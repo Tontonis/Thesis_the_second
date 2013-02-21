@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2011.1.19)  21 FEB 2013 12:47
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2011.1.19)  21 FEB 2013 13:46
 entering extended mode
 **thesis.tex
 (E:\GitHub\Thesis_the_second\thesis.tex
@@ -669,34 +669,34 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \tf@toc=\write5
  [6] (E:\GitHub\Thesis_the_second\thesis.lot
 
-LaTeX Warning: Reference `tab:lhc-tctp-heating-para' on page 140 undefined on i
+LaTeX Warning: Reference `tab:lhc-tctp-heating-para' on page 139 undefined on i
 nput line 13.
 
 
-LaTeX Warning: Reference `tab:lhc-tctp-heating-para' on page 140 undefined on i
+LaTeX Warning: Reference `tab:lhc-tctp-heating-para' on page 139 undefined on i
 nput line 14.
 
 [7
 
 ]
 
-LaTeX Warning: Reference `tab:lhc-tctp-heating-para' on page 141 undefined on i
+LaTeX Warning: Reference `tab:lhc-tctp-heating-para' on page 140 undefined on i
 nput line 15.
 
 
-LaTeX Warning: Reference `tab:lhc-tctp-heating-para' on page 141 undefined on i
+LaTeX Warning: Reference `tab:lhc-tctp-heating-para' on page 140 undefined on i
 nput line 16.
 
 
-LaTeX Warning: Reference `tab:on-res-heating-tctp' on page 143 undefined on inp
+LaTeX Warning: Reference `tab:on-res-heating-tctp' on page 142 undefined on inp
 ut line 18.
 
 
-LaTeX Warning: Reference `tab:heating-beam-harm-tctp-ferr' on page 143 undefine
+LaTeX Warning: Reference `tab:heating-beam-harm-tctp-ferr' on page 142 undefine
 d on input line 18.
 
 
-LaTeX Warning: Reference `tab:lhc-tctp-heating-para' on page 143 undefined on i
+LaTeX Warning: Reference `tab:lhc-tctp-heating-para' on page 142 undefined on i
 nput line 18.
 
 
@@ -709,11 +709,11 @@ r es-ti-mat-ing the power
 \tf@lot=\write6
  [10] (E:\GitHub\Thesis_the_second\thesis.lof
 
-LaTeX Warning: Reference `fig:reswalllong' on page 40 undefined on input line 1
+LaTeX Warning: Reference `fig:reswalllong' on page 39 undefined on input line 1
 1.
 
 
-LaTeX Warning: Reference `fig:reswalltrans' on page 40 undefined on input line 
+LaTeX Warning: Reference `fig:reswalltrans' on page 39 undefined on input line 
 11.
 
 
@@ -723,63 +723,63 @@ e-sis-tive wall impedance
  []
 
 
-LaTeX Warning: Reference `fig:gauss_meas_freq' on page 44 undefined on input li
+LaTeX Warning: Reference `fig:gauss_meas_freq' on page 43 undefined on input li
 ne 14.
 
 
-LaTeX Warning: Reference `fig:gauss_meas_time' on page 44 undefined on input li
+LaTeX Warning: Reference `fig:gauss_meas_time' on page 43 undefined on input li
 ne 14.
 
 [11
 
 ]
 
-LaTeX Warning: Reference `fig:current_spec' on page 46 undefined on input line 
+LaTeX Warning: Reference `fig:current_spec' on page 45 undefined on input line 
 18.
 
 
-LaTeX Warning: Reference `fig:power_spec' on page 46 undefined on input line 18
+LaTeX Warning: Reference `fig:power_spec' on page 45 undefined on input line 18
 .
 
 
-LaTeX Warning: Reference `fig:change_len_time_gauss' on page 46 undefined on in
+LaTeX Warning: Reference `fig:change_len_time_gauss' on page 45 undefined on in
 put line 21.
 
 
-LaTeX Warning: Reference `fig:change_len_freq_gauss' on page 46 undefined on in
+LaTeX Warning: Reference `fig:change_len_freq_gauss' on page 45 undefined on in
 put line 21.
 
 
-LaTeX Warning: Reference `fig:change_len_time_para' on page 47 undefined on inp
+LaTeX Warning: Reference `fig:change_len_time_para' on page 46 undefined on inp
 ut line 24.
 
 
-LaTeX Warning: Reference `fig:change_len_freq_para' on page 47 undefined on inp
+LaTeX Warning: Reference `fig:change_len_freq_para' on page 46 undefined on inp
 ut line 24.
 
 [12]
 
-LaTeX Warning: Reference `fig:long_imp_narrow_current' on page 52 undefined on 
+LaTeX Warning: Reference `fig:long_imp_narrow_current' on page 51 undefined on 
 input line 31.
 
 
-LaTeX Warning: Reference `fig:imp_profile_cos' on page 52 undefined on input li
+LaTeX Warning: Reference `fig:imp_profile_cos' on page 51 undefined on input li
 ne 31.
 
 
-LaTeX Warning: Reference `fig:broadband_heat_bunch_len' on page 53 undefined on
+LaTeX Warning: Reference `fig:broadband_heat_bunch_len' on page 52 undefined on
  input line 34.
 
 
-LaTeX Warning: Reference `fig:broadband_power_loss' on page 53 undefined on inp
+LaTeX Warning: Reference `fig:broadband_power_loss' on page 52 undefined on inp
 ut line 34.
 
 
-LaTeX Warning: Reference `fig:headtail-no-chrom' on page 59 undefined on input 
+LaTeX Warning: Reference `fig:headtail-no-chrom' on page 58 undefined on input 
 line 39.
 
 
-LaTeX Warning: Reference `fig:headtail-with-chrom' on page 59 undefined on inpu
+LaTeX Warning: Reference `fig:headtail-with-chrom' on page 58 undefined on inpu
 t line 39.
 
 [13]
@@ -789,191 +789,191 @@ m cou-pling impedance
  []
 
 
-LaTeX Warning: Reference `fig:tsutsui-model' on page 84 undefined on input line
+LaTeX Warning: Reference `fig:tsutsui-model' on page 83 undefined on input line
  49.
 
 
-LaTeX Warning: Reference `fig:zannini-model' on page 84 undefined on input line
+LaTeX Warning: Reference `fig:zannini-model' on page 83 undefined on input line
  49.
 
 
-LaTeX Warning: Reference `fig:ferrite-plates-long-horz' on page 87 undefined on
+LaTeX Warning: Reference `fig:ferrite-plates-long-horz' on page 86 undefined on
  input line 54.
 
 
-LaTeX Warning: Reference `fig:ferrite-plates-long-vert' on page 87 undefined on
+LaTeX Warning: Reference `fig:ferrite-plates-long-vert' on page 86 undefined on
  input line 54.
 
 
-LaTeX Warning: Reference `fig:ferrite-plates-dip-horz' on page 87 undefined on 
+LaTeX Warning: Reference `fig:ferrite-plates-dip-horz' on page 86 undefined on 
 input line 57.
 
 
-LaTeX Warning: Reference `fig:ferrite-plates-dip-vert' on page 87 undefined on 
+LaTeX Warning: Reference `fig:ferrite-plates-dip-vert' on page 86 undefined on 
 input line 57.
 
 
-LaTeX Warning: Reference `fig:ferrite-plates-quad-horz' on page 88 undefined on
+LaTeX Warning: Reference `fig:ferrite-plates-quad-horz' on page 87 undefined on
  input line 60.
 
 
-LaTeX Warning: Reference `fig:ferrite-plates-quad-vert' on page 88 undefined on
+LaTeX Warning: Reference `fig:ferrite-plates-quad-vert' on page 87 undefined on
  input line 60.
 
 [14]
 
-LaTeX Warning: Reference `fig:graph-plates-long-horz' on page 91 undefined on i
+LaTeX Warning: Reference `fig:graph-plates-long-horz' on page 90 undefined on i
 nput line 63.
 
 
-LaTeX Warning: Reference `fig:graph-plates-long-vert' on page 91 undefined on i
+LaTeX Warning: Reference `fig:graph-plates-long-vert' on page 90 undefined on i
 nput line 63.
 
 
-LaTeX Warning: Reference `fig:graph-plates-dip-horz' on page 92 undefined on in
+LaTeX Warning: Reference `fig:graph-plates-dip-horz' on page 91 undefined on in
 put line 66.
 
 
-LaTeX Warning: Reference `fig:graph-plates-dip-vert' on page 92 undefined on in
+LaTeX Warning: Reference `fig:graph-plates-dip-vert' on page 91 undefined on in
 put line 66.
 
 
-LaTeX Warning: Reference `fig:c-core-longitudinal' on page 95 undefined on inpu
+LaTeX Warning: Reference `fig:c-core-longitudinal' on page 94 undefined on inpu
 t line 70.
 
 
-LaTeX Warning: Reference `fig:c-core-dipolar' on page 95 undefined on input lin
+LaTeX Warning: Reference `fig:c-core-dipolar' on page 94 undefined on input lin
 e 70.
 
 
-LaTeX Warning: Reference `fig:c-core-quadrupolar' on page 95 undefined on input
+LaTeX Warning: Reference `fig:c-core-quadrupolar' on page 94 undefined on input
  line 70.
 
 
-LaTeX Warning: Reference `fig:c-core-constant' on page 95 undefined on input li
+LaTeX Warning: Reference `fig:c-core-constant' on page 94 undefined on input li
 ne 70.
 
 
-LaTeX Warning: Reference `fig:cavity_beampipe' on page 97 undefined on input li
+LaTeX Warning: Reference `fig:cavity_beampipe' on page 96 undefined on input li
 ne 75.
 
 
-LaTeX Warning: Reference `fig:cavity_beampipe_coaxial' on page 97 undefined on 
+LaTeX Warning: Reference `fig:cavity_beampipe_coaxial' on page 96 undefined on 
 input line 75.
 
 
-LaTeX Warning: Reference `fig:cavity_beampipe' on page 97 undefined on input li
+LaTeX Warning: Reference `fig:cavity_beampipe' on page 96 undefined on input li
 ne 75.
 
 
-LaTeX Warning: Reference `fig:cst_source_signal' on page 100 undefined on input
- line 80.
+LaTeX Warning: Reference `fig:cst_source_signal' on page 99 undefined on input 
+line 80.
 
 
-LaTeX Warning: Reference `fig:cst_wakepotential' on page 100 undefined on input
- line 80.
+LaTeX Warning: Reference `fig:cst_wakepotential' on page 99 undefined on input 
+line 80.
 
 
-LaTeX Warning: Reference `fig:taper_geometry' on page 105 undefined on input li
+LaTeX Warning: Reference `fig:taper_geometry' on page 104 undefined on input li
 ne 84.
 
 
-LaTeX Warning: Reference `fig:taper_impedance' on page 105 undefined on input l
+LaTeX Warning: Reference `fig:taper_impedance' on page 104 undefined on input l
 ine 84.
 
 
-LaTeX Warning: Reference `fig:taper_impedance_Zn' on page 105 undefined on inpu
+LaTeX Warning: Reference `fig:taper_impedance_Zn' on page 104 undefined on inpu
 t line 84.
 
 [15]
 
-LaTeX Warning: Reference `fig:vmtsa_operations' on page 107 undefined on input 
+LaTeX Warning: Reference `fig:vmtsa_operations' on page 106 undefined on input 
 line 89.
 
 
-LaTeX Warning: Reference `fig:vmtsa_failure' on page 107 undefined on input lin
+LaTeX Warning: Reference `fig:vmtsa_failure' on page 106 undefined on input lin
 e 89.
 
 
-LaTeX Warning: Reference `fig:vmtsa_impedance' on page 107 undefined on input l
+LaTeX Warning: Reference `fig:vmtsa_impedance' on page 106 undefined on input l
 ine 89.
 
 
-LaTeX Warning: Reference `fig:mke_layout' on page 111 undefined on input line 9
+LaTeX Warning: Reference `fig:mke_layout' on page 110 undefined on input line 9
 3.
 
 
-LaTeX Warning: Reference `fig:mke_picture' on page 111 undefined on input line 
+LaTeX Warning: Reference `fig:mke_picture' on page 110 undefined on input line 
 93.
 
 
-LaTeX Warning: Reference `fig:mke_impedance' on page 111 undefined on input lin
+LaTeX Warning: Reference `fig:mke_impedance' on page 110 undefined on input lin
 e 93.
 
 
-LaTeX Warning: Reference `fig:cav_ferr_no_shield' on page 115 undefined on inpu
+LaTeX Warning: Reference `fig:cav_ferr_no_shield' on page 114 undefined on inpu
 t line 98.
 
 
-LaTeX Warning: Reference `fig:cav_ferr_shield' on page 115 undefined on input l
+LaTeX Warning: Reference `fig:cav_ferr_shield' on page 114 undefined on input l
 ine 98.
 
 
-LaTeX Warning: Reference `fig:cav_ferr_no_shield_tan_v_q' on page 119 undefined
+LaTeX Warning: Reference `fig:cav_ferr_no_shield_tan_v_q' on page 118 undefined
  on input line 102.
 
 
-LaTeX Warning: Reference `fig:cav_ferr_no_shield_q_v_loss_ferr' on page 119 und
+LaTeX Warning: Reference `fig:cav_ferr_no_shield_q_v_loss_ferr' on page 118 und
 efined on input line 102.
 
 [16]
 
-LaTeX Warning: Reference `fig:cav_ferr_shield_tan_v_q' on page 121 undefined on
+LaTeX Warning: Reference `fig:cav_ferr_shield_tan_v_q' on page 120 undefined on
  input line 107.
 
 
-LaTeX Warning: Reference `fig:cav_ferr_shield_q_v_loss_ferr' on page 121 undefi
+LaTeX Warning: Reference `fig:cav_ferr_shield_q_v_loss_ferr' on page 120 undefi
 ned on input line 107.
 
 
-LaTeX Warning: Reference `fig:phase-1-col-longitudinal-rf' on page 125 undefine
+LaTeX Warning: Reference `fig:phase-1-col-longitudinal-rf' on page 124 undefine
 d on input line 113.
 
 
-LaTeX Warning: Reference `fig:phase-1-col-sliding-contacts' on page 125 undefin
+LaTeX Warning: Reference `fig:phase-1-col-sliding-contacts' on page 124 undefin
 ed on input line 113.
 
 [17]
 
-LaTeX Warning: Reference `sec:damping_materials' on page 126 undefined on input
+LaTeX Warning: Reference `sec:damping_materials' on page 125 undefined on input
  line 116.
 
 
-LaTeX Warning: Reference `fig:phase-2-moly' on page 129 undefined on input line
+LaTeX Warning: Reference `fig:phase-2-moly' on page 128 undefined on input line
  117.
 
 
-LaTeX Warning: Reference `fig:phase-2-molycd' on page 129 undefined on input li
+LaTeX Warning: Reference `fig:phase-2-molycd' on page 128 undefined on input li
 ne 117.
 
 
-LaTeX Warning: Reference `fig:phase-2-long' on page 130 undefined on input line
+LaTeX Warning: Reference `fig:phase-2-long' on page 129 undefined on input line
  121.
 
 
-LaTeX Warning: Reference `fig:phase-2-horzdip' on page 130 undefined on input l
+LaTeX Warning: Reference `fig:phase-2-horzdip' on page 129 undefined on input l
 ine 121.
 
 
-LaTeX Warning: Reference `fig:phase-2-vertdip' on page 130 undefined on input l
+LaTeX Warning: Reference `fig:phase-2-vertdip' on page 129 undefined on input l
 ine 121.
 
 
-LaTeX Warning: Reference `fig:phase-2-horzquad' on page 130 undefined on input 
+LaTeX Warning: Reference `fig:phase-2-horzquad' on page 129 undefined on input 
 line 121.
 
 
-LaTeX Warning: Reference `fig:phase-2-vertquad' on page 130 undefined on input 
+LaTeX Warning: Reference `fig:phase-2-vertquad' on page 129 undefined on input 
 line 121.
 
 
@@ -990,36 +990,36 @@ drupo-lar impedance
 
 [18]
 
-LaTeX Warning: Reference `fig:cross-sec-ferr' on page 133 undefined on input li
+LaTeX Warning: Reference `fig:cross-sec-ferr' on page 132 undefined on input li
 ne 128.
 
 
-LaTeX Warning: Reference `fig:cross-sec-rf-fingers' on page 133 undefined on in
+LaTeX Warning: Reference `fig:cross-sec-rf-fingers' on page 132 undefined on in
 put line 128.
 
 
-LaTeX Warning: Reference `fig:sliding-contacts' on page 135 undefined on input 
+LaTeX Warning: Reference `fig:sliding-contacts' on page 134 undefined on input 
 line 131.
 
 
-LaTeX Warning: Reference `fig:rf-circuit-ferrite' on page 135 undefined on inpu
+LaTeX Warning: Reference `fig:rf-circuit-ferrite' on page 134 undefined on inpu
 t line 131.
 
 
-LaTeX Warning: Reference `fig:tctp-time-real' on page 137 undefined on input li
+LaTeX Warning: Reference `fig:tctp-time-real' on page 136 undefined on input li
 ne 134.
 
 
-LaTeX Warning: Reference `fig:tctp-time-imag' on page 137 undefined on input li
+LaTeX Warning: Reference `fig:tctp-time-imag' on page 136 undefined on input li
 ne 134.
 
 [19]
 
-LaTeX Warning: Reference `fig:tctp-ferrite' on page 142 undefined on input line
+LaTeX Warning: Reference `fig:tctp-ferrite' on page 141 undefined on input line
  138.
 
 
-LaTeX Warning: Reference `fig:tctp-long-rf-finger' on page 142 undefined on inp
+LaTeX Warning: Reference `fig:tctp-long-rf-finger' on page 141 undefined on inp
 ut line 138.
 
 
@@ -1029,44 +1029,44 @@ he TCTP col-li-ma-tor high-
  []
 
 
-LaTeX Warning: Reference `sub@fig:mkiCrossSectionYZ' on page 148 undefined on i
+LaTeX Warning: Reference `sub@fig:mkiCrossSectionYZ' on page 147 undefined on i
 nput line 145.
 
 
-LaTeX Warning: Reference `sub@fig:mkiCrossSectionXY' on page 148 undefined on i
+LaTeX Warning: Reference `sub@fig:mkiCrossSectionXY' on page 147 undefined on i
 nput line 145.
 
 
-LaTeX Warning: Reference `sub@fig:mkiOutTank' on page 149 undefined on input li
+LaTeX Warning: Reference `sub@fig:mkiOutTank' on page 148 undefined on input li
 ne 148.
 
 
-LaTeX Warning: Reference `sub@fig:mkiInTunnel' on page 149 undefined on input l
+LaTeX Warning: Reference `sub@fig:mkiInTunnel' on page 148 undefined on input l
 ine 148.
 
 
-LaTeX Warning: Reference `sub@fig:mkiCrossSec' on page 151 undefined on input l
+LaTeX Warning: Reference `sub@fig:mkiCrossSec' on page 150 undefined on input l
 ine 151.
 
 
-LaTeX Warning: Reference `sub@fig:beamScreenCapEnd' on page 151 undefined on in
+LaTeX Warning: Reference `sub@fig:beamScreenCapEnd' on page 150 undefined on in
 put line 151.
 
 
-LaTeX Warning: Reference `fig:mki-ip2-heating-2011' on page 153 undefined on in
+LaTeX Warning: Reference `fig:mki-ip2-heating-2011' on page 152 undefined on in
 put line 154.
 
 
-LaTeX Warning: Reference `fig:mki-ip8-heating-2011' on page 153 undefined on in
+LaTeX Warning: Reference `fig:mki-ip8-heating-2011' on page 152 undefined on in
 put line 154.
 
 [20]
 
-LaTeX Warning: Reference `fig:mki-15-horz-dipolar' on page 157 undefined on inp
+LaTeX Warning: Reference `fig:mki-15-horz-dipolar' on page 156 undefined on inp
 ut line 160.
 
 
-LaTeX Warning: Reference `fig:mki-15-vert-dipolar' on page 157 undefined on inp
+LaTeX Warning: Reference `fig:mki-15-vert-dipolar' on page 156 undefined on inp
 ut line 160.
 
 
@@ -1077,80 +1077,80 @@ spheres place in MKI8d
 
 [21]
 
-LaTeX Warning: Reference `fig:mki-buildup-ferrite' on page 169 undefined on inp
+LaTeX Warning: Reference `fig:mki-buildup-ferrite' on page 168 undefined on inp
 ut line 168.
 
 
-LaTeX Warning: Reference `fig:mki-buildup-ferrite-ceramic' on page 169 undefine
+LaTeX Warning: Reference `fig:mki-buildup-ferrite-ceramic' on page 168 undefine
 d on input line 168.
 
 
-LaTeX Warning: Reference `fig:mki-buildup-ferrite-ceramic-cond' on page 169 und
+LaTeX Warning: Reference `fig:mki-buildup-ferrite-ceramic-cond' on page 168 und
 efined on input line 168.
 
 
 LaTeX Warning: Reference `fig:mki-buildup-ferrite-ceramic-cond-full' on page 16
-9 undefined on input line 168.
+8 undefined on input line 168.
 
 
-LaTeX Warning: Reference `fig:mki-buildup-real-imp' on page 169 undefined on in
+LaTeX Warning: Reference `fig:mki-buildup-real-imp' on page 168 undefined on in
 put line 173.
 
 
-LaTeX Warning: Reference `fig:mki-buildup-imag-imp' on page 169 undefined on in
+LaTeX Warning: Reference `fig:mki-buildup-imag-imp' on page 168 undefined on in
 put line 173.
 
 
-LaTeX Warning: Reference `fig:15-cond-together' on page 170 undefined on input 
+LaTeX Warning: Reference `fig:15-cond-together' on page 169 undefined on input 
 line 176.
 
 
-LaTeX Warning: Reference `fig:19-cond-together' on page 170 undefined on input 
+LaTeX Warning: Reference `fig:19-cond-together' on page 169 undefined on input 
 line 176.
 
 
-LaTeX Warning: Reference `fig:24-cond-together' on page 170 undefined on input 
+LaTeX Warning: Reference `fig:24-cond-together' on page 169 undefined on input 
 line 176.
 
 
-LaTeX Warning: Reference `fig:17-cond-alt' on page 171 undefined on input line 
+LaTeX Warning: Reference `fig:17-cond-alt' on page 170 undefined on input line 
 180.
 
 
-LaTeX Warning: Reference `fig:19-cond-alt' on page 171 undefined on input line 
+LaTeX Warning: Reference `fig:19-cond-alt' on page 170 undefined on input line 
 180.
 
 
-LaTeX Warning: Reference `fig:20-cond-alt' on page 171 undefined on input line 
+LaTeX Warning: Reference `fig:20-cond-alt' on page 170 undefined on input line 
 180.
 
 
-LaTeX Warning: Reference `fig:24-cond-alt' on page 171 undefined on input line 
+LaTeX Warning: Reference `fig:24-cond-alt' on page 170 undefined on input line 
 180.
 
 
-LaTeX Warning: Reference `fig:remove-cond-real-imp' on page 172 undefined on in
+LaTeX Warning: Reference `fig:remove-cond-real-imp' on page 171 undefined on in
 put line 185.
 
 
-LaTeX Warning: Reference `fig:remove-cond-imag-imp' on page 172 undefined on in
+LaTeX Warning: Reference `fig:remove-cond-imag-imp' on page 171 undefined on in
 put line 185.
 
 
-LaTeX Warning: Reference `fig:mesh-full' on page 174 undefined on input line 18
+LaTeX Warning: Reference `fig:mesh-full' on page 173 undefined on input line 18
 9.
 
 
-LaTeX Warning: Reference `fig:mesh-cutdown' on page 174 undefined on input line
+LaTeX Warning: Reference `fig:mesh-cutdown' on page 173 undefined on input line
  189.
 
 [22]
 
-LaTeX Warning: Reference `fig:overlap-imp' on page 175 undefined on input line 
+LaTeX Warning: Reference `fig:overlap-imp' on page 174 undefined on input line 
 192.
 
 
-LaTeX Warning: Reference `fig:overlap-imp-zoom' on page 175 undefined on input 
+LaTeX Warning: Reference `fig:overlap-imp-zoom' on page 174 undefined on input 
 line 192.
 
 
@@ -1160,619 +1160,83 @@ nal beam cou-pling impedance
  []
 
 
-LaTeX Warning: Reference `eqn:imp-overlap-fres' on page 176 undefined on input 
+LaTeX Warning: Reference `eqn:imp-overlap-fres' on page 175 undefined on input 
 line 195.
 
 [23]
 
-LaTeX Warning: Reference `fig:new-screen-designs-mki' on page 184 undefined on 
+LaTeX Warning: Reference `fig:new-screen-designs-mki' on page 183 undefined on 
 input line 204.
 
 
-LaTeX Warning: Reference `fig:new-screen-designs-mki-imag' on page 184 undefine
+LaTeX Warning: Reference `fig:new-screen-designs-mki-imag' on page 183 undefine
 d on input line 204.
 
 
-LaTeX Warning: Reference `fig:mki-screen-heating-25ns' on page 185 undefined on
+LaTeX Warning: Reference `fig:mki-screen-heating-25ns' on page 184 undefined on
  input line 207.
 
 
-LaTeX Warning: Reference `fig:mki-screen-heating-50ns' on page 185 undefined on
+LaTeX Warning: Reference `fig:mki-screen-heating-50ns' on page 184 undefined on
  input line 207.
 
 [24]
 
-LaTeX Warning: Reference `sub@fig:tt2111rPerm' on page 225 undefined on input l
+LaTeX Warning: Reference `sub@fig:tt2111rPerm' on page 224 undefined on input l
 ine 220.
 
 
-LaTeX Warning: Reference `sub@fig:tt2111rPenDepth' on page 225 undefined on inp
+LaTeX Warning: Reference `sub@fig:tt2111rPenDepth' on page 224 undefined on inp
 ut line 220.
 
 
-LaTeX Warning: Reference `sub@fig:4s60Perm' on page 226 undefined on input line
+LaTeX Warning: Reference `sub@fig:4s60Perm' on page 225 undefined on input line
  223.
 
 
-LaTeX Warning: Reference `sub@fig:4s60PenDepth' on page 226 undefined on input 
+LaTeX Warning: Reference `sub@fig:4s60PenDepth' on page 225 undefined on input 
 line 223.
 
 
-LaTeX Warning: Reference `sub@fig:4a4Perm' on page 226 undefined on input line 
+LaTeX Warning: Reference `sub@fig:4a4Perm' on page 225 undefined on input line 
 226.
 
 
-LaTeX Warning: Reference `sub@fig:4a4PenDepth' on page 226 undefined on input l
+LaTeX Warning: Reference `sub@fig:4a4PenDepth' on page 225 undefined on input l
 ine 226.
 
 
-LaTeX Warning: Reference `sub@fig:4a4Perm' on page 227 undefined on input line 
+LaTeX Warning: Reference `sub@fig:4a4Perm' on page 226 undefined on input line 
 229.
 
 
-LaTeX Warning: Reference `sub@fig:4a4PenDepth' on page 227 undefined on input l
+LaTeX Warning: Reference `sub@fig:4a4PenDepth' on page 226 undefined on input l
 ine 229.
 
 )
 \tf@lof=\write7
  [25] (E:\GitHub\Thesis_the_second\thesis.nls [26
 
-]
-! Extra }, or forgotten $.
-\sbox ...hbox {\color@setgroup #2\color@endgroup }
-                                                  
-l.68   \item [{$\tau}]
-                      \begingroup $\nomeqref {0}\nompageref{13}
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.68   \item [{$\tau}]\begingroup $
-                                   \nomeqref {0}\nompageref{13}
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.68 ...]\begingroup $\nomeqref {0}\nompageref{13}
-                                                  
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.69   \item [{$B_{\parallel}$}]
-                                \begingroup The longitudinal component of a ...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.71   \item [{$C$}]
-                    \begingroup The capacitance of an RLC circuit\nomeqref {0}
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73   \item [{$c$}]
-                    \begingroup Speed of light in vacuum($=$299792458 m/s)\n...
-
-? 
-[27]
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.75   \item [{$e$}]
-                    \begingroup Charge of an electron\nomeqref {0}
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.77   \item [{$E_{\parallel}$}]
-                                \begingroup The longitudinal component of an...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.79   \item [{$F_{\parallel}$}]
-                                \begingroup The longitudinal component of a ...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81   \item [{$f_{res}$}]
-                          \begingroup The resonant frequency of a resonant i...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.83   \item [{$f_{rev}$}]
-                          \begingroup Revolution frequency of the accelerato...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.85   \item [{$I_{b}$}]
-                        \begingroup DC beam current\nomeqref {0}
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.87   \item [{$j$}]
-                    \begingroup imaginary number $-\sqrt{-1}$\nomeqref {0}
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.89   \item [{$k$}]
-                    \begingroup Wave number\nomeqref {0}\nompageref{13}
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.90   \item [{$k_{f}$}]
-                        \begingroup Focal strength of a quadrupole magnet\no...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.92   \item [{$k_{loss}$}]
-                           \begingroup The loss factor of a single particle ...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.94   \item [{$L$}]
-                    \begingroup The inductance of an RLC circuit\nomeqref {0}
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96   \item [{$m$}]
-                    \begingroup Particle Mass\nomeqref {0}\nompageref{13}
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.97   \item [{$N_{b}$}]
-                        \begingroup Bunch population. b replaced by 1 or 2 f...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.99   \item [{$n_{b}$}]
-                        \begingroup The number of bunches in the accelerator...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101   \item [{$p$}]
-                     \begingroup Particle momentum\nomeqref {0}
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.103   \item [{$P_{loss}$}]
-                            \begingroup The power lost by a beam due to inte...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.105   \item [{$P_{surf}$}]
-                            \begingroup The power loss due to ohmic losses o...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.107   \item [{$Q$}]
-                     \begingroup The quality factor of a resonant impedance\...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109   \item [{$q$}]
-                     \begingroup Charge of a particle\nomeqref {0}
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111   \item [{$Q_{0}$}]
-                         \begingroup Unperturbed betatron tune\nomeqref {0}
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.113   \item [{$q_{1}$}]
-                         \begingroup Charge of the source or inducing partic...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.115   \item [{$q_{1}$}]
-                         \begingroup Charge of the test or witness particle ...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.117   \item [{$Q_{pert}$}]
-                            \begingroup Part of the betatron tune caused by ...
-
-? 
-[28]
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.119   \item [{$R_{s}$}]
-                         \begingroup The shunt impedance of a resonant imped...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.121   \item [{$S_{21,DUT}$}]
-                              \begingroup The transmission parameter through...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.123   \item [{$S_{21}$}]
-                          \begingroup The transmission parameter for an RF s...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.125   \item [{$t_{b}$}]
-                         \begingroup The bunch length in time ($4\sigma$ len...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127   \item [{$T_{c}$}]
-                         \begingroup Curie temperature of a ferrite\nomeqref...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.129   \item [{$V_{acc}$}]
-                           \begingroup The voltage experienced by a witness ...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.131   \item [{$W$}]
-                     \begingroup The energy stored in a cavity due to a give...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.133   \item [{$W_{\parallel}$}]
-                                 \begingroup The longitudinal wake function ...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.135   \item [{$w_{\parallel}$}]
-                                 \begingroup The longitudinal wake function\...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.137   \item [{$W_{\perp}$}]
-                             \begingroup The transverse wake function of a b...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.139   \item [{$w_{\perp}$}]
-                             \begingroup The transverse wake function\nomeqr...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.141   \item [{$Z_{0}$}]
-                         \begingroup Impedance of free space\nomeqref {0}
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143   \item [{$Z_{\parallel}$}]
-                                 \begingroup The total longitudinal impedanc...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.145   \item [{$Z_{\perp}$}]
-                             \begingroup The total transverse impedance\nome...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 ...m [{$Z_{const, x}$ or $Z_{constant, x}$}]
-                                                  \begingroup The horizontal...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.149 ...m [{$Z_{const, y}$ or $Z_{constant, y}$}]
-                                                  \begingroup The vertical c...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.151   \item [{$Z_{dip, x}$ or $Z_{dipolar, x}$}]
-                                                  \begingroup The horizontal...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153   \item [{$Z_{dip, y}$ or $Z_{dipolar, y}$}]
-                                                  \begingroup The vertical d...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.155 ...[{$Z_{quad, x}$ or $Z_{quadrupolar, x}$}]
-                                                  \begingroup The horizontal...
-
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 ...[{$Z_{quad, y}$ or $Z_{quadrupolar, y}$}]
-                                                  \begingroup The vertical q...
-
-? 
-
-! LaTeX Error: \begin{document} ended by \end{thenomenclature}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.160 \end{thenomenclature}
-                           
-? 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.160 \end{thenomenclature}
-                           
-? 
-) [29] (E:\GitHub\Thesis_the_second\Preface/abstract.tex
+] [27] [28] [29]) [30]
+(E:\GitHub\Thesis_the_second\Preface/abstract.tex
 Overfull \hbox (14.11746pt too wide) in paragraph at lines 1--2
 \T1/ptm/m/n/12 Wakefields and the cor-re-spond-ing frequency-domain phe-nomenon
  beam cou-pling impedance
  []
 
-) [30
+) [31
 
-] [31]
+] [32]
 Underfull \hbox (badness 10000) in paragraph at lines 57--57
 
  []
 
-[32
+[33
 
-] [33
+] [34
 
-] (E:\GitHub\Thesis_the_second\symbols.tex
-! Too many }'s.
-l.34 \nomenclature{$\tau}$}
-                           {The time between the source and witness particle...
-
-? 
-) [34] (E:\GitHub\Thesis_the_second\Preface/author.tex) [35
+] (E:\GitHub\Thesis_the_second\symbols.tex)
+(E:\GitHub\Thesis_the_second\Preface/author.tex) [35
 
 ] [36
 
@@ -4178,7 +3642,7 @@ e1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/pa
 latino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/times/utmb
 8a.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/times/utmr8a.pfb><C:/
 Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (253 pages, 23541725 bytes).
+Output written on thesis.pdf (253 pages, 23542644 bytes).
 PDF statistics:
  6093 PDF objects out of 6186 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

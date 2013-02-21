@@ -15,6 +15,6 @@ Scanning input file thesis.nlo....
    -- Incomplete first argument (premature LFD).
 done (80 entries accepted, 2 rejected).
 Sorting entries....done (553 comparisons).
-Generating output file thesis.nls....done (160 lines written, 0 warnings).
+Generating output file thesis.nls....done (161 lines written, 0 warnings).
 Output written in thesis.nls.
 Transcript written in thesis.ilg.
