@@ -1,5 +1,44 @@
 \label{app:long_motion}
 
+In this section we shall define some key parameters of longitudinal motion to aid understanding of the effects of wakefields on particle beams. A significant parameter in the case longitudinal dynamics and RF control is the parameter known as the momentum compaction factor. This is defined relating the variation in the closed orbit with momentum. For example, if we consider a nominal closed orbit in a circular accelerator of length $C$, defined for a particle of momentum $p$. For a particle with a momentum deviation $\Delta p$ which gives a orbit length variation $\Delta C$, they are related to one another by
+
+\begin{equation}
+\frac{\Delta C}{C} = \alpha_{p} \frac{\Delta p}{p}
+\end{equation}
+
+assuming that the bending field $B$ is constant. In this case $C=2\pi R$ where $R$ is the average radius of the closed orbit. This maybe related by infinitessimal changes to give
+
+\begin{equation}
+\alpha_{p} = \frac{\frac{dC}{C}}{\frac{dp}{p}} = \frac{\frac{dR}{R}}{\frac{dp}{p}}
+\label{eqn:momCP}
+\end{equation}
+
+and related to the dispersion of the optics and the bending radius $\rho$
+
+\begin{equation}
+\alpha_{p} = \frac{1}{C}\int_{C}\frac{D_{x} \left( s \right)}{\rho\left( s \right)} ds.
+\end{equation}
+
+For most circular machines $\alpha_{p}$ is positive, i.e. higher momentum means longer circumference of the orbit. To relate the momentum compaction to the particle energy, it can be seen that 
+
+\begin{equation}
+E = \frac{pc}{\beta} \rightarrow \frac{dE}{E} = \beta^{2}\frac{dp}{p}
+\end{equation}
+
+which substituting into Eqn.~\ref{eqn:momCP} gives
+
+\begin{equation}
+\alpha_{p} = \beta^{2}\frac{E}{R}\frac{dR}{dE}.
+\end{equation}
+
+For a machine with a positive momentum compaction, there are two relationships:
+
+\begin{enumerate}
+\item{a momentum larger than nominal results in an increased circumference of the orbit}
+\item{a momentum larger than nominal results in an increase in velocity}
+\end{enumerate}
+
+If we consider what happens to the revolution frequency, we can see that at low energies, the velocity increases faster than C. At high energies, $v \approx c$ and remains almost constant, thus increases slower than C. There is an energy for which the velocity increase is compensated for by the increase in circumference, i.e. the revolution frequency doesn't change with increasing momentum. This is called the transition energy. Below this energy (below transition) increasing the energy of the particles results in a higher revolution frequency. Above the energy (above transition) increasing the energy of the particles results in a lower revolution frequency.
 As is shown in Sec.~\ref{sec:beamDyn}, the longitudinal force on a charged particle in a particle accelerator is defined as 
 
 \begin{equation}
