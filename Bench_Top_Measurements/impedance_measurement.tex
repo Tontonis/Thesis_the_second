@@ -22,10 +22,10 @@ A moving charged particle produces an electromagnetic field in na arc transverse
 
 The classical coaxial wire method, first proposed in it's present form by V. Vaccarro in 1990 \cite{Vaccaro:ImprovedWireMeth}, is a transmission method that measures the complex transmission coefficient of a DUT (Device Under Test) made up of the equipment whose impedance is to be measured and a coaxial wire passing through it. 
 
-The experimental setup is as shown in Fig. \ref{fig:classic-coax}. Firstly the external circuit (i.e. everything not the DUT such as VNA, cables, transition etc.) is matched to the characteristic impedance of the coaxial line inside the DUT. This is done by measuring the reflection coefficient $\Gamma$ for the setup with only one port connected to the DUT and the other end terminated by an open connection. Knowing the characteristic impedance of the VNA and associated cables (typically $Z_{0} = 50\Omega$), we can easily calculate the characteristic impedance, $Z_{c}$, from the relation,
+The experimental setup is as shown in Fig. \ref{fig:classic-coax}. Firstly the external circuit (i.e. everything not the DUT such as VNA, cables, transition etc.) is matched to the characteristic impedance of the coaxial line inside the DUT. This is done by measuring the reflection coefficient $\Gamma$ for the setup with only one port connected to the DUT and the other end terminated by an open connection. Knowing the characteristic impedance of the VNA and associated cables (typically $Z_{c0} = 50\Omega$), we can easily calculate the characteristic impedance, $Z_{c}$, from the relation,
 
 \begin{equation}
-\Gamma = \frac{Z_{c} - Z_{0}}{Z_{c} + Z_{0}}.
+\Gamma = \frac{Z_{c} - Z_{c0}}{Z_{c} + Z_{c0}}.
 \end{equation}
 
 We then electrically match the characteristic impedance by adding resistors in series just before the DUT to resistively match the characteristic impedance of the VNA to that of the DUT. It is possible to use physical matching also using transition cones but these are costly, time consuming to construct and require new cones for each piece of equipment measured. And as can be seen in Fig. \ref{fig:matching-plot}, matching with a resistor is highly effective at removing the presence of reflections in coaxial measurements.
@@ -72,7 +72,7 @@ For long components or measurements at very high frequencies there exists the im
 Z = -2Z_{c} ln \left( S_{21}  \right) \left( 1 + j\frac{ln \left( S_{21}\right) }{2\Theta}  \right)
 \end{equation}
 
-where $\Theta = 2\pi \frac{L}{\lambda}$ is the normalised electrical length of the device, $L$ the length of the device, $\lambda$ the wavelength of the frequency of measurement. It is possible to see that the lumped impedance formula can be used when $\Theta \leq 1$, and the improved log formula becomes useful for $\Theta \geq 5$ \cite{Jensen:ImprovLogForm}.
+where $\Theta = 2\pi \frac{L}{\lambda}$ is the normalised electrical length of the device, $L$ the length of the device. It is possible to see that the lumped impedance formula can be used when $\Theta \leq 1$, and the improved log formula becomes useful for $\Theta \geq 5$ \cite{Jensen:ImprovLogForm}.
 
 
 

@@ -1,0 +1,160 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{$(\rho , \theta , z)$}]\begingroup Coordinate system of an ideal on-momentum particle\nomeqref {0}
+		\nompageref{13}
+  \item [{$(x , y , z)$}]\begingroup Coordinate system comoving with the on-momentum particle\nomeqref {0}
+		\nompageref{13}
+  \item [{$(x_{1}, y_{1},z_{1})$}]\begingroup The coordinates of the source or inducing particle of a wakefield\nomeqref {0}
+		\nompageref{13}
+  \item [{$(x_{2}, y_{2}, z_{2})$}]\begingroup The coordinates of the test or witness particle of a wakefield\nomeqref {0}
+		\nompageref{13}
+  \item [{$\beta$}]\begingroup Particle velocity normalised by the speed of light\nomeqref {0}
+		\nompageref{13}
+  \item [{$\delta$}]\begingroup The skin depth of a material\nomeqref {0}
+		\nompageref{13}
+  \item [{$\epsilon^{'}$}]\begingroup The real component the complex permitivitty of a material\nomeqref {0}
+		\nompageref{13}
+  \item [{$\epsilon_{0}$}]\begingroup The permitivitty of free space\nomeqref {0}
+		\nompageref{13}
+  \item [{$\epsilon_{r}$}]\begingroup The relative permitivitty of a material\nomeqref {0}
+		\nompageref{13}
+  \item [{$\gamma$}]\begingroup Relativistic factor\nomeqref {0}
+		\nompageref{13}
+  \item [{$\Im{}m$}]\begingroup The imaginary component of a number or function\nomeqref {0}
+		\nompageref{13}
+  \item [{$\lambda (f)$}]\begingroup Frequency domain longitudinal distribution\nomeqref {0}
+		\nompageref{13}
+  \item [{$\lambda$}]\begingroup Wavelength\nomeqref {0}\nompageref{13}
+  \item [{$\mathbf{B} = (B_{x}, B_{y}, B_{z})$}]\begingroup The magnetic induction (referred to as the magnetic field in the text due to convention) components relative to the coordinate system following the on momentum particle\nomeqref {0}
+		\nompageref{13}
+  \item [{$\mathbf{B}_{\perp}$}]\begingroup The perpendicular components of a magnetic field\nomeqref {0}
+		\nompageref{13}
+  \item [{$\mathbf{E} = (E_{x}, E_{y}, E_{z})$}]\begingroup The electric field components relative to the coordinate system following the on-momentum particle\nomeqref {0}
+		\nompageref{13}
+  \item [{$\mathbf{E}_{\perp}$}]\begingroup The perpendicular components of an electric field\nomeqref {0}
+		\nompageref{13}
+  \item [{$\mathbf{F}_{\perp}$}]\begingroup The perpendicular components of a force\nomeqref {0}
+		\nompageref{13}
+  \item [{$\mathbf{v}$}]\begingroup Particle velocity\nomeqref {0}
+		\nompageref{13}
+  \item [{$\mathcal{L}$}]\begingroup Luminosity at a collision point\nomeqref {0}
+		\nompageref{13}
+  \item [{$\mu^{'}$}]\begingroup The real component the complex permeability of a material\nomeqref {0}
+		\nompageref{13}
+  \item [{$\mu_{0}$}]\begingroup The permeability of free space\nomeqref {0}
+		\nompageref{13}
+  \item [{$\mu_{r}$}]\begingroup The relative permeability of a material\nomeqref {0}
+		\nompageref{13}
+  \item [{$\omega$}]\begingroup Angular velocity or angular frequency\nomeqref {0}
+		\nompageref{13}
+  \item [{$\omega_{res}$}]\begingroup The resonant angular frequency of a resonant impedance\nomeqref {0}
+		\nompageref{13}
+  \item [{$\Re{}e$}]\begingroup The real component of a number or function\nomeqref {0}
+		\nompageref{13}
+  \item [{$\rho (t)$}]\begingroup Time domain longitudinal distribution\nomeqref {0}
+		\nompageref{13}
+  \item [{$\rho$}]\begingroup The resistivity of a material\nomeqref {0}
+		\nompageref{13}
+  \item [{$\sigma$}]\begingroup The conductivity of a material\nomeqref {0}
+		\nompageref{13}
+  \item [{$\sigma_{p}$}]\begingroup Production cross section for a particle reaction\nomeqref {0}
+		\nompageref{13}
+  \item [{$\sigma_{x,y}$}]\begingroup Gaussian bunch sigma for the transverse cross-section in the horizontal and vertical planes\nomeqref {0}
+		\nompageref{13}
+  \item [{$\sigma_{z}$}]\begingroup The bunch length in distance ($4\sigma$ length for Gaussian distributions)\nomeqref {0}
+		\nompageref{13}
+  \item [{$\tau}]\begingroup $\nomeqref {0}\nompageref{13}
+  \item [{$B_{\parallel}$}]\begingroup The longitudinal component of a magnetic field\nomeqref {0}
+		\nompageref{13}
+  \item [{$C$}]\begingroup The capacitance of an RLC circuit\nomeqref {0}
+		\nompageref{13}
+  \item [{$c$}]\begingroup Speed of light in vacuum($=$299792458 m/s)\nomeqref {0}
+		\nompageref{13}
+  \item [{$e$}]\begingroup Charge of an electron\nomeqref {0}
+		\nompageref{13}
+  \item [{$E_{\parallel}$}]\begingroup The longitudinal component of an electric field\nomeqref {0}
+		\nompageref{13}
+  \item [{$F_{\parallel}$}]\begingroup The longitudinal component of a force\nomeqref {0}
+		\nompageref{13}
+  \item [{$f_{res}$}]\begingroup The resonant frequency of a resonant impedance\nomeqref {0}
+		\nompageref{13}
+  \item [{$f_{rev}$}]\begingroup Revolution frequency of the accelerator\nomeqref {0}
+		\nompageref{13}
+  \item [{$I_{b}$}]\begingroup DC beam current\nomeqref {0}
+		\nompageref{13}
+  \item [{$j$}]\begingroup imaginary number $-\sqrt{-1}$\nomeqref {0}
+		\nompageref{13}
+  \item [{$k$}]\begingroup Wave number\nomeqref {0}\nompageref{13}
+  \item [{$k_{f}$}]\begingroup Focal strength of a quadrupole magnet\nomeqref {0}
+		\nompageref{13}
+  \item [{$k_{loss}$}]\begingroup The loss factor of a single particle wakefield\nomeqref {0}
+		\nompageref{13}
+  \item [{$L$}]\begingroup The inductance of an RLC circuit\nomeqref {0}
+		\nompageref{13}
+  \item [{$m$}]\begingroup Particle Mass\nomeqref {0}\nompageref{13}
+  \item [{$N_{b}$}]\begingroup Bunch population. b replaced by 1 or 2 for the case of colliding beams\nomeqref {0}
+		\nompageref{13}
+  \item [{$n_{b}$}]\begingroup The number of bunches in the accelerator. In the case of colliding beams it it the number of colliding bunches\nomeqref {0}
+		\nompageref{13}
+  \item [{$p$}]\begingroup Particle momentum\nomeqref {0}
+		\nompageref{13}
+  \item [{$P_{loss}$}]\begingroup The power lost by a beam due to interaction with a beam impedance\nomeqref {0}
+		\nompageref{13}
+  \item [{$P_{surf}$}]\begingroup The power loss due to ohmic losses on the surface of a cavity\nomeqref {0}
+		\nompageref{13}
+  \item [{$Q$}]\begingroup The quality factor of a resonant impedance\nomeqref {0}
+		\nompageref{13}
+  \item [{$q$}]\begingroup Charge of a particle\nomeqref {0}
+		\nompageref{13}
+  \item [{$Q_{0}$}]\begingroup Unperturbed betatron tune\nomeqref {0}
+		\nompageref{13}
+  \item [{$q_{1}$}]\begingroup Charge of the source or inducing particle of a wakefield\nomeqref {0}
+		\nompageref{13}
+  \item [{$q_{1}$}]\begingroup Charge of the test or witness particle of a wakefield\nomeqref {0}
+		\nompageref{13}
+  \item [{$Q_{pert}$}]\begingroup Part of the betatron tune caused by a perturbing force\nomeqref {0}
+		\nompageref{13}
+  \item [{$R_{s}$}]\begingroup The shunt impedance of a resonant impedance\nomeqref {0}
+		\nompageref{13}
+  \item [{$S_{21,DUT}$}]\begingroup The transmission parameter through a device under test\nomeqref {0}
+		\nompageref{13}
+  \item [{$S_{21}$}]\begingroup The transmission parameter for an RF system\nomeqref {0}
+		\nompageref{13}
+  \item [{$t_{b}$}]\begingroup The bunch length in time ($4\sigma$ length for Gaussian distributions)\nomeqref {0}
+		\nompageref{13}
+  \item [{$T_{c}$}]\begingroup Curie temperature of a ferrite\nomeqref {0}
+		\nompageref{13}
+  \item [{$V_{acc}$}]\begingroup The voltage experienced by a witness particle traversing a cavity\nomeqref {0}
+		\nompageref{13}
+  \item [{$W$}]\begingroup The energy stored in a cavity due to a given cavity mode\nomeqref {0}
+		\nompageref{13}
+  \item [{$W_{\parallel}$}]\begingroup The longitudinal wake function of a bunch or wakepotential\nomeqref {0}
+		\nompageref{13}
+  \item [{$w_{\parallel}$}]\begingroup The longitudinal wake function\nomeqref {0}
+		\nompageref{13}
+  \item [{$W_{\perp}$}]\begingroup The transverse wake function of a bunch or trasnverse wakepotential\nomeqref {0}
+		\nompageref{13}
+  \item [{$w_{\perp}$}]\begingroup The transverse wake function\nomeqref {0}
+		\nompageref{13}
+  \item [{$Z_{0}$}]\begingroup Impedance of free space\nomeqref {0}
+		\nompageref{13}
+  \item [{$Z_{\parallel}$}]\begingroup The total longitudinal impedance\nomeqref {0}
+		\nompageref{13}
+  \item [{$Z_{\perp}$}]\begingroup The total transverse impedance\nomeqref {0}
+		\nompageref{13}
+  \item [{$Z_{const, x}$ or $Z_{constant, x}$}]\begingroup The horizontal constant impedance\nomeqref {0}
+		\nompageref{13}
+  \item [{$Z_{const, y}$ or $Z_{constant, y}$}]\begingroup The vertical constant impedance\nomeqref {0}
+		\nompageref{13}
+  \item [{$Z_{dip, x}$ or $Z_{dipolar, x}$}]\begingroup The horizontal dipolar or driving impedance\nomeqref {0}
+		\nompageref{13}
+  \item [{$Z_{dip, y}$ or $Z_{dipolar, y}$}]\begingroup The vertical dipolar or driving impedance\nomeqref {0}
+		\nompageref{13}
+  \item [{$Z_{quad, x}$ or $Z_{quadrupolar, x}$}]\begingroup The horizontal quadrupolar or detuning impedance\nomeqref {0}
+		\nompageref{13}
+  \item [{$Z_{quad, y}$ or $Z_{quadrupolar, y}$}]\begingroup The vertical quadrupolar or detuning impedance\nomeqref {0}
+		\nompageref{13}
+
+\end{thenomenclature}

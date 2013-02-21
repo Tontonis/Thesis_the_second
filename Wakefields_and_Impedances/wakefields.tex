@@ -2,7 +2,7 @@
 
 Wakefields is the conventional name given to the phenomenon of induced electromagnetic fields due to charged particles traversing the beam pipe, RF cavities and many other pieces of equipment facing a particle beam in a particle accelerator. They have long been studied as a source of collective instabilities within particle accelerators \cite{Laslett:ResWallInstab}, through the use of analytical models for different beam pipe geometries \cite{Stupakov:wakeandImp, Stupakov:surfaceRough, Stupakov:adInImpTheory} and materials \cite{Mounet:PhDThesis}, using computational simulation tools, and both beam-based and bench-top measurement techniques. In this chapter is presented a number of significant properties of wakefields and their frequency domain counterpart, beam coupling impedance, as well as a select example of observable effects that wakefields produce.
 
-To aid in the explanation there will first be a short definition of the relative positions and labels of particles used in the following section (this derivation follows the examples given by Stupakov \cite{Stupakov:wakeandImp} and Palumbo \cite{Palumbo:Wakes}). We define the source, or inducing particle as a charged particle with charge $q_{1}$ moving with velocity $\mathbf{v} = \beta{}c \mathbf{\hat{z}}$ at coordinate $\left( \mathbf{r_{1}} \right) = x_{1}\mathbf{\hat{x}} + y_{1}\mathbf{\hat{y}} + z_{1} \mathbf{\hat{z}}$, leading a test, or witness particle, with charge $q_{2}$, moving with velocity $\mathbf{v}$ at coordinate $\left( \mathbf{r_{2}} \right) = x_{2}\mathbf{\hat{x}} + y_{2}\mathbf{\hat{y}} + z_{2} \mathbf{\hat{z}}$ at a distance $z_{1} - z_{2}$ behind the source particle. This relationship is visualised in Fig.~\ref{fig:source_and_wit}.
+To aid in the explanation there will first be a short definition of the relative positions and labels of particles used in the following section (this derivation follows the examples given by Stupakov \cite{Stupakov:wakeandImp} and Palumbo \cite{Palumbo:Wakes}). We define the source, or inducing particle as a charged particle with charge $q_{1}$ moving with velocity $\mathbf{v} = \beta{}c \mathbf{\hat{z}}$ at coordinate $\left( \mathbf{r_{1}} \right)$, leading a test, or witness particle, with charge $q_{2}$, moving with velocity $\mathbf{v}$ at coordinate $\left( \mathbf{r_{2}} \right)$ at a distance $z_{1} - z_{2}$ behind the source particle. This relationship is visualised in Fig.~\ref{fig:source_and_wit}.
 
 \begin{figure}
 \begin{center}
@@ -45,7 +45,7 @@ F_{\parallel}\left(\mathbf{r_{1}}, \mathbf{r_{2}}  \right) = q_{2}E_{\parallel} 
 \mathbf{F_{\perp}}\left(\mathbf{r_{1}}, \mathbf{r_{2}}  \right)  = q_{2}\left[ \mathbf{E_{\perp}} + \left( \mathbf{v} \times \mathbf{B} \right) \right]
 \end{align}
 
-where $E_{\parallel} = \mathbf{E}.\mathbf{\hat{z}}$ and $\mathbf{E_{\perp}} = E_{x}\mathbf{\hat{x}} + E_{y}\mathbf{\hat{y}}$. $F_{\parallel}$ has only an electric component as the magnetic flux density $\mathbf{B}$ has magnitude = 0 in the $\mathbf{\hat{z}}$ direction. Considering just the longitudinal force, integrating over all space gives the total energy change of the source particle
+where $\mathbf{E_{\perp}} = E_{x}\mathbf{\hat{x}} + E_{y}\mathbf{\hat{y}}$. $F_{\parallel}$ has only an electric component as the magnetic flux density $\mathbf{B}$ has magnitude = 0 in the $\mathbf{\hat{z}}$ direction. Considering just the longitudinal force, integrating over all space gives the total energy change of the source particle
 
 \begin{equation}
 U_{1}\left(\mathbf{r_{1}}  \right) = - \int^{\infty}_{-\infty} d\mathbf{z} . \mathbf{F}\left(\mathbf{r_{1}}  \right)
@@ -58,10 +58,10 @@ U_{2}\left(\mathbf{r_{1}}, \mathbf{r_{2}}, \tau  \right)  = - \int^{\infty}_{-\i
 \label{eqn:witness_energy_change_single}
 \end{equation}
 
-where $\tau = \left( z_{1}-z_{2} \right)/\beta{}c$ is the time between the source and witness particle and $F( \mathbf{r_{1}}, \mathbf{r_{2}} ) = q_{2} E (\mathbf{r_{1}}, \mathbf{r_{2}} )$. From these two energy losses two widely used terms can be extracted; the loss factor $k$, given by
+where $\tau = \left( z_{1}-z_{2} \right)/\beta{}c$ and $F( \mathbf{r_{1}}, \mathbf{r_{2}} ) = q_{2} E (\mathbf{r_{1}}, \mathbf{r_{2}} )$. From these two energy losses two widely used terms can be extracted; the loss factor $k$, given by
 
 \begin{equation}
-k\left(\mathbf{r_{1}}  \right) = \frac{U_{1}\left(\mathbf{r_{1}}  \right)}{q_{1}}
+k_{loss}\left(\mathbf{r_{1}}  \right) = \frac{U_{1}\left(\mathbf{r_{1}}  \right)}{q_{1}}
 \end{equation}
 
 and the longitudinal wake function, given by

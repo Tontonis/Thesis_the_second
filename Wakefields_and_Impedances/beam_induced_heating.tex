@@ -8,16 +8,16 @@ To give context to the effects that wakefields have on both the beam and equipme
 \subsubsection{Defining and Deriving Power Loss in Circular Accelerators}
 \label{sec:power_loss}
 
-When a charged particle interacts with a wakefield it's energy changes due to the field that it sees. Assuming a beam with a longitudinal distribution $\rho (\tau)$, normalised such that $\int d \tau \rho (\tau ) = I_{b}$. Now a normalised longitudinal distribution $\rho_{n}$ is introduced, such that $\rho = N_{b} f_{0} e \int d \tau \rho_{n}$. Thus the energy change of the distribution $\rho$ traversing a pipe for a distance $L$ is given by \cite{Chao:PhysColEff, Ng:IntDepInstab}
+When a charged particle interacts with a wakefield it's energy changes due to the field that it sees. Assuming a beam with a longitudinal distribution $\rho (\tau)$, normalised such that $\int d \tau \rho (\tau ) = I_{b}$. Now a normalised longitudinal distribution $\rho_{n}$ is introduced, such that $\rho = N_{b} f_{rev} e \int d \tau \rho_{n}$. Thus the energy change of the distribution $\rho$ traversing a pipe for a distance $L$ is given by \cite{Chao:PhysColEff, Ng:IntDepInstab}
 
 \begin{equation}
-\Delta E = - \left( f_{0} e N_{b}\right)^{2} \int^{\infty}_{-\infty} d\tau^{'} \rho_{n} \left( \tau^{'} \right) \int^{\infty}_{-\infty} d\tau^{} \rho_{n} \left( \tau^{} \right) W_{\parallel} \left( \tau^{'} - \tau \right).  
+\Delta E = - \left( f_{rev} e N_{b}\right)^{2} \int^{\infty}_{-\infty} d\tau^{'} \rho_{n} \left( \tau^{'} \right) \int^{\infty}_{-\infty} d\tau^{} \rho_{n} \left( \tau^{} \right) W_{\parallel} \left( \tau^{'} - \tau \right).  
 \end{equation}
 
 Written in terms of the Fourier transformed quantities this becomes
 
 \begin{equation}
-\Delta E = \frac{-1}{2\pi}\left( f_{0} e N_{b}\right)^{2} \int^{\infty}_{-\infty} d\omega \left| \lambda \left( \omega \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( \omega \right) \right]
+\Delta E = \frac{-1}{2\pi}\left( f_{rev} e N_{b}\right)^{2} \int^{\infty}_{-\infty} d\omega \left| \lambda \left( \omega \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( \omega \right) \right]
 \end{equation}
 
 where 
@@ -29,13 +29,13 @@ where
 For a mode expansion representation of the wakefunction as a sum of loss factors, the total energy change can be written as 
 
 \begin{equation}
-\Delta E = \left( f_{0} e N_{b}\right)^{2} \displaystyle\sum\limits_{n = 0}^{\infty} k_{n} \left| \lambda \left( \omega_{n} \right)  \right|^{2}.
+\Delta E = \left( f_{rev} e N_{b}\right)^{2} \displaystyle\sum\limits_{n = 0}^{\infty} k_{n} \left| \lambda \left( \omega_{n} \right)  \right|^{2}.
 \end{equation}
 
 These terms are valid only for a single pass of the beam through the impedance (i.e. for a linear accelerator). In the case where the beam traverse the same impedance multiple times (i.e. a circular accelerator) it is necessary to take into account the wakefields induced by previous traversals. In this case the energy lost by the beam due to traversing the pipe is given by
 
 \begin{equation}
-\Delta E = - \left( f_{0} e N_{b}\right)^{2} \int^{\infty}_{-\infty} d\tau^{'} \rho_{n} \left( \tau^{'} \right) \int^{\infty}_{-\infty} d\tau^{} \rho_{n} \left( \tau^{} \right) \displaystyle\sum\limits_{q = 0}^{\infty} W_{\parallel, q} \left( q\frac{C}{c} + \tau^{'} - \tau \right)  
+\Delta E = - \left( f_{rev} e N_{b}\right)^{2} \int^{\infty}_{-\infty} d\tau^{'} \rho_{n} \left( \tau^{'} \right) \int^{\infty}_{-\infty} d\tau^{} \rho_{n} \left( \tau^{} \right) \displaystyle\sum\limits_{q = 0}^{\infty} W_{\parallel, q} \left( q\frac{C}{c} + \tau^{'} - \tau \right)  
 \label{eqn:sum_wake_loss}
 \end{equation}
 
@@ -54,7 +54,7 @@ where $F(\tau)$ and $\tilde{F}(\omega)$ are arbitary Fourier transformed pairs. 
 Thus for the total impedance over the accelerator $Z_{\parallel}$ the energy loss is
 
 \begin{equation}
-\Delta E = -\frac{\omega_{0}}{2\pi} \left( f_{0} e N_{b}\right)^{2} \displaystyle\sum\limits_{n = -\infty}^{\infty}  \left| \lambda \left( p \omega_{0} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p \omega_{0} \right) \right].
+\Delta E = -\frac{\omega_{0}}{2\pi} \left( f_{rev} e N_{b}\right)^{2} \displaystyle\sum\limits_{n = -\infty}^{\infty}  \left| \lambda \left( p \omega_{rev} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p \omega_{rev} \right) \right].
 \end{equation}
 
 To find the power the power loss of the bunch distribution it is simply necessary to normalise by the revolution frequency. In addition we use the property of the longitudinal impedance that 
@@ -66,28 +66,28 @@ To find the power the power loss of the bunch distribution it is simply necessar
 to give the power lost by a single bunch in a circular accelerator as 
 
 \begin{equation}
-P_{loss, single} = - 2 \left( f_{0} e N_{b}\right)^{2} \displaystyle\sum\limits_{n = -\infty}^{\infty}  \left| \lambda \left( p \omega_{0} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p \omega_{0} \right) \right].
+P_{loss, single} = - 2 \left( f_{rev} e N_{b}\right)^{2} \displaystyle\sum\limits_{n = -\infty}^{\infty}  \left| \lambda \left( p \omega_{rev} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p \omega_{rev} \right) \right].
 \label{eqn:power_loss_single_bunch}
 \end{equation}
 
 To consider the case of more than one bunch in a circular machine, it is possible to consider Eqn.~\ref{eqn:sum_wake_loss}, but in this case assume a time difference between the successive summed wakes as $\frac{C}{n_{bunch}c}$, in this case assuming that the bunches are equally space around the machine, giving the energy loss for one bunch in a machine with $n_{bunch}$ is 
 
 \begin{equation}
-\Delta E_{bunches} = - \left( f_{0} e  N_{b}\right)^{2} \int^{\infty}_{-\infty} d\tau^{'} \rho_{n} \left( \tau^{'} \right) \int^{\infty}_{-\infty} d\tau^{} \rho_{n} \left( \tau^{} \right) \displaystyle\sum\limits_{q = 0}^{\infty} W_{\parallel, q} \left( q\frac{C}{n_{bunch}c} + \tau^{'} - \tau \right).  
+\Delta E_{bunches} = - \left( f_{rev} e  N_{b}\right)^{2} \int^{\infty}_{-\infty} d\tau^{'} \rho_{n} \left( \tau^{'} \right) \int^{\infty}_{-\infty} d\tau^{} \rho_{n} \left( \tau^{} \right) \displaystyle\sum\limits_{q = 0}^{\infty} W_{\parallel, q} \left( q\frac{C}{n_{bunch}c} + \tau^{'} - \tau \right).  
 \label{eqn:sum_wake_loss_bunches}
 \end{equation}
 
 Following the previous derivation this leads to a power loss due to a single bunch in a train of 
 
 \begin{equation}
-P_{loss, sbt} = - 2 n_{bunch} \left( f_{0} e  N_{b} \right) ^{2} \displaystyle\sum\limits_{n = -\infty}^{\infty}  \left| \lambda \left( p n_{bunch} \omega_{0} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p n_{bunch}\omega_{0} \right) \right].
+P_{loss, sbt} = - 2 n_{bunch} \left( f_{rev} e  N_{b} \right) ^{2} \displaystyle\sum\limits_{n = -\infty}^{\infty}  \left| \lambda \left( p n_{bunch} \omega_{rev} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p n_{bunch}\omega_{rev} \right) \right].
 \label{eqn:power_loss_train_single_bunch}
 \end{equation}
 
 Subsequently taking the sum over all $n_{bunch}$ produces the total power loss 
 
 \begin{equation}
-P_{loss} = - 2 \left( f_{0} e n_{bunch}  N_{b}\right)^{2} \displaystyle\sum\limits_{n = -\infty}^{\infty}  \left| \lambda \left( p n_{bunch} \omega_{0} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p n_{bunch}\omega_{0} \right) \right].
+P_{loss} = - 2 \left( f_{rev} e n_{bunch}  N_{b}\right)^{2} \displaystyle\sum\limits_{n = -\infty}^{\infty}  \left| \lambda \left( p n_{bunch} \omega_{rev} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p n_{bunch}\omega_{rev} \right) \right].
 \label{eqn:heating-gen}
 \end{equation}
 
@@ -115,12 +115,12 @@ As shown by the derivations in Section~\ref{sec:power_loss}, asides from the lon
 \label{eqn:gauss}
 \end{equation}
 
-where $4\sigma_{z} = t_{b}$, $t_{b}$ is the bunch length) when approaching the analytical treatment of beam induced heating, both single-bunch and multi-bunch. Recent measurements of the power spectrum of particle beams, especially in the LHC \cite{Baudrenghien:LHCPowSpec} have shown characteristics that the Gaussian profile does not predict, for example the high frequency secondary peak as seen in Fig.~\ref{fig:measured_gauss}. To make more realistic predictions of heat loss due to beam impedance in the machine it is thus necessary to find bunch profiles which reproduce this behaviour.
+where $4\sigma_{z} = t_{b}$ when approaching the analytical treatment of beam induced heating, both single-bunch and multi-bunch. Recent measurements of the power spectrum of particle beams, especially in the LHC \cite{Baudrenghien:LHCPowSpec} have shown characteristics that the Gaussian profile does not predict, for example the high frequency secondary peak as seen in Fig.~\ref{fig:measured_gauss}. To make more realistic predictions of heat loss due to beam impedance in the machine it is thus necessary to find bunch profiles which reproduce this behaviour.
 
 A number of different longitudinal bunch profiles have been investigated in the past. Here we shall look at 3 other bunch profiles; a parabolic line density (see Eqn.~\ref{eqn:para_profile}), cos$^{2}$ (see Eqn.~\ref{eqn:cos_profile}) and a water-bag (see Eqn.~\ref{eqn:water_bag_profile}).
 
 \begin{equation}
-A\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\omega t} d\omega = 
+\rho\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\omega t} d\omega = 
 \begin{cases}1-\left( \frac{2t} {t_{b}} \right)^{2} &\textrm{if $| t/2 | \leq t_{b}$}\\
 0								&\textrm{if $| t | > t_{b}/2$}
 \end{cases}
@@ -128,7 +128,7 @@ A\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\o
 \end{equation}
 
 \begin{equation}
-A\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\omega t} d\omega = 
+\rho\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\omega t} d\omega = 
 \begin{cases}
 cos^{2}\left( \frac{\pi t} {t_{b}} \right) &\textrm{if $| t/2 | \leq t_{b}$}\\
 0								&\textrm{if $| t | > t_{b}/2$}
@@ -137,7 +137,7 @@ cos^{2}\left( \frac{\pi t} {t_{b}} \right) &\textrm{if $| t/2 | \leq t_{b}$}\\
 \end{equation}
 
 \begin{equation}
-A\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\omega t} d\omega = 
+\rho\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\omega t} d\omega = 
 \begin{cases}
 \sqrt{1-\left( \frac{2t}{t_{b}}\right)^{2}} &\textrm{if $| t/2 | \leq t_{b}$}\\
 0								&\textrm{if $| t | > t_{b}/2$}
