@@ -20,23 +20,6 @@ I was expecting an "="---line 601 of file thesisBib.bib
  : /  
  :    publisher = {American Physical Society}
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1075 of file thesisBib.bib
- :       
- :       institution  = "CERN",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field part---line 1128 of file thesisBib.bib
- :       title        = 
- :                      “3rd MKI Strategy Discussion: 20/02/2012 Vacuum, Ferrite, Cooling, Beam Impedance and Pre-Scrubbing”,
-I'm skipping whatever remains of this entry
-You're missing a field part---line 1138 of file thesisBib.bib
- :       title        = 
- :                      “ 8th MKI Strategy Meeting”,
-I'm skipping whatever remains of this entry
-You're missing a field part---line 1148 of file thesisBib.bib
- :       title        = 
- :                      “Overview of HOM Damping at PEPII”,
-I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "maxwell"
 Warning--I didn't find a database entry for "AlexejGrudiev"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
@@ -90,23 +73,16 @@ Warning--empty booktitle in Garlasche:2dHeat
 Warning--empty booktitle in Barnes:eFieldMKI
 Warning--empty booktitle in Barnes:emisMKI
 Warning--empty booktitle in Garlasche:2dHeatEmis
-Warning--empty title in Barnes:mkiVacTempCool
 Warning--empty booktitle in Barnes:mkiVacTempCool
-Warning--empty year in Barnes:mkiVacTempCool
 Warning--empty title in Barnes:mkiElec
 Warning--empty booktitle in Barnes:mkiElec
 Warning--empty booktitle in Barnes:emisMKITemp
-Warning--empty title in Barnes:8thStratMeet
 Warning--empty booktitle in Barnes:8thStratMeet
-Warning--empty year in Barnes:8thStratMeet
 Warning--empty title in Barnes:mkiAlt
 Warning--empty booktitle in Barnes:mkiAlt
 Warning--empty booktitle in Barnes:mkiElecSurfCer
-Warning--empty year in Barnes:mkiElecSurfCer
 Warning--empty booktitle in Bruning:beamParameters
-Warning--empty title in Pivi:PEP
 Warning--empty booktitle in Pivi:PEP
-Warning--empty year in Pivi:PEP
 
 Done.
-(There were 8 error messages)
+(There were 4 error messages)

@@ -99,21 +99,21 @@
 \contentsline {section}{\numberline {8.7}Upgrade Plans for Long Shutdown 1 and Beyond}{208}
 \contentsline {chapter}{\numberline {9}Conclusions}{210}
 \contentsline {chapter}{Bibliography}{212}
-\contentsline {chapter}{\numberline {A}Longitudinal Beam Dynamics}{224}
-\contentsline {section}{\numberline {A.1}Longitudinal Equations of Motion}{226}
-\contentsline {section}{\numberline {A.2}RF Acceptance and Longitudinal Emittance}{228}
-\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - No Ferrite}{230}
-\contentsline {chapter}{\numberline {C}TCTP Eigenmode Simulations - With Ferrite}{239}
-\contentsline {chapter}{\numberline {D}Cavity Parameters and the Calculation of Eigenmode Properties}{243}
-\contentsline {section}{\numberline {D.1}Longitudinal $R_{s}/Q$}{244}
-\contentsline {section}{\numberline {D.2}Transverse $R_{s}/Q$}{245}
-\contentsline {chapter}{\numberline {E}Ferrite Properties}{246}
-\contentsline {section}{\numberline {E.1}TT2-111R}{247}
-\contentsline {section}{\numberline {E.2}4S60}{247}
-\contentsline {section}{\numberline {E.3}4A4}{248}
-\contentsline {section}{\numberline {E.4}4E2}{248}
-\contentsline {chapter}{\numberline {F}Heat Transfer in Vacuum}{251}
-\contentsline {section}{\numberline {F.1}Convection}{252}
-\contentsline {section}{\numberline {F.2}Conduction}{252}
-\contentsline {section}{\numberline {F.3}Radiation}{253}
-\contentsline {subsection}{\numberline {F.3.1}Near-field radiation}{254}
+\contentsline {chapter}{\numberline {A}Longitudinal Beam Dynamics}{225}
+\contentsline {section}{\numberline {A.1}Longitudinal Equations of Motion}{227}
+\contentsline {section}{\numberline {A.2}RF Acceptance and Longitudinal Emittance}{229}
+\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - No Ferrite}{231}
+\contentsline {chapter}{\numberline {C}TCTP Eigenmode Simulations - With Ferrite}{240}
+\contentsline {chapter}{\numberline {D}Cavity Parameters and the Calculation of Eigenmode Properties}{244}
+\contentsline {section}{\numberline {D.1}Longitudinal $R_{s}/Q$}{245}
+\contentsline {section}{\numberline {D.2}Transverse $R_{s}/Q$}{246}
+\contentsline {chapter}{\numberline {E}Ferrite Properties}{247}
+\contentsline {section}{\numberline {E.1}TT2-111R}{248}
+\contentsline {section}{\numberline {E.2}4S60}{248}
+\contentsline {section}{\numberline {E.3}4A4}{249}
+\contentsline {section}{\numberline {E.4}4E2}{249}
+\contentsline {chapter}{\numberline {F}Heat Transfer in Vacuum}{252}
+\contentsline {section}{\numberline {F.1}Convection}{253}
+\contentsline {section}{\numberline {F.2}Conduction}{253}
+\contentsline {section}{\numberline {F.3}Radiation}{254}
+\contentsline {subsection}{\numberline {F.3.1}Near-field radiation}{255}
