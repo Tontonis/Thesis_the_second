@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  22 FEB 2013 18:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  22 FEB 2013 18:30
 entering extended mode
 **C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
 (C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
@@ -2767,8 +2767,8 @@ LRFF/LRFF
 [212
 
 ] [213]
-Underfull \hbox (badness 4416) in paragraph at lines 132--134
-[]\T1/ptm/m/n/12 C. Lourenco, ``Heavy ion col-li-sions at the lhc: the al-ice e
+Underfull \hbox (badness 1430) in paragraph at lines 132--134
+[]\T1/ptm/m/n/12 C. Lourenco, ``Heavy Ion Col-li-sions at the LHC: the AL-ICE E
 x-per-i-ment.
  []
 
@@ -2785,14 +2785,8 @@ LRFF/LRFF
  []
 
 [219]
-Underfull \hbox (badness 1072) in paragraph at lines 408--411
-[]\T1/ptm/m/n/12 G. Valentino, ``Pre-lim-i-nary re-sults from sps bpm-equipped 
-col-li-ma-tor mds.''
- []
-
-
-Overfull \hbox (163.4055pt too wide) in paragraph at lines 435--437
-[]\T1/ptm/m/n/12 ``Tt2-111r data sheet avail-able at \T1/pcr/m/n/12 http://www.
+Overfull \hbox (171.40884pt too wide) in paragraph at lines 435--437
+[]\T1/ptm/m/n/12 ``TT2-111R data sheet avail-able at \T1/pcr/m/n/12 http://www.
 trans-techinc.com/products_detail.asp?ID=151\T1/ptm/m/n/12 .'' 
  []
 
@@ -3025,7 +3019,7 @@ w/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (255 pages, 23351583 bytes).
+Output written on thesis.pdf (255 pages, 23351668 bytes).
 PDF statistics:
  6155 PDF objects out of 6186 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
