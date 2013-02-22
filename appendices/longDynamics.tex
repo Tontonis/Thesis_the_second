@@ -1,6 +1,6 @@
 \label{app:long_motion}
 
-In this section we shall define some key parameters of longitudinal motion to aid understanding of the effects of wakefields on particle beams. A significant parameter in the case longitudinal dynamics and RF control is the parameter known as the momentum compaction factor. This is defined relating the variation in the closed orbit with momentum. For example, if we consider a nominal closed orbit in a circular accelerator of length $C$, defined for a particle of momentum $p$. For a particle with a momentum deviation $\Delta p$ which gives a orbit length variation $\Delta C$, they are related to one another by
+In this section we shall define some key parameters of longitudinal motion to aid understanding of the effects of wakefields on particle beams. This text follows closely the introductions to longitudinal motion given by Métral \cite{Metral:LongDyn} and Le Duff \cite{Leduff:LongDyn}. A significant parameter in the case longitudinal dynamics and RF control is the parameter known as the momentum compaction factor. This is defined relating the variation in the closed orbit with momentum. For example, if we consider a nominal closed orbit in a circular accelerator of length $C$, defined for a particle of momentum $p$. For a particle with a momentum deviation $\Delta p$ which gives a orbit length variation $\Delta C$, they are related to one another by
 
 \begin{equation}
 \frac{\Delta C}{C} = \alpha_{p} \frac{\Delta p}{p}
@@ -39,76 +39,101 @@ For a machine with a positive momentum compaction, there are two relationships:
 \end{enumerate}
 
 If we consider what happens to the revolution frequency, we can see that at low energies, the velocity increases faster than C. At high energies, $v \approx c$ and remains almost constant, thus increases slower than C. There is an energy for which the velocity increase is compensated for by the increase in circumference, i.e. the revolution frequency doesn't change with increasing momentum. This is called the transition energy. Below this energy (below transition) increasing the energy of the particles results in a higher revolution frequency. Above the energy (above transition) increasing the energy of the particles results in a lower revolution frequency.
-As is shown in Sec.~\ref{sec:beamDyn}, the longitudinal force on a charged particle in a particle accelerator is defined as 
+
+An additional useful factor to define is the slip factor $\eta$, defined as the revolution frequency spread per unit of momentum spread
 
 \begin{equation}
-F_{\parallel} = qE_{z}.
-\label{eqn:longForce}
+\eta = \frac{\frac{df_{res}}{f_{res}}}{\frac{dp}{p}} = \frac{\frac{d\omega_{res}}{\omega_{res}}}{\frac{dp}{p}}.
 \end{equation}
 
-Often it is useful to take into account the change in energy in a particle, thus we can transform Eqn.~\ref{eqn:longForce} to
+Considering that $f_{res} = v/C$, if follows that
 
 \begin{equation}
-\frac{dE}{dz} = v\frac{dp}{dz} = \frac{dp}{dt} = eE_{z}
+\frac{df}{f} = \frac{d\beta}{\beta} - \frac{dC}{C}
 \end{equation}
 
-where $dE$ is the infinitessimal energy change of the particle, $dp$ the infintessimal momentum change. Here we assume relativistic dynamics where 
+and similarly following from $p=\frac{mc\beta}{\sqrt{1-\beta^{2}}}$ is can be seen that
 
 \begin{equation}
-E^{2} = E_{0}^{2} + p^{2}c^{2}
+\frac{d\beta}{\beta} = \frac{1}{\gamma^{2}}\frac{dp}{p}
 \end{equation}
 
-where $E_{0}$ is the particles rest energy and $c$ the speed of light. The change in kinetic energy $W$ from the particle traversing a path $z$ is given by
+which when considering Eqn.~\ref{eqn:momCP} leads to 
 
 \begin{equation}
-\Delta W = \int dE = \int \mathbf{dz}.\mathbf{\hat{z}} E_{z} e = eV
+\frac{df_{res}}{f_{res}} = \left( \frac{1}{\gamma^{2}} -\alpha_{p}\right) \frac{dp}{p} = \eta \frac{dp}{p}.
 \end{equation}
 
-where $V$ is the potential seen by the charged particle. Typically the electric field of an RF cavity is an oscillating field with an angular frequency $\omega_{rf}$, giving an electric field at some time $t$
+The transition energy is the energy for which $\eta=0$, given by the relativistic $\gamma$ factor at transition $\gamma_{tr}$
 
 \begin{equation}
-E_{z} = E_{0} cos \left( \omega_{rf} t \right)
+\gamma_{tr} = \sqrt{\frac{1}{\alpha_{p}}}.
 \end{equation}
 
-where $E_{0}$ is the field magnitude. If we consider a particle beginning its traversal of the electric field (located between $z=-L_{cav}/2$ and $z=L_{cav}/2$) at $t=0$ (such that $z=vt$) we find that
+Thus 
 
 \begin{equation}
-\Delta W = \frac{e}{L_{cav}} \int^{\frac{L_{cav}}{2}}_{\frac{-L_{cav}}{2}} dz E_{z}\left( z \right) cos \left( \omega_{rf} \frac{z}{v} \right).
+\eta = \frac{1}{\gamma^{2}} - \frac{1}{\gamma_{tr}^{2}}.
 \end{equation}
 
-Another way to represent the change in kinetic energy is by the use of a factor known as the time transit factor, commonly represented by $T$. To illustrate it's used consider the general case of energy change $\Delta W$, and use complex notation we have
+It's thus seen that for particles above transition $\eta < 0$ and below transition $\eta > 0$.
+
+\section{Longitudinal Equations of Motion}
+
+Here shall be given a brief overview of the longitudinal equations of motion of a non-synchronous particle in an RF bucket. The momentum offset and the particles phase can be given by
+
+\begin{align}
+\frac{d\left( \Delta p \right)}{dt} & =  A\left( sin \phi - sin \phi_{s} \right) \\
+\frac{d\phi}{dt} & =  B \Delta p
+\end{align}
+
+where $A=(e\vec{V}_{rf})/(2\pi r_{s})$ and $B=-(\eta h)/(p_{s})(\beta_{s}c)/(r_{s})$ where $r$ is the particle orbit radius, $\vec{V}_{rf}$ is the peak RF voltage, $h$ is the RF harmonic and the subscript $s$ denotes the synchronous particle. Combining the above two equations we get to
 
 \begin{equation}
-\Delta E = \frac{e}{L_{cav}} \Re{}e \left[ \int^{\frac{L_{cav}}{2}}_{\frac{-L_{cav}}{2}} dz E_{z}\left( z \right)e^{j \omega_{rf} t}.\right]
+\frac{d}{dt}\left( \frac{1}{B} \frac{d\phi}{dt} \right) - A \left( sin \phi - sin \phi_{s} \right) = 0
+\label{eqn:GenLongMot}.
 \end{equation}
 
-If we have a particle with a phase $\Phi_{p}$ relative to the RF phase ($\omega_{rf}t = \omega_{rf}z/v - \Phi_{p}$) leading the equation to become
+If it is assumed that $A$ and $B$ change much more slowly than $\Delta \phi = \phi - \phi_{s}$, i.e. that significant acceleration occurs on a longer timescale than synchrotron oscillations, then this can be rewritten as
 
 \begin{equation}
-\Delta E = e \Re{}e \left[ e^{-j \Phi_{p}}\int^{\frac{L_{cav}}{2}}_{\frac{-L_{cav}}{2}} dz E_{z}\left( z \right) e^{j \omega_{rf} \frac{z}{v}}.\right]
+\frac{d^{2}\phi}{dt^{2}} + \frac{\Omega_{s}^{2}}{cos \phi_{s}} \left( sin\phi - sin\phi_{s} \right) = 0
+\label{eqn:phiEOM}
 \end{equation}
+
+where 
 
 \begin{equation}
-\Delta E = e \Re{}e \left[ e^{-j \Phi_{p}} e^{-j \Phi_{i}} \left| \int^{\frac{L_{cav}}{2}}_{\frac{-L_{cav}}{2}} dz E_{z}\left( z \right) e^{j \omega_{rf} \frac{z}{v}}.\right| \right]
+\frac{\Omega_{s}^{2}}{cos\phi_{s}} = -AB = \Omega_{0}^{2} = \frac{e\vec{V}_{rf}\eta hc^{2}}{2\pi r_{s}^{2}E_{s}}.
 \end{equation}
 
-where $\Phi_{i}$ is the phase of the RF. If we introduce $\phi = \Phi_{p} - \Phi_{i}$ as the phase of the particle relative to the RF this becomes
+Subsequently we can make what is known as the small amplitude approximation, such that $\phi = \phi_{s} + \Delta \phi$. In this case it follows that
+
+\begin{align}
+sin \phi &= sin \left( \phi_{s} + \Delta \phi \right) \\
+&= sin\phi_{s}cos\Delta \phi + cos\phi_{s} sin \Delta \phi \\
+& \approx sin\phi_{s} + cos \phi_{s} \Delta \phi.
+\end{align}
+
+Similarly it can be seen that
 
 \begin{equation}
-\Delta E = e  \left| \int^{\frac{L_{cav}}{2}}_{\frac{-L_{cav}}{2}} dz E_{z}\left( z \right) e^{j \omega_{rf} \frac{z}{v}}.\right| cos \phi.
+\frac{d\phi}{dt} = 0 \Rightarrow \frac{d^{2}}{dt^{2}} = \frac{d^{2}}{dt^{2}}\left( \phi_{s} + \Delta \phi \right) = \frac{d^{2}\Delta \phi}{dt^{2}}
 \end{equation}
 
-The time transit factor $T$ is now defined as the energy gain of a transitting particle over the maximum energy gain of a transitting particle (i.e. a particle with a velocity $v \rightarrow \infty $), such that 
+which subsequently leads to small amplitude approximation of Eqn.~\ref{eqn:phiEOM}
 
 \begin{equation}
-T =    \frac{\left| \int^{\frac{L_{cav}}{2}}_{\frac{-L_{cav}}{2}} dz E_{z}\left( z \right) e^{j \omega_{rf} \frac{z}{v}}.\right|}{  \left| \int^{\frac{L_{cav}}{2}}_{\frac{-L_{cav}}{2}} dz E_{z}\left( z \right) \right|}.
+\frac{d^{2}\Delta \phi}{dt^{2}} + \Omega_{s}^{2}\Delta \phi = 0.
 \end{equation}
 
-\section{Phase Stability}
+$\Omega_{s}$ s known as the synchrotron frequency, in this case of the harmonic oscillator represented by the non-synchronous particle. For accelerator stability is obtained when $\Omega_{s}^{2} > 0$. $\Omega_{s}^{2}$ is given by
 
-A consequence of the factor $\phi$, dispersion in a circular machine and multiple particle energies in a bunch (see \cite{Leduff:LongDyn} for more details) is that for a bunch of particles interacting with an RF system there a stable phase of the particle relevant to RF phase dependent on whether it is above transition or below transition. Below transition corresponds to the situation where an increase in the energy of a particle translates into a reduction in time taken to circle the accelerator, due to the increased velocity. Above transition corresponds to the situation where an increase in energy corresponds to an increase in the time taken to circle the accelerator due to the marginal increase in velocity (due to $v \approx c$) not compensating for the increased distance travelled by the particle. Transition is the point in which these two effects cancel.
+\begin{equation}
+\Omega_{s}^{2} = \frac{e\vec{V}_{rf}\eta hc^{2}}{2\pi r_{s} E_{s}} cos \phi_{s} \Rightarrow \Omega_{s}^{2} > 0 \Leftrightarrow \eta cos\phi_{s} > 0.
+\end{equation}
 
-This means that the value of $\phi$ which leads to longitudinal focusing is different above and below transition energy. It can be shown that this is $\phi = \phi_{s}$ below transition and $\phi = \pi - \phi_{s}$ above transition, where $\phi_{s}$ is the synchronous phase for the desired motion ($\phi_{s} = 0$ for no acceleration, $\phi_{s} < 0$ for deceleration and $\phi_{s} > 0$ for acceleration). This is illustrated in Fig.~\ref{fig:longPhase}, where position $P_{1}$ indicates the phase position below transition and $P_{2}$ above transition.
+This condition to an effect known as phase stability, wherein the stable phase of a particle relative to the RF phase is dependent on whether it is above or below transition. The stability of the particle oscillations relative to the RF phase are shown in Fig.~\ref{fig:longPhase}. It is interesting to note that when the particles cross the transition energy the stable phase changes drastically. In this case complex RF gymnastics are required to cross transition and remain stable.
 
 \begin{figure}
 \begin{center}
@@ -120,14 +145,18 @@ This means that the value of $\phi$ which leads to longitudinal focusing is diff
 
 \section{RF Acceptance and Longitudinal Emittance}
 
-To examine longitudinal motion of bunches it often easier to work with the conserved longitudinal quantities as with the transverse plane. These two variables turn out to be $\phi$, the phase of the particle and a variable $W$, related to the momentum of the particle. These are equivalent to the displacement $x$ and transverse momentum $p_{x}$ in transverse motion ($\phi$ effectively being the displacement of the off-momentum particle normalised by the RF wavelength). The product of these is a preserved quantity, known as the seperatrix.
+To examine longitudinal motion of bunches it often easier to work with the conserved longitudinal quantities as with the transverse plane. This is given by the mutiplying Eqn.~\ref{eqn:phiEOM} by $\frac{d\phi}{dt}$ and then integrating with respect to $\phi$. This gives
 
-One interesting side effect of the stable phase condition is that the largest seperatrix exists when $\phi_{s}= 0$ or $\pm \pi$, i.e. when no acceleration of the particles occurs. It can be shown that as stronger and stronger acceleration (the energy gain per turn increases) is applied, the seperatrix decreases in area, as shown in Fig.~\ref{fig:longSynFreq}, reaching it's smallest value at $\phi_{s} = \pi / 2$.
+\begin{equation}
+\frac{1}{2}\left( \frac{d\phi}{dt} \right)^{2} - \frac{\Omega_{s}^{2}}{cos\phi_{s}} \left( cos\phi _ \phi sin\phi_{s} \right) = constant.
+\end{equation} 
+
+This equation defines constant of motion in longitudinal dynamics known as the longitudinal emittance. In addition there is a limited area of stability of an non-synchronous particle within the phase space, the boundary referred to as the seperatrix. The area of this seperatrix is dependent on the synchronous phase $\phi_{s}$. This area is largest when $\phi_{s}=0$ or $\pm \pi$, i.e. when there is no acceleration of the particles. This is normally the case during injection or extraction of beam to capture as much of the beam as possible during transfer. As acceleration is made stronger and stronger the stable phase space is reduced until reaching a minimum (area of $0$) when $\phi_{s}=\pi /2$. An example above transition is shown in Fig.~\ref{fig:longSynFreq}.
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.75\textwidth]{appendices/figures/longPhaseDiag.png}
 \end{center}
-\caption{The stable longitudinal phase area (seperatrix) for different synchronous phase values. Note that the seperatrix decreases in volume as $\phi_{s} \rightarrow \pi / 2$.}
+\caption{The seperatrix for different synchronous phase values. Note that the acceptance decreases as $\phi_{s} \rightarrow \pi / 2$.}
 \label{fig:longSynFreq}
 \end{figure}

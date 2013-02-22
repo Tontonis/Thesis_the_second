@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  21 FEB 2013 17:44
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  22 FEB 2013 17:37
 entering extended mode
 **C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
 (C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
@@ -2799,49 +2799,46 @@ trans-techinc.com/products_detail.asp?ID=151\T1/ptm/m/n/12 .''
 [220] [221] [222]) [223]
 Appendix A.
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/longDynamics.tex
-
-LaTeX Warning: Reference `sec:beamDyn' on page 224 undefined on input line 21.
-
 [224
 
-] [225] [226]
-<appendices/figures/longStab.png, id=5764, 2564.07938pt x 1274.51157pt>
+] [225] [226] [227]
+<appendices/figures/longStab.png, id=5767, 957.5775pt x 487.06969pt>
 File: appendices/figures/longStab.png Graphic file (type png)
 
 <use appendices/figures/longStab.png>
-Package pdftex.def Info: appendices/figures/longStab.png used on input line 94.
-
-(pdftex.def)             Requested size: 320.57364pt x 159.333pt.
- [227 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figures/long
+Package pdftex.def Info: appendices/figures/longStab.png used on input line 140
+.
+(pdftex.def)             Requested size: 320.57364pt x 163.05972pt.
+ [228 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figures/long
 Stab.png>]
-<appendices/figures/longPhaseDiag.png, id=5769, 639.89063pt x 649.67719pt>
+<appendices/figures/longPhaseDiag.png, id=5772, 639.89063pt x 649.67719pt>
 File: appendices/figures/longPhaseDiag.png Graphic file (type png)
 
 <use appendices/figures/longPhaseDiag.png>
 Package pdftex.def Info: appendices/figures/longPhaseDiag.png used on input lin
-e 108.
+e 158.
 (pdftex.def)             Requested size: 320.57364pt x 325.48215pt.
-) [228 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figures/lon
+) [229 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figures/lon
 gPhaseDiag.png>]
 Appendix B.
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/vacEigenTable.tex
-[229
+[230
 
-] [230] [231] [232] [233] [234] [235] [236]) [237]
+] [231] [232] [233] [234] [235] [236] [237]) [238]
 Appendix C.
 
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/ferrEigenTable.tex
-[238
+[239
 
-] [239] [240]) [241]
+] [240] [241]) [242]
 Appendix D.
 
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/algorithmEigenMode
-Cav.tex [242
+Cav.tex [243
 
-] [243]
+] [244]
 
-LaTeX Warning: Citation `AlexejGrudiev' on page 244 undefined on input line 58.
+LaTeX Warning: Citation `AlexejGrudiev' on page 245 undefined on input line 58.
 
 
 
@@ -2849,23 +2846,23 @@ Overfull \hbox (22.28206pt too wide) detected at line 62
 [][] \OT1/cmr/m/n/12 = [] = []\OML/cmm/m/it/12 :
  []
 
-) [244]
+) [245]
 Appendix E.
-[245
+[246
 
 ]
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/ferriteProperties.
-tex [246
+tex [247
 
 ]
 
-LaTeX Warning: Reference `fig:4e2Perm' on page 247 undefined on input line 25.
+LaTeX Warning: Reference `fig:4e2Perm' on page 248 undefined on input line 25.
 
 
-LaTeX Warning: Reference `fig:4e2PenDepth' on page 247 undefined on input line 
+LaTeX Warning: Reference `fig:4e2PenDepth' on page 248 undefined on input line 
 25.
 
-<appendices/figures/tt2111rPerm.pdf, id=5830, 578.16pt x 433.62pt>
+<appendices/figures/tt2111rPerm.pdf, id=5834, 578.16pt x 433.62pt>
 File: appendices/figures/tt2111rPerm.pdf Graphic file (type pdf)
 
 <use appendices/figures/tt2111rPerm.pdf>
@@ -2873,7 +2870,7 @@ Package pdftex.def Info: appendices/figures/tt2111rPerm.pdf used on input line
 43.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
-<appendices/figures/tt2111rPenDepth.pdf, id=5831, 578.16pt x 433.62pt>
+<appendices/figures/tt2111rPenDepth.pdf, id=5835, 578.16pt x 433.62pt>
 File: appendices/figures/tt2111rPenDepth.pdf Graphic file (type pdf)
 
 <use appendices/figures/tt2111rPenDepth.pdf>
@@ -2890,7 +2887,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--48
 
  []
 
-<appendices/figures/4s60Perm.pdf, id=5832, 578.16pt x 433.62pt>
+<appendices/figures/4s60Perm.pdf, id=5836, 578.16pt x 433.62pt>
 File: appendices/figures/4s60Perm.pdf Graphic file (type pdf)
 
 <use appendices/figures/4s60Perm.pdf>
@@ -2898,7 +2895,7 @@ Package pdftex.def Info: appendices/figures/4s60Perm.pdf used on input line 67.
 
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
-<appendices/figures/4s60PenDepth.pdf, id=5833, 578.16pt x 433.62pt>
+<appendices/figures/4s60PenDepth.pdf, id=5837, 578.16pt x 433.62pt>
 File: appendices/figures/4s60PenDepth.pdf Graphic file (type pdf)
 
 <use appendices/figures/4s60PenDepth.pdf>
@@ -2915,14 +2912,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--72
 
  []
 
-<appendices/figures/4a4Perm.pdf, id=5834, 578.16pt x 433.62pt>
+<appendices/figures/4a4Perm.pdf, id=5838, 578.16pt x 433.62pt>
 File: appendices/figures/4a4Perm.pdf Graphic file (type pdf)
 
 <use appendices/figures/4a4Perm.pdf>
 Package pdftex.def Info: appendices/figures/4a4Perm.pdf used on input line 91.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
-<appendices/figures/4a4PenDepth.pdf, id=5835, 578.16pt x 433.62pt>
+<appendices/figures/4a4PenDepth.pdf, id=5839, 578.16pt x 433.62pt>
 File: appendices/figures/4a4PenDepth.pdf Graphic file (type pdf)
 
 <use appendices/figures/4a4PenDepth.pdf>
@@ -2959,38 +2956,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--119
 
  []
 
-) [247 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figures/tt2
+) [248 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figures/tt2
 111rPerm.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figu
-res/tt2111rPenDepth.pdf>] [248 <C:/Users/hugo/Documents/GitHub/Thesis_the_secon
+res/tt2111rPenDepth.pdf>] [249 <C:/Users/hugo/Documents/GitHub/Thesis_the_secon
 d/appendices/figures/4s60Perm.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_s
 econd/appendices/figures/4s60PenDepth.pdf> <C:/Users/hugo/Documents/GitHub/Thes
 is_the_second/appendices/figures/4a4Perm.pdf> <C:/Users/hugo/Documents/GitHub/T
-hesis_the_second/appendices/figures/4a4PenDepth.pdf>] [249]
+hesis_the_second/appendices/figures/4a4PenDepth.pdf>] [250]
 Appendix F.
-[250
+[251
 
 
 ]
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/heatTransferInVacu
-um.tex [251
+um.tex [252
 
 ]
-<appendices/figures/powTransRadSurEmis.png, id=6076, 618.05907pt x 444.15938pt>
+<appendices/figures/powTransRadSurEmis.png, id=6079, 618.05907pt x 444.15938pt>
 File: appendices/figures/powTransRadSurEmis.png Graphic file (type png)
 <use appendices/figures/powTransRadSurEmis.png>
 Package pdftex.def Info: appendices/figures/powTransRadSurEmis.png used on inpu
 t line 23.
 (pdftex.def)             Requested size: 235.08864pt x 168.94496pt.
- [252 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figures/powT
+ [253 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figures/powT
 ransRadSurEmis.png>]
-<appendices/figures/irTunnelling.png, id=6080, 524.71031pt x 475.7775pt>
+<appendices/figures/irTunnelling.png, id=6084, 524.71031pt x 475.7775pt>
 File: appendices/figures/irTunnelling.png Graphic file (type png)
 
 <use appendices/figures/irTunnelling.png>
 Package pdftex.def Info: appendices/figures/irTunnelling.png used on input line
  37.
 (pdftex.def)             Requested size: 235.08864pt x 213.16138pt.
-) [253 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figures/irT
+) [254 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figures/irT
 unnelling.png>]
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.aux
 (C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/ferriteProperties.
@@ -3005,10 +3002,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6704 strings out of 494045
- 150793 string characters out of 3148390
- 201741 words of memory out of 3000000
- 9555 multiletter control sequences out of 15000+200000
+ 6708 strings out of 494045
+ 150854 string characters out of 3148390
+ 202741 words of memory out of 3000000
+ 9559 multiletter control sequences out of 15000+200000
  51184 words of font info for 84 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  28i,13n,25p,2229b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3028,9 +3025,9 @@ w/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (253 pages, 23450595 bytes).
+Output written on thesis.pdf (254 pages, 23350791 bytes).
 PDF statistics:
- 6149 PDF objects out of 6186 (max. 8388607)
+ 6152 PDF objects out of 6186 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  836 words of extra memory for PDF output out of 10000 (max. 10000000)
 

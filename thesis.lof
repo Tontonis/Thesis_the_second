@@ -210,25 +210,25 @@
 \contentsline {figure}{\numberline {8.35}{\ignorespaces The maximum steady-state temperature reached by the ferrite yoke in the MKI depending on the power load in the ferrite yoke as calculated using a 2D cross section of the MKI. $P_{yoke}$ is the power lost in the ferrite yoke and T the maximum steady state temperature of the ferrite yoke. Provided by M. Garlasche et al \cite {Garlasche:2dHeatEmisAll}.}}{208}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces The focusing synchronous phase positions for particle below ($P_{1}$) and above ($P_{2}$) transition. The synchronous phase is chosen for a given particle energy and desired behaviour, and an off-momentum particle will be longitudinally focused to the synchronous phase by the RF system if the correct phase is chosen. This occurs due to balance of increased velocity with an increased size of orbit as a particle is accelerated by the RF electric field.}}{227}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces The stable longitudinal phase area (seperatrix) for different synchronous phase values. Note that the seperatrix decreases in volume as $\phi _{s} \rightarrow \pi / 2$.}}{228}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces The focusing synchronous phase positions for particle below ($P_{1}$) and above ($P_{2}$) transition. The synchronous phase is chosen for a given particle energy and desired behaviour, and an off-momentum particle will be longitudinally focused to the synchronous phase by the RF system if the correct phase is chosen. This occurs due to balance of increased velocity with an increased size of orbit as a particle is accelerated by the RF electric field.}}{228}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces The seperatrix for different synchronous phase values. Note that the acceptance decreases as $\phi _{s} \rightarrow \pi / 2$.}}{229}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces The equivalent circuit model for a cavity mode with no coupling to neighbouring cavities.}}{242}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces The equivalent circuit model for a cavity mode with no coupling to neighbouring cavities.}}{243}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {E.1}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for TT2-111R.}}{247}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{247}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{247}
-\contentsline {figure}{\numberline {E.2}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for 4S60.}}{248}
+\contentsline {figure}{\numberline {E.1}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for TT2-111R.}}{248}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{248}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{248}
-\contentsline {figure}{\numberline {E.3}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for 4A4.}}{248}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{248}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{248}
-\contentsline {figure}{\numberline {E.4}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for 4A4.}}{249}
+\contentsline {figure}{\numberline {E.2}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for 4S60.}}{249}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{249}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{249}
+\contentsline {figure}{\numberline {E.3}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for 4A4.}}{249}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{249}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{249}
+\contentsline {figure}{\numberline {E.4}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for 4A4.}}{250}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{250}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{250}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {F.1}{\ignorespaces The power transfer between two surfaces by radiative heat transfer as a function of emissitivity of the absorbing component and the ratio of the visible surface areas of the components. K$_{A}$ is the ratio of the surface of the absorbing component and the emitting component. Figure produced by Garlasche et al \cite {Garlasche:heatTransfer}.}}{252}
-\contentsline {figure}{\numberline {F.2}{\ignorespaces An illustration of the change between the two regimes of thermal transfer by radiation and by conduction as the distance between two surfaces is reduced. It can be seen that there is a period between radiation and the beginning of transfer by contact where-in the rate of thermal transfer greatly increases. This is due to an effect known as radiative tunnelling \cite {Hargreaves:IRTunnel}.}}{253}
+\contentsline {figure}{\numberline {F.1}{\ignorespaces The power transfer between two surfaces by radiative heat transfer as a function of emissitivity of the absorbing component and the ratio of the visible surface areas of the components. K$_{A}$ is the ratio of the surface of the absorbing component and the emitting component. Figure produced by Garlasche et al \cite {Garlasche:heatTransfer}.}}{253}
+\contentsline {figure}{\numberline {F.2}{\ignorespaces An illustration of the change between the two regimes of thermal transfer by radiation and by conduction as the distance between two surfaces is reduced. It can be seen that there is a period between radiation and the beginning of transfer by contact where-in the rate of thermal transfer greatly increases. This is due to an effect known as radiative tunnelling \cite {Hargreaves:IRTunnel}.}}{254}
