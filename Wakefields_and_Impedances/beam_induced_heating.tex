@@ -1,6 +1,6 @@
 \section{Example of the Effects of Wakefields}
 
-To give context to the effects that wakefields have on both the beam and equipment within a particle accelerator, two types of wakefield/impedance driven phenomena are discussed here. The first, beam-induced heating, is an example of beam induced wakefields having an effect on the machine itself contributing to heat loads due to the energy lost by the beam and subsequently dissipated within the surrounding equipment. The second, beam instabilities, covers a number of examples of instability mechanisms that may be driven by wakefields, in particular due to the harmonic nature of particle and beam behaviour in a circular accelerator.
+To give context to the effects that wakefields have on both the beam and equipment within a particle accelerator, two types of wakefield/impedance driven phenomena are discussed here. The first, beam-induced heating, is an example of beam induced wakefields having an effect on the machine itself and contributing to heat loads due to the energy lost by the beam and subsequently dissipated within the surrounding equipment. The second, beam instabilities, covers a number of examples of instability mechanisms that may be driven by wakefields, in particular due to the harmonic nature of particle and beam behaviour in a circular accelerator.
 
 \subsection{Beam Induced Heating}
 \label{sec:beam_induced_heating}
@@ -32,14 +32,14 @@ For a mode expansion representation of the wakefunction as a sum of loss factors
 \Delta E = \left( f_{rev} e N_{b}\right)^{2} \displaystyle\sum\limits_{n = 0}^{\infty} k_{n} \left| \lambda \left( \omega_{n} \right)  \right|^{2}.
 \end{equation}
 
-These terms are valid only for a single pass of the beam through the impedance (i.e. for a linear accelerator). In the case where the beam traverse the same impedance multiple times (i.e. a circular accelerator) it is necessary to take into account the wakefields induced by previous traversals. In this case the energy lost by the beam due to traversing the pipe is given by
+These terms are valid only for a single pass of the beam through the impedance (i.e. for a linear accelerator). In the case where the beam traverses the same impedance multiple times (i.e. a circular accelerator) it is necessary to take into account the wakefields induced by previous traversals. In this case the energy lost by the beam due to traversing the pipe is given by
 
 \begin{equation}
 \Delta E = - \left( f_{rev} e N_{b}\right)^{2} \int^{\infty}_{-\infty} d\tau^{'} \rho_{n} \left( \tau^{'} \right) \int^{\infty}_{-\infty} d\tau^{} \rho_{n} \left( \tau^{} \right) \displaystyle\sum\limits_{q = 0}^{\infty} W_{\parallel, q} \left( q\frac{C}{c} + \tau^{'} - \tau \right)  
 \label{eqn:sum_wake_loss}
 \end{equation}
 
-where $C$ is the circumference and $q$ sums over revolutions. In general impedance is the more useful property to use compared to wakefields. Using the Poisson sum formalism and the following identity
+where $C$ is the circumference and $q$ sums over revolutions. In general, impedance is a more useful property than wakefields for purposes of heating calculations. Using the Poisson sum formalism and the following identity
 
 \begin{equation}
 \displaystyle\sum\limits_{n = -\infty}^{\infty} F \left( n a \right) = \frac{1}{a} \displaystyle\sum\limits_{p = -\infty}^{\infty} \tilde{F} \left( \frac{2\pi p}{a} \right)
@@ -101,21 +101,21 @@ If the wakefield effectively decays to zero in less than the distance between tw
 \label{fig:gauss_meas_freq}
 }
 \subfigure[]{
-\includegraphics[width=0.45\textwidth]{Wakefields_and_Impedances/figures/beam_spectra_power_gauss_meas_12ns.pdf}
+\includegraphics[width=0.45\textwidth]{Wakefields_and_Impedances/figures/beam_spectra_power_gauss_meas_Elias.png}
 \label{fig:gauss_meas_time}
 }
-\caption{A comparison of \ref{fig:gauss_meas_freq} a measured beam power spectrum and a Gaussian bunch of the same bunch length in the frequency domain and \ref{fig:gauss_meas_time} the resulting time domain beam profile. The Gaussian has a bunch length (4$\sigma_{z}$ = 1.2ns). Measured spectrum taken by P. Baundrenghien et al \cite{Baudrenghien:LHCPowSpec}.}
+\caption{A comparison of \ref{fig:gauss_meas_freq} a measured beam power spectrum and a Gaussian bunch of the same bunch length in the frequency domain and \ref{fig:gauss_meas_time} the resulting time domain beam profile. The Gaussian has a bunch length (4$\sigma_{z}$ = 1.2ns). Measured spectrum taken by P. Baundrenghien et al \cite{Baudrenghien:LHCPowSpec}. Time domain fit taken from E. Metral \cite{Metral:Heating}}
 \label{fig:measured_gauss}
 \end{figure}
 
-As shown by the derivations in Section~\ref{sec:power_loss}, asides from the longitudinal impedance of the device under consideration the longitudinal profile of the circulating bunches also contributes to the power loss in the machine. In past works it has generally been assumed that bunches in accelerators have a Gaussian profile \cite{Grudiev:LongTransSecCol}, given by
+As shown by the derivations in Section~\ref{sec:power_loss}, asides from the longitudinal impedance of the device under consideration, the longitudinal profile of the circulating bunches also contributes to the power loss in the machine. In past works it has generally been assumed that bunches in accelerators have a Gaussian profile \cite{Grudiev:LongTransSecCol}, given by
 
 \begin{equation}
 \lambda \left( t \right) = e^{\frac{-t^{2}}{2\sigma^{2}}}
 \label{eqn:gauss}
 \end{equation}
 
-where $4\sigma_{z} = t_{b}$ when approaching the analytical treatment of beam induced heating, both single-bunch and multi-bunch. Recent measurements of the power spectrum of particle beams, especially in the LHC \cite{Baudrenghien:LHCPowSpec} have shown characteristics that the Gaussian profile does not predict, for example the high frequency secondary peak as seen in Fig.~\ref{fig:measured_gauss}. To make more realistic predictions of heat loss due to beam impedance in the machine it is thus necessary to find bunch profiles which reproduce this behaviour.
+where $4\sigma_{z} = t_{b}$, when approaching the analytical treatment of beam induced heating, both single-bunch and multi-bunch. Recent measurements of the power spectrum of particle beams, especially in the LHC \cite{Baudrenghien:LHCPowSpec}, have shown characteristics that the Gaussian profile does not predict, for example the high frequency secondary peak as seen in Fig.~\ref{fig:gauss_meas_freq}. To make more realistic predictions of heat loss due to beam impedance in the machine it is thus necessary to find bunch profiles which reproduce this behaviour.
 
 A number of different longitudinal bunch profiles have been investigated in the past. Here we shall look at 3 other bunch profiles; a parabolic line density (see Eqn.~\ref{eqn:para_profile}), cos$^{2}$ (see Eqn.~\ref{eqn:cos_profile}) and a water-bag (see Eqn.~\ref{eqn:water_bag_profile}).
 
@@ -166,8 +166,8 @@ The corresponding frequency domain profiles are given by Eqn.~\ref{eqn:para_prof
 \begin{center}
 \includegraphics[width=0.65\textwidth]{Wakefields_and_Impedances/figures/bunch_profile_12ns.pdf}
 \end{center}
-\label{fig:time_bunch_profiles}
 \caption{The longitudinal bunch profile of a number of bunch distributions. Note that all of these are normalised to have a peak bunch current of 1. For the Gaussian distribution the bunch length is the 4$\sigma$ value. The bunch length $\tau_{b} = 1.2ns$}
+\label{fig:time_bunch_profiles}
 \end{figure}
 
 \begin{figure}
@@ -183,7 +183,7 @@ The corresponding frequency domain profiles are given by Eqn.~\ref{eqn:para_prof
 \label{fig:freq_dom_prof}
 \end{figure}
 
-The comparison of these bunch profiles in the time domain are shown in Fig.~\ref{fig:time_bunch_profiles}. Note all bunch currents are normalised to their peak value. The corresponding current and power spectrums are shown in Fig.~\ref{fig:freq_dom_prof}. There are several things to note about these spectra; firstly that the non-infinite distribution of the non-Gaussian bunch profiles gives rise to a number of high frequency lobes in the power spectrum, and secondly the interval of these nodes depends heavily on the bunch profile.
+The comparison of these bunch profiles in the time domain are shown in Fig.~\ref{fig:time_bunch_profiles}. Note all bunch currents are normalised to their peak value. The corresponding current and power spectrums are shown in Fig.~\ref{fig:freq_dom_prof}. There are several things to note about these spectra; firstly that the non-infinite time-domain distribution of the non-Gaussian bunch profiles gives rise to a number of high frequency lobes in the power spectrum, and secondly the interval of these nodes depends heavily on the bunch profile.
 
 \begin{figure}
 \subfigure[]{
@@ -211,7 +211,7 @@ The comparison of these bunch profiles in the time domain are shown in Fig.~\ref
 \label{fig:diff_bunch_len_para}
 \end{figure}
 
-To illustrate more clearly the effect of changing the bunch length on the power spectrum, a number of bunch profiles and the corresponding power spectra with different bunch lengths are shown in Fig~\ref{fig:diff_bunch_len_gauss}. Firstly, consider a Gaussian bunch profile. It can be seen in Fig.~\ref{fig:diff_bunch_len_gauss} that by increasing the bunch length that the magnitude at high frequencies is decreased quite substantially. If we consider a finite bunch profile (non-Gaussian), we note that we have high frequency lobes. The peak frequency of these lobes depends on the bunch length, as illustrated using a parabolic bunch profile for bunch lengths $\tau_{b} = 1ns, 1.2ns, 1.4ns$ in Fig.~\ref{fig:diff_bunch_len_para}. As the bunch length is increased the lobes move to lower frequencies, and the width of the first branch decreases. Similar behaviour is observed with the cos$^{2}$ and water-bag bunch profiles.
+To illustrate more clearly the effect of changing the bunch length on the power spectrum, a number of bunch profiles and the corresponding power spectra with different bunch lengths are shown in Fig~\ref{fig:diff_bunch_len_gauss}. Firstly, consider a Gaussian bunch profile. It can be seen in Fig.~\ref{fig:diff_bunch_len_gauss} that by increasing the bunch length that the magnitude at high frequencies is decreased quite substantially. If we consider a finite bunch profile (non-Gaussian), we note that we have high frequency lobes. The peak frequency of these lobes depends on the bunch length, as illustrated using a parabolic bunch profile for bunch lengths $\tau_{b} = 1ns, 1.2ns, 1.4ns$ in Fig.~\ref{fig:diff_bunch_len_para}. As the bunch length is increased the lobes move to lower frequencies, and the width of the first shoulder decreases. Similar behaviour is observed with the cos$^{2}$ and water-bag bunch profiles.
 
 \begin{figure}
 \begin{center}
@@ -246,20 +246,22 @@ For an impedance with a characteristic Q that is small (Q $<$ 10), it can be see
 Further investigation of the longitudinal beam spectrum reveals that there is significant structure between the major harmonics (which are due to the bunch spacing of the beam) which can be attributed to the other time structures of the beam, for example the bunch train spacing, or the interval between the pilot bunch train and the subsequent bunch train. As such the treatment of the estimation of beam losses requires a broad spectrum approach. If we consider Eqn.~\ref{eqn:heating-gen} we see that we can treat the power losses in an integral form. We can observe a number of properties using this assumption. The power loss is proportional to the beam properties in the following manner:
 
 \begin{enumerate}
-\item{$P_{loss} \propto N^{2}$}
+\item{$P_{loss} \propto N_{b}^{2}$}
 \item{$P_{loss} \propto n_{bunch}$}
 \end{enumerate}
 
 \subsubsection{Beam induced heating due to a high Q impedance}
 
-In contrast to the overlap of the beam spectrum with a low Q impedance, for a high Q impedance only one beam harmonic lies upon the resulting impedance to any significant quantity. This is illustrated in Fig~\ref{fig:high_q_harmonics}. If we consider Eqn \ref{eqn:heating-gen} and consider the situation where
+In contrast to the overlap of the beam spectrum with a low Q impedance, for a high Q impedance only one beam harmonic lies upon the resulting impedance to any significant degree. This is illustrated in Fig~\ref{fig:high_q_harmonics}. If we consider Eqn \ref{eqn:heating-gen} and consider the situation where
 
 \begin{equation}
+\begin{small}
 \left( 2 \left| \lambda \left(p \omega_{rev}n_{bunch} \right)  \right|^{2}  \Re{}e \left( Z_{\parallel} \left(p \omega_{rev}n_{bunch}\right) \right) \right) = 
 \begin{cases}
 \left( 2 \left| \lambda \left( \omega_{res} \right)  \right|^{2}  \Re{}e \left( Z_{\parallel} \left( \omega_{res} \right) \right) \right) &\textrm{if $p \omega_{rev} n_{bunch} = \omega_{res}$}\\
-0								&\textrm{if $p \omega_{rev} n_{bunch} != \omega_{res}$}
+0								&\textrm{if $p \omega_{rev} n_{bunch} \neq \omega_{res}$}
 \end{cases}
+\end{small}
 \label{eqn:single_harmonic_profile}.
 \end{equation}
 
@@ -281,13 +283,13 @@ P_{loss} = \left( \omega_{rev}eN_{b}n_{bunch}  \right)^{2}  \left( 2 \left| \lam
 The following properties can subsequently be seen as a result:
 
 \begin{enumerate}
-\item{$P_{loss} \propto N^{2}$}
+\item{$P_{loss} \propto N_{b}^{2}$}
 \item{$P_{loss} \propto n_{bunch}^{2}$, provided that the resonant frequency of the resonance continues to coincide with a beam harmonic.}
 \end{enumerate}
 
 \subsubsection{Some Examples of the Beam-Induced Heating}
 
-In this section we shall illustrate some important factors that have been covered in previous sections. In particular, the interaction of different bunch profiles at different bunch lengths with an example cavity resonance will be covered in some detail to illustrate how the estimated heating can change drastically depending on higher frequency lobes in the beam current spectrum. In addition, the heating due to two particle beams in the same vacuum chamber shall be briefly covered for interest.
+In this section we shall illustrate some important factors that have been covered in previous sections. In particular, the interaction of different bunch profiles, at different bunch lengths, with an example cavity resonance will be covered in some detail to illustrate how the estimated heating can change drastically depending on higher frequency lobes in the beam current spectrum. In addition, the heating due to two particle beams in the same vacuum chamber shall be briefly covered for interest.
 
 \subsubsection{The Effect of Bunch Length on Power Loss}
 
@@ -309,7 +311,7 @@ I \left( \omega \right) = \frac{sin \left( \omega \tau_{b}/2 \right)}{ \omega \t
 
 First we shall consider a narrow band impedance which has a resonant frequency $\omega_{0} =2GHz$ which falls upon a beam harmonic such that $\omega_{0}=n\omega_{rev}$, where $n$ is an integer. It should be noted that for other cases the contribution of these sources of heating is negligible due to the small beam current at this frequency. There are two extreme cases; that of  $\omega_{0} \gg 1/\tau_{b}$, in which it can be seen that the current spectrum will be negligible at the frequency of the impedance, and $\omega_{0} \ll 1/\tau_{b}$ where the beam current spectrum is essentially the same as the DC spectral component. The transition in this intervening regime is shown in Fig~\ref{fig:bunch_length_heat_narrow}, assuming a bunch current of 1A. It can be seen that in this case the heating falls drastically as the bunch length increases.
 
-If we instead consider a cos$^{2}$ distribution we instead see the effect of the secondary lobes in the beam current spectrum. The power loss with bunch length is shown in Fig.~\ref{fig:bunch_length_heat_narrow} in comparison to that of the Gaussian profile. The beam power spectrum for a number of different bunch lengths are shown with the real component of the longitudinal impedance in Fig.~\ref{fig:imp_profile_cos}. Here it can be clearly seen that the intersection of the secondary lobe with the resonant impedance causes a peak in the power lost by the beam, highlighting the neccessity to be aware of the frequencies of resonant impedances with relation to the beam harmonics.
+If we consider a cos$^{2}$ distribution we instead see the effect of the secondary lobes in the beam current spectrum. The power loss with bunch length is shown in Fig.~\ref{fig:bunch_length_heat_narrow} in comparison to that of the Gaussian profile. The beam power spectrum for a number of different bunch lengths are shown with the real component of the longitudinal impedance in Fig.~\ref{fig:imp_profile_cos}. Here it can be clearly seen that the intersection of the secondary lobe with the resonant impedance causes a peak in the power lost by the beam, highlighting the neccessity to be aware of the frequencies of resonant impedances with relation to the beam harmonics.
 
 
 \begin{figure}
@@ -337,13 +339,13 @@ If we instead consider a cos$^{2}$ distribution we instead see the effect of the
 \end{figure}
 
 
-For the broadband heating we shall consider a resonant impedance defined by the following parameters, $\omega_{0} = 2GHz$, $Q=1$, $R_{s}=100\Omega$. To account for the multiple beam harmonics that will interact with the resonance, it is assumed that the beam harmonics in this case occur at $20$MHz intervals. The impedance and the beam power spectrum is shown in Fig.~\ref{fig:broadband_heat_bunch_len} and the resulting power loss in Fig.~\ref{fig:broadband_power_loss} where it can be seen that the power loss decreases slowly with increasing bunch length. This is due to the significant contribution to the power loss at low frequencies, in which the component of the beam power spectrum decreases only marginally due to the decreasing bunch length.
+For the broadband heating we shall consider a resonant impedance defined by the following parameters, $\omega_{0} = 2GHz$, $Q=1$, $R_{s}=100\Omega$. To account for the multiple beam harmonics that will interact with the resonance, it is assumed that the beam harmonics in this case occur at $20$MHz intervals. The impedance and the beam power spectrum is shown in Fig.~\ref{fig:broadband_power_loss} and the resulting power loss in Fig.~\ref{fig:broadband_heat_bunch_len} where it can be seen that the power loss decreases slowly with increasing bunch length. This is due to the significant contribution to the power loss at low frequencies, in which the component of the beam power spectrum decreases only marginally due to the increasing bunch length.
 
 \subsubsection{Beam-Induced Heating due to two traversing beams}
 
 Previous work \cite{Grudiev:twoBeamCol} has investigated the effect of two beams in a vacuum on the beam-induced heating. This is restated here for the sake of completeness.
 
-To begin, consider the two currents $I_{b1} = I_{0}e^{i\phi_{1}}$ and $I_{b1} = -I_{0}e^{i\phi_{2}}$ representing two counter rotating beams. $I_{0}$ represents the beam current, and $\phi_{1/2}$ the phase of beam 1 and beam 2 respectively. Each beam also sees a seperate potential when it traverses the impedance, given by $V_{b1} = \int_{b1} E_{z} e^{i\omega_{0}z/c} dz$ and $V_{b2} = \int_{b2} E_{z} e^{i\omega_{0}z/c} dz$ respectively. By Ohms law it can then be seen that
+To begin, consider the two currents $I_{b1} = I_{0}e^{i\phi_{1}}$ and $I_{b2} = -I_{0}e^{i\phi_{2}}$ representing two counter rotating beams. $I_{0}$ represents the beam current, and $\phi_{1/2}$ the phase of beam 1 and beam 2 respectively. Each beam also sees a seperate potential when it traverses the impedance, given by $V_{b1} = \int_{b1} E_{z} e^{i\omega_{0}z/c} dz$ and $V_{b2} = \int_{b2} E_{z} e^{i\omega_{0}z/c} dz$ respectively. By Ohms law it can then be seen that
 
 \begin{equation}
 \begin{pmatrix}
@@ -381,7 +383,7 @@ Z_{11} = 2R^{b1}_{s};\text{    } Z_{22} = 2R^{b2}_{s};\text{    }  Z_{12} = Z_{2
 The power loss then becomes
 
 \begin{equation}
-P_{loss} = I_{0}^{2} 2 \left( R_{s}^{b1} +  R_{s}^{b1} - 2\sqrt{R^{b1}_{s}R^{b2}_{s}} cos \left( \delta \phi \right) \right)
+P_{loss} = I_{0}^{2} 2 \left( R_{s}^{b1} +  R_{s}^{b2} - 2\sqrt{R^{b1}_{s}R^{b2}_{s}} cos \left( \delta \phi \right) \right)
 \end{equation}
 
 where $\delta \phi = \phi_{1} - \phi_{2}$ is the phase difference between beam 1 and beam 2. This can be found relatively easily by comparing the distance $\delta s$ from a collision IP (location of experiments in the LHC) of the machine. Assuming the beams are ultrarelativistic $\delta \phi = \omega_{rev} 2  \delta s /c$. It can then be seen that the the last term may either reduce or increase the power loss depending on whether $cos\left( \delta \phi \right) = 1$ or $cos\left( \delta \phi \right) = -1$ respectively.

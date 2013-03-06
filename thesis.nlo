@@ -16,6 +16,9 @@
 \nomenclatureentry{a$m$@[{$m$}]\begingroup Particle Mass\nomeqref {0}|nompageref}{35}
 \nomenclatureentry{a$\gamma$@[{$\gamma$}]\begingroup Relativistic factor\nomeqref {0}|nompageref}{35}
 \nomenclatureentry{a$\beta$@[{$\beta$}]\begingroup Particle velocity normalised by the speed of light\nomeqref {0}|nompageref}{35}
+\nomenclatureentry{a$\beta_{x/y} (s)$@[{$\beta_{x/y} (s)$}]\begingroup The horizontal/vertical betatron function\nomeqref {0}|nompageref}{35}
+\nomenclatureentry{a$\epsilon_{x/y}$@[{$\epsilon_{x/y}$}]\begingroup The horizontal/vertical beam emittance\nomeqref {0}|nompageref}{35}
+\nomenclatureentry{a$\epsilon_{l}$@[{$\epsilon_{l}$}]\begingroup Longitudinal beam emittance\nomeqref {0}|nompageref}{35}
 \nomenclatureentry{a$p$@[{$p$}]\begingroup Particle momentum\nomeqref {0}|nompageref}{35}
 \nomenclatureentry{a$k_{f}$@[{$k_{f}$}]\begingroup Focal strength of a quadrupole magnet\nomeqref {0}|nompageref}{35}
 \nomenclatureentry{a$c$@[{$c$}]\begingroup Speed of light in vacuum($=$299792458 m/s)\nomeqref {0}|nompageref}{35}
@@ -37,7 +40,7 @@
 \nomenclatureentry{a$W_{\parallel}$@[{$W_{\parallel}$}]\begingroup The longitudinal wake function of a bunch or wakepotential\nomeqref {0}|nompageref}{35}
 \nomenclatureentry{a$w_{\perp}$@[{$w_{\perp}$}]\begingroup The transverse wake function\nomeqref {0}|nompageref}{35}
 \nomenclatureentry{a$W_{\perp}$@[{$W_{\perp}$}]\begingroup The transverse wake function of a bunch or trasnverse wakepotential\nomeqref {0}|nompageref}{35}
-\nomenclatureentry{a$j$@[{$j$}]\begingroup imaginary number $-\sqrt{-1}$\nomeqref {0}|nompageref}{35}
+\nomenclatureentry{a$j$@[{$j$}]\begingroup imaginary number ($\sqrt{-1}$)\nomeqref {0}|nompageref}{35}
 \nomenclatureentry{a$Z_{\parallel}$@[{$Z_{\parallel}$}]\begingroup The total longitudinal impedance\nomeqref {0}|nompageref}{35}
 \nomenclatureentry{a$Z_{\perp}$@[{$Z_{\perp}$}]\begingroup The total transverse impedance\nomeqref {0}|nompageref}{35}
 \nomenclatureentry{a$Z_{dip, x}$ or $Z_{dipolar, x}$@[{$Z_{dip, x}$ or $Z_{dipolar, x}$}]\begingroup The horizontal dipolar or driving impedance\nomeqref {0}|nompageref}{35}

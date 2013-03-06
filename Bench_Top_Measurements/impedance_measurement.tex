@@ -7,7 +7,7 @@ Due to the sensitivity of the beam coupling impedance to the boundary conditions
 
 For structures that are expected to contain mostly low Q-resonances (i.e. resistive wall impedance) it is appropriate to use the coaxial wire method \cite{Gluckstern:WireMeasImp, Vaccaro:ImprovedWireMeth}, sometimes also called the stretched wire method. This method relies on the similarity of the electromagetic field profile due to an ultrarelativistic charged particle and that of a short electrical pulse sent along a coaxial wire. 
 
-A moving charged particle produces an electromagnetic field in na arc transverse to its direction of motion, where the angle of the arc opening is inversely proportinal to the relativistic factor of the particle $\gamma$. For an ultrarelativistic particle ($\gamma \rightarrow \infty$), the field becomes entirely perpendicular to the direction of motion. If we place a conductive wire along the same path we would expect the charged particle to take (in most cases this is well represented by a straight wire), a short electrical pulse sent along this wire would propogate in the TEM (Transverse Electrical and Magnetic field) mode, producing a field profile similar to that emitted by the ultrarelativistic charged particle (see. Fig. \ref{fig:coax-part-profile})
+A moving charged particle produces an electromagnetic field in an arc transverse to its direction of motion, where the angle of the arc opening is inversely proportional to the relativistic factor of the particle $\gamma$. For an ultrarelativistic particle ($\gamma \rightarrow \infty$), the field becomes entirely perpendicular to the direction of motion. If we place a conductive wire along the same path we would expect the charged particle to take (in most cases this is well represented by a straight wire), a short electrical pulse sent along this wire would propogate in the TEM (Transverse Electrical and Magnetic field) mode, producing a field profile similar to that emitted by the ultrarelativistic charged particle (see. Fig. \ref{fig:coax-part-profile})
 
 
 \begin{figure}
@@ -22,13 +22,36 @@ A moving charged particle produces an electromagnetic field in na arc transverse
 
 The classical coaxial wire method, first proposed in it's present form by V. Vaccarro in 1990 \cite{Vaccaro:ImprovedWireMeth}, is a transmission method that measures the complex transmission coefficient of a DUT (Device Under Test) made up of the equipment whose impedance is to be measured and a coaxial wire passing through it. 
 
-The experimental setup is as shown in Fig. \ref{fig:classic-coax}. Firstly the external circuit (i.e. everything not the DUT such as VNA, cables, transition etc.) is matched to the characteristic impedance of the coaxial line inside the DUT. This is done by measuring the reflection coefficient $\Gamma$ for the setup with only one port connected to the DUT and the other end terminated by an open connection. Knowing the characteristic impedance of the VNA and associated cables (typically $Z_{c0} = 50\Omega$), we can easily calculate the characteristic impedance, $Z_{c}$, from the relation,
+The experimental setup is as shown in Fig. \ref{fig:classic-coax}. Firstly the external circuit (i.e. everything which is not the DUT such as VNA, cables, transition between connections etc.) is matched to the characteristic impedance of the coaxial line inside the DUT. This is done by measuring the reflection coefficient $\Gamma$ for the setup with only one port connected to the DUT and the other end terminated by an open connection. Knowing the characteristic impedance of the VNA and associated cables (typically $Z_{c0} = 50\Omega$), we can easily calculate the characteristic impedance of the DUT, $Z_{c}$, from the relation,
 
 \begin{equation}
 \Gamma = \frac{Z_{c} - Z_{c0}}{Z_{c} + Z_{c0}}.
 \end{equation}
 
-We then electrically match the characteristic impedance by adding resistors in series just before the DUT to resistively match the characteristic impedance of the VNA to that of the DUT. It is possible to use physical matching also using transition cones but these are costly, time consuming to construct and require new cones for each piece of equipment measured. And as can be seen in Fig. \ref{fig:matching-plot}, matching with a resistor is highly effective at removing the presence of reflections in coaxial measurements.
+It is then possible to electrically match the characteristic impedance by adding a resistive network between the DUT and the external circuit. This may be done in two ways:
+
+\begin{enumerate}
+\item{Adding resistors in series just before the DUT to resistively match the characteristic impedance (as seen by the DUT) of the VNA and associated measurement setup to that of the DUT, such that the series resistance $R_{s}=Z_{c0}-Z_{0}$. Often an attenuator is used to reduce the effect of reflections from the mismatch between the VNA and the resistor, shown in Fig.~\ref{fig:resMatch}.}
+\item{The use of two way matching, using a parallel ($R_{p}$) and series ($R_{s}$) resistor, as shown in Fig.~\ref{fig:twoWayMatch}. The values for these resistances are given by}
+\begin{align}
+R_{p} = Z_{c0}\frac{\sqrt{Z_{c0}}}{Z_{c0}-Z_{0}} \nonumber \\
+R_{s} = Z_{c0} - \frac{Z_{c0}R_{p}}{Z_{c0}+R_{p}} \nonumber
+\end{align}
+\end{enumerate} 
+
+\begin{figure}
+\subfigure[]{
+\includegraphics[width=0.45\textwidth]{Bench_Top_Measurements/figures/matching1Way.pdf}
+\label{fig:resMatch}
+}
+\subfigure[]{
+\includegraphics[width=0.45\textwidth]{Bench_Top_Measurements/figures/matching2Way.pdf}
+\label{fig:twoWayMatch}
+}
+\caption{The resistive networks for matching a DUT to the attached measuring network (VNA and connecting cables). \subref{fig:resMatch} shows series resistive matching and \subref{fig:twoWayMatch} shows a two way matching network.}
+\end{figure}
+
+It is possible to use physical matching also using transition cones but these are costly, time consuming to construct, work only for a restricted frequency range and require new cones for each piece of equipment measured. And as can be seen in Fig. \ref{fig:matching-plot}, matching with a resistor is highly effective at removing the presence of reflections in coaxial measurements.
 
 \begin{figure}
 \begin{center}
@@ -42,25 +65,25 @@ We then electrically match the characteristic impedance by adding resistors in s
 \begin{center}
 \includegraphics[width=0.6\textwidth]{Bench_Top_Measurements/figures/coax-matching-no-matching.png}
 \end{center}
-\caption{An example of a reflection measurement made with and without a matching resistor. The faded line is the measurement with matching, the bold line that without. The reduction in the reflection can be seen due to the flatter line after the initial reflection.}
+\caption{An example of a reflection measurement made with and without matching resistors. The faded line (lower trace) is the measurement with matching, the bold line (upper trace) that without. The reduction in the reflection can be seen due to the flatter line after the initial reflection.}
 \label{fig:matching-plot}
 \end{figure}
 
-The value that we wish to measure to evaluate the beam coupling impedance of a device are the scattering parameters of the resulting circuit, in particular $S_{21}$, the normalised transmission parameter through the DUT. $S_{21}$ is calculated by taking the measured transmission parameter $S_{21,DUT}$ and dividing it by the transmission parameter through a reference line of the same physical length as the DUT,
+The values that we wish to measure to evaluate the beam coupling impedance of a device are the scattering parameters of the resulting circuit, in particular $S_{21}$, the normalised transmission parameter through the DUT. $S_{21}$ is calculated by taking the measured transmission parameter $S_{21,DUT}$ and dividing it by the transmission parameter through a reference line of the same physical length as the DUT,
 
 \begin{equation}
 S_{21} = \frac{S_{21,DUT}}{S_{21,REF}}.
-\end{equation}.
+\end{equation}
 
 The effect of this is to correct the measured phase change in the DUT to be that only caused by the imaginary component of the beam coupling impedance.
 
-There are subsequently a number of ways to evaluate the beam coupling impedance of the DUT depending on it's expected properties. For devices that are expected to have either a small impedance, or those that are physically very short in length, it is possible to use the so called lumped impedance formula \cite{Hahn:BenchMeasInter, Hahn: ValidityImpMeas};
+There are subsequently a number of ways to evaluate the beam coupling impedance of the DUT depending on it's expected properties. For devices that are expected to have either a small impedance, or those that are physically very short in length, it is possible to use the so called lumped impedance formula \cite{Hahn:BenchMeasInter, Hahn:ValidityImpMeas};
 
 \begin{equation}
 Z = 2Z_{c} \frac{1-S_{21}}{S_{21}}.
-\end{equation}.
+\end{equation}
 
-For distributed impedances, it is suitable to use the so called log formula (called so due to the exponential attenuation of the signal causing a log function to appear in the evaluation) \cite{Hahn:BenchMeasInter, Hahn: ValidityImpMeas, Jensen:ImprovLogForm},
+For distributed impedances, it is suitable to use the so called log formula (called so due to the exponential attenuation of the signal causing a log function to appear in the evaluation) \cite{Hahn:BenchMeasInter, Hahn:ValidityImpMeas, Jensen:ImprovLogForm},
 
 \begin{equation}
 Z = -2Z_{c} ln \left( S_{21} \right).
@@ -118,7 +141,7 @@ Note that this attenuation includes both that from the beam coupling impedance a
 \label{eqn:wire_atten}
 \end{equation}
 
-where $\rho_{w}$ is the wire resistivity, $\epsilon$ the permitivitty, $f$ the frequency, $d$ the diameter of the inner conductor and $D$ the diameter of the outer conductor (typically the vacuum beam pipe diameter). At very low frequencies the finite skin depth of the inner conductor would also have to be taken into account. Using the corrected attentuation $\alpha = \alpha_{m} - \alpha_{w}$, the real longitudinal impedance per unit length can be found to be 
+where $\rho_{w}$ is the wire resistivity, $\epsilon$ the wire permitivitty, $f$ the frequency, $d$ the diameter of the inner conductor and $D$ the diameter of the outer conductor (typically the vacuum beam pipe diameter). At very low frequencies the finite skin depth of the inner conductor would also have to be taken into account. Using the corrected attentuation $\alpha = \alpha_{m} - \alpha_{w}$, the real longitudinal impedance per unit length can be found to be 
 
 \begin{equation}
 \Re e\left\{ Z \right\} = 2Z_{c} \alpha
@@ -219,15 +242,15 @@ It is possible to directly measure the dipolar impedance of a device through the
 \begin{center}
 \includegraphics[width=0.6\textwidth]{Bench_Top_Measurements/figures/wire_meas_two_wire.pdf}
 \end{center}
-\label{fig:two_wire_measure}
 \caption{Measurement setup for measurements of the dipolar beam coupling impedance using the two wire setup for the classical coaxial wire method.}
+\label{fig:two_wire_measure}
 \end{figure}
 
-The measurements are done in the same way as described in the previous sections for either the classical transmission method or the resonator method. When using the classical coaxial wire method, both wires are individually matched to $Z_{c}$. By using two wires each carrying a signal 180$^{o}$ out of phase with one another we produce a field pattern similar to a dipole and thus measure the dipole impedance in either the horizontal or vertical plane depending on the orientation of the two wires. 
+The measurements are done in the same way as described in the previous sections for either the classical transmission method or the resonator method. When using the classical coaxial wire method, both wires are individually matched to $Z_{c0}$. By using two wires each carrying a signal 180$^{o}$ out of phase with one another we produce a field pattern similar to a dipole and thus measure the dipole impedance in either the horizontal or vertical plane depending on the orientation of the two wires. 
 
 What is directly measured is the longitudinal impedance of just the dipole impedance, as is to be expected from the Panofsky-Wenzel theorem (see Sec.~\ref{sec:PanWen} for further explanation). 
 
-For two wire placed as positions $x = \pm a$, the current density is given by \cite{Tsutsui:OnSingleWire}
+For two wire placed at positions $x = \pm a$ relative to the centre of the aperture, the source current density is given by \cite{Tsutsui:OnSingleWire}
 
 \begin{align}
 J & =  I \left( \delta \left( x - a \right) - \delta \left( x + a  \right) \right) \delta (y) exp \left( j \left( \omega t - kz \right) \right) \nonumber \\
@@ -383,9 +406,9 @@ The constant impedance can also be seen to be found by taking a linear fit of th
 
 In this section shall be presented a number of example analyses of coaxial wire measurements done on geometries exhibiting top/bottom, left/right symmetry and an asymmetric structure. This permits a step-by-step guide to analysis of the wire measurements, which may not be immediately clear from the mathematical introduction. These simulations are carried out using both Ansoft HFSS\cite{hfss} and Maxwell\cite{maxwell} using a driven modal solution. 
 
-The simulations with HFSS are carried out in the following manner: the measurement system is simulated by placing waveguide ports at either end of the geometry with a conducting cylinder placed as the inner conductor of the coaxial system. The transmission parameters are then acquired as a result of the simulations. The wire may then be displaced as neccessary for the displaced single wire measurements. For two wire measurements a quarter geometry may be simulated, using a quarter geometry with a perfect H boundary in the plane of the wires, and a perfect E boundary between the wires to enforce the dipolar field pattern.
+The simulations with HFSS are carried out in the following manner: for representing the single wire measurement the measurement system is simulated by placing waveguide ports at either end of the geometry with a conducting cylinder placed as the inner conductor of the coaxial system. The transmission parameters are then acquired as a result of the simulations. The wire may then be displaced as neccessary for the displaced single wire measurements. For two wire measurements a quarter geometry may be simulated, using a quarter geometry with a perfect H boundary in the plane of the wires, and a perfect E boundary between the wires to enforce the dipolar field pattern.
 
-Maxwell is a frequency domain code optimised for low frequencies (less thans 10s of MHz). It does not permit the use of waveguide ports, however it does allow the definition of current segments with phase changes between them. By considering the current (either a single current segment to simulate a single wire, or two current carrying segments 180$^{\circ}$ out of phase for two wires) to be the equivalent of a beam current, and assuming the inclusion of the current carrying component is a negligible perturbation to the geometry, the impedance can be found by summing the power loss in the system. This can be seen to be equivalent to the beam induced heating experienced by a beam interacting with an impedance.
+Maxwell is a frequency domain code optimised for low frequencies (less thans 10s of MHz). It does not permit the use of waveguide ports, however it does allow the definition of current segments with phase changes between them. By considering the current (either a single current segment to simulate a single wire, or two current carrying segments 180$^{\circ}$ out of phase for two wires) to be the equivalent of a beam current, and assuming the inclusion of the current carrying component is a negligible perturbation to the geometry, the real impedance can be found by summing the power loss in the system. This can be seen to be equivalent to the beam induced heating experienced by a beam interacting with an impedance.
 
 This can be thought of by comparing the system to a homogenous transmission line. The power $P$ of a wave travelling along the line is given by \cite{Kroyer:lowFreqColImp}
 
@@ -436,7 +459,7 @@ For the structure exhibiting top/bottom, left/right symmetry we use the Tsutsui 
 \includegraphics[width=0.45\textwidth]{Bench_Top_Measurements/figures/zannini-model-geo.pdf}
 \label{fig:zannini-model}
 }
-\caption{The geometries used for coaxial wire measurement simulations. For the geometry with top/bottom, left/right symmetry we use the Tsutsui model (\ref{fig:tsutsui-model}) using two parallel plates. For the asymmetric structure we use the Zannini-model for a C-core ferrite kicker magnet (\ref{fig:zannini-model}), which generates a constant term and a noticeable asymmetric term.}
+\caption{The geometries used for coaxial wire measurement simulations. For the geometry with top/bottom, left/right symmetry we use the Tsutsui model (\subref{fig:tsutsui-model}) using two parallel plates. For the asymmetric structure we use the Zannini-model for a C-core ferrite kicker magnet (\subref{fig:zannini-model}), which generates a constant term and a noticeable asymmetric term.}
 \label{fig:wire-measure-geometries}
 \end{figure}
 
@@ -452,13 +475,13 @@ For the structure exhibiting top/bottom, left/right symmetry we use the Tsutsui 
 \begin{center}
 \includegraphics[width=0.5\textwidth]{Bench_Top_Measurements/figures/cross-section-coaxial-wire-measurements.png}
 \end{center}
-\caption{An example of the simulation model used for coaxial wire simulations. In this case a displaced single wire between two ferrite plates. The wire is highlighted in purple.}
+\caption{An example of the simulation model used for coaxial wire simulations. In this case a displaced single wire between two parallel plates. The wire is highlighted in purple.}
 \label{fig:wire-sim-model}
 \end{figure}
 
 \subsubsection{Two Parallel Ferrite Plates}
 
-For the simulations of two parallel ferrite plates the following parameters were used; for the displaced single wire measurements a wire of 0.3mm in radius, and the following displacement used to acquire the total transverse terms:
+For the simulations of two parallel ferrite plates the following parameters were used in HFSS; for the displaced single wire measurements a wire of 0.3mm in radius, and the following displacement used to acquire the total transverse terms:
 
 \begin{enumerate}
 \item{In the horizontal axis -  displaced between -6mm to +6mm at intervals of 2mm}
@@ -485,7 +508,7 @@ These parameters are used to benefit from an appropriate mesh count for the give
 \includegraphics[width=0.5\textwidth]{Bench_Top_Measurements/figures/wire_meas/ferrite_plates/longitudinal-vertical.pdf}
 \label{fig:ferrite-plates-long-vert}
 }
-\caption{The longitudinal impedance of two parallel ferrite plates simulated using a longitudinal coaxial wire. Presented is the impedance as measured in the horizontal plane (\ref{fig:ferrite-plates-long-horz}) and in the vertical plane \ref{fig:ferrite-plates-long-vert}.}
+\caption{The longitudinal impedance of two parallel ferrite plates simulated using a longitudinal coaxial wire. Presented is the impedance as measured in the horizontal plane (\subref{fig:ferrite-plates-long-horz}) and in the vertical plane \subref{fig:ferrite-plates-long-vert}.}
 \label{fig:ferrite-plates-long}
 \end{figure}
 
@@ -498,7 +521,7 @@ These parameters are used to benefit from an appropriate mesh count for the give
 \includegraphics[width=0.5\textwidth]{Bench_Top_Measurements/figures/wire_meas/ferrite_plates/dipolar-vertical.pdf}
 \label{fig:ferrite-plates-dip-vert}
 }
-\caption{The dipolar impedance of two parallel ferrite plates simulated using two longitudinal coaxial wires. Presented are the impedances as measured in the horizontal plane (\ref{fig:ferrite-plates-dip-horz}) and in the vertical plane \ref{fig:ferrite-plates-dip-vert}.}
+\caption{The dipolar impedance of two parallel ferrite plates simulated using two longitudinal coaxial wires. Presented are the impedances as measured in the horizontal plane (\subref{fig:ferrite-plates-dip-horz}) and in the vertical plane \subref{fig:ferrite-plates-dip-vert}.}
 \label{fig:ferrite-plates-dipolar}
 \end{figure}
 
@@ -511,11 +534,11 @@ These parameters are used to benefit from an appropriate mesh count for the give
 \includegraphics[width=0.5\textwidth]{Bench_Top_Measurements/figures/wire_meas/ferrite_plates/quadrupolar-vertical.pdf}
 \label{fig:ferrite-plates-quad-vert}
 }
-\caption{The quadrupolar impedance of two parallel ferrite plates simulated using a combination of displaced single wire simulated measurements and two wire simulated mesurements. Presented is the impedance as measured in the horizontal plane (\ref{fig:ferrite-plates-quad-horz}) and in the vertical plane \ref{fig:ferrite-plates-quad-vert}.}
+\caption{The quadrupolar impedance of two parallel ferrite plates simulated using a combination of displaced single wire simulated measurements and two wire simulated measurements. Presented is the impedance as measured in the horizontal plane (\subref{fig:ferrite-plates-quad-horz}) and in the vertical plane \subref{fig:ferrite-plates-quad-vert}.}
 \label{fig:ferrite-plates-quadrupolar}
 \end{figure}
 
-The longitudinal impedance is as determined by taking the constant term for a series of simulated displaced wire measurements in both the vertical and horizontal planes is shown in Fig.~\ref{fig:ferrite-plates-long}. It can be seen that in the frequency range below 100MHz the agreement between the coaxial wire results and the analytical results is very good in both the vertical and horizontal plane. Above 100MHz the agreement for the real components is very good for both results, however the imaginary component in the vertical plane displays some substantial disagreement. This is likely due to the high mesh density required to correctly evaluate the phase change along the length of the simulated structure. A higher mesh density may correct this, however limits of computational resource presently make this unfeasible.
+The longitudinal impedance is determined by taking the constant term for a series of simulated displaced wire measurements in both the vertical and horizontal planes is shown in Fig.~\ref{fig:ferrite-plates-long}. It can be seen that in the frequency range below 100MHz the agreement between the coaxial wire results and the analytical results is very good in both the vertical and horizontal plane. Above 100MHz the agreement for the real components is very good for both results, however the imaginary component in the vertical plane displays some substantial disagreement. This is likely due to the high mesh density required to correctly evaluate the phase change along the length of the simulated structure. A higher mesh density may correct this, however limits of computational resource presently make this unfeasible.
 
 The agreement between the simulations of the vertical dipolar impedance and the theoretical model is excellent across all frequencies for both the real and imaginary components. The agreement below 100MHz and above 1GHz is very good for the horizontal dipolar, with some divergence in the constant term of the imaginary impedance. The key difference is the failure of the coaxial method to resolve one of the peaks in the real impedance. The results for the dipolar impedance are shown in Fig.~\ref{fig:ferrite-plates-dipolar}.
 
@@ -525,7 +548,7 @@ The results for the quadrupolar impedance are shown in Fig.~\ref{fig:ferrite-pla
 
 For the simulations of measurements of two parallel graphite plates, two different methods were used. Due to the non-ferritic properties of the graphite, it is possible to use Maxwell3D to simulate the power loss at lower frequencies, thus acquiring the real component of the impedance for low frequencies, in addition to using the classical coaxial wire method at higher frequencies in HFSS.
 
-For the simulations of the power loss in Maxwell3D the following parameters were used; for the displaced single wire measurements a wire of 0.5mm in radius is modelled, and the following displacement used to acquire the total transverse terms:
+For the simulations of the power loss in Maxwell3D the following parameters were used; for the displaced single wire measurements a wire of 0.5mm radius is modelled, and the following displacement used to acquire the total transverse terms:
 
 \begin{enumerate}
 \item{In the horizontal axis -  displaced between -6mm to +6mm at intervals of 2mm}
@@ -570,7 +593,7 @@ As before these parameters are used to benefit from an appropriate mesh count fo
 \includegraphics[width=0.5\textwidth]{Bench_Top_Measurements/figures/wire_meas/graphite_plates/longitudinal-vertical.pdf}
 \label{fig:graph-plates-long-vert}
 }
-\caption{The longitudinal impedance of two parallel graphite plates as measured by taking the constant term of a quadratic equation fitted to a series of displaced single wire measurements. Shown are measurements acquired from fitting displacements in \ref{fig:graph-plates-long-horz} horizontal axis and in \ref{fig:graph-plates-long-vert} the vertical axis.}
+\caption{The longitudinal impedance of two parallel graphite plates as measured by taking the constant term of a quadratic equation fitted to a series of displaced single wire simulated measurements. Shown are simulated measurements acquired from fitting displacements in \subref{fig:graph-plates-long-horz} horizontal axis and in \subref{fig:graph-plates-long-vert} the vertical axis.}
 \label{fig:graph-plates-long-imp}
 \end{figure}
 
@@ -583,7 +606,7 @@ As before these parameters are used to benefit from an appropriate mesh count fo
 \includegraphics[width=0.5\textwidth]{Bench_Top_Measurements/figures/wire_meas/graphite_plates/dipolar-vertical.pdf}
 \label{fig:graph-plates-dip-vert}
 }
-\caption{The dipolar impedance of two parallel graphite plates measured using two longitudinal coaxial wires. Presented is the impedance as measured in the horizontal plane (\ref{fig:graph-plates-dip-horz}) and in the vertical plane \ref{fig:graph-plates-dip-vert}.}
+\caption{The dipolar impedance of two parallel graphite plates measured using two longitudinal coaxial wires. Presented is the impedance as measured in the horizontal plane (\subref{fig:graph-plates-dip-horz}) and in the vertical plane \subref{fig:graph-plates-dip-vert}.}
 \label{fig:graph-plates-dipolar}
 \end{figure}
 
@@ -595,13 +618,13 @@ As before these parameters are used to benefit from an appropriate mesh count fo
 \label{fig:graph-plates-quadrupolar}
 \end{figure}
 
-The longitudinal impedance can be seen in Fig.~\ref{fig:graph-plates-long-imp}. It can be seen that the agreement for both the real component is excellent across the entire frequency range, for simulations using both the classical coaxial wire method and the power loss method of Maxwell3D. The agreement is also good for the imaginary component over much of the frequency range, becoming worse above 100MHz. This is likely due to insufficient mesh density to catch the relatively small phase shift at this frequency range.
+The longitudinal impedance in Fig.~\ref{fig:graph-plates-long-imp}. It can be seen that the agreement for both the real component is excellent across the entire frequency range, for simulations using both the classical coaxial wire method and the power loss method of Maxwell3D. The agreement is also good for the imaginary component over much of the frequency range, becoming worse above 100MHz. This is likely due to insufficient mesh density to catch the relatively small phase shift at this frequency range.
 
-The agreement between simulations and theory for the vertical dipolar impedance can be seen to be very good over the entire frequency range also (see Fig.~\ref{fig:graph-plates-dip-vert}). The results at low frequencies (below 100kHz) for the power loss method and at all frequencies for the classical coaxial wire method for the horizontal dipolar impedance agree very well with theory (see Fig.~\ref{fig:graph-plates-dip-horz}). The quadrupolar impedance is shown in Fig.~\ref{fig:graph-plates-quadrupolar}, and again the agreement between the simulated measurements and theory can be seen to be good over the entire frequency range, using both the power loss method and the classical coaxial wire method.
+The agreement between simulations and theory for the vertical dipolar impedance can be seen to be very good over the entire frequency range also (see Fig.~\ref{fig:graph-plates-dip-vert}). The results at low frequencies (below 100kHz) for the power loss method and at all frequencies for the classical coaxial wire method for the horizontal dipolar impedance agree very well with theory (see Fig.~\ref{fig:graph-plates-dip-horz}). The quadrupolar impedance is shown in Fig.~\ref{fig:graph-plates-quadrupolar}, and again the agreement between the simulated measurements and theory can be seen to be good over the entire frequency range, using both the power loss method and the classical coaxial wire method. However, the power loss method does predict peaks at the lower part of each frequency sweep that are not predicted in either tha theoretical model or the measurements with the coaxial wire method in HFSS.
 
 \subsubsection{C-Core Ferrite Kicker}
 
-To test the measurement method for an asymmetric structure a model of the C-core ferrite kicker magnet was used, as shown in Fig.\ref{fig:zannini-model}, the analytical details of which are given in \cite{Zannini:cCoreFerrite}. Key in this type of structure is that it predicts a non-zero constant transverse impedance term as well as the quadrupolar terms, thus we may completely evaluate the asymmetric measurement method. The model gives predictions of the impedance in the  For these simulations a structure of $a=15$mm, $r=20$mm, $\theta = \pi / 2$, and $100$mm in length was used. Simulations were carried out using the classical coaxial wire method as simulated in HFSS.
+To test the measurement method for an asymmetric structure a model of the C-core ferrite kicker magnet was used, as shown in Fig.\ref{fig:zannini-model}, the analytical details of which are given in \cite{Zannini:cCoreFerrite}. Key in this type of structure is that it predicts a non-zero constant transverse impedance term as well as the quadrupolar terms, thus we may completely evaluate the asymmetric measurement method. For these simulations a structure of $a=15$mm, $r=20$mm, $\theta = \pi / 2$, and $100$mm in length was used. Simulations were carried out using the classical coaxial wire method as simulated in HFSS.
 
 The following parameters were used for the simulations; wire of 0.2mm in radius, and the following displacement used to acquire the total transverse terms:
 
@@ -638,7 +661,7 @@ These parameters are used to benefit from an appropriate mesh count for the give
 \includegraphics[height=0.35\textwidth]{Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/constant-vertical-impedance.pdf}
 \label{fig:c-core-constant}
 }
-\caption{The impedance of the C-core ferrite kicker as acquired by simulating the classical coaxial wire method in HFSS. Shown is the \ref{fig:c-core-longitudinal} longitudinal impedance, \ref{fig:c-core-dipolar} the dipolar impedance, \ref{fig:c-core-quadrupolar} the quadrupolar impedance and \ref{fig:c-core-constant} the constant transverse impedance.}
+\caption{The impedance of the C-core ferrite kicker as acquired by simulating the classical coaxial wire method in HFSS. Shown is the \subref{fig:c-core-longitudinal} longitudinal impedance, \subref{fig:c-core-dipolar} the dipolar impedance, \subref{fig:c-core-quadrupolar} the quadrupolar impedance and \subref{fig:c-core-constant} the constant transverse impedance.}
 \end{figure}
 
 It can be seen that the longitudinal impedance agrees well over the entire frequency range below 1GHz (Fig.~\ref{fig:c-core-longitudinal}). The analytical calculations breakdown above 1GHz due to the family of Bessel functions used for the calculations being optimised for low frequency calculations. Similarly the agreement for the dipolar impedance can be seen to be exceptionally good over the majority of the frequency range, with an increasing descrepency at high frequencies (Fig.~\ref{fig:c-core-dipolar}).
@@ -667,15 +690,15 @@ During excitation by a charged particle beam, propogation losses do not exist be
 \includegraphics[width=0.625\linewidth]{figures/cavity_beampipe_coaxial.pdf}
 \label{fig:cavity_beampipe_coaxial}
 }
-\caption{Comparison of the geometries of a cavity and attached beampipes \ref{fig:cavity_beampipe} without and \ref{fig:cavity_beampipe_coaxial} with the coaxial wire in place. Note the dimensions and that the dashed line in \ref{fig:cavity_beampipe} represents the rotational plane of symmetry}
+\caption{Comparison of the geometries of a cavity and attached beampipes \subref{fig:cavity_beampipe} without and \subref{fig:cavity_beampipe_coaxial} with the coaxial wire in place. Note the dimensions and that the dashed line in \subref{fig:cavity_beampipe} and the solid line in \subref{fig:cavity_beampipe_coaxial} represent the rotational plane of symmetry}
 \end{figure}
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=1.1\textwidth]{Bench_Top_Measurements/figures/coax-trans-cavity.pdf}
 \end{center}
-\label{fig:cav-wire-tans}
 \caption{A comparison of the transmission parameters through a pillbox cavity with and without a coaxial wire. A displaced coaxial wire is also shown to illustrate the possibility of exciting dipolar modes also. It can be seen that the transmission signals are drastically changed depending on the presence or not of the wire.}
+\label{fig:cav-wire-tans}
 \end{figure}
 
 %

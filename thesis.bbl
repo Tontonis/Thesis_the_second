@@ -37,6 +37,11 @@ P.~Baudrenghien, M.~E. Angoletta, T.~Argyropoulos, L.~Arnaudon, T.~Bohl,
   RF System - Experience with beam operation,'' Tech. Rep. CERN-ATS-2011-048,
   Aug 2011.
 
+\bibitem{Metral:Heating}
+E.~Métral and et~al, ``Beam-induced heating/bunch length/RF and lessons for
+  2012.''\hskip 1em plus 0.5em minus 0.4em\relax Geneva: Presented at Chamonix
+  2012 LHC Performance Workshop, February 2012.
+
 \bibitem{Schindl:SpaceCharge}
 S.~Karlheinz, ``Space Charge,'' Introductory CERN Accelerator School, 2006.
 
@@ -286,6 +291,13 @@ H.~Hahn, ``Interpretation of Coupling Impedance Bench Measurements,''
   Available: \url{http://link.aps.org/doi/10.1103/PhysRevSTAB.7.012001}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Hahn:ValidityImpMeas}
+\BIBentryALTinterwordspacing
+H.~Hahn, ``Validity of coupling impedance bench measurements,'' \emph{Phys.
+  Rev. ST Accel. Beams}, vol.~3, p. 122001, Dec 2000. [Online]. Available:
+  \url{http://link.aps.org/doi/10.1103/PhysRevSTAB.3.122001}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Jensen:ImprovLogForm}
 E.~Jensen, ``An improved log-formula for homogeneously distributed impedance,''
   CERN, Geneva, Tech. Rep. CERN-PS-RF-NOTE-2000-001, Jan 2000.
@@ -295,7 +307,10 @@ H.~Tsutsui, ``On single wire technique for transverse coupling impedance
   measurement,'' CERN, Geneva, Tech. Rep. SL-Note-2002-034-AP, Oct 2002.
 
 \bibitem{hfss}
-``\texttt{http://www.ansys.com}.''
+``Ansoft HFSS \texttt{http://www.ansys.com}.''
+
+\bibitem{maxwell}
+``Ansys Maxwell \texttt{http://www.ansys.com}.''
 
 \bibitem{Kroyer:lowFreqColImp}
 T.~Kroyer, ``Simulation of the low-frequency collimator impedance,'' CERN,
@@ -326,7 +341,7 @@ Y.-H. Chin, ``{User's guide for ABCI version 9.4 (Azimuthal beam cavity
   Rep., 2005.
 
 \bibitem{cst}
-``\texttt{http://www.cst.com}.''
+``CST Microwave Studio \texttt{http://www.cst.com}.''
 
 \bibitem{Weiland:MAFIAv4}
 T.~Weiland, M.~Bartsch, U.~Becker, M.~Bihn, U.~Blell \emph{et~al.}, ``{MAFIA
@@ -417,11 +432,6 @@ A.~Dallocchio, A.~Bertarelli, C.~Boccard, F.~Carra, M.~Gasior, L.~Gentini, and
 \bibitem{Salvant:Heating}
 B.~Salvant, ``Beam induced heating.''\hskip 1em plus 0.5em minus 0.4em\relax
   Geneva: Presented at Evian LHC Beam Operation Workshop, December 2011.
-
-\bibitem{Metral:Heating}
-E.~Métral and et~al, ``Beam-induced heating/bunch length/RF and lessons for
-  2012.''\hskip 1em plus 0.5em minus 0.4em\relax Geneva: Presented at Chamonix
-  2012 LHC Performance Workshop, February 2012.
 
 \bibitem{Salvant:tctp}
 B.~Salvant, ``TCTP Impedance simulated with CST.''\hskip 1em plus 0.5em minus

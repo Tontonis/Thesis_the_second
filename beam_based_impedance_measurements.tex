@@ -17,7 +17,7 @@ The equation for the longitudinal motion of a charged particle in an RF bucket c
 \end{equation}
 
 where $\omega_{RF} = h\omega_{0}$ is the RF frequency, $\omega_{0}$ is the revolution frequency, $h$ is the harmonic
-number of the RF, $\eta = \alpha_{c} - \gamma^{-2}$ is the slip factor, $\alpha_{c} = \gamma_{t}^{-2}$ is the momentum compaction factor, $\gamma_{t}$ is the transition energy gamma factor, $E=\gamma E_{0}$ is the total particle energy, $E_{0}$ is the rest energy of the particle, $\bar{\phi}$ is the stable phase angle and $V_{T}$ is the total voltage seen by the beam. For an empty bucket (i.e. no particles present) the voltage present is just that of the RF voltage $V_{RF}$ , giving an associated synchrotron frequency $\omega_{s0}$. We can subsequently see from Eqn.~\ref{eqn:syn_volt} that we have the ratio
+number of the RF, $\eta = \alpha_{c} - \gamma^{-2}$ is the slip factor, $\alpha_{c} = \gamma_{t}^{-2}$ is the momentum compaction factor, $\gamma_{t}$ is the transition energy gamma factor, $E=\gamma E_{0}$ is the total particle energy, $E_{0}$ is the rest energy of the particle, $\bar{\phi}$ is the stable phase angle and $V_{T}$ is the total voltage seen by the beam. For an empty bucket (i.e. no particles present) the voltage present is just that of the RF voltage $V_{RF}$, giving an associated synchrotron frequency $\omega_{s0}$. We can subsequently see from Eqn.~\ref{eqn:syn_volt} that we have the ratio
 
 \begin{equation}
 V_{T} = V_{RF}\left(  \frac{\omega_{s}}{\omega_{s0}} \right)^{2}.
@@ -43,16 +43,16 @@ The resulting induced voltage of the bunch depends heavily on the nature of the 
 \end{equation}
 
 where $c = \frac{3}{\pi^{2}}$ is a constant dependent on the bunch profile, $B = f_{0}2L$ is the bunching
-factor, given by the product of the revolution frequency and the bunch length in seconds (or alternatively the ratio of the bunch length to the revolution time), $I_{b}$ is the bunch current, $g = 1 + 2ln\left(\frac{b}{a} \right)$ is the direct space charge factor, $b$ is the beam pipe radius, $a$ is the beam radius and $Z_{0}$ ($377\Omega$) is the impedance of free space.
+factor, given by the product of the revolution frequency and the bunch length in seconds (or alternatively the ratio of the bunch length to the revolution time), $I_{b}$ is the bunch current, $g = 1 + 2ln\left(\frac{b}{a} \right)$ is the direct space charge factor, $b$ is the beam pipe radius, $a$ is the beam radius, and $Z_{0}$ ($377\Omega$) is the impedance of free space.
 
-If we consider an ultrarelativistic beam ($\gamma \rightarrow 1$), the space charge factor $g = 0$. Then, considering the value of $\bar{\phi}$ (i.e. whether the bunch is above transition $cos\bar{\phi} > 0$, or below transition $cos\bar{\phi} < 0$), the bunch length increases with the larger bunch current above transition, and decreases below transition. All variables other than $Z/n$ may be measured directly using various instrumentation.
+If we consider an ultrarelativistic beam ($\gamma \rightarrow \infty$), the space charge factor $g = 0$. Then, considering the value of $\bar{\phi}$ (i.e. whether the bunch is above transition $cos\bar{\phi} > 0$, or below transition $cos\bar{\phi} < 0$), the bunch length increases with the larger bunch current above transition, and decreases below transition. All variables other than $Z/n$ may be measured directly using various instrumentation.
 
 Generalisation of this method to a general complex impedance shows that it is the imaginary component of the longitudinal impedance that contributes to the induced voltage, thus being the component of the impedance measured using this method.
 
 \subsection{Synchronous Phase Shift}
 \label{sec:syn-phase-shift}
 
-As discussed in Sec.~\ref{sec:beam_induced_heating}, a particle circulating in circular accelerator losses energy due to the interaction with impedances in the machine. If the particle is not undergoing acceleration, it can be seen that to keep the same energy, the particle must have a phase relative to the RF that ensures that the energy losses due to wakefields are equal to the energy gained during the traversal of the RF cavities, given by the equivalence of the energy gain by transit and the energy loss by traversal,
+As discussed in Sec.~\ref{sec:beam_induced_heating}, a particle circulating in a circular accelerator losses energy due to the interaction with impedances in the machine. If the particle is not undergoing acceleration, it can be seen that to keep the same energy, the particle must have a phase relative to the RF that ensures that the energy losses due to wakefields are equal to the energy gained during the traversal of the RF cavities, given by the equivalence of the energy gain by transit and the energy loss by traversal,
 
 \begin{equation}
 U = qeVsin\phi
@@ -81,7 +81,7 @@ When a bunch is exposed to a tranverse dipolar impedance $Z_{\perp}$, it undergo
 \label{eqn:complex_tun_shift}
 \end{equation}
 
-where $N_{p}$ is the number of particles in the bunch, $E$ is the energy, $T_{0}$ is the revolution time, $\sigma_{t} = \sigma_{z}/c$ is the bunch length, $\omega_{\beta} = 2\pi{}Q f_{rev}$ is the betatron frequency and $\left( Z_{\perp} \right)_{eff}$ is the effective transverse impedance. This is given by the impedance convolved with a weighting function $h$ which is determined by the transverse bunch profile given by
+where $N_{p}$ is the number of particles in the bunch, $E$ is the energy, $T_{0}$ is the revolution time, $\sigma_{t} = \sigma_{z}/c$ is the bunch length, $\omega_{\beta} = 2\pi{}Q f_{rev}$ is the betatron frequency and $\left( Z_{\perp} \right)_{eff}$ is the effective transverse impedance. This is given by the impedance convolved with a weighting function $h$ which is determined by the transverse bunch profile
 
 \begin{equation}
 \left( Z_{\perp} \right)_{eff} \left( \omega_{\xi} \right) = \int_{-\infty}^{\infty} Z_{\perp} \left( \omega \right) h_{m} \left(  \omega - \omega_{\xi} \right) d\omega.
@@ -121,7 +121,7 @@ The real component of the solution to Eqn~\ref{eqn:complex_tun_shift} can be rel
 \Delta Q = \frac{\Omega - \omega_{\beta}}{\omega_{0}} \approx \frac{1}{\omega_{0}} \frac{N_{p}ec^{2}}{4\sqrt{\pi}\omega_{\beta} \left( E/e \right)T_{0}\sigma_{t}} \Im{}m\left(  Z_{\perp} \right)_{eff},
 \end{equation} 
 
-where $\Omega$ is the measured betatron frequency. It can easily be seen that by altering the bunch population the tune shift $\Delta Q$ can be measured also and subsequently the value for $\Im{}m\left(  Z_{\perp} \right)_{eff} = Z_{\perp}^{dip} + Z_{\perp}^{quad}$ can be obtained.
+where $\Omega$ is the measured betatron frequency. It can be seen that, by altering the bunch population, the tune shift $\Delta Q$ can be measured and subsequently the value for $\Im{}m\left(  Z_{\perp} \right)_{eff} = Z_{\perp}^{dip} + Z_{\perp}^{quad}$ can be obtained.
 
 \subsection{Growth time change with chromaticity}
 \label{sec:growth-time-chrom}

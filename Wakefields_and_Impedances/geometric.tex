@@ -1,7 +1,7 @@
 \subsection{Geometric Impedance}
 \label{sec:imp_geo_imp}
 
-Geometric impedances are characterised by resonant fields at a resonant frequency, typically characterised by some characteristic dimension of the structure. This is typically a characteristic length of a structure (cavity size, antenna length), which may be part of a vacuum tank, or an internal structure to the device exhibiting the resonance. 
+Geometric impedances are characterised by resonant fields at a resonant frequency, typically attributable to some characteristic dimension of the structure; for example a length of a structure (cavity size, antenna length), which may be part of a vacuum tank, or an internal structure to the device exhibiting the resonance. 
 
 As a simple example, consider a cylindrical pillbox cavity of radius $r_{cav}$ and length $L$ connected to a beam pipe of radius $r_{pipe}$ located at the centre of the cavity, as shown in Fig.~\ref{fig:cylin_geo_diagram}. For simplicity we shall assume that the cavity is made from a perfectly conducting material. It shall be assumed that the fields do not propogate along the attached beam pipe (i.e. for frequencies below beam pipe cutoff). In this example we shall consider a particle travelling on the axis of the beam pipe, and only the longitudinal wakefunction/impedance will be investigated to simplify matters. Further details can be found in \cite{Wolsky:TheoryEM, Jensen:RFCav, Stupakov:wakeAndImp}. It can be shown that there are two families of resonant modes in in a pillbox cavity, TM-type modes and TE-type modes. The TE-type modes have no longitudinal electrical field by definition, and therefore do not contribute to the longitudinal wakefunction for an on axis particle. In a cylindrical coordinate system using coordinates $(r, \theta, z)$, the longitudinal electrical field of the $n$-th order TM-type modes can be shown to be
 
@@ -27,7 +27,7 @@ To evaluate the problem in the frequency domain we shall introduce the RLC paral
 
 \subsubsection{RLC Circuit Model}
 
-We can define any given resonance by an equivalent RLC circuit, which is driven by a current, shown in Fig.~\ref{fig:rlc_circ}. The symbols represent the equivalent resistance (R), inductance (L) and capcitance (C). From this circuit a number of defining parameters are now deduced, and the physical equivalents in the physical cavity are described.
+We can define any given resonance by an equivalent RLC circuit, which is driven by a current $i_{b}$, shown in Fig.~\ref{fig:rlc_circ}. The symbols represent the equivalent resistance ($R_{s}$), inductance ($L$) and capcitance ($C$). From this circuit a number of defining parameters are now deduced, and the physical equivalents in the actual cavity are described.
 
 \begin{figure}
 \begin{center}
@@ -46,7 +46,7 @@ The first parameter to be derived is the resonant frequency of the cavity mode i
 Next we define the quality factor of the $n$-th cavity mode, $Q_{n}$. This factor describes the damping of the wakefunction in the cavity for a given mode, larger values indicating a longer damping time. In terms of the cavity it is given by
 
 \begin{equation}
-Q_{n} = \frac{\omega_{res} W}{P_{surf}} = \omega_{0}RC
+Q_{n} = \frac{\omega_{res} W}{P_{surf}} = \omega_{0}R_{s}C
 \end{equation}
 
 where $W = \int_{V} \frac{\epsilon}{2} \left| \mathbf{E} \right|^{2} dV$ is the stored electromagnetic energy in the cavity due to the mode (sometimes given as $U$), $\epsilon = \epsilon_{r}\epsilon_{0}$ is the permitivitty, $\epsilon_{r}$ the relative permitivitty, $\epsilon_{0}$ the permitivitty of free space and $P_{surf}$ is the total losses in the cavity. Commonly the later is dominated by conductive losses on the cavity walls, but as will be seen in later sections, also includes losses due to other mechanisms. The final figures of merit are the $R_{s, n}/Q_{n}$ of the cavity mode, and the shunt impedance $R_{s, n}$ of the mode. $R_{s, n}/Q_{n}$ is given by
