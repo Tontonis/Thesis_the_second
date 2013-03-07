@@ -442,7 +442,7 @@ B.~Salvant, ``TCTP Impedance simulated with CST.''\hskip 1em plus 0.5em minus
 ``\texttt{http://www.ansys.com/}.''
 
 \bibitem{tt2111r:datSheet}
-``TT2-111R data sheet available at
+``TT2-111R data sheet available at\\
   \texttt{http://www.trans-techinc.com/products\_detail.asp?ID=151}.''
 
 \bibitem{Day:wireMeasFerr}
@@ -587,5 +587,10 @@ M.~Pivi, ``Overview of HOM Damping at PEPII.''\hskip 1em plus 0.5em minus
 \bibitem{Metral:LongDyn}
 E.~Métral, ``Longitiudinal Beam Dynamics,'' Joint Universities Accelerator
   School, 2013.
+
+\bibitem{Knapp:CoupledResModel}
+D.~Nagle, E.~A. Knapp, and B.~C. Knapp, ``Coupled Resonator Model for Standing
+  Wave Accelerator Tanks,'' \emph{Review of Scientific Instruments}, vol.~38,
+  no.~11, pp. 1583--1587, Nov.
 
 \end{thebibliography}

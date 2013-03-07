@@ -1,8 +1,11 @@
 \label{app:ferrProp}
 
-For any cavity which possesses resonant modes, it is possible to describe it's impedance by using a set of physical parameters. Each mode may be characterised by its resonant frequency $f_{res}$, its quality factor $Q$, its shunt impedance $R_{s}$ and the parameter $R_{s}/Q$. These parameters are dependent on the geometry of the structure, and the materials that make up the surfaces and volume spaces within it. It is generally possble to consider these parameters by either evaulating the fields within the structure, or by comparison to equivalent circuit model of the cavity (a simple example of which is shown in Fig.~\ref{fig:cavCircuitModel}. More complex circuit models exist for calculating coupled cavities [cite]) defined by a resistance $r_{s}$, a capacitance $C$ and an inductance $L$.
+For any cavity which possesses resonant modes, it is possible to describe it's impedance by using a set of physical parameters. Each mode may be characterised by its resonant frequency $f_{res}$, its quality factor $Q$, its shunt impedance $R_{s}$ and the parameter $R_{s}/Q$. These parameters are dependent on the geometry of the structure, and the materials that make up the surfaces and volume spaces within it. It is generally possble to consider these parameters by either evaulating the fields within the structure, or by comparison to equivalent circuit model of the cavity (a simple example of which is shown in Fig.~\ref{fig:cavCircuitModel}. More complex circuit models exist for calculating coupled cavities \cite{Knapp:CoupledResModel} defined by a resistance $R_{s}$, a capacitance $C$ and an inductance $L$.
 
 \begin{figure}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{appendices/figures/equiv-circuit.pdf}
+\end{center}
 \caption{The equivalent circuit model for a cavity mode with no coupling to neighbouring cavities.}
 \label{fig:cavCircuitModel}
 \end{figure}
@@ -16,13 +19,13 @@ The capacitance and inductance of the circuit representation are related to the 
 The quality factor $Q$ is defined as
 
 \begin{equation}
-Q = \frac{\omega_{res}W}{P_{surf}} = r\sqrt{\frac{C}{L}}
+Q = \frac{\omega_{res}W}{P_{surf}} = R_{s}\sqrt{\frac{C}{L}}
 \end{equation}
 
 considering the cavity parameters and circuit representation respectively. The shunt impedance $R_{s}$ is defined as
 
 \begin{equation}
-R_{s} = V_{acc}^{2}/P_{surf}
+R_{s} = \frac{V_{acc}^{2}}{P_{surf}}
 \end{equation}
 
 where $V_{acc}$ is the potential that a traversing particle experiences, given by
@@ -31,7 +34,7 @@ where $V_{acc}$ is the potential that a traversing particle experiences, given b
 V_{acc} = \int^{L}_{0} E_{z} e^{j\omega z/c} dz.
 \end{equation}
 
-A useful relationship to know regarding the quality factor is that due to the dependence on the losses in the cavity being dependent on the conductivity of the wall material, for any given cavity the quality factor of a cavity made of material $c$, $Q_{c}$ with a conductivity $\sigma_{c}$ compared to the same cavity made from material $d$, with conductivity $\sigma_{d}$ giving a quality factor $Q_{d}$, is given by
+A useful relationship to know regarding the quality factor is that due to the losses in the cavity being dependent on the conductivity of the wall material, for any given cavity the quality factor of a cavity made of material $c$, $Q_{c}$ with a conductivity $\sigma_{c}$ compared to the same cavity made from material $d$, with conductivity $\sigma_{d}$ giving a quality factor $Q_{d}$, is given by
 
 \begin{equation}
 Q_{c} = \sqrt{\frac{\sigma_{c}}{\sigma_{d}}}Q_{d}
@@ -55,7 +58,7 @@ It should be noted that the longitudinal $R_{s}/Q$ is dependent on the beam disp
 
 \section{Transverse $R_{s}/Q$}
 
-The transverse $R_{s}/Q$ of an eigenmode can be calculated in two seperate ways. Using the similar definition of the longitudinal $R_{s}/Q$ but for the transverse fields, the transverse $R_{s}/Q$ for a particle displaced in the x direction (for the y-plane the field components are swapped $x \rightarrow y$, $y \rightarrow x$) is given by \cite{AlexejGrudiev}
+The transverse $R_{s}/Q$ of an eigenmode can be calculated in two seperate ways. Using the similar definition of the longitudinal $R_{s}/Q$ but for the transverse fields, the transverse $R_{s}/Q$ for a particle displaced in the x direction (for the y-plane the field components are swapped $x \rightarrow y$, $y \rightarrow x$) is given by \cite{Grudiev:LongTransSecCol}
 
 \begin{equation}
 \frac{R_{s}}{Q}_{\perp} = \frac{c \left( \int^{\infty}_{\infty} \frac{\partial E_{z} \left( x,y,z \right)}{\partial z} e^{j \omega_{res}z/\left( \beta c \right)} dz\right)^{2}}{\omega_{res}^{2}W} = \frac{ \left( \int^{\infty}_{\infty}  \left( E_{x} \left( x,y,z \right) + c B_{y} \left( x,y,z \right) \right) e^{j \omega_{res}z/\left( \beta c \right)} dz\right)^{2}}{cW}.

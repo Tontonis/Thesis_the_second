@@ -1,6 +1,6 @@
 \label{app:long_motion}
 
-In this section we shall define some key parameters of longitudinal motion to aid understanding of the effects of wakefields on particle beams. This text follows closely the introductions to longitudinal motion given by Métral \cite{Metral:LongDyn} and Le Duff \cite{Leduff:LongDyn}. A significant parameter in the case longitudinal dynamics and RF control is the parameter known as the momentum compaction factor. This is defined relating the variation in the closed orbit with momentum. For example, if we consider a nominal closed orbit in a circular accelerator of length $C$, defined for a particle of momentum $p$. For a particle with a momentum deviation $\Delta p$ which gives a orbit length variation $\Delta C$, they are related to one another by
+In this section we shall define some key parameters of longitudinal motion to aid understanding of the effects of wakefields on particle beams. This text follows closely the introductions to longitudinal motion given by Métral \cite{Metral:LongDyn} and Le Duff \cite{Leduff:LongDyn}. A significant parameter in the case of longitudinal dynamics and RF control is the parameter known as the momentum compaction factor. This is defined relating the variation in the closed orbit with momentum. For example, if we consider a nominal closed orbit in a circular accelerator of length $C$, defined for a particle of momentum $p$. For a particle with a momentum deviation $\Delta p$ which gives a orbit length variation $\Delta C$, they are related to one another by
 
 \begin{equation}
 \frac{\Delta C}{C} = \alpha_{p} \frac{\Delta p}{p}
@@ -127,31 +127,31 @@ which subsequently leads to small amplitude approximation of Eqn.~\ref{eqn:phiEO
 \frac{d^{2}\Delta \phi}{dt^{2}} + \Omega_{s}^{2}\Delta \phi = 0.
 \end{equation}
 
-$\Omega_{s}$ s known as the synchrotron frequency, in this case of the harmonic oscillator represented by the non-synchronous particle. For accelerator stability is obtained when $\Omega_{s}^{2} > 0$. $\Omega_{s}^{2}$ is given by
+$\Omega_{s}$ is known as the synchrotron frequency, in this case of the harmonic oscillator represented by the non-synchronous particle. For most accelerators, stability is obtained when $\Omega_{s}^{2} > 0$. $\Omega_{s}^{2}$ is given by
 
 \begin{equation}
 \Omega_{s}^{2} = \frac{e\vec{V}_{rf}\eta hc^{2}}{2\pi r_{s} E_{s}} cos \phi_{s} \Rightarrow \Omega_{s}^{2} > 0 \Leftrightarrow \eta cos\phi_{s} > 0.
 \end{equation}
 
-This condition to an effect known as phase stability, wherein the stable phase of a particle relative to the RF phase is dependent on whether it is above or below transition. The stability of the particle oscillations relative to the RF phase are shown in Fig.~\ref{fig:longPhase}. It is interesting to note that when the particles cross the transition energy the stable phase changes drastically. In this case complex RF gymnastics are required to cross transition and remain stable.
+This condition is due to an effect known as phase stability, wherein the stable phase of a particle relative to the RF phase is dependent on whether it is above or below transition. The stability of the particle oscillations relative to the RF phase are shown in Fig.~\ref{fig:longPhase}. It is interesting to note that when the particles cross the transition energy the stable phase changes drastically. In this case complex RF gymnastics are required to cross transition and remain stable.
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.75\textwidth]{appendices/figures/longStab.png}
 \end{center}
-\caption{The focusing synchronous phase positions for particle below ($P_{1}$) and above ($P_{2}$) transition. The synchronous phase is chosen for a given particle energy and desired behaviour, and an off-momentum particle will be longitudinally focused to the synchronous phase by the RF system if the correct phase is chosen. This occurs due to balance of increased velocity with an increased size of orbit as a particle is accelerated by the RF electric field.}
+\caption{The focusing synchronous phase positions for a particle below ($P_{1}$) and above ($P_{2}$) transition. The synchronous phase is chosen for a given particle energy and desired behaviour, and an off-momentum particle will be longitudinally focused to the synchronous phase by the RF system if the correct phase is chosen. This occurs due to balance of increased velocity with an increased size of orbit as a particle is accelerated by the RF electric field.}
 \label{fig:longPhase}
 \end{figure}
 
 \section{RF Acceptance and Longitudinal Emittance}
 
-To examine longitudinal motion of bunches it often easier to work with the conserved longitudinal quantities as with the transverse plane. This is given by the mutiplying Eqn.~\ref{eqn:phiEOM} by $\frac{d\phi}{dt}$ and then integrating with respect to $\phi$. This gives
+To examine longitudinal motion of bunches it is often easier to work with the conserved longitudinal quantities, as is the case with the transverse plane. This is given by the mutiplying Eqn.~\ref{eqn:phiEOM} by $\frac{d\phi}{dt}$ and then integrating with respect to $\phi$. This gives
 
 \begin{equation}
 \frac{1}{2}\left( \frac{d\phi}{dt} \right)^{2} - \frac{\Omega_{s}^{2}}{cos\phi_{s}} \left( cos\phi _ \phi sin\phi_{s} \right) = constant.
 \end{equation} 
 
-This equation defines constant of motion in longitudinal dynamics known as the longitudinal emittance. In addition there is a limited area of stability of an non-synchronous particle within the phase space, the boundary referred to as the seperatrix. The area of this seperatrix is dependent on the synchronous phase $\phi_{s}$. This area is largest when $\phi_{s}=0$ or $\pm \pi$, i.e. when there is no acceleration of the particles. This is normally the case during injection or extraction of beam to capture as much of the beam as possible during transfer. As acceleration is made stronger and stronger the stable phase space is reduced until reaching a minimum (area of $0$) when $\phi_{s}=\pi /2$. An example above transition is shown in Fig.~\ref{fig:longSynFreq}.
+This equation defines a constant of motion in longitudinal dynamics known as the longitudinal emittance. In addition there is a limited area of stability of an non-synchronous particle within the phase space, the boundary referred to as the seperatrix. The area of this seperatrix is dependent on the synchronous phase $\phi_{s}$. This area is largest when $\phi_{s}=0$ or $\pm \pi$, i.e. when there is no acceleration of the particles. This is normally the case during injection or extraction of beam to capture as much of the beam as possible during transfer. As acceleration is made stronger and stronger the stable phase space is reduced until reaching a minimum (area of $0$) when $\phi_{s}=\pi /2$. An example above transition is shown in Fig.~\ref{fig:longSynFreq}.
 
 \begin{figure}
 \begin{center}

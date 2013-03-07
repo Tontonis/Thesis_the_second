@@ -8,30 +8,30 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Cross section of a cylindrical pillbox cavity with an attached beam pipe.}}{57}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces The equivalent RLC parallel circuit for a cavity resonance, driven by a current $i_{b}$, in this case the beam current.}}{58}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces The geometry of the Tsutsui resistive wall formalism.}}{60}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Examples of the longitudinal 2.6(a)\hbox {} and transverse 2.6(b)\hbox {} resistive wall impedance per unit length of a beam pipe of aperture $a = 2cm$ made of both copper ($\sigma = 6 \times 10^{7} S m^{-1}$) and graphite ($\sigma = 7 \times 10^{4} S m^{-1}$).}}{62}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Examples of the longitudinal (a)\hbox {} and transverse (b)\hbox {} resistive wall impedance per unit length of a beam pipe of aperture $a = 2cm$ made of both copper ($\sigma = 6 \times 10^{7} S m^{-1}$) and graphite ($\sigma = 7 \times 10^{4} S m^{-1}$).}}{62}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{62}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{62}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces A comparison of 2.7(a)\hbox {} a measured beam power spectrum and a Gaussian bunch of the same bunch length in the frequency domain and 2.7(b)\hbox {} the resulting time domain beam profile. The Gaussian has a bunch length (4$\sigma _{z}$ = 1.2ns). Measured spectrum taken by P. Baundrenghien et al \cite {Baudrenghien:LHCPowSpec}. Time domain fit taken from E. Metral \cite {Metral:Heating}}}{65}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces A comparison of (a)\hbox {} a measured beam power spectrum and a Gaussian bunch of the same bunch length in the frequency domain and (b)\hbox {} the resulting time domain beam profile. The Gaussian has a bunch length (4$\sigma _{z}$ = 1.2ns). Measured spectrum taken by P. Baundrenghien et al \cite {Baudrenghien:LHCPowSpec}. Time domain fit taken from E. Metral \cite {Metral:Heating}}}{65}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{65}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{65}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces The longitudinal bunch profile of a number of bunch distributions. Note that all of these are normalised to have a peak bunch current of 1. For the Gaussian distribution the bunch length is the 4$\sigma $ value. The bunch length $\tau _{b} = 1.2ns$}}{67}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces The frequency domain 2.9(a)\hbox {} current spectrum and 2.9(b)\hbox {} power spectrum for a number of different bunch profiles with a bunch length $\tau _{b} = 1.2ns$.}}{67}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces The frequency domain (a)\hbox {} current spectrum and (b)\hbox {} power spectrum for a number of different bunch profiles with a bunch length $\tau _{b} = 1.2ns$.}}{67}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{67}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{67}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces 2.10(a)\hbox {} The longitudinal profile and the 2.10(b)\hbox {} associated bunch power spectrum for a number of bunch lengths assuming a Gaussian bunch profile.}}{68}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces (a)\hbox {} The longitudinal profile and the (b)\hbox {} associated bunch power spectrum for a number of bunch lengths assuming a Gaussian bunch profile.}}{68}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{68}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{68}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces 2.11(a)\hbox {} The longitudinal profile and the 2.11(b)\hbox {} associated bunch power spectrum for a number of bunch lengths assuming a parabolic bunch profile.}}{68}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces (a)\hbox {} The longitudinal profile and the (b)\hbox {} associated bunch power spectrum for a number of bunch lengths assuming a parabolic bunch profile.}}{68}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{68}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{68}
 \contentsline {figure}{\numberline {2.12}{\ignorespaces A comparison of a measured beam power spectrum and a number of analytical bunch profiles assuming a bunch length of 1.2ns.}}{69}
 \contentsline {figure}{\numberline {2.13}{\ignorespaces The beam harmonics of a beam with a bunch spacing of 25ns overlayed on the real component of the longitudinal impedance an example of a low Q impedance ($R_{s}=10\omega $, Q = 10, $f_{res}=1GHz$). The blue lines represent the frequency of a beam harmonic, not necessarily the magnitude of the power spectrum at that point. Note that a number of beam harmonics overlay non-zero impedance values.}}{70}
 \contentsline {figure}{\numberline {2.14}{\ignorespaces The beam harmonics of a beam with a bunch spacing of 25ns overlayed on the real component of the longitudinal impedance of a sample of a high Q impedance ($R_{s}=10\Omega $, Q = 1000, $f_{res}=1GHz$). The blue lines represent the frequency of a beam harmonic, not necessarily the magnitude of the power spectrum at that point. Note that only a single beam harmonic overlays a non-zero impedance values.}}{71}
 \contentsline {figure}{\numberline {2.15}{\ignorespaces The change in power loss due to a narrow band resonance characterised by $\omega _{0} = 2GHz$, $R_{s} = 100\Omega $, $Q = 1000$ with a Gaussian bunch distrbution of different lengths.}}{73}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces 2.16(a)\hbox {} The change in power loss due to a narrow band resonance characterised by $\omega _{0} = 2GHz$, $R_{s} = 100\Omega $, $Q = 1000$ interacting with a cos$^{2}$ bunch distribution with different bunch lengths. The impedance and the beam power spectrum are shown in 2.16(b)\hbox {} to illustrate how this relates to the power loss.}}{74}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces (a)\hbox {} The change in power loss due to a narrow band resonance characterised by $\omega _{0} = 2GHz$, $R_{s} = 100\Omega $, $Q = 1000$ interacting with a cos$^{2}$ bunch distribution with different bunch lengths. The impedance and the beam power spectrum are shown in (b)\hbox {} to illustrate how this relates to the power loss.}}{74}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{74}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{74}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces 2.17(a)\hbox {} The change in power loss due to a narrow band resonance characterised by $\omega _{0} = 2GHz$, $R_{s} = 100\Omega $, $Q = 1$ interacting with a cos$^{2}$ bunch distribution with different bunch lengths. The impedance and the beam power spectrum are shown in 2.17(b)\hbox {} to illustrate how this relates to the power loss.}}{75}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces (a)\hbox {} The change in power loss due to a narrow band resonance characterised by $\omega _{0} = 2GHz$, $R_{s} = 100\Omega $, $Q = 1$ interacting with a cos$^{2}$ bunch distribution with different bunch lengths. The impedance and the beam power spectrum are shown in (b)\hbox {} to illustrate how this relates to the power loss.}}{75}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{75}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{75}
 \contentsline {figure}{\numberline {2.18}{\ignorespaces A tune diagram illustrating the unperturbed tune of a machine, and the resulting perturbed tune and the tune spread as a result of direct space charge interactions on a bunch. Note that the tune spread has caused some particles to lie upon a major resonance harmonic. Taken from K. Schindl \cite {Schindl:SpaceCharge}.}}{78}
@@ -154,7 +154,7 @@
 \contentsline {figure}{\numberline {8.5}{\ignorespaces Cross sections of the beam screen perpendicular to (a)\hbox {} and parallel to (b)\hbox {} the direction of beam travel. The screen conductors removed from the majority of the MKIs during the original construction phase are highlighted in red.}}{174}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{174}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{174}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces The measured temperature of the MKIs at 8.6(a)\hbox {} IP2 and 8.6(b)\hbox {} IP8 during 2011 in the LHC. Note MKI8b and MKI8d show significantly higher measured temperatures than the other MKIs.}}{176}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces The measured temperature of the MKIs at (a)\hbox {} IP2 and (b)\hbox {} IP8 during 2011 in the LHC. Note MKI8b and MKI8d show significantly higher measured temperatures than the other MKIs.}}{176}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{176}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{176}
 \contentsline {figure}{\numberline {8.7}{\ignorespaces The measurement setup for the two wire measurement setup.}}{179}
@@ -204,34 +204,34 @@
 \contentsline {figure}{\numberline {8.30}{\ignorespaces A MKI beam screen design using an alternative screen conductor layout in which 2 (cross section shown here) conductors are connected to ground at one end of the screen, and all conductors are connected together at the other end. Both ends have capacitive coupling.}}{205}
 \contentsline {figure}{\numberline {8.31}{\ignorespaces A MKI beam screen design implementing a replacement of some of the external metallization with a metallic cylinder so as to remove the ground plane closest to the ends of the screen conductors from the outer surface of the ceramic tube.}}{206}
 \contentsline {figure}{\numberline {8.32}{\ignorespaces The proposed final MKI design. A combination of alternating and tapered screen conductors is used, along with a step out of the external metallization to a metal cylinder. The outline of the step out is shown by the red-dashed line.}}{206}
-\contentsline {figure}{\numberline {8.33}{\ignorespaces The real component of the beam coupling impedance for a number of the proposed beam screen designs 8.33(a)\hbox {}. In addition the imaginary component of the longitudinal impedance is shown for completeness 8.33(b)\hbox {}. In all cases the outside diameter of the ceramic tube is 56mm.}}{207}
+\contentsline {figure}{\numberline {8.33}{\ignorespaces The real component of the beam coupling impedance for a number of the proposed beam screen designs (a)\hbox {}. In addition the imaginary component of the longitudinal impedance is shown for completeness (b)\hbox {}. In all cases the outside diameter of the ceramic tube is 56mm.}}{207}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{207}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{207}
-\contentsline {figure}{\numberline {8.34}{\ignorespaces The variation of the predicted beam induced power loss with bunch length for a number of screen designs. The variation for 25ns 8.34(a)\hbox {} and 50ns 8.34(b)\hbox {} machine settings.}}{209}
+\contentsline {figure}{\numberline {8.34}{\ignorespaces The variation of the predicted beam induced power loss with bunch length for a number of screen designs. The variation for 25ns (a)\hbox {} and 50ns (b)\hbox {} machine settings.}}{209}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{209}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{209}
 \contentsline {figure}{\numberline {8.35}{\ignorespaces The maximum steady-state temperature reached by the ferrite yoke in the MKI depending on the power load in the ferrite yoke as calculated using a 2D cross section of the MKI. $P_{yoke}$ is the power lost in the ferrite yoke and T the maximum steady state temperature of the ferrite yoke. Provided by M. Garlasche et al \cite {Garlasche:2dHeatEmisAll}.}}{210}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces The focusing synchronous phase positions for particle below ($P_{1}$) and above ($P_{2}$) transition. The synchronous phase is chosen for a given particle energy and desired behaviour, and an off-momentum particle will be longitudinally focused to the synchronous phase by the RF system if the correct phase is chosen. This occurs due to balance of increased velocity with an increased size of orbit as a particle is accelerated by the RF electric field.}}{231}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces The focusing synchronous phase positions for a particle below ($P_{1}$) and above ($P_{2}$) transition. The synchronous phase is chosen for a given particle energy and desired behaviour, and an off-momentum particle will be longitudinally focused to the synchronous phase by the RF system if the correct phase is chosen. This occurs due to balance of increased velocity with an increased size of orbit as a particle is accelerated by the RF electric field.}}{231}
 \contentsline {figure}{\numberline {A.2}{\ignorespaces The seperatrix for different synchronous phase values. Note that the acceptance decreases as $\phi _{s} \rightarrow \pi / 2$.}}{232}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces The equivalent circuit model for a cavity mode with no coupling to neighbouring cavities.}}{246}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces The equivalent circuit model for a cavity mode with no coupling to neighbouring cavities.}}{244}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {E.1}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for TT2-111R.}}{251}
+\contentsline {figure}{\numberline {E.1}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for TT2-111R.}}{249}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{249}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{249}
+\contentsline {figure}{\numberline {E.2}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for 4S60.}}{250}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{250}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{250}
+\contentsline {figure}{\numberline {E.3}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for 4A4.}}{250}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{250}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{250}
+\contentsline {figure}{\numberline {E.4}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for 4E2.}}{251}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{251}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{251}
-\contentsline {figure}{\numberline {E.2}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for 4S60.}}{252}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{252}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{252}
-\contentsline {figure}{\numberline {E.3}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for 4A4.}}{252}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{252}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{252}
-\contentsline {figure}{\numberline {E.4}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for 4E2/}}{253}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{253}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{253}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {F.1}{\ignorespaces The power transfer between two surfaces by radiative heat transfer as a function of emissitivity of the absorbing component and the ratio of the visible surface areas of the components. K$_{A}$ is the ratio of the surface of the absorbing component and the emitting component. Figure produced by Garlasche et al \cite {Garlasche:heatTransfer}.}}{256}
-\contentsline {figure}{\numberline {F.2}{\ignorespaces An illustration of the change between the two regimes of thermal transfer by radiation and by conduction as the distance between two surfaces is reduced. It can be seen that there is a period between radiation and the beginning of transfer by contact where-in the rate of thermal transfer greatly increases. This is due to an effect known as radiative tunnelling \cite {Hargreaves:IRTunnel}.}}{257}
+\contentsline {figure}{\numberline {F.1}{\ignorespaces The power transfer between two surfaces by radiative heat transfer as a function of emissitivity of the absorbing component and the ratio of the visible surface areas of the components. K$_{A}$ is the ratio of the surface of the absorbing component and the emitting component. Figure produced by Garlasche et al \cite {Garlasche:heatTransfer}.}}{254}
+\contentsline {figure}{\numberline {F.2}{\ignorespaces An illustration of the change between the two regimes of thermal transfer by radiation and by conduction as the distance between two surfaces is reduced. It can be seen that there is a period between radiation and the beginning of transfer by contact where-in the rate of thermal transfer greatly increases. This is due to an effect known as radiative tunnelling \cite {Hargreaves:IRTunnel}.}}{255}
