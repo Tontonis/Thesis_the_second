@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99cThe top-level auxiliary file: thesis.aux
 Case mismatch error between cite keys Stupakov:wakeAndImp and Stupakov:wakeandImp
----line 105 of file thesis.aux
+---line 92 of file thesis.aux
  : \citation{Stupakov:wakeAndImp
  :                              }
 I'm skipping whatever remains of this command

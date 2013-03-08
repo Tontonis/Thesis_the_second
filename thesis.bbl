@@ -141,14 +141,6 @@ C.~Lourenco, ``Heavy Ion Collisions at the LHC: the ALICE Experiment.
 E.~McCrory and V.~Shiltsev, ``Characterizing Luminosity Evolution in the
   Tevatron,'' 2005.
 
-\bibitem{Holzer:TransDyn}
-B.~Holzer, ``Transverse Beam Dynamics,'' Introductory CERN Accelerator School,
-  2010.
-
-\bibitem{Leduff:LongDyn}
-J.~Le~Duff, ``Longitiudinal Beam Dynamics,'' Introductory CERN Accelerator
-  School, 2010.
-
 \bibitem{Laslett:ResWallInstab}
 L.~Laslett, V.~Neil, and A.~Sessler, ``{Transverse Resistive Instabilities of
   Intense Coasting Beams in Particle Accelerators},'' \emph{Rev.Sci.Instrum.},
@@ -587,6 +579,14 @@ M.~Pivi, ``Overview of HOM Damping at PEPII.''\hskip 1em plus 0.5em minus
 \bibitem{Metral:LongDyn}
 E.~Métral, ``Longitiudinal Beam Dynamics,'' Joint Universities Accelerator
   School, 2013.
+
+\bibitem{Leduff:LongDyn}
+J.~Le~Duff, ``Longitiudinal Beam Dynamics,'' Introductory CERN Accelerator
+  School, 2010.
+
+\bibitem{Holzer:TransDyn}
+B.~Holzer, ``Transverse Beam Dynamics,'' Introductory CERN Accelerator School,
+  2010.
 
 \bibitem{Knapp:CoupledResModel}
 D.~Nagle, E.~A. Knapp, and B.~C. Knapp, ``Coupled Resonator Model for Standing

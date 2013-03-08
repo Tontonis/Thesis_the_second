@@ -49,7 +49,7 @@ It can thus be seen that in addition to increasing the luminosity, maximising th
 \section{Beam Dynamics}
 \label{sec:BeamDyn}
 
-To introduce the terms, dynamics and coordinate systems used in later chapters we shall briefly introduce the basic transverse and longitudinal dynamics present in particle accelerators. This introduction follows the formalism introduced in \cite{Holzer:TransDyn}. First we introduce the coordinate system typically used in the consideration of circular particle accelerators. Typically an ideal orbit is defined for an on momentum particle. In addition a reference frame placed upon the orbit of an ideal on-momentum particle is defined shown in Fig.~\ref{fig:accel-coord-system}. 
+To introduce the terms and coordinate systems used in later chapters we shall briefly introduce the some of the commonly used coordinate systems used to describe the motion of particles in circular accelerators. First we introduce the coordinate system typically used in the consideration of circular particle accelerators. Typically an ideal orbit is defined for an on momentum particle. In addition a reference frame placed upon the orbit of an ideal on-momentum particle is defined shown in Fig.~\ref{fig:accel-coord-system}. 
 
 \begin{figure}
 \begin{center}
@@ -86,158 +86,18 @@ F_{\parallel} &= qE \\
 \mathbf{F_{\perp}} &= q \left( vB_{y} \mathbf{\hat{x}} - vB_{x} \mathbf{\hat{y}} \right).
 \end{align}
 
-Subsequently the transverse and longitudinal motion may both be treated independently of one another.
+Subsequently the transverse and longitudinal motion may both be treated independently of one another. This is discussed in detail in App.~\ref{app:BeamDyn}.
 
-\subsection{Linear Transverse Dynamics}
-\label{sec:linTransMotions}
+\section{Structure of Thesis}
 
-If we consider a charged particle of mass $m$ and charge $e$ moving with velocity $v$ along the ideal orbit under the effect of the magnetic field $B$ we can see that the Lorentz force ($F_{L} = qvB$) and the centrifugal force ($F_{cen} = \frac{\gamma m v^{2}}{\rho}$) are equal, leading to the relation
+In this thesis is studied in detail the beam coupling impedance and beam induced heating of two important devices in the LHC - the injection kicker magnets and the collimation systems, using computational simulation tools and bench-top measurement methods, and the subsequent steps taken to reduce the beam coupling impedance to reduce the heat loads on these devices. The thesis progresses as follows; we have begun by introducing the dangers of beam induced heating from the mechnical point of view, in addition to the operational figures of merit that may be limited by equipment that requires a cool down time between fills to be operated. To understand the nature of beam-induced heating, it is necessary to introduce wakefields and beam coupling impedances which are the power source for the heating. In this section we cover in some detail the beam parameters upon which beam-induced heating is dependent.
 
-\begin{equation}
-\frac{p}{e} = B \rho
-\label{eqn:beam-rigid}
-\end{equation}
+In the next chapters we introduce the tools which can be used to evaluate a structures beam coupling impedance, beam-based measurements (Chap~\ref{chap:BBmeas}), bench-top measurements (Chap.~\ref{chap:benchTopMeas}) and computational simulation tools (Chap.~\ref{chap:CompSim}). As part of this we introduce new method for evaluating the quadrupolar and constant transverse coupling impedances of asymmetric structures using the coaxial wire bench technique, verified using simulated measurements of the technique on an asymmetric structure.
 
-where $p$ is the particles momentum. $B \rho$ is referred to as the beam rigidity, denoting the constant term necessary to keep a particle on the ideal orbit. 
+In Chap.~\ref{chap:ImpRedTech} we introduce the various methods of impedance reduction, highlighting the situations in which each is appropriate, their limitations in use, and some rules of thumb for successful implementation. As part of this we carry out a study of the location of power loss in damped cavity structures with differing degreess of damping, relevant due to the relatively large losses that may occur in thermally sensitive material (i.e. ferrites) in high current machines.
 
-If we consider the motion of a particle transversally displaced from the ideal orbit particle with a position $(x, y)$ we must consider the variation of the magnetic field in the transverse directions. If we consider first just the horizontal motion, we can carry out a Taylor expansion of the field which gives us
+In Chap.~\ref{chap:ColImp} begins the investigation of the beam coupling impedance reduction techniques as applied to a number of LHC collimation upgrades. The use of conductive coatings on the phase 2 secondary collimator jaws is discussed briefly, followed by a detailed examination of the RF screening placed in the phase 1 and phase 2-type transverse RF system, using the example of the TCTP collimator. In this case the heating is evaluated, with attention paid to the temperature of the ferrite in the phase-2 damping system to ensure that it remains an effective damping material.
 
-\begin{equation}
-B_{y} \left( x \right) = B_{y0} + \frac{dB_{y}}{dx} x + \frac{1}{2!}\frac{d^{2}B_{y}}{dx^{2}} x^{2} + \frac{1}{3!} \frac{d^{3}B_{y}}{dx^{3}} x^{3} + ...
-\end{equation}
+In Chap.~\ref{chap:mki} the case of the beam-induced heating of the LHC injection kicker magnets is studied. The history of the observed high temperatures and the impedance reduction techniques in place is discussed. A simulation model of this complex device is made, and the simulated impedance compared to a bench-top measurements of the longitudinal and transverse impedances is made. Using the confidence given by the good agreement here, a number of alternative beam screen designs are evaluated for there longitudinal beam coupling impedance, with a constant concern for other requirements such as electrical breakdown and manufacturability.
 
-which is then normalised by $p/e$
-
-\begin{equation}
-\frac{B_{y} \left( x \right)}{p/e} = \frac{B_{y0}}{B_{y0}\rho} + \frac{1}{p/e}\frac{dB_{y}}{dx} x + \frac{1}{p/e}\frac{1}{2!}\frac{d^{2}B_{y}}{dx^{2}} x^{2} + \frac{1}{p/e}\frac{1}{3!} \frac{d^{3}B_{y}}{dx^{3}} x^{3} + ...
-\end{equation}
-
-For the time being we shall consider only small displacements in $x$ and $y$, thus shall consider only the linear terms, giving
-
-\begin{align}
-\frac{B_{y} \left( x \right)}{p/e} &= \frac{1}{\rho} + \frac{1}{p/e}\frac{dB_{y}}{dx} x \\
-\frac{B_{y} \left( x \right)}{p/e} &= \frac{1}{\rho} + k_{f} x
-\end{align}
-
-where $k_{f} = \frac{g}{p/e}$, $g$ is the gradient of a quadrupole magnet (a magnet which has a magnetic field strength linearly proportional to displacement). This indicates that seperation of the function of magnets is a valid method of controlling the particles, using dipole and quadrupole fields. Next, to derive the equations of motion we shall consider the equation for radial acceleration $a_{r}$ for a particle undergoing rotational acceleration in the defined coordinate system
-
-\begin{equation}
-a_{r} = \frac{d^{2}\rho}{dt^{2}} - \rho \left( \frac{d\theta}{dt} \right)^{2}.
-\end{equation}
-
-For the particle on the ideal orbit $\rho = constant$, so $\frac{d \rho}{dt} = 0$, leading to the accelerative force being derived to be
-
-\begin{equation}
-F_{x} = m \rho \left( \frac{d\theta}{dt} \right)^{2} = m\rho \omega^{2} = \frac{mv^{2}}{\rho}
-\end{equation} 
-
-For a general particle, $\rho \rightarrow \rho + x$, leading to
-
-\begin{equation}
-F_{x} = m\frac{d^{2}}{dt^{2}} \left( x+ \rho \right) - \frac{mv^{2}}{x + \rho} = eB_{y} v.
-\end{equation}
-
-As $\rho = constant$, $\frac{d^{2}}{dt^{2}} ( x+ \rho )$ becomes $\frac{d^{2}x}{dt^{2}}$. In addition we are dealing with displacements of $x \ll \rho$, so we may approximate $\frac{1}{x+\rho} \approx \frac{1}{\rho}(1-\frac{x}{\rho})$ from the Taylor expansion and taking linear terms in $x$. Thus we acquire the equation
-
-\begin{equation}
- m\frac{d^{2}x}{dt^{2}}  - \frac{mv^{2}}{\rho}\left( 1 - \frac{x}{\rho} \right) = eB_{y} v.
-\end{equation}
-
-Subsequently we subsitute the magnetic field $B_{y} = B_{y0} + \frac{dB_{y}}{dx} x$ and arrive at
-
-\begin{equation}
- m\frac{d^{2}x}{dt^{2}}  - \frac{mv^{2}}{\rho}\left( 1 - \frac{x}{\rho} \right) = e v \left[ B_{y0} + \frac{dB_{y}}{dx} x \right].
-\end{equation}
-
-By dividing throught by the mass m
-
-\begin{equation}
- \frac{d^{2}x}{dt^{2}}  - \frac{v^{2}}{\rho}\left( 1 - \frac{x}{\rho} \right) = \frac{e v B_{y0}}{m} + \frac{ev}{m}\frac{dB_{y}}{dx} x.
-\end{equation}
-
-Next we transform the coordinate from $t \rightarrow z$, such that 
-
-\begin{equation}
-\frac{d^{2}x}{dt^{2}} = \frac{d}{dt} \left( \frac{dx}{dz} \frac{dz}{dt} \right) = \frac{d}{dz} \left( \frac{dx}{dz} \frac{dz}{dt} \right) \frac{dz}{dt} = \frac{d^{2}x}{dz^{2}}\left( \frac{dz}{dt} \right)^{2} + \frac{dx}{dz} \frac{d}{dz} \left( \frac{dz}{dt} \right) \frac{dz}{dt}.
-\end{equation}
-
-It can be seen that $\frac{dz}{dt} = v$, which is kept constant in this treatment. Therefore
-
-\begin{equation}
-\frac{d^{2}x}{dt^{2}} = \frac{d^{2}x}{dz^{2}} v^{2}.
-\end{equation}
-
-Thus we arrive at the equation
-
-\begin{equation}
-\frac{d^{2}x}{dz^{2}} v^{2} - \frac{v^{2}}{\rho}\left( 1 - \frac{x}{\rho} \right) = \frac{e v B_{y0}}{m} + \frac{ev}{m}\frac{dB_{y}}{dx} x.
-\end{equation}
-
-We then subsequently normalise by momentum and rearrange slightly to acquire
-
-\begin{equation}
-\frac{d^{2}x}{dz^{2}} - \frac{1}{\rho} + \frac{x}{\rho^{2}}  = \frac{ B_{y0}}{p/e} + \frac{1}{p/e}\frac{dB_{y}}{dx} x.
-\end{equation}
-
-We then remember the definition of the beam rigidity (see Eqn.~\ref{eqn:beam-rigid}) and the definition of the quadrupolar field strength arriving at
-
-\begin{align}
-\frac{d^{2}x}{dz^{2}} - \frac{1}{\rho} + \frac{x}{\rho^{2}}  = - \frac{1}{\rho} + k_{f} x \nonumber \\ 
-\frac{d^{2}x}{dz^{2}} + \frac{x}{\rho^{2}}  = k_{f} x \nonumber \\ 
-\frac{d^{2}x}{dz^{2}} + x \left( \frac{1}{\rho^{2}} - k_{f}\right)  = 0. \label{eqn:horz-eqn-motion}
-\end{align}
-
-For the vertical plane the equation is the same, except that the focusing term is negative and there is no $\rho$ term, giving
-
-\begin{equation}
-\frac{d^{2}y}{dz^{2}} +  k_{f} y  = 0.
-\label{eqn:vert-eqn-motion}
-\end{equation}
-
-It is interesting to note that there is a focusing term due to the dipolar magnet term. Historically this is the weak focusing effect, as opposed to the strong focusing regime of using quadrupole magnets. It can be seen that these equations are simply the equations of motion of a pseudo-harmonic oscillator with spring constants $K_{x/y}$ given by
-
-\begin{align*}
-K_{x} = \frac{1}{\rho^{2}} - k_{f} \\
-K_{y} = k_{f}
-\end{align*}
-
-leading to a general solution 
-
-\begin{equation}
-x/y \left( s \right) = a_{1} cos \left( \sqrt{K_{x/y}} s \right) + a_{2} sin \left( \sqrt{K_{x/y}} s \right).
-\end{equation}
-
-For a modern particle accelerator using focusing and defocusing magnets arranged in a periodic lattice (i.e. so that $k(s)$ becomes a periodic function such that $k_{f}(s+L) = k_{f}(s)$ where L is the length of the period of the lattice), and applying initial conditions $x(0) = x_{0}, x^{'}(0) = x^{'}_{0}$ it is possible to finally arrive at the solution for the motion of a particle through a periodic lattice
-
-\begin{equation}
-x \left( s \right) = \sqrt{\epsilon} \sqrt{\beta \left( s \right) } cos \left( \psi \left( s \right) + \phi \right)
-\end{equation}
-
-where $\epsilon$ and $\phi$ are integration constants determined by the initial conditions, $\beta (s)$ is a periodic function determined by the focusing properties of the lattice. $ \psi (s)$ is the phase advance of the oscillation, again determined by the lattice design parameters. These parameters define beam parameters, $\epsilon$ being the beam emittance, the preserved quantity in transverse phase space, $\beta$ the betatron function, which is a property of the lattice and determines the physical size of the beam. One key important figure acquired from this derivation is the tune (also called the betatron tune) of the accelerator, that is the number of betatron oscillations per turn, given by
-
-\begin{equation}
-Q_{0} = \frac{1}{2\pi} \oint \frac{ds}{\beta \left( s \right)}.
-\end{equation}
-
-\subsubsection{Off-Momentum Particles}
-
-During the operation of a particle accelerator there is often have a spread of particle energies due to dynamics in the longitudinal plane \cite{Leduff:LongDyn}. This gives rise to a momentum spread $\Delta p/p$ in the particle momentum, where $\Delta p = p - p_{0}$, $p_{0}$ being the on-path momentum. When considered in Eqn.~\ref{eqn:horz-eqn-motion} this gives rise to an inhomogenous differential equation of the form
-
-\begin{equation}
-\frac{d^{2}x}{dz^{2}} + x \left( \frac{1}{\rho^{2}} - k_{f}\right)  = \frac{\Delta p}{p}\frac{1}{\rho}
-\label{eqn:disp-eqn-motion}
-\end{equation}
-
-which leads to a modified solution of the pseudo-harmonic oscillator equation characterised by the dispersion of the lattice $D(s)$, written as
-
-\begin{equation}
-x \left( s \right) = \sqrt{\epsilon} \sqrt{\beta \left( s \right) } cos \left( \psi \left( s \right) + \phi \right) + \frac{\Delta p}{p} D \left( s \right).
-\end{equation}
-
-This can be seen as another closed orbit solution to the machine lattice. One side effect of this is the slight change in the tune due to the off momentum particles, characterised by a factor known as the chromaticity $\zeta$, related by
-
-\begin{equation}
-\frac{\Delta Q}{Q_{0}} = \zeta \frac{\Delta p}{p}
-\end{equation}
-
-where $\Delta Q$ is the tune shift from the lattice tune for an on momentum particle $Q_{0}$. The tune working point is an important factor in designing an accelerator, as crossing integer or low order tune fractions (half, third or quarter integer) allows the summation of kicks in the machine driving large oscillations which may ultimately lead to particle loss. 
+Finally in Chap.~\ref{chap:Con} the concluding remarks are made.
