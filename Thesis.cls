@@ -149,7 +149,7 @@ March 2013\\
   \newpage
   \tableofcontents
   \begin{center}
-    {\it Total word count: 27079}
+    {\it Total word count: 35952}
   \end{center}
   \newpage
   \iftablespage
