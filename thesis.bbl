@@ -142,7 +142,9 @@ E.~McCrory and V.~Shiltsev, ``Characterizing Luminosity Evolution in the
   Tevatron,'' 2005.
 
 \bibitem{Laslett:ResWallInstab}
-
+L.~Laslett, V.~Neil, and A.~Sessler, ``Transverse Resistive Instabilities of
+  Intense Coasting Beams in Particle Accelerators,'' \emph{Rev.Sci.Instrum.},
+  vol.~36, pp. 436--448, 1965.
 
 \bibitem{Stupakov:wakeandImp}
 G.~V. Stupakov, ``Wake and impedance,'' pp. 205--230, 2000.
@@ -250,6 +252,24 @@ M.~Schaumann, J.~Jowett, and R.~Bruce, ``Intra-beam Scattering and Luminosity
 T.~Mertens, J.~Jowett, and M.~Sousa Da~Costa, ``Intrabeam scattering in the
   LHC,'' Ph.D. dissertation, Porto U., Porto, 2011, presented 17 Jun 2011.
 
+\bibitem{Palumbo:lanDamp}
+L.~Palumbo and M.~Migliorati, ``Landau Damping,'' Advanced CERN Accelerator
+  School, Chios, Greece, 2011.
+
+\bibitem{Schmickler:Feedback}
+H.~Schmickler and M.~Lonza, ``Multibunch Feedback Systems,'' Advanced CERN
+  Accelerator School, Chios, Greece, 2011.
+
+\bibitem{Metral:longBunchModes}
+E.~Métral, ``Longitudinal Bunched-Beam Coherent Modes: from Stability to
+  Instability and Inversely,'' CERN, Geneva, Tech. Rep. CERN-AB-2004-002-ABP,
+  Jan 2004.
+
+\bibitem{Metral:StabCrit}
+E.~Métral, ``Stability Criterion for the Longitudinal Mode-Coupling
+  Instability in the Presence of Both Space-Charge and Resonator Impedances,''
+  CERN, Geneva, Tech. Rep. CERN-PS-2001-063-AE, Oct 2001.
+
 \bibitem{Bohl:SingleBunchEnLoss}
 T.~Bohl, A.~Hofmann, T.~P.~R. Linnecar, E.~Shaposhnikova, and J.~Tückmantel,
   ``Energy loss of a single bunch in the SPS,'' CERN, Geneva, Tech. Rep.
@@ -264,6 +284,11 @@ T.~Argyropoulos, T.~Bohl, A.~Burov, R.~Calaga, L.~Ficcadenti, E.~Metral,
 \bibitem{Sacherer:BunchBeamEffects}
 F.~J. Sacherer, ``Single-beam collective phenomena: transverse II Bunched
   beams,'' 1st International School on Particle Accelerators, 1977.
+
+\bibitem{Sands:benchMeas}
+M.~Sands and J.~Rees, ``A Bench Measurement of the Energy Loss of a Stored Beam
+  to a Cavity,'' Lawrence Berkeley Nat. Lab., Berkeley, CA, Tech. Rep.
+  LBL-PEP-NOTE-95. PEP-95. SLAC-TN-2005-051, Aug 1974.
 
 \bibitem{Gluckstern:WireMeasImp}
 R.~L. Gluckstern and R.~Li, ``Analysis Of Coaxial Wire Measurement Of

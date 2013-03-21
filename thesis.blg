@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99cThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 Case mismatch error between cite keys Stupakov:wakeAndImp and Stupakov:wakeandImp
 ---line 92 of file thesis.aux
  : \citation{Stupakov:wakeAndImp
@@ -8,11 +8,7 @@ The style file: myIEEETran.bst
 A level-1 auxiliary file: appendices/ferriteProperties.aux
 A level-1 auxiliary file: appendices/heatTransferInVacuum.aux
 Database file #1: thesisBib.bib
-You're missing a field name---line 174 of file thesisBib.bib
- : @article{Laslett:ResWallInstab, 
- :                                 ,
-I'm skipping whatever remains of this entry
-I was expecting an "="---line 601 of file thesisBib.bib
+I was expecting an "="---line 617 of file thesisBib.bib
  : /  
  :    publisher = {American Physical Society}
 I'm skipping whatever remains of this entry
@@ -31,10 +27,6 @@ Warning--empty author in CMSDR
 Warning--empty author and editor in LHCb
 Warning--empty journal in Lourenco:ALICE
 Warning--empty journal in McCrory:lumiEvo
-Warning--empty author in Laslett:ResWallInstab
-Warning--empty title in Laslett:ResWallInstab
-Warning--empty journal in Laslett:ResWallInstab
-Warning--empty year in Laslett:ResWallInstab
 Warning--empty journal in Stupakov:wakeandImp
 Warning--empty journal in Stupakov:surfaceRough
 Warning--empty journal in Stupakov:adInImpTheory
@@ -83,4 +75,4 @@ Warning--empty booktitle in Bruning:beamParameters
 Warning--empty booktitle in Pivi:PEP
 
 Done.
-(There were 3 error messages)
+(There were 2 error messages)

@@ -37,14 +37,16 @@ These geometries are shown in Fig.~\ref{fig:mki-layout-buildup}, and the resulti
 \end{figure}
 
 \begin{figure}
+\begin{center}
 \subfigure[]{
-\includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-build-up-real-imp.pdf}
+\includegraphics[width=0.8\textwidth]{LHC_MKI/figures/mki-build-up-real-imp.pdf}
 \label{fig:mki-buildup-real-imp}
-}
+}\\
 \subfigure[]{
-\includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-build-up-imag-imp.pdf}
+\includegraphics[width=0.8\textwidth]{LHC_MKI/figures/mki-build-up-imag-imp.pdf}
 \label{fig:mki-buildup-imag-imp}
 }
+\end{center}
 \caption{The \subref{fig:mki-buildup-real-imp} real component and the \subref{fig:mki-buildup-imag-imp} imaginary components of the LHC MKI kicker magnet impedances for different components in the magnet.}
 \label{fig:mki-buildup-impedance}
 \end{figure}
@@ -95,14 +97,16 @@ For the changes in the number of screen conductors two variations are carried ou
 \end{figure}
 
 \begin{figure}
+\begin{center}
 \subfigure[]{
-\includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-no-screen-conductors-real-impedance.pdf}
+\includegraphics[width=0.7\textwidth]{LHC_MKI/figures/mki-no-screen-conductors-real-impedance.pdf}
 \label{fig:remove-cond-real-imp}
-}
+}\\
 \subfigure[]{
-\includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-no-screen-conductors-imag-impedance.pdf}
+\includegraphics[width=0.7\textwidth]{LHC_MKI/figures/mki-no-screen-conductors-imag-impedance.pdf}
 \label{fig:remove-cond-imag-imp}
 }
+\end{center}
 \caption{The longitudinal impedance of the MKIs with different numbers of screen conductors included in the beam screen. Shown is the real component \subref{fig:remove-cond-real-imp} and the imaginary component \subref{fig:remove-cond-imag-imp} of the longitudinal impedance.}
 \label{fig:remove-cond-impedance}
 \end{figure}
@@ -124,6 +128,7 @@ It will now be shown that with 24 screen conductors placed in the ceramic tube t
 \end{figure}
 
 \begin{figure}
+\begin{center}
 \subfigure[]{
 \includegraphics[width=0.45\textwidth]{LHC_MKI/figures/meshLarge.png}
 \label{fig:mesh-full}
@@ -132,6 +137,7 @@ It will now be shown that with 24 screen conductors placed in the ceramic tube t
 \includegraphics[width=0.45\textwidth]{LHC_MKI/figures/meshCutDown.png}
 \label{fig:mesh-cutdown}
 }
+\end{center}
 \caption{A comparison of the mesh that may be generated in CST Particle Studio using both the full model \subref{fig:mesh-full} and the cutdown model \subref{fig:mesh-cutdown}. Note the greatly increased mesh density in the important overlap region between the screen conductors and external metallization. The simulation time for the first is on the order a of day, for the second 30 minutes.}
 \label{fig:mki-mesh-com-cst}
 \end{figure}
@@ -146,21 +152,23 @@ f_{res} = \frac{nc}{\sqrt{\epsilon_{r}}2 \left( L_{overlap} + \delta_{fringe} \r
 where $n$ is an integer, $c$ is the speed of light $\epsilon_{r}$ is the relative permitivitty of the volume material ($\epsilon_{r}=10$ for the alumina beam screen), $L_{overlap}$ is the length of overlap and $\delta_{fringe}$ is the effective increase in length due to fringe fields. This gives an empirical fit for the resonant frequencies of the resonances due to the overlap between the screen conductors and an external conductor (metallization or external metal pipe) in a beam screen with capacitive coupling. The resonant frequency calculated using Eqn.~\ref{eqn:imp-overlap-fres} is shown for the first resonances for all the effective lengths of overlap in Fig.~\ref{fig:overlap-imp-zoom}, and up to 2.5GHz for the case of the overlap being 100mm in Fig.~\ref{fig:imp-overlap-fres}. It can be seen that the predicted resonant frequencies match the simulated very well. Work is still under way as to how to determine the peak impedance of each resonance. In addition predictions for the power loss due to the impedances for different effective overlaps calculated assuming either a broadband heating scenario or assuming a beam harmonic at the resonant frequency are shown in Tab.~\ref{tab:overlap-heating}. It can be seen that changing the length of the overlap does not strongly effect to the change in power loss assuming a broadband heating scenario. It can be seen that increasing the length of the effective overlap causes an increase in the power loss assuming a resonant heating scenario, but this correlation is not clear as there is much variance in the values.
 
 \begin{figure}
+\begin{center}
 \subfigure[]{
-\includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-overlap-len-real-imp.pdf}
+\includegraphics[width=0.7\textwidth]{LHC_MKI/figures/mki-overlap-len-real-imp.pdf}
 \label{fig:overlap-imp}
-}
+}\\
 \subfigure[]{
-\includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-overlap-len-real-imp-zoom.pdf}
+\includegraphics[width=0.7\textwidth]{LHC_MKI/figures/mki-overlap-len-real-imp-zoom.pdf}
 \label{fig:overlap-imp-zoom}
 }
+\end{center}
 \caption{\subref{fig:overlap-imp} The simulated real component of the longitudinal beam coupling impedance for different lengths of the overlap, and \subref{fig:overlap-imp-zoom} a zoomed in plot of the first resonances of all the overlaps with the calculated resonance frequency (shown as vertical lines) for each based on the effective length. For each the thickness of the ceramic tube is 7mm.}
 \label{fig:mki-overlap-imp-tot}
 \end{figure}
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.6\textwidth]{LHC_MKI/figures/mki-overlap-fres-100mm.pdf}
+\includegraphics[width=0.7\textwidth]{LHC_MKI/figures/mki-overlap-fres-100mm.pdf}
 \end{center}
 \caption{The simulated impedance of the beam screen with 24 screen conductors with an overlap $L_{overlap}=100mm$ and the predicted resonance frequencies from Eqn.~\ref{eqn:imp-overlap-fres} shown as vertical lines.}
 \label{fig:imp-overlap-fres}
@@ -188,7 +196,7 @@ The small reduction in the resonant frequency as the thickness of the ceramic tu
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.5\textwidth]{LHC_MKI/figures/mki-tube-thickness-real.pdf}
+\includegraphics[width=0.7\textwidth]{LHC_MKI/figures/mki-tube-thickness-real.pdf}
 \end{center}
 \caption{The variance of the real beam coupling impedance with the tube thickness. External diameters of 50, 53 and 56mm correspond to tube thicknesses of 4, 5.5 and 7mm respectively. The physical overlap is 100mm in all cases.}
 \label{fig:tube-thickness-imp}

@@ -16,10 +16,10 @@ The mechanisms driving these instabilities are multitudinous and of which beam c
 As seen in Sec.~\ref{sec:linTransMotions}, the transverse equation of motion can be viewed as an oscillatory system. If the particles experience an additional force $ F^{pert}_{x}$ due to an external mechanism, not due to the machine optics, it's equation of motion (in the horizontal plane, for example) can be written as
 
 \begin{equation}
-\frac{d^{2}x}{ds^{2}} + \left(\frac{Q_{0,x}}{R}\right)^{2} x = \frac{F^{pert}_{x}}{\beta^{2} E_{total}}.
+\frac{d^{2}x}{ds^{2}} + \left(\frac{Q_{0,x}}{R}\right)^{2} x = \frac{F^{pert}_{x}}{\beta^{2} E_{total}},
 \end{equation}
 
-This subsequently leads to a perturbed oscillation frequency (assuming the force is linearised), characterised by the equation
+where $Q_{0x}$ is the unperturbed betatron tune and $E_{total}$ is the particle energy. This subsequently leads to a perturbed oscillation frequency (assuming the force is linearised), characterised by the equation
 
 \begin{equation}
 \frac{d^{2}x}{ds^{2}} + \left(\frac{Q_{0,x}+ \Delta Q_{pert,x}}{R}\right)^{2} x = 0.
@@ -29,7 +29,7 @@ where $\Delta Q_{pert,x}$ is the part of the betatron frequency caused by the pe
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.5\textwidth]{Wakefields_and_Impedances/figures/tune-spread-sc.png}
+\includegraphics[width=0.7\textwidth]{Wakefields_and_Impedances/figures/tune-spread-sc.png}
 \end{center}
 \caption{A tune diagram illustrating the unperturbed tune of a machine, and the resulting perturbed tune and the tune spread as a result of direct space charge interactions on a bunch. Note that the tune spread has caused some particles to lie upon a major resonance harmonic. Taken from K. Schindl \cite{Schindl:SpaceCharge}.}
 \label{fig:tune_diag_tune_shift}
@@ -43,7 +43,7 @@ The potential well distortion is a direct effect of the incoherent synchrotron t
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.5\textwidth]{Wakefields_and_Impedances/figures/rms_bunch_length_AT_BT_BB.pdf}
+\includegraphics[width=0.7\textwidth]{Wakefields_and_Impedances/figures/rms_bunch_length_AT_BT_BB.pdf}
 \end{center}
 \caption{The change in the bunch length of a proton beam in the SPS due to the effects of a broadband resonator impedance ($f_{res} = 1GHz$, $R_{s}=10 \Omega$, $Q=1$) without space charge. Note that the bunch length increases when the beam is above transition, and decreases below transition, as the bunch intensity is increased.}
 \label{fig:pot_well_dist}
@@ -53,8 +53,7 @@ LMCI occurs when a certain intensity threshold is crossed in the accelerator, le
 
 \subsubsection{Transverse Single Bunch Instabilities}
 
-In the transverse plane a number of instability mechanisms apply, which can be sepa
-rated into two forms, those that occur on a time scale much shorter than the synchrotron period, and those that occur on a longer time scale than the synchrotron period. In both cases the leading particles of the bunch, often called the head of the bunch, drives an oscillation in the end, or tails of the bunch. This gives these instabilities their names, the fast head-tail instability, or transverse mode coupling instability (TMCI), and the head-tail instability.
+In the transverse plane a number of instability mechanisms apply, which can be separated into two forms, those that occur on a time scale much shorter than the synchrotron period, and those that occur on a longer time scale than the synchrotron period. In both cases the leading particles of the bunch, often called the head of the bunch, drives an oscillation in the end, or tails of the bunch. This gives these instabilities their names, the fast head-tail instability, or transverse mode coupling instability (TMCI), and the head-tail instability.
 
 In the case of the fast head-tail instability, there are a number of transverse oscillation modes (see Fig.~\ref{fig:trans_oscillations} for examples of the transverse oscillation modes of a bunch), which as with the LMCI experience some frequency shift due to the presence of a wakefield. If the shift is large enough, two of these modes may again couple together, causing an exponential growth of the transverse size of the bunch to occur.
 
@@ -80,5 +79,5 @@ In the case of the head-tail instability, the movement of a particle from the he
 
 In addition to single bunch instabilities, it is possible in machines where multiple bunches circulate, and possessing wakefields that do not damp in the spacing between bunches (typically caused by high Q resonant impedances), that the motion of the bunch centroids themselves may become coupled together, thus driving what are called coupled bunch instabilities (TCBI for the transverse plane, LCBI for the longitudinal plane). 
 
-This can be understood by imagining the beam as possessing M equip-spaced, equip-populated bunches. This beam will then have M possible modes of oscillation (in each case with the phase shift of $\delta \phi = 2\pi n/M$ for $n = 0,1,2..., M-1$) with a characteristic frequency of $\omega_{M}$, which may be driven by an impedance at some frequency $\omega_{0}$. If $\omega_{0} \approx n\omega_{M}$ where $n$ is an integer, then the wakefield due to the impedance may drive the oscillation either in a damped fashion (wakefield is out of phase with the oscillation of the mode) or an anti-damped fashion (wakefield is in phase with the oscillation of the mode). In the latter case, this driven oscillation may cause particle losses unless the oscillation is damped via an external mechanism, such as Landau damping or the use of a damper. This motion can occur in both the longitudinal and transverse planes of motion.
+This can be understood by imagining the beam as possessing M equip-spaced, equip-populated bunches. This beam will then have M possible modes of oscillation (in each case with the phase shift of $\delta \phi = 2\pi n/M$ for $n = 0,1,2..., M-1$) with a characteristic frequency of $\omega_{M}$, which may be driven by an impedance at some frequency $\omega_{0}$. If $\omega_{0} \approx n\omega_{M}$ where $n$ is an integer, then the wakefield due to the impedance may drive the oscillation either in a damped fashion (wakefield is out of phase with the oscillation of the mode) or an anti-damped fashion (wakefield is in phase with the oscillation of the mode). In the latter case, this driven oscillation may cause particle losses unless the oscillation is damped via an external mechanism, such as Landau damping \cite{Palumbo:lanDamp} or the use of a damper \cite{Schmickler:Feedback}. This motion can occur in both the longitudinal and transverse planes of motion.
 
