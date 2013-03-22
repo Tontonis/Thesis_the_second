@@ -616,4 +616,8 @@ D.~Nagle, E.~A. Knapp, and B.~C. Knapp, ``Coupled Resonator Model for Standing
   Wave Accelerator Tanks,'' \emph{Review of Scientific Instruments}, vol.~38,
   no.~11, pp. 1583--1587, Nov.
 
+\bibitem{Tsutsui:resWallCol}
+H.~Tsutsui, ``Resistive wall impedance of an LHC collimator,'' CERN, Geneva,
+  Tech. Rep. LHC-PROJECT-NOTE-318, Jul 2003.
+
 \end{thebibliography}
