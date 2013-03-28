@@ -8,7 +8,7 @@ To give context to the effects that wakefields have on both the beam and equipme
 \subsubsection{Defining and Deriving Power Loss in Circular Accelerators}
 \label{sec:power_loss}
 
-When a charged particle interacts with a wakefield it's energy changes due to the field that it sees. Assuming a beam with a longitudinal distribution $\rho (\tau)$, normalised such that $\int d \tau \rho (\tau ) = I_{b}$. Now a normalised longitudinal distribution $\rho_{n}$ is introduced, such that $\rho = N_{b} f_{rev} e \int d \tau \rho_{n}$. Thus the energy change of the distribution $\rho$ traversing a pipe for a distance $L$ is given by \cite{Chao:PhysColEff, Ng:IntDepInstab}
+When a charged particle interacts with a wakefield it's energy changes due to the field that it sees. Assuming a beam with a longitudinal distribution $\rho (\tau)$, normalised such that $\int d \tau \rho (\tau ) = I_{b}$, where $I_{b}$ is the beam current. Now a normalised longitudinal distribution $\rho_{n}$ is introduced, such that $\rho = N_{b} f_{rev} e \int d \tau \rho_{n}$. Thus the energy change of the distribution $\rho$ traversing a pipe for a distance $L$ is given by \cite{Chao:PhysColEff, Ng:IntDepInstab}
 
 \begin{equation}
 \Delta E = - \left( f_{rev} e N_{b}\right)^{2} \int^{\infty}_{-\infty} d\tau^{'} \rho_{n} \left( \tau^{'} \right) \int^{\infty}_{-\infty} d\tau^{} \rho_{n} \left( \tau^{} \right) W_{\parallel} \left( \tau^{'} - \tau \right).  
@@ -104,7 +104,7 @@ If the wakefield effectively decays to zero in less than the distance between tw
 \includegraphics[width=0.45\textwidth]{Wakefields_and_Impedances/figures/beam_spectra_power_gauss_meas_Elias.png}
 \label{fig:gauss_meas_time}
 }
-\caption{A comparison of \subref{fig:gauss_meas_freq} a measured beam power spectrum and a Gaussian bunch of the same bunch length in the frequency domain and \subref{fig:gauss_meas_time} the resulting time domain beam profile. The Gaussian has a bunch length (4$\sigma_{z}$ = 1.2ns). Measured spectrum taken by P. Baundrenghien et al \cite{Baudrenghien:LHCPowSpec}. Time domain fit taken from E. Metral \cite{Metral:Heating}}
+\caption{A comparison of \subref{fig:gauss_meas_freq} a measured beam power spectrum and a Gaussian bunch of the same bunch length in the frequency domain and \subref{fig:gauss_meas_time} the resulting time domain beam profile. The Gaussian has a bunch length (4$\sigma_{z}$ = 1.2ns). Measured spectrum taken by P. Baundrenghien et al \cite{Baudrenghien:LHCPowSpec}. Time domain fit taken from E. Metral \cite{Metral:Heating}.}
 \label{fig:measured_gauss}
 \end{figure}
 
@@ -121,7 +121,7 @@ A number of different longitudinal bunch profiles have been investigated in the 
 
 \begin{equation}
 \rho\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\omega t} d\omega = 
-\begin{cases}1-\left( \frac{2t} {t_{b}} \right)^{2} &\textrm{if $| t/2 | \leq t_{b}$}\\
+\begin{cases}1-\left( \frac{2t} {t_{b}} \right)^{2} &\textrm{if $| t | \leq t_{b}/2$}\\
 0								&\textrm{if $| t | > t_{b}/2$}
 \end{cases}
 \label{eqn:para_profile}
@@ -130,7 +130,7 @@ A number of different longitudinal bunch profiles have been investigated in the 
 \begin{equation}
 \rho\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\omega t} d\omega = 
 \begin{cases}
-cos^{2}\left( \frac{\pi t} {t_{b}} \right) &\textrm{if $| t/2 | \leq t_{b}$}\\
+cos^{2}\left( \frac{\pi t} {t_{b}} \right) &\textrm{if $| t | \leq t_{b}/2$}\\
 0								&\textrm{if $| t | > t_{b}/2$}
 \end{cases}
 \label{eqn:cos_profile}
@@ -139,34 +139,29 @@ cos^{2}\left( \frac{\pi t} {t_{b}} \right) &\textrm{if $| t/2 | \leq t_{b}$}\\
 \begin{equation}
 \rho\left( t \right) = \int^{\infty}_{-\infty} \lambda \left( \omega \right) e^{j\omega t} d\omega = 
 \begin{cases}
-\sqrt{1-\left( \frac{2t}{t_{b}}\right)^{2}} &\textrm{if $| t/2 | \leq t_{b}$}\\
+\sqrt{1-\left( \frac{2t}{t_{b}}\right)^{2}} &\textrm{if $| t | \leq t_{b}/2$}\\
 0								&\textrm{if $| t | > t_{b}/2$}
 \end{cases}
 \label{eqn:water_bag_profile}
 \end{equation}
 
-The corresponding frequency domain profiles are given by Eqn.~\ref{eqn:para_profile_freq} for the parabolic profile, Eqn.~\ref{eqn:cos_profile_freq} for the cos$^{2}$ profile, and Eqn.~\ref{eqn:water_bag_profile_freq} for the waterbag profile,
+The corresponding frequency domain profiles are given by Eqn.~\ref{eqn:para_profile_freq} for the parabolic profile, Eqn.~\ref{eqn:cos_profile_freq} for the cos$^{2}$ profile. The water-bag profile is not transformable analytically, thus the frequency domain profile is obtained by numerical Fourier transform.
 
 \begin{equation}
- \lambda \left( f \right) = 
+ \lambda \left( f \right) = 2 sin \left( \pi f t_{b} \right) \left( \frac{-1}{2 \pi f} - \frac{8}{\left( 2 \pi f \right)^{3}t_{b}^{2} }  \right) + \frac{8}{\left( 2 \pi f \right)^{2} t_{b}} cos \left( \pi f t_{b} \right)
 \label{eqn:para_profile_freq}
 \end{equation}
 
 \begin{equation}
-\lambda \left( f \right)  = \frac{sin \left( \pi f t_{b} \right)}{\pi f t_{b} \left[ 1 - \left( f t_{b} \right) \right]}
+\lambda \left( f \right)  = \frac{sin \left( \pi f t_{b} \right)}{\pi f t_{b} \left[ 1 - \left( f t_{b} \right) \right]}.
 \label{eqn:cos_profile_freq}
-\end{equation}
-
-\begin{equation}
-\lambda \left( f \right) = 
-\label{eqn:water_bag_profile_freq}
 \end{equation}
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.65\textwidth]{Wakefields_and_Impedances/figures/bunch_profile_12ns.pdf}
 \end{center}
-\caption{The longitudinal bunch profile of a number of bunch distributions. Note that all of these are normalised to have a peak bunch current of 1. For the Gaussian distribution the bunch length is the 4$\sigma$ value. The bunch length $\tau_{b} = 1.2ns$}
+\caption{The longitudinal bunch profile of a number of bunch distributions. Note that all of these are normalised to have a peak bunch current of 1. For the Gaussian distribution the bunch length is the 4$\sigma$ value. The bunch length $t_{b} = 1.2ns$.}
 \label{fig:time_bunch_profiles}
 \end{figure}
 

@@ -48,6 +48,11 @@ S.~Karlheinz, ``Space Charge,'' Introductory CERN Accelerator School, 2006.
 \bibitem{Rumolo:IntroInstab}
 G.~Rumolo, ``Beam Instabilities,'' Intermediate CERN Accelerator School, 2011.
 
+\bibitem{Radaelli:ColFormat}
+S.~Radaelli, ``Introduction from LHC Collimation.''\hskip 1em plus 0.5em minus
+  0.4em\relax Geneva: Presented at the LHC Collimation Review 2011, 14th-15th
+  June 2011., June 2011.
+
 \bibitem{Carra:HeatLoad}
 F.~Carra, ``Choice of material for the TCTP ferrite supports.''\hskip 1em plus
   0.5em minus 0.4em\relax Geneva: Presented at 1st October 2012 Meeting of the
@@ -146,8 +151,9 @@ L.~Laslett, V.~Neil, and A.~Sessler, ``Transverse Resistive Instabilities of
   Intense Coasting Beams in Particle Accelerators,'' \emph{Rev.Sci.Instrum.},
   vol.~36, pp. 436--448, 1965.
 
-\bibitem{Stupakov:wakeandImp}
-G.~V. Stupakov, ``Wake and impedance,'' pp. 205--230, 2000.
+\bibitem{Stupakov:wakeandImpedance}
+G.~V. Stupakov, ``Wake and Impedance,'' SLAC, Stanford, CA, Tech. Rep.
+  physics/0011011. SLAC-PUB-8683, Nov 2000.
 
 \bibitem{Stupakov:surfaceRough}
 G.~V. Stupakov, ``Surface roughness impedance,'' pp. 141--152, 2000.

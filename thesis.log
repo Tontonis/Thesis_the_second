@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  22 MAR 2013 12:47
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  28 MAR 2013 10:11
 entering extended mode
 **E:/GitHub/Thesis_the_second/thesis.tex
 (E:/GitHub/Thesis_the_second/thesis.tex
@@ -574,6 +574,11 @@ Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
 \nom@tempdim=\dimen120
 \nomitemsep=\skip56
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
+)
 \@nomenclaturefile=\write3
 
 Writing nomenclature file thesis.nlo
@@ -587,26 +592,26 @@ Writing index file thesis.idx
 (E:\GitHub\Thesis_the_second\appendices/ferriteProperties.aux)
 (E:\GitHub\Thesis_the_second\appendices/heatTransferInVacuum.aux)
 (E:\GitHub\Thesis_the_second\appendices/analyticalModels.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 47.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 46.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 47.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -626,10 +631,10 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \everyMPtoPDFconversion=\toks25
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 54.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 54.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 54.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 55.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 55.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 ) [1
@@ -712,7 +717,7 @@ Overfull \hbox (14.11746pt too wide) in paragraph at lines 1--2
 ) [32
 
 ] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 
  []
 
@@ -804,13 +809,8 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/impedance-des.pdf us
 ed on input line 34.
 (pdftex.def)             Requested size: 384.68576pt x 151.46904pt.
 )
-(E:\GitHub\Thesis_the_second\Wakefields_and_Impedances/geometric.tex
-
-LaTeX Warning: Citation `Stupakov:wakeAndImp' on page 54 undefined on input lin
-e 6.
-
-[54 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/impedance-de
-s.pdf>]
+(E:\GitHub\Thesis_the_second\Wakefields_and_Impedances/geometric.tex [54 <E:/Gi
+tHub/Thesis_the_second/Wakefields_and_Impedances/figures/impedance-des.pdf>]
 <Wakefields_and_Impedances/figures/pillbox-cav.pdf, id=253, 455.30101pt x 284.5
 6313pt>
 File: Wakefields_and_Impedances/figures/pillbox-cav.pdf Graphic file (type pdf)
@@ -903,7 +903,7 @@ File: Wakefields_and_Impedances/figures/bunch_profile_12ns.pdf Graphic file (ty
 pe pdf)
  <use Wakefields_and_Impedances/figures/bunch_profile_12ns.pdf>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/bunch_profile_12ns.p
-df used on input line 167.
+df used on input line 162.
 (pdftex.def)             Requested size: 277.82788pt x 208.3668pt.
 
 <Wakefields_and_Impedances/figures/current_spectrum_12ns.pdf, id=523, 578.16pt 
@@ -912,7 +912,7 @@ File: Wakefields_and_Impedances/figures/current_spectrum_12ns.pdf Graphic file
 (type pdf)
  <use Wakefields_and_Impedances/figures/current_spectrum_12ns.pdf>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/current_spectrum_12n
-s.pdf used on input line 177.
+s.pdf used on input line 172.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
 
 <Wakefields_and_Impedances/figures/power_spectrum_12ns.pdf, id=524, 578.16pt x 
@@ -921,7 +921,7 @@ File: Wakefields_and_Impedances/figures/power_spectrum_12ns.pdf Graphic file (t
 ype pdf)
  <use Wakefields_and_Impedances/figures/power_spectrum_12ns.pdf>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/power_spectrum_12ns.
-pdf used on input line 181.
+pdf used on input line 176.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
 
 <Wakefields_and_Impedances/figures/gaussian_time_dom_diff_lengths.pdf, id=525, 
@@ -931,7 +931,7 @@ hic file (type pdf)
 
 <use Wakefields_and_Impedances/figures/gaussian_time_dom_diff_lengths.pdf>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/gaussian_time_dom_di
-ff_lengths.pdf used on input line 192.
+ff_lengths.pdf used on input line 187.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
 
 <Wakefields_and_Impedances/figures/gaussian_power_spec_diff_lengths.pdf, id=526
@@ -941,7 +941,7 @@ aphic file (type pdf)
 
 <use Wakefields_and_Impedances/figures/gaussian_power_spec_diff_lengths.pdf>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/gaussian_power_spec_
-diff_lengths.pdf used on input line 196.
+diff_lengths.pdf used on input line 191.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
 
 <Wakefields_and_Impedances/figures/current_amp_para_change.pdf, id=527, 578.16p
@@ -951,7 +951,7 @@ e (type pdf)
 
 <use Wakefields_and_Impedances/figures/current_amp_para_change.pdf>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/current_amp_para_cha
-nge.pdf used on input line 205.
+nge.pdf used on input line 200.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
 
 <Wakefields_and_Impedances/figures/freq_power_para_change.pdf, id=528, 578.16pt
@@ -961,7 +961,7 @@ File: Wakefields_and_Impedances/figures/freq_power_para_change.pdf Graphic file
 
 <use Wakefields_and_Impedances/figures/freq_power_para_change.pdf>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/freq_power_para_chan
-ge.pdf used on input line 209.
+ge.pdf used on input line 204.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
  [65 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/bunch_profi
 le_12ns.pdf>] [66 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figure
@@ -979,7 +979,7 @@ e (type pdf)
 
 <use Wakefields_and_Impedances/figures/beam_spectra_power_12ns.pdf>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/beam_spectra_power_1
-2ns.pdf used on input line 218.
+2ns.pdf used on input line 213.
 (pdftex.def)             Requested size: 277.82788pt x 208.3668pt.
 
 <Wakefields_and_Impedances/figures/low_q_10_resonance_beam_harmonics.pdf, id=89
@@ -989,7 +989,7 @@ raphic file (type pdf)
 
 <use Wakefields_and_Impedances/figures/low_q_10_resonance_beam_harmonics.pdf>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/low_q_10_resonance_b
-eam_harmonics.pdf used on input line 240.
+eam_harmonics.pdf used on input line 235.
 (pdftex.def)             Requested size: 277.82788pt x 208.3668pt.
 
 [67 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/beam_spectra
@@ -1003,7 +1003,7 @@ f Graphic file (type pdf)
 <use Wakefields_and_Impedances/figures/high_q_1000_resonance_beam_harmonics.pdf
 >
 Package pdftex.def Info: Wakefields_and_Impedances/figures/high_q_1000_resonanc
-e_beam_harmonics.pdf used on input line 268.
+e_beam_harmonics.pdf used on input line 263.
 (pdftex.def)             Requested size: 277.82788pt x 208.3668pt.
  [69 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/high_q_1000
 _resonance_beam_harmonics.pdf>]
@@ -1015,7 +1015,7 @@ df Graphic file (type pdf)
 <use Wakefields_and_Impedances/figures/heating_narrowband_gauss_bunch_length.pd
 f>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/heating_narrowband_g
-auss_bunch_length.pdf used on input line 304.
+auss_bunch_length.pdf used on input line 299.
 (pdftex.def)             Requested size: 341.94652pt x 256.45554pt.
  [70] [71 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/heatin
 g_narrowband_gauss_bunch_length.pdf>]
@@ -1027,7 +1027,7 @@ h.pdf Graphic file (type pdf)
 <use Wakefields_and_Impedances/figures/heating_narrowband_gausscos_bunch_length
 .pdf>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/heating_narrowband_g
-ausscos_bunch_length.pdf used on input line 319.
+ausscos_bunch_length.pdf used on input line 314.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
 <Wakefields_and_Impedances/figures/impedance_and_power_cos_res.pdf, id=1117, 57
@@ -1037,10 +1037,10 @@ File: Wakefields_and_Impedances/figures/impedance_and_power_cos_res.pdf Graphic
 
 <use Wakefields_and_Impedances/figures/impedance_and_power_cos_res.pdf>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/impedance_and_power_
-cos_res.pdf used on input line 323.
+cos_res.pdf used on input line 318.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
-Overfull \hbox (14.28001pt too wide) in paragraph at lines 319--324
+Overfull \hbox (14.28001pt too wide) in paragraph at lines 314--319
 [][] [] 
  []
 
@@ -1053,7 +1053,7 @@ File: Wakefields_and_Impedances/figures/heating_broadband_gausscos_bunch_length
 <use Wakefields_and_Impedances/figures/heating_broadband_gausscos_bunch_length.
 pdf>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/heating_broadband_ga
-usscos_bunch_length.pdf used on input line 331.
+usscos_bunch_length.pdf used on input line 326.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
 <Wakefields_and_Impedances/figures/impedance_and_power_cos_res_broad.pdf, id=11
@@ -1063,10 +1063,10 @@ raphic file (type pdf)
 
 <use Wakefields_and_Impedances/figures/impedance_and_power_cos_res_broad.pdf>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/impedance_and_power_
-cos_res_broad.pdf used on input line 335.
+cos_res_broad.pdf used on input line 330.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
-Overfull \hbox (14.28001pt too wide) in paragraph at lines 331--336
+Overfull \hbox (14.28001pt too wide) in paragraph at lines 326--331
 [][] [] 
  []
 
@@ -1509,7 +1509,7 @@ Overfull \hbox (42.74576pt too wide) in paragraph at lines 699--700
 [118 <E:/GitHub/Thesis_the_second/figures/cavity_beampipe.pdf> <E:/GitHub/Thesi
 s_the_second/figures/cavity_beampipe_coaxial.pdf> <E:/GitHub/Thesis_the_second/
 Bench_Top_Measurements/figures/coax-trans-cavity.pdf>])
-Overfull \hbox (13.17747pt too wide) in paragraph at lines 9--101
+Overfull \hbox (13.17747pt too wide) in paragraph at lines 9--102
 []\T1/ptm/m/n/12 These meth-ods will be used ex-ten-sively in the eval-u-a-tion
  of the beam cou-pling impedance
  []
@@ -2658,35 +2658,35 @@ eban-Muller,
 [220
 
 ]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 69.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 74.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 66--71
+Underfull \hbox (badness 10000) in paragraph at lines 71--76
 \T1/ptm/m/n/12 Avail-able at \T1/pcr/m/n/12 http://emetral.web.cern.ch/emetral/
 LRFF/LRFF
  []
 
 [221]
-Underfull \hbox (badness 1430) in paragraph at lines 137--139
+Underfull \hbox (badness 1430) in paragraph at lines 142--144
 []\T1/ptm/m/n/12 C. Lourenco, ``Heavy Ion Col-li-sions at the LHC: the AL-ICE E
 x-per-i-ment.
  []
 
 [222] [223] [224]
-Underfull \hbox (badness 1048) in paragraph at lines 279--283
+Underfull \hbox (badness 1048) in paragraph at lines 285--289
 []\T1/ptm/m/n/12 T. Ar-gy-ropou-los, T. Bohl, A. Burov, R. Calaga, L. Fic-ca-de
 nti, E. Me-tral,
  []
 
-[225] [226]
-Underfull \hbox (badness 10000) in paragraph at lines 385--390
+[225] [226] [227]
+Underfull \hbox (badness 10000) in paragraph at lines 391--396
 \T1/ptm/m/n/12 Avail-able at \T1/pcr/m/n/12 http://emetral.web.cern.ch/emetral/
 LRFF/LRFF
  []
 
-[227] [228]
-Overfull \hbox (7.92313pt too wide) in paragraph at lines 460--462
+[228]
+Overfull \hbox (7.92313pt too wide) in paragraph at lines 466--468
 \T1/pcr/m/n/12 http://www.trans-techinc.com/products_detail.asp?ID=151\T1/ptm/m
 /n/12 .'' 
  []
@@ -2928,37 +2928,34 @@ Package pdftex.def Info: appendices/figures/mounet-model.pdf used on input line
 Hub\Thesis_the_second\thesis.aux
 (E:\GitHub\Thesis_the_second\appendices/ferriteProperties.aux)
 (E:\GitHub\Thesis_the_second\appendices/heatTransferInVacuum.aux)
-(E:\GitHub\Thesis_the_second\appendices/analyticalModels.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(E:\GitHub\Thesis_the_second\appendices/analyticalModels.aux)) ) 
 Here is how much of TeX's memory you used:
- 6849 strings out of 493921
- 153481 string characters out of 3144879
- 166159 words of memory out of 3000000
- 9670 multiletter control sequences out of 15000+200000
+ 6938 strings out of 493921
+ 154594 string characters out of 3144879
+ 167034 words of memory out of 3000000
+ 9756 multiletter control sequences out of 15000+200000
  51184 words of font info for 84 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  28i,19n,26p,2208b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/pa
-latino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb
-8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (274 pages, 24054553 bytes).
+{C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/uc
+rr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (274 pages, 24054788 bytes).
 PDF statistics:
  6355 PDF objects out of 7423 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

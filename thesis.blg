@@ -1,15 +1,15 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
-Case mismatch error between cite keys Stupakov:wakeAndImp and Stupakov:wakeandImp
----line 92 of file thesis.aux
- : \citation{Stupakov:wakeAndImp
- :                              }
+Case mismatch error between cite keys Stupakov:wakeAndImpedance and Stupakov:wakeandImpedance
+---line 91 of file thesis.aux
+ : \citation{Stupakov:wakeAndImpedance
+ :                                    }
 I'm skipping whatever remains of this command
 The style file: myIEEETran.bst
 A level-1 auxiliary file: appendices/ferriteProperties.aux
 A level-1 auxiliary file: appendices/heatTransferInVacuum.aux
 A level-1 auxiliary file: appendices/analyticalModels.aux
 Database file #1: thesisBib.bib
-I was expecting an "="---line 617 of file thesisBib.bib
+I was expecting an "="---line 619 of file thesisBib.bib
  : /  
  :    publisher = {American Physical Society}
 I'm skipping whatever remains of this entry
@@ -18,6 +18,7 @@ I'm skipping whatever remains of this entry
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--missing institution in Baudrenghien:LHCPowSpec
 Warning--empty booktitle in Metral:Heating
+Warning--empty booktitle in Radaelli:ColFormat
 Warning--empty booktitle in Carra:HeatLoad
 Warning--empty booktitle in Garlasche:2dHeatEmisAll
 Warning--empty booktitle in Garlasche:heatTransfer
@@ -28,7 +29,6 @@ Warning--empty author in CMSDR
 Warning--empty author and editor in LHCb
 Warning--empty journal in Lourenco:ALICE
 Warning--empty journal in McCrory:lumiEvo
-Warning--empty journal in Stupakov:wakeandImp
 Warning--empty journal in Stupakov:surfaceRough
 Warning--empty journal in Stupakov:adInImpTheory
 Warning--empty journal in Palumbo:Wakes

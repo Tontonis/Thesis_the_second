@@ -11,10 +11,10 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Examples of the longitudinal (a)\hbox {} and transverse (b)\hbox {} resistive wall impedance per unit length of a beam pipe of aperture $a = 2cm$ made of both copper ($\sigma = 6 \times 10^{7} S m^{-1}$) and graphite ($\sigma = 7 \times 10^{4} S m^{-1}$).}}{60}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{60}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{60}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces A comparison of (a)\hbox {} a measured beam power spectrum and a Gaussian bunch of the same bunch length in the frequency domain and (b)\hbox {} the resulting time domain beam profile. The Gaussian has a bunch length (4$\sigma _{z}$ = 1.2ns). Measured spectrum taken by P. Baundrenghien et al \cite {Baudrenghien:LHCPowSpec}. Time domain fit taken from E. Metral \cite {Metral:Heating}}}{64}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces A comparison of (a)\hbox {} a measured beam power spectrum and a Gaussian bunch of the same bunch length in the frequency domain and (b)\hbox {} the resulting time domain beam profile. The Gaussian has a bunch length (4$\sigma _{z}$ = 1.2ns). Measured spectrum taken by P. Baundrenghien et al \cite {Baudrenghien:LHCPowSpec}. Time domain fit taken from E. Metral \cite {Metral:Heating}.}}{64}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{64}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{64}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces The longitudinal bunch profile of a number of bunch distributions. Note that all of these are normalised to have a peak bunch current of 1. For the Gaussian distribution the bunch length is the 4$\sigma $ value. The bunch length $\tau _{b} = 1.2ns$}}{65}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces The longitudinal bunch profile of a number of bunch distributions. Note that all of these are normalised to have a peak bunch current of 1. For the Gaussian distribution the bunch length is the 4$\sigma $ value. The bunch length $t_{b} = 1.2ns$.}}{65}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces The frequency domain (a)\hbox {} current spectrum and (b)\hbox {} power spectrum for a number of different bunch profiles with a bunch length $\tau _{b} = 1.2ns$.}}{66}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{66}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{66}
@@ -112,7 +112,7 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{145}
 \contentsline {figure}{\numberline {6.12}{\ignorespaces The power loss due to a beam with $1.15 \times 10^{11}$ particles per bunch, 288 bunches, a ring circumference 6911m and a bunch length $4\sigma = 0.04m$ assuming a Gaussian bunch distribution in the screened cavity.}}{146}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces The processes by which the collimation system in the LHC acts to clean the beam and manage losses in a controllable way.}}{149}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces The processes by which the collimation system in the LHC acts to clean the beam and manage losses in a controllable way. Taken from \cite {Radaelli:ColFormat}.}}{149}
 \contentsline {figure}{\numberline {7.2}{\ignorespaces Different components of impedance reduction measures in the phase 1 collimator design. (a)\hbox {} shows the longitudinal RF fingers, ensuring a good conducting path for the beam image currents, and (b)\hbox {} shows the sliding RF contacts on the collimators jaw. These are intended to minimise the volume seen by the beam, thus confinig any cavity modes that may be excited by the beam to very high frequencies where the beam power spectrum is very small.}}{150}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{150}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{150}
