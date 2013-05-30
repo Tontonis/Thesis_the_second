@@ -128,7 +128,7 @@ University of Manchester\\
 Oxford Road\\
 Manchester\\
 M13 9PL\\
-March 2013\\
+May 2013\\
 }
 
 \def\copyrightpage{
@@ -149,7 +149,7 @@ March 2013\\
   \newpage
   \tableofcontents
   \begin{center}
-    {\it Total word count: 36649}
+    {\it Total word count: 37123}
   \end{center}
   \newpage
   \iftablespage

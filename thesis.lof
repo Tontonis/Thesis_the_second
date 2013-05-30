@@ -1,0 +1,242 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The CERN accelerator complex, showing both the proton and heavy ion (lead) accelerator chains from LINACs 2 and 3 up to the LHC. Different experimental uses are highlighted in the diagram.}}{39}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces The representation of the coordinate system of a circular accelerator, and additionally the co-moving reference frame of a circulating particle.}}{42}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces An illustration of betatron oscillations around the ideal orbit of a circular accelerator. These oscillations occur in both the horizontal and vertical planes.}}{43}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The relative displacements and velocities of the source (S) and test (T) particles.}}{48}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The relative displacements of the source particle and witness particle in the horizontal and vertical planes that identify the dipolar/driving and quadrupolar/detuning impedances.}}{54}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Cross section of a cylindrical pillbox cavity with an attached beam pipe.}}{56}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The equivalent RLC parallel circuit for a cavity resonance, driven by a current $i_{b}$, in this case the beam current.}}{56}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The geometry of the Tsutsui resistive wall formalism.}}{59}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Examples of the longitudinal (a)\hbox {} and transverse (b)\hbox {} resistive wall impedance per unit length of a beam pipe of aperture $a = 2cm$ made of both copper ($\sigma = 6 \times 10^{7} S m^{-1}$) and graphite ($\sigma = 7 \times 10^{4} S m^{-1}$).}}{60}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{60}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{60}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces A comparison of (a)\hbox {} a measured beam power spectrum and a Gaussian bunch of the same bunch length in the frequency domain and (b)\hbox {} the resulting time domain beam profile. The Gaussian has a bunch length (4$\sigma _{z}$ = 1.2ns). Measured spectrum taken by P. Baundrenghien et al \cite {Baudrenghien:LHCPowSpec}. Time domain fit taken from E. Metral \cite {Metral:Heating}.}}{64}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{64}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{64}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces The longitudinal bunch profile of a number of bunch distributions. Note that all of these are normalised to have a peak bunch current of 1. For the Gaussian distribution the bunch length is the 4$\sigma $ value. The bunch length $t_{b} = 1.2ns$.}}{65}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces The frequency domain (a)\hbox {} current spectrum and (b)\hbox {} power spectrum for a number of different bunch profiles with a bunch length $\tau _{b} = 1.2ns$.}}{66}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{66}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{66}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces (a)\hbox {} The longitudinal profile and the (b)\hbox {} associated bunch power spectrum for a number of bunch lengths assuming a Gaussian bunch profile.}}{66}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{66}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{66}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces (a)\hbox {} The longitudinal profile and the (b)\hbox {} associated bunch power spectrum for a number of bunch lengths assuming a parabolic bunch profile.}}{66}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{66}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{66}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces A comparison of a measured beam power spectrum and a number of analytical bunch profiles assuming a bunch length of 1.2ns.}}{67}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces The beam harmonics of a beam with a bunch spacing of 25ns overlayed on the real component of the longitudinal impedance an example of a low Q impedance ($R_{s}=10\omega $, Q = 10, $f_{res}=1GHz$). The blue lines represent the frequency of a beam harmonic, not necessarily the magnitude of the power spectrum at that point. Note that a number of beam harmonics overlay non-zero impedance values.}}{68}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces The beam harmonics of a beam with a bunch spacing of 25ns overlayed on the real component of the longitudinal impedance of a sample of a high Q impedance ($R_{s}=10\Omega $, Q = 1000, $f_{res}=1GHz$). The blue lines represent the frequency of a beam harmonic, not necessarily the magnitude of the power spectrum at that point. Note that only a single beam harmonic overlays a non-zero impedance values.}}{69}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces The change in power loss due to a narrow band resonance characterised by $\omega _{0} = 2GHz$, $R_{s} = 100\Omega $, $Q = 1000$ with a Gaussian bunch distrbution of different lengths.}}{71}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces (a)\hbox {} The change in power loss due to a narrow band resonance characterised by $\omega _{0} = 2GHz$, $R_{s} = 100\Omega $, $Q = 1000$ interacting with a cos$^{2}$ bunch distribution with different bunch lengths. The impedance and the beam power spectrum are shown in (b)\hbox {} to illustrate how this relates to the power loss.}}{72}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{72}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{72}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces (a)\hbox {} The change in power loss due to a narrow band resonance characterised by $\omega _{0} = 2GHz$, $R_{s} = 100\Omega $, $Q = 1$ interacting with a cos$^{2}$ bunch distribution with different bunch lengths. The impedance and the beam power spectrum are shown in (b)\hbox {} to illustrate how this relates to the power loss.}}{73}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{73}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{73}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces A tune diagram illustrating the unperturbed tune of a machine, and the resulting perturbed tune and the tune spread as a result of direct space charge interactions on a bunch. Note that the tune spread has caused some particles to lie upon a major resonance harmonic. Taken from K. Schindl \cite {Schindl:SpaceCharge}.}}{76}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces The change in the bunch length of a proton beam in the SPS due to the effects of a broadband resonator impedance ($f_{res} = 1GHz$, $R_{s}=10 \Omega $, $Q=1$) without space charge. Note that the bunch length increases when the beam is above transition, and decreases below transition, as the bunch intensity is increased.}}{77}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Examples of a number of modes of headtail oscillations without 2.20(a)\hbox {} and with 2.20(b)\hbox {} chromaticity. Note that radial and azimuthal modes may occur, as may coupled modes, in which the motion of the horizontal and vertical planes is coupled. Images courtesy of G. Rumolo \cite {Rumolo:IntroInstab}.}}{79}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{79}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{79}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison of the electromagnetic field profile of a moving charged particle and a short time pulse propagating along a coaxial wire.}}{88}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The resistive networks for matching a DUT to the attached measuring network (VNA and connecting cables). (a)\hbox {} shows series resistive matching and (b)\hbox {} shows a two way matching network.}}{89}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{89}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{89}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Experimental setup for a measurement of the beam coupling impedance using the classical coaxial wire method.}}{90}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces An example of a reflection measurement made with and without matching resistors. The faded line (lower trace) is the measurement with matching, the bold line (upper trace) that without. The reduction in the reflection can be seen due to the flatter line after the initial reflection.}}{90}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces An example of the resonance pattern seen whilst performing measurements using the resonant method. Each peak corresponds to one data point in the final measurements. Taken from measurements of the LHC injection kicker magnets.}}{94}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Measurement setup for measurements of the dipolar beam coupling impedance using the two wire setup for the classical coaxial wire method.}}{97}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The geometries used for coaxial wire measurement simulations. For the geometry with top/bottom, left/right symmetry we use the Tsutsui model ((a)\hbox {}) using two parallel plates. For the asymmetric structure we use the Zannini-model for a C-core ferrite kicker magnet ((b)\hbox {}), which generates a constant term and a noticeable asymmetric term.}}{105}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{105}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{105}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces The complex permeability of 4A4 ferrite.}}{106}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces An example of the simulation model used for coaxial wire simulations. In this case a displaced single wire between two parallel plates. The wire is highlighted in purple.}}{106}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces The longitudinal impedance of two parallel ferrite plates simulated using a longitudinal coaxial wire. Presented is the impedance as measured in the horizontal plane ((a)\hbox {}) and in the vertical plane (b)\hbox {}.}}{108}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{108}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{108}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces The dipolar impedance of two parallel ferrite plates simulated using two longitudinal coaxial wires. Presented are the impedances as measured in the horizontal plane ((a)\hbox {}) and in the vertical plane (b)\hbox {}.}}{108}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{108}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{108}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces The quadrupolar impedance of two parallel ferrite plates simulated using a combination of displaced single wire simulated measurements and two wire simulated measurements. Presented is the impedance as measured in the horizontal plane ((a)\hbox {}) and in the vertical plane (b)\hbox {}.}}{109}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{109}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{109}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces The longitudinal impedance of two parallel graphite plates as measured by taking the constant term of a quadratic equation fitted to a series of displaced single wire simulated measurements. Shown are simulated measurements acquired from fitting displacements in (a)\hbox {} horizontal axis and in (b)\hbox {} the vertical axis.}}{112}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{112}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{112}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces The dipolar impedance of two parallel graphite plates measured using two longitudinal coaxial wires. Presented is the impedance as measured in the horizontal plane ((a)\hbox {}) and in the vertical plane (b)\hbox {}.}}{113}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{113}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{113}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces The quadrupolar impedance of two parallel graphite plates measured using a combination of displaced single wire measurements and two wire mesurements.}}{113}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces The impedance of the C-core ferrite kicker as acquired by simulating the classical coaxial wire method in HFSS. Shown is the (a)\hbox {} longitudinal impedance, (b)\hbox {} the dipolar impedance, (c)\hbox {} the quadrupolar impedance and (d)\hbox {} the constant transverse impedance.}}{116}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{116}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{116}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{116}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{116}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Comparison of the geometries of a cavity and attached beampipes (a)\hbox {} without and (b)\hbox {} with the coaxial wire in place. Note the dimensions and that the dashed line in (a)\hbox {} and the solid line in (b)\hbox {} represent the rotational plane of symmetry}}{118}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{118}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{118}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces A comparison of the transmission parameters through a pillbox cavity with and without a coaxial wire. A displaced coaxial wire is also shown to illustrate the possibility of exciting dipolar modes also. It can be seen that the transmission signals are drastically changed depending on the presence or not of the wire.}}{118}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces An illusration of the (a)\hbox {} source signal and witness integration in a time domain code. Here a sample from the UA9 goniometer is shown. The source signal and the resulting wakefield are shown in (b)\hbox {}.}}{123}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{123}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{123}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces An example pillbox structure with and without a tapered transition region (a)\hbox {}, in this case with the taper of 15$^{\circ }$. The resulting imaginary component of the longitudinal impedances are shown in (b)\hbox {}, with $Z/n$ shown in (c)\hbox {}, as these are the most significant for beam stability.}}{127}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{127}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{127}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{127}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Example of RF fingers (in this case for the PIMS (Plug In ModuleS) module, placed between cryo-modules in the LHC).}}{128}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces The layout of the RF fingers in the VMTSA both in (a)\hbox {} the fully operational configuration and (b)\hbox {} when some RF fingers lose contact. (c)\hbox {} shows the transmission parameter $S_{21}$ for the VMTSA module with and without good electrical contact between the fingers and the beam pipe as acquired by coaxial wire measurements. Photos and measurements courtesy of J.L. Nougaret.}}{129}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{129}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{129}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{129}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces An example of serigraphy in the SPS Extraction Kicker Magnets (SPS-MKE). The layout of the interleaved fingers is shown in (a)\hbox {} and the actual serigraphed ferrites in (b)\hbox {}. A comparison of the measured real component of the longitudinal beam coupling impedance with and without the serigraphy is shown in (c)\hbox {}.}}{134}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{134}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{134}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{134}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces The complex permeability of a sample ferrite of the sort used for damping. In this case 8C11. In usage a high Curie temperature ($T_{c}$) ferrite is recommended, such as TT2-111R.}}{135}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Two sample geometries used to examine the effects of ferrite damping material on cavity resonances. (a)\hbox {} shows a cavity with the ferrite unshielded, and (b)\hbox {} shows a more realistic case in which the ferrite is shielded from directly seeing the traversing beam.}}{138}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{138}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{138}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces The real component of the longitudinal beam coupling impedance of a cavity without and with a damping material with $\epsilon ^{'}=10$, $\mu ^{'}=10$ and $\mu ^{"}/\mu ^{'}$ is varied. The non-damped cavity is shown for comparison. The change in resonanct frequency and shunt impedance is due to the increased $\epsilon ^{'}$ of the damping material.}}{141}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces (a)\hbox {} The reduction in the Q of the cavity resonance with the increasing loss tangent of the ferrite damping, showing a strong decrease of the resonant Q with a small increase in loss tangent. (b)\hbox {} The percentage of the power loss in the ferrite as the resonant Q decreases. This can be seen to tend towards 100\% as the Q approaches 0.}}{142}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{142}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{142}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces The power loss due to a beam with $1.15 \times 10^{11}$ particles per bunch, 288 bunches, a ring circumference 6911m and a bunch length $4\sigma = 0.04m$ assuming a Gaussian bunch distribution in the unscreened cavity.}}{143}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces The real component of the longitudinal beam coupling impedance of a cavity without and with shielded damping material with $\epsilon ^{'}=10$, $\mu ^{'}=10$ and $\mu ^{"}/\mu ^{'}$ is varied. The non-damped cavity is shown for comparison. The change in resonance frequency and shunt impedance impedance is due to the increased $\epsilon ^{'}$ of the damping material.}}{144}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces (a)\hbox {} The reduction in the Q of the cavity resonance with the increasing loss tangent of the ferrite damping, showing a strong decrease of the resonant Q with a small increase in loss tangent. (b)\hbox {} The percentage of the power loss in the ferrite as the resonant Q decreases. This can be seen to tend towards 100\% as the Q approaches 0.}}{145}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{145}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{145}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces The power loss due to a beam with $1.15 \times 10^{11}$ particles per bunch, 288 bunches, a ring circumference 6911m and a bunch length $4\sigma = 0.04m$ assuming a Gaussian bunch distribution in the screened cavity.}}{146}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces The processes by which the collimation system in the LHC acts to clean the beam and manage losses in a controllable way. Taken from \cite {Radaelli:ColFormat}.}}{149}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Different components of impedance reduction measures in the phase 1 collimator design. (a)\hbox {} shows the longitudinal RF fingers, ensuring a good conducting path for the beam image currents, and (b)\hbox {} shows the sliding RF contacts on the collimators jaw. These are intended to minimise the volume seen by the beam, thus confinig any cavity modes that may be excited by the beam to very high frequencies where the beam power spectrum is very small.}}{150}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{150}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{150}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces The RF system for use in the phase 2 collimation system. The sliding RF contacts of the phase 1 design are replaced with a ferrite damping system. The RF contacts are removed, allowing the beam to see the entire RF cavity, causing resonances at lower frequencies. The Q of these resonances are decreased by the use of ferrite damping tiles (see Sec.\nobreakspace {}6.6\hbox {}). The location of the beam is shown in green.}}{151}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces A number of the proposed jaw designs for the phase 2 secondary collimators. (a)\hbox {} shows the jaw made entirely from molybdenum. Glidcop maybe substituted for molybdenum in this design. (b)\hbox {} shows the jaw made from a mixture of molybdenum diamond composite with a 2mm coating of pure molybdenum on the surface. The composite ensures a mechanically strong jaw, whilst the coating screens the higher resistivity composite and provides a smooth surface on the beam-facing part of the jaw. In this case the composite maybe substituted with copper diamond composite, and likewise the coating may be replaced with GlidCop.}}{154}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{154}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{154}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces The physical model of the Mounet model of parallel plate impedance. Note that the two sides of the structure do not have to be symmetric. The materials maybe any material provided it's frequency dependent properties are well defined.}}{154}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces The impedances of different jaw materials for the phase 2 secondary collimators. (a)\hbox {} The longitudinal impedance, (b)\hbox {} the horizontal dipolar impedance, (c)\hbox {}, the vertical dipolar impedance per unit length.}}{155}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{155}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{155}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{155}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces The impedances of different jaw materials for the phase 2 secondary collimators. (a)\hbox {} the horizontal quadrupolar impedance and (b)\hbox {} the vertical quadrupolar impedance per unit length.}}{156}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{156}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{156}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces The real component of the vertical dipolar impedance of the various collimator jaw materials assuming a 2mm half gap.}}{157}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces The TCTP collimator has a number of important impedance reduction techniques present in its design. Ferrite tiles replace the sliding transverse RF contacts of the phase 1 design, shown in (a)\hbox {} (ferrite tiles shown in black) to reduce the resonant Q of the structure. The longitudinal RF fingers, shown in (b)\hbox {}, provide a good conducting path for the beam image current in the transition from the beam pipe to the collimator jaw.}}{159}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{159}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{159}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces The different RF systems considered for the TCTP collimator. (a)\hbox {} shows an RF system similar to the phase 1 RF system. In these simulations the sliding RF contacts are replaced by a perfect connection - for frequencies lower than 2-3GHz this is a good approximation and greatly simplifies the simulation model. (b)\hbox {} shows the RF circuit complete with ferrite. Two further variants may be considered, where the ferrite is replaced by either vacuum (to indentify how the ferrite damps the otherwise present modes) and replacing the ferrite with PEC (to see whether it is the ferrite or the small aperture that reduces the coupling of the beam to the surrounding vacuum tank).}}{161}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{161}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{161}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces The longitudinal impedance of the TCTP collimator for a number different configurations. Shown is the system using the ferrite damping system (ferrite being 8C11 in this case), RF fingers as in phase 1, and the RF system with the ferrite replaced by PEC. The real (a)\hbox {} and imaginary (b)\hbox {} components are shown.}}{162}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{162}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{162}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces The real component of the longitudinal impedance for the TCTP collimator as simulated in the frequency domain for the case with and without ferrite damping tiles. The strong resonances present in the case without ferrite can be seen to be strongly damped when the ferrite tiles are added. However a substantial broadband component occurs in addition due to the broadened resonance peaks.}}{164}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces The different thermally sensitive components of the TCTP collimator highlighted in purple. (a)\hbox {} shows the ferrite tiles, and (b)\hbox {} the longitudinal RF fingers.}}{167}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{167}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{167}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces The temperature increase of the ferrite damping tiles in the TCTP collimator under a number of beam operating conditions and for a number of different jaw support materials. Plot taken from \cite {Carra:HeatLoad}.}}{169}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces An example layout of a injection system for an accelerator with the timing of the kicker field with an injected bunch train. Taken from \cite {Barnes:injSys}.}}{171}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces The location of the LHC injection systems in the LHC ring, with the layout of an injection line.}}{173}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Cross sections of the MKI parallel to (a)\hbox {} and perpendicular to (b)\hbox {} the direction of travel of the beam. Ferrite is indicated in red and the beam path in green.}}{174}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{174}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{174}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces (a)\hbox {} An MKI out of its tank, showing the internal components. (b)\hbox {} MKIs in the LHC tunnel connected together in the complete injection line.}}{175}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{175}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{175}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Cross sections of the beam screen perpendicular to (a)\hbox {} and parallel to (b)\hbox {} the direction of beam travel. The screen conductors removed from the majority of the MKIs during the original construction phase are highlighted in red.}}{177}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{177}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{177}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces The measured temperature of the MKIs at (a)\hbox {} IP2 and (b)\hbox {} IP8 during 2011 in the LHC. Note MKI8b and MKI8d show significantly higher measured temperatures than the other MKIs.}}{179}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{179}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{179}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces The measurement setup for the two wire measurement setup.}}{182}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces The simulation model of the LHC injection kickers implemented in CST Particle Studio.}}{182}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces The real component of the longitudinal impedance of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio.}}{183}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces The real component of the dipolar impedances of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio. (a)\hbox {} shows the real component of the horizontal dipolar impedance, and (b)\hbox {} the real component of the vertical dipolar impedance}}{183}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{183}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{183}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces The real component of the quadrupolar impedances of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio.}}{184}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces The real component of the constant transverse impedances of the LHC MKI acquired by measurements using the resonant coaxial wire method and time domain simulations using CST Particle Studio. The simulated results from taking the displaced source signal and the displaced witness signal lie on top of one another.}}{184}
+\contentsline {figure}{\numberline {8.13}{\ignorespaces The additional screen conductors and the elongated spheres place in MKI8d to reduce both beam coupling impedance and the electric field.}}{190}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces The real component of the longitudinal beam coupling impedance of the replacement MKI8d with 19 screen conductors from both simulations and measurements. The corresponding impedance for an MKI with 15 screen conductors is shown for comparison.}}{191}
+\contentsline {figure}{\numberline {8.15}{\ignorespaces The temperature profile of the IP8 injection kicker magnets during the time period before and after technical stop 3 (TS3), when the MKI8d was changed from a kicker magnet with 15 screen conductors to one with 19 screen conductors. It can be seen this magnet (solid red trace) goes from being the magnet with the highest measured temperature to the magnet with the lowest measured temperature after TS3 (17/09/2012 - 27/09/2012).}}{193}
+\contentsline {figure}{\numberline {8.16}{\ignorespaces The geometries simulated for the various components in the LHC-MKI. These are c-core ferrite only (a)\hbox {}, c-core ferrite and the ceramic tube (b)\hbox {}, c-core ferrite with the ceramic tube containing 24 screen conductors (c)\hbox {} and finally the complete MKI magnet (without vacuum tank for clarity) (d)\hbox {}.}}{195}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{195}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{195}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{195}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{195}
+\contentsline {figure}{\numberline {8.17}{\ignorespaces The (a)\hbox {} real component and the (b)\hbox {} imaginary components of the LHC MKI kicker magnet impedances for different components in the magnet.}}{196}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{196}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{196}
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Beam screens with different numbers of screen conductors removed from the design quantity of 24. Models of 15 (a)\hbox {}, 19 (b)\hbox {} and 24 (c)\hbox {} screen conductors are considered for the impedance simulations. Conductors surrounded by the boxes are removed in this case.}}{197}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{197}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{197}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{197}
+\contentsline {figure}{\numberline {8.19}{\ignorespaces Beam screens with different numbers of screen conductors removed from the design quantity of 24. Models of 17 (a)\hbox {}, 19 (b)\hbox {}, 20 (c)\hbox {} and 24 (d)\hbox {} screen conductors are considered for the impedance simulations. Conductors that are coloured red are the removed in each case.}}{198}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{198}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{198}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{198}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{198}
+\contentsline {figure}{\numberline {8.20}{\ignorespaces The longitudinal impedance of the MKIs with different numbers of screen conductors included in the beam screen. Shown is the real component (a)\hbox {} and the imaginary component (b)\hbox {} of the longitudinal impedance.}}{199}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{199}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{199}
+\contentsline {figure}{\numberline {8.21}{\ignorespaces The cut down simulation model used for simulations of the MKI beam screen with 24 screen conductors.}}{201}
+\contentsline {figure}{\numberline {8.22}{\ignorespaces A comparison of the mesh that may be generated in CST Particle Studio using both the full model (a)\hbox {} and the cutdown model (b)\hbox {}. Note the greatly increased mesh density in the important overlap region between the screen conductors and external metallization. The simulation time for the first is on the order a of day, for the second 30 minutes.}}{201}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{201}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{201}
+\contentsline {figure}{\numberline {8.23}{\ignorespaces (a)\hbox {} The simulated real component of the longitudinal beam coupling impedance for different lengths of the overlap, and (b)\hbox {} a zoomed in plot of the first resonances of all the overlaps with the calculated resonance frequency (shown as vertical lines) for each based on the effective length. For each the thickness of the ceramic tube is 7mm.}}{203}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{203}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{203}
+\contentsline {figure}{\numberline {8.24}{\ignorespaces The simulated impedance of the beam screen with 24 screen conductors with an overlap $L_{overlap}=100mm$ and the predicted resonance frequencies from Eqn.\nobreakspace {}8.1\hbox {} shown as vertical lines.}}{204}
+\contentsline {figure}{\numberline {8.25}{\ignorespaces The variance of the real beam coupling impedance with the tube thickness. External diameters of 50, 53 and 56mm correspond to tube thicknesses of 4, 5.5 and 7mm respectively. The physical overlap is 100mm in all cases.}}{206}
+\contentsline {figure}{\numberline {8.26}{\ignorespaces A MKI beam screen design with alternating lengths of screen conductors - with a difference in length b.}}{209}
+\contentsline {figure}{\numberline {8.27}{\ignorespaces A MKI beam screen design with tapered lengths of screen conductors. The taper may be altered to acquire the desired combination of impedance and surface electric field on the ceramic tube.}}{209}
+\contentsline {figure}{\numberline {8.28}{\ignorespaces A MKI beam screen design with a combination of tapered and alternating screen conductors. The degree of alternating and tapering may change dependent of the desired impedance and surface electric field associated with the screen conductors. The alternating length conductors are closest to the return busbar (those with the lowest induced voltage).}}{210}
+\contentsline {figure}{\numberline {8.29}{\ignorespaces A MKI beam screen design with enclosed slots (shown in comparison to the usual beam screen design with open slots) for the screen conductors.}}{210}
+\contentsline {figure}{\numberline {8.30}{\ignorespaces A MKI beam screen design using an alternative screen conductor layout in which 2 (cross section shown here) conductors are connected to ground at one end of the screen, and all conductors are connected together at the other end. Both ends have capacitive coupling.}}{211}
+\contentsline {figure}{\numberline {8.31}{\ignorespaces A MKI beam screen design implementing a replacement of some of the external metallization with a metallic cylinder so as to remove the ground plane closest to the ends of the screen conductors from the outer surface of the ceramic tube.}}{211}
+\contentsline {figure}{\numberline {8.32}{\ignorespaces The proposed final MKI design. A combination of alternating and tapered screen conductors is used, along with a step out of the external metallization to a metal cylinder. The outline of the step out is shown by the red-dashed line.}}{212}
+\contentsline {figure}{\numberline {8.33}{\ignorespaces The real component of the beam coupling impedance for a number of the proposed beam screen designs (a)\hbox {}. In addition the imaginary component of the longitudinal impedance is shown for completeness (b)\hbox {}. In all cases the outside diameter of the ceramic tube is 56mm.}}{213}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{213}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{213}
+\contentsline {figure}{\numberline {8.34}{\ignorespaces The variation of the predicted beam induced power loss with bunch length for a number of screen designs. The variation for 25ns (a)\hbox {} and 50ns (b)\hbox {} machine settings.}}{214}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{214}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{214}
+\contentsline {figure}{\numberline {8.35}{\ignorespaces The maximum steady-state temperature reached by the ferrite yoke in the MKI depending on the power load in the ferrite yoke as calculated using a 2D cross section of the MKI. $P_{yoke}$ is the power lost in the ferrite yoke and T the maximum steady state temperature of the ferrite yoke. Provided by M. Garlasche et al \cite {Garlasche:2dHeatEmisAll}.}}{216}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces The focusing synchronous phase positions for a particle below ($P_{1}$) and above ($P_{2}$) transition. The synchronous phase is chosen for a given particle energy and desired behaviour, and an off-momentum particle will be longitudinally focused to the synchronous phase by the RF system if the correct phase is chosen. This occurs due to balance of increased velocity with an increased size of orbit as a particle is accelerated by the RF electric field. Taken from \cite {Tecker:LongDyn}.}}{238}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces The seperatrix for different synchronous phase values. Note that the acceptance decreases as $\phi _{s} \rightarrow \pi / 2$. Taken from \cite {Leduff:LongDyn}.}}{240}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces The equivalent circuit model for a cavity mode with no coupling to neighbouring cavities.}}{257}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {E.1}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for TT2-111R.}}{262}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{262}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{262}
+\contentsline {figure}{\numberline {E.2}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for 4S60.}}{262}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{262}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{262}
+\contentsline {figure}{\numberline {E.3}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for 4A4.}}{263}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{263}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{263}
+\contentsline {figure}{\numberline {E.4}{\ignorespaces The permeability (a)\hbox {} and penetration depth (b)\hbox {} for 4E2.}}{263}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{263}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{263}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {F.1}{\ignorespaces The power transfer between two surfaces by radiative heat transfer as a function of emissitivity of the absorbing component and the ratio of the visible surface areas of the components. K$_{A}$ is the ratio of the surface of the absorbing component and the emitting component. Figure produced by Garlasche et al \cite {Garlasche:heatTransfer}.}}{266}
+\contentsline {figure}{\numberline {F.2}{\ignorespaces An illustration of the change between the two regimes of thermal transfer by radiation and by conduction as the distance between two surfaces is reduced. It can be seen that there is a period between radiation and the beginning of transfer by contact where-in the rate of thermal transfer greatly increases. This is due to an effect known as radiative tunnelling \cite {Hargreaves:IRTunnel}.}}{267}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {G.1}{\ignorespaces The geometry treated by the Tsutsui model of resistive wall impedance.}}{269}
+\contentsline {figure}{\numberline {G.2}{\ignorespaces The geometry treated by the Zannini model of resistive wall impedance.}}{271}
+\contentsline {figure}{\numberline {G.3}{\ignorespaces The geometry treated by the Mounet model of resistive wall impedance.}}{271}
