@@ -104,12 +104,14 @@
 \contentsline {section}{\numberline {8.7}Upgrade Plans for Long Shutdown 1 and Beyond}{212}
 \contentsline {section}{\numberline {8.8}Conclusion}{217}
 \contentsline {chapter}{\numberline {9}Summary and Conclusions}{218}
-\contentsline {chapter}{Bibliography}{220}
-\contentsline {chapter}{\numberline {A}Beam Dynamics}{234}
-\contentsline {section}{\numberline {A.1}Longitudinal Beam Dynamics}{234}
-\contentsline {subsection}{\numberline {A.1.1}Longitudinal Equations of Motion}{236}
-\contentsline {subsection}{\numberline {A.1.2}RF Acceptance and Longitudinal Emittance}{238}
-\contentsline {section}{\numberline {A.2}Linear Transverse Dynamics}{239}
+\contentsline {section}{\numberline {9.1}Summary}{218}
+\contentsline {section}{\numberline {9.2}Future Directions}{219}
+\contentsline {chapter}{Bibliography}{221}
+\contentsline {chapter}{\numberline {A}Beam Dynamics}{235}
+\contentsline {section}{\numberline {A.1}Longitudinal Beam Dynamics}{235}
+\contentsline {subsection}{\numberline {A.1.1}Longitudinal Equations of Motion}{237}
+\contentsline {subsection}{\numberline {A.1.2}RF Acceptance and Longitudinal Emittance}{239}
+\contentsline {section}{\numberline {A.2}Linear Transverse Dynamics}{241}
 \contentsline {subsubsection}{Off-Momentum Particles}{244}
 \contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - No Ferrite}{246}
 \contentsline {chapter}{\numberline {C}TCTP Eigenmode Simulations - With Ferrite}{252}

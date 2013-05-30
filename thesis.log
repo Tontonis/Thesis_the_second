@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  30 MAY 2013 15:51
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  30 MAY 2013 17:30
 entering extended mode
 **E:/GitHub/Thesis_the_second/thesis.tex
 (E:/GitHub/Thesis_the_second/thesis.tex
@@ -2646,64 +2646,64 @@ s_the_second/LHC_MKI/figures/tempPowMarco.png>]) [217]
 Chapter 9.
 (E:\GitHub\Thesis_the_second\Conclusions/conclusions.tex [218
 
-])
-(E:\GitHub\Thesis_the_second\thesis.bbl [219] [220
-
-]
-Underfull \hbox (badness 1430) in paragraph at lines 83--85
-[]\T1/ptm/m/n/12 C. Lourenco, ``Heavy Ion Col-li-sions at the LHC: the AL-ICE E
-x-per-i-ment.
- []
-
-[221] [222]
-Underfull \hbox (badness 1389) in paragraph at lines 167--176
+]) [219]
+(E:\GitHub\Thesis_the_second\thesis.bbl [220]
+Underfull \hbox (badness 1389) in paragraph at lines 30--39
 \T1/ptm/m/n/12 O. Brun-ner, A. But-ter-worth, E. Cia-pala, F. Dubouchet, J. Est
 eban-Muller,
  []
 
-[223] [224]
-Underfull \hbox (badness 1048) in paragraph at lines 248--252
+[221
+
+]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 82.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 79--84
+\T1/ptm/m/n/12 Avail-able at \T1/pcr/m/n/12 http://emetral.web.cern.ch/emetral/
+LRFF/LRFF
+ []
+
+[222]
+Underfull \hbox (badness 1430) in paragraph at lines 150--152
+[]\T1/ptm/m/n/12 C. Lourenco, ``Heavy Ion Col-li-sions at the LHC: the AL-ICE E
+x-per-i-ment.
+ []
+
+[223] [224] [225]
+Underfull \hbox (badness 1048) in paragraph at lines 293--297
 []\T1/ptm/m/n/12 T. Ar-gy-ropou-los, T. Bohl, A. Burov, R. Calaga, L. Fic-ca-de
 nti, E. Me-tral,
  []
 
-[225]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 294.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [226]
-Underfull \hbox (badness 10000) in paragraph at lines 359--364
+[226] [227] [228]
+Underfull \hbox (badness 10000) in paragraph at lines 399--404
 \T1/ptm/m/n/12 Avail-able at \T1/pcr/m/n/12 http://emetral.web.cern.ch/emetral/
 LRFF/LRFF
  []
 
-[227] [228]
-Overfull \hbox (7.92313pt too wide) in paragraph at lines 444--446
+[229]
+Overfull \hbox (7.92313pt too wide) in paragraph at lines 474--476
 \T1/pcr/m/n/12 http://www.trans-techinc.com/products_detail.asp?ID=151\T1/ptm/m
 /n/12 .'' 
  []
 
-[229] [230] [231] [232]
-Underfull \hbox (badness 10000) in paragraph at lines 617--622
-\T1/ptm/m/n/12 Avail-able at \T1/pcr/m/n/12 http://emetral.web.cern.ch/emetral/
-LRFF/LRFF
- []
-
-) [233]
+[230] [231] [232] [233]) [234]
 Appendix A.
 (E:\GitHub\Thesis_the_second\appendices/beamDynIntro.tex)
-(E:\GitHub\Thesis_the_second\appendices/longDynamics.tex [234
+(E:\GitHub\Thesis_the_second\appendices/longDynamics.tex [235
 
-] [235] [236]
-[237] <appendices/figures/longStab.png, id=5799, 957.5775pt x 487.06969pt>
+] [236] [237]
+[238] <appendices/figures/longStab.png, id=5802, 957.5775pt x 487.06969pt>
 File: appendices/figures/longStab.png Graphic file (type png)
 
 <use appendices/figures/longStab.png>
 Package pdftex.def Info: appendices/figures/longStab.png used on input line 141
 .
 (pdftex.def)             Requested size: 320.57364pt x 163.05972pt.
- [238 <E:/GitHub/Thesis_the_second/appendices/figures/longStab.png>]
-<appendices/figures/longPhaseDiag.png, id=5804, 639.89063pt x 649.67719pt>
+ [239 <E:/GitHub/Thesis_the_second/appendices/figures/longStab.png>]
+<appendices/figures/longPhaseDiag.png, id=5807, 639.89063pt x 649.67719pt>
 File: appendices/figures/longPhaseDiag.png Graphic file (type png)
 
 <use appendices/figures/longPhaseDiag.png>
@@ -2711,9 +2711,9 @@ Package pdftex.def Info: appendices/figures/longPhaseDiag.png used on input lin
 e 159.
 (pdftex.def)             Requested size: 320.57364pt x 325.48215pt.
 )
-(E:\GitHub\Thesis_the_second\appendices/transDynamics.tex [239] [240 <E:/GitHub
-/Thesis_the_second/appendices/figures/longPhaseDiag.png>] [241] [242] [243])
-[244] [245]
+(E:\GitHub\Thesis_the_second\appendices/transDynamics.tex [240 <E:/GitHub/Thesi
+s_the_second/appendices/figures/longPhaseDiag.png>] [241] [242] [243] [244])
+[245]
 Appendix B.
 (E:\GitHub\Thesis_the_second\appendices/vacEigenTable.tex [246
 
@@ -2919,7 +2919,7 @@ E:\GitHub\Thesis_the_second\thesis.aux) )
 Here is how much of TeX's memory you used:
  6927 strings out of 493921
  153915 string characters out of 3144879
- 165936 words of memory out of 3000000
+ 166668 words of memory out of 3000000
  9754 multiletter control sequences out of 15000+200000
  51184 words of font info for 84 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -2942,7 +2942,7 @@ les (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (272 pages, 24160832 bytes).
+Output written on thesis.pdf (272 pages, 24162193 bytes).
 PDF statistics:
  6355 PDF objects out of 7423 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
