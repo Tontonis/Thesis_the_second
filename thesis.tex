@@ -1,4 +1,4 @@
-\documentclass[12pt,PhD]{Thesis}
+\documentclass[12pt,openany, PhD]{Thesis}
 
 
 
@@ -62,7 +62,7 @@
 \prefacesection{The Author}
 \input{Preface/author.tex}
 \prefacesection{Acknowledgements}
-%\input{Preface/acknowledgements.tex}
+\input{Preface/acknowledgements.tex}
 \afterpreface
 
 
@@ -151,6 +151,7 @@
 \bibliographystyle{myIEEETran}
 \bibliography{thesisBib}
 
+
 \appendix{}
 \chapter{Beam Dynamics}
 \label{app:BeamDyn}
@@ -165,11 +166,11 @@
 \chapter{Cavity Parameters and the Calculation of Eigenmode Properties}
 \input{appendices/algorithmEigenModeCav}
 \chapter{Ferrite Properties}
-\include{appendices/ferriteProperties}
+\input{appendices/ferriteProperties}
 \chapter{Heat Transfer in Vacuum}
-\include{appendices/heatTransferInVacuum}
+\input{appendices/heatTransferInVacuum}
 \chapter{Analytical Models of Resistive Wall Impedance}
-\include{appendices/analyticalModels}
+\input{appendices/analyticalModels}
 
 
 
