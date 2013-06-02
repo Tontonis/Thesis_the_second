@@ -1,23 +1,23 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  31 MAY 2013 09:22
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.2.24)  2 JUN 2013 23:02
 entering extended mode
-**E:/GitHub/Thesis_the_second/thesis.tex
-(E:/GitHub/Thesis_the_second/thesis.tex
+**C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
+(C:/Users/hugo/Documents/GitHub/Thesis_the_second/thesis.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-(E:\GitHub\Thesis_the_second\Thesis.cls
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Thesis.cls
 Document Class: Thesis 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -33,28 +33,28 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ieeepes\vmargin.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ieeepes\vmargin.sty"
 Package: vmargin 1999/06/01
 
 Package `vmargin', V2.2, <1999/06/01>
 \PaperWidth=\dimen103
 \PaperHeight=\dimen104
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.sty"
 Package: t1enc 1994/06/01 Standard LaTeX package
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -204,7 +204,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -235,7 +235,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -259,13 +259,13 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\times.sty"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathcomp\mathcomp.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathcomp\mathcomp.sty"
 Package: mathcomp 2001/01/07 v0.1f (TBo)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -280,12 +280,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -426,7 +426,7 @@ LaTeX Font Info:    Overwriting symbol font `TC' in version `bold'
 LaTeX Font Info:    Redeclaring math symbol \dagger on input line 47.
 LaTeX Font Info:    Redeclaring math symbol \ddagger on input line 48.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip43
 \subfigcapskip=\skip44
@@ -442,56 +442,56 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
 \subfig@top=\skip47
 \subfig@bottom=\skip48
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2013/01/14 v2.14 AMS math features
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen107
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen108
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count92
-LaTeX Info: Redefining \frac on input line 210.
+LaTeX Info: Redefining \frac on input line 211.
 \uproot@=\count93
 \leftroot@=\count94
-LaTeX Info: Redefining \overline on input line 306.
+LaTeX Info: Redefining \overline on input line 307.
 \classnum@=\count95
 \DOTSCASE@=\count96
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen109
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \macc@depth=\count97
 \c@MaxMatrixCols=\count98
 \dotsspace@=\muskip10
@@ -512,45 +512,47 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \multlinegap=\skip50
 \multlinetaggap=\skip51
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count104
 ))
 \Gin@req@height=\dimen116
 \Gin@req@width=\dimen117
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cleveref\cleveref.sty"
-Package: cleveref 2012/09/25 v0.18.6 Intelligent cross-referencing
+("C:\Program Files\MiKTeX 2.9\tex\latex\cleveref\cleveref.sty"
+Package: cleveref 2012/02/15{} v0.18.4{} Intelligent cross-referencing
+Package cleveref Info: loaded `english' language definitions on input line 6732
+.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip52
 \LTright=\skip53
@@ -568,13 +570,13 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count109
 \LT@p@ftn=\toks23
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty"
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
 \nomlabelwidth=\dimen119
 \nom@tempdim=\dimen120
 \nomitemsep=\skip56
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 373.
 Package: cite 2010/09/10  v 5.3
@@ -582,13 +584,13 @@ Package: cite 2010/09/10  v 5.3
 \@nomenclaturefile=\write3
 
 Writing nomenclature file thesis.nlo
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty"
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write4
 
 Writing index file thesis.idx
-(E:\GitHub\Thesis_the_second\thesis.aux)
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
@@ -604,16 +606,16 @@ LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 47.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 47.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count110
 \scratchdimen=\dimen121
@@ -632,27 +634,27 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 55.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 55.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 ) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(E:\GitHub\Thesis_the_second\thesis.toc
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 7.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [2
 
-] [3]
-[4] [5])
+] [3] [4] [5])
 \tf@toc=\write5
- [6] (E:\GitHub\Thesis_the_second\thesis.lot [7
+
+[6] (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.lot [7
 
 ]
 Overfull \hbox (2.52484pt too wide) in paragraph at lines 21--21
@@ -662,7 +664,7 @@ r es-ti-mat-ing the power
 
 [8] [9])
 \tf@lot=\write6
- [10] (E:\GitHub\Thesis_the_second\thesis.lof
+ [10] (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.lof
 Overfull \hbox (6.7129pt too wide) in paragraph at lines 11--11
  [][] []\T1/ptm/m/n/12 Examples of the lon-gi-tu-di-nal (a)[] and trans-verse (
 b)[] re-sis-tive wall impedance 
@@ -702,10 +704,12 @@ di-nal beam cou-pling impedance
 
 [23] [24])
 \tf@lof=\write7
- [25] [26] (E:\GitHub\Thesis_the_second\thesis.nls [27
+ [25] [26]
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.nls [27
 
 ] [28] [29]
-[30]) [31] (E:\GitHub\Thesis_the_second\Preface/abstract.tex
+[30]) [31]
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Preface/abstract.tex
 Overfull \hbox (14.11746pt too wide) in paragraph at lines 1--2
 \T1/ptm/m/n/12 Wakefields and the cor-re-spond-ing frequency-domain phe-nomenon
  beam cou-pling impedance
@@ -722,18 +726,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
 
 ] [34
 
-] (E:\GitHub\Thesis_the_second\symbols.tex)
-(E:\GitHub\Thesis_the_second\Preface/author.tex) [35
+] (C:\Users\hugo\Documents\GitHub\Thesis_the_second\symbols.tex)
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Preface/author.tex) [35
 
 ]
-(E:\GitHub\Thesis_the_second\Preface/acknowledgements.tex) [36
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Preface/acknowledgements.tex)
+[36
 
 ] [37]
 Chapter 1.
-(E:\GitHub\Thesis_the_second\Introduction/introduction.tex
+
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Introduction/introduction.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-
 <Introduction/figures/cernaccelerators.jpg, id=131, 803.0pt x 563.10374pt>
 File: Introduction/figures/cernaccelerators.jpg Graphic file (type jpg)
 
@@ -743,7 +748,8 @@ t line 7.
 (pdftex.def)             Requested size: 406.05864pt x 284.75609pt.
  [38
 
-] [39 <E:/GitHub/Thesis_the_second/Introduction/figures/cernaccelerators.jpg>] 
+] [39 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Introduction/figures/ce
+rnaccelerators.jpg>]
 [40]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 33.
@@ -762,11 +768,13 @@ File: Introduction/figures/betatron-motion.pdf Graphic file (type pdf)
 Package pdftex.def Info: Introduction/figures/betatron-motion.pdf used on input
  line 64.
 (pdftex.def)             Requested size: 277.82788pt x 277.84311pt.
- [42 <E:/GitHub/Thesis_the_second/Introduction/figures/coordinate-system.pdf>] 
-[43 <E:/GitHub/Thesis_the_second/Introduction/figures/betatron-motion.pdf>] [44
-] [45]) [46]
+ [42 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Introduction/figures/coo
+rdinate-system.pdf>] [43 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Intr
+oduction/figures/betatron-motion.pdf>] [44] [45]) [46]
 Chapter 2.
-(E:\GitHub\Thesis_the_second\Wakefields_and_Impedances/wakefields.tex
+
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Wakefields_and_Impedances/wak
+efields.tex
 Overfull \hbox (21.02844pt too wide) in paragraph at lines 1--2
 \T1/ptm/m/n/12 In this chap-ter the for-mal-ism of wake-fields, and the fre-que
 ncy do-main coun-ter-part, impedances
@@ -784,14 +792,15 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/source-witness-pos.p
 df used on input line 11.
 (pdftex.def)             Requested size: 363.31941pt x 228.89351pt.
 
-[48 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/source-witne
-ss-pos.pdf>] [49] [50] [51]
+[48 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
+/figures/source-witness-pos.pdf>] [49] [50] [51]
 Overfull \hbox (1.52687pt too wide) in paragraph at lines 158--158
 [] 
  []
 
-) (E:\GitHub\Thesis_the_second\Wakefields_and_Impedances/impedances.tex
-[52]
+)
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Wakefields_and_Impedances/imp
+edances.tex [52]
 Overfull \hbox (7.51727pt too wide) in paragraph at lines 7--8
 \T1/ptm/m/n/12 The lon-gi-tu-di-nal beam cou-pling impedance $\OML/cmm/m/it/12 
 Z[]$ \T1/ptm/m/n/12 and the trans-verse beam cou-pling impedance
@@ -807,9 +816,10 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/impedance-des.pdf us
 ed on input line 34.
 (pdftex.def)             Requested size: 384.68576pt x 151.46904pt.
 )
-(E:\GitHub\Thesis_the_second\Wakefields_and_Impedances/geometric.tex [54 <E:/Gi
-tHub/Thesis_the_second/Wakefields_and_Impedances/figures/impedance-des.pdf>]
-<Wakefields_and_Impedances/figures/pillbox-cav.pdf, id=253, 455.30101pt x 284.5
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Wakefields_and_Impedances/geo
+metric.tex [54 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and
+_Impedances/figures/impedance-des.pdf>]
+<Wakefields_and_Impedances/figures/pillbox-cav.pdf, id=254, 455.30101pt x 284.5
 6313pt>
 File: Wakefields_and_Impedances/figures/pillbox-cav.pdf Graphic file (type pdf)
 
@@ -818,7 +828,7 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/pillbox-cav.pdf used
  on input line 20.
 (pdftex.def)             Requested size: 363.31941pt x 227.08199pt.
 
-<Wakefields_and_Impedances/figures/equiv-circuit.pdf, id=254, 455.30101pt x 284
+<Wakefields_and_Impedances/figures/equiv-circuit.pdf, id=255, 455.30101pt x 284
 .56313pt>
 File: Wakefields_and_Impedances/figures/equiv-circuit.pdf Graphic file (type pd
 f)
@@ -827,20 +837,21 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/equiv-circuit.pdf us
 ed on input line 34.
 (pdftex.def)             Requested size: 363.31941pt x 227.08199pt.
  [55]
-[56 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/pillbox-cav.
-pdf> <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/equiv-circu
-it.pdf>] [57])
-(E:\GitHub\Thesis_the_second\Wakefields_and_Impedances/resistive_wall.tex
-<Wakefields_and_Impedances/figures/reWallGeo.pdf, id=298, 341.47577pt x 313.049
+[56 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
+/figures/pillbox-cav.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wak
+efields_and_Impedances/figures/equiv-circuit.pdf>] [57])
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Wakefields_and_Impedances/res
+istive_wall.tex
+<Wakefields_and_Impedances/figures/reWallGeo.pdf, id=300, 341.47577pt x 313.049
 56pt>
 File: Wakefields_and_Impedances/figures/reWallGeo.pdf Graphic file (type pdf)
  <use Wakefields_and_Impedances/figures/reWallGeo.pdf>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/reWallGeo.pdf used o
 n input line 10.
 (pdftex.def)             Requested size: 256.46152pt x 235.11618pt.
- [58] [59 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/reWall
-Geo.pdf>]
-<Wakefields_and_Impedances/figures/resWallTsutsuiLong.pdf, id=322, 578.16pt x 4
+ [58] [59 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impe
+dances/figures/reWallGeo.pdf>]
+<Wakefields_and_Impedances/figures/resWallTsutsuiLong.pdf, id=325, 578.16pt x 4
 33.62pt>
 File: Wakefields_and_Impedances/figures/resWallTsutsuiLong.pdf Graphic file (ty
 pe pdf)
@@ -849,7 +860,7 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/resWallTsutsuiLong.p
 df used on input line 28.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
-<Wakefields_and_Impedances/figures/resWallTsutsuiTrans.pdf, id=323, 578.16pt x 
+<Wakefields_and_Impedances/figures/resWallTsutsuiTrans.pdf, id=326, 578.16pt x 
 433.62pt>
 File: Wakefields_and_Impedances/figures/resWallTsutsuiTrans.pdf Graphic file (t
 ype pdf)
@@ -863,10 +874,11 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 28--33
  []
 
 )
-(E:\GitHub\Thesis_the_second\Wakefields_and_Impedances/beam_induced_heating.tex
-[60 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/resWallTsuts
-uiLong.pdf> <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/resW
-allTsutsuiTrans.pdf>] [61]
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Wakefields_and_Impedances/bea
+m_induced_heating.tex [60 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wak
+efields_and_Impedances/figures/resWallTsutsuiLong.pdf> <C:/Users/hugo/Documents
+/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/resWallTsutsuiTrans
+.pdf>] [61]
 Overfull \hbox (5.98767pt too wide) detected at line 78
 \OT1/cmr/m/n/12 \OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12   [][]
  [][] \OML/cmm/m/it/12 d[][] [] [][] d[][] [] [] W[] [] :
@@ -874,7 +886,7 @@ Overfull \hbox (5.98767pt too wide) detected at line 78
 
 [62]
 <Wakefields_and_Impedances/figures/beam_spectra_power_gauss_meas_12ns.pdf, id=4
-73, 578.16pt x 433.62pt>
+77, 578.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/beam_spectra_power_gauss_meas_12ns.pdf 
 Graphic file (type pdf)
 
@@ -884,7 +896,7 @@ auss_meas_12ns.pdf used on input line 102.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
 
 <Wakefields_and_Impedances/figures/beam_spectra_power_gauss_meas_Elias.png, id=
-474, 452.4403pt x 371.13657pt>
+478, 452.4403pt x 371.13657pt>
 File: Wakefields_and_Impedances/figures/beam_spectra_power_gauss_meas_Elias.png
  Graphic file (type png)
 
@@ -892,10 +904,11 @@ File: Wakefields_and_Impedances/figures/beam_spectra_power_gauss_meas_Elias.png
 Package pdftex.def Info: Wakefields_and_Impedances/figures/beam_spectra_power_g
 auss_meas_Elias.png used on input line 106.
 (pdftex.def)             Requested size: 192.34288pt x 157.77908pt.
-[63] [64 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/beam_sp
-ectra_power_gauss_meas_12ns.pdf> <E:/GitHub/Thesis_the_second/Wakefields_and_Im
-pedances/figures/beam_spectra_power_gauss_meas_Elias.png>]
-<Wakefields_and_Impedances/figures/bunch_profile_12ns.pdf, id=522, 578.16pt x 4
+[63] [64 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Imped
+ances/figures/beam_spectra_power_gauss_meas_12ns.pdf> <C:/Users/hugo/Documents/
+GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/beam_spectra_power_g
+auss_meas_Elias.png>]
+<Wakefields_and_Impedances/figures/bunch_profile_12ns.pdf, id=527, 578.16pt x 4
 33.62pt>
 File: Wakefields_and_Impedances/figures/bunch_profile_12ns.pdf Graphic file (ty
 pe pdf)
@@ -904,7 +917,7 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/bunch_profile_12ns.p
 df used on input line 162.
 (pdftex.def)             Requested size: 277.82788pt x 208.3668pt.
 
-<Wakefields_and_Impedances/figures/current_spectrum_12ns.pdf, id=523, 578.16pt 
+<Wakefields_and_Impedances/figures/current_spectrum_12ns.pdf, id=528, 578.16pt 
 x 433.62pt>
 File: Wakefields_and_Impedances/figures/current_spectrum_12ns.pdf Graphic file 
 (type pdf)
@@ -913,7 +926,7 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/current_spectrum_12n
 s.pdf used on input line 172.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
 
-<Wakefields_and_Impedances/figures/power_spectrum_12ns.pdf, id=524, 578.16pt x 
+<Wakefields_and_Impedances/figures/power_spectrum_12ns.pdf, id=529, 578.16pt x 
 433.62pt>
 File: Wakefields_and_Impedances/figures/power_spectrum_12ns.pdf Graphic file (t
 ype pdf)
@@ -922,7 +935,7 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/power_spectrum_12ns.
 pdf used on input line 176.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
 
-<Wakefields_and_Impedances/figures/gaussian_time_dom_diff_lengths.pdf, id=525, 
+<Wakefields_and_Impedances/figures/gaussian_time_dom_diff_lengths.pdf, id=530, 
 578.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/gaussian_time_dom_diff_lengths.pdf Grap
 hic file (type pdf)
@@ -932,7 +945,7 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/gaussian_time_dom_di
 ff_lengths.pdf used on input line 187.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
 
-<Wakefields_and_Impedances/figures/gaussian_power_spec_diff_lengths.pdf, id=526
+<Wakefields_and_Impedances/figures/gaussian_power_spec_diff_lengths.pdf, id=531
 , 578.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/gaussian_power_spec_diff_lengths.pdf Gr
 aphic file (type pdf)
@@ -942,7 +955,7 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/gaussian_power_spec_
 diff_lengths.pdf used on input line 191.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
 
-<Wakefields_and_Impedances/figures/current_amp_para_change.pdf, id=527, 578.16p
+<Wakefields_and_Impedances/figures/current_amp_para_change.pdf, id=532, 578.16p
 t x 433.62pt>
 File: Wakefields_and_Impedances/figures/current_amp_para_change.pdf Graphic fil
 e (type pdf)
@@ -952,7 +965,7 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/current_amp_para_cha
 nge.pdf used on input line 200.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
 
-<Wakefields_and_Impedances/figures/freq_power_para_change.pdf, id=528, 578.16pt
+<Wakefields_and_Impedances/figures/freq_power_para_change.pdf, id=533, 578.16pt
  x 433.62pt>
 File: Wakefields_and_Impedances/figures/freq_power_para_change.pdf Graphic file
  (type pdf)
@@ -961,16 +974,18 @@ File: Wakefields_and_Impedances/figures/freq_power_para_change.pdf Graphic file
 Package pdftex.def Info: Wakefields_and_Impedances/figures/freq_power_para_chan
 ge.pdf used on input line 204.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
- [65 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/bunch_profi
-le_12ns.pdf>] [66 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figure
-s/current_spectrum_12ns.pdf> <E:/GitHub/Thesis_the_second/Wakefields_and_Impeda
-nces/figures/power_spectrum_12ns.pdf> <E:/GitHub/Thesis_the_second/Wakefields_a
-nd_Impedances/figures/gaussian_time_dom_diff_lengths.pdf> <E:/GitHub/Thesis_the
-_second/Wakefields_and_Impedances/figures/gaussian_power_spec_diff_lengths.pdf>
- <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/current_amp_par
-a_change.pdf> <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/fr
-eq_power_para_change.pdf>]
-<Wakefields_and_Impedances/figures/beam_spectra_power_12ns.pdf, id=897, 578.16p
+ [65 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedance
+s/figures/bunch_profile_12ns.pdf>] [66 <C:/Users/hugo/Documents/GitHub/Thesis_t
+he_second/Wakefields_and_Impedances/figures/current_spectrum_12ns.pdf> <C:/User
+s/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/pow
+er_spectrum_12ns.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefie
+lds_and_Impedances/figures/gaussian_time_dom_diff_lengths.pdf> <C:/Users/hugo/D
+ocuments/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/gaussian_po
+wer_spec_diff_lengths.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wa
+kefields_and_Impedances/figures/current_amp_para_change.pdf> <C:/Users/hugo/Doc
+uments/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/freq_power_pa
+ra_change.pdf>]
+<Wakefields_and_Impedances/figures/beam_spectra_power_12ns.pdf, id=904, 578.16p
 t x 433.62pt>
 File: Wakefields_and_Impedances/figures/beam_spectra_power_12ns.pdf Graphic fil
 e (type pdf)
@@ -980,8 +995,8 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/beam_spectra_power_1
 2ns.pdf used on input line 213.
 (pdftex.def)             Requested size: 277.82788pt x 208.3668pt.
 
-<Wakefields_and_Impedances/figures/low_q_10_resonance_beam_harmonics.pdf, id=89
-8, 578.16pt x 433.62pt>
+<Wakefields_and_Impedances/figures/low_q_10_resonance_beam_harmonics.pdf, id=90
+5, 578.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/low_q_10_resonance_beam_harmonics.pdf G
 raphic file (type pdf)
 
@@ -990,11 +1005,12 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/low_q_10_resonance_b
 eam_harmonics.pdf used on input line 235.
 (pdftex.def)             Requested size: 277.82788pt x 208.3668pt.
 
-[67 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/beam_spectra
-_power_12ns.pdf>] [68 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/fi
-gures/low_q_10_resonance_beam_harmonics.pdf>]
+[67 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
+/figures/beam_spectra_power_12ns.pdf>] [68 <C:/Users/hugo/Documents/GitHub/Thes
+is_the_second/Wakefields_and_Impedances/figures/low_q_10_resonance_beam_harmoni
+cs.pdf>]
 <Wakefields_and_Impedances/figures/high_q_1000_resonance_beam_harmonics.pdf, id
-=1019, 578.16pt x 433.62pt>
+=1028, 578.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/high_q_1000_resonance_beam_harmonics.pd
 f Graphic file (type pdf)
 
@@ -1003,10 +1019,10 @@ f Graphic file (type pdf)
 Package pdftex.def Info: Wakefields_and_Impedances/figures/high_q_1000_resonanc
 e_beam_harmonics.pdf used on input line 263.
 (pdftex.def)             Requested size: 277.82788pt x 208.3668pt.
- [69 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/high_q_1000
-_resonance_beam_harmonics.pdf>]
+ [69 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedance
+s/figures/high_q_1000_resonance_beam_harmonics.pdf>]
 <Wakefields_and_Impedances/figures/heating_narrowband_gauss_bunch_length.pdf, i
-d=1075, 578.16pt x 433.62pt>
+d=1085, 578.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/heating_narrowband_gauss_bunch_length.p
 df Graphic file (type pdf)
 
@@ -1015,10 +1031,10 @@ f>
 Package pdftex.def Info: Wakefields_and_Impedances/figures/heating_narrowband_g
 auss_bunch_length.pdf used on input line 299.
 (pdftex.def)             Requested size: 341.94652pt x 256.45554pt.
- [70] [71 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/heatin
-g_narrowband_gauss_bunch_length.pdf>]
+ [70] [71 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impe
+dances/figures/heating_narrowband_gauss_bunch_length.pdf>]
 <Wakefields_and_Impedances/figures/heating_narrowband_gausscos_bunch_length.pdf
-, id=1116, 578.16pt x 433.62pt>
+, id=1127, 578.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/heating_narrowband_gausscos_bunch_lengt
 h.pdf Graphic file (type pdf)
 
@@ -1028,7 +1044,7 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/heating_narrowband_g
 ausscos_bunch_length.pdf used on input line 314.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
-<Wakefields_and_Impedances/figures/impedance_and_power_cos_res.pdf, id=1117, 57
+<Wakefields_and_Impedances/figures/impedance_and_power_cos_res.pdf, id=1128, 57
 8.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/impedance_and_power_cos_res.pdf Graphic
  file (type pdf)
@@ -1044,7 +1060,7 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 314--319
 
 
 <Wakefields_and_Impedances/figures/heating_broadband_gausscos_bunch_length.pdf,
- id=1118, 578.16pt x 433.62pt>
+ id=1129, 578.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/heating_broadband_gausscos_bunch_length
 .pdf Graphic file (type pdf)
 
@@ -1055,7 +1071,7 @@ usscos_bunch_length.pdf used on input line 326.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
 <Wakefields_and_Impedances/figures/impedance_and_power_cos_res_broad.pdf, id=11
-19, 578.16pt x 433.62pt>
+30, 578.16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/impedance_and_power_cos_res_broad.pdf G
 raphic file (type pdf)
 
@@ -1068,15 +1084,16 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 326--331
 [][] [] 
  []
 
-[72 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/heating_narr
-owband_gausscos_bunch_length.pdf> <E:/GitHub/Thesis_the_second/Wakefields_and_I
-mpedances/figures/impedance_and_power_cos_res.pdf>] [73 <E:/GitHub/Thesis_the_s
-econd/Wakefields_and_Impedances/figures/heating_broadband_gausscos_bunch_length
-.pdf> <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/impedance_
-and_power_cos_res_broad.pdf>])
-(E:\GitHub\Thesis_the_second\Wakefields_and_Impedances/beam_instabilities.tex
-[74]
-<Wakefields_and_Impedances/figures/tune-spread-sc.png, id=1326, 296.60812pt x 3
+[72 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
+/figures/heating_narrowband_gausscos_bunch_length.pdf> <C:/Users/hugo/Documents
+/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/impedance_and_power
+_cos_res.pdf>] [73 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields
+_and_Impedances/figures/heating_broadband_gausscos_bunch_length.pdf> <C:/Users/
+hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/imped
+ance_and_power_cos_res_broad.pdf>])
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Wakefields_and_Impedances/bea
+m_instabilities.tex [74]
+<Wakefields_and_Impedances/figures/tune-spread-sc.png, id=1339, 296.60812pt x 3
 69.63094pt>
 File: Wakefields_and_Impedances/figures/tune-spread-sc.png Graphic file (type p
 ng)
@@ -1085,9 +1102,9 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/tune-spread-sc.png u
 sed on input line 32.
 (pdftex.def)             Requested size: 299.20076pt x 372.87871pt.
  [75]
-[76 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/tune-spread-
-sc.png>]
-<Wakefields_and_Impedances/figures/rms_bunch_length_AT_BT_BB.pdf, id=1334, 578.
+[76 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
+/figures/tune-spread-sc.png>]
+<Wakefields_and_Impedances/figures/rms_bunch_length_AT_BT_BB.pdf, id=1347, 578.
 16pt x 433.62pt>
 File: Wakefields_and_Impedances/figures/rms_bunch_length_AT_BT_BB.pdf Graphic f
 ile (type pdf)
@@ -1096,9 +1113,9 @@ ile (type pdf)
 Package pdftex.def Info: Wakefields_and_Impedances/figures/rms_bunch_length_AT_
 BT_BB.pdf used on input line 46.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
- [77 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/rms_bunch_l
-ength_AT_BT_BB.pdf>]
-<Wakefields_and_Impedances/figures/headtail-no-chromaticity.png, id=1394, 189.7
+ [77 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedance
+s/figures/rms_bunch_length_AT_BT_BB.pdf>]
+<Wakefields_and_Impedances/figures/headtail-no-chromaticity.png, id=1408, 189.7
 0876pt x 319.94531pt>
 File: Wakefields_and_Impedances/figures/headtail-no-chromaticity.png Graphic fi
 le (type png)
@@ -1108,7 +1125,7 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/headtail-no-chromati
 city.png used on input line 65.
 (pdftex.def)             Requested size: 128.23076pt x 216.2662pt.
 
-<Wakefields_and_Impedances/figures/headtail-with-chromaticity.png, id=1395, 188
+<Wakefields_and_Impedances/figures/headtail-with-chromaticity.png, id=1409, 188
 .95593pt x 320.69812pt>
 File: Wakefields_and_Impedances/figures/headtail-with-chromaticity.png Graphic 
 file (type png)
@@ -1118,21 +1135,24 @@ Package pdftex.def Info: Wakefields_and_Impedances/figures/headtail-with-chroma
 ticity.png used on input line 69.
 (pdftex.def)             Requested size: 128.23076pt x 217.6363pt.
  [78]
-[79 <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figures/headtail-no-
-chromaticity.png> <E:/GitHub/Thesis_the_second/Wakefields_and_Impedances/figure
-s/headtail-with-chromaticity.png>])
-(E:\GitHub\Thesis_the_second\Wakefields_and_Impedances/conclusion.tex) [80]
+[79 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Wakefields_and_Impedances
+/figures/headtail-no-chromaticity.png> <C:/Users/hugo/Documents/GitHub/Thesis_t
+he_second/Wakefields_and_Impedances/figures/headtail-with-chromaticity.png>])
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Wakefields_and_Impedances/con
+clusion.tex) [80]
 Chapter 3.
-(E:\GitHub\Thesis_the_second\beam_based_impedance_measurements.tex [81
 
-]
-[82] [83] [84] [85]) [86]
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\beam_based_impedance_measurem
+ents.tex [81
+
+] [82] [83] [84] [85]) [86]
 Chapter 4.
-(E:\GitHub\Thesis_the_second\Bench_Top_Measurements/impedance_measurement.tex
-[87
+
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Bench_Top_Measurements/impeda
+nce_measurement.tex [87
 
 ]
-<Bench_Top_Measurements/figures/coaxial-particle-fields.pdf, id=1428, 540.63982
+<Bench_Top_Measurements/figures/coaxial-particle-fields.pdf, id=1442, 540.63982
 pt x 341.53598pt>
 File: Bench_Top_Measurements/figures/coaxial-particle-fields.pdf Graphic file (
 type pdf)
@@ -1141,9 +1161,9 @@ type pdf)
 Package pdftex.def Info: Bench_Top_Measurements/figures/coaxial-particle-fields
 .pdf used on input line 15.
 (pdftex.def)             Requested size: 256.46152pt x 162.01239pt.
- [88 <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/coaxial-partic
-le-fields.pdf>]
-<Bench_Top_Measurements/figures/matching1Way.pdf, id=1456, 426.8748pt x 284.563
+ [88 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measurements/f
+igures/coaxial-particle-fields.pdf>]
+<Bench_Top_Measurements/figures/matching1Way.pdf, id=1470, 426.8748pt x 284.563
 13pt>
 File: Bench_Top_Measurements/figures/matching1Way.pdf Graphic file (type pdf)
  <use Bench_Top_Measurements/figures/matching1Way.pdf>
@@ -1151,7 +1171,7 @@ Package pdftex.def Info: Bench_Top_Measurements/figures/matching1Way.pdf used o
 n input line 46.
 (pdftex.def)             Requested size: 192.34288pt x 128.22156pt.
 
-<Bench_Top_Measurements/figures/matching2Way.pdf, id=1457, 426.8748pt x 284.563
+<Bench_Top_Measurements/figures/matching2Way.pdf, id=1471, 426.8748pt x 284.563
 13pt>
 File: Bench_Top_Measurements/figures/matching2Way.pdf Graphic file (type pdf)
  <use Bench_Top_Measurements/figures/matching2Way.pdf>
@@ -1159,7 +1179,7 @@ Package pdftex.def Info: Bench_Top_Measurements/figures/matching2Way.pdf used o
 n input line 50.
 (pdftex.def)             Requested size: 192.34288pt x 128.22156pt.
 
-<Bench_Top_Measurements/figures/wire_meas_single_wire.pdf, id=1458, 369.90193pt
+<Bench_Top_Measurements/figures/wire_meas_single_wire.pdf, id=1472, 369.90193pt
  x 284.56313pt>
 File: Bench_Top_Measurements/figures/wire_meas_single_wire.pdf Graphic file (ty
 pe pdf)
@@ -1168,7 +1188,7 @@ Package pdftex.def Info: Bench_Top_Measurements/figures/wire_meas_single_wire.p
 df used on input line 58.
 (pdftex.def)             Requested size: 256.46152pt x 197.30402pt.
 
-<Bench_Top_Measurements/figures/coax-matching-no-matching.png, id=1459, 770.88p
+<Bench_Top_Measurements/figures/coax-matching-no-matching.png, id=1473, 770.88p
 t x 557.08125pt>
 File: Bench_Top_Measurements/figures/coax-matching-no-matching.png Graphic file
  (type png)
@@ -1177,12 +1197,13 @@ File: Bench_Top_Measurements/figures/coax-matching-no-matching.png Graphic file
 Package pdftex.def Info: Bench_Top_Measurements/figures/coax-matching-no-matchi
 ng.png used on input line 66.
 (pdftex.def)             Requested size: 256.46152pt x 185.33344pt.
- [89 <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/matching1Way.p
-df> <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/matching2Way.pd
-f>] [90 <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/wire_meas_s
-ingle_wire.pdf> <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/coa
-x-matching-no-matching.png>] [91] [92]
-<Bench_Top_Measurements/figures/coax-resonator.png, id=1522, 770.88pt x 557.081
+ [89 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measurements/f
+igures/matching1Way.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Benc
+h_Top_Measurements/figures/matching2Way.pdf>] [90 <C:/Users/hugo/Documents/GitH
+ub/Thesis_the_second/Bench_Top_Measurements/figures/wire_meas_single_wire.pdf> 
+<C:/Users/hugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measurements/figure
+s/coax-matching-no-matching.png>] [91] [92]
+<Bench_Top_Measurements/figures/coax-resonator.png, id=1538, 770.88pt x 557.081
 25pt>
 File: Bench_Top_Measurements/figures/coax-resonator.png Graphic file (type png)
 
@@ -1190,10 +1211,9 @@ File: Bench_Top_Measurements/figures/coax-resonator.png Graphic file (type png)
 Package pdftex.def Info: Bench_Top_Measurements/figures/coax-resonator.png used
  on input line 153.
 (pdftex.def)             Requested size: 256.46152pt x 185.33344pt.
- [93] [94 <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/coax-reso
-nator.png>]
-[95]
-<Bench_Top_Measurements/figures/wire_meas_two_wire.pdf, id=1532, 369.90193pt x 
+ [93] [94 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measureme
+nts/figures/coax-resonator.png>] [95]
+<Bench_Top_Measurements/figures/wire_meas_two_wire.pdf, id=1548, 369.90193pt x 
 284.56313pt>
 File: Bench_Top_Measurements/figures/wire_meas_two_wire.pdf Graphic file (type 
 pdf)
@@ -1207,14 +1227,14 @@ Underfull \hbox (badness 1342) in paragraph at lines 245--245
 -lar beam cou-pling
  []
 
-[96] [97 <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/wire_meas_
-two_wire.pdf>] [98] [99] [100]
+[96] [97 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measuremen
+ts/figures/wire_meas_two_wire.pdf>] [98] [99] [100]
 Overfull \hbox (25.76985pt too wide) in paragraph at lines 380--380
 [] 
  []
 
 [101] [102] [103] [104]
-<Bench_Top_Measurements/figures/tsutsui-geometry.pdf, id=1589, 341.47577pt x 31
+<Bench_Top_Measurements/figures/tsutsui-geometry.pdf, id=1606, 341.47577pt x 31
 3.04956pt>
 File: Bench_Top_Measurements/figures/tsutsui-geometry.pdf Graphic file (type pd
 f)
@@ -1223,7 +1243,7 @@ Package pdftex.def Info: Bench_Top_Measurements/figures/tsutsui-geometry.pdf us
 ed on input line 458.
 (pdftex.def)             Requested size: 192.34288pt x 176.33354pt.
 
-<Bench_Top_Measurements/figures/zannini-model-geo.pdf, id=1590, 284.56313pt x 3
+<Bench_Top_Measurements/figures/zannini-model-geo.pdf, id=1607, 284.56313pt x 3
 69.90193pt>
 File: Bench_Top_Measurements/figures/zannini-model-geo.pdf Graphic file (type p
 df)
@@ -1232,7 +1252,7 @@ Package pdftex.def Info: Bench_Top_Measurements/figures/zannini-model-geo.pdf u
 sed on input line 462.
 (pdftex.def)             Requested size: 192.34288pt x 250.03426pt.
 
-<Bench_Top_Measurements/figures/4A4FerrMu.pdf, id=1591, 578.16pt x 433.62pt>
+<Bench_Top_Measurements/figures/4A4FerrMu.pdf, id=1608, 578.16pt x 433.62pt>
 File: Bench_Top_Measurements/figures/4A4FerrMu.pdf Graphic file (type pdf)
 
 <use Bench_Top_Measurements/figures/4A4FerrMu.pdf>
@@ -1241,7 +1261,7 @@ nput line 469.
 (pdftex.def)             Requested size: 256.46152pt x 192.34164pt.
 
 <Bench_Top_Measurements/figures/cross-section-coaxial-wire-measurements.png, id
-=1592, 919.18407pt x 401.24907pt>
+=1609, 919.18407pt x 401.24907pt>
 File: Bench_Top_Measurements/figures/cross-section-coaxial-wire-measurements.pn
 g Graphic file (type png)
 
@@ -1250,13 +1270,14 @@ g Graphic file (type png)
 Package pdftex.def Info: Bench_Top_Measurements/figures/cross-section-coaxial-w
 ire-measurements.png used on input line 477.
 (pdftex.def)             Requested size: 213.71576pt x 93.28943pt.
- [105 <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/tsutsui-geome
-try.pdf> <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/zannini-mo
-del-geo.pdf>] [106 <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/
-4A4FerrMu.pdf> <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/cros
-s-section-coaxial-wire-measurements.png>]
+ [105 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measurements/
+figures/tsutsui-geometry.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second
+/Bench_Top_Measurements/figures/zannini-model-geo.pdf>] [106 <C:/Users/hugo/Doc
+uments/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/4A4FerrMu.pdf> <
+C:/Users/hugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measurements/figures
+/cross-section-coaxial-wire-measurements.png>]
 <Bench_Top_Measurements/figures/wire_meas/ferrite_plates/longitudinal-horizonta
-l.pdf, id=1671, 578.16pt x 433.62pt>
+l.pdf, id=1690, 578.16pt x 433.62pt>
 File: Bench_Top_Measurements/figures/wire_meas/ferrite_plates/longitudinal-hori
 zontal.pdf Graphic file (type pdf)
 
@@ -1267,7 +1288,7 @@ s/longitudinal-horizontal.pdf used on input line 507.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
 <Bench_Top_Measurements/figures/wire_meas/ferrite_plates/longitudinal-vertical.
-pdf, id=1672, 596.2275pt x 440.84702pt>
+pdf, id=1691, 596.2275pt x 440.84702pt>
 File: Bench_Top_Measurements/figures/wire_meas/ferrite_plates/longitudinal-vert
 ical.pdf Graphic file (type pdf)
 
@@ -1283,7 +1304,7 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 507--512
 
 
 <Bench_Top_Measurements/figures/wire_meas/ferrite_plates/dipolar-horizontal.pdf
-, id=1673, 731.73375pt x 472.46513pt>
+, id=1692, 731.73375pt x 472.46513pt>
 File: Bench_Top_Measurements/figures/wire_meas/ferrite_plates/dipolar-horizonta
 l.pdf Graphic file (type pdf)
 
@@ -1294,7 +1315,7 @@ s/dipolar-horizontal.pdf used on input line 520.
 (pdftex.def)             Requested size: 213.71576pt x 137.99182pt.
 
 <Bench_Top_Measurements/figures/wire_meas/ferrite_plates/dipolar-vertical.pdf, 
-id=1674, 720.89326pt x 466.1415pt>
+id=1693, 720.89326pt x 466.1415pt>
 File: Bench_Top_Measurements/figures/wire_meas/ferrite_plates/dipolar-vertical.
 pdf Graphic file (type pdf)
 
@@ -1310,7 +1331,7 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 520--525
 
 
 <Bench_Top_Measurements/figures/wire_meas/ferrite_plates/quadrupolar-horizontal
-.pdf, id=1675, 749.80125pt x 475.17525pt>
+.pdf, id=1694, 749.80125pt x 475.17525pt>
 File: Bench_Top_Measurements/figures/wire_meas/ferrite_plates/quadrupolar-horiz
 ontal.pdf Graphic file (type pdf)
 
@@ -1321,7 +1342,7 @@ s/quadrupolar-horizontal.pdf used on input line 533.
 (pdftex.def)             Requested size: 213.71576pt x 135.4336pt.
 
 <Bench_Top_Measurements/figures/wire_meas/ferrite_plates/quadrupolar-vertical.p
-df, id=1676, 636.87938pt x 473.3685pt>
+df, id=1695, 636.87938pt x 473.3685pt>
 File: Bench_Top_Measurements/figures/wire_meas/ferrite_plates/quadrupolar-verti
 cal.pdf Graphic file (type pdf)
 
@@ -1335,17 +1356,19 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 533--538
 [][] [] 
  []
 
-[107] [108 <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/wire_mea
-s/ferrite_plates/longitudinal-horizontal.pdf> <E:/GitHub/Thesis_the_second/Benc
-h_Top_Measurements/figures/wire_meas/ferrite_plates/longitudinal-vertical.pdf> 
-<E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/wire_meas/ferrite_p
-lates/dipolar-horizontal.pdf> <E:/GitHub/Thesis_the_second/Bench_Top_Measuremen
-ts/figures/wire_meas/ferrite_plates/dipolar-vertical.pdf>] [109 <E:/GitHub/Thes
-is_the_second/Bench_Top_Measurements/figures/wire_meas/ferrite_plates/quadrupol
-ar-horizontal.pdf> <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/
-wire_meas/ferrite_plates/quadrupolar-vertical.pdf>] [110] [111]
+[107] [108 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measurem
+ents/figures/wire_meas/ferrite_plates/longitudinal-horizontal.pdf> <C:/Users/hu
+go/Documents/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/wire_meas/
+ferrite_plates/longitudinal-vertical.pdf> <C:/Users/hugo/Documents/GitHub/Thesi
+s_the_second/Bench_Top_Measurements/figures/wire_meas/ferrite_plates/dipolar-ho
+rizontal.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measu
+rements/figures/wire_meas/ferrite_plates/dipolar-vertical.pdf>] [109 <C:/Users/
+hugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/wire_mea
+s/ferrite_plates/quadrupolar-horizontal.pdf> <C:/Users/hugo/Documents/GitHub/Th
+esis_the_second/Bench_Top_Measurements/figures/wire_meas/ferrite_plates/quadrup
+olar-vertical.pdf>] [110] [111]
 <Bench_Top_Measurements/figures/wire_meas/graphite_plates/longitudinal-horizont
-al.pdf, id=2127, 588.09715pt x 437.2335pt>
+al.pdf, id=2148, 588.09715pt x 437.2335pt>
 File: Bench_Top_Measurements/figures/wire_meas/graphite_plates/longitudinal-hor
 izontal.pdf Graphic file (type pdf)
 
@@ -1356,7 +1379,7 @@ es/longitudinal-horizontal.pdf used on input line 592.
 (pdftex.def)             Requested size: 213.71576pt x 158.89171pt.
 
 <Bench_Top_Measurements/figures/wire_meas/graphite_plates/longitudinal-vertical
-.pdf, id=2128, 871.75688pt x 587.19376pt>
+.pdf, id=2149, 871.75688pt x 587.19376pt>
 File: Bench_Top_Measurements/figures/wire_meas/graphite_plates/longitudinal-ver
 tical.pdf Graphic file (type pdf)
 
@@ -1372,7 +1395,7 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 592--597
 
 
 <Bench_Top_Measurements/figures/wire_meas/graphite_plates/dipolar-horizontal.pd
-f, id=2129, 810.32736pt x 599.84097pt>
+f, id=2150, 810.32736pt x 599.84097pt>
 File: Bench_Top_Measurements/figures/wire_meas/graphite_plates/dipolar-horizont
 al.pdf Graphic file (type pdf)
 
@@ -1383,7 +1406,7 @@ es/dipolar-horizontal.pdf used on input line 605.
 (pdftex.def)             Requested size: 213.71576pt x 158.1974pt.
 
 <Bench_Top_Measurements/figures/wire_meas/graphite_plates/dipolar-vertical.pdf,
- id=2130, 956.6741pt x 620.6186pt>
+ id=2151, 956.6741pt x 620.6186pt>
 File: Bench_Top_Measurements/figures/wire_meas/graphite_plates/dipolar-vertical
 .pdf Graphic file (type pdf)
 
@@ -1399,7 +1422,7 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 605--610
 
 
 <Bench_Top_Measurements/figures/wire_meas/graphite_plates/quadrupolar-horizonta
-l.pdf, id=2131, 816.65097pt x 600.74437pt>
+l.pdf, id=2152, 816.65097pt x 600.74437pt>
 File: Bench_Top_Measurements/figures/wire_meas/graphite_plates/quadrupolar-hori
 zontal.pdf Graphic file (type pdf)
 
@@ -1408,16 +1431,17 @@ ontal.pdf>
 Package pdftex.def Info: Bench_Top_Measurements/figures/wire_meas/graphite_plat
 es/quadrupolar-horizontal.pdf used on input line 616.
 (pdftex.def)             Requested size: 320.57364pt x 235.82018pt.
- [112 <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/wire_meas/gra
-phite_plates/longitudinal-horizontal.pdf> <E:/GitHub/Thesis_the_second/Bench_To
-p_Measurements/figures/wire_meas/graphite_plates/longitudinal-vertical.pdf>] [1
-13 <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/wire_meas/graphi
-te_plates/dipolar-horizontal.pdf> <E:/GitHub/Thesis_the_second/Bench_Top_Measur
-ements/figures/wire_meas/graphite_plates/dipolar-vertical.pdf> <E:/GitHub/Thesi
-s_the_second/Bench_Top_Measurements/figures/wire_meas/graphite_plates/quadrupol
-ar-horizontal.pdf>] [114]
+ [112 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measurements/
+figures/wire_meas/graphite_plates/longitudinal-horizontal.pdf> <C:/Users/hugo/D
+ocuments/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/wire_meas/grap
+hite_plates/longitudinal-vertical.pdf>] [113 <C:/Users/hugo/Documents/GitHub/Th
+esis_the_second/Bench_Top_Measurements/figures/wire_meas/graphite_plates/dipola
+r-horizontal.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Bench_Top_M
+easurements/figures/wire_meas/graphite_plates/dipolar-vertical.pdf> <C:/Users/h
+ugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/wire_meas
+/graphite_plates/quadrupolar-horizontal.pdf>] [114]
 <Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/longitudinal-impedance
-.pdf, id=2526, 578.16pt x 433.62pt>
+.pdf, id=2549, 578.16pt x 433.62pt>
 File: Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/longitudinal-impe
 dance.pdf Graphic file (type pdf)
 
@@ -1428,7 +1452,7 @@ e/longitudinal-impedance.pdf used on input line 652.
 (pdftex.def)             Requested size: 199.47423pt x 149.60364pt.
 
 <Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/dipolar-vertical-imped
-ance.pdf, id=2527, 653.14014pt x 454.39764pt>
+ance.pdf, id=2550, 653.14014pt x 454.39764pt>
 File: Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/dipolar-vertical-
 impedance.pdf Graphic file (type pdf)
 
@@ -1439,7 +1463,7 @@ e/dipolar-vertical-impedance.pdf used on input line 656.
 (pdftex.def)             Requested size: 215.0386pt x 149.60364pt.
 
 <Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/quadrupolar-vertical-i
-mpedance.pdf, id=2528, 719.08652pt x 532.08784pt>
+mpedance.pdf, id=2551, 719.08652pt x 532.08784pt>
 File: Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/quadrupolar-verti
 cal-impedance.pdf Graphic file (type pdf)
 
@@ -1450,7 +1474,7 @@ e/quadrupolar-vertical-impedance.pdf used on input line 660.
 (pdftex.def)             Requested size: 202.17674pt x 149.60364pt.
 
 <Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/constant-vertical-impe
-dance.pdf, id=2529, 578.16pt x 433.62pt>
+dance.pdf, id=2552, 578.16pt x 433.62pt>
 File: Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/constant-vertical
 -impedance.pdf Graphic file (type pdf)
 
@@ -1464,20 +1488,21 @@ Overfull \hbox (1.36133pt too wide) in paragraph at lines 652--665
 [][] []
  []
 
-[115] [116 <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/wire_mea
-s/ferrite-c-core/longitudinal-impedance.pdf> <E:/GitHub/Thesis_the_second/Bench
-_Top_Measurements/figures/wire_meas/ferrite-c-core/dipolar-vertical-impedance.p
-df> <E:/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/wire_meas/ferri
-te-c-core/quadrupolar-vertical-impedance.pdf> <E:/GitHub/Thesis_the_second/Benc
-h_Top_Measurements/figures/wire_meas/ferrite-c-core/constant-vertical-impedance
-.pdf>] <figures/cavity_beampipe.pdf, id=2826, 569.12625pt x 455.30101pt>
+[115] [116 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Bench_Top_Measurem
+ents/figures/wire_meas/ferrite-c-core/longitudinal-impedance.pdf> <C:/Users/hug
+o/Documents/GitHub/Thesis_the_second/Bench_Top_Measurements/figures/wire_meas/f
+errite-c-core/dipolar-vertical-impedance.pdf> <C:/Users/hugo/Documents/GitHub/T
+hesis_the_second/Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/quadru
+polar-vertical-impedance.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second
+/Bench_Top_Measurements/figures/wire_meas/ferrite-c-core/constant-vertical-impe
+dance.pdf>] <figures/cavity_beampipe.pdf, id=2850, 569.12625pt x 455.30101pt>
 File: figures/cavity_beampipe.pdf Graphic file (type pdf)
 
 <use figures/cavity_beampipe.pdf>
 Package pdftex.def Info: figures/cavity_beampipe.pdf used on input line 689.
 (pdftex.def)             Requested size: 187.00461pt x 149.60364pt.
 
-<figures/cavity_beampipe_coaxial.pdf, id=2827, 711.37767pt x 455.30101pt>
+<figures/cavity_beampipe_coaxial.pdf, id=2851, 711.37767pt x 455.30101pt>
 File: figures/cavity_beampipe_coaxial.pdf Graphic file (type pdf)
 
 <use figures/cavity_beampipe_coaxial.pdf>
@@ -1490,7 +1515,7 @@ Overfull \hbox (7.59897pt too wide) in paragraph at lines 689--694
  []
 
 
-<Bench_Top_Measurements/figures/coax-trans-cavity.pdf, id=2828, 1621.55812pt x 
+<Bench_Top_Measurements/figures/coax-trans-cavity.pdf, id=2852, 1621.55812pt x 
 553.76889pt>
 File: Bench_Top_Measurements/figures/coax-trans-cavity.pdf Graphic file (type p
 df)
@@ -1503,10 +1528,12 @@ Overfull \hbox (42.74576pt too wide) in paragraph at lines 699--700
 [][] 
  []
 
-) (E:\GitHub\Thesis_the_second\Bench_Top_Measurements/conclusion.tex [117]
-[118 <E:/GitHub/Thesis_the_second/figures/cavity_beampipe.pdf> <E:/GitHub/Thesi
-s_the_second/figures/cavity_beampipe_coaxial.pdf> <E:/GitHub/Thesis_the_second/
-Bench_Top_Measurements/figures/coax-trans-cavity.pdf>])
+)
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Bench_Top_Measurements/conclu
+sion.tex [117] [118 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/figures/c
+avity_beampipe.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/figures/c
+avity_beampipe_coaxial.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/B
+ench_Top_Measurements/figures/coax-trans-cavity.pdf>])
 Overfull \hbox (13.17747pt too wide) in paragraph at lines 9--102
 []\T1/ptm/m/n/12 These meth-ods will be used ex-ten-sively in the eval-u-a-tion
  of the beam cou-pling impedance
@@ -1514,11 +1541,14 @@ Overfull \hbox (13.17747pt too wide) in paragraph at lines 9--102
 
 [119]
 Chapter 5.
-(E:\GitHub\Thesis_the_second\Computational_Simulations/introduction.tex)
-(E:\GitHub\Thesis_the_second\Computational_Simulations/time_domain.tex [120
+
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Computational_Simulations/int
+roduction.tex)
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Computational_Simulations/tim
+e_domain.tex [120
 
 ]
-<Computational_Simulations/figures/source-integration-pos.png, id=2906, 691.834
+<Computational_Simulations/figures/source-integration-pos.png, id=2931, 691.834
 69pt x 548.0475pt>
 File: Computational_Simulations/figures/source-integration-pos.png Graphic file
  (type png)
@@ -1528,7 +1558,7 @@ Package pdftex.def Info: Computational_Simulations/figures/source-integration-p
 os.png used on input line 23.
 (pdftex.def)             Requested size: 192.34288pt x 152.36511pt.
 
-<Computational_Simulations/figures/source-witness-signal.pdf, id=2907, 722.7pt 
+<Computational_Simulations/figures/source-witness-signal.pdf, id=2932, 722.7pt 
 x 426.8748pt>
 File: Computational_Simulations/figures/source-witness-signal.pdf Graphic file 
 (type pdf)
@@ -1538,21 +1568,23 @@ Package pdftex.def Info: Computational_Simulations/figures/source-witness-signa
 l.pdf used on input line 28.
 (pdftex.def)             Requested size: 361.82329pt x 213.71576pt.
  [121])
-(E:\GitHub\Thesis_the_second\Computational_Simulations/freq_domain.tex [122]
-[123 <E:/GitHub/Thesis_the_second/Computational_Simulations/figures/source-inte
-gration-pos.png> <E:/GitHub/Thesis_the_second/Computational_Simulations/figures
-/source-witness-signal.pdf>])
-(E:\GitHub\Thesis_the_second\Computational_Simulations/conclusion.tex) [124]
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Computational_Simulations/fre
+q_domain.tex [122] [123 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Compu
+tational_Simulations/figures/source-integration-pos.png> <C:/Users/hugo/Documen
+ts/GitHub/Thesis_the_second/Computational_Simulations/figures/source-witness-si
+gnal.pdf>])
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Computational_Simulations/con
+clusion.tex) [124]
 Chapter 6.
 
-(E:\GitHub\Thesis_the_second\Beam_Coupling_Impedance_Reduction_Techniques/intro
-duction.tex)
-(E:\GitHub\Thesis_the_second\Beam_Coupling_Impedance_Reduction_Techniques/step_
-ins.tex [125
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Beam_Coupling_Impedance_Reduc
+tion_Techniques/introduction.tex)
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Beam_Coupling_Impedance_Reduc
+tion_Techniques/step_ins.tex [125
 
 ]
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/stepTransitionTaper.png, 
-id=2933, 715.92468pt x 465.23813pt>
+id=2958, 715.92468pt x 465.23813pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/stepTransitionTaper.
 png Graphic file (type png)
 
@@ -1563,7 +1595,7 @@ tepTransitionTaper.png used on input line 13.
 (pdftex.def)             Requested size: 170.97pt x 111.0986pt.
 
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/impedanceTaper.pdf, id=29
-35, 578.16pt x 433.62pt>
+60, 578.16pt x 433.62pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/impedanceTaper.pdf G
 raphic file (type pdf)
 
@@ -1573,7 +1605,7 @@ mpedanceTaper.pdf used on input line 17.
 (pdftex.def)             Requested size: 277.82788pt x 208.3668pt.
 
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/impedanceTaperZn.pdf, id=
-2936, 631.4591pt x 486.01576pt>
+2961, 631.4591pt x 486.01576pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/impedanceTaperZn.pdf
  Graphic file (type pdf)
 
@@ -1585,9 +1617,9 @@ mpedanceTaperZn.pdf used on input line 21.
 LaTeX Warning: Float too large for page by 28.68936pt on input line 25.
 
 )
-(E:\GitHub\Thesis_the_second\Beam_Coupling_Impedance_Reduction_Techniques/trans
-itions.tex
-<Beam_Coupling_Impedance_Reduction_Techniques/figures/pimsImage.png, id=2937, 6
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Beam_Coupling_Impedance_Reduc
+tion_Techniques/transitions.tex
+<Beam_Coupling_Impedance_Reduction_Techniques/figures/pimsImage.png, id=2962, 6
 60.21657pt x 350.05782pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/pimsImage.png Graphi
 c file (type png)
@@ -1597,13 +1629,13 @@ Package pdftex.def Info: Beam_Coupling_Impedance_Reduction_Techniques/figures/p
 imsImage.png used on input line 8.
 (pdftex.def)             Requested size: 192.34288pt x 101.9842pt.
 
-[126] [127 <E:/GitHub/Thesis_the_second/Beam_Coupling_Impedance_Reduction_Techn
-iques/figures/stepTransitionTaper.png> <E:/GitHub/Thesis_the_second/Beam_Coupli
-ng_Impedance_Reduction_Techniques/figures/impedanceTaper.pdf> <E:/GitHub/Thesis
-_the_second/Beam_Coupling_Impedance_Reduction_Techniques/figures/impedanceTaper
-Zn.pdf>]
+[126] [127 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Beam_Coupling_Impe
+dance_Reduction_Techniques/figures/stepTransitionTaper.png> <C:/Users/hugo/Docu
+ments/GitHub/Thesis_the_second/Beam_Coupling_Impedance_Reduction_Techniques/fig
+ures/impedanceTaper.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Beam
+_Coupling_Impedance_Reduction_Techniques/figures/impedanceTaperZn.pdf>]
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/vmtsa-good-contact.png, i
-d=3059, 722.7pt x 540.51938pt>
+d=3084, 722.7pt x 540.51938pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/vmtsa-good-contact.p
 ng Graphic file (type png)
 
@@ -1614,7 +1646,7 @@ mtsa-good-contact.png used on input line 22.
 (pdftex.def)             Requested size: 192.34288pt x 143.85551pt.
 
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/vmtsa-bad-contact.png, id
-=3060, 722.7pt x 540.51938pt>
+=3085, 722.7pt x 540.51938pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/vmtsa-bad-contact.pn
 g Graphic file (type png)
 
@@ -1625,7 +1657,7 @@ mtsa-bad-contact.png used on input line 26.
 (pdftex.def)             Requested size: 192.34288pt x 143.85551pt.
 
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/vmtsa-impedance.png, id=3
-061, 421.575pt x 316.18124pt>
+086, 421.575pt x 316.18124pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/vmtsa-impedance.png 
 Graphic file (type png)
 
@@ -1634,19 +1666,20 @@ Package pdftex.def Info: Beam_Coupling_Impedance_Reduction_Techniques/figures/v
 mtsa-impedance.png used on input line 31.
 (pdftex.def)             Requested size: 299.20076pt x 224.40341pt.
 )
-(E:\GitHub\Thesis_the_second\Beam_Coupling_Impedance_Reduction_Techniques/condu
-ctive_coatings.tex [128 <E:/GitHub/Thesis_the_second/Beam_Coupling_Impedance_Re
-duction_Techniques/figures/pimsImage.png>] [129 <E:/GitHub/Thesis_the_second/Be
-am_Coupling_Impedance_Reduction_Techniques/figures/vmtsa-good-contact.png> <E:/
-GitHub/Thesis_the_second/Beam_Coupling_Impedance_Reduction_Techniques/figures/v
-mtsa-bad-contact.png> <E:/GitHub/Thesis_the_second/Beam_Coupling_Impedance_Redu
-ction_Techniques/figures/vmtsa-impedance.png>])
-(E:\GitHub\Thesis_the_second\Beam_Coupling_Impedance_Reduction_Techniques/beam_
-screens.tex [130] [131])
-(E:\GitHub\Thesis_the_second\Beam_Coupling_Impedance_Reduction_Techniques/serig
-raphy.tex [132]
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Beam_Coupling_Impedance_Reduc
+tion_Techniques/conductive_coatings.tex [128 <C:/Users/hugo/Documents/GitHub/Th
+esis_the_second/Beam_Coupling_Impedance_Reduction_Techniques/figures/pimsImage.
+png>] [129 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Beam_Coupling_Impe
+dance_Reduction_Techniques/figures/vmtsa-good-contact.png> <C:/Users/hugo/Docum
+ents/GitHub/Thesis_the_second/Beam_Coupling_Impedance_Reduction_Techniques/figu
+res/vmtsa-bad-contact.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Be
+am_Coupling_Impedance_Reduction_Techniques/figures/vmtsa-impedance.png>])
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Beam_Coupling_Impedance_Reduc
+tion_Techniques/beam_screens.tex [130] [131])
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Beam_Coupling_Impedance_Reduc
+tion_Techniques/serigraphy.tex [132]
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/mke-serigraphy-diagram.pn
-g, id=3077, 571.38469pt x 630.10406pt>
+g, id=3102, 571.38469pt x 630.10406pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/mke-serigraphy-diagr
 am.png Graphic file (type png)
 
@@ -1656,8 +1689,8 @@ Package pdftex.def Info: Beam_Coupling_Impedance_Reduction_Techniques/figures/m
 ke-serigraphy-diagram.png used on input line 13.
 (pdftex.def)             Requested size: 256.46152pt x 282.81349pt.
 
-<Beam_Coupling_Impedance_Reduction_Techniques/figures/mke-serigraphy.png, id=30
-78, 244.66406pt x 325.215pt>
+<Beam_Coupling_Impedance_Reduction_Techniques/figures/mke-serigraphy.png, id=31
+03, 244.66406pt x 325.215pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/mke-serigraphy.png G
 raphic file (type png)
 
@@ -1672,7 +1705,7 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 13--18
 
 
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/Printed_comparison_paper.
-jpg, id=3079, 1205.50375pt x 904.37875pt>
+jpg, id=3104, 1205.50375pt x 904.37875pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/Printed_comparison_p
 aper.jpg Graphic file (type jpg)
 
@@ -1682,9 +1715,9 @@ Package pdftex.def Info: Beam_Coupling_Impedance_Reduction_Techniques/figures/P
 rinted_comparison_paper.jpg used on input line 22.
 (pdftex.def)             Requested size: 256.46152pt x 192.39528pt.
 )
-(E:\GitHub\Thesis_the_second\Beam_Coupling_Impedance_Reduction_Techniques/dampi
-ng_materials.tex
-<Beam_Coupling_Impedance_Reduction_Techniques/figures/Ferrite8C11.pdf, id=3080,
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Beam_Coupling_Impedance_Reduc
+tion_Techniques/damping_materials.tex
+<Beam_Coupling_Impedance_Reduction_Techniques/figures/Ferrite8C11.pdf, id=3105,
  512.91624pt x 391.4625pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/Ferrite8C11.pdf Grap
 hic file (type pdf)
@@ -1695,16 +1728,17 @@ errite8C11.pdf used on input line 10.
 (pdftex.def)             Requested size: 256.46152pt x 195.73672pt.
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 21.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [133] [134 <E:/GitHub/Thesis_the_second/Beam_Coupling_Impedance_Reduction_Tec
-hniques/figures/mke-serigraphy-diagram.png> <E:/GitHub/Thesis_the_second/Beam_C
-oupling_Impedance_Reduction_Techniques/figures/mke-serigraphy.png> <E:/GitHub/T
-hesis_the_second/Beam_Coupling_Impedance_Reduction_Techniques/figures/Printed_c
-omparison_paper.jpg>] [135 <E:/GitHub/Thesis_the_second/Beam_Coupling_Impedance
-_Reduction_Techniques/figures/Ferrite8C11.pdf>] [136]
+) [133] [134 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Beam_Coupling_Im
+pedance_Reduction_Techniques/figures/mke-serigraphy-diagram.png> <C:/Users/hugo
+/Documents/GitHub/Thesis_the_second/Beam_Coupling_Impedance_Reduction_Technique
+s/figures/mke-serigraphy.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_second
+/Beam_Coupling_Impedance_Reduction_Techniques/figures/Printed_comparison_paper.
+jpg>] [135 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Beam_Coupling_Impe
+dance_Reduction_Techniques/figures/Ferrite8C11.pdf>] [136]
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/pillbox_cavity_ferr.pdf, 
-id=3102, 569.12625pt x 341.53598pt>
+id=3128, 569.12625pt x 341.53598pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/pillbox_cavity_ferr.
 pdf Graphic file (type pdf)
 
@@ -1715,7 +1749,7 @@ illbox_cavity_ferr.pdf used on input line 43.
 (pdftex.def)             Requested size: 277.82788pt x 166.73393pt.
 
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/pillbox_cavity_shielded_f
-err.pdf, id=3103, 569.12625pt x 341.53598pt>
+err.pdf, id=3129, 569.12625pt x 341.53598pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/pillbox_cavity_shiel
 ded_ferr.pdf Graphic file (type pdf)
 
@@ -1724,12 +1758,12 @@ ed_ferr.pdf>
 Package pdftex.def Info: Beam_Coupling_Impedance_Reduction_Techniques/figures/p
 illbox_cavity_shielded_ferr.pdf used on input line 48.
 (pdftex.def)             Requested size: 277.82788pt x 166.73393pt.
- [137] [138 <E:/GitHub/Thesis_the_second/Beam_Coupling_Impedance_Reduction_Tech
-niques/figures/pillbox_cavity_ferr.pdf> <E:/GitHub/Thesis_the_second/Beam_Coupl
-ing_Impedance_Reduction_Techniques/figures/pillbox_cavity_shielded_ferr.pdf>] [
-139] [140]
+ [137] [138 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Beam_Coupling_Imp
+edance_Reduction_Techniques/figures/pillbox_cavity_ferr.pdf> <C:/Users/hugo/Doc
+uments/GitHub/Thesis_the_second/Beam_Coupling_Impedance_Reduction_Techniques/fi
+gures/pillbox_cavity_shielded_ferr.pdf>] [139] [140]
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/no_screen_long_imp_all.pd
-f, id=3135, 578.16pt x 433.62pt>
+f, id=3162, 578.16pt x 433.62pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/no_screen_long_imp_a
 ll.pdf Graphic file (type pdf)
 
@@ -1740,7 +1774,7 @@ o_screen_long_imp_all.pdf used on input line 121.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
 
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/no_screen_loss_tan_vs_q.p
-df, id=3136, 603.45451pt x 452.59087pt>
+df, id=3163, 603.45451pt x 452.59087pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/no_screen_loss_tan_v
 s_q.pdf Graphic file (type pdf)
 
@@ -1751,7 +1785,7 @@ o_screen_loss_tan_vs_q.pdf used on input line 132.
 (pdftex.def)             Requested size: 256.46152pt x 192.34511pt.
 
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/no_screen_q_vs_loss_ferr.
-pdf, id=3137, 578.16pt x 433.62pt>
+pdf, id=3164, 578.16pt x 433.62pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/no_screen_q_vs_loss_
 ferr.pdf Graphic file (type pdf)
 
@@ -1762,7 +1796,7 @@ o_screen_q_vs_loss_ferr.pdf used on input line 136.
 (pdftex.def)             Requested size: 256.46152pt x 192.34164pt.
 
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/no_screen_loss_tan_vs_pow
-er.pdf, id=3138, 578.16pt x 433.62pt>
+er.pdf, id=3165, 578.16pt x 433.62pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/no_screen_loss_tan_v
 s_power.pdf Graphic file (type pdf)
 
@@ -1777,13 +1811,14 @@ Overfull \hbox (1.64558pt too wide) in paragraph at lines 150--151
  the beam cou-pling impedance
  []
 
-[141 <E:/GitHub/Thesis_the_second/Beam_Coupling_Impedance_Reduction_Techniques/
-figures/no_screen_long_imp_all.pdf>] [142 <E:/GitHub/Thesis_the_second/Beam_Cou
-pling_Impedance_Reduction_Techniques/figures/no_screen_loss_tan_vs_q.pdf> <E:/G
-itHub/Thesis_the_second/Beam_Coupling_Impedance_Reduction_Techniques/figures/no
-_screen_q_vs_loss_ferr.pdf>]
+[141 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Beam_Coupling_Impedance_
+Reduction_Techniques/figures/no_screen_long_imp_all.pdf>] [142 <C:/Users/hugo/D
+ocuments/GitHub/Thesis_the_second/Beam_Coupling_Impedance_Reduction_Techniques/
+figures/no_screen_loss_tan_vs_q.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the
+_second/Beam_Coupling_Impedance_Reduction_Techniques/figures/no_screen_q_vs_los
+s_ferr.pdf>]
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/screen_long_imp_all.pdf, 
-id=3259, 578.16pt x 433.62pt>
+id=3288, 578.16pt x 433.62pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/screen_long_imp_all.
 pdf Graphic file (type pdf)
 
@@ -1794,7 +1829,7 @@ creen_long_imp_all.pdf used on input line 156.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
 
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/screen_loss_tan_vs_q.pdf,
- id=3260, 578.16pt x 433.62pt>
+ id=3289, 578.16pt x 433.62pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/screen_loss_tan_vs_q
 .pdf Graphic file (type pdf)
 
@@ -1805,7 +1840,7 @@ creen_loss_tan_vs_q.pdf used on input line 168.
 (pdftex.def)             Requested size: 256.46152pt x 192.34164pt.
 
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/screen_q_vs_loss_ferr.pdf
-, id=3261, 578.16pt x 433.62pt>
+, id=3290, 578.16pt x 433.62pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/screen_q_vs_loss_fer
 r.pdf Graphic file (type pdf)
 
@@ -1816,7 +1851,7 @@ creen_q_vs_loss_ferr.pdf used on input line 172.
 (pdftex.def)             Requested size: 256.46152pt x 192.34164pt.
 
 <Beam_Coupling_Impedance_Reduction_Techniques/figures/screen_loss_tan_vs_power.
-pdf, id=3262, 578.16pt x 433.62pt>
+pdf, id=3291, 578.16pt x 433.62pt>
 File: Beam_Coupling_Impedance_Reduction_Techniques/figures/screen_loss_tan_vs_p
 ower.pdf Graphic file (type pdf)
 
@@ -1826,20 +1861,23 @@ Package pdftex.def Info: Beam_Coupling_Impedance_Reduction_Techniques/figures/s
 creen_loss_tan_vs_power.pdf used on input line 180.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
 )
-(E:\GitHub\Thesis_the_second\Beam_Coupling_Impedance_Reduction_Techniques/concl
-usion.tex [143 <E:/GitHub/Thesis_the_second/Beam_Coupling_Impedance_Reduction_T
-echniques/figures/no_screen_loss_tan_vs_power.pdf>] [144 <E:/GitHub/Thesis_the_
-second/Beam_Coupling_Impedance_Reduction_Techniques/figures/screen_long_imp_all
-.pdf>] [145 <E:/GitHub/Thesis_the_second/Beam_Coupling_Impedance_Reduction_Tech
-niques/figures/screen_loss_tan_vs_q.pdf> <E:/GitHub/Thesis_the_second/Beam_Coup
-ling_Impedance_Reduction_Techniques/figures/screen_q_vs_loss_ferr.pdf>])
-[146 <E:/GitHub/Thesis_the_second/Beam_Coupling_Impedance_Reduction_Techniques/
-figures/screen_loss_tan_vs_power.pdf>]
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Beam_Coupling_Impedance_Reduc
+tion_Techniques/conclusion.tex [143 <C:/Users/hugo/Documents/GitHub/Thesis_the_
+second/Beam_Coupling_Impedance_Reduction_Techniques/figures/no_screen_loss_tan_
+vs_power.pdf>] [144 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Beam_Coup
+ling_Impedance_Reduction_Techniques/figures/screen_long_imp_all.pdf>] [145 <C:/
+Users/hugo/Documents/GitHub/Thesis_the_second/Beam_Coupling_Impedance_Reduction
+_Techniques/figures/screen_loss_tan_vs_q.pdf> <C:/Users/hugo/Documents/GitHub/T
+hesis_the_second/Beam_Coupling_Impedance_Reduction_Techniques/figures/screen_q_
+vs_loss_ferr.pdf>]) [146 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/Beam
+_Coupling_Impedance_Reduction_Techniques/figures/screen_loss_tan_vs_power.pdf>]
 Chapter 7.
-(E:\GitHub\Thesis_the_second\LHC_Collimation_Upgrades/introduction.tex [147
+
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_Collimation_Upgrades/intr
+oduction.tex [147
 
 ]
-<LHC_Collimation_Upgrades/figures/collimationSchematic.pdf, id=3476, 1138.2525p
+<LHC_Collimation_Upgrades/figures/collimationSchematic.pdf, id=3509, 1138.2525p
 t x 542.025pt>
 File: LHC_Collimation_Upgrades/figures/collimationSchematic.pdf Graphic file (t
 ype pdf)
@@ -1848,7 +1886,7 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/collimationSchematic.
 pdf used on input line 26.
 (pdftex.def)             Requested size: 384.68576pt x 183.18607pt.
 
-<LHC_Collimation_Upgrades/figures/longitudinalRFFingers.pdf, id=3477, 626.0991p
+<LHC_Collimation_Upgrades/figures/longitudinalRFFingers.pdf, id=3510, 626.0991p
 t x 284.56313pt>
 File: LHC_Collimation_Upgrades/figures/longitudinalRFFingers.pdf Graphic file (
 type pdf)
@@ -1858,7 +1896,7 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/longitudinalRFFingers
 .pdf used on input line 39.
 (pdftex.def)             Requested size: 384.68576pt x 174.8381pt.
 
-<LHC_Collimation_Upgrades/figures/transverseRFFingers.pdf, id=3478, 540.63982pt
+<LHC_Collimation_Upgrades/figures/transverseRFFingers.pdf, id=3511, 540.63982pt
  x 284.56313pt>
 File: LHC_Collimation_Upgrades/figures/transverseRFFingers.pdf Graphic file (ty
 pe pdf)
@@ -1867,11 +1905,12 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/transverseRFFingers.p
 df used on input line 44.
 (pdftex.def)             Requested size: 384.68576pt x 202.47977pt.
 
-[148] [149 <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/collim
-ationSchematic.pdf>] [150 <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades
-/figures/longitudinalRFFingers.pdf> <E:/GitHub/Thesis_the_second/LHC_Collimatio
-n_Upgrades/figures/transverseRFFingers.pdf>]
-<LHC_Collimation_Upgrades/figures/cu-geo.jpg, id=3527, 722.7pt x 542.025pt>
+[148] [149 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_Up
+grades/figures/collimationSchematic.pdf>] [150 <C:/Users/hugo/Documents/GitHub/
+Thesis_the_second/LHC_Collimation_Upgrades/figures/longitudinalRFFingers.pdf> <
+C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figur
+es/transverseRFFingers.pdf>]
+<LHC_Collimation_Upgrades/figures/cu-geo.jpg, id=3560, 722.7pt x 542.025pt>
 File: LHC_Collimation_Upgrades/figures/cu-geo.jpg Graphic file (type jpg)
 
 <use LHC_Collimation_Upgrades/figures/cu-geo.jpg>
@@ -1879,10 +1918,10 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/cu-geo.jpg used on in
 put line 61.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
 )
-(E:\GitHub\Thesis_the_second\LHC_Collimation_Upgrades/phase_2_jaw_material.tex
-[151 <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/cu-geo.jpg>]
-[152]
-<LHC_Collimation_Upgrades/figures/mo-geo.png, id=3535, 302.63063pt x 376.40625p
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_Collimation_Upgrades/phas
+e_2_jaw_material.tex [151 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC
+_Collimation_Upgrades/figures/cu-geo.jpg>] [152]
+<LHC_Collimation_Upgrades/figures/mo-geo.png, id=3568, 302.63063pt x 376.40625p
 t>
 File: LHC_Collimation_Upgrades/figures/mo-geo.png Graphic file (type png)
  <use LHC_Collimation_Upgrades/figures/mo-geo.png>
@@ -1890,7 +1929,7 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/mo-geo.png used on in
 put line 37.
 (pdftex.def)             Requested size: 192.34288pt x 239.23355pt.
 
-<LHC_Collimation_Upgrades/figures/mo-mocd-geo.png, id=3536, 298.86656pt x 362.1
+<LHC_Collimation_Upgrades/figures/mo-mocd-geo.png, id=3569, 298.86656pt x 362.1
 0281pt>
 File: LHC_Collimation_Upgrades/figures/mo-mocd-geo.png Graphic file (type png)
  <use LHC_Collimation_Upgrades/figures/mo-mocd-geo.png>
@@ -1898,7 +1937,7 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/mo-mocd-geo.png used
 on input line 41.
 (pdftex.def)             Requested size: 192.34288pt x 233.04343pt.
 
-<LHC_Collimation_Upgrades/figures/mounet-model.pdf, id=3537, 722.7pt x 369.9019
+<LHC_Collimation_Upgrades/figures/mounet-model.pdf, id=3570, 722.7pt x 369.9019
 3pt>
 File: LHC_Collimation_Upgrades/figures/mounet-model.pdf Graphic file (type pdf)
 
@@ -1907,7 +1946,7 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/mounet-model.pdf used
  on input line 54.
 (pdftex.def)             Requested size: 363.31941pt x 185.96083pt.
 
-<LHC_Collimation_Upgrades/figures/longitudinal.pdf, id=3538, 774.19237pt x 545.
+<LHC_Collimation_Upgrades/figures/longitudinal.pdf, id=3571, 774.19237pt x 545.
 63847pt>
 File: LHC_Collimation_Upgrades/figures/longitudinal.pdf Graphic file (type pdf)
 
@@ -1916,7 +1955,7 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/longitudinal.pdf used
  on input line 65.
 (pdftex.def)             Requested size: 265.00546pt x 186.7718pt.
 
-<LHC_Collimation_Upgrades/figures/horizDipolar.pdf, id=3539, 757.02826pt x 487.
+<LHC_Collimation_Upgrades/figures/horizDipolar.pdf, id=3572, 757.02826pt x 487.
 8225pt>
 File: LHC_Collimation_Upgrades/figures/horizDipolar.pdf Graphic file (type pdf)
 
@@ -1925,7 +1964,7 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/horizDipolar.pdf used
  on input line 69.
 (pdftex.def)             Requested size: 265.00546pt x 170.7702pt.
 
-<LHC_Collimation_Upgrades/figures/vertDipolar.pdf, id=3540, 754.31813pt x 526.6
+<LHC_Collimation_Upgrades/figures/vertDipolar.pdf, id=3573, 754.31813pt x 526.6
 6763pt>
 File: LHC_Collimation_Upgrades/figures/vertDipolar.pdf Graphic file (type pdf)
  <use LHC_Collimation_Upgrades/figures/vertDipolar.pdf>
@@ -1937,7 +1976,7 @@ on input line 73.
 LaTeX Warning: Float too large for page by 23.45332pt on input line 76.
 
 
-<LHC_Collimation_Upgrades/figures/horizQuadrupolar.pdf, id=3541, 701.01903pt x 
+<LHC_Collimation_Upgrades/figures/horizQuadrupolar.pdf, id=3574, 701.01903pt x 
 472.46513pt>
 File: LHC_Collimation_Upgrades/figures/horizQuadrupolar.pdf Graphic file (type 
 pdf)
@@ -1946,7 +1985,7 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/horizQuadrupolar.pdf
 used on input line 82.
 (pdftex.def)             Requested size: 299.20076pt x 201.65652pt.
 
-<LHC_Collimation_Upgrades/figures/vertQuadrupolar.pdf, id=3542, 671.20764pt x 4
+<LHC_Collimation_Upgrades/figures/vertQuadrupolar.pdf, id=3575, 671.20764pt x 4
 85.11237pt>
 File: LHC_Collimation_Upgrades/figures/vertQuadrupolar.pdf Graphic file (type p
 df)
@@ -1955,16 +1994,18 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/vertQuadrupolar.pdf u
 sed on input line 86.
 (pdftex.def)             Requested size: 299.20076pt x 216.24812pt.
  [153]
-[154 <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/mo-geo.png> 
-<E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/mo-mocd-geo.png> 
-<E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/mounet-model.pdf>
-] [155 <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/longitudin
-al.pdf> <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/horizDipo
-lar.pdf> <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/vertDipo
-lar.pdf>] [156 <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/ho
-rizQuadrupolar.pdf> <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figur
-es/vertQuadrupolar.pdf>]
-<LHC_Collimation_Upgrades/figures/vertDipolarZoom.pdf, id=3948, 578.16pt x 433.
+[154 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_Upgrades
+/figures/mo-geo.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Coll
+imation_Upgrades/figures/mo-mocd-geo.png> <C:/Users/hugo/Documents/GitHub/Thesi
+s_the_second/LHC_Collimation_Upgrades/figures/mounet-model.pdf>] [155 <C:/Users
+/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/longi
+tudinal.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_
+Upgrades/figures/horizDipolar.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_s
+econd/LHC_Collimation_Upgrades/figures/vertDipolar.pdf>] [156 <C:/Users/hugo/Do
+cuments/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/horizQuadrupo
+lar.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_Upgr
+ades/figures/vertQuadrupolar.pdf>]
+<LHC_Collimation_Upgrades/figures/vertDipolarZoom.pdf, id=3984, 578.16pt x 433.
 62pt>
 File: LHC_Collimation_Upgrades/figures/vertDipolarZoom.pdf Graphic file (type p
 df)
@@ -1973,10 +2014,10 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/vertDipolarZoom.pdf u
 sed on input line 98.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
 )
-(E:\GitHub\Thesis_the_second\LHC_Collimation_Upgrades/tctp_collimator/introduct
-ion.tex [157 <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/vert
-DipolarZoom.pdf>]
-<LHC_Collimation_Upgrades/figures/ferrite_circuit.png, id=4025, 894.34125pt x 5
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_Collimation_Upgrades/tctp
+_collimator/introduction.tex [157 <C:/Users/hugo/Documents/GitHub/Thesis_the_se
+cond/LHC_Collimation_Upgrades/figures/vertDipolarZoom.pdf>]
+<LHC_Collimation_Upgrades/figures/ferrite_circuit.png, id=4062, 894.34125pt x 5
 90.95781pt>
 File: LHC_Collimation_Upgrades/figures/ferrite_circuit.png Graphic file (type p
 ng)
@@ -1985,19 +2026,19 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/ferrite_circuit.png u
 sed on input line 32.
 (pdftex.def)             Requested size: 192.34288pt x 127.08951pt.
 
-<LHC_Collimation_Upgrades/figures/rf-fingers.png, id=4026, 837.1275pt x 557.081
+<LHC_Collimation_Upgrades/figures/rf-fingers.png, id=4063, 837.1275pt x 557.081
 25pt>
 File: LHC_Collimation_Upgrades/figures/rf-fingers.png Graphic file (type png)
  <use LHC_Collimation_Upgrades/figures/rf-fingers.png>
 Package pdftex.def Info: LHC_Collimation_Upgrades/figures/rf-fingers.png used o
 n input line 36.
 (pdftex.def)             Requested size: 192.34288pt x 127.98997pt.
- [158] [159 <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/ferri
-te_circuit.png> <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/r
-f-fingers.png>])
-(E:\GitHub\Thesis_the_second\LHC_Collimation_Upgrades/tctp_collimator/impedance
-_simulation_results.tex
-<LHC_Collimation_Upgrades/figures/tctp-closed.png, id=4034, 134.00063pt x 168.6
+ [158] [159 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_U
+pgrades/figures/ferrite_circuit.png> <C:/Users/hugo/Documents/GitHub/Thesis_the
+_second/LHC_Collimation_Upgrades/figures/rf-fingers.png>])
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_Collimation_Upgrades/tctp
+_collimator/impedance_simulation_results.tex
+<LHC_Collimation_Upgrades/figures/tctp-closed.png, id=4071, 134.00063pt x 168.6
 3pt>
 File: LHC_Collimation_Upgrades/figures/tctp-closed.png Graphic file (type png)
  <use LHC_Collimation_Upgrades/figures/tctp-closed.png>
@@ -2005,7 +2046,7 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/tctp-closed.png used
 on input line 20.
 (pdftex.def)             Requested size: 128.23076pt x 161.36833pt.
 
-<LHC_Collimation_Upgrades/figures/tctp-ferrite.png, id=4035, 115.18031pt x 133.
+<LHC_Collimation_Upgrades/figures/tctp-ferrite.png, id=4072, 115.18031pt x 133.
 24782pt>
 File: LHC_Collimation_Upgrades/figures/tctp-ferrite.png Graphic file (type png)
 
@@ -2014,7 +2055,7 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/tctp-ferrite.png used
  on input line 24.
 (pdftex.def)             Requested size: 128.23076pt x 148.35411pt.
  [160]
-<LHC_Collimation_Upgrades/figures/impedance-tctp-time.pdf, id=4039, 784.12952pt
+<LHC_Collimation_Upgrades/figures/impedance-tctp-time.pdf, id=4076, 784.12952pt
  x 485.11237pt>
 File: LHC_Collimation_Upgrades/figures/impedance-tctp-time.pdf Graphic file (ty
 pe pdf)
@@ -2023,7 +2064,7 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/impedance-tctp-time.p
 df used on input line 38.
 (pdftex.def)             Requested size: 341.94652pt x 211.54773pt.
 
-<LHC_Collimation_Upgrades/figures/impedance-tctp-time-imag.pdf, id=4040, 578.16
+<LHC_Collimation_Upgrades/figures/impedance-tctp-time-imag.pdf, id=4077, 578.16
 pt x 433.62pt>
 File: LHC_Collimation_Upgrades/figures/impedance-tctp-time-imag.pdf Graphic fil
 e (type pdf)
@@ -2033,16 +2074,17 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/impedance-tctp-time-i
 mag.pdf used on input line 43.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
 )
-(E:\GitHub\Thesis_the_second\LHC_Collimation_Upgrades/tctp_collimator/transvers
-e_impedance_concerns.tex)
-(E:\GitHub\Thesis_the_second\LHC_Collimation_Upgrades/tctp_collimator/beam_indu
-ced_heating.tex [161 <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figu
-res/tctp-closed.png> <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figu
-res/tctp-ferrite.png>] [162 <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrad
-es/figures/impedance-tctp-time.pdf> <E:/GitHub/Thesis_the_second/LHC_Collimatio
-n_Upgrades/figures/impedance-tctp-time-imag.pdf>]
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_Collimation_Upgrades/tctp
+_collimator/transverse_impedance_concerns.tex)
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_Collimation_Upgrades/tctp
+_collimator/beam_induced_heating.tex [161 <C:/Users/hugo/Documents/GitHub/Thesi
+s_the_second/LHC_Collimation_Upgrades/figures/tctp-closed.png> <C:/Users/hugo/D
+ocuments/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/tctp-ferrite
+.png>] [162 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_U
+pgrades/figures/impedance-tctp-time.pdf> <C:/Users/hugo/Documents/GitHub/Thesis
+_the_second/LHC_Collimation_Upgrades/figures/impedance-tctp-time-imag.pdf>]
 <LHC_Collimation_Upgrades/figures/longitudinal-impedance-tctp-ferr-freq-dom.pdf
-, id=4176, 578.16pt x 433.62pt>
+, id=4214, 578.16pt x 433.62pt>
 File: LHC_Collimation_Upgrades/figures/longitudinal-impedance-tctp-ferr-freq-do
 m.pdf Graphic file (type pdf)
 
@@ -2051,9 +2093,10 @@ m.pdf Graphic file (type pdf)
 Package pdftex.def Info: LHC_Collimation_Upgrades/figures/longitudinal-impedanc
 e-tctp-ferr-freq-dom.pdf used on input line 17.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
- [163] [164 <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/longi
-tudinal-impedance-tctp-ferr-freq-dom.pdf>] [165] [166]
-<LHC_Collimation_Upgrades/figures/tctp-ferrite-heating.png, id=4245, 753.5653pt
+ [163] [164 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_U
+pgrades/figures/longitudinal-impedance-tctp-ferr-freq-dom.pdf>] [165]
+[166]
+<LHC_Collimation_Upgrades/figures/tctp-ferrite-heating.png, id=4284, 753.5653pt
  x 328.22626pt>
 File: LHC_Collimation_Upgrades/figures/tctp-ferrite-heating.png Graphic file (t
 ype png)
@@ -2063,7 +2106,7 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/tctp-ferrite-heating.
 png used on input line 124.
 (pdftex.def)             Requested size: 196.25581pt x 85.485pt.
 
-<LHC_Collimation_Upgrades/figures/tctp-rf-fingers-heating.png, id=4246, 618.811
+<LHC_Collimation_Upgrades/figures/tctp-rf-fingers-heating.png, id=4285, 618.811
 87pt x 334.24875pt>
 File: LHC_Collimation_Upgrades/figures/tctp-rf-fingers-heating.png Graphic file
  (type png)
@@ -2072,10 +2115,10 @@ File: LHC_Collimation_Upgrades/figures/tctp-rf-fingers-heating.png Graphic file
 Package pdftex.def Info: LHC_Collimation_Upgrades/figures/tctp-rf-fingers-heati
 ng.png used on input line 128.
 (pdftex.def)             Requested size: 158.26233pt x 85.485pt.
- [167 <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/tctp-ferrit
-e-heating.png> <E:/GitHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/tc
-tp-rf-fingers-heating.png>] [168]
-<LHC_Collimation_Upgrades/figures/temp_increase_tctp_col.png, id=4254, 640.6434
+ [167 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimation_Upgrade
+s/figures/tctp-ferrite-heating.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_
+second/LHC_Collimation_Upgrades/figures/tctp-rf-fingers-heating.png>] [168]
+<LHC_Collimation_Upgrades/figures/temp_increase_tctp_col.png, id=4293, 640.6434
 3pt x 421.575pt>
 File: LHC_Collimation_Upgrades/figures/temp_increase_tctp_col.png Graphic file 
 (type png)
@@ -2085,12 +2128,12 @@ Package pdftex.def Info: LHC_Collimation_Upgrades/figures/temp_increase_tctp_co
 l.png used on input line 167.
 (pdftex.def)             Requested size: 320.57364pt x 210.95422pt.
 )
-(E:\GitHub\Thesis_the_second\LHC_Collimation_Upgrades/conclusion.tex [169 <E:/G
-itHub/Thesis_the_second/LHC_Collimation_Upgrades/figures/temp_increase_tctp_col
-.png>]) [170]
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_Collimation_Upgrades/conc
+lusion.tex [169 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_Collimati
+on_Upgrades/figures/temp_increase_tctp_col.png>]) [170]
 Chapter 8.
-(E:\GitHub\Thesis_the_second\LHC_MKI/introduction.tex
-<LHC_MKI/figures/injection-system.png, id=4262, 922.94812pt x 474.27188pt>
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/introduction.tex
+<LHC_MKI/figures/injection-system.png, id=4301, 922.94812pt x 474.27188pt>
 File: LHC_MKI/figures/injection-system.png Graphic file (type png)
 
 <use LHC_MKI/figures/injection-system.png>
@@ -2099,8 +2142,9 @@ e 5.
 (pdftex.def)             Requested size: 256.46152pt x 131.78206pt.
  [171
 
- <E:/GitHub/Thesis_the_second/LHC_MKI/figures/injection-system.png>]
-<LHC_MKI/figures/injectionPointsLayout.jpg, id=4266, 722.7pt x 454.69875pt>
+ <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/injection-sy
+stem.png>]
+<LHC_MKI/figures/injectionPointsLayout.jpg, id=4305, 722.7pt x 454.69875pt>
 File: LHC_MKI/figures/injectionPointsLayout.jpg Graphic file (type jpg)
 
 <use LHC_MKI/figures/injectionPointsLayout.jpg>
@@ -2108,7 +2152,7 @@ Package pdftex.def Info: LHC_MKI/figures/injectionPointsLayout.jpg used on inpu
 t line 19.
 (pdftex.def)             Requested size: 427.43153pt x 268.92905pt.
 
-<LHC_MKI/figures/MKICrossSectionYZ.pdf, id=4267, 853.7496pt x 341.47577pt>
+<LHC_MKI/figures/MKICrossSectionYZ.pdf, id=4306, 853.7496pt x 341.47577pt>
 File: LHC_MKI/figures/MKICrossSectionYZ.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/MKICrossSectionYZ.pdf>
@@ -2120,7 +2164,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 30--31
  [] 
  []
 
-<LHC_MKI/figures/MKICrossSectionXY.jpg, id=4268, 722.7pt x 542.025pt>
+<LHC_MKI/figures/MKICrossSectionXY.jpg, id=4307, 722.7pt x 542.025pt>
 File: LHC_MKI/figures/MKICrossSectionXY.jpg Graphic file (type jpg)
 
 <use LHC_MKI/figures/MKICrossSectionXY.jpg>
@@ -2128,7 +2172,7 @@ Package pdftex.def Info: LHC_MKI/figures/MKICrossSectionXY.jpg used on input li
 ne 35.
 (pdftex.def)             Requested size: 277.82788pt x 208.37012pt.
 
-<LHC_MKI/figures/mki-out-vac-tank.png, id=4269, 722.7pt x 542.025pt>
+<LHC_MKI/figures/mki-out-vac-tank.png, id=4308, 722.7pt x 542.025pt>
 File: LHC_MKI/figures/mki-out-vac-tank.png Graphic file (type png)
 
 <use LHC_MKI/figures/mki-out-vac-tank.png>
@@ -2136,7 +2180,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-out-vac-tank.png used on input lin
 e 46.
 (pdftex.def)             Requested size: 227.96046pt x 170.97pt.
 
-<LHC_MKI/figures/mkiInTunnel.png, id=4270, 695.59875pt x 439.6425pt>
+<LHC_MKI/figures/mkiInTunnel.png, id=4309, 695.59875pt x 439.6425pt>
 File: LHC_MKI/figures/mkiInTunnel.png Graphic file (type png)
 
 <use LHC_MKI/figures/mkiInTunnel.png>
@@ -2144,18 +2188,20 @@ Package pdftex.def Info: LHC_MKI/figures/mkiInTunnel.png used on input line 50.
 
 (pdftex.def)             Requested size: 170.97pt x 108.05882pt.
 )
-(E:\GitHub\Thesis_the_second\LHC_MKI/observations_during_operation.tex
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/observations_during_o
+peration.tex
 Overfull \hbox (11.22397pt too wide) in paragraph at lines 4--5
 \T1/ptm/m/n/12 Concerns about the beam cou-pling impedance of the SPS ex-trac-t
 ion kicker mag-nets (MKEs),
  []
 
-[172] [173 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/injectionPointsLayout.j
-pg>] [174 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/MKICrossSectionYZ.pdf> <
-E:/GitHub/Thesis_the_second/LHC_MKI/figures/MKICrossSectionXY.jpg>] [175 <E:/Gi
-tHub/Thesis_the_second/LHC_MKI/figures/mki-out-vac-tank.png> <E:/GitHub/Thesis_
-the_second/LHC_MKI/figures/mkiInTunnel.png>]
-<LHC_MKI/figures/cross_section.pdf, id=4293, 369.90193pt x 398.38837pt>
+[172] [173 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/in
+jectionPointsLayout.jpg>] [174 <C:/Users/hugo/Documents/GitHub/Thesis_the_secon
+d/LHC_MKI/figures/MKICrossSectionYZ.pdf> <C:/Users/hugo/Documents/GitHub/Thesis
+_the_second/LHC_MKI/figures/MKICrossSectionXY.jpg>] [175 <C:/Users/hugo/Documen
+ts/GitHub/Thesis_the_second/LHC_MKI/figures/mki-out-vac-tank.png> <C:/Users/hug
+o/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mkiInTunnel.png>]
+<LHC_MKI/figures/cross_section.pdf, id=4332, 369.90193pt x 398.38837pt>
 File: LHC_MKI/figures/cross_section.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/cross_section.pdf>
@@ -2163,7 +2209,7 @@ Package pdftex.def Info: LHC_MKI/figures/cross_section.pdf used on input line 1
 6.
 (pdftex.def)             Requested size: 128.23076pt x 138.10672pt.
 
-<LHC_MKI/figures/beamScreenCapEnd.pdf, id=4294, 569.12625pt x 369.90193pt>
+<LHC_MKI/figures/beamScreenCapEnd.pdf, id=4333, 569.12625pt x 369.90193pt>
 File: LHC_MKI/figures/beamScreenCapEnd.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/beamScreenCapEnd.pdf>
@@ -2175,9 +2221,10 @@ Overfull \hbox (14.28001pt too wide) in paragraph at lines 16--21
 [][] [] 
  []
 
-[176] [177 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/cross_section.pdf> <E:/
-GitHub/Thesis_the_second/LHC_MKI/figures/beamScreenCapEnd.pdf>]
-<LHC_MKI/figures/mkipt2HeatingBefore.jpg, id=4319, 938.75719pt x 398.23781pt>
+[176] [177 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/cr
+oss_section.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figu
+res/beamScreenCapEnd.pdf>]
+<LHC_MKI/figures/mkipt2HeatingBefore.jpg, id=4359, 938.75719pt x 398.23781pt>
 File: LHC_MKI/figures/mkipt2HeatingBefore.jpg Graphic file (type jpg)
 
 <use LHC_MKI/figures/mkipt2HeatingBefore.jpg>
@@ -2185,7 +2232,7 @@ Package pdftex.def Info: LHC_MKI/figures/mkipt2HeatingBefore.jpg used on input
 line 37.
 (pdftex.def)             Requested size: 427.43153pt x 181.32pt.
 
-<LHC_MKI/figures/mkipt8HeatingBefore.jpg, id=4320, 910.15031pt x 398.23781pt>
+<LHC_MKI/figures/mkipt8HeatingBefore.jpg, id=4360, 910.15031pt x 398.23781pt>
 File: LHC_MKI/figures/mkipt8HeatingBefore.jpg Graphic file (type jpg)
 
 <use LHC_MKI/figures/mkipt8HeatingBefore.jpg>
@@ -2202,11 +2249,12 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 37--42
  [] 
  []
 
-[178] [179 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mkipt2HeatingBefore.jpg
-> <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mkipt8HeatingBefore.jpg>])
-(E:\GitHub\Thesis_the_second\LHC_MKI/comparisons_15_simulations_measurements.te
-x [180]
-<LHC_MKI/figures/mki-two-wires.png, id=4330, 1949.03156pt x 1019.30812pt>
+[178] [179 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mk
+ipt2HeatingBefore.jpg> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MK
+I/figures/mkipt8HeatingBefore.jpg>])
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/comparisons_15_simula
+tions_measurements.tex [180]
+<LHC_MKI/figures/mki-two-wires.png, id=4370, 1949.03156pt x 1019.30812pt>
 File: LHC_MKI/figures/mki-two-wires.png Graphic file (type png)
 
 <use LHC_MKI/figures/mki-two-wires.png>
@@ -2214,7 +2262,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-two-wires.png used on input line 1
 5.
 (pdftex.def)             Requested size: 213.71576pt x 111.76651pt.
 
-<LHC_MKI/figures/simulation-model-mki-15.png, id=4331, 463.7325pt x 167.87718pt
+<LHC_MKI/figures/simulation-model-mki-15.png, id=4371, 463.7325pt x 167.87718pt
 >
 File: LHC_MKI/figures/simulation-model-mki-15.png Graphic file (type png)
  <use LHC_MKI/figures/simulation-model-mki-15.png>
@@ -2222,7 +2270,7 @@ Package pdftex.def Info: LHC_MKI/figures/simulation-model-mki-15.png used on in
 put line 23.
 (pdftex.def)             Requested size: 213.71576pt x 77.36789pt.
  [181]
-<LHC_MKI/figures/mki_15_sims_meas_long.pdf, id=4336, 578.16pt x 433.62pt>
+<LHC_MKI/figures/mki_15_sims_meas_long.pdf, id=4376, 578.16pt x 433.62pt>
 File: LHC_MKI/figures/mki_15_sims_meas_long.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/mki_15_sims_meas_long.pdf>
@@ -2230,7 +2278,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki_15_sims_meas_long.pdf used on inpu
 t line 41.
 (pdftex.def)             Requested size: 341.94652pt x 256.45554pt.
 
-<LHC_MKI/figures/mki_15_sims_meas_dip_horz.pdf, id=4337, 578.16pt x 433.62pt>
+<LHC_MKI/figures/mki_15_sims_meas_dip_horz.pdf, id=4377, 578.16pt x 433.62pt>
 File: LHC_MKI/figures/mki_15_sims_meas_dip_horz.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/mki_15_sims_meas_dip_horz.pdf>
@@ -2238,7 +2286,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki_15_sims_meas_dip_horz.pdf used on
 input line 51.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
 
-<LHC_MKI/figures/mki_15_sims_meas_dip_vert.pdf, id=4338, 578.16pt x 433.62pt>
+<LHC_MKI/figures/mki_15_sims_meas_dip_vert.pdf, id=4378, 578.16pt x 433.62pt>
 File: LHC_MKI/figures/mki_15_sims_meas_dip_vert.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/mki_15_sims_meas_dip_vert.pdf>
@@ -2246,7 +2294,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki_15_sims_meas_dip_vert.pdf used on
 input line 55.
 (pdftex.def)             Requested size: 192.34288pt x 144.25293pt.
 
-<LHC_MKI/figures/mki_15_sims_meas_quad_horz.pdf, id=4339, 578.16pt x 433.62pt>
+<LHC_MKI/figures/mki_15_sims_meas_quad_horz.pdf, id=4379, 578.16pt x 433.62pt>
 File: LHC_MKI/figures/mki_15_sims_meas_quad_horz.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/mki_15_sims_meas_quad_horz.pdf>
@@ -2254,25 +2302,28 @@ Package pdftex.def Info: LHC_MKI/figures/mki_15_sims_meas_quad_horz.pdf used on
  input line 62.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
 
-<LHC_MKI/figures/mki_15_sims_meas_const.pdf, id=4340, 578.16pt x 433.62pt>
+<LHC_MKI/figures/mki_15_sims_meas_const.pdf, id=4380, 578.16pt x 433.62pt>
 File: LHC_MKI/figures/mki_15_sims_meas_const.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/mki_15_sims_meas_const.pdf>
 Package pdftex.def Info: LHC_MKI/figures/mki_15_sims_meas_const.pdf used on inp
 ut line 70.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
- [182 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-two-wires.png> <E:/GitHu
-b/Thesis_the_second/LHC_MKI/figures/simulation-model-mki-15.png>] [183 <E:/GitH
-ub/Thesis_the_second/LHC_MKI/figures/mki_15_sims_meas_long.pdf> <E:/GitHub/Thes
-is_the_second/LHC_MKI/figures/mki_15_sims_meas_dip_horz.pdf> <E:/GitHub/Thesis_
-the_second/LHC_MKI/figures/mki_15_sims_meas_dip_vert.pdf>] [184 <E:/GitHub/Thes
-is_the_second/LHC_MKI/figures/mki_15_sims_meas_quad_horz.pdf> <E:/GitHub/Thesis
-_the_second/LHC_MKI/figures/mki_15_sims_meas_const.pdf>] [185] [186])
-(E:\GitHub\Thesis_the_second\LHC_MKI/considerations_besides_impedance_for_new_d
-esigns.tex [187])
-(E:\GitHub\Thesis_the_second\LHC_MKI/measurements_observation_19_screen_conduct
-ors.tex [188] [189]
-<LHC_MKI/figures/mki8d-balls.jpg, id=4701, 569.12625pt x 341.02406pt>
+ [182 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki-two
+-wires.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/s
+imulation-model-mki-15.png>]
+[183 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki_15_s
+ims_meas_long.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/fi
+gures/mki_15_sims_meas_dip_horz.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the
+_second/LHC_MKI/figures/mki_15_sims_meas_dip_vert.pdf>] [184 <C:/Users/hugo/Doc
+uments/GitHub/Thesis_the_second/LHC_MKI/figures/mki_15_sims_meas_quad_horz.pdf>
+ <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki_15_sims_
+meas_const.pdf>] [185] [186])
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/considerations_beside
+s_impedance_for_new_designs.tex [187])
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/measurements_observat
+ion_19_screen_conductors.tex [188] [189]
+<LHC_MKI/figures/mki8d-balls.jpg, id=4743, 569.12625pt x 341.02406pt>
 File: LHC_MKI/figures/mki8d-balls.jpg Graphic file (type jpg)
 
 <use LHC_MKI/figures/mki8d-balls.jpg>
@@ -2280,7 +2331,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki8d-balls.jpg used on input line 16.
 
 (pdftex.def)             Requested size: 213.71576pt x 128.06062pt.
 
-<LHC_MKI/figures/15_19_sims_measured_comparison.pdf, id=4702, 578.16pt x 433.62
+<LHC_MKI/figures/15_19_sims_measured_comparison.pdf, id=4744, 578.16pt x 433.62
 pt>
 File: LHC_MKI/figures/15_19_sims_measured_comparison.pdf Graphic file (type pdf
 )
@@ -2288,9 +2339,10 @@ File: LHC_MKI/figures/15_19_sims_measured_comparison.pdf Graphic file (type pdf
 Package pdftex.def Info: LHC_MKI/figures/15_19_sims_measured_comparison.pdf use
 d on input line 26.
 (pdftex.def)             Requested size: 341.94652pt x 256.45554pt.
- [190 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki8d-balls.jpg>] [191 <E:/G
-itHub/Thesis_the_second/LHC_MKI/figures/15_19_sims_measured_comparison.pdf>]
-<LHC_MKI/figures/mki8-temps-post-ts3.png, id=4769, 705.38531pt x 408.02437pt>
+ [190 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki8d-b
+alls.jpg>] [191 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figur
+es/15_19_sims_measured_comparison.pdf>]
+<LHC_MKI/figures/mki8-temps-post-ts3.png, id=4812, 705.38531pt x 408.02437pt>
 File: LHC_MKI/figures/mki8-temps-post-ts3.png Graphic file (type png)
 
 <use LHC_MKI/figures/mki8-temps-post-ts3.png>
@@ -2298,10 +2350,10 @@ Package pdftex.def Info: LHC_MKI/figures/mki8-temps-post-ts3.png used on input
 line 53.
 (pdftex.def)             Requested size: 406.05864pt x 234.8799pt.
 )
-(E:\GitHub\Thesis_the_second\LHC_MKI/impedance_behaviour_components.tex
-[192] [193 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki8-temps-post-ts3.png
->]
-<LHC_MKI/figures/mki-buildup-ferrite.png, id=4777, 888.31876pt x 487.06969pt>
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/impedance_behaviour_c
+omponents.tex [192] [193 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_
+MKI/figures/mki8-temps-post-ts3.png>]
+<LHC_MKI/figures/mki-buildup-ferrite.png, id=4820, 888.31876pt x 487.06969pt>
 File: LHC_MKI/figures/mki-buildup-ferrite.png Graphic file (type png)
 
 <use LHC_MKI/figures/mki-buildup-ferrite.png>
@@ -2309,7 +2361,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-buildup-ferrite.png used on input
 line 22.
 (pdftex.def)             Requested size: 192.34288pt x 105.46114pt.
 
-<LHC_MKI/figures/mki-buildup-ferrite-ceramic.png, id=4778, 1224.07312pt x 481.0
+<LHC_MKI/figures/mki-buildup-ferrite-ceramic.png, id=4821, 1224.07312pt x 481.0
 4718pt>
 File: LHC_MKI/figures/mki-buildup-ferrite-ceramic.png Graphic file (type png)
  <use LHC_MKI/figures/mki-buildup-ferrite-ceramic.png>
@@ -2317,7 +2369,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-buildup-ferrite-ceramic.png used o
 n input line 26.
 (pdftex.def)             Requested size: 192.34288pt x 75.58182pt.
 
-<LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond.png, id=4779, 484.05844pt x 4
+<LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond.png, id=4822, 484.05844pt x 4
 15.5525pt>
 File: LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond.png Graphic file (type p
 ng)
@@ -2326,7 +2378,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond.png u
 sed on input line 30.
 (pdftex.def)             Requested size: 192.34288pt x 165.1211pt.
 
-<LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond-full.png, id=4780, 1202.24156
+<LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond-full.png, id=4823, 1202.24156
 pt x 250.68657pt>
 File: LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond-full.png Graphic file (t
 ype png)
@@ -2341,28 +2393,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--35
  []
 
 
-<LHC_MKI/figures/mki-build-up-real-imp.pdf, id=4781, 663.98062pt x 475.17525pt>
+<LHC_MKI/figures/mki-build-up-real-imp.pdf, id=4824, 663.98062pt x 475.17525pt>
 File: LHC_MKI/figures/mki-build-up-real-imp.pdf Graphic file (type pdf)
 <use LHC_MKI/figures/mki-build-up-real-imp.pdf>
 Package pdftex.def Info: LHC_MKI/figures/mki-build-up-real-imp.pdf used on inpu
 t line 44.
 (pdftex.def)             Requested size: 341.94652pt x 244.71436pt.
 
-<LHC_MKI/figures/mki-build-up-imag-imp.pdf, id=4782, 676.62785pt x 487.8225pt>
+<LHC_MKI/figures/mki-build-up-imag-imp.pdf, id=4825, 676.62785pt x 487.8225pt>
 File: LHC_MKI/figures/mki-build-up-imag-imp.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/mki-build-up-imag-imp.pdf>
 Package pdftex.def Info: LHC_MKI/figures/mki-build-up-imag-imp.pdf used on inpu
 t line 48.
 (pdftex.def)             Requested size: 341.94652pt x 246.52333pt.
- [194] [195 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-buildup-ferrite.pn
-g> <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-buildup-ferrite-ceramic.png
-> <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond
-.png> <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-buildup-ferrite-ceramic-
-cond-full.png>] [196 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-build-up-
-real-imp.pdf> <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-build-up-imag-im
-p.pdf>]
-<LHC_MKI/figures/15-screen-cond.pdf, id=4924, 369.90193pt x 398.38837pt>
+ [194] [195 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/m
+ki-buildup-ferrite.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_M
+KI/figures/mki-buildup-ferrite-ceramic.png> <C:/Users/hugo/Documents/GitHub/The
+sis_the_second/LHC_MKI/figures/mki-buildup-ferrite-ceramic-cond.png> <C:/Users/
+hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki-buildup-ferrite-cer
+amic-cond-full.png>] [196 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC
+_MKI/figures/mki-build-up-real-imp.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_
+the_second/LHC_MKI/figures/mki-build-up-imag-imp.pdf>]
+<LHC_MKI/figures/15-screen-cond.pdf, id=4968, 369.90193pt x 398.38837pt>
 File: LHC_MKI/figures/15-screen-cond.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/15-screen-cond.pdf>
@@ -2370,7 +2423,7 @@ Package pdftex.def Info: LHC_MKI/figures/15-screen-cond.pdf used on input line
 65.
 (pdftex.def)             Requested size: 128.23076pt x 138.10672pt.
 
-<LHC_MKI/figures/19-screen-cond.pdf, id=4925, 369.90193pt x 398.38837pt>
+<LHC_MKI/figures/19-screen-cond.pdf, id=4969, 369.90193pt x 398.38837pt>
 File: LHC_MKI/figures/19-screen-cond.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/19-screen-cond.pdf>
@@ -2378,7 +2431,7 @@ Package pdftex.def Info: LHC_MKI/figures/19-screen-cond.pdf used on input line
 69.
 (pdftex.def)             Requested size: 128.23076pt x 138.10672pt.
 
-<LHC_MKI/figures/24-screen-cond.pdf, id=4926, 369.90193pt x 398.38837pt>
+<LHC_MKI/figures/24-screen-cond.pdf, id=4970, 369.90193pt x 398.38837pt>
 File: LHC_MKI/figures/24-screen-cond.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/24-screen-cond.pdf>
@@ -2386,7 +2439,7 @@ Package pdftex.def Info: LHC_MKI/figures/24-screen-cond.pdf used on input line
 73.
 (pdftex.def)             Requested size: 128.23076pt x 138.10672pt.
 
-<LHC_MKI/figures/17-cond-alt.pdf, id=4927, 369.90193pt x 398.38837pt>
+<LHC_MKI/figures/17-cond-alt.pdf, id=4971, 369.90193pt x 398.38837pt>
 File: LHC_MKI/figures/17-cond-alt.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/17-cond-alt.pdf>
@@ -2394,7 +2447,7 @@ Package pdftex.def Info: LHC_MKI/figures/17-cond-alt.pdf used on input line 82.
 
 (pdftex.def)             Requested size: 192.34288pt x 207.15704pt.
 
-<LHC_MKI/figures/19-cond-alt.pdf, id=4928, 369.90193pt x 398.38837pt>
+<LHC_MKI/figures/19-cond-alt.pdf, id=4972, 369.90193pt x 398.38837pt>
 File: LHC_MKI/figures/19-cond-alt.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/19-cond-alt.pdf>
@@ -2402,7 +2455,7 @@ Package pdftex.def Info: LHC_MKI/figures/19-cond-alt.pdf used on input line 86.
 
 (pdftex.def)             Requested size: 192.34288pt x 207.15704pt.
 
-<LHC_MKI/figures/20-cond-alt.pdf, id=4929, 369.90193pt x 398.38837pt>
+<LHC_MKI/figures/20-cond-alt.pdf, id=4973, 369.90193pt x 398.38837pt>
 File: LHC_MKI/figures/20-cond-alt.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/20-cond-alt.pdf>
@@ -2410,7 +2463,7 @@ Package pdftex.def Info: LHC_MKI/figures/20-cond-alt.pdf used on input line 90.
 
 (pdftex.def)             Requested size: 192.34288pt x 207.15704pt.
 
-<LHC_MKI/figures/24-cond-alt.pdf, id=4930, 369.90193pt x 398.38837pt>
+<LHC_MKI/figures/24-cond-alt.pdf, id=4974, 369.90193pt x 398.38837pt>
 File: LHC_MKI/figures/24-cond-alt.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/24-cond-alt.pdf>
@@ -2423,7 +2476,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--95
  []
 
 
-<LHC_MKI/figures/mki-no-screen-conductors-real-impedance.pdf, id=4931, 578.16pt
+<LHC_MKI/figures/mki-no-screen-conductors-real-impedance.pdf, id=4975, 578.16pt
  x 433.62pt>
 File: LHC_MKI/figures/mki-no-screen-conductors-real-impedance.pdf Graphic file 
 (type pdf)
@@ -2432,7 +2485,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-no-screen-conductors-real-impedanc
 e.pdf used on input line 104.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
 
-<LHC_MKI/figures/mki-no-screen-conductors-imag-impedance.pdf, id=4932, 578.16pt
+<LHC_MKI/figures/mki-no-screen-conductors-imag-impedance.pdf, id=4976, 578.16pt
  x 433.62pt>
 File: LHC_MKI/figures/mki-no-screen-conductors-imag-impedance.pdf Graphic file 
 (type pdf)
@@ -2441,16 +2494,18 @@ Package pdftex.def Info: LHC_MKI/figures/mki-no-screen-conductors-imag-impedanc
 e.pdf used on input line 108.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
 
-[197 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/15-screen-cond.pdf> <E:/GitHu
-b/Thesis_the_second/LHC_MKI/figures/19-screen-cond.pdf> <E:/GitHub/Thesis_the_s
-econd/LHC_MKI/figures/24-screen-cond.pdf>] [198 <E:/GitHub/Thesis_the_second/LH
-C_MKI/figures/17-cond-alt.pdf> <E:/GitHub/Thesis_the_second/LHC_MKI/figures/19-
-cond-alt.pdf> <E:/GitHub/Thesis_the_second/LHC_MKI/figures/20-cond-alt.pdf> <E:
-/GitHub/Thesis_the_second/LHC_MKI/figures/24-cond-alt.pdf>] [199 <E:/GitHub/The
-sis_the_second/LHC_MKI/figures/mki-no-screen-conductors-real-impedance.pdf> <E:
-/GitHub/Thesis_the_second/LHC_MKI/figures/mki-no-screen-conductors-imag-impedan
-ce.pdf>] [200]
-<LHC_MKI/figures/cutDownModel.png, id=5134, 819.8128pt x 374.90062pt>
+[197 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/15-scree
+n-cond.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/1
+9-screen-cond.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/fi
+gures/24-screen-cond.pdf>] [198 <C:/Users/hugo/Documents/GitHub/Thesis_the_seco
+nd/LHC_MKI/figures/17-cond-alt.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_
+second/LHC_MKI/figures/19-cond-alt.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_
+the_second/LHC_MKI/figures/20-cond-alt.pdf> <C:/Users/hugo/Documents/GitHub/The
+sis_the_second/LHC_MKI/figures/24-cond-alt.pdf>] [199 <C:/Users/hugo/Documents/
+GitHub/Thesis_the_second/LHC_MKI/figures/mki-no-screen-conductors-real-impedanc
+e.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki-no
+-screen-conductors-imag-impedance.pdf>] [200]
+<LHC_MKI/figures/cutDownModel.png, id=5181, 819.8128pt x 374.90062pt>
 File: LHC_MKI/figures/cutDownModel.png Graphic file (type png)
 
 <use LHC_MKI/figures/cutDownModel.png>
@@ -2458,24 +2513,25 @@ Package pdftex.def Info: LHC_MKI/figures/cutDownModel.png used on input line 12
 4.
 (pdftex.def)             Requested size: 320.57364pt x 146.59964pt.
 
-<LHC_MKI/figures/meshLarge.png, id=5135, 1421.31pt x 558.58687pt>
+<LHC_MKI/figures/meshLarge.png, id=5182, 1421.31pt x 558.58687pt>
 File: LHC_MKI/figures/meshLarge.png Graphic file (type png)
 
 <use LHC_MKI/figures/meshLarge.png>
 Package pdftex.def Info: LHC_MKI/figures/meshLarge.png used on input line 135.
 (pdftex.def)             Requested size: 192.34288pt x 75.58496pt.
 
-<LHC_MKI/figures/meshCutDown.png, id=5136, 1413.78188pt x 502.87875pt>
+<LHC_MKI/figures/meshCutDown.png, id=5183, 1413.78188pt x 502.87875pt>
 File: LHC_MKI/figures/meshCutDown.png Graphic file (type png)
 
 <use LHC_MKI/figures/meshCutDown.png>
 Package pdftex.def Info: LHC_MKI/figures/meshCutDown.png used on input line 139
 .
 (pdftex.def)             Requested size: 192.34288pt x 68.41515pt.
- [201 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/cutDownModel.png> <E:/GitHub
-/Thesis_the_second/LHC_MKI/figures/meshLarge.png> <E:/GitHub/Thesis_the_second/
-LHC_MKI/figures/meshCutDown.png>]
-<LHC_MKI/figures/mki-overlap-len-real-imp.pdf, id=5140, 578.16pt x 433.62pt>
+ [201 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/cutDown
+Model.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/me
+shLarge.png> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/
+meshCutDown.png>]
+<LHC_MKI/figures/mki-overlap-len-real-imp.pdf, id=5187, 578.16pt x 433.62pt>
 File: LHC_MKI/figures/mki-overlap-len-real-imp.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/mki-overlap-len-real-imp.pdf>
@@ -2483,7 +2539,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-overlap-len-real-imp.pdf used on i
 nput line 159.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
 
-<LHC_MKI/figures/mki-overlap-len-real-imp-zoom.pdf, id=5141, 578.16pt x 433.62p
+<LHC_MKI/figures/mki-overlap-len-real-imp-zoom.pdf, id=5188, 578.16pt x 433.62p
 t>
 File: LHC_MKI/figures/mki-overlap-len-real-imp-zoom.pdf Graphic file (type pdf)
 
@@ -2492,18 +2548,18 @@ Package pdftex.def Info: LHC_MKI/figures/mki-overlap-len-real-imp-zoom.pdf used
  on input line 163.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
 
-<LHC_MKI/figures/mki-overlap-fres-100mm.pdf, id=5142, 578.16pt x 433.62pt>
+<LHC_MKI/figures/mki-overlap-fres-100mm.pdf, id=5189, 578.16pt x 433.62pt>
 File: LHC_MKI/figures/mki-overlap-fres-100mm.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/mki-overlap-fres-100mm.pdf>
 Package pdftex.def Info: LHC_MKI/figures/mki-overlap-fres-100mm.pdf used on inp
 ut line 171.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
- [202] [203 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-overlap-len-real-i
-mp.pdf> <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-overlap-len-real-imp-z
-oom.pdf>] [204 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-overlap-fres-10
-0mm.pdf>]
-<LHC_MKI/figures/mki-tube-thickness-real.pdf, id=5324, 578.16pt x 433.62pt>
+ [202] [203 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/m
+ki-overlap-len-real-imp.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/
+LHC_MKI/figures/mki-overlap-len-real-imp-zoom.pdf>] [204 <C:/Users/hugo/Documen
+ts/GitHub/Thesis_the_second/LHC_MKI/figures/mki-overlap-fres-100mm.pdf>]
+<LHC_MKI/figures/mki-tube-thickness-real.pdf, id=5373, 578.16pt x 433.62pt>
 File: LHC_MKI/figures/mki-tube-thickness-real.pdf Graphic file (type pdf)
 
 <use LHC_MKI/figures/mki-tube-thickness-real.pdf>
@@ -2511,10 +2567,10 @@ Package pdftex.def Info: LHC_MKI/figures/mki-tube-thickness-real.pdf used on in
 put line 199.
 (pdftex.def)             Requested size: 299.20076pt x 224.39859pt.
 )
-(E:\GitHub\Thesis_the_second\LHC_MKI/new_beam_screen_designs.tex [205] [206 <E:
-/GitHub/Thesis_the_second/LHC_MKI/figures/mki-tube-thickness-real.pdf>]
-[207]
-<LHC_MKI/figures/mki-design-layouts/alternating_screen_conductors.pdf, id=5393,
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/new_beam_screen_desig
+ns.tex [205] [206 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/fig
+ures/mki-tube-thickness-real.pdf>] [207]
+<LHC_MKI/figures/mki-design-layouts/alternating_screen_conductors.pdf, id=5443,
  569.12625pt x 398.38837pt>
 File: LHC_MKI/figures/mki-design-layouts/alternating_screen_conductors.pdf Grap
 hic file (type pdf)
@@ -2524,7 +2580,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-design-layouts/alternating_screen_
 conductors.pdf used on input line 19.
 (pdftex.def)             Requested size: 299.20076pt x 209.4488pt.
 
-<LHC_MKI/figures/mki-design-layouts/shortening_screen_conductors.pdf, id=5394, 
+<LHC_MKI/figures/mki-design-layouts/shortening_screen_conductors.pdf, id=5444, 
 569.12625pt x 369.90193pt>
 File: LHC_MKI/figures/mki-design-layouts/shortening_screen_conductors.pdf Graph
 ic file (type pdf)
@@ -2534,7 +2590,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-design-layouts/shortening_screen_c
 onductors.pdf used on input line 26.
 (pdftex.def)             Requested size: 299.20076pt x 194.47235pt.
 
-<LHC_MKI/figures/mki-design-layouts/combination_layout.pdf, id=5395, 569.12625p
+<LHC_MKI/figures/mki-design-layouts/combination_layout.pdf, id=5445, 569.12625p
 t x 455.30101pt>
 File: LHC_MKI/figures/mki-design-layouts/combination_layout.pdf Graphic file (t
 ype pdf)
@@ -2544,7 +2600,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-design-layouts/combination_layout.
 pdf used on input line 33.
 (pdftex.def)             Requested size: 299.20076pt x 239.37007pt.
 
-<LHC_MKI/figures/mki-design-layouts/enclosed_diagram.pdf, id=5396, 722.7pt x 39
+<LHC_MKI/figures/mki-design-layouts/enclosed_diagram.pdf, id=5446, 722.7pt x 39
 8.38837pt>
 File: LHC_MKI/figures/mki-design-layouts/enclosed_diagram.pdf Graphic file (typ
 e pdf)
@@ -2553,7 +2609,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-design-layouts/enclosed_diagram.pd
 f used on input line 41.
 (pdftex.def)             Requested size: 299.20076pt x 164.93295pt.
 
-<LHC_MKI/figures/mki-design-layouts/alternative_screen_design.pdf, id=5397, 569
+<LHC_MKI/figures/mki-design-layouts/alternative_screen_design.pdf, id=5447, 569
 .12625pt x 341.47577pt>
 File: LHC_MKI/figures/mki-design-layouts/alternative_screen_design.pdf Graphic 
 file (type pdf)
@@ -2564,7 +2620,7 @@ design.pdf used on input line 49.
 (pdftex.def)             Requested size: 299.20076pt x 179.52756pt.
 
 <LHC_MKI/figures/mki-design-layouts/alternating_screen_conductors_step_out_meta
-llisation.pdf, id=5398, 569.12625pt x 455.30101pt>
+llisation.pdf, id=5448, 569.12625pt x 455.30101pt>
 File: LHC_MKI/figures/mki-design-layouts/alternating_screen_conductors_step_out
 _metallisation.pdf Graphic file (type pdf)
 
@@ -2574,7 +2630,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-design-layouts/alternating_screen_
 conductors_step_out_metallisation.pdf used on input line 57.
 (pdftex.def)             Requested size: 299.20076pt x 239.37007pt.
 
-<LHC_MKI/figures/mki-design-layouts/mki-final-design.pdf, id=5399, 796.71652pt 
+<LHC_MKI/figures/mki-design-layouts/mki-final-design.pdf, id=5449, 796.71652pt 
 x 455.30101pt>
 File: LHC_MKI/figures/mki-design-layouts/mki-final-design.pdf Graphic file (typ
 e pdf)
@@ -2583,7 +2639,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-design-layouts/mki-final-design.pd
 f used on input line 65.
 (pdftex.def)             Requested size: 299.20076pt x 170.98756pt.
 
-<LHC_MKI/figures/mki-new-screen-designs-impedance-real.pdf, id=5400, 654.04347p
+<LHC_MKI/figures/mki-new-screen-designs-impedance-real.pdf, id=5450, 654.04347p
 t x 493.24274pt>
 File: LHC_MKI/figures/mki-new-screen-designs-impedance-real.pdf Graphic file (t
 ype pdf)
@@ -2593,7 +2649,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-new-screen-designs-impedance-real.
 pdf used on input line 78.
 (pdftex.def)             Requested size: 363.31941pt x 273.99379pt.
 
-<LHC_MKI/figures/mki-new-screen-designs-impedance-imag.pdf, id=5401, 665.78737p
+<LHC_MKI/figures/mki-new-screen-designs-impedance-imag.pdf, id=5451, 665.78737p
 t x 486.01576pt>
 File: LHC_MKI/figures/mki-new-screen-designs-impedance-imag.pdf Graphic file (t
 ype pdf)
@@ -2602,15 +2658,18 @@ ype pdf)
 Package pdftex.def Info: LHC_MKI/figures/mki-new-screen-designs-impedance-imag.
 pdf used on input line 82.
 (pdftex.def)             Requested size: 363.31941pt x 265.21819pt.
- [208] [209 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-design-layouts/alt
-ernating_screen_conductors.pdf> <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mk
-i-design-layouts/shortening_screen_conductors.pdf>] [210 <E:/GitHub/Thesis_the_
-second/LHC_MKI/figures/mki-design-layouts/combination_layout.pdf> <E:/GitHub/Th
-esis_the_second/LHC_MKI/figures/mki-design-layouts/enclosed_diagram.pdf>] [211 
-<E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-design-layouts/alternative_scr
-een_design.pdf> <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-design-layouts
-/alternating_screen_conductors_step_out_metallisation.pdf>]
-<LHC_MKI/figures/mki-new-designs-heating-25ns.pdf, id=5467, 653.14014pt x 486.0
+ [208] [209 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/m
+ki-design-layouts/alternating_screen_conductors.pdf> <C:/Users/hugo/Documents/G
+itHub/Thesis_the_second/LHC_MKI/figures/mki-design-layouts/shortening_screen_co
+nductors.pdf>]
+[210 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki-desi
+gn-layouts/combination_layout.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_s
+econd/LHC_MKI/figures/mki-design-layouts/enclosed_diagram.pdf>] [211 <C:/Users/
+hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki-design-layouts/alte
+rnative_screen_design.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LH
+C_MKI/figures/mki-design-layouts/alternating_screen_conductors_step_out_metalli
+sation.pdf>]
+<LHC_MKI/figures/mki-new-designs-heating-25ns.pdf, id=5519, 653.14014pt x 486.0
 1576pt>
 File: LHC_MKI/figures/mki-new-designs-heating-25ns.pdf Graphic file (type pdf)
  <use LHC_MKI/figures/mki-new-designs-heating-25ns.pdf>
@@ -2618,7 +2677,7 @@ Package pdftex.def Info: LHC_MKI/figures/mki-new-designs-heating-25ns.pdf used
 on input line 111.
 (pdftex.def)             Requested size: 299.20076pt x 222.64296pt.
 
-<LHC_MKI/figures/mki-new-designs-heating-50ns.pdf, id=5468, 664.88402pt x 473.3
+<LHC_MKI/figures/mki-new-designs-heating-50ns.pdf, id=5520, 664.88402pt x 473.3
 685pt>
 File: LHC_MKI/figures/mki-new-designs-heating-50ns.pdf Graphic file (type pdf)
  <use LHC_MKI/figures/mki-new-designs-heating-50ns.pdf>
@@ -2626,14 +2685,15 @@ Package pdftex.def Info: LHC_MKI/figures/mki-new-designs-heating-50ns.pdf used
 on input line 115.
 (pdftex.def)             Requested size: 299.20076pt x 213.01385pt.
 )
-(E:\GitHub\Thesis_the_second\LHC_MKI/plans_after_ls1.tex [212 <E:/GitHub/Thesis
-_the_second/LHC_MKI/figures/mki-design-layouts/mki-final-design.pdf>] [213 <E:/
-GitHub/Thesis_the_second/LHC_MKI/figures/mki-new-screen-designs-impedance-real.
-pdf> <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-new-screen-designs-impeda
-nce-imag.pdf>] [214 <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-new-design
-s-heating-25ns.pdf> <E:/GitHub/Thesis_the_second/LHC_MKI/figures/mki-new-design
-s-heating-50ns.pdf>]
-<LHC_MKI/figures/tempPowMarco.png, id=5724, 562.35094pt x 431.36156pt>
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/plans_after_ls1.tex
+[212 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki-desi
+gn-layouts/mki-final-design.pdf>] [213 <C:/Users/hugo/Documents/GitHub/Thesis_t
+he_second/LHC_MKI/figures/mki-new-screen-designs-impedance-real.pdf> <C:/Users/
+hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/mki-new-screen-designs-
+impedance-imag.pdf>] [214 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC
+_MKI/figures/mki-new-designs-heating-25ns.pdf> <C:/Users/hugo/Documents/GitHub/
+Thesis_the_second/LHC_MKI/figures/mki-new-designs-heating-50ns.pdf>]
+<LHC_MKI/figures/tempPowMarco.png, id=5779, 562.35094pt x 431.36156pt>
 File: LHC_MKI/figures/tempPowMarco.png Graphic file (type png)
 
 <use LHC_MKI/figures/tempPowMarco.png>
@@ -2641,69 +2701,73 @@ Package pdftex.def Info: LHC_MKI/figures/tempPowMarco.png used on input line 21
 .
 (pdftex.def)             Requested size: 341.94652pt x 262.29425pt.
 )
-(E:\GitHub\Thesis_the_second\LHC_MKI/conclusion.tex [215] [216 <E:/GitHub/Thesi
-s_the_second/LHC_MKI/figures/tempPowMarco.png>]) [217]
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\LHC_MKI/conclusion.tex
+[215] [216 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/LHC_MKI/figures/te
+mpPowMarco.png>]) [217]
 Chapter 9.
-(E:\GitHub\Thesis_the_second\Conclusions/conclusions.tex [218
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\Conclusions/conclusions.tex
+[218
 
-] [219])
-(E:\GitHub\Thesis_the_second\thesis.bbl [220]
-Underfull \hbox (badness 1389) in paragraph at lines 30--39
-\T1/ptm/m/n/12 O. Brun-ner, A. But-ter-worth, E. Cia-pala, F. Dubouchet, J. Est
-eban-Muller,
- []
-
-[221
+] [219]) (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.bbl
+[220] [221
 
 ]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 82.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 79--84
-\T1/ptm/m/n/12 Avail-able at \T1/pcr/m/n/12 http://emetral.web.cern.ch/emetral/
-LRFF/LRFF
- []
-
-[222]
-Underfull \hbox (badness 1430) in paragraph at lines 150--152
+Underfull \hbox (badness 1430) in paragraph at lines 83--85
 []\T1/ptm/m/n/12 C. Lourenco, ``Heavy Ion Col-li-sions at the LHC: the AL-ICE E
 x-per-i-ment.
  []
 
-[223] [224] [225]
-Underfull \hbox (badness 1048) in paragraph at lines 293--297
+[222] [223]
+Underfull \hbox (badness 1389) in paragraph at lines 167--176
+\T1/ptm/m/n/12 O. Brun-ner, A. But-ter-worth, E. Cia-pala, F. Dubouchet, J. Est
+eban-Muller,
+ []
+
+[224] [225]
+Underfull \hbox (badness 1048) in paragraph at lines 248--252
 []\T1/ptm/m/n/12 T. Ar-gy-ropou-los, T. Bohl, A. Burov, R. Calaga, L. Fic-ca-de
 nti, E. Me-tral,
  []
 
-[226] [227] [228]
-Underfull \hbox (badness 10000) in paragraph at lines 399--404
+[226]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 294.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [227]
+Underfull \hbox (badness 10000) in paragraph at lines 359--364
 \T1/ptm/m/n/12 Avail-able at \T1/pcr/m/n/12 http://emetral.web.cern.ch/emetral/
 LRFF/LRFF
  []
 
-[229]
-Overfull \hbox (7.92313pt too wide) in paragraph at lines 474--476
+[228] [229]
+Overfull \hbox (7.92313pt too wide) in paragraph at lines 444--446
 \T1/pcr/m/n/12 http://www.trans-techinc.com/products_detail.asp?ID=151\T1/ptm/m
 /n/12 .'' 
  []
 
-[230] [231] [232] [233]) [234]
-Appendix A.
-(E:\GitHub\Thesis_the_second\appendices/beamDynIntro.tex)
-(E:\GitHub\Thesis_the_second\appendices/longDynamics.tex [235
+[230] [231] [232] [233]
+Underfull \hbox (badness 10000) in paragraph at lines 617--622
+\T1/ptm/m/n/12 Avail-able at \T1/pcr/m/n/12 http://emetral.web.cern.ch/emetral/
+LRFF/LRFF
+ []
 
-] [236] [237]
-[238] <appendices/figures/longStab.png, id=5802, 957.5775pt x 487.06969pt>
+) [234]
+Appendix A.
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/beamDynIntro.tex)
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/longDynamics.tex
+[235
+
+] [236] [237] [238]
+<appendices/figures/longStab.png, id=5857, 957.5775pt x 487.06969pt>
 File: appendices/figures/longStab.png Graphic file (type png)
 
 <use appendices/figures/longStab.png>
 Package pdftex.def Info: appendices/figures/longStab.png used on input line 141
 .
 (pdftex.def)             Requested size: 320.57364pt x 163.05972pt.
- [239 <E:/GitHub/Thesis_the_second/appendices/figures/longStab.png>]
-<appendices/figures/longPhaseDiag.png, id=5807, 639.89063pt x 649.67719pt>
+ [239 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figures/long
+Stab.png>]
+<appendices/figures/longPhaseDiag.png, id=5862, 639.89063pt x 649.67719pt>
 File: appendices/figures/longPhaseDiag.png Graphic file (type png)
 
 <use appendices/figures/longPhaseDiag.png>
@@ -2711,41 +2775,46 @@ Package pdftex.def Info: appendices/figures/longPhaseDiag.png used on input lin
 e 159.
 (pdftex.def)             Requested size: 320.57364pt x 325.48215pt.
 )
-(E:\GitHub\Thesis_the_second\appendices/transDynamics.tex [240 <E:/GitHub/Thesi
-s_the_second/appendices/figures/longPhaseDiag.png>] [241] [242] [243] [244])
-[245]
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/transDynamics.tex
+[240] [241 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figures
+/longPhaseDiag.png>] [242] [243] [244]) [245] [246]
 Appendix B.
-(E:\GitHub\Thesis_the_second\appendices/vacEigenTable.tex [246
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/vacEigenTable.tex
+[247
 
-] [247] [248]
-[249] [250]) [251]
+] [248] [249] [250] [251]) [252]
 Appendix C.
-(E:\GitHub\Thesis_the_second\appendices/ferrEigenTable.tex [252
 
-] [253] [254])
-[255]
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/ferrEigenTable.tex
+[253
+
+] [254] [255]) [256]
 Appendix D.
-(E:\GitHub\Thesis_the_second\appendices/algorithmEigenModeCav.tex
-<appendices/figures/equiv-circuit.pdf, id=5859, 455.30101pt x 284.56313pt>
+
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/algorithmEigenMode
+Cav.tex
+<appendices/figures/equiv-circuit.pdf, id=5917, 455.30101pt x 284.56313pt>
 File: appendices/figures/equiv-circuit.pdf Graphic file (type pdf)
 
 <use appendices/figures/equiv-circuit.pdf>
 Package pdftex.def Info: appendices/figures/equiv-circuit.pdf used on input lin
 e 7.
 (pdftex.def)             Requested size: 256.46152pt x 160.29214pt.
- [256
+ [257
 
-] [257 <E:/GitHub/Thesis_the_second/appendices/figures/equiv-circuit.pdf>]
+] [258 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figures/equ
+iv-circuit.pdf>]
 Overfull \hbox (22.28206pt too wide) detected at line 65
 [][] \OT1/cmr/m/n/12 = [] = []\OML/cmm/m/it/12 :
  []
 
-) [258] [259]
+) [259] [260]
 Appendix E.
-(E:\GitHub\Thesis_the_second\appendices/ferriteProperties.tex [260
 
-]
-<appendices/figures/tt2111rPerm.pdf, id=5891, 578.16pt x 433.62pt>
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/ferriteProperties.
+tex [261
+
+] <appendices/figures/tt2111rPerm.pdf, id=5950, 578.16pt x 433.62pt>
 File: appendices/figures/tt2111rPerm.pdf Graphic file (type pdf)
 
 <use appendices/figures/tt2111rPerm.pdf>
@@ -2753,7 +2822,7 @@ Package pdftex.def Info: appendices/figures/tt2111rPerm.pdf used on input line
 43.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
-<appendices/figures/tt2111rPenDepth.pdf, id=5892, 578.16pt x 433.62pt>
+<appendices/figures/tt2111rPenDepth.pdf, id=5951, 578.16pt x 433.62pt>
 File: appendices/figures/tt2111rPenDepth.pdf Graphic file (type pdf)
 
 <use appendices/figures/tt2111rPenDepth.pdf>
@@ -2770,7 +2839,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--48
 
  []
 
-<appendices/figures/4s60Perm.pdf, id=5893, 578.16pt x 433.62pt>
+<appendices/figures/4s60Perm.pdf, id=5952, 578.16pt x 433.62pt>
 File: appendices/figures/4s60Perm.pdf Graphic file (type pdf)
 
 <use appendices/figures/4s60Perm.pdf>
@@ -2778,7 +2847,7 @@ Package pdftex.def Info: appendices/figures/4s60Perm.pdf used on input line 67.
 
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
-<appendices/figures/4s60PenDepth.pdf, id=5894, 578.16pt x 433.62pt>
+<appendices/figures/4s60PenDepth.pdf, id=5953, 578.16pt x 433.62pt>
 File: appendices/figures/4s60PenDepth.pdf Graphic file (type pdf)
 
 <use appendices/figures/4s60PenDepth.pdf>
@@ -2795,14 +2864,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--72
 
  []
 
-<appendices/figures/4a4Perm.pdf, id=5895, 578.16pt x 433.62pt>
+<appendices/figures/4a4Perm.pdf, id=5954, 578.16pt x 433.62pt>
 File: appendices/figures/4a4Perm.pdf Graphic file (type pdf)
 
 <use appendices/figures/4a4Perm.pdf>
 Package pdftex.def Info: appendices/figures/4a4Perm.pdf used on input line 91.
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
-<appendices/figures/4a4PenDepth.pdf, id=5896, 578.16pt x 433.62pt>
+<appendices/figures/4a4PenDepth.pdf, id=5955, 578.16pt x 433.62pt>
 File: appendices/figures/4a4PenDepth.pdf Graphic file (type pdf)
 
 <use appendices/figures/4a4PenDepth.pdf>
@@ -2819,7 +2888,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--96
 
  []
 
-<appendices/figures/4e2Perm.pdf, id=5897, 578.16pt x 433.62pt>
+<appendices/figures/4e2Perm.pdf, id=5956, 578.16pt x 433.62pt>
 File: appendices/figures/4e2Perm.pdf Graphic file (type pdf)
 
 <use appendices/figures/4e2Perm.pdf>
@@ -2827,7 +2896,7 @@ Package pdftex.def Info: appendices/figures/4e2Perm.pdf used on input line 115.
 
 (pdftex.def)             Requested size: 213.71576pt x 160.2847pt.
 
-<appendices/figures/4e2PenDepth.pdf, id=5898, 578.16pt x 433.62pt>
+<appendices/figures/4e2PenDepth.pdf, id=5957, 578.16pt x 433.62pt>
 File: appendices/figures/4e2PenDepth.pdf Graphic file (type pdf)
 
 <use appendices/figures/4e2PenDepth.pdf>
@@ -2844,45 +2913,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--120
 
  []
 
-) [261] [262 <E:/GitHub/Thesis_the_second/appendices/figures/tt2111rPerm.pdf> <
-E:/GitHub/Thesis_the_second/appendices/figures/tt2111rPenDepth.pdf> <E:/GitHub/
-Thesis_the_second/appendices/figures/4s60Perm.pdf> <E:/GitHub/Thesis_the_second
-/appendices/figures/4s60PenDepth.pdf>] [263 <E:/GitHub/Thesis_the_second/append
-ices/figures/4a4Perm.pdf> <E:/GitHub/Thesis_the_second/appendices/figures/4a4Pe
-nDepth.pdf> <E:/GitHub/Thesis_the_second/appendices/figures/4e2Perm.pdf> <E:/Gi
-tHub/Thesis_the_second/appendices/figures/4e2PenDepth.pdf>]
+) [262] [263 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figur
+es/tt2111rPerm.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendice
+s/figures/tt2111rPenDepth.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_secon
+d/appendices/figures/4s60Perm.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_s
+econd/appendices/figures/4s60PenDepth.pdf>] [264 <C:/Users/hugo/Documents/GitHu
+b/Thesis_the_second/appendices/figures/4a4Perm.pdf> <C:/Users/hugo/Documents/Gi
+tHub/Thesis_the_second/appendices/figures/4a4PenDepth.pdf> <C:/Users/hugo/Docum
+ents/GitHub/Thesis_the_second/appendices/figures/4e2Perm.pdf> <C:/Users/hugo/Do
+cuments/GitHub/Thesis_the_second/appendices/figures/4e2PenDepth.pdf>]
 Appendix F.
-(E:\GitHub\Thesis_the_second\appendices/heatTransferInVacuum.tex [264
 
-] [265]
-<appendices/figures/powTransRadSurEmis.png, id=6209, 618.05907pt x 444.15938pt>
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/heatTransferInVacu
+um.tex [265
+
+] [266]
+<appendices/figures/powTransRadSurEmis.png, id=6270, 618.05907pt x 444.15938pt>
 File: appendices/figures/powTransRadSurEmis.png Graphic file (type png)
 <use appendices/figures/powTransRadSurEmis.png>
 Package pdftex.def Info: appendices/figures/powTransRadSurEmis.png used on inpu
 t line 29.
 (pdftex.def)             Requested size: 235.08864pt x 168.94496pt.
 
-<appendices/figures/irTunnelling.png, id=6210, 524.71031pt x 475.7775pt>
+<appendices/figures/irTunnelling.png, id=6271, 524.71031pt x 475.7775pt>
 File: appendices/figures/irTunnelling.png Graphic file (type png)
 
 <use appendices/figures/irTunnelling.png>
 Package pdftex.def Info: appendices/figures/irTunnelling.png used on input line
  37.
 (pdftex.def)             Requested size: 235.08864pt x 213.16138pt.
-) [266 <E:/GitHub/Thesis_the_second/appendices/figures/powTransRadSurEmis.png>]
- [267 <E:/GitHub/Thesis_the_second/appendices/figures/irTunnelling.png>]
+) [267 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figures/pow
+TransRadSurEmis.png>] [268 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/ap
+pendices/figures/irTunnelling.png>]
 Appendix G.
-(E:\GitHub\Thesis_the_second\appendices/analyticalModels.tex
-<appendices/figures/tsutsui-geometry.pdf, id=6217, 341.47577pt x 313.04956pt>
+
+(C:\Users\hugo\Documents\GitHub\Thesis_the_second\appendices/analyticalModels.t
+ex
+<appendices/figures/tsutsui-geometry.pdf, id=6278, 341.47577pt x 313.04956pt>
 File: appendices/figures/tsutsui-geometry.pdf Graphic file (type pdf)
 
 <use appendices/figures/tsutsui-geometry.pdf>
 Package pdftex.def Info: appendices/figures/tsutsui-geometry.pdf used on input 
 line 9.
 (pdftex.def)             Requested size: 256.46152pt x 235.11618pt.
- [268
+ [269
 
-] [269 <E:/GitHub/Thesis_the_second/appendices/figures/tsutsui-geometry.pdf>]
+] [270 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figures/tsu
+tsui-geometry.pdf>]
 Overfull \hbox (73.45874pt too wide) detected at line 58
 \OML/cmm/m/it/12 T[] [] \OT1/cmr/m/n/12 = [][] \OML/cmm/m/it/12 ;
  []
@@ -2893,7 +2970,7 @@ Overfull \hbox (73.45874pt too wide) detected at line 62
  []
 
 
-<appendices/figures/zannini-model-geo.pdf, id=6241, 284.56313pt x 369.90193pt>
+<appendices/figures/zannini-model-geo.pdf, id=6303, 284.56313pt x 369.90193pt>
 File: appendices/figures/zannini-model-geo.pdf Graphic file (type pdf)
 
 <use appendices/figures/zannini-model-geo.pdf>
@@ -2906,45 +2983,45 @@ Overfull \hbox (4.4923pt too wide) in paragraph at lines 76--77
 igned to model the impedance
  []
 
-<appendices/figures/mounet-model.pdf, id=6242, 722.7pt x 369.90193pt>
+<appendices/figures/mounet-model.pdf, id=6304, 722.7pt x 369.90193pt>
 File: appendices/figures/mounet-model.pdf Graphic file (type pdf)
 
 <use appendices/figures/mounet-model.pdf>
 Package pdftex.def Info: appendices/figures/mounet-model.pdf used on input line
  84.
 (pdftex.def)             Requested size: 256.46152pt x 131.26248pt.
-) [270] [271 <E:/GitHub/Thesis_the_second/appendices/figures/zannini-model-geo.
-pdf> <E:/GitHub/Thesis_the_second/appendices/figures/mounet-model.pdf>] [272] (
-E:\GitHub\Thesis_the_second\thesis.aux) ) 
+) [271] [272 <C:/Users/hugo/Documents/GitHub/Thesis_the_second/appendices/figur
+es/zannini-model-geo.pdf> <C:/Users/hugo/Documents/GitHub/Thesis_the_second/app
+endices/figures/mounet-model.pdf>]
+[273] (C:\Users\hugo\Documents\GitHub\Thesis_the_second\thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 6927 strings out of 493921
- 153915 string characters out of 3144879
- 166668 words of memory out of 3000000
- 9754 multiletter control sequences out of 15000+200000
+ 6910 strings out of 494045
+ 155872 string characters out of 3148390
+ 202480 words of memory out of 3000000
+ 9736 multiletter control sequences out of 15000+200000
  51184 words of font info for 84 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 28i,19n,26p,2027b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (272 pages, 24162566 bytes).
+ 715 hyphenation exceptions out of 8191
+ 28i,19n,24p,2048b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Progra
+m Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/uc
+rr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (273 pages, 24167744 bytes).
 PDF statistics:
- 6355 PDF objects out of 7423 (max. 8388607)
+ 6418 PDF objects out of 7423 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  881 words of extra memory for PDF output out of 10000 (max. 10000000)
 

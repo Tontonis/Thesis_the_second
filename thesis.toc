@@ -111,24 +111,24 @@
 \contentsline {section}{\numberline {A.1}Longitudinal Beam Dynamics}{235}
 \contentsline {subsection}{\numberline {A.1.1}Longitudinal Equations of Motion}{237}
 \contentsline {subsection}{\numberline {A.1.2}RF Acceptance and Longitudinal Emittance}{239}
-\contentsline {section}{\numberline {A.2}Linear Transverse Dynamics}{241}
-\contentsline {subsubsection}{Off-Momentum Particles}{244}
-\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - No Ferrite}{246}
-\contentsline {chapter}{\numberline {C}TCTP Eigenmode Simulations - With Ferrite}{252}
-\contentsline {chapter}{\numberline {D}Cavity Parameters and the Calculation of Eigenmode Properties}{256}
-\contentsline {section}{\numberline {D.1}Longitudinal $R_{s}/Q$}{258}
-\contentsline {section}{\numberline {D.2}Transverse $R_{s}/Q$}{258}
-\contentsline {chapter}{\numberline {E}Ferrite Properties}{260}
-\contentsline {section}{\numberline {E.1}TT2-111R}{260}
-\contentsline {section}{\numberline {E.2}4S60}{261}
-\contentsline {section}{\numberline {E.3}4A4}{261}
-\contentsline {section}{\numberline {E.4}4E2}{261}
-\contentsline {chapter}{\numberline {F}Heat Transfer in Vacuum}{264}
-\contentsline {section}{\numberline {F.1}Convection}{264}
-\contentsline {section}{\numberline {F.2}Conduction}{265}
-\contentsline {section}{\numberline {F.3}Radiation}{265}
-\contentsline {subsection}{\numberline {F.3.1}Near-field radiation}{266}
-\contentsline {chapter}{\numberline {G}Analytical Models of Resistive Wall Impedance}{268}
-\contentsline {section}{\numberline {G.1}Tsutsui Model}{268}
-\contentsline {section}{\numberline {G.2}Zannini Model}{270}
-\contentsline {section}{\numberline {G.3}Mounet Model}{270}
+\contentsline {section}{\numberline {A.2}Linear Transverse Dynamics}{240}
+\contentsline {subsubsection}{Off-Momentum Particles}{245}
+\contentsline {chapter}{\numberline {B}TCTP Eigenmode Simulations - No Ferrite}{247}
+\contentsline {chapter}{\numberline {C}TCTP Eigenmode Simulations - With Ferrite}{253}
+\contentsline {chapter}{\numberline {D}Cavity Parameters and the Calculation of Eigenmode Properties}{257}
+\contentsline {section}{\numberline {D.1}Longitudinal $R_{s}/Q$}{259}
+\contentsline {section}{\numberline {D.2}Transverse $R_{s}/Q$}{259}
+\contentsline {chapter}{\numberline {E}Ferrite Properties}{261}
+\contentsline {section}{\numberline {E.1}TT2-111R}{261}
+\contentsline {section}{\numberline {E.2}4S60}{262}
+\contentsline {section}{\numberline {E.3}4A4}{262}
+\contentsline {section}{\numberline {E.4}4E2}{262}
+\contentsline {chapter}{\numberline {F}Heat Transfer in Vacuum}{265}
+\contentsline {section}{\numberline {F.1}Convection}{265}
+\contentsline {section}{\numberline {F.2}Conduction}{266}
+\contentsline {section}{\numberline {F.3}Radiation}{266}
+\contentsline {subsection}{\numberline {F.3.1}Near-field radiation}{267}
+\contentsline {chapter}{\numberline {G}Analytical Models of Resistive Wall Impedance}{269}
+\contentsline {section}{\numberline {G.1}Tsutsui Model}{269}
+\contentsline {section}{\numberline {G.2}Zannini Model}{271}
+\contentsline {section}{\numberline {G.3}Mounet Model}{271}

@@ -122,7 +122,7 @@
 No portion of the work referred to in this thesis has been submitted in support of an application for another degree or qualification of this or any other university or other institute of learning.
 
 \vspace*{2.5cm}
-\noindent Hugo Day\\
+\noindent Hugo Alistair Day\\
 School of Physics and Astronomy\\
 University of Manchester\\
 Oxford Road\\
