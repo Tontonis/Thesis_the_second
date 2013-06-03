@@ -153,7 +153,7 @@ Further information on the conditions under which disclosure, publication and co
   \newpage
   \tableofcontents
   \begin{center}
-    {\it Total word count: 37123}
+    {\it Total word count: 37418}
   \end{center}
   \newpage
   \iftablespage
