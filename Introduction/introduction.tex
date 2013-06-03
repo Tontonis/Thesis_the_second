@@ -26,6 +26,7 @@ where $\frac{dR}{dt}$ is the interaction rate. For two colliding bunches, each w
 
 \begin{equation}
 \mathcal{L} = \frac{N_{1} N_{2} f_{rev} n_{b}}{4 \pi \sigma_{x} \sigma_{y}}
+\label{eqn:LumiBeamPara}
 \end{equation}
 
 where. Bunch populations $N_{1/2}$, the revolution frequency $f_{rev}$ and the number of bunches $n_{b}$ also contribute towards the DC beam current in the machine $I_{b} = N_{1} f_{rev} e n_{b}$. As will be seen in Sec.~\ref{sec:beam_induced_heating} the expected power loss due to beam-equipment interactions is proportional to the $I_{b}^{2}$, thus it can be seen that increasing the luminosity will increase the power loss experienced by equipment in a linear to quadratic fashion (the non-quadratic behaviour being due to other effects on the heating mechanism due to the changing beam current, explained more in Sec.~\ref{sec:beam_induced_heating}).
@@ -87,6 +88,16 @@ F_{\parallel} &= qE \\
 \end{align}
 
 Subsequently the transverse and longitudinal motion may both be treated independently of one another. This is discussed in detail in App.~\ref{app:BeamDyn}.
+
+\subsection{Transverse Beam Emittance}
+
+In this section we shall briefly discuss the role of transverse beam emittance in determining luminousity at a collision point. The transverse beam emittance $\epsilon$ is related to the transverse offset $x$ and the beta function of a particle, $\beta (s)$, by 
+
+\begin{equation}
+x \left( s \right) = \sqrt{\epsilon} \sqrt{\beta \left( s \right) } cos \left( \psi \left( s \right) + \phi \right),
+\end{equation}
+
+explained in more detail in App.~\ref{app:BeamDyn}. $phi$ is an integration constant, $psi$ the phase advance of the oscillation and $s$ the distance around the ideal circular path. $\epsilon$ can be shown to be a constant of integration for a given starting area in phase space, in this case a property of the starting conditions of the bunch. $\beta (s)$ can be shown to be a function solely of the machine, thereby showing that to maximise the luminousity at an interaction point for a given machine setting (i.e. $\beta(s_{IP}) = constant$) it is necessary to have an injector chain that produces bunches with a low emittance, and can preserve the low emittance during acceleration and transfer so as to have the optimal value of $\sigma_{x/y}$ at the collision point such that Eqn.~\ref{eqn:LumiBeamPara} is ideal for the experimental conditions. Emittance dilution may occur due to transfer procedures (extraction/injection of the beam between machines and transfer lines) and due to beam instabilities (space charge, wakefields, IBS etc.) making the characterisation of equipment throughout the accelerator chain key in permitting the exploitation of the full range of possible collision parameters.
 
 \section{Structure of Thesis}
 
